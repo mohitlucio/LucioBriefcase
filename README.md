@@ -2,7 +2,7 @@
 
 A zero-dependency Python automation tool that scrapes **93 regulatory document sources** across **15+ Indian and international regulators** in real time, and displays them in a live web dashboard.
 
-> **[Live Demo →](https://mohitsharma.github.io/LucioBriefcase/)**
+> **[Live Demo →](https://mohitlucio.github.io/LucioBriefcase/)**
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue?logo=python&logoColor=white)
 ![Sources](https://img.shields.io/badge/sources-93-green)
