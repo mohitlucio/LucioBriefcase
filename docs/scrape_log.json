@@ -1,10 +1,10 @@
 {
-  "started_at": "2026-03-15 17:23:44 UTC",
-  "finished_at": "2026-03-15 17:23:44 UTC",
-  "duration_seconds": 0,
+  "started_at": "2026-03-15 17:50:32 UTC",
+  "finished_at": "2026-03-15 17:59:52 UTC",
+  "duration_seconds": 559.8,
   "date_range": {
-    "from_iso": "2026-03-01",
-    "to_iso": "2026-03-31"
+    "from": "2026-03-01",
+    "to": "2026-03-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
@@ -14,7 +14,6 @@
   "total_documents": 222,
   "docs_with_pdf": 199,
   "docs_without_pdf": 23,
-  "partial_scrape": false,
   "source_details": [
     {
       "key": "RHP",
@@ -1398,31 +1397,22 @@
           "id": "hr_reat_H-REAT-1577-2025_0"
         },
         {
-          "title": "H-REAT-1321-2025 — Neeru Singh and Prakash Chand Jat vs BPTP LIMITED",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3ODgz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-1321-2025_1"
-        },
-        {
           "title": "H-REAT-1241-2025 — Vardhman Jain vs MTHREEM INDIA PRIVATE LIMITED",
           "date": "11 Mar 2026",
           "date_iso": "2026-03-11",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3ODgw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1241-2025_2"
+          "id": "hr_reat_H-REAT-1241-2025_1"
         },
         {
-          "title": "H-REAT-1341-2025 — SPLENDOR BUILDWELL PVT LTD vs DANISH AHMED",
-          "date": "10 Mar 2026",
-          "date_iso": "2026-03-10",
+          "title": "H-REAT-1321-2025 — Neeru Singh and Prakash Chand Jat vs BPTP LIMITED",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3Mjk2",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3ODgz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1341-2025_3"
+          "id": "hr_reat_H-REAT-1321-2025_2"
         },
         {
           "title": "H-REAT-1342-2025 — SPLENDOR BUILDWELL PVT LTD vs SUSHILA TIWARI",
@@ -1431,16 +1421,25 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3Mjk3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1342-2025_4"
+          "id": "hr_reat_H-REAT-1342-2025_3"
         },
         {
-          "title": "H-REAT-716-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA PVT LTD",
+          "title": "H-REAT-1341-2025 — SPLENDOR BUILDWELL PVT LTD vs DANISH AHMED",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3Mjk2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1341-2025_4"
+        },
+        {
+          "title": "H-REAT-715-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA PVT LTD",
           "date": "09 Mar 2026",
           "date_iso": "2026-03-09",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzE5",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzE4",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-716-2024_5"
+          "id": "hr_reat_H-REAT-715-2024_5"
         },
         {
           "title": "H-REAT-717-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA PVT LTD",
@@ -1452,22 +1451,22 @@
           "id": "hr_reat_H-REAT-717-2024_6"
         },
         {
-          "title": "H-REAT-718-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA PVT LTD",
+          "title": "H-REAT-714-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA LTD",
           "date": "09 Mar 2026",
           "date_iso": "2026-03-09",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzIx",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzE3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-718-2024_7"
+          "id": "hr_reat_H-REAT-714-2024_7"
         },
         {
-          "title": "H-REAT-683-2023 — Nitish Singhal vs MS DSS BUILDTECH PVT LTD",
+          "title": "H-REAT-716-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA PVT LTD",
           "date": "09 Mar 2026",
           "date_iso": "2026-03-09",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzI4",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzE5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-683-2023_8"
+          "id": "hr_reat_H-REAT-716-2024_8"
         },
         {
           "title": "H-REAT-713-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA LTD",
@@ -1479,22 +1478,22 @@
           "id": "hr_reat_H-REAT-713-2024_9"
         },
         {
-          "title": "H-REAT-714-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA LTD",
+          "title": "H-REAT-718-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA PVT LTD",
           "date": "09 Mar 2026",
           "date_iso": "2026-03-09",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzE3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzIx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-714-2024_10"
+          "id": "hr_reat_H-REAT-718-2024_10"
         },
         {
-          "title": "H-REAT-715-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA PVT LTD",
+          "title": "H-REAT-683-2023 — Nitish Singhal vs MS DSS BUILDTECH PVT LTD",
           "date": "09 Mar 2026",
           "date_iso": "2026-03-09",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzE4",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzI4",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-715-2024_11"
+          "id": "hr_reat_H-REAT-683-2023_11"
         },
         {
           "title": "H-REAT-1072-2025 — Neena Goel and Vikas Goel vs PAREENA INFRASTRUCTURES PVT LTD",
@@ -1515,13 +1514,13 @@
           "id": "hr_reat_H-REAT-381-2022_13"
         },
         {
-          "title": "H-REAT-785-2022 — Mandira Monga vs VATIKA LIMITED",
+          "title": "H-REAT-787-2022 — Vinayak Kumar Sinha and Kaveri Sinha vs VATIKA LIMITED",
           "date": "05 Mar 2026",
           "date_iso": "2026-03-05",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NTE1",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NTE3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-785-2022_14"
+          "id": "hr_reat_H-REAT-787-2022_14"
         },
         {
           "title": "H-REAT-786-2022 — Alok Jha and Neeta Jha vs VATIKA LIMITED",
@@ -1533,13 +1532,13 @@
           "id": "hr_reat_H-REAT-786-2022_15"
         },
         {
-          "title": "H-REAT-606-2022 — Samaresh Sinha and Sangeeta Sinha vs VATIKA LIMITED",
+          "title": "H-REAT-785-2022 — Mandira Monga vs VATIKA LIMITED",
           "date": "05 Mar 2026",
           "date_iso": "2026-03-05",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NTEz",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NTE1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-606-2022_16"
+          "id": "hr_reat_H-REAT-785-2022_16"
         },
         {
           "title": "H-REAT-579-2022 — Shivek Ranjan and Sweta Suman vs VATIKA LIMITED",
@@ -1551,13 +1550,13 @@
           "id": "hr_reat_H-REAT-579-2022_17"
         },
         {
-          "title": "H-REAT-787-2022 — Vinayak Kumar Sinha and Kaveri Sinha vs VATIKA LIMITED",
+          "title": "H-REAT-606-2022 — Samaresh Sinha and Sangeeta Sinha vs VATIKA LIMITED",
           "date": "05 Mar 2026",
           "date_iso": "2026-03-05",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NTE3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NTEz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-787-2022_18"
+          "id": "hr_reat_H-REAT-606-2022_18"
         },
         {
           "title": "H-REAT-398-2023 — Emaar India Ltd vs MADHO SINGH RAWAT",
@@ -1980,15 +1979,6 @@
           "id": "eu_instru_FS_100289"
         },
         {
-          "title": "[FS.100288] CD&R / SEALED AIR",
-          "date": "03 Mar 2026",
-          "date_iso": "2026-03-03",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100288",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_instru_FS_100288"
-        },
-        {
           "title": "[FS.100273] ARDIAN / ENERGIA",
           "date": "03 Mar 2026",
           "date_iso": "2026-03-03",
@@ -1996,6 +1986,15 @@
           "pdf_url": "",
           "has_pdf": false,
           "id": "eu_instru_FS_100273"
+        },
+        {
+          "title": "[FS.100288] CD&R / SEALED AIR",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100288",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100288"
         },
         {
           "title": "[FS.100237] SUZANO / KIMBERLY- CLARK (INTERNATIONAL FAMILY CARE & PROFESSIONAL BUSINESS)",
@@ -2155,15 +2154,6 @@
           "id": "epo_boa_t241223du1"
         },
         {
-          "title": "T 0424/24",
-          "date": "10 Mar 2026",
-          "date_iso": "2026-03-10",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240424fu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240424fu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240424fu1"
-        },
-        {
           "title": "T 0214/24 — HIGHLY UNSATURATED FATTY ACID OR HIGHLY UNSATURATED FATTY ACID ETHYL ESTER WITH REDUCED ENVIRONMENTAL POLLUTANTS, AND METHOD FOR PRODUCING SAME",
           "date": "10 Mar 2026",
           "date_iso": "2026-03-10",
@@ -2173,6 +2163,15 @@
           "id": "epo_boa_t240214eu1"
         },
         {
+          "title": "T 0424/24",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240424fu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240424fu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240424fu1"
+        },
+        {
           "title": "T 0452/23 — LASER FIDUCIALS FOR AXIS ALIGNMENT IN CATARACT SURGERY",
           "date": "10 Mar 2026",
           "date_iso": "2026-03-10",
@@ -2180,15 +2179,6 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230452eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t230452eu1"
-        },
-        {
-          "title": "T 1208/24 — PACKET OF SMOKE ARTICLES",
-          "date": "10 Mar 2026",
-          "date_iso": "2026-03-10",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241208eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241208eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241208eu1"
         },
         {
           "title": "T 0265/24 — PACKAGED LIQUID FABRIC SOFTENER COMPOSITION HAVING IMPROVED STABILITY",
@@ -2207,6 +2197,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231567eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t231567eu1"
+        },
+        {
+          "title": "T 1208/24 — PACKET OF SMOKE ARTICLES",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241208eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241208eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241208eu1"
         },
         {
           "title": "T 0251/24 — Compositions and methods for treating hematologic cancers targeting the SIRP - CD47 interaction",
@@ -3164,5 +3163,6 @@
       "docs_without_pdf": 0,
       "documents": []
     }
-  ]
+  ],
+  "partial_scrape": false
 }
