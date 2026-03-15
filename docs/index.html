@@ -81,6 +81,34 @@ body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:var(--bg)
 .btn-green:hover{background:var(--accent2);border-color:var(--accent2)}
 .btn-ghost{border-color:transparent;background:transparent}.btn-ghost:hover{background:var(--bg2)}
 
+/* ═══ CONTROL PANEL ═══ */
+.cp-overlay{position:fixed;inset:0;z-index:2000;background:rgba(0,0,0,.55);opacity:0;pointer-events:none;transition:opacity .2s}
+.cp-overlay.open{opacity:1;pointer-events:auto}
+.cp-modal{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:var(--surf);border-radius:var(--radius);box-shadow:var(--shadow-lg);width:min(520px,95vw);max-height:85vh;overflow-y:auto;border:1px solid var(--border)}
+.cp-hdr{padding:18px 24px 14px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
+.cp-hdr h2{font-size:16px;font-weight:800;letter-spacing:-.3px}
+.cp-close{background:none;border:none;font-size:22px;cursor:pointer;color:var(--txt3);padding:0 4px}
+.cp-close:hover{color:var(--txt)}
+.cp-body{padding:20px 24px}
+.cp-section{margin-bottom:20px}
+.cp-section h3{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--txt3);margin-bottom:10px}
+.cp-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:8px}
+.cp-input{padding:7px 12px;border:1px solid var(--border);border-radius:var(--radius-xs);font-size:12px;font-family:inherit;background:var(--bg2);color:var(--txt);outline:none}
+.cp-input:focus{border-color:var(--accent2)}
+.cp-input[type="date"]{width:140px}
+.cp-select{padding:7px 12px;border:1px solid var(--border);border-radius:var(--radius-xs);font-size:12px;font-family:inherit;background:var(--bg2);color:var(--txt);outline:none}
+.cp-textarea{width:100%;padding:7px 12px;border:1px solid var(--border);border-radius:var(--radius-xs);font-size:12px;font-family:inherit;background:var(--bg2);color:var(--txt);resize:vertical;min-height:36px;outline:none}
+.cp-label{font-size:11px;font-weight:600;color:var(--txt2);min-width:50px}
+.cp-hint{font-size:10px;color:var(--txt3);margin-top:4px}
+.cp-status{padding:8px 12px;border-radius:var(--radius-xs);font-size:11px;margin-top:8px;display:none}
+.cp-status.ok{display:block;background:#16a34a18;color:#16a34a;border:1px solid #16a34a33}
+.cp-status.err{display:block;background:#dc262618;color:#dc2626;border:1px solid #dc262633}
+.cp-status.info{display:block;background:#2563eb18;color:#2563eb;border:1px solid #2563eb33}
+.cp-token-row{display:flex;gap:8px;align-items:center}
+.cp-token-row input{flex:1}
+.cp-saved{font-size:10px;color:var(--green);font-weight:600}
+.cp-btn-row{display:flex;gap:8px;margin-top:10px}
+
 .status-pill{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;padding:4px 10px;border-radius:var(--radius-xs);border:1px solid var(--border)}
 .status-pill.s-loading{background:var(--bg2);color:var(--txt2)}
 .status-pill.s-done{background:var(--bg2);color:var(--txt)}
@@ -390,6 +418,7 @@ body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:var(--bg)
     <button class="btn btn-green" onclick="downloadAll()">Download All</button>
     <button class="btn" onclick="retryErrors()">Retry</button>
     <button class="btn" id="audit-btn" onclick="runAudit()" title="Verify all scraped PDF links are accessible">Audit</button>
+    <button class="btn btn-primary" onclick="openControlPanel()" title="Remote control: change dates, trigger scrapes, post notices">⚙ Control</button>
   </div>
   <span class="status-pill" id="h-status" style="display:none"></span>
   <div class="dl-info" id="dl-summary" style="display:none"><span class="spinner-sm"></span> <span id="dl-sm-txt"></span></div>
@@ -459,6 +488,80 @@ body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:var(--bg)
 <div class="toast" id="toast"></div>
 
 <!-- ═══ ACCURACY AUDIT MODAL ═══ -->
+
+<!-- ═══ CONTROL PANEL MODAL ═══ -->
+<div class="cp-overlay" id="cp-overlay" onclick="if(event.target===this)closeControlPanel()">
+  <div class="cp-modal">
+    <div class="cp-hdr">
+      <h2>⚙ Remote Control</h2>
+      <button class="cp-close" onclick="closeControlPanel()">&#215;</button>
+    </div>
+    <div class="cp-body">
+      <!-- GitHub Token -->
+      <div class="cp-section">
+        <h3>🔑 GitHub Token (one-time setup)</h3>
+        <div class="cp-token-row">
+          <input type="password" class="cp-input" id="cp-token" placeholder="ghp_xxxxxxxxxxxx" style="flex:1">
+          <button class="btn" onclick="saveToken()">Save</button>
+        </div>
+        <div class="cp-hint" id="cp-token-hint">Enter a GitHub Personal Access Token with <b>repo</b> + <b>workflow</b> scope. <span id="cp-token-status"></span></div>
+      </div>
+
+      <!-- Scrape with Date Range -->
+      <div class="cp-section">
+        <h3>📅 Scrape with Custom Dates</h3>
+        <div class="cp-row">
+          <span class="cp-label">From</span>
+          <input type="date" class="cp-input" id="cp-date-from">
+          <span class="cp-label" style="min-width:20px;text-align:center">to</span>
+          <input type="date" class="cp-input" id="cp-date-to">
+        </div>
+        <div class="cp-btn-row">
+          <button class="btn btn-primary" onclick="cpScrapeAll()">Scrape All Sources</button>
+          <button class="btn" onclick="cpScrapeMonth()">Current Month</button>
+        </div>
+        <div class="cp-hint">Date range updates the website data. Scrape takes ~10 minutes.</div>
+      </div>
+
+      <!-- Scrape Specific Sources -->
+      <div class="cp-section">
+        <h3>🎯 Scrape Specific Sources</h3>
+        <div class="cp-row">
+          <input type="text" class="cp-input" id="cp-sources" placeholder="RHP,DRHP,CCI_GREEN,SEBI_CIRCULARS" style="flex:1">
+        </div>
+        <div class="cp-btn-row">
+          <button class="btn btn-primary" onclick="cpScrapeSelected()">Scrape Selected</button>
+        </div>
+        <div class="cp-hint">Comma-separated source keys. Only re-scrapes those sources, keeps rest unchanged.</div>
+      </div>
+
+      <!-- Post Notice -->
+      <div class="cp-section">
+        <h3>📢 Post Notice Banner</h3>
+        <div class="cp-row">
+          <input type="text" class="cp-input" id="cp-notice-msg" placeholder="Your notice message..." style="flex:1">
+          <select class="cp-select" id="cp-notice-type">
+            <option value="info">ℹ Info</option>
+            <option value="warning">⚠ Warning</option>
+            <option value="success">✅ Success</option>
+          </select>
+        </div>
+        <div class="cp-btn-row">
+          <button class="btn btn-primary" onclick="cpPostNotice()">Post Notice</button>
+          <button class="btn" onclick="cpClearNotice()">Clear Notice</button>
+        </div>
+      </div>
+
+      <!-- Status -->
+      <div class="cp-section">
+        <h3>📊 Status</h3>
+        <button class="btn" onclick="cpCheckStatus()">Check Latest Run</button>
+        <div class="cp-status" id="cp-status"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="audit-overlay" id="audit-overlay" onclick="if(event.target===this)closeAudit()">
   <div class="audit-modal">
     <div class="audit-hdr">
@@ -993,16 +1096,11 @@ async function getPdf(id, pageUrl, dtype) {
   else toast('No source page available for this document', 'info');
 }
 
-// Save a single file via fetch→blob→download link
-async function _savePdf(url, filename) {
-  try {
-    const a = document.createElement('a');
-    a.href = url; a.target = '_blank'; a.download = filename || '';
-    // Direct PDF links — browser will download or open depending on headers
-    // Use a visible link click to trigger download
-    document.body.appendChild(a); a.click(); document.body.removeChild(a);
-    return true;
-  } catch(e) { return false; }
+// Open a PDF URL — cross-origin PDFs can't use <a download>, so window.open is reliable
+function _openPdf(url) {
+  if (!url) return false;
+  window.open(url, '_blank');
+  return true;
 }
 
 function _docFilename(doc, dtype) {
@@ -1015,14 +1113,11 @@ function _docFilename(doc, dtype) {
 async function dlOne(id, dtype) {
   const doc = (unified[dtype] || []).find(d => d.id === id); if (!doc) return;
   if (doc.pdf_url) {
-    // Track in dlProg for the download panel
-    dlProg[id] = { status: 'downloading', type: dtype, title: doc.title || doc.company || id, pdf_url: doc.pdf_url, page_url: doc.page_url, date: doc.date };
-    updatePanel(); applyFilters();
+    dlProg[id] = { status: 'done', type: dtype, title: doc.title || doc.company || id, pdf_url: doc.pdf_url, page_url: doc.page_url, date: doc.date };
     $('dlp-cnt').textContent = Object.keys(dlProg).length; $('dlp-toggle').style.display = '';
-    const ok = await _savePdf(doc.pdf_url, _docFilename(doc, dtype));
-    dlProg[id] = { ...dlProg[id], status: ok ? 'done' : 'error', error: ok ? null : 'Download failed' };
+    _openPdf(doc.pdf_url);
     updatePanel(); applyFilters();
-    if (ok) toast('Download started: ' + (doc.company || doc.title || id), 'ok');
+    toast('Opening PDF: ' + (doc.company || doc.title || id), 'ok');
   } else if (doc.page_url) {
     window.open(doc.page_url, '_blank');
     toast('PDF not directly available — opening source page', 'info');
@@ -1042,56 +1137,47 @@ async function downloadAll() {
   }
   if (!toDownload.length) { toast('No downloadable documents in current view', 'info'); return; }
   if (_dlAllRunning) { toast('Bulk download already in progress', 'info'); return; }
-  if (!confirm('Download ' + toDownload.length + ' PDF documents?')) return;
+  if (!confirm('Open ' + toDownload.length + ' PDF documents? Your browser will open each one for you to save.')) return;
 
   _dlAllRunning = true;
-  toast('Starting download of ' + toDownload.length + ' documents...', 'info');
-  let ok = 0, fail = 0;
+  let opened = 0;
+  // Open one at a time with delay — browsers block rapid popups
   for (const doc of toDownload) {
-    dlProg[doc.id] = { status: 'downloading', type: doc._dtype, title: doc.title || doc.company || doc.id, pdf_url: doc.pdf_url, page_url: doc.page_url, date: doc.date };
+    _openPdf(doc.pdf_url);
+    opened++;
+    dlProg[doc.id] = { status: 'done', type: doc._dtype, title: doc.title || doc.company || doc.id, pdf_url: doc.pdf_url, page_url: doc.page_url, date: doc.date };
+    $('dlp-cnt').textContent = Object.keys(dlProg).length; $('dlp-toggle').style.display = '';
+    if (opened % 5 === 0) {
+      updatePanel();
+      toast('Opened ' + opened + '/' + toDownload.length + ' PDFs...', 'info');
+    }
+    await sleep(600);
   }
-  $('dlp-cnt').textContent = Object.keys(dlProg).length; $('dlp-toggle').style.display = '';
-  updatePanel();
-
-  // Download in batches of 3 to avoid overwhelming the browser
-  for (let i = 0; i < toDownload.length; i += 3) {
-    const batch = toDownload.slice(i, i + 3);
-    await Promise.all(batch.map(async doc => {
-      const success = await _savePdf(doc.pdf_url, _docFilename(doc, doc._dtype));
-      dlProg[doc.id] = { ...dlProg[doc.id], status: success ? 'done' : 'error', error: success ? null : 'Failed', size_kb: '—' };
-      if (success) ok++; else fail++;
-      updatePanel(); applyFilters();
-    }));
-    // Small delay between batches
-    if (i + 3 < toDownload.length) await sleep(800);
-  }
+  updatePanel(); applyFilters();
   _dlAllRunning = false;
-  toast('Download complete: ' + ok + ' saved' + (fail ? ', ' + fail + ' failed' : ''), fail ? 'err' : 'ok');
+  toast('Opened all ' + opened + ' PDFs. Use Cmd+S / Ctrl+S in each tab to save.', 'ok');
 }
 
 async function retryErrors() {
   const failed = Object.entries(dlProg).filter(([,d]) => d.status === 'error');
   if (!failed.length) { toast('No failed downloads to retry', 'info'); return; }
-  toast('Retrying ' + failed.length + ' failed downloads...', 'info');
+  toast('Opening ' + failed.length + ' failed PDFs...', 'info');
   for (const [id, d] of failed) {
     if (d.pdf_url) {
-      dlProg[id] = { ...d, status: 'downloading', error: null };
+      _openPdf(d.pdf_url);
+      dlProg[id] = { ...d, status: 'done', error: null };
       updatePanel();
-      const ok = await _savePdf(d.pdf_url, (d.title || id) + '.pdf');
-      dlProg[id] = { ...dlProg[id], status: ok ? 'done' : 'error', error: ok ? null : 'Retry failed' };
-      updatePanel();
+      await sleep(500);
     }
   }
   toast('Retry complete', 'ok');
 }
 async function retryOne(id, dtype) {
-  const d = dlProg[id]; if (!d) return;
-  try {
-    // Use the targeted retry endpoint so citation metadata is preserved
-    await apiPost('/api/retry_errors', { doc_id: id });
-    toast('Retrying download…', 'info');
-    startDlPoll(); applyFilters();
-  } catch(e) {}
+  const d = dlProg[id]; if (!d || !d.pdf_url) { toast('No PDF URL', 'info'); return; }
+  _openPdf(d.pdf_url);
+  dlProg[id] = { ...d, status: 'done', error: null };
+  updatePanel(); applyFilters();
+  toast('PDF opened', 'ok');
 }
 
 function startDlPoll() { if (!dlTimer) dlTimer = setInterval(pollDl, 1500); }
@@ -1216,16 +1302,11 @@ async function manualDownload(docId, dtype) {
   const safe = 'mdb_' + docId.replace(/[^a-z0-9]/gi, '_');
   const btn  = $(safe);
   if (!d.pdf_url) { toast('No PDF URL available — use the source link to download manually', 'info'); return; }
-  if (btn) { btn.disabled = true; btn.textContent = '⏳ Saving…'; }
-  const ok = await _savePdf(d.pdf_url, (d.title || docId) + '.pdf');
-  if (ok) {
-    dlProg[docId] = { ...d, status: 'done', error: null };
-    toast('Download started: ' + (d.title || docId), 'ok');
-    if (btn) { btn.textContent = '✓ Saved'; btn.classList.add('saved'); }
-  } else {
-    toast('Download failed — try the direct link', 'err');
-    if (btn) { btn.disabled = false; btn.textContent = '💾 Save to Repo'; }
-  }
+  if (btn) { btn.disabled = true; btn.textContent = '⏳ Opening…'; }
+  _openPdf(d.pdf_url);
+  dlProg[docId] = { ...d, status: 'done', error: null };
+  toast('Opened in new tab: ' + (d.title || docId), 'ok');
+  if (btn) { btn.textContent = '✓ Opened'; btn.classList.add('saved'); }
   updatePanel(); applyFilters();
 }
 
@@ -1425,6 +1506,137 @@ function exportAuditJSON() {
 }
 
 function closeAudit() { $('audit-overlay').classList.remove('open'); }
+
+// =================================================================
+//  CONTROL PANEL — Remote control via GitHub API
+// =================================================================
+const GH_REPO = 'mohitlucio/LucioBriefcase';
+const GH_WORKFLOW = 'scrape.yml';
+
+function openControlPanel() {
+  $('cp-overlay').classList.add('open');
+  const saved = localStorage.getItem('gh_token');
+  if (saved) {
+    $('cp-token').value = saved;
+    $('cp-token-status').innerHTML = '<span class="cp-saved">✓ Saved</span>';
+  }
+  // Default dates to current data range
+  if (_scrapedData && _scrapedData.date_range) {
+    $('cp-date-from').value = _scrapedData.date_range.from_iso || '';
+    $('cp-date-to').value = _scrapedData.date_range.to_iso || '';
+  }
+}
+function closeControlPanel() { $('cp-overlay').classList.remove('open'); }
+
+function saveToken() {
+  const token = $('cp-token').value.trim();
+  if (!token) { _cpStatus('Enter a token first', 'err'); return; }
+  localStorage.setItem('gh_token', token);
+  $('cp-token-status').innerHTML = '<span class="cp-saved">✓ Saved</span>';
+  _cpStatus('Token saved to browser storage', 'ok');
+}
+
+function _getToken() {
+  const t = localStorage.getItem('gh_token');
+  if (!t) { _cpStatus('Set your GitHub token first (section above)', 'err'); return null; }
+  return t;
+}
+
+function _cpStatus(msg, type) {
+  const el = $('cp-status');
+  el.className = 'cp-status ' + (type || 'info');
+  el.textContent = msg;
+}
+
+async function _ghDispatch(inputs) {
+  const token = _getToken(); if (!token) return false;
+  _cpStatus('Dispatching workflow...', 'info');
+  try {
+    const resp = await fetch('https://api.github.com/repos/' + GH_REPO + '/actions/workflows/' + GH_WORKFLOW + '/dispatches', {
+      method: 'POST',
+      headers: {
+        'Authorization': 'Bearer ' + token,
+        'Accept': 'application/vnd.github+json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ ref: 'main', inputs: inputs })
+    });
+    if (resp.status === 204 || resp.ok) {
+      _cpStatus('Workflow dispatched! The website will update in ~10-15 minutes. Click "Check Latest Run" to monitor.', 'ok');
+      return true;
+    }
+    const err = await resp.json().catch(() => ({}));
+    _cpStatus('GitHub API error: ' + (err.message || resp.status), 'err');
+    return false;
+  } catch(e) {
+    _cpStatus('Network error: ' + e.message, 'err');
+    return false;
+  }
+}
+
+function cpScrapeAll() {
+  const from = $('cp-date-from').value;
+  const to = $('cp-date-to').value;
+  const inputs = { action: 'scrape_all' };
+  if (from && to) inputs.action = 'set_month';
+  if (from && to) inputs.message = from + ',' + to;
+  _ghDispatch(inputs);
+}
+
+function cpScrapeMonth() {
+  _ghDispatch({ action: 'scrape_all' });
+}
+
+function cpScrapeSelected() {
+  const sources = $('cp-sources').value.trim();
+  if (!sources) { _cpStatus('Enter source keys first (e.g. RHP,DRHP)', 'err'); return; }
+  _ghDispatch({ action: 'scrape_sources', sources: sources });
+}
+
+function cpPostNotice() {
+  const msg = $('cp-notice-msg').value.trim();
+  if (!msg) { _cpStatus('Enter a notice message', 'err'); return; }
+  const type = $('cp-notice-type').value;
+  _ghDispatch({ action: 'post_notice', message: msg, notice_type: type });
+}
+
+function cpClearNotice() {
+  _ghDispatch({ action: 'clear_notice' });
+}
+
+async function cpCheckStatus() {
+  const token = _getToken(); if (!token) return;
+  _cpStatus('Checking...', 'info');
+  try {
+    const resp = await fetch('https://api.github.com/repos/' + GH_REPO + '/actions/workflows/' + GH_WORKFLOW + '/runs?per_page=3', {
+      headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json' }
+    });
+    if (!resp.ok) { _cpStatus('API error: ' + resp.status, 'err'); return; }
+    const data = await resp.json();
+    const runs = data.workflow_runs || [];
+    if (!runs.length) { _cpStatus('No workflow runs found', 'info'); return; }
+    let msg = '';
+    for (const r of runs) {
+      const status = r.conclusion || r.status;
+      const icon = status === 'success' ? '✅' : status === 'in_progress' ? '⏳' : status === 'queued' ? '🕐' : '❌';
+      const ago = _timeAgo(r.updated_at);
+      msg += icon + ' ' + (r.display_title || 'Run').substring(0, 60) + ' — ' + status + ' (' + ago + ')\n';
+    }
+    _cpStatus(msg.trim(), runs[0].conclusion === 'success' || runs[0].status === 'in_progress' ? 'ok' : 'err');
+  } catch(e) {
+    _cpStatus('Error: ' + e.message, 'err');
+  }
+}
+
+function _timeAgo(iso) {
+  const diff = Date.now() - new Date(iso).getTime();
+  const m = Math.floor(diff / 60000);
+  if (m < 1) return 'just now';
+  if (m < 60) return m + 'm ago';
+  const h = Math.floor(m / 60);
+  if (h < 24) return h + 'h ago';
+  return Math.floor(h / 24) + 'd ago';
+}
 
 init();
 </script>
