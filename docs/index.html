@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lucio AI Briefcase</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+/* ═══════════════════════════════════════════════════════════════
+   RESET & TOKENS — CLEAN FLAT THEME
+   ═══════════════════════════════════════════════════════════════ */
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#fafafa;--bg2:#f5f5f5;--bg3:#ebebeb;
+  --surf:#ffffff;--surf2:#fafafa;--surf3:#f5f5f5;
+  --border:#e5e5e5;--border2:#d4d4d4;
+  --txt:#171717;--txt2:#737373;--txt3:#a3a3a3;
+  --accent:#171717;--accent2:#404040;--accent-glow:rgba(0,0,0,.06);
+  --green:#16a34a;--green-bg:rgba(22,163,74,.06);--green-glow:rgba(22,163,74,.1);
+  --yellow:#ca8a04;--yellow-bg:rgba(202,138,4,.06);--yellow-glow:rgba(202,138,4,.1);
+  --red:#dc2626;--red-bg:rgba(220,38,38,.05);--red-glow:rgba(220,38,38,.1);
+  --blue:#2563eb;--blue-bg:rgba(37,99,235,.05);
+  --radius:8px;--radius-sm:6px;--radius-xs:4px;
+  --transition:150ms ease;
+  --shadow-sm:none;--shadow-md:0 1px 3px rgba(0,0,0,.08);--shadow-lg:0 4px 20px rgba(0,0,0,.12);
+}
+html{font-size:14px;scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--txt);min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+
+/* ═══════════════════════════════════════════════════════════════
+   HEADER — Clean flat header
+   ═══════════════════════════════════════════════════════════════ */
+.hero{position:relative;padding:20px 36px 16px;background:var(--surf);border-bottom:1px solid var(--border)}
+.hero-top{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px}
+.brand-icon{width:32px;height:32px;border-radius:6px;background:var(--txt);display:flex;align-items:center;justify-content:center}
+.brand-icon svg{width:18px;height:18px;fill:#fff}
+.brand h1{font-size:14px;font-weight:700;letter-spacing:-.2px;color:var(--txt);line-height:1.3}
+.brand p{font-size:11px;color:var(--txt3);font-weight:500;margin-top:1px}
+
+.hero-stats{display:flex;gap:16px;flex-wrap:wrap}
+.hero-stat{padding:0;min-width:auto;display:flex;flex-direction:column;align-items:center}
+.hero-stat .hs-val{font-size:18px;font-weight:700;color:var(--txt)}
+.hero-stat .hs-label{font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:.8px;color:var(--txt3);margin-top:1px}
+.hero-stat.stat-ok .hs-val{color:var(--txt)}
+.hero-stat.stat-load .hs-val{color:var(--txt2)}
+.hero-stat.stat-err .hs-val{color:var(--red)}
+
+/* Global progress */
+.global-progress{height:4px;background:var(--bg3);border-radius:2px;margin-top:10px;overflow:hidden}
+.global-progress-bar{height:100%;background:var(--txt3);border-radius:2px;transition:width .4s ease}
+.global-progress-bar.all-done{background:var(--green)}
+.global-progress-bar.has-errors{background:var(--red)}
+.progress-label{display:flex;justify-content:space-between;margin-top:8px;font-size:11px;color:var(--txt3);font-weight:500}
+
+/* ═══════════════════════════════════════════════════════════════
+   CONTROLS BAR — Sticky, frosted glass
+   ═══════════════════════════════════════════════════════════════ */
+.sticky-nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.95);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+.controls{padding:8px 36px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+
+
+
+.ctrl-sep{width:1px;height:24px;background:var(--border2)}
+
+.ctrl-input{padding:6px 10px;border:1px solid var(--border);border-radius:var(--radius-xs);font-size:12px;font-family:inherit;background:var(--surf);color:var(--txt);outline:none;transition:all var(--transition)}
+.ctrl-input:focus{border-color:var(--txt3)}
+.ctrl-input::placeholder{color:var(--txt3)}
+.ctrl-input[type="date"]{width:128px}
+.ctrl-input[type="date"]::-webkit-calendar-picker-indicator{opacity:.5}
+.ctrl-search{width:220px}
+
+.ctrl-actions{display:flex;align-items:center;gap:6px;margin-left:auto}
+
+.btn{padding:6px 14px;border:1px solid var(--border);border-radius:var(--radius-xs);cursor:pointer;font-size:11.5px;font-weight:600;font-family:inherit;display:inline-flex;align-items:center;gap:5px;transition:all var(--transition);white-space:nowrap;background:var(--surf);color:var(--txt2)}
+.btn:hover{border-color:var(--border2);color:var(--txt);background:var(--bg2)}
+.btn:disabled{opacity:.3;cursor:not-allowed}
+.btn-primary{background:var(--txt);color:#fff;border-color:var(--txt)}
+.btn-primary:hover{background:var(--accent2);border-color:var(--accent2)}
+.btn-green{background:var(--txt);color:#fff;border-color:var(--txt)}
+.btn-green:hover{background:var(--accent2);border-color:var(--accent2)}
+.btn-ghost{border-color:transparent;background:transparent}.btn-ghost:hover{background:var(--bg2)}
+
+.status-pill{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;padding:4px 10px;border-radius:var(--radius-xs);border:1px solid var(--border)}
+.status-pill.s-loading{background:var(--bg2);color:var(--txt2)}
+.status-pill.s-done{background:var(--bg2);color:var(--txt)}
+.status-pill.s-errors{background:var(--red-bg);color:var(--red);border-color:var(--red-glow)}
+
+/* ═══════════════════════════════════════════════════════════════
+   CATEGORY TABS — Horizontal pill chips
+   ═══════════════════════════════════════════════════════════════ */
+.cat-bar{padding:0 36px;display:flex;gap:0;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
+.cat-bar::-webkit-scrollbar{display:none}
+.cat-pill{padding:8px 14px;font-size:11.5px;font-weight:500;cursor:pointer;transition:all var(--transition);border:none;border-bottom:2px solid transparent;color:var(--txt3);background:transparent;display:flex;align-items:center;gap:5px;user-select:none;white-space:nowrap;flex-shrink:0}
+.cat-pill:hover{color:var(--txt)}
+.cat-pill.active{color:var(--txt);font-weight:600;border-bottom-color:var(--txt)}
+.cat-pill .cp-dot{display:none}
+.cat-pill .cp-count{font-size:10px;font-weight:600;opacity:.5}
+.cat-pill.active .cp-count{opacity:.8}
+
+/* ═══════════════════════════════════════════════════════════════
+   LIVE STATUS STRIP — Shows each source's progress
+   ═══════════════════════════════════════════════════════════════ */
+.status-strip{padding:6px 36px;display:flex;gap:2px;flex-wrap:wrap;position:relative;z-index:1}
+.ss-dot{width:6px;height:6px;border-radius:1px;transition:all .3s ease;cursor:default;position:relative}
+.ss-dot.ss-idle{background:var(--bg3)}
+.ss-dot.ss-loading{background:var(--txt3);animation:pulse 1.5s ease-in-out infinite}
+.ss-dot.ss-done{background:var(--txt)}
+.ss-dot.ss-error{background:var(--red)}
+.ss-dot[title]:hover::after{content:attr(title);position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);background:var(--surf);color:var(--txt);border:1px solid var(--border);border-radius:var(--radius-xs);padding:4px 8px;font-size:10px;font-weight:500;white-space:nowrap;pointer-events:none;z-index:10}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+
+/* ═══════════════════════════════════════════════════════════════
+   GRID — single-column list
+   ═══════════════════════════════════════════════════════════════ */
+.main-area{padding:0 36px 40px;position:relative;z-index:1}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:0;border:1px solid var(--border);border-radius:var(--radius);background:var(--surf);overflow:hidden}
+.region-hdr{grid-column:1/-1;padding:14px 20px 10px;background:var(--bg3);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.region-hdr .rh-text{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1.2px;color:var(--txt)}
+.region-hdr .rh-count{font-size:10px;font-weight:600;color:var(--txt3);margin-left:auto}
+.region-hdr .rh-stats{display:flex;gap:10px;font-size:10px;font-weight:600}
+.region-hdr .rh-stats .rhs-ok{color:var(--green)}
+.region-hdr .rh-stats .rhs-err{color:var(--red)}
+.region-hdr .rh-stats .rhs-load{color:var(--txt3)}
+.section-label{grid-column:1/-1;display:flex;align-items:center;gap:8px;padding:8px 20px;background:var(--bg2);border-bottom:1px solid var(--border)}
+.section-label .sl-dot{display:none}
+.section-label .sl-text{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--txt2)}
+.section-label .sl-line{flex:1;height:1px;background:var(--border)}
+
+/* ═══════════════════════════════════════════════════════════════
+   CARD — Elevated white cards with soft shadows
+   ═══════════════════════════════════════════════════════════════ */
+.card{background:var(--surf);border-bottom:1px solid var(--border);border-right:1px solid var(--border);overflow:hidden;display:flex;flex-direction:column;transition:background .15s ease;position:relative}
+
+/* Status styling — green bg when done, red bg when not */
+.card.card-fetching{background:var(--bg2)}
+.card.card-done{background:var(--green-bg)}
+.card.card-done:hover{background:rgba(22,163,74,.1)}
+.card.card-error{background:var(--red-bg)}
+.card.card-error:hover{background:rgba(220,38,38,.08)}
+.card:not(.card-done):not(.card-error):not(.card-fetching){background:var(--red-bg)}
+.card:not(.card-done):not(.card-error):not(.card-fetching):hover{background:rgba(220,38,38,.08)}
+
+.card-hdr{padding:12px 16px 8px;display:flex;align-items:center;gap:8px;position:relative;z-index:2}
+.card-serial{display:none}
+.card-icon{display:none}
+.card-info{flex:1;min-width:0}
+.card-title{font-size:12.5px;font-weight:600;color:var(--txt)}
+.card-title a{color:inherit;text-decoration:none}
+.card-title a:hover{text-decoration:underline}
+.card-desc{font-size:10px;color:var(--txt3);margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card-status-chip{display:none}
+.card-badge{font-size:12px;font-weight:700;color:var(--txt3);flex-shrink:0;margin-left:auto;min-width:24px;text-align:right;font-variant-numeric:tabular-nums}
+.card-badge.has-docs{color:var(--txt)}
+.card-badge.has-docs{color:var(--txt)}
+
+/* Card status bar at top */
+.card-status-bar{display:none}
+
+.card-body{overflow-y:auto;max-height:320px;flex:1;position:relative;z-index:2}
+.card-body::-webkit-scrollbar{width:3px}
+.card-body::-webkit-scrollbar-track{background:transparent}
+.card-body::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
+
+.card-foot{padding:6px 16px;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;font-size:10px;color:var(--txt3);position:relative;z-index:2;background:var(--bg)}
+
+/* ═══════════════════════════════════════════════════════════════
+   DOC ROW
+   ═══════════════════════════════════════════════════════════════ */
+.doc{padding:8px 16px;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;gap:8px;transition:background var(--transition)}
+.doc:last-child{border-bottom:none}
+.doc:hover{background:var(--bg2)}
+.doc-cb{width:13px;height:13px;min-width:13px;margin-top:3px;accent-color:var(--txt);cursor:pointer}
+.doc-body{flex:1;min-width:0}
+.doc-date{font-size:10px;color:var(--txt3);font-weight:500;margin-bottom:2px;font-variant-numeric:tabular-nums}
+.doc-title{font-size:12px;font-weight:500;color:var(--txt);line-height:1.5;word-break:break-word}
+.doc-company{font-size:10.5px;color:var(--txt2);margin-top:1px}
+.doc-actions{display:flex;align-items:center;gap:5px;margin-top:6px;flex-wrap:wrap}
+
+.pdf-link{display:inline-flex;align-items:center;gap:3px;font-size:10px;font-weight:600;color:var(--txt2);text-decoration:none;padding:3px 8px;border-radius:var(--radius-xs);background:var(--bg2);border:1px solid var(--border);transition:all var(--transition)}
+.pdf-link:hover{background:var(--txt);color:#fff;border-color:var(--txt)}
+
+.dl-btn{padding:3px 8px;border:1px solid var(--border);border-radius:var(--radius-xs);background:var(--surf);cursor:pointer;font-size:10px;font-weight:600;font-family:inherit;color:var(--txt2);transition:all var(--transition)}
+.dl-btn:hover{background:var(--txt);color:#fff;border-color:var(--txt)}
+
+.ds{display:inline-flex;align-items:center;gap:3px;padding:4px 10px;border-radius:var(--radius-xs);font-size:10px;font-weight:600;border:1px solid transparent}
+.ds-q{background:var(--yellow-bg);color:var(--yellow);border-color:rgba(217,119,6,.12)}
+.ds-r{background:var(--blue-bg);color:var(--blue);border-color:rgba(37,99,235,.12)}
+.ds-dl{background:var(--blue-bg);color:var(--blue);border-color:rgba(37,99,235,.12)}
+.ds-ok{background:var(--green-bg);color:var(--green);border-color:rgba(5,150,105,.12)}
+.ds-err{background:var(--red-bg);color:var(--red);border-color:rgba(220,38,38,.12);cursor:pointer}
+.ds-err:hover{background:var(--red);color:#fff}
+
+/* ═══════════════════════════════════════════════════════════════
+   EMPTY & SKELETON
+   ═══════════════════════════════════════════════════════════════ */
+.empty{padding:24px 16px;text-align:center;color:var(--txt3)}
+.empty p{font-size:11.5px;font-weight:400}
+.skel{padding:10px 16px;border-bottom:1px solid var(--border)}
+.skel-bar{height:10px;border-radius:4px;background:linear-gradient(90deg,var(--bg2) 25%,var(--bg3) 50%,var(--bg2) 75%);background-size:200% 100%;animation:shimmer 1.5s ease-in-out infinite;margin-bottom:5px}
+@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+
+/* ═══════════════════════════════════════════════════════════════
+   ACCURACY AUDIT MODAL
+   ═══════════════════════════════════════════════════════════════ */
+.audit-overlay{position:fixed;inset:0;background:rgba(0,0,0,.45);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);z-index:500;display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .2s}
+.audit-overlay.open{opacity:1;pointer-events:all}
+.audit-modal{background:var(--surf);border-radius:var(--radius);border:1px solid var(--border2);box-shadow:var(--shadow-lg);width:min(1100px,96vw);max-height:88vh;display:flex;flex-direction:column;overflow:hidden;transform:translateY(12px);transition:transform .2s}
+.audit-overlay.open .audit-modal{transform:none}
+.audit-hdr{padding:18px 24px 14px;border-bottom:1px solid var(--border);display:flex;align-items:baseline;gap:10px}
+.audit-hdr h2{font-size:15px;font-weight:800;flex:1}
+.audit-sub{font-size:11px;color:var(--txt3);font-weight:500}
+.audit-close{background:transparent;border:none;cursor:pointer;font-size:18px;color:var(--txt3);width:28px;height:28px;border-radius:var(--radius-xs);display:flex;align-items:center;justify-content:center;transition:all var(--transition)}
+.audit-close:hover{background:var(--bg3);color:var(--txt)}
+.audit-body{overflow-y:auto;flex:1;padding:20px 24px}
+.audit-body::-webkit-scrollbar{width:4px}.audit-body::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
+.audit-loading{padding:48px;text-align:center;color:var(--txt3)}
+.audit-spin{width:32px;height:32px;border:3px solid var(--bg3);border-top-color:var(--txt);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 14px}
+.audit-summary{display:flex;gap:0;border:1px solid var(--border);border-radius:var(--radius-sm);overflow:hidden;margin-bottom:18px}
+.audit-summary .as-stat{flex:1;padding:14px 10px;text-align:center;border-right:1px solid var(--border)}.audit-summary .as-stat:last-child{border-right:none}
+.as-val{font-size:20px;font-weight:800;line-height:1}
+.as-lbl{font-size:9.5px;font-weight:600;text-transform:uppercase;letter-spacing:.7px;color:var(--txt3);margin-top:3px}
+.audit-tbl{width:100%;border-collapse:collapse}
+.audit-tbl th{font-size:9.5px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--txt3);padding:7px 10px;text-align:left;border-bottom:2px solid var(--border);white-space:nowrap}
+.audit-tbl td{padding:10px 10px;border-bottom:1px solid var(--border);font-size:11.5px;vertical-align:top}
+.audit-tbl tr:hover td{background:var(--bg2)}
+.audit-acc-bar{height:5px;border-radius:3px;background:var(--bg3);overflow:hidden;width:60px;display:inline-block;vertical-align:middle;margin-right:5px}
+.audit-acc-fill{height:100%;border-radius:3px}
+.audit-fail-row{margin-top:5px}
+.audit-fail-item{background:var(--red-bg);border:1px solid rgba(220,38,38,.1);border-radius:var(--radius-xs);padding:5px 8px;margin-top:3px;font-size:10px}
+.audit-fail-item a{color:var(--blue);text-decoration:none;font-size:9.5px;word-break:break-all;display:block;margin-top:2px}
+.audit-fail-item a:hover{text-decoration:underline}
+.audit-empty-note{font-size:10px;color:var(--txt3);padding:10px 0;border-top:1px solid var(--border);margin-top:10px}
+
+/* ═══════════════════════════════════════════════════════════════
+   SPINNER
+   ═══════════════════════════════════════════════════════════════ */
+.spinner-sm{width:12px;height:12px;border:2px solid var(--border);border-top-color:var(--txt);border-radius:50%;animation:spin .6s linear infinite;display:inline-block}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ═══════════════════════════════════════════════════════════════
+   DOWNLOAD FULL-SCREEN MODAL
+   ═══════════════════════════════════════════════════════════════ */
+/* Full-screen overlay */
+.dl-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);z-index:400;display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .2s ease}
+.dl-overlay.open{opacity:1;pointer-events:all}
+/* Modal box */
+.dl-modal{background:var(--surf);border:1px solid var(--border2);border-radius:var(--radius);box-shadow:var(--shadow-lg);width:min(1200px,96vw);height:min(840px,92vh);display:flex;flex-direction:column;overflow:hidden}
+.dl-modal-hdr{padding:14px 20px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border);flex-shrink:0;background:var(--surf2)}
+.dl-modal-hdr h2{font-size:14px;font-weight:700;color:var(--txt);margin:0}
+.dl-modal-hdr-right{display:flex;align-items:center;gap:10px}
+/* Stats pills row */
+.dl-stats-bar{display:flex;align-items:center;gap:8px;padding:8px 20px;border-bottom:1px solid var(--border);flex-shrink:0;background:var(--surf2)}
+.dl-stat-pill{font-size:10px;font-weight:700;padding:3px 10px;border-radius:12px;letter-spacing:.2px}
+.dl-sp-active{background:rgba(37,99,235,.1);color:var(--blue);border:1px solid rgba(37,99,235,.2)}
+.dl-sp-done{background:var(--green-bg);color:var(--green);border:1px solid var(--green-glow)}
+.dl-sp-err{background:var(--red-bg);color:var(--red);border:1px solid var(--red-glow)}
+.dl-sp-label{font-size:10px;color:var(--txt3);font-weight:500}
+/* Modal body: left + right columns */
+.dl-modal-body{display:flex;flex:1;overflow:hidden}
+/* LEFT COLUMN — in-progress */
+.dl-col-left{width:310px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden}
+.dl-col-hdr{padding:9px 16px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--txt3);border-bottom:1px solid var(--border);flex-shrink:0;background:var(--surf2)}
+.dl-active-list{overflow-y:auto;flex:1}
+.dl-active-list::-webkit-scrollbar{width:4px}
+.dl-active-list::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
+.dli{padding:10px 14px;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;gap:8px}
+.dli:last-child{border-bottom:none}
+.dli-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;margin-top:4px}
+.dli-dot.d-active{background:var(--blue);animation:dl-pulse 1.2s ease-in-out infinite}
+.dli-dot.d-queue{background:var(--txt3)}
+.dli-dot.d-retry{background:var(--yellow)}
+@keyframes dl-pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.8)}}
+.dli-info{flex:1;min-width:0}
+.dli-name{font-size:11px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--txt)}
+.dli-sub{font-size:10px;margin-top:3px;display:flex;gap:5px;align-items:center;flex-wrap:wrap}
+.dli-tag{font-size:9px;font-weight:600;padding:2px 6px;border-radius:4px}
+/* RIGHT COLUMN — completed + failed tabs */
+.dl-col-right{flex:1;display:flex;flex-direction:column;overflow:hidden}
+.dl-tabs{display:flex;border-bottom:1px solid var(--border);flex-shrink:0;background:var(--surf2)}
+.dl-tab-btn{padding:10px 20px;font-size:11px;font-weight:600;color:var(--txt3);background:transparent;border:none;cursor:pointer;border-bottom:2px solid transparent;transition:all .18s;white-space:nowrap}
+.dl-tab-btn.active{color:var(--txt);border-bottom-color:var(--txt);background:var(--surf)}
+.dl-tab-btn:hover:not(.active){color:var(--txt2);background:var(--bg3)}
+.dl-tab-pane{display:none;flex:1;overflow:hidden;flex-direction:column}
+.dl-tab-pane.active{display:flex}
+/* Completed table inside right panel */
+.dl-tbl-wrap{overflow-y:auto;flex:1}
+.dl-tbl-wrap::-webkit-scrollbar{width:4px}
+.dl-tbl-wrap::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
+.dl-tbl{width:100%;border-collapse:collapse;font-size:11px}
+.dl-tbl thead th{padding:8px 12px;text-align:left;font-size:10px;font-weight:700;color:var(--txt3);text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid var(--border);background:var(--surf2);position:sticky;top:0;z-index:1}
+.dl-tbl tbody tr{border-bottom:1px solid var(--border);transition:background .12s}
+.dl-tbl tbody tr:hover{background:var(--bg3)}
+.dl-tbl td{padding:7px 12px;vertical-align:middle;color:var(--txt)}
+.dl-tbl td.td-num{color:var(--txt3);width:36px;text-align:right;font-size:10px}
+.dl-tbl td.td-title{max-width:300px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:500}
+.dl-tbl td.td-src{width:110px}
+.dl-tbl td.td-size{color:var(--txt3);white-space:nowrap;width:70px}
+.dl-tbl td.td-date{color:var(--txt3);white-space:nowrap;width:90px}
+.dl-tbl td.td-links{width:80px}
+.dl-tbl td.td-links a{font-size:10px;color:var(--blue);text-decoration:none;margin-right:6px}
+.dl-tbl td.td-links a:hover{text-decoration:underline}
+/* Failed items in right panel */
+.dl-fail-wrap{overflow-y:auto;flex:1;padding:12px}
+.dl-fail-wrap::-webkit-scrollbar{width:4px}
+.dl-fail-wrap::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
+.dl-fail-item{background:var(--surf2);border:1px solid rgba(220,38,38,.2);border-left:3px solid var(--red);border-radius:var(--radius-sm);padding:12px 14px;margin-bottom:10px}
+.dl-fail-item:last-child{margin-bottom:0}
+.dl-fail-name{font-size:11px;font-weight:600;color:var(--txt);margin-bottom:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dl-fail-err{font-size:10px;color:var(--red);line-height:1.5;margin-bottom:8px}
+.dl-fail-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.dl-btn-save{font-size:10px;font-weight:600;padding:4px 12px;border-radius:var(--radius-xs);background:var(--txt);color:#fff;border:none;cursor:pointer;white-space:nowrap;transition:opacity .15s}
+.dl-btn-save:hover{opacity:.8}
+.dl-btn-save:disabled{opacity:.4;cursor:default}
+.dl-btn-save.saved{background:var(--green)}
+.dl-btn-open{font-size:10px;font-weight:500;padding:4px 10px;border-radius:var(--radius-xs);background:transparent;color:var(--blue);border:1px solid rgba(37,99,235,.3);cursor:pointer;text-decoration:none;display:inline-block;white-space:nowrap;transition:background .15s}
+.dl-btn-open:hover{background:var(--blue-bg)}
+.dl-empty{padding:36px 16px;text-align:center;color:var(--txt3);font-size:11px}
+/* Close button */
+.dl-modal-close{background:transparent;border:none;cursor:pointer;font-size:20px;color:var(--txt3);width:28px;height:28px;border-radius:var(--radius-xs);display:flex;align-items:center;justify-content:center;transition:all var(--transition)}
+.dl-modal-close:hover{background:var(--bg3);color:var(--txt)}
+
+/* ═══════════════════════════════════════════════════════════════
+   TOAST
+   ═══════════════════════════════════════════════════════════════ */
+.toast{position:fixed;top:16px;right:16px;background:var(--surf);border:1px solid var(--border);border-radius:var(--radius-sm);padding:12px 18px;box-shadow:var(--shadow-lg);font-size:12px;font-weight:500;z-index:999;transform:translateX(120%);transition:transform .3s cubic-bezier(.4,0,.2,1);max-width:360px;color:var(--txt)}
+.toast.on{transform:translateX(0)}
+.toast.ok{border-left:3px solid var(--green)}
+.toast.info{border-left:3px solid var(--blue)}
+.toast.warn{border-left:3px solid var(--yellow)}
+.toast.err{border-left:3px solid var(--red)}
+
+/* DL info pill in controls bar */
+.dl-info{font-size:11px;color:var(--txt2);display:inline-flex;align-items:center;gap:5px;padding:4px 10px;background:var(--bg2);border-radius:var(--radius-xs);border:1px solid var(--border)}
+.dl-toggle{display:none;cursor:pointer;font-size:11px;font-weight:600;color:var(--txt2);padding:4px 10px;background:var(--bg2);border-radius:var(--radius-xs);border:1px solid var(--border)}
+.dl-toggle:hover{color:var(--txt);background:var(--bg3)}
+
+/* ═══════════════════════════════════════════════════════════════
+   RESPONSIVE
+   ═══════════════════════════════════════════════════════════════ */
+@media(max-width:768px){
+  .hero,.controls,.cat-bar,.status-strip,.main-area{padding-left:16px;padding-right:16px}
+  .hero-stats{gap:10px}
+  .hero-stat .hs-val{font-size:16px}
+  .ctrl-search{width:140px}
+  .ctrl-input[type="date"]{width:110px}
+  .card-hdr{padding:10px 14px 8px}
+}
+@media(min-width:769px) and (max-width:1100px){
+  .grid{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+
+<!-- ═══ HERO ═══ -->
+<header class="hero">
+  <div class="hero-top">
+    <div class="brand">
+      <div class="brand-icon">
+        <svg viewBox="0 0 24 24"><path d="M20 7h-4V5c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zM10 5h4v2h-4V5zm10 14H4V9h16v10z"/></svg>
+      </div>
+      <div>
+        <h1>Lucio AI Briefcase Repositories Automation Machine</h1>
+        <p>Built By Mohit Sharma</p>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat stat-ok"><div class="hs-val" id="stat-sources">0</div><div class="hs-label">Sources</div></div>
+      <div class="hero-stat"><div class="hs-val" id="stat-docs">0</div><div class="hs-label">Documents</div></div>
+      <div class="hero-stat stat-load"><div class="hs-val" id="stat-loading">0</div><div class="hs-label">Loading</div></div>
+      <div class="hero-stat stat-err"><div class="hs-val" id="stat-errors">0</div><div class="hs-label">Errors</div></div>
+    </div>
+  </div>
+  <div class="global-progress"><div class="global-progress-bar" id="gp-bar" style="width:0%"></div></div>
+  <div class="progress-label"><span id="gp-left">Starting up...</span><span id="gp-right"></span></div>
+</header>
+
+<!-- ═══ NAVIGATION ═══ -->
+<div class="sticky-nav">
+<div class="controls">
+  <input type="date" class="ctrl-input" id="date-from" onchange="onFilterChange()">
+  <span style="color:var(--txt3);font-size:10px;font-weight:500">to</span>
+  <input type="date" class="ctrl-input" id="date-to" onchange="onFilterChange()">
+  <div class="ctrl-sep"></div>
+  <input type="text" class="ctrl-input ctrl-search" id="search" placeholder="Search documents..." oninput="onFilterChange()">
+  <div class="ctrl-actions">
+    <button class="btn btn-ghost" onclick="resetFilters()">Reset</button>
+    <button class="btn btn-primary" id="refresh-btn" onclick="refreshAll()">Refresh</button>
+    <button class="btn btn-green" onclick="downloadAll()">Download All</button>
+    <button class="btn" onclick="retryErrors()">Retry</button>
+    <button class="btn" id="audit-btn" onclick="runAudit()" title="Verify all scraped PDF links are accessible">Audit</button>
+  </div>
+  <span class="status-pill" id="h-status" style="display:none"></span>
+  <div class="dl-info" id="dl-summary" style="display:none"><span class="spinner-sm"></span> <span id="dl-sm-txt"></span></div>
+  <div class="dl-toggle" id="dlp-toggle" onclick="openDlModal()">Downloads <b id="dlp-cnt">0</b></div>
+</div>
+<!-- ═══ CATEGORY PILLS ═══ -->
+<div class="cat-bar" id="cat-bar"></div>
+</div>
+
+<!-- ═══ STATUS STRIP — one dot per source ═══ -->
+<div class="status-strip" id="status-strip"></div>
+
+<!-- ═══ GRID ═══ -->
+<div class="main-area"><div class="grid" id="grid"></div></div>
+
+<!-- ═══ DOWNLOAD FULL-SCREEN MODAL ═══ -->
+<div class="dl-overlay" id="dl-overlay" onclick="if(event.target===this)closeDlModal()">
+  <div class="dl-modal">
+    <!-- Header -->
+    <div class="dl-modal-hdr">
+      <h2>📥 Downloads</h2>
+      <div class="dl-modal-hdr-right">
+        <div class="dl-stats-bar" id="dl-stats-bar" style="border:none;padding:0;background:none">
+          <span class="dl-stat-pill dl-sp-active"><span id="dls-active">0</span> active</span>
+          <span class="dl-stat-pill dl-sp-done"><span id="dls-done">0</span> done</span>
+          <span class="dl-stat-pill dl-sp-err"><span id="dls-err">0</span> failed</span>
+          <span class="dl-sp-label">→ Desktop/Repositories/</span>
+        </div>
+        <button class="btn" style="font-size:10px;padding:4px 10px" onclick="retryErrors()">Retry All Errors</button>
+        <button class="dl-modal-close" onclick="closeDlModal()">&#215;</button>
+      </div>
+    </div>
+    <!-- Body -->
+    <div class="dl-modal-body">
+      <!-- LEFT: In-progress -->
+      <div class="dl-col-left">
+        <div class="dl-col-hdr">⟳ In Progress</div>
+        <div class="dl-active-list" id="dl-active-list">
+          <div class="dl-empty">No active downloads</div>
+        </div>
+      </div>
+      <!-- RIGHT: Completed / Failed tabs -->
+      <div class="dl-col-right">
+        <div class="dl-tabs">
+          <button class="dl-tab-btn active" id="dtab-done-btn" onclick="switchDlTab('done')">✔ Completed <span id="dtab-done-cnt" style="opacity:.6"></span></button>
+          <button class="dl-tab-btn" id="dtab-fail-btn" onclick="switchDlTab('fail')">✕ Failed <span id="dtab-fail-cnt" style="opacity:.6"></span></button>
+        </div>
+        <!-- Completed tab -->
+        <div class="dl-tab-pane active" id="dtab-done">
+          <div class="dl-tbl-wrap">
+            <table class="dl-tbl">
+              <thead><tr><th class="td-num">#</th><th>Title</th><th>Source</th><th>Size</th><th>Date</th><th>Links</th></tr></thead>
+              <tbody id="dl-done-tbody"><tr><td colspan="6" class="dl-empty">No completed downloads yet</td></tr></tbody>
+            </table>
+          </div>
+        </div>
+        <!-- Failed tab -->
+        <div class="dl-tab-pane" id="dtab-fail">
+          <div class="dl-fail-wrap" id="dl-fail-list">
+            <div class="dl-empty">No failed downloads 🎉</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<!-- ═══ ACCURACY AUDIT MODAL ═══ -->
+<div class="audit-overlay" id="audit-overlay" onclick="if(event.target===this)closeAudit()">
+  <div class="audit-modal">
+    <div class="audit-hdr">
+      <h2>Accuracy Audit</h2>
+      <span class="audit-sub" id="audit-sub">Verifying PDF links for all sources</span>
+      <button class="audit-close" onclick="closeAudit()">&#215;</button>
+    </div>
+    <div class="audit-body" id="audit-body">
+      <div class="audit-loading"><div class="audit-spin"></div><p style="font-weight:500">Checking documents...</p><p style="font-size:10px;margin-top:4px">This takes 30–90 seconds</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- For hidden compat refs -->
+<span id="h-sources" style="display:none">0</span>
+<span id="h-docs" style="display:none">0</span>
+
+<script>
+// =================================================================
+//  CONFIG
+// =================================================================
+const CATS = {
+  SEBI:  { color:'#6c5ce7', label:'SEBI', region:'national' },
+  BSE:   { color:'#10b981', label:'BSE', region:'national' },
+  CCI:   { color:'#a78bfa', label:'CCI', region:'national' },
+  RBI:   { color:'#f43f5e', label:'RBI', region:'national' },
+  IRDAI: { color:'#fbbf24', label:'IRDAI', region:'national' },
+  INX:   { color:'#06b6d4', label:'India INX', region:'national' },
+  RERA:  { color:'#ec4899', label:'RERA', region:'national' },
+  TRAI:    { color:'#818cf8', label:'TRAI', region:'national' },
+  GST:     { color:'#14b8a6', label:'GST', region:'national' },
+  IBBI:    { color:'#f97316', label:'IBBI/NCLT', region:'national' },
+  EU_COMP: { color:'#003399', label:'EU Competition', region:'international' },
+  EPO_BOA: { color:'#0070c0', label:'EPO', region:'international' },
+  EDPB:    { color:'#004494', label:'GDPR (EDPB)', region:'international' },
+  UAE:     { color:'#00732f', label:'UAE', region:'international' },
+  UK:      { color:'#1d4ed8', label:'UK Tribunals', region:'international' },
+};
+
+const SRC = {
+  RHP:             { label:'SEBI RHP',            desc:'Red Herring Prospectus',           cat:'SEBI',  url:'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=15&smid=11' },
+  DRHP:            { label:'SEBI DRHP',           desc:'Draft Red Herring Prospectus',     cat:'SEBI',  url:'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=15&smid=10' },
+  RIGHTS_LOF:      { label:'Rights LoF',          desc:'Rights Issue Final LoFs',          cat:'SEBI',  url:'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=16&smid=14' },
+  INVIT_RI_FINAL:  { label:'InvIT RI Final',      desc:'Rights Issue Final Offer',         cat:'SEBI',  url:'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=89&smid=124' },
+  INVIT_RI_DRAFT:  { label:'InvIT RI Draft',      desc:'Rights Issue Draft Offer',         cat:'SEBI',  url:'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=89&smid=127' },
+  INVIT_PUB_FINAL: { label:'InvIT Pub Final',     desc:'Public Issue Final Offer',         cat:'SEBI',  url:'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=55&smid=73' },
+  INVIT_PUB_DRAFT: { label:'InvIT Pub Draft',     desc:'Public Issue Draft Offer',         cat:'SEBI',  url:'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=55&smid=66' },
+  INVIT_PVT_FINAL: { label:'InvIT Pvt Final',     desc:'Private Issue Final Offer',        cat:'SEBI',  url:'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=73&smid=76' },
+  INVIT_PVT_DRAFT: { label:'InvIT Pvt Draft',     desc:'Private Issue Draft Offer',        cat:'SEBI',  url:'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=73&smid=121' },
+  REIT_FINAL:      { label:'REIT Final',          desc:'Final Offer Document',             cat:'SEBI',  url:'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=74&smid=83' },
+  REIT_DRAFT:      { label:'REIT Draft',          desc:'Draft Offer Document',             cat:'SEBI',  url:'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=74&smid=80' },
+  SEBI_INFORMAL:   { label:'Informal Guidance',   desc:'Informal Guidance Letters',        cat:'SEBI',  url:'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=10&smid=0' },
+  SEBI_CONSULT:    { label:'Consultation',        desc:'Consultation Papers',              cat:'SEBI',  url:'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35' },
+  SEBI_CIRCULARS:  { label:'SEBI Circulars',     desc:'SEBI Circulars',                   cat:'SEBI',  url:'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0' },
+  SEBI_FINAL_OFFER:{ label:'Final Offer Docs',   desc:'Public Issues Final Offer Documents', cat:'SEBI', url:'https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=15&smid=12' },
+  SEBI_LODR:       { label:'SEBI LODR',          desc:'Listing Obligations & Disclosure Requirements Regulations', cat:'SEBI', url:'https://www.sebi.gov.in/legal/regulations/feb-2023/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015-last-amended-on-february-07-2023-_69224.html' },
+  SEBI_ICDR:       { label:'SEBI ICDR',          desc:'Issue of Capital & Disclosure Requirements Regulations', cat:'SEBI', url:'https://www.sebi.gov.in/legal/regulations/may-2024/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018-last-amended-on-may-17-2024-_80421.html' },
+  SEBI_TAKEOVER:   { label:'SEBI Takeover',      desc:'Substantial Acquisition of Shares & Takeovers Regulations', cat:'SEBI', url:'https://www.sebi.gov.in/legal/regulations/may-2024/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011-last-amended-on-may-17-2024-_69218.html' },
+  SEBI_AIF:        { label:'SEBI AIF',           desc:'Alternative Investment Funds Regulations', cat:'SEBI', url:'https://www.sebi.gov.in/legal/regulations/aug-2024/securities-and-exchange-board-of-india-alternative-investment-funds-regulations-2012-last-amended-on-august-06-2024-_85618.html' },
+  BSE_PLACEMENT:   { label:'BSE Placement',       desc:'QIP Placement Document',           cat:'BSE',   url:'https://www.bseindia.com/corporates/qip.aspx' },
+  BSE_PRELIMINARY: { label:'BSE Preliminary',     desc:'Draft / Preliminary Placement',    cat:'BSE',   url:'https://www.bseindia.com/corporates/qip.aspx' },
+  CCI_FORM1:       { label:'CCI Form I',          desc:'Combination Orders s.31',          cat:'CCI',   url:'https://www.cci.gov.in/combination/orders-section31' },
+  CCI_FORM2:       { label:'CCI Form II',         desc:'Combination Orders s.31',          cat:'CCI',   url:'https://www.cci.gov.in/combination/orders-section31' },
+  CCI_FORM3:       { label:'CCI Form III',        desc:'Combination Orders s.31',          cat:'CCI',   url:'https://www.cci.gov.in/combination/orders-section31' },
+  CCI_GUN_JUMPING: { label:'Gun Jumping',         desc:'Orders s.43A & 44',               cat:'CCI',   url:'https://www.cci.gov.in/combination/orders-section43a_44' },
+  CCI_APPROVED_MOD:{ label:'Approved w/ Mod',     desc:'Approved with Modifications',      cat:'CCI',   url:'https://www.cci.gov.in/combination/cases-approved-with-modification' },
+  CCI_ANTI_S26_1:  { label:'CCI S26(1)',          desc:'Antitrust Orders',                 cat:'CCI',   url:'https://www.cci.gov.in/antitrust/orders/list' },
+  CCI_ANTI_S26_2:  { label:'CCI S26(2)',          desc:'Antitrust Orders',                 cat:'CCI',   url:'https://www.cci.gov.in/antitrust/orders/list' },
+  CCI_ANTI_S26_6:  { label:'CCI S26(6)',          desc:'Antitrust Orders',                 cat:'CCI',   url:'https://www.cci.gov.in/antitrust/orders/list' },
+  CCI_ANTI_S26_7:  { label:'CCI S26(7)',          desc:'Antitrust Orders',                 cat:'CCI',   url:'https://www.cci.gov.in/antitrust/orders/list' },
+  CCI_ANTI_S27:    { label:'CCI S27',             desc:'Antitrust Orders',                 cat:'CCI',   url:'https://www.cci.gov.in/antitrust/orders/list' },
+  CCI_ANTI_S33:    { label:'CCI S33',             desc:'Antitrust Orders',                 cat:'CCI',   url:'https://www.cci.gov.in/antitrust/orders/list' },
+  CCI_ANTI_OTHER:  { label:'CCI Other',           desc:'Other Antitrust Orders',           cat:'CCI',   url:'https://www.cci.gov.in/antitrust/orders/list' },
+  CCI_GREEN:       { label:'Green Channel',       desc:'Green Channel Notices',            cat:'CCI',   url:'https://www.cci.gov.in/combination/green-channel' },
+  RBI_MD:          { label:'Master Directions',   desc:'RBI Master Directions',            cat:'RBI',   url:'https://rbi.org.in/scripts/bs_viewmasterdirections.aspx' },
+  RBI_MC:          { label:'Master Circulars',    desc:'RBI Master Circulars',             cat:'RBI',   url:'https://rbi.org.in/Scripts/BS_ViewMasterCirculardetails.aspx' },
+  RBI_MD_COMM:     { label:'MD Comm Banks',       desc:'Commercial Banks',                 cat:'RBI',   url:'https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=403' },
+  RBI_MD_SFB:      { label:'MD SFBs',             desc:'Small Finance Banks',              cat:'RBI',   url:'https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=404' },
+  RBI_MD_PAY:      { label:'MD Pay Banks',        desc:'Payments Banks',                   cat:'RBI',   url:'https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=405' },
+  RBI_MD_LAB:      { label:'MD Local Area',       desc:'Local Area Banks',                 cat:'RBI',   url:'https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=406' },
+  RBI_MD_RRB:      { label:'MD RRBs',             desc:'Regional Rural Banks',             cat:'RBI',   url:'https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=407' },
+  RBI_MD_UCB:      { label:'MD UCBs',             desc:'Urban Co-operative Banks',         cat:'RBI',   url:'https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=408' },
+  RBI_MD_RCB:      { label:'MD RCBs',             desc:'Rural Co-operative Banks',         cat:'RBI',   url:'https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=409' },
+  RBI_MD_AIFI:     { label:'MD AIFIs',            desc:'All India Financial Institutions',  cat:'RBI',   url:'https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=410' },
+  RBI_MD_NBFC:     { label:'MD NBFCs',            desc:'Non-Banking Fin. Companies',       cat:'RBI',   url:'https://www.rbi.org.in/Scripts/BS_ViewMasterDirections.aspx?did=411' },
+  RBI_FEMA_DIR:    { label:'FEMA Directions',    desc:'FEMA Master Directions',           cat:'RBI',   url:'https://www.rbi.org.in/scripts/FS_Notification.aspx?fn=5&fnn=2764' },
+  RBI_FEMA_CIRC:   { label:'FEMA Circulars',     desc:'FEMA Master Circulars',            cat:'RBI',   url:'https://www.rbi.org.in/scripts/FS_Notification.aspx?fn=5&fnn=2763' },
+  RBI_FEMA_NOTIF:  { label:'FEMA Notifications', desc:'FEMA/FDI All Notifications',       cat:'RBI',   url:'https://www.rbi.org.in/scripts/FS_Notification.aspx?fn=5' },
+  IRDAI_CIRC:      { label:'IRDAI Circulars',     desc:'Master Circulars',                 cat:'IRDAI', url:'https://irdai.gov.in/circulars' },
+  IRDAI_REGS:      { label:'IRDAI Regulations',   desc:'Gazette Notified Regulations',     cat:'IRDAI', url:'https://irdai.gov.in/consolidated-gazette-notified-regulations' },
+  INX_CIRC:        { label:'INX Circulars',       desc:'Circulars & Notices',              cat:'INX',   url:'https://www.indiainx.com/markets/CircularsLR.aspx' },
+  INX_ISSUER:      { label:'INX Issuer Docs',     desc:'Issuer Documents',                 cat:'INX',   url:'https://www.indiainx.com/static/issuer_details.aspx' },
+  TG_RERA_ADJ:     { label:'TG Adjudication',     desc:'Adjudicating Officer Orders',      cat:'RERA',  url:'https://rera.telangana.gov.in' },
+  TG_RERA_AUTH:    { label:'TG Authority',        desc:'Authority Orders',                 cat:'RERA',  url:'https://rera.telangana.gov.in' },
+  TG_RERA_SUO:     { label:'TG Suo Motu',         desc:'Suo Motu Orders',                  cat:'RERA',  url:'https://rera.telangana.gov.in' },
+  TG_RERA_CIRC:    { label:'TG Circulars',        desc:'Telangana RERA Circulars',         cat:'RERA',  url:'https://rera.telangana.gov.in' },
+  TN_RERA:         { label:'TN RERA Orders',      desc:'Tamil Nadu RERA Final Orders',     cat:'RERA',  url:'https://rera.tn.gov.in' },
+  DTCP_KA:         { label:'DTCP Karnataka',      desc:'Town & Country Planning Circulars', cat:'RERA', url:'http://www.dtcp.gov.in/en/circulars' },
+  MAHA_RERA:       { label:'MahaRERA',            desc:'Maharashtra RERA Circulars',       cat:'RERA',  url:'https://maharera.maharashtra.gov.in/circular' },
+  KA_REAT:         { label:'K-REAT Orders',       desc:'Karnataka REAT Judgments',         cat:'RERA',  url:'https://rera.karnataka.gov.in/tribunalDisposedList' },
+  KA_RERA:         { label:'K-RERA Orders',       desc:'Karnataka RERA Judgments',         cat:'RERA',  url:'https://rera.karnataka.gov.in/tribunalDisposedList' },
+  HR_REAT:         { label:'HR REAT',             desc:'Haryana REAT Rulings',             cat:'RERA',  url:'https://haryanarera.gov.in/admincontrol/judgements/3' },
+  DL_REAT:         { label:'DL REAT',             desc:'Delhi REAT Orders',                cat:'RERA',  url:'https://www.rera.delhi.gov.in/reat_cases_orders' },
+  TRAI_DIR:        { label:'Directions',          desc:'TRAI Directions',                  cat:'TRAI',  url:'https://www.trai.gov.in/release-publication/directions' },
+  TRAI_REG:        { label:'Regulations',         desc:'TRAI Regulations',                 cat:'TRAI',  url:'https://www.trai.gov.in/release-publication/regulations' },
+  TRAI_REC:        { label:'Recommendations',     desc:'TRAI Recommendations',             cat:'TRAI',  url:'https://www.trai.gov.in/release-publication/recommendation' },
+  TRAI_CON:        { label:'Consultation',        desc:'TRAI Consultation Papers',         cat:'TRAI',  url:'https://www.trai.gov.in/release-publication/consultation' },
+  CGST_CIRC:       { label:'CGST Circulars',      desc:'CGST Circulars from GST Council',  cat:'GST',   url:'https://gstcouncil.gov.in/cgst-circulars' },
+  IBBI_RES:        { label:'IBBI Resolution',     desc:'NCLT Resolution Plan Orders',      cat:'IBBI',    url:'https://ibbi.gov.in/orders/nclt?title=Resolution' },
+  IBBI_ADM:        { label:'IBBI Admission',      desc:'NCLT Admission Orders',            cat:'IBBI',    url:'https://ibbi.gov.in/orders/nclt?title=Admission' },
+  EU_MERGER:       { label:'EU Mergers (2004)',   desc:'EC Reg.139/2004 Decisions',        cat:'EU_COMP', url:'https://competition-cases.ec.europa.eu/search?caseInstrument=M&sortField=caseLastDecisionDate&sortOrder=DESC' },
+  EU_ANTITRUST:    { label:'EU Antitrust & Cartels', desc:'Antitrust & Cartel Decisions',  cat:'EU_COMP', url:'https://competition-cases.ec.europa.eu/search?caseInstrument=AT&pageSize=50&sortField=caseLastDecisionDate&sortOrder=DESC' },
+  EU_DMA:          { label:'EU DMA',              desc:'Digital Markets Act Decisions',    cat:'EU_COMP', url:'https://competition-cases.ec.europa.eu/search?caseInstrument=InstrumentDMA&pageSize=50&sortField=caseLastDecisionDate&sortOrder=DESC' },
+  EU_FS:           { label:'EU Foreign Subsidies', desc:'Foreign Subsidies Decisions',     cat:'EU_COMP', url:'https://competition-cases.ec.europa.eu/search?caseInstrument=InstrumentFS&pageSize=50&sortField=caseLastDecisionDate&sortOrder=DESC' },
+  EPO_BOA:         { label:'EPO BoA Decisions',   desc:'Board of Appeal Decisions (2026)', cat:'EPO_BOA', url:'https://www.epo.org/en/case-law-appeals/decisions/recent?year=2026&items_per_page=100&page=0' },
+  EDPB_GUIDELINES:  { label:'GDPR Guidelines',       desc:'Guidelines, Recommendations & Best Practices', cat:'EDPB', url:'https://www.edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en' },
+  EDPB_BINDING:     { label:'Binding Decisions',     desc:'GDPR Art.65 Binding Decisions (all time)',      cat:'EDPB', url:'https://www.edpb.europa.eu/our-work-tools/consistency-findings/binding-decisions_en' },
+  EDPB_OPINIONS:    { label:'GDPR Opinions',         desc:'Consistency Findings – Opinions',               cat:'EDPB', url:'https://www.edpb.europa.eu/our-work-tools/consistency-findings/opinions_en' },
+  ADGM_ORDERS:      { label:'ADGM Judgments',        desc:'Abu Dhabi Global Market Courts Judgments',      cat:'UAE',  url:'https://www.adgm.com/adgm-courts/judgments' },
+  DIFC_CA_ORDERS:   { label:'DIFC Court of Appeal',  desc:'DIFC Court of Appeal Judgments & Orders',       cat:'UAE',  url:'https://www.difccourts.ae/rules-decisions/judgments-orders/court-appeal' },
+  MOHRE_LAWS:       { label:'MOHRE Laws',            desc:'UAE Labour Laws & Regulations',                 cat:'UAE',  url:'https://www.mohre.gov.ae/en/laws-and-regulations/laws' },
+  MOHRE_RESOLUTIONS:{ label:'MOHRE Resolutions',     desc:'UAE Ministry Resolutions & Circulars',          cat:'UAE',  url:'https://www.mohre.gov.ae/en/laws-and-regulations/resolutions-and-circulars' },
+    // UK Tribunal & Competition Sources
+    UK_ET_ENG:       { label:'Employment Tribunal (England)', desc:'Employment Tribunal Decisions - England (Unfair Dismissal)', cat:'UK', url:'https://www.gov.uk/employment-tribunal-decisions?tribunal_decision_country%5B%5D=england-and-wales&tribunal_decision_categories%5B%5D=unfair-dismissal&tribunal_decision_decision_date%5Bfrom%5D=01/01/2026' },
+    UK_AAC:          { label:'Admin Appeals Chamber', desc:'UK Administrative Appeals Chamber (Upper Tribunal)', cat:'UK', url:'https://www.gov.uk/administrative-appeals-tribunal-decisions?tribunal_decision_decision_date%5Bfrom%5D=01/01/2026' },
+    UK_CAT:          { label:'UK CAT Judgments',      desc:'UK Competition Appeal Tribunal Judgments', cat:'UK', url:'https://www.catribunal.org.uk/judgments?query=&neutral_citation_year=2026&neutral_citation_number=' },
+    UK_CMA_MERGERS:  { label:'UK CMA Mergers',        desc:'UK CMA Mergers', cat:'UK', url:'https://www.gov.uk/cma-cases?case_type%5B%5D=mergers&closed_date%5Bfrom%5D=01/01/2026' },
+    UK_CMA_NONMERGER:{ label:'UK CMA Non-Merger',     desc:'UK CMA Non-Merger Orders', cat:'UK', url:'https://www.gov.uk/cma-cases?case_type%5B%5D=ca98-and-civil-cartels&case_type%5B%5D=competition-disqualification&case_type%5B%5D=consumer-enforcement&case_type%5B%5D=criminal-cartels&case_type%5B%5D=digital-markets-unit&case_type%5B%5D=information-and-advice-to-government&case_type%5B%5D=markets&case_type%5B%5D=oim-project&case_type%5B%5D=regulatory-references-and-appeals&case_type%5B%5D=review-of-orders-and-undertakings&case_type%5B%5D=sau-referral&closed_date%5Bfrom%5D=01/01/2026' },
+    UK_EAT:          { label:'Employment Appeal Tribunal', desc:'UK Employment Appeal Tribunal Decisions', cat:'UK', url:'https://www.gov.uk/employment-appeal-tribunal-decisions?tribunal_decision_decision_date%5Bfrom%5D=01/01/2026' },
+    UK_ET_SCOT:      { label:'Employment Tribunal (Scotland)', desc:'UK Employment Tribunal Decisions (Scotland)', cat:'UK', url:'https://www.gov.uk/employment-tribunal-decisions?tribunal_decision_country%5B%5D=scotland&tribunal_decision_decision_date%5Bfrom%5D=01/01/2026' },
+    UK_UTIAC:        { label:'Immigration & Asylum Chamber', desc:'UK Immigration and Asylum Chamber Decisions (Upper Tribunal)', cat:'UK', url:'https://tribunalsdecisions.service.gov.uk/utiac?utf8=%E2%9C%93&search%5Bquery%5D=&search%5Breported%5D=true&search%5Bcountry%5D=&search%5Bcountry_guideline%5D=0&search%5Bjudge%5D=&search%5Bclaimant%5D=' },
+    UK_LAND:         { label:'Land Chamber (Upper Tribunal)', desc:'UK Land Chambers (Upper Tribunal)', cat:'UK', url:'https://caselaw.nationalarchives.gov.uk/search?tribunal=ukut/lc' },
+    UK_TAX_CHANCERY: { label:'Tax & Chancery Tribunal', desc:'UK Tax and Chancery Tribunal Decisions (Upper Tribunal)', cat:'UK', url:'https://www.gov.uk/tax-and-chancery-tribunal-decisions' },
+    UK_TAX_FTT:      { label:'Tax Chamber (First-tier)', desc:'UK Tax Chamber (First-tier Tribunal)', cat:'UK', url:'https://caselaw.nationalarchives.gov.uk/search?query=&court=ukftt/tc&judge=&party=&order=-date&page=' },
+};
+
+const ALL_KEYS = Object.keys(SRC);
+const API = 'http://localhost:8765';
+const TOTAL_SOURCES = ALL_KEYS.length;
+const DEMO_MODE = true;
+
+// =================================================================
+//  STATE
+// =================================================================
+let unified = {}, filtered = {}, selMap = {}, dlProg = {};
+let activeCat = 'ALL', statusTimer = null, dlTimer = null;
+let _loading = false;
+let _lastFetchedSet = '';
+let _srcStatus = {};  // live status per source
+let activeRange  = { from_iso:'', to_iso:'', is_custom: false };
+for (const k of ALL_KEYS) { unified[k]=[]; filtered[k]=[]; selMap[k]=new Set(); }
+
+function _currentMonthRange() {
+  const now = new Date();
+  const from = new Date(now.getFullYear(), now.getMonth(), 1).toISOString().slice(0, 10);
+  const to   = new Date(now.getFullYear(), now.getMonth() + 1, 0).toISOString().slice(0, 10);
+  return { from, to };
+}
+
+// =================================================================
+//  DATE RANGE INIT
+// =================================================================
+async function fetchActiveMonth() {
+  try {
+    const r = await apiFetch('/api/active_month');
+    if (r.is_custom) {
+      activeRange = { from_iso: r.range_from, to_iso: r.range_to, is_custom: true };
+    } else {
+      activeRange = { from_iso: r.from_iso, to_iso: r.to_iso, is_custom: false };
+    }
+    $('date-from').value = activeRange.from_iso;
+    $('date-to').value   = activeRange.to_iso;
+  } catch(e) {
+    const { from, to } = _currentMonthRange();
+    $('date-from').value = from;
+    $('date-to').value   = to;
+  }
+}
+
+// =================================================================
+//  DEMO DATA GENERATOR
+// =================================================================
+function _demoData() {
+  const companies = ['Reliance Industries Ltd','Tata Consultancy Services','HDFC Bank Ltd','Infosys Ltd','Bharti Airtel Ltd','Adani Ports & SEZ','Wipro Ltd','State Bank of India','ICICI Bank Ltd','Mahindra & Mahindra Ltd','ITC Ltd','Larsen & Toubro Ltd','Axis Bank Ltd','HCL Technologies','Kotak Mahindra Bank','Asian Paints Ltd','Sun Pharmaceutical','Bajaj Finance Ltd','Maruti Suzuki India','Titan Company Ltd','Zomato Ltd','Paytm','LIC of India','Bharat Petroleum','Power Grid Corporation','Tech Mahindra','Oil & Natural Gas Corp','JSW Steel','Cipla Ltd','MRF Ltd','Godrej Consumer','Eicher Motors Ltd','InterGlobe Aviation','Vedanta Ltd','Delhivery Ltd','Apollo Hospitals','Nestle India','Siemens Ltd','ABB India','Bosch Ltd','Colgate Palmolive India','Dabur India','Glenmark Pharma','Havells India','Hindalco Industries','NTPC Ltd','Bharat Electronics','Mphasis Ltd','Tata Steel'];
+  const euCompanies = ['Apple Inc','Google LLC','Microsoft Corporation','Meta Platforms','Amazon.com Inc','Samsung Electronics','Qualcomm Inc','Intel Corporation','Nvidia Corp','ASML Holding','SAP SE','Siemens AG','Volkswagen AG','Total Energies','Roche Holding'];
+  const ukCompanies = ['British American Tobacco','Unilever PLC','BP PLC','Shell PLC','HSBC Holdings','Barclays PLC','GlaxoSmithKline','AstraZeneca','Rio Tinto','BHP Group'];
+  const uaeCompanies = ['Emirates NBD','Dubai Islamic Bank','Emaar Properties','ADNOC','DP World','Masdar','Etisalat','Abu Dhabi Commercial Bank','First Abu Dhabi Bank','DEWA'];
+  const titles = {
+    SEBI: ['Red Herring Prospectus filed','Draft Red Herring Prospectus','Rights Issue Letter of Offer','Informal Guidance Letter','Consultation Paper on framework','Circular on disclosure norms','Final Offer Document'],
+    BSE: ['QIP Placement Document','Preliminary Placement Document'],
+    CCI: ['Combination Order under Section 31','Gun Jumping Order Section 43A','Antitrust Investigation Order','Green Channel Notice approved'],
+    RBI: ['Master Direction on Credit','Master Circular on NBFC','FEMA Direction on FDI','FEMA Notification on Overseas Investment'],
+    IRDAI: ['Circular on Insurance Guidelines','Regulations on Health Insurance'],
+    RERA: ['Adjudication Order','Authority Order on Builder Compliance','RERA Circular on Registration'],
+    TRAI: ['Direction on Telecom Licensing','Regulation on Quality of Service','Consultation Paper on Spectrum'],
+    EU_COMP: ['Phase II Decision — Merger Clearance','Statement of Objections — Cartel','Digital Markets Act Designation','Foreign Subsidies Regulation Assessment'],
+    EPO_BOA: ['Appeal Decision T 0234/22','Technical Board Decision T 0891/21','Enlarged Board Opinion G 1/23'],
+    EDPB: ['Guidelines on Data Transfers','Binding Decision Art. 65','Opinion on AI Processing'],
+    UAE: ['ADGM Court Judgment','DIFC Court of Appeal Order','MOHRE Resolution on Labour Standards'],
+    UK: ['Employment Tribunal Decision — Unfair Dismissal','Competition Appeal Tribunal Judgment','CMA Phase 1 Merger Decision','Upper Tribunal Tax Decision'],
+    INX: ['Circular on Listing Requirements','Issuer Document Filing'],
+    GST: ['CGST Circular on Input Tax Credit','CGST Circular on E-Invoice'],
+    IBBI: ['NCLT Resolution Plan Order','NCLT Admission Order under IBC']
+  };
+  const { from, to } = _currentMonthRange();
+  const fromD = new Date(from), toD = new Date(to);
+  const days = Math.max(1, (toD - fromD) / 86400000);
+  const result = {};
+  for (const k of ALL_KEYS) {
+    const cat = SRC[k].cat;
+    const pool = cat === 'EU_COMP' ? euCompanies : cat === 'UK' ? ukCompanies : cat === 'UAE' ? uaeCompanies : companies;
+    const tpool = titles[cat] || titles['SEBI'];
+    const n = Math.floor(Math.random() * 5) + 1;
+    const docs = [];
+    for (let i = 0; i < n; i++) {
+      const d = new Date(fromD.getTime() + Math.random() * days * 86400000);
+      const iso = d.toISOString().slice(0, 10);
+      const co = pool[Math.floor(Math.random() * pool.length)];
+      const ti = tpool[Math.floor(Math.random() * tpool.length)];
+      docs.push({ id: k + '_' + i, title: ti + ' — ' + co, company: co, date: iso.split('-').reverse().join('/'), date_iso: iso, pdf_url: SRC[k].url, page_url: SRC[k].url });
+    }
+    docs.sort((a, b) => b.date_iso.localeCompare(a.date_iso));
+    result[k] = docs;
+  }
+  return result;
+}
+
+// =================================================================
+//  INIT
+// =================================================================
+function init() {
+  // Demo banner
+  if (DEMO_MODE) {
+    const banner = document.createElement('div');
+    banner.style.cssText = 'background:#171717;color:#fff;text-align:center;padding:8px 16px;font-size:12px;font-weight:600;font-family:Inter,sans-serif;letter-spacing:.3px;position:relative;z-index:200';
+    banner.innerHTML = 'DEMO MODE — This is a live preview with sample data. <a href="https://github.com/mohitsharma/LucioBriefcase" style="color:#60a5fa;margin-left:8px;text-decoration:underline">View on GitHub →</a>';
+    document.body.insertBefore(banner, document.body.firstChild);
+  }
+  fetchActiveMonth();
+  buildCatBar();
+  buildStatusStrip();
+  buildGrid();
+  if (DEMO_MODE) {
+    // Load demo data directly
+    unified = _demoData();
+    applyFilters();
+    // Simulate all sources done
+    for (const k of ALL_KEYS) {
+      _srcStatus[k] = { fetching: false, error: null, fetched: unified[k].length, fetch_started_at: 1 };
+    }
+    updateStatusStrip();
+    _updateRegionStats();
+    // Update stats
+    let totalDocs = 0;
+    for (const k of ALL_KEYS) totalDocs += (unified[k]?.length || 0);
+    $('stat-sources').textContent = TOTAL_SOURCES;
+    $('stat-docs').textContent = totalDocs.toLocaleString();
+    $('stat-errors').textContent = '0';
+    $('stat-loading').textContent = '0';
+    const bar = $('gp-bar');
+    bar.style.width = '100%';
+    bar.className = 'global-progress-bar all-done';
+    $('gp-left').textContent = 'All sources ready (demo)';
+    $('gp-right').textContent = TOTAL_SOURCES + ' / ' + TOTAL_SOURCES + ' (100%)';
+    const hs = $('h-status');
+    hs.style.display = '';
+    hs.className = 'status-pill s-done';
+    hs.textContent = 'Demo Mode';
+    // Update tab counts
+    const natDocs = ALL_KEYS.filter(k => NATIONAL_CATS.includes(SRC[k].cat)).reduce((a, k) => a + (filtered[k]?.length || 0), 0);
+    const intlDocs = ALL_KEYS.filter(k => INTL_CATS.includes(SRC[k].cat)).reduce((a, k) => a + (filtered[k]?.length || 0), 0);
+    const tcA = $('tc-ALL'); if (tcA) tcA.textContent = (natDocs + intlDocs).toLocaleString();
+    const tcN = $('tc-NATIONAL'); if (tcN) tcN.textContent = natDocs.toLocaleString();
+    const tcI = $('tc-INTERNATIONAL'); if (tcI) tcI.textContent = intlDocs.toLocaleString();
+    // Mark all cards as done
+    for (const k of ALL_KEYS) {
+      const card = $('card-' + k);
+      if (card) { card.classList.remove('card-fetching','card-error'); card.classList.add('card-done'); }
+    }
+  } else {
+    loadData();
+    statusTimer = setInterval(pollStatus, 4000);
+    pollStatus();
+  }
+}
+
+// =================================================================
+//  CATEGORY BAR
+// =================================================================
+function buildCatBar() {
+  const bar = $('cat-bar');
+  const natCount = ALL_KEYS.filter(k => NATIONAL_CATS.includes(SRC[k].cat)).length;
+  const intlCount = ALL_KEYS.filter(k => INTL_CATS.includes(SRC[k].cat)).length;
+  bar.innerHTML = '<div class="cat-pill active" data-cat="ALL" onclick="switchTab(\'ALL\')">All <span class="cp-count" id="tc-ALL">0</span></div>'
+    + '<div class="cat-pill" data-cat="NATIONAL" onclick="switchTab(\'NATIONAL\')">' + 'Indian Repositories <span class="cp-count" id="tc-NATIONAL">0</span></div>'
+    + '<div class="cat-pill" data-cat="INTERNATIONAL" onclick="switchTab(\'INTERNATIONAL\')">' + 'International Repositories <span class="cp-count" id="tc-INTERNATIONAL">0</span></div>';
+}
+
+function switchTab(cat) {
+  activeCat = cat;
+  document.querySelectorAll('.cat-pill').forEach(t => t.classList.toggle('active', t.dataset.cat === cat));
+  buildGrid(); renderAll();
+}
+
+// =================================================================
+//  STATUS STRIP — one dot per source
+// =================================================================
+function buildStatusStrip() {
+  const strip = $('status-strip');
+  strip.innerHTML = ALL_KEYS.map(k => '<div class="ss-dot ss-idle" id="ss-' + k + '" title="' + esc(SRC[k].label) + '"></div>').join('');
+}
+
+function updateStatusStrip() {
+  for (const k of ALL_KEYS) {
+    const dot = $('ss-' + k);
+    if (!dot) continue;
+    const s = _srcStatus[k];
+    dot.className = 'ss-dot ' + (s ? (s.fetching ? 'ss-loading' : s.error ? 'ss-error' : (s.fetched > 0 || s.fetch_started_at > 0) ? 'ss-done' : 'ss-idle') : 'ss-idle');
+    // Update tooltip
+    const src = SRC[k];
+    let tip = src.label;
+    if (s) {
+      if (s.fetching) tip += ' \u2014 loading...';
+      else if (s.error) tip += ' \u2014 ' + s.error.slice(0, 60);
+      else if (s.fetched > 0) tip += ' \u2014 ' + s.fetched + ' docs';
+      else tip += ' \u2014 done (0 docs)';
+    }
+    dot.title = tip;
+  }
+}
+
+function _updateRegionStats() {
+  function _stats(keys) {
+    let ok = 0, err = 0, load = 0;
+    for (const k of keys) {
+      const s = _srcStatus[k];
+      if (!s) continue;
+      if (s.fetching) load++;
+      else if (s.error) err++;
+      else if (s.fetched > 0 || s.fetch_started_at > 0) ok++;
+    }
+    return { ok, err, load };
+  }
+  const natKeys  = ALL_KEYS.filter(k => NATIONAL_CATS.includes(SRC[k].cat));
+  const intlKeys = ALL_KEYS.filter(k => INTL_CATS.includes(SRC[k].cat));
+  const natEl = $('rh-nat-stats'), intlEl = $('rh-intl-stats');
+  for (const [el, keys] of [[natEl, natKeys], [intlEl, intlKeys]]) {
+    if (!el) continue;
+    const st = _stats(keys);
+    el.innerHTML = '<span class="rhs-ok">' + st.ok + ' done</span><span class="rhs-err">' + st.err + ' errors</span><span class="rhs-load">' + st.load + ' loading</span>';
+  }
+}
+
+// =================================================================
+//  GRID
+// =================================================================
+function _catAbbr(cat) {
+  const map = { SEBI:'SE', BSE:'BS', CCI:'CC', RBI:'RB', IRDAI:'IR', INX:'IX', RERA:'RE', TRAI:'TR', GST:'GS', IBBI:'IB', UK:'UK' };
+  return map[cat] || cat.slice(0,2);
+}
+
+const NATIONAL_CATS = Object.keys(CATS).filter(c => CATS[c].region === 'national');
+const INTL_CATS = Object.keys(CATS).filter(c => CATS[c].region === 'international');
+
+function _buildRegionCards(keys, serial0) {
+  let h = '', lastCat = '', n = serial0;
+  for (const key of keys) {
+    const s = SRC[key], c = CATS[s.cat];
+    if (activeCat === 'ALL' || activeCat === 'NATIONAL' || activeCat === 'INTERNATIONAL') {
+      if (s.cat !== lastCat) {
+        lastCat = s.cat;
+        h += '<div class="section-label"><span class="sl-text">' + c.label + '</span><div class="sl-line"></div></div>';
+      }
+    }
+    n++;
+    h += '<div class="card" id="card-' + key + '">'
+      + '<div class="card-hdr">'
+      + '<div class="card-info">'
+      + '<div class="card-title"><a href="' + esc(s.url) + '" target="_blank">' + esc(s.label) + '</a></div>'
+      + '<div class="card-desc">' + esc(s.desc) + '</div>'
+      + '</div>'
+      + '<span class="card-badge" id="badge-' + key + '">-</span>'
+      + '<span id="spin-' + key + '"></span>'
+      + '</div>'
+      + '<div class="card-body" id="body-' + key + '"><div class="empty"><p>Waiting...</p></div></div>'
+      + '<div class="card-foot"><span id="foot-' + key + '">' + esc(s.cat) + '</span></div>'
+      + '</div>';
+  }
+  return { html: h, count: n - serial0 };
+}
+
+function buildGrid() {
+  const grid = $('grid');
+  const keys = activeCat === 'ALL' ? ALL_KEYS
+    : activeCat === 'NATIONAL' ? ALL_KEYS.filter(k => NATIONAL_CATS.includes(SRC[k].cat))
+    : activeCat === 'INTERNATIONAL' ? ALL_KEYS.filter(k => INTL_CATS.includes(SRC[k].cat))
+    : ALL_KEYS.filter(k => SRC[k].cat === activeCat);
+
+  // Split into national & international
+  const natKeys  = keys.filter(k => NATIONAL_CATS.includes(SRC[k].cat));
+  const intlKeys = keys.filter(k => INTL_CATS.includes(SRC[k].cat));
+
+  let h = '';
+  if (natKeys.length) {
+    h += '<div class="region-hdr"><span class="rh-text">Indian Repositories</span><span class="rh-stats" id="rh-nat-stats"></span><span class="rh-count">' + natKeys.length + ' sources</span></div>';
+    h += _buildRegionCards(natKeys, 0).html;
+  }
+  if (intlKeys.length) {
+    h += '<div class="region-hdr"><span class="rh-text">International Repositories</span><span class="rh-stats" id="rh-intl-stats"></span><span class="rh-count">' + intlKeys.length + ' sources</span></div>';
+    h += _buildRegionCards(intlKeys, natKeys.length).html;
+  }
+  grid.innerHTML = h;
+}
+
+// =================================================================
+//  DATA
+// =================================================================
+async function loadData(showSkel) {
+  if (_loading) return;
+  _loading = true;
+  if (showSkel !== false) for (const k of ALL_KEYS) renderSkel(k);
+  const p = new URLSearchParams();
+  const df = $('date-from').value, dt = $('date-to').value, sq = $('search').value.trim();
+  if (df) p.append('from', df);
+  if (dt) p.append('to', dt);
+  if (sq) p.append('search', sq);
+  try {
+    const r = await apiFetch('/api/unified?' + p);
+    unified = r.sources || {};
+    for (const k of ALL_KEYS) if (!unified[k]) unified[k] = [];
+    applyFilters();
+  } catch(e) {
+    for (const k of ALL_KEYS) {
+      const b = $('body-' + k);
+      if (b) b.innerHTML = '<div class="empty"><p>Server not responding</p></div>';
+    }
+  }
+  _loading = false;
+}
+
+async function pollStatus() {
+  try {
+    const s = await apiFetch('/api/status');
+    _srcStatus = s;
+    let fetching = 0, errors = 0, totalDocs = 0, okCount = 0;
+    let readyKeys = [];
+    for (const [t, c] of Object.entries(s)) {
+      totalDocs += (c.fetched || 0);
+      if (c.fetching) fetching++;
+      if (c.error) errors++;
+      if (!c.error && !c.fetching && c.fetched > 0) { okCount++; readyKeys.push(t); }
+      if (!c.error && !c.fetching && c.fetch_started_at > 0 && c.fetched === 0) okCount++;
+      const spin = $('spin-' + t);
+      if (spin) spin.innerHTML = c.fetching ? '<span class="spinner-sm"></span>' : '';
+      // Error display
+      if (c.error && !c.fetching) {
+        const body = $('body-' + t);
+        if (body && unified[t]?.length === 0) body.innerHTML = '<div class="empty"><p style="color:var(--red);font-size:11px">' + esc(c.error).slice(0, 80) + '</p></div>';
+      }
+      // Card classes + status chip
+      const card = $('card-' + t);
+      const chip = $('chip-' + t);
+      if (card) {
+        card.classList.remove('card-fetching', 'card-done', 'card-error');
+        if (c.fetching) { card.classList.add('card-fetching'); if (chip) { chip.className='card-status-chip csc-loading'; chip.textContent='Loading'; } }
+        else if (c.error) { card.classList.add('card-error'); if (chip) { chip.className='card-status-chip csc-error'; chip.textContent='Error'; } }
+        else if (!c.fetching && (c.fetched > 0 || c.fetch_started_at > 0)) { card.classList.add('card-done'); if (chip) { chip.className='card-status-chip csc-done'; chip.textContent='Done'; } }
+      }
+    }
+
+    // Region header stats
+    _updateRegionStats();
+
+    // Reload data when new sources finish
+    const readySig = readyKeys.sort().join(',');
+    if (readySig !== _lastFetchedSet && readyKeys.length > 0) {
+      _lastFetchedSet = readySig;
+      loadData(false);
+    }
+
+    // Stats
+    const doneCount = okCount;
+    $('stat-sources').textContent = doneCount;
+    $('stat-docs').textContent = totalDocs.toLocaleString();
+    $('stat-errors').textContent = errors;
+    $('stat-loading').textContent = fetching;
+    $('h-sources').textContent = doneCount;
+    $('h-docs').textContent = totalDocs.toLocaleString();
+
+    // Global progress bar
+    const processed = doneCount + errors;
+    const pct = TOTAL_SOURCES > 0 ? Math.round(processed / TOTAL_SOURCES * 100) : 0;
+    const bar = $('gp-bar');
+    bar.style.width = pct + '%';
+    bar.className = 'global-progress-bar' + (errors > 0 ? ' has-errors' : fetching === 0 ? ' all-done' : '');
+    $('gp-left').textContent = fetching > 0 ? fetching + ' sources loading...' : errors > 0 ? 'Done with ' + errors + ' error(s)' : processed > 0 ? 'All sources ready' : 'Starting...';
+    $('gp-right').textContent = processed + ' / ' + TOTAL_SOURCES + ' (' + pct + '%)';
+
+    // Status pill
+    const hs = $('h-status');
+    if (fetching > 0) {
+      hs.style.display = '';
+      hs.className = 'status-pill s-loading';
+      hs.innerHTML = '<span class="spinner-sm" style="width:10px;height:10px;border-width:1.5px;border-top-color:var(--yellow)"></span> ' + fetching + ' loading';
+    } else if (errors > 0) {
+      hs.style.display = '';
+      hs.className = 'status-pill s-errors';
+      hs.textContent = errors + ' error' + (errors > 1 ? 's' : '');
+    } else if (processed > 0) {
+      hs.style.display = '';
+      hs.className = 'status-pill s-done';
+      hs.textContent = 'All ready';
+    } else {
+      hs.style.display = 'none';
+    }
+
+    // Tab counts
+    const natDocs = ALL_KEYS.filter(k => NATIONAL_CATS.includes(SRC[k].cat)).reduce((a, k) => a + (filtered[k]?.length || 0), 0);
+    const intlDocs = ALL_KEYS.filter(k => INTL_CATS.includes(SRC[k].cat)).reduce((a, k) => a + (filtered[k]?.length || 0), 0);
+    const all = natDocs + intlDocs;
+    const tcA = $('tc-ALL'); if (tcA) tcA.textContent = all.toLocaleString();
+    const tcN = $('tc-NATIONAL'); if (tcN) tcN.textContent = natDocs.toLocaleString();
+    const tcI = $('tc-INTERNATIONAL'); if (tcI) tcI.textContent = intlDocs.toLocaleString();
+
+    // Status strip
+    updateStatusStrip();
+  } catch(e) {}
+}
+
+// =================================================================
+//  FILTERS & RENDER
+// =================================================================
+let _fd;
+function onFilterChange() { clearTimeout(_fd); _fd = setTimeout(() => { if (DEMO_MODE) { applyFilters(); } else { loadData(false); } }, 400); }
+
+function applyFilters() {
+  const df = $('date-from').value, dt = $('date-to').value, sq = $('search').value.trim().toLowerCase();
+  const effFrom = df || activeRange.from_iso;
+  const effTo = dt || activeRange.to_iso;
+  for (const [t, docs] of Object.entries(unified)) {
+    let l = docs;
+    if (effFrom || effTo) l = l.filter(d => d.date_iso && (!effFrom || d.date_iso >= effFrom) && (!effTo || d.date_iso <= effTo));
+    else l = l.filter(d => !!d.date_iso);
+    if (sq) l = l.filter(d => (d.title || '').toLowerCase().includes(sq) || (d.company || '').toLowerCase().includes(sq));
+    filtered[t] = l;
+    renderColumn(t, l);
+  }
+}
+
+function renderColumn(t, docs) {
+  const body = $('body-' + t), badge = $('badge-' + t);
+  if (!body) return;
+  if (badge) { badge.textContent = docs.length; badge.className = 'card-badge' + (docs.length > 0 ? ' has-docs' : ''); }
+  if (!docs.length) { body.innerHTML = '<div class="empty"><p>No documents</p></div>'; return; }
+  body.innerHTML = docs.map(doc => {
+    const sel = selMap[t]?.has(doc.id) ? 'checked' : '';
+    let titleLine = esc(doc.title);
+    let companyLine = '';
+    if (doc.company && doc.company !== doc.title) companyLine = '<div class="doc-company">' + esc(doc.company) + '</div>';
+    return '<div class="doc" id="r-' + doc.id + '">'
+      + '<input type="checkbox" class="doc-cb" ' + sel + ' onchange="toggleSel(\'' + t + "','" + esc(doc.id) + "')\">"
+      + '<div class="doc-body">'
+      + '<div class="doc-date">' + esc(doc.date) + '</div>'
+      + '<div class="doc-title">' + (doc.company ? esc(doc.company) : titleLine) + '</div>'
+      + (doc.company ? '<div class="doc-company">' + titleLine + '</div>' : '')
+      + '<div class="doc-actions">'
+      + (doc.pdf_url ? '<a class="pdf-link" href="' + esc(doc.pdf_url) + '" target="_blank">PDF</a>' : '<button class="dl-btn" onclick="getPdf(\'' + esc(doc.id) + "','" + esc(doc.page_url) + "','" + t + "')\">" + 'Get PDF</button>')
+      + dlBadge(doc.id, t)
+      + '</div></div></div>';
+  }).join('');
+}
+
+function renderSkel(t) {
+  const b = $('body-' + t);
+  if (b) b.innerHTML = Array(3).fill('<div class="skel"><div class="skel-bar" style="width:65%"></div><div class="skel-bar" style="width:40%"></div></div>').join('');
+}
+function renderAll() { for (const [t, docs] of Object.entries(filtered)) renderColumn(t, docs); }
+
+function dlBadge(id, t) {
+  const d = dlProg[id];
+  if (!d) return '<button class="dl-btn" onclick="dlOne(\'' + esc(id) + "','" + t + "')\">Save</button>";
+  if (d.status === 'queued') return '<span class="ds ds-q">Queued</span>';
+  if (d.status === 'resolving') return '<span class="ds ds-r">Finding...</span>';
+  if (d.status === 'downloading') return '<span class="ds ds-dl"><span class="spinner-sm" style="width:10px;height:10px;border-width:1.5px"></span> Saving</span>';
+  if (d.status === 'done') return '<span class="ds ds-ok">' + (d.size_kb || '?') + ' KB</span>';
+  if (d.status === 'error') return '<span class="ds ds-err" title="' + esc(d.error || '') + '" onclick="retryOne(\'' + esc(id) + "','" + t + "')\">Retry</span>";
+  return '';
+}
+
+async function resetFilters() {
+  if (!confirm('Reset to current month defaults and re-scrape all sources?')) return;
+  const btn = document.querySelector('.ctrl-actions .btn-ghost');
+  if (btn) { btn.disabled = true; btn.textContent = 'Resetting...'; }
+  try {
+    const r = await fetch(API + '/api/reset', { method: 'POST', headers: {'Content-Type':'application/json'}, body: '{}' });
+    const d = await r.json();
+    if (d.error) { toast(d.error, 'err'); return; }
+    $('date-from').value = d.from_iso;
+    $('date-to').value = d.to_iso;
+    $('search').value = '';
+    toast('Reset to ' + d.from_iso + ' → ' + d.to_iso, 'ok');
+    loadData(false);
+  } catch(e) { toast('Reset failed: ' + e.message, 'err'); }
+  finally { if (btn) { btn.disabled = false; btn.textContent = 'Reset'; } }
+}
+function toggleSel(t, id) { const s = selMap[t]; s.has(id) ? s.delete(id) : s.add(id); }
+
+// =================================================================
+//  REFRESH
+// =================================================================
+async function refreshAll() {
+  const btn = $('refresh-btn');
+  btn.disabled = true; btn.textContent = 'Refreshing...';
+  try {
+    const { from: defFrom, to: defTo } = _currentMonthRange();
+    const fromVal = $('date-from').value || defFrom;
+    const toVal   = $('date-to').value   || defTo;
+    if (fromVal > toVal) { toast('From date must be before To date', 'err'); btn.disabled = false; btn.textContent = 'Refresh'; return; }
+    await apiPost('/api/set_range', { from_iso: fromVal, to_iso: toVal });
+    activeRange = { from_iso: fromVal, to_iso: toVal, is_custom: true };
+    $('date-from').value = fromVal;
+    $('date-to').value   = toVal;
+    toast('Refreshing ' + fromVal + ' \u2192 ' + toVal + '...', 'info');
+    _lastFetchedSet = '';
+    await waitDone(45000);
+    _lastFetchedSet = '';
+    await loadData(false);
+    const tot = Object.values(filtered).reduce((a, d) => a + d.length, 0);
+    toast('Refreshed \u2014 ' + tot.toLocaleString() + ' documents', 'ok');
+  } catch(e) { toast('Refresh failed', 'err'); }
+  btn.disabled = false; btn.textContent = 'Refresh';
+}
+async function waitDone(ms) { const t0 = Date.now(); while (Date.now() - t0 < ms) { await sleep(1000); try { const s = await apiFetch('/api/status'); if (Object.values(s).every(c => !c.fetching)) return; } catch(e) {} } }
+
+// =================================================================
+//  PDF & DOWNLOADS
+// =================================================================
+async function getPdf(id, pageUrl, dtype) {
+  try {
+    const r = await apiFetch('/api/get_pdf_url?id=' + enc(id) + '&page_url=' + enc(pageUrl) + '&type=' + dtype);
+    if (r.pdf_url) { const doc = (unified[dtype] || []).find(d => d.id === id); if (doc) doc.pdf_url = r.pdf_url; applyFilters(); toast('PDF link found', 'ok'); }
+    else toast('PDF not found', 'warn');
+  } catch(e) {}
+}
+
+async function dlOne(id, dtype) {
+  const doc = (unified[dtype] || []).find(d => d.id === id); if (!doc) return;
+  try { await apiPost('/api/download', { id: doc.id, pdf_url: doc.pdf_url, page_url: doc.page_url, title: doc.title, type: dtype }); toast('Downloading...', 'info'); startDlPoll(); applyFilters(); }
+  catch(e) { toast('Download failed', 'warn'); }
+}
+
+async function downloadAll() {
+  const allDocs = [];
+  for (const [dtype, docs] of Object.entries(filtered)) for (const doc of docs) allDocs.push({ id: doc.id, pdf_url: doc.pdf_url, page_url: doc.page_url, title: doc.title, date: doc.date || '', type: dtype });
+  if (!allDocs.length) { toast('No documents to download', 'warn'); return; }
+  try { const r = await apiPost('/api/download_all', { documents: allDocs }); toast('Queued ' + r.count + ' downloads', 'ok'); openDlModal(); $('dlp-toggle').style.display = ''; startDlPoll(); applyFilters(); }
+  catch(e) { toast('Failed to queue downloads', 'warn'); }
+}
+
+async function retryErrors() { try { const r = await apiPost('/api/retry_errors', {}); toast('Retrying ' + r.count + ' failed downloads', 'warn'); startDlPoll(); applyFilters(); } catch(e) {} }
+async function retryOne(id, dtype) {
+  try {
+    // Use the targeted retry endpoint so citation metadata is preserved
+    await apiPost('/api/retry_errors', { doc_id: id });
+    toast('Retrying download…', 'info');
+    startDlPoll(); applyFilters();
+  } catch(e) {}
+}
+
+function startDlPoll() { if (!dlTimer) dlTimer = setInterval(pollDl, 1500); }
+async function pollDl() {
+  try {
+    dlProg = await apiFetch('/api/download_progress');
+    updatePanel(); applyFilters();
+    const active = Object.values(dlProg).filter(d => ['queued', 'downloading', 'resolving', 'retrying'].includes(d.status));
+    if (!active.length) { clearInterval(dlTimer); dlTimer = null; $('dl-summary').style.display = 'none'; }
+    else { $('dl-summary').style.display = ''; const done = Object.values(dlProg).filter(d => d.status === 'done').length; $('dl-sm-txt').textContent = done + '/' + Object.keys(dlProg).length + ' saved'; }
+    $('dlp-cnt').textContent = Object.keys(dlProg).length;
+    if (Object.keys(dlProg).length > 0) $('dlp-toggle').style.display = '';
+  } catch(e) {}
+}
+
+function updatePanel() {
+  const items = Object.entries(dlProg); if (!items.length) return;
+
+  const active  = items.filter(([,d]) => ['queued','downloading','resolving','retrying'].includes(d.status));
+  const done    = items.filter(([,d]) => d.status === 'done');
+  const failed  = items.filter(([,d]) => d.status === 'error');
+  const dling   = items.filter(([,d]) => d.status === 'downloading').length;
+  const queued  = items.filter(([,d]) => d.status === 'queued').length;
+
+  // Stats pills
+  $('dls-active').textContent = dling + (queued ? '+' + queued : '');
+  $('dls-done').textContent   = done.length;
+  $('dls-err').textContent    = failed.length;
+
+  // Tab counts
+  $('dtab-done-cnt').textContent = done.length  ? '(' + done.length  + ')' : '';
+  $('dtab-fail-cnt').textContent = failed.length ? '(' + failed.length + ')' : '';
+
+  // Auto-switch to failed tab when all downloads finish and there are errors
+  if (failed.length && dling === 0 && queued === 0 && _dlTab === 'done') switchDlTab('fail');
+
+  // ── LEFT: in-progress list ──────────────────────────
+  $('dl-active-list').innerHTML = active.length ? active.map(([id, d]) => {
+    const c   = CATS[SRC[d.type]?.cat]?.color || '#999';
+    const lbl = SRC[d.type]?.label || d.type;
+    const dotCls = d.status === 'downloading' ? 'd-active'
+                 : d.status === 'retrying'    ? 'd-retry' : 'd-queue';
+    const stTxt  = d.status === 'downloading' ? 'Downloading…'
+                 : d.status === 'retrying'    ? 'Retry ' + (d.attempt||1) + '/' + (d.attempt_max||5)
+                 : d.status === 'resolving'   ? 'Finding PDF…'
+                 : 'Queued';
+    return '<div class="dli">'
+      + '<div class="dli-dot ' + dotCls + '"></div>'
+      + '<div class="dli-info">'
+      + '<div class="dli-name" title="' + esc(d.title||d.filename||id) + '">' + esc(d.title||d.filename||id) + '</div>'
+      + '<div class="dli-sub"><span class="dli-tag" style="background:' + c + '18;color:' + c + '">' + esc(lbl) + '</span>'
+      + '<span style="color:var(--txt3)">' + stTxt + '</span></div>'
+      + '</div></div>';
+  }).join('') : '<div class="dl-empty">No active downloads</div>';
+
+  // ── RIGHT: completed table ──────────────────────────
+  $('dl-done-tbody').innerHTML = done.length ? done.map(([id, d], i) => {
+    const c   = CATS[SRC[d.type]?.cat]?.color || '#999';
+    const lbl = SRC[d.type]?.label || d.type;
+    return '<tr>'
+      + '<td class="td-num">' + (i+1) + '</td>'
+      + '<td class="td-title" title="' + esc(d.title||d.filename||id) + '">' + esc(d.title||d.filename||id) + '</td>'
+      + '<td class="td-src"><span class="dli-tag" style="background:' + c + '18;color:' + c + '">' + esc(lbl) + '</span></td>'
+      + '<td class="td-size">' + (d.size_kb ? d.size_kb + ' KB' : '—') + '</td>'
+      + '<td class="td-date">' + esc(d.date||'—') + '</td>'
+      + '<td class="td-links">'
+      + (d.page_url ? '<a href="' + esc(d.page_url) + '" target="_blank" title="Source page">↗</a> ' : '')
+      + (d.pdf_url  ? '<a href="' + esc(d.pdf_url)  + '" target="_blank" title="Open PDF">PDF</a>'  : '')
+      + '</td></tr>';
+  }).join('') : '<tr><td colspan="6" class="dl-empty">No completed downloads yet</td></tr>';
+
+  // ── RIGHT: failed cards ────────────────────────────
+  $('dl-fail-list').innerHTML = failed.length ? failed.map(([id, d]) => {
+    const c   = CATS[SRC[d.type]?.cat]?.color || '#999';
+    const lbl = SRC[d.type]?.label || d.type;
+    const safe = 'mdb_' + id.replace(/[^a-z0-9]/gi,'_');
+    return '<div class="dl-fail-item">'
+      + '<div class="dl-fail-name"><span class="dli-tag" style="background:' + c + '18;color:' + c + ';margin-right:5px">' + esc(lbl) + '</span>'
+      + esc(d.title||d.filename||id) + '</div>'
+      + '<div class="dl-fail-err">' + esc(d.error||'Unknown error') + '</div>'
+      + '<div class="dl-fail-actions">'
+      + '<button class="dl-btn-save" id="' + safe + '" onclick="manualDownload(' + JSON.stringify(id).replace(/"/g,'&quot;') + ',' + JSON.stringify(d.type||'RHP').replace(/"/g,'&quot;') + ')">💾 Save to Repo</button>'
+      + (d.pdf_url  ? '<a class="dl-btn-open" href="' + esc(d.pdf_url)  + '" target="_blank">↗ Open PDF</a>'  : '')
+      + (d.page_url ? '<a class="dl-btn-open" href="' + esc(d.page_url) + '" target="_blank">🔗 Source</a>'  : '')
+      + '</div></div>';
+  }).join('') : '<div class="dl-empty">No failed downloads 🎉</div>';
+}
+
+function pstat(id, d) {
+  if (d.status === 'queued')      return '<span class="ds ds-q">Queued</span>';
+  if (d.status === 'resolving')   return '<span class="ds ds-r">Finding…</span>';
+  if (d.status === 'downloading') return '<span class="ds ds-dl">Downloading</span>';
+  if (d.status === 'retrying')    return '<span class="ds ds-q">Retry ' + (d.attempt||1) + '/' + (d.attempt_max||5) + '</span>';
+  if (d.status === 'done')        return '<span class="ds ds-ok">' + (d.size_kb||'?') + ' KB</span>';
+  if (d.status === 'error') {
+    const t = d.type || 'RHP';
+    return '<span class="ds ds-err" title="' + esc(d.error||'') + '" onclick="retryOne(\'' + esc(id) + '\',\'' + t + '\')" style="cursor:pointer">&#8635; Retry</span>';
+  }
+  return '';
+}
+
+function togglePanel() { openDlModal(); }  // legacy calls now open the new modal
+
+// =================================================================
+//  DOWNLOAD MODAL CONTROLS
+// =================================================================
+let _dlTab = 'done';
+
+function openDlModal()  { $('dl-overlay').classList.add('open'); }
+function closeDlModal() { $('dl-overlay').classList.remove('open'); }
+
+function switchDlTab(tab) {
+  _dlTab = tab;
+  ['done', 'fail'].forEach(t => {
+    $('dtab-' + t + '-btn').classList.toggle('active', t === tab);
+    $('dtab-' + t).classList.toggle('active', t === tab);
+  });
+}
+
+async function manualDownload(docId, dtype) {
+  const d = dlProg[docId]; if (!d) return;
+  const safe = 'mdb_' + docId.replace(/[^a-z0-9]/gi, '_');
+  const btn  = $(safe);
+  if (!d.pdf_url) { toast('No PDF URL available — use "↗ Open PDF" or "🔗 Source" to download manually', 'warn'); return; }
+  if (btn) { btn.disabled = true; btn.textContent = '⏳ Saving…'; }
+  try {
+    const r = await apiPost('/api/manual_download', {
+      doc_id: docId, pdf_url: d.pdf_url || '', title: d.title || d.filename || docId,
+      type: dtype, page_url: d.page_url || '', date: d.date || ''
+    });
+    if (r.status === 'error') throw new Error(r.error || 'Backend error');
+    toast('Queued for download → Repositories/' + (SRC[dtype]?.label || dtype) + '/', 'ok');
+    if (btn) { btn.textContent = '⟳ Queued'; btn.classList.add('saved'); }
+    startDlPoll();
+  } catch(e) {
+    toast('Failed to queue: ' + (e.message || 'unknown error'), 'warn');
+    if (btn) { btn.disabled = false; btn.textContent = '💾 Save to Repo'; }
+  }
+}
+
+// =================================================================
+//  UTILS
+// =================================================================
+function esc(s) { return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+function enc(s) { return encodeURIComponent(s || ''); }
+function $(id) { return document.getElementById(id); }
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+async function apiFetch(p) { const c = new AbortController(); const t = setTimeout(() => c.abort(), 15000); try { const r = await fetch(API + p, { signal: c.signal }); clearTimeout(t); if (!r.ok) throw new Error(r.status); return r.json(); } catch(e) { clearTimeout(t); throw e; } }
+async function apiPost(p, b) { const c = new AbortController(); const t = setTimeout(() => c.abort(), 60000); try { const r = await fetch(API + p, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(b), signal: c.signal }); clearTimeout(t); if (!r.ok) throw new Error(r.status); return r.json(); } catch(e) { clearTimeout(t); throw e; } }
+let _tt; function toast(msg, type) { const el = $('toast'); el.textContent = msg; el.className = 'toast on ' + (type || 'info'); clearTimeout(_tt); _tt = setTimeout(() => el.className = 'toast', 4000); }
+
+// =================================================================
+//  ACCURACY AUDIT
+// =================================================================
+let _auditRunning = false;
+let _lastAuditData = null;
+
+async function runAudit() {
+  if (_auditRunning) { $('audit-overlay').classList.add('open'); return; }
+  _auditRunning = true;
+  $('audit-btn').disabled = true;
+  $('audit-overlay').classList.add('open');
+  $('audit-sub').textContent = 'Running… this takes 30–90 s';
+  $('audit-body').innerHTML = '<div class="audit-loading"><div class="audit-spin"></div><p style="font-weight:500">Checking all PDF links in parallel…</p><p style="font-size:10px;color:var(--txt3);margin-top:6px">HEAD-requesting every document URL · up to 180 s</p></div>';
+  try {
+    const ctrl = new AbortController();
+    const tid  = setTimeout(() => ctrl.abort(), 200000);
+    const res  = await fetch(API + '/api/audit', { signal: ctrl.signal });
+    clearTimeout(tid);
+    if (!res.ok) throw new Error('Server error ' + res.status);
+    const data = await res.json();
+    _lastAuditData = data;
+    renderAuditResults(data);
+  } catch(e) {
+    $('audit-body').innerHTML = '<div class="audit-loading"><p style="color:var(--red);font-weight:600">Audit failed: ' + esc(String(e)) + '</p><p style="font-size:10px;color:var(--txt3);margin-top:6px">Try again once all sources have finished loading.</p></div>';
+    $('audit-sub').textContent = 'Error';
+  }
+  _auditRunning = false;
+  $('audit-btn').disabled = false;
+}
+
+function renderAuditResults(envelope) {
+  const data     = envelope.results || envelope;
+  const auditTs  = envelope.audit_timestamp || '';
+  const dateRange = envelope.date_range || {};
+  const totalChecked = envelope.total_docs_checked || 0;
+
+  const sources = Object.entries(data).filter(([, v]) => v.total > 0);
+  sources.sort((a, b) => (b[1].fail - a[1].fail) || (b[1].no_pdf - a[1].no_pdf));
+  let tot = 0, tok = 0, tnp = 0, tfl = 0;
+  for (const [, v] of sources) { tot += v.total; tok += v.ok; tnp += v.no_pdf; tfl += v.fail; }
+  const pct   = tot ? Math.round(tok / tot * 100) : 100;
+  const pctCl = pct === 100 ? 'var(--green)' : pct >= 80 ? 'var(--yellow)' : 'var(--red)';
+  $('audit-sub').textContent = sources.length + ' sources · ' + tot + ' docs checked' + (auditTs ? ' · ' + auditTs : '');
+
+  let h = '';
+
+  // Audit metadata bar
+  h += '<div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:14px;padding:10px 14px;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius-sm);font-size:10.5px;color:var(--txt2)">';
+  if (auditTs) h += '<span><b>Audit Run:</b> ' + esc(auditTs) + '</span>';
+  if (dateRange.from) h += '<span><b>Date Range:</b> ' + esc(dateRange.from) + ' → ' + esc(dateRange.to) + '</span>';
+  h += '<span><b>Sources:</b> ' + sources.length + '</span>';
+  h += '<span><b>Documents:</b> ' + totalChecked + '</span>';
+  h += '<button class="btn btn-ghost" style="margin-left:auto;font-size:10px;padding:3px 10px" onclick="exportAuditCSV()">Export CSV</button>';
+  h += '<button class="btn btn-ghost" style="font-size:10px;padding:3px 10px" onclick="exportAuditJSON()">Export JSON</button>';
+  h += '</div>';
+
+  // Summary band
+  h += '<div class="audit-summary">';
+  h += '<div class="as-stat"><div class="as-val">' + tot + '</div><div class="as-lbl">Total Docs</div></div>';
+  h += '<div class="as-stat"><div class="as-val" style="color:var(--green)">' + tok + '</div><div class="as-lbl">PDF OK</div></div>';
+  h += '<div class="as-stat"><div class="as-val" style="color:var(--yellow)">' + tnp + '</div><div class="as-lbl">No PDF</div></div>';
+  h += '<div class="as-stat"><div class="as-val" style="color:var(--red)">' + tfl + '</div><div class="as-lbl">Broken</div></div>';
+  h += '<div class="as-stat"><div class="as-val" style="color:' + pctCl + '">' + pct + '%</div><div class="as-lbl">Accuracy</div></div>';
+  h += '</div>';
+
+  // Per-source table
+  h += '<table class="audit-tbl"><thead><tr>';
+  h += '<th>Source</th><th>Docs</th><th style="color:var(--green)">OK</th><th style="color:var(--yellow)">No PDF</th><th style="color:var(--red)">Broken</th><th>Accuracy</th><th>Details</th>';
+  h += '</tr></thead><tbody>';
+
+  for (const [key, v] of sources) {
+    const acc    = v.total ? Math.round(v.ok / v.total * 100) : 100;
+    const cl     = acc === 100 ? 'var(--green)' : acc >= 80 ? 'var(--yellow)' : 'var(--red)';
+    const lbl    = (SRC[key] && SRC[key].label) || key;
+    const cat    = (SRC[key] && SRC[key].cat) || '';
+    const cc     = (CATS[cat] && CATS[cat].color) || '#999';
+    const srcUrl = (SRC[key] && SRC[key].url) || '#';
+    h += '<tr>';
+    // Source name column
+    h += '<td><div style="display:flex;align-items:center;gap:7px;margin-bottom:2px">';
+    h += '<div style="width:8px;height:8px;border-radius:2px;background:' + cc + ';flex-shrink:0"></div>';
+    h += '<a href="' + esc(srcUrl) + '" target="_blank" style="font-weight:600;color:var(--txt);text-decoration:none">' + esc(lbl) + '</a></div>';
+    // Failed docs details
+    if (v.failed_docs && v.failed_docs.length) {
+      h += '<div class="audit-fail-row">';
+      for (const fd of v.failed_docs) {
+        h += '<div class="audit-fail-item">';
+        h += '<span style="font-weight:600">' + esc((fd.title || 'Untitled').slice(0, 100)) + '</span>';
+        h += ' <span style="color:var(--red)">[' + esc(fd.status) + (fd.http_code ? ' HTTP ' + fd.http_code : '') + ']</span>';
+        if (fd.date) h += ' <span style="color:var(--txt3)">' + esc(fd.date) + '</span>';
+        if (fd.error_detail) h += '<div style="color:var(--red);font-size:9px;margin-top:2px">' + esc(fd.error_detail) + '</div>';
+        if (fd.pdf_url) h += '<a href="' + esc(fd.pdf_url) + '" target="_blank">PDF: ' + esc(fd.pdf_url.slice(0, 100)) + '</a>';
+        if (fd.page_url) h += '<a href="' + esc(fd.page_url) + '" target="_blank">Page: ' + esc(fd.page_url.slice(0, 100)) + '</a>';
+        h += '</div>';
+      }
+      h += '</div>';
+    }
+    h += '</td>';
+    h += '<td><b>' + v.total + '</b></td>';
+    h += '<td style="color:var(--green);font-weight:600">' + v.ok + '</td>';
+    h += '<td style="color:' + (v.no_pdf ? 'var(--yellow)' : 'var(--txt3)') + ';font-weight:600">' + v.no_pdf + '</td>';
+    h += '<td style="color:' + (v.fail ? 'var(--red)' : 'var(--txt3)') + ';font-weight:600">' + v.fail + '</td>';
+    h += '<td><div style="display:flex;align-items:center;gap:5px">';
+    h += '<div class="audit-acc-bar"><div class="audit-acc-fill" style="width:' + acc + '%;background:' + cl + '"></div></div>';
+    h += '<span style="font-size:11px;font-weight:700;color:' + cl + '">' + acc + '%</span></div></td>';
+    // Details toggle button
+    h += '<td><button class="btn btn-ghost" style="font-size:9px;padding:2px 8px" onclick="toggleAuditEvidence(\'' + esc(key) + '\')">View</button></td>';
+    h += '</tr>';
+    // Hidden evidence row
+    h += '<tr id="audit-ev-' + esc(key) + '" style="display:none"><td colspan="7" style="padding:0">';
+    h += '<div id="audit-ev-body-' + esc(key) + '" style="max-height:400px;overflow-y:auto;background:var(--bg2);padding:10px"></div>';
+    h += '</td></tr>';
+  }
+  h += '</tbody></table>';
+
+  const empty = Object.entries(data).filter(([, v]) => v.total === 0);
+  if (empty.length) {
+    h += '<div class="audit-empty-note"><b>' + empty.length + '</b> sources returned 0 documents for the selected date range and are not shown above.</div>';
+  }
+  $('audit-body').innerHTML = h;
+}
+
+function toggleAuditEvidence(key) {
+  const row = document.getElementById('audit-ev-' + key);
+  if (!row) return;
+  const visible = row.style.display !== 'none';
+  row.style.display = visible ? 'none' : '';
+  if (!visible && _lastAuditData) {
+    const data = _lastAuditData.results || _lastAuditData;
+    const src = data[key];
+    if (!src || !src.evidence) return;
+    const body = document.getElementById('audit-ev-body-' + key);
+    let t = '<table style="width:100%;border-collapse:collapse;font-size:10px">';
+    t += '<thead><tr style="background:var(--bg3)"><th style="padding:4px 6px;text-align:left">Title</th><th style="padding:4px 6px">Date</th><th style="padding:4px 6px">Status</th><th style="padding:4px 6px">HTTP</th><th style="padding:4px 6px">Type</th><th style="padding:4px 6px">Size</th><th style="padding:4px 6px">Time</th><th style="padding:4px 6px">PDF URL</th></tr></thead><tbody>';
+    for (const ev of src.evidence) {
+      const stCl = ev.status === 'ok' ? 'var(--green)' : ev.status === 'no_pdf' ? 'var(--yellow)' : 'var(--red)';
+      const size = ev.content_length ? (parseInt(ev.content_length) > 1048576 ? (parseInt(ev.content_length)/1048576).toFixed(1)+'MB' : (parseInt(ev.content_length)/1024).toFixed(0)+'KB') : '-';
+      t += '<tr style="border-bottom:1px solid var(--border)">';
+      t += '<td style="padding:3px 6px;max-width:250px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="' + esc(ev.title) + '">' + esc((ev.title||'').slice(0,60)) + '</td>';
+      t += '<td style="padding:3px 6px;white-space:nowrap">' + esc(ev.date || '-') + '</td>';
+      t += '<td style="padding:3px 6px;color:' + stCl + ';font-weight:700">' + esc(ev.status) + '</td>';
+      t += '<td style="padding:3px 6px">' + (ev.http_code || '-') + '</td>';
+      t += '<td style="padding:3px 6px;max-width:120px;overflow:hidden;text-overflow:ellipsis" title="' + esc(ev.content_type||'') + '">' + esc((ev.content_type||'-').slice(0,25)) + '</td>';
+      t += '<td style="padding:3px 6px">' + size + '</td>';
+      t += '<td style="padding:3px 6px">' + (ev.response_time_ms||0) + 'ms</td>';
+      t += '<td style="padding:3px 6px;max-width:200px;overflow:hidden;text-overflow:ellipsis">';
+      if (ev.pdf_url) t += '<a href="' + esc(ev.pdf_url) + '" target="_blank" style="color:var(--blue);font-size:9px" title="' + esc(ev.pdf_url) + '">' + esc(ev.pdf_url.slice(0,50)) + '</a>';
+      else t += '<span style="color:var(--txt3)">—</span>';
+      t += '</td></tr>';
+    }
+    t += '</tbody></table>';
+    body.innerHTML = t;
+  }
+}
+
+function exportAuditCSV() {
+  if (!_lastAuditData) return;
+  const data = _lastAuditData.results || _lastAuditData;
+  let csv = 'Source,Doc ID,Title,Date,Status,HTTP Code,Content-Type,Content-Length,Response Time (ms),PDF URL,Page URL\n';
+  for (const [key, src] of Object.entries(data)) {
+    if (!src.evidence) continue;
+    for (const ev of src.evidence) {
+      csv += [key, ev.doc_id, '"' + (ev.title||'').replace(/"/g,'""') + '"', ev.date_iso||'', ev.status, ev.http_code||'', ev.content_type||'', ev.content_length||'', ev.response_time_ms||0, ev.pdf_url||'', ev.page_url||''].join(',') + '\n';
+    }
+  }
+  const blob = new Blob([csv], {type: 'text/csv'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'audit_report_' + (_lastAuditData.audit_timestamp || 'unknown').replace(/[: ]/g, '_') + '.csv';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function exportAuditJSON() {
+  if (!_lastAuditData) return;
+  const blob = new Blob([JSON.stringify(_lastAuditData, null, 2)], {type: 'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'audit_report_' + (_lastAuditData.audit_timestamp || 'unknown').replace(/[: ]/g, '_') + '.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function closeAudit() { $('audit-overlay').classList.remove('open'); }
+
+init();
+</script>
+</body>
+</html>
