@@ -1528,12 +1528,26 @@ function openControlPanel() {
 }
 function closeControlPanel() { $('cp-overlay').classList.remove('open'); }
 
-function saveToken() {
+async function saveToken() {
   const token = $('cp-token').value.trim();
   if (!token) { _cpStatus('Enter a token first', 'err'); return; }
-  localStorage.setItem('gh_token', token);
-  $('cp-token-status').innerHTML = '<span class="cp-saved">✓ Saved</span>';
-  _cpStatus('Token saved to browser storage', 'ok');
+  _cpStatus('Verifying token...', 'info');
+  try {
+    const resp = await fetch('https://api.github.com/user', {
+      headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json' }
+    });
+    if (!resp.ok) {
+      _cpStatus('Invalid token — GitHub returned ' + resp.status + '. Generate a new one at github.com/settings/tokens', 'err');
+      $('cp-token-status').innerHTML = '<span style="color:#e74c3c">✗ Invalid</span>';
+      return;
+    }
+    const user = await resp.json();
+    localStorage.setItem('gh_token', token);
+    $('cp-token-status').innerHTML = '<span class="cp-saved">✓ Verified — ' + (user.login || 'ok') + '</span>';
+    _cpStatus('Token verified and saved! Logged in as ' + (user.login || 'unknown'), 'ok');
+  } catch(e) {
+    _cpStatus('Network error verifying token: ' + e.message, 'err');
+  }
 }
 
 function _getToken() {
