@@ -1049,6 +1049,7 @@ function dlBadge(id, t) {
 }
 
 async function resetFilters() {
+  if (DEMO_MODE) { $('date-from').value = ''; $('date-to').value = ''; $('search').value = ''; unified = _demoData(); applyFilters(); toast('Filters reset (demo)', 'ok'); return; }
   if (!confirm('Reset to current month defaults and re-scrape all sources?')) return;
   const btn = document.querySelector('.ctrl-actions .btn-ghost');
   if (btn) { btn.disabled = true; btn.textContent = 'Resetting...'; }
@@ -1070,6 +1071,7 @@ function toggleSel(t, id) { const s = selMap[t]; s.has(id) ? s.delete(id) : s.ad
 //  REFRESH
 // =================================================================
 async function refreshAll() {
+  if (DEMO_MODE) { unified = _demoData(); applyFilters(); toast('Refreshed with new sample data (demo)', 'ok'); return; }
   const btn = $('refresh-btn');
   btn.disabled = true; btn.textContent = 'Refreshing...';
   try {
@@ -1097,6 +1099,7 @@ async function waitDone(ms) { const t0 = Date.now(); while (Date.now() - t0 < ms
 //  PDF & DOWNLOADS
 // =================================================================
 async function getPdf(id, pageUrl, dtype) {
+  if (DEMO_MODE) { toast('PDF links are simulated in demo mode', 'info'); return; }
   try {
     const r = await apiFetch('/api/get_pdf_url?id=' + enc(id) + '&page_url=' + enc(pageUrl) + '&type=' + dtype);
     if (r.pdf_url) { const doc = (unified[dtype] || []).find(d => d.id === id); if (doc) doc.pdf_url = r.pdf_url; applyFilters(); toast('PDF link found', 'ok'); }
@@ -1105,12 +1108,14 @@ async function getPdf(id, pageUrl, dtype) {
 }
 
 async function dlOne(id, dtype) {
+  if (DEMO_MODE) { toast('Downloads require the local Python server — clone the repo and run: python3 run.py', 'info'); return; }
   const doc = (unified[dtype] || []).find(d => d.id === id); if (!doc) return;
   try { await apiPost('/api/download', { id: doc.id, pdf_url: doc.pdf_url, page_url: doc.page_url, title: doc.title, type: dtype }); toast('Downloading...', 'info'); startDlPoll(); applyFilters(); }
   catch(e) { toast('Download failed', 'warn'); }
 }
 
 async function downloadAll() {
+  if (DEMO_MODE) { toast('Downloads require the local Python server — clone the repo and run: python3 run.py', 'info'); return; }
   const allDocs = [];
   for (const [dtype, docs] of Object.entries(filtered)) for (const doc of docs) allDocs.push({ id: doc.id, pdf_url: doc.pdf_url, page_url: doc.page_url, title: doc.title, date: doc.date || '', type: dtype });
   if (!allDocs.length) { toast('No documents to download', 'warn'); return; }
@@ -1118,8 +1123,9 @@ async function downloadAll() {
   catch(e) { toast('Failed to queue downloads', 'warn'); }
 }
 
-async function retryErrors() { try { const r = await apiPost('/api/retry_errors', {}); toast('Retrying ' + r.count + ' failed downloads', 'warn'); startDlPoll(); applyFilters(); } catch(e) {} }
+async function retryErrors() { if (DEMO_MODE) { toast('No errors in demo mode', 'ok'); return; } try { const r = await apiPost('/api/retry_errors', {}); toast('Retrying ' + r.count + ' failed downloads', 'warn'); startDlPoll(); applyFilters(); } catch(e) {} }
 async function retryOne(id, dtype) {
+  if (DEMO_MODE) { toast('Downloads require the local Python server', 'info'); return; }
   try {
     // Use the targeted retry endpoint so citation metadata is preserved
     await apiPost('/api/retry_errors', { doc_id: id });
@@ -1246,6 +1252,7 @@ function switchDlTab(tab) {
 }
 
 async function manualDownload(docId, dtype) {
+  if (DEMO_MODE) { toast('Downloads require the local Python server — clone the repo and run: python3 run.py', 'info'); return; }
   const d = dlProg[docId]; if (!d) return;
   const safe = 'mdb_' + docId.replace(/[^a-z0-9]/gi, '_');
   const btn  = $(safe);
@@ -1284,6 +1291,7 @@ let _auditRunning = false;
 let _lastAuditData = null;
 
 async function runAudit() {
+  if (DEMO_MODE) { toast('Audit requires the local Python server — clone the repo and run: python3 run.py', 'info'); return; }
   if (_auditRunning) { $('audit-overlay').classList.add('open'); return; }
   _auditRunning = true;
   $('audit-btn').disabled = true;
