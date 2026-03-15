@@ -37,7 +37,8 @@ BSE_BASE  = "https://www.bseindia.com"
 # ─── BASE DOWNLOAD DIRECTORY ─────────────────────────────────────────────────
 # All downloads go under one main folder on the Desktop.
 # Structure: ~/Desktop/Repositories/<SourceType>/document.pdf
-BASE_DOWNLOAD_DIR = os.path.expanduser("~/Desktop/Repositories")
+_CLOUD = bool(os.environ.get('RENDER') or os.environ.get('CLOUD'))
+BASE_DOWNLOAD_DIR = os.environ.get('DOWNLOAD_DIR') or ('/tmp/Repositories' if _CLOUD else os.path.expanduser('~/Desktop/Repositories'))
 
 def _dl(*parts):
     """Build a download folder path under BASE_DOWNLOAD_DIR.
@@ -5424,13 +5425,15 @@ class Handler(BaseHTTPRequestHandler):
 
 def main():
     global _scrape_generation
-    PORT = 8765
+    PORT = int(os.environ.get('PORT', 8765))
+    HOST = '0.0.0.0' if _CLOUD else 'localhost'
     y, m = ACTIVE_MONTH['year'], ACTIVE_MONTH['month']
     from_iso, to_iso, from_dd, to_dd = _month_range(y, m)
     print(f"\n{'='*75}")
-    print(f"  Lucio AI Briefcase  –  http://localhost:{PORT}")
+    print(f"  Lucio AI Briefcase  –  http://{HOST}:{PORT}")
     print(f"  Sources: {len(SOURCES)} total")
     print(f"  Active month: {y}-{m:02d} ({from_iso} to {to_iso})")
+    print(f"  Cloud mode: {_CLOUD}")
     print(f"{'='*75}\n")
 
     # Only pre-create the base Repositories folder itself; per-source folders
@@ -5447,9 +5450,10 @@ def main():
         cache[k]["fetching"] = True
     threading.Thread(target=_run_all_scrapers, args=(from_iso, to_iso, from_dd, to_dd, gen), daemon=True).start()
 
-    server = ThreadingHTTPServer(('localhost', PORT), Handler)
-    import subprocess
-    subprocess.Popen(['open', f'http://localhost:{PORT}'])
+    server = ThreadingHTTPServer((HOST, PORT), Handler)
+    if not _CLOUD:
+        import subprocess
+        subprocess.Popen(['open', f'http://localhost:{PORT}'])
     print("Server ready — Ctrl+C to stop\n")
     try:
         server.serve_forever()
