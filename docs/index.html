@@ -596,9 +596,9 @@ const SRC = {
 };
 
 const ALL_KEYS = Object.keys(SRC);
-const API = 'http://localhost:8765';
 const TOTAL_SOURCES = ALL_KEYS.length;
-const DEMO_MODE = true;
+const API = ''; // unused in static mode
+let _scrapedData = null; // loaded from data.json
 
 // =================================================================
 //  STATE
@@ -621,17 +621,12 @@ function _currentMonthRange() {
 // =================================================================
 //  DATE RANGE INIT
 // =================================================================
-async function fetchActiveMonth() {
-  try {
-    const r = await apiFetch('/api/active_month');
-    if (r.is_custom) {
-      activeRange = { from_iso: r.range_from, to_iso: r.range_to, is_custom: true };
-    } else {
-      activeRange = { from_iso: r.from_iso, to_iso: r.to_iso, is_custom: false };
-    }
+function fetchActiveMonth() {
+  if (_scrapedData && _scrapedData.date_range) {
+    activeRange = { from_iso: _scrapedData.date_range.from_iso, to_iso: _scrapedData.date_range.to_iso, is_custom: false };
     $('date-from').value = activeRange.from_iso;
     $('date-to').value   = activeRange.to_iso;
-  } catch(e) {
+  } else {
     const { from, to } = _currentMonthRange();
     $('date-from').value = from;
     $('date-to').value   = to;
@@ -639,109 +634,95 @@ async function fetchActiveMonth() {
 }
 
 // =================================================================
-//  DEMO DATA GENERATOR
-// =================================================================
-function _demoData() {
-  const companies = ['Reliance Industries Ltd','Tata Consultancy Services','HDFC Bank Ltd','Infosys Ltd','Bharti Airtel Ltd','Adani Ports & SEZ','Wipro Ltd','State Bank of India','ICICI Bank Ltd','Mahindra & Mahindra Ltd','ITC Ltd','Larsen & Toubro Ltd','Axis Bank Ltd','HCL Technologies','Kotak Mahindra Bank','Asian Paints Ltd','Sun Pharmaceutical','Bajaj Finance Ltd','Maruti Suzuki India','Titan Company Ltd','Zomato Ltd','Paytm','LIC of India','Bharat Petroleum','Power Grid Corporation','Tech Mahindra','Oil & Natural Gas Corp','JSW Steel','Cipla Ltd','MRF Ltd','Godrej Consumer','Eicher Motors Ltd','InterGlobe Aviation','Vedanta Ltd','Delhivery Ltd','Apollo Hospitals','Nestle India','Siemens Ltd','ABB India','Bosch Ltd','Colgate Palmolive India','Dabur India','Glenmark Pharma','Havells India','Hindalco Industries','NTPC Ltd','Bharat Electronics','Mphasis Ltd','Tata Steel'];
-  const euCompanies = ['Apple Inc','Google LLC','Microsoft Corporation','Meta Platforms','Amazon.com Inc','Samsung Electronics','Qualcomm Inc','Intel Corporation','Nvidia Corp','ASML Holding','SAP SE','Siemens AG','Volkswagen AG','Total Energies','Roche Holding'];
-  const ukCompanies = ['British American Tobacco','Unilever PLC','BP PLC','Shell PLC','HSBC Holdings','Barclays PLC','GlaxoSmithKline','AstraZeneca','Rio Tinto','BHP Group'];
-  const uaeCompanies = ['Emirates NBD','Dubai Islamic Bank','Emaar Properties','ADNOC','DP World','Masdar','Etisalat','Abu Dhabi Commercial Bank','First Abu Dhabi Bank','DEWA'];
-  const titles = {
-    SEBI: ['Red Herring Prospectus filed','Draft Red Herring Prospectus','Rights Issue Letter of Offer','Informal Guidance Letter','Consultation Paper on framework','Circular on disclosure norms','Final Offer Document'],
-    BSE: ['QIP Placement Document','Preliminary Placement Document'],
-    CCI: ['Combination Order under Section 31','Gun Jumping Order Section 43A','Antitrust Investigation Order','Green Channel Notice approved'],
-    RBI: ['Master Direction on Credit','Master Circular on NBFC','FEMA Direction on FDI','FEMA Notification on Overseas Investment'],
-    IRDAI: ['Circular on Insurance Guidelines','Regulations on Health Insurance'],
-    RERA: ['Adjudication Order','Authority Order on Builder Compliance','RERA Circular on Registration'],
-    TRAI: ['Direction on Telecom Licensing','Regulation on Quality of Service','Consultation Paper on Spectrum'],
-    EU_COMP: ['Phase II Decision — Merger Clearance','Statement of Objections — Cartel','Digital Markets Act Designation','Foreign Subsidies Regulation Assessment'],
-    EPO_BOA: ['Appeal Decision T 0234/22','Technical Board Decision T 0891/21','Enlarged Board Opinion G 1/23'],
-    EDPB: ['Guidelines on Data Transfers','Binding Decision Art. 65','Opinion on AI Processing'],
-    UAE: ['ADGM Court Judgment','DIFC Court of Appeal Order','MOHRE Resolution on Labour Standards'],
-    UK: ['Employment Tribunal Decision — Unfair Dismissal','Competition Appeal Tribunal Judgment','CMA Phase 1 Merger Decision','Upper Tribunal Tax Decision'],
-    INX: ['Circular on Listing Requirements','Issuer Document Filing'],
-    GST: ['CGST Circular on Input Tax Credit','CGST Circular on E-Invoice'],
-    IBBI: ['NCLT Resolution Plan Order','NCLT Admission Order under IBC']
-  };
-  const { from, to } = _currentMonthRange();
-  const fromD = new Date(from), toD = new Date(to);
-  const days = Math.max(1, (toD - fromD) / 86400000);
-  const result = {};
-  for (const k of ALL_KEYS) {
-    const cat = SRC[k].cat;
-    const pool = cat === 'EU_COMP' ? euCompanies : cat === 'UK' ? ukCompanies : cat === 'UAE' ? uaeCompanies : companies;
-    const tpool = titles[cat] || titles['SEBI'];
-    const n = Math.floor(Math.random() * 5) + 1;
-    const docs = [];
-    for (let i = 0; i < n; i++) {
-      const d = new Date(fromD.getTime() + Math.random() * days * 86400000);
-      const iso = d.toISOString().slice(0, 10);
-      const co = pool[Math.floor(Math.random() * pool.length)];
-      const ti = tpool[Math.floor(Math.random() * tpool.length)];
-      docs.push({ id: k + '_' + i, title: ti + ' — ' + co, company: co, date: iso.split('-').reverse().join('/'), date_iso: iso, pdf_url: SRC[k].url, page_url: SRC[k].url });
-    }
-    docs.sort((a, b) => b.date_iso.localeCompare(a.date_iso));
-    result[k] = docs;
-  }
-  return result;
-}
-
-// =================================================================
 //  INIT
 // =================================================================
-function init() {
-  // Demo banner
-  if (DEMO_MODE) {
-    const banner = document.createElement('div');
-    banner.style.cssText = 'background:#171717;color:#fff;text-align:center;padding:8px 16px;font-size:12px;font-weight:600;font-family:Inter,sans-serif;letter-spacing:.3px;position:relative;z-index:200';
-    banner.innerHTML = 'DEMO MODE — This is a live preview with sample data. <a href="https://github.com/mohitlucio/LucioBriefcase" style="color:#60a5fa;margin-left:8px;text-decoration:underline">View on GitHub →</a>';
-    document.body.insertBefore(banner, document.body.firstChild);
-  }
-  fetchActiveMonth();
+async function init() {
   buildCatBar();
   buildStatusStrip();
   buildGrid();
-  if (DEMO_MODE) {
-    // Load demo data directly
-    unified = _demoData();
-    applyFilters();
-    // Simulate all sources done
+  // Show loading state
+  for (const k of ALL_KEYS) renderSkel(k);
+
+  // Load static scraped data
+  try {
+    const resp = await fetch('data.json');
+    if (!resp.ok) throw new Error('data.json not found (' + resp.status + ')');
+    _scrapedData = await resp.json();
+  } catch(e) {
+    // Fallback — show banner explaining data isn't available yet
+    const banner = document.createElement('div');
+    banner.style.cssText = 'background:#dc2626;color:#fff;text-align:center;padding:10px 16px;font-size:12px;font-weight:600;font-family:Inter,sans-serif;position:relative;z-index:200';
+    banner.innerHTML = 'Data is being scraped for the first time. It will appear here automatically within a few hours. <a href="https://github.com/mohitlucio/LucioBriefcase/actions" style="color:#fca5a5;margin-left:8px;text-decoration:underline">Check progress →</a>';
+    document.body.insertBefore(banner, document.body.firstChild);
     for (const k of ALL_KEYS) {
-      _srcStatus[k] = { fetching: false, error: null, fetched: unified[k].length, fetch_started_at: 1 };
+      const b = $('body-' + k);
+      if (b) b.innerHTML = '<div class="empty"><p>Awaiting first scrape...</p></div>';
     }
-    updateStatusStrip();
-    _updateRegionStats();
-    // Update stats
-    let totalDocs = 0;
-    for (const k of ALL_KEYS) totalDocs += (unified[k]?.length || 0);
-    $('stat-sources').textContent = TOTAL_SOURCES;
-    $('stat-docs').textContent = totalDocs.toLocaleString();
-    $('stat-errors').textContent = '0';
-    $('stat-loading').textContent = '0';
-    const bar = $('gp-bar');
-    bar.style.width = '100%';
-    bar.className = 'global-progress-bar all-done';
-    $('gp-left').textContent = 'All sources ready (demo)';
-    $('gp-right').textContent = TOTAL_SOURCES + ' / ' + TOTAL_SOURCES + ' (100%)';
-    const hs = $('h-status');
-    hs.style.display = '';
-    hs.className = 'status-pill s-done';
-    hs.textContent = 'Demo Mode';
-    // Update tab counts
-    const natDocs = ALL_KEYS.filter(k => NATIONAL_CATS.includes(SRC[k].cat)).reduce((a, k) => a + (filtered[k]?.length || 0), 0);
-    const intlDocs = ALL_KEYS.filter(k => INTL_CATS.includes(SRC[k].cat)).reduce((a, k) => a + (filtered[k]?.length || 0), 0);
-    const tcA = $('tc-ALL'); if (tcA) tcA.textContent = (natDocs + intlDocs).toLocaleString();
-    const tcN = $('tc-NATIONAL'); if (tcN) tcN.textContent = natDocs.toLocaleString();
-    const tcI = $('tc-INTERNATIONAL'); if (tcI) tcI.textContent = intlDocs.toLocaleString();
-    // Mark all cards as done
-    for (const k of ALL_KEYS) {
-      const card = $('card-' + k);
-      if (card) { card.classList.remove('card-fetching','card-error'); card.classList.add('card-done'); }
-    }
-  } else {
-    loadData();
-    statusTimer = setInterval(pollStatus, 4000);
-    pollStatus();
+    return;
+  }
+
+  fetchActiveMonth();
+
+  // Load real data
+  unified = _scrapedData.sources || {};
+  for (const k of ALL_KEYS) if (!unified[k]) unified[k] = [];
+
+  // Load status
+  const st = _scrapedData.status || {};
+  _srcStatus = st;
+
+  applyFilters();
+  updateStatusStrip();
+  _updateRegionStats();
+
+  // Update header stats
+  let totalDocs = 0, okCount = 0, errCount = 0;
+  for (const k of ALL_KEYS) {
+    totalDocs += (unified[k]?.length || 0);
+    const s = st[k];
+    if (s && s.error) errCount++;
+    else okCount++;
+  }
+
+  $('stat-sources').textContent = okCount;
+  $('stat-docs').textContent = totalDocs.toLocaleString();
+  $('stat-errors').textContent = errCount;
+  $('stat-loading').textContent = '0';
+
+  const bar = $('gp-bar');
+  bar.style.width = '100%';
+  bar.className = 'global-progress-bar' + (errCount > 0 ? ' has-errors' : ' all-done');
+  $('gp-left').textContent = errCount > 0 ? 'Done with ' + errCount + ' error(s)' : 'All sources ready';
+  $('gp-right').textContent = TOTAL_SOURCES + ' / ' + TOTAL_SOURCES + ' (100%)';
+
+  const hs = $('h-status');
+  hs.style.display = '';
+  if (errCount > 0) { hs.className = 'status-pill s-errors'; hs.textContent = errCount + ' error' + (errCount>1?'s':''); }
+  else { hs.className = 'status-pill s-done'; hs.textContent = 'All ready'; }
+
+  // Update tab counts
+  const natDocs = ALL_KEYS.filter(k => NATIONAL_CATS.includes(SRC[k].cat)).reduce((a, k) => a + (filtered[k]?.length || 0), 0);
+  const intlDocs = ALL_KEYS.filter(k => INTL_CATS.includes(SRC[k].cat)).reduce((a, k) => a + (filtered[k]?.length || 0), 0);
+  const tcA = $('tc-ALL'); if (tcA) tcA.textContent = (natDocs + intlDocs).toLocaleString();
+  const tcN = $('tc-NATIONAL'); if (tcN) tcN.textContent = natDocs.toLocaleString();
+  const tcI = $('tc-INTERNATIONAL'); if (tcI) tcI.textContent = intlDocs.toLocaleString();
+
+  // Mark cards based on status
+  for (const k of ALL_KEYS) {
+    const card = $('card-' + k);
+    if (!card) continue;
+    card.classList.remove('card-fetching','card-error');
+    const s = st[k];
+    if (s && s.error) card.classList.add('card-error');
+    else card.classList.add('card-done');
+  }
+
+  // Last updated banner
+  if (_scrapedData.scraped_at) {
+    const banner = document.createElement('div');
+    banner.style.cssText = 'background:#171717;color:#fff;text-align:center;padding:6px 16px;font-size:11px;font-weight:500;font-family:Inter,sans-serif;letter-spacing:.2px;position:relative;z-index:200';
+    banner.innerHTML = 'Live data · Last scraped: <b>' + esc(_scrapedData.scraped_at) + '</b> · ' + totalDocs.toLocaleString() + ' documents from ' + okCount + ' sources · <a href="https://github.com/mohitlucio/LucioBriefcase" style="color:#60a5fa;text-decoration:underline">GitHub →</a>';
+    document.body.insertBefore(banner, document.body.firstChild);
   }
 }
 
@@ -880,119 +861,21 @@ async function loadData(showSkel) {
   if (_loading) return;
   _loading = true;
   if (showSkel !== false) for (const k of ALL_KEYS) renderSkel(k);
-  const p = new URLSearchParams();
-  const df = $('date-from').value, dt = $('date-to').value, sq = $('search').value.trim();
-  if (df) p.append('from', df);
-  if (dt) p.append('to', dt);
-  if (sq) p.append('search', sq);
-  try {
-    const r = await apiFetch('/api/unified?' + p);
-    unified = r.sources || {};
-    for (const k of ALL_KEYS) if (!unified[k]) unified[k] = [];
-    applyFilters();
-  } catch(e) {
-    for (const k of ALL_KEYS) {
-      const b = $('body-' + k);
-      if (b) b.innerHTML = '<div class="empty"><p>Server not responding</p></div>';
-    }
-  }
+  // Data already loaded from data.json into unified — just apply filters
+  applyFilters();
   _loading = false;
 }
 
 async function pollStatus() {
-  try {
-    const s = await apiFetch('/api/status');
-    _srcStatus = s;
-    let fetching = 0, errors = 0, totalDocs = 0, okCount = 0;
-    let readyKeys = [];
-    for (const [t, c] of Object.entries(s)) {
-      totalDocs += (c.fetched || 0);
-      if (c.fetching) fetching++;
-      if (c.error) errors++;
-      if (!c.error && !c.fetching && c.fetched > 0) { okCount++; readyKeys.push(t); }
-      if (!c.error && !c.fetching && c.fetch_started_at > 0 && c.fetched === 0) okCount++;
-      const spin = $('spin-' + t);
-      if (spin) spin.innerHTML = c.fetching ? '<span class="spinner-sm"></span>' : '';
-      // Error display
-      if (c.error && !c.fetching) {
-        const body = $('body-' + t);
-        if (body && unified[t]?.length === 0) body.innerHTML = '<div class="empty"><p style="color:var(--red);font-size:11px">' + esc(c.error).slice(0, 80) + '</p></div>';
-      }
-      // Card classes + status chip
-      const card = $('card-' + t);
-      const chip = $('chip-' + t);
-      if (card) {
-        card.classList.remove('card-fetching', 'card-done', 'card-error');
-        if (c.fetching) { card.classList.add('card-fetching'); if (chip) { chip.className='card-status-chip csc-loading'; chip.textContent='Loading'; } }
-        else if (c.error) { card.classList.add('card-error'); if (chip) { chip.className='card-status-chip csc-error'; chip.textContent='Error'; } }
-        else if (!c.fetching && (c.fetched > 0 || c.fetch_started_at > 0)) { card.classList.add('card-done'); if (chip) { chip.className='card-status-chip csc-done'; chip.textContent='Done'; } }
-      }
-    }
-
-    // Region header stats
-    _updateRegionStats();
-
-    // Reload data when new sources finish
-    const readySig = readyKeys.sort().join(',');
-    if (readySig !== _lastFetchedSet && readyKeys.length > 0) {
-      _lastFetchedSet = readySig;
-      loadData(false);
-    }
-
-    // Stats
-    const doneCount = okCount;
-    $('stat-sources').textContent = doneCount;
-    $('stat-docs').textContent = totalDocs.toLocaleString();
-    $('stat-errors').textContent = errors;
-    $('stat-loading').textContent = fetching;
-    $('h-sources').textContent = doneCount;
-    $('h-docs').textContent = totalDocs.toLocaleString();
-
-    // Global progress bar
-    const processed = doneCount + errors;
-    const pct = TOTAL_SOURCES > 0 ? Math.round(processed / TOTAL_SOURCES * 100) : 0;
-    const bar = $('gp-bar');
-    bar.style.width = pct + '%';
-    bar.className = 'global-progress-bar' + (errors > 0 ? ' has-errors' : fetching === 0 ? ' all-done' : '');
-    $('gp-left').textContent = fetching > 0 ? fetching + ' sources loading...' : errors > 0 ? 'Done with ' + errors + ' error(s)' : processed > 0 ? 'All sources ready' : 'Starting...';
-    $('gp-right').textContent = processed + ' / ' + TOTAL_SOURCES + ' (' + pct + '%)';
-
-    // Status pill
-    const hs = $('h-status');
-    if (fetching > 0) {
-      hs.style.display = '';
-      hs.className = 'status-pill s-loading';
-      hs.innerHTML = '<span class="spinner-sm" style="width:10px;height:10px;border-width:1.5px;border-top-color:var(--yellow)"></span> ' + fetching + ' loading';
-    } else if (errors > 0) {
-      hs.style.display = '';
-      hs.className = 'status-pill s-errors';
-      hs.textContent = errors + ' error' + (errors > 1 ? 's' : '');
-    } else if (processed > 0) {
-      hs.style.display = '';
-      hs.className = 'status-pill s-done';
-      hs.textContent = 'All ready';
-    } else {
-      hs.style.display = 'none';
-    }
-
-    // Tab counts
-    const natDocs = ALL_KEYS.filter(k => NATIONAL_CATS.includes(SRC[k].cat)).reduce((a, k) => a + (filtered[k]?.length || 0), 0);
-    const intlDocs = ALL_KEYS.filter(k => INTL_CATS.includes(SRC[k].cat)).reduce((a, k) => a + (filtered[k]?.length || 0), 0);
-    const all = natDocs + intlDocs;
-    const tcA = $('tc-ALL'); if (tcA) tcA.textContent = all.toLocaleString();
-    const tcN = $('tc-NATIONAL'); if (tcN) tcN.textContent = natDocs.toLocaleString();
-    const tcI = $('tc-INTERNATIONAL'); if (tcI) tcI.textContent = intlDocs.toLocaleString();
-
-    // Status strip
-    updateStatusStrip();
-  } catch(e) {}
+  // Status is loaded statically from data.json — no polling needed
+  return;
 }
 
 // =================================================================
 //  FILTERS & RENDER
 // =================================================================
 let _fd;
-function onFilterChange() { clearTimeout(_fd); _fd = setTimeout(() => { if (DEMO_MODE) { applyFilters(); } else { loadData(false); } }, 400); }
+function onFilterChange() { clearTimeout(_fd); _fd = setTimeout(() => { applyFilters(); }, 200); }
 
 function applyFilters() {
   const df = $('date-from').value, dt = $('date-to').value, sq = $('search').value.trim().toLowerCase();
@@ -1049,21 +932,11 @@ function dlBadge(id, t) {
 }
 
 async function resetFilters() {
-  if (DEMO_MODE) { $('date-from').value = ''; $('date-to').value = ''; $('search').value = ''; unified = _demoData(); applyFilters(); toast('Filters reset (demo)', 'ok'); return; }
-  if (!confirm('Reset to current month defaults and re-scrape all sources?')) return;
-  const btn = document.querySelector('.ctrl-actions .btn-ghost');
-  if (btn) { btn.disabled = true; btn.textContent = 'Resetting...'; }
-  try {
-    const r = await fetch(API + '/api/reset', { method: 'POST', headers: {'Content-Type':'application/json'}, body: '{}' });
-    const d = await r.json();
-    if (d.error) { toast(d.error, 'err'); return; }
-    $('date-from').value = d.from_iso;
-    $('date-to').value = d.to_iso;
-    $('search').value = '';
-    toast('Reset to ' + d.from_iso + ' → ' + d.to_iso, 'ok');
-    loadData(false);
-  } catch(e) { toast('Reset failed: ' + e.message, 'err'); }
-  finally { if (btn) { btn.disabled = false; btn.textContent = 'Reset'; } }
+  $('date-from').value = activeRange.from_iso || '';
+  $('date-to').value = activeRange.to_iso || '';
+  $('search').value = '';
+  applyFilters();
+  toast('Filters reset', 'ok');
 }
 function toggleSel(t, id) { const s = selMap[t]; s.has(id) ? s.delete(id) : s.add(id); }
 
@@ -1071,61 +944,33 @@ function toggleSel(t, id) { const s = selMap[t]; s.has(id) ? s.delete(id) : s.ad
 //  REFRESH
 // =================================================================
 async function refreshAll() {
-  if (DEMO_MODE) { unified = _demoData(); applyFilters(); toast('Refreshed with new sample data (demo)', 'ok'); return; }
-  const btn = $('refresh-btn');
-  btn.disabled = true; btn.textContent = 'Refreshing...';
-  try {
-    const { from: defFrom, to: defTo } = _currentMonthRange();
-    const fromVal = $('date-from').value || defFrom;
-    const toVal   = $('date-to').value   || defTo;
-    if (fromVal > toVal) { toast('From date must be before To date', 'err'); btn.disabled = false; btn.textContent = 'Refresh'; return; }
-    await apiPost('/api/set_range', { from_iso: fromVal, to_iso: toVal });
-    activeRange = { from_iso: fromVal, to_iso: toVal, is_custom: true };
-    $('date-from').value = fromVal;
-    $('date-to').value   = toVal;
-    toast('Refreshing ' + fromVal + ' \u2192 ' + toVal + '...', 'info');
-    _lastFetchedSet = '';
-    await waitDone(45000);
-    _lastFetchedSet = '';
-    await loadData(false);
-    const tot = Object.values(filtered).reduce((a, d) => a + d.length, 0);
-    toast('Refreshed \u2014 ' + tot.toLocaleString() + ' documents', 'ok');
-  } catch(e) { toast('Refresh failed', 'err'); }
-  btn.disabled = false; btn.textContent = 'Refresh';
+  toast('Data is updated automatically every 6 hours via GitHub Actions. Last update: ' + (_scrapedData ? _scrapedData.scraped_at : 'unknown'), 'info');
 }
-async function waitDone(ms) { const t0 = Date.now(); while (Date.now() - t0 < ms) { await sleep(1000); try { const s = await apiFetch('/api/status'); if (Object.values(s).every(c => !c.fetching)) return; } catch(e) {} } }
+function waitDone() {}
 
 // =================================================================
 //  PDF & DOWNLOADS
 // =================================================================
 async function getPdf(id, pageUrl, dtype) {
-  if (DEMO_MODE) { toast('PDF links are simulated in demo mode', 'info'); return; }
-  try {
-    const r = await apiFetch('/api/get_pdf_url?id=' + enc(id) + '&page_url=' + enc(pageUrl) + '&type=' + dtype);
-    if (r.pdf_url) { const doc = (unified[dtype] || []).find(d => d.id === id); if (doc) doc.pdf_url = r.pdf_url; applyFilters(); toast('PDF link found', 'ok'); }
-    else toast('PDF not found', 'warn');
-  } catch(e) {}
+  // Open the page URL directly — PDF resolution requires the live backend
+  if (pageUrl) window.open(pageUrl, '_blank');
+  else toast('Visit the source page to access the PDF', 'info');
 }
 
 async function dlOne(id, dtype) {
-  if (DEMO_MODE) { toast('Downloads require the local Python server — clone the repo and run: python3 run.py', 'info'); return; }
   const doc = (unified[dtype] || []).find(d => d.id === id); if (!doc) return;
-  try { await apiPost('/api/download', { id: doc.id, pdf_url: doc.pdf_url, page_url: doc.page_url, title: doc.title, type: dtype }); toast('Downloading...', 'info'); startDlPoll(); applyFilters(); }
-  catch(e) { toast('Download failed', 'warn'); }
+  if (doc.pdf_url) window.open(doc.pdf_url, '_blank');
+  else if (doc.page_url) window.open(doc.page_url, '_blank');
+  else toast('To download PDFs locally, clone the repo and run: python3 run.py', 'info');
 }
 
 async function downloadAll() {
-  if (DEMO_MODE) { toast('Downloads require the local Python server — clone the repo and run: python3 run.py', 'info'); return; }
-  const allDocs = [];
-  for (const [dtype, docs] of Object.entries(filtered)) for (const doc of docs) allDocs.push({ id: doc.id, pdf_url: doc.pdf_url, page_url: doc.page_url, title: doc.title, date: doc.date || '', type: dtype });
-  if (!allDocs.length) { toast('No documents to download', 'warn'); return; }
-  try { const r = await apiPost('/api/download_all', { documents: allDocs }); toast('Queued ' + r.count + ' downloads', 'ok'); openDlModal(); $('dlp-toggle').style.display = ''; startDlPoll(); applyFilters(); }
-  catch(e) { toast('Failed to queue downloads', 'warn'); }
+  toast('To bulk download PDFs locally, clone the repo and run: python3 run.py', 'info');
 }
 
-async function retryErrors() { if (DEMO_MODE) { toast('No errors in demo mode', 'ok'); return; } try { const r = await apiPost('/api/retry_errors', {}); toast('Retrying ' + r.count + ' failed downloads', 'warn'); startDlPoll(); applyFilters(); } catch(e) {} }
+async function retryErrors() { toast('Retry requires the local Python server — clone the repo and run: python3 run.py', 'info'); }
 async function retryOne(id, dtype) {
-  if (DEMO_MODE) { toast('Downloads require the local Python server', 'info'); return; }
+  toast('Retry requires the local Python server', 'info'); return;
   try {
     // Use the targeted retry endpoint so citation metadata is preserved
     await apiPost('/api/retry_errors', { doc_id: id });
@@ -1252,7 +1097,7 @@ function switchDlTab(tab) {
 }
 
 async function manualDownload(docId, dtype) {
-  if (DEMO_MODE) { toast('Downloads require the local Python server — clone the repo and run: python3 run.py', 'info'); return; }
+  toast('Downloads require the local Python server — clone the repo and run: python3 run.py', 'info'); return;
   const d = dlProg[docId]; if (!d) return;
   const safe = 'mdb_' + docId.replace(/[^a-z0-9]/gi, '_');
   const btn  = $(safe);
@@ -1280,8 +1125,8 @@ function esc(s) { return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').
 function enc(s) { return encodeURIComponent(s || ''); }
 function $(id) { return document.getElementById(id); }
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
-async function apiFetch(p) { const c = new AbortController(); const t = setTimeout(() => c.abort(), 15000); try { const r = await fetch(API + p, { signal: c.signal }); clearTimeout(t); if (!r.ok) throw new Error(r.status); return r.json(); } catch(e) { clearTimeout(t); throw e; } }
-async function apiPost(p, b) { const c = new AbortController(); const t = setTimeout(() => c.abort(), 60000); try { const r = await fetch(API + p, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(b), signal: c.signal }); clearTimeout(t); if (!r.ok) throw new Error(r.status); return r.json(); } catch(e) { clearTimeout(t); throw e; } }
+async function apiFetch(p) { throw new Error('Static site — no backend API'); }
+async function apiPost(p, b) { throw new Error('Static site — no backend API'); }
 let _tt; function toast(msg, type) { const el = $('toast'); el.textContent = msg; el.className = 'toast on ' + (type || 'info'); clearTimeout(_tt); _tt = setTimeout(() => el.className = 'toast', 4000); }
 
 // =================================================================
@@ -1291,7 +1136,7 @@ let _auditRunning = false;
 let _lastAuditData = null;
 
 async function runAudit() {
-  if (DEMO_MODE) { toast('Audit requires the local Python server — clone the repo and run: python3 run.py', 'info'); return; }
+  toast('Audit requires the local Python server — clone the repo and run: python3 run.py', 'info'); return;
   if (_auditRunning) { $('audit-overlay').classList.add('open'); return; }
   _auditRunning = true;
   $('audit-btn').disabled = true;
