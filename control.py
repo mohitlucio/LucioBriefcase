@@ -12,6 +12,7 @@ Commands:
   python3 control.py notice "New sources added!" --type success
   python3 control.py clear                   # Clear the notice banner
   python3 control.py month 2026-02           # Scrape a different month
+  python3 control.py dates 2026-02-16 2026-03-15  # Scrape a custom date range
   python3 control.py status                  # Check latest workflow run status
   python3 control.py logs                    # View latest scrape logs
   python3 control.py sources                 # List all valid source keys
@@ -125,6 +126,22 @@ def cmd_month(month_str):
     print("Workflow dispatched! Data will update within ~15 minutes.")
 
 
+def cmd_dates(from_date, to_date):
+    """Scrape a custom date range (YYYY-MM-DD format). Updates the website."""
+    import re as _re
+    pat = r'^\d{4}-\d{2}-\d{2}$'
+    if not _re.match(pat, from_date) or not _re.match(pat, to_date):
+        print(f"Invalid date format. Use YYYY-MM-DD (e.g. 2026-02-16)")
+        sys.exit(1)
+    if from_date > to_date:
+        print(f"Error: from-date ({from_date}) is after to-date ({to_date})")
+        sys.exit(1)
+    print(f"Dispatching scrape for date range: {from_date} → {to_date}")
+    gh("workflow", "run", WORKFLOW, "--repo", REPO,
+       "-f", "action=set_month", "-f", f"message={from_date},{to_date}")
+    print("Workflow dispatched! Website will update with this date range within ~15 minutes.")
+
+
 def cmd_status():
     """Show recent workflow runs."""
     print("Recent workflow runs:")
@@ -221,6 +238,11 @@ def main():
             print("Usage: python3 control.py month 2026-02")
             sys.exit(1)
         cmd_month(sys.argv[2])
+    elif command == "dates":
+        if len(sys.argv) < 4:
+            print("Usage: python3 control.py dates 2026-02-16 2026-03-15")
+            sys.exit(1)
+        cmd_dates(sys.argv[2], sys.argv[3])
     elif command == "status":
         cmd_status()
     elif command == "logs":

@@ -26,17 +26,28 @@ def main():
     parser.add_argument('--sources', type=str, default='',
                         help='Comma-separated source keys to scrape (default: all)')
     parser.add_argument('--month', type=str, default='',
-                        help='Month to scrape as YYYY-MM (default: current)')
+                        help='Month to scrape as YYYY-MM or date range as YYYY-MM-DD,YYYY-MM-DD')
     args = parser.parse_args()
 
-    # Determine month
-    if args.month:
+    # Determine date range
+    if args.month and ',' in args.month:
+        # Custom date range: YYYY-MM-DD,YYYY-MM-DD
+        parts = args.month.split(',')
+        from_iso = parts[0].strip()
+        to_iso = parts[1].strip()
+        fd = datetime.strptime(from_iso, "%Y-%m-%d")
+        td = datetime.strptime(to_iso, "%Y-%m-%d")
+        from_dd = fd.strftime("%d/%m/%Y")
+        to_dd = td.strftime("%d/%m/%Y")
+        y, m = td.year, td.month
+    elif args.month:
         parts = args.month.split('-')
         y, m = int(parts[0]), int(parts[1])
+        from_iso, to_iso, from_dd, to_dd = srv._month_range(y, m)
     else:
         now = datetime.now()
         y, m = now.year, now.month
-    from_iso, to_iso, from_dd, to_dd = srv._month_range(y, m)
+        from_iso, to_iso, from_dd, to_dd = srv._month_range(y, m)
 
     # Determine which sources to scrape
     if args.sources:
