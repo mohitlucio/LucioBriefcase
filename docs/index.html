@@ -104,6 +104,28 @@ body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:var(--bg)
 .cp-status.ok{display:block;background:#16a34a18;color:#16a34a;border:1px solid #16a34a33}
 .cp-status.err{display:block;background:#dc262618;color:#dc2626;border:1px solid #dc262633}
 .cp-status.info{display:block;background:#2563eb18;color:#2563eb;border:1px solid #2563eb33}
+.cp-live{margin-top:12px;border:1px solid var(--border);border-radius:var(--radius-xs);overflow:hidden}
+.cp-live-hdr{display:flex;align-items:center;justify-content:space-between;padding:8px 12px;background:var(--bg2);border-bottom:1px solid var(--border);font-size:11px;font-weight:600}
+.cp-live-dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:6px}
+.cp-live-dot.running{background:#f59e0b;animation:cp-pulse 1s infinite}
+.cp-live-dot.success{background:#16a34a}
+.cp-live-dot.failure{background:#dc2626}
+.cp-live-dot.queued{background:#6b7280}
+@keyframes cp-pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.cp-live-body{max-height:300px;overflow-y:auto;padding:0}
+.cp-run{padding:10px 12px;border-bottom:1px solid var(--border)}
+.cp-run:last-child{border-bottom:none}
+.cp-run-title{font-size:12px;font-weight:600;display:flex;align-items:center;gap:6px}
+.cp-run-meta{font-size:10px;color:var(--txt3);margin-top:2px}
+.cp-run-steps{margin-top:8px;padding-left:4px}
+.cp-step{display:flex;align-items:center;gap:6px;font-size:11px;padding:3px 0;color:var(--txt2)}
+.cp-step-icon{width:16px;text-align:center;font-size:12px}
+.cp-step.done .cp-step-icon{color:#16a34a}
+.cp-step.fail .cp-step-icon{color:#dc2626}
+.cp-step.run .cp-step-icon{color:#f59e0b}
+.cp-step.skip .cp-step-icon{color:#6b7280}
+.cp-step-dur{margin-left:auto;font-size:10px;color:var(--txt3)}
+.cp-live-footer{padding:6px 12px;font-size:10px;color:var(--txt3);background:var(--bg2);border-top:1px solid var(--border);text-align:center}
 .cp-token-row{display:flex;gap:8px;align-items:center}
 .cp-token-row input{flex:1}
 .cp-saved{font-size:10px;color:var(--green);font-weight:600}
@@ -552,11 +574,22 @@ body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:var(--bg)
         </div>
       </div>
 
-      <!-- Status -->
+      <!-- Live Progress -->
       <div class="cp-section">
-        <h3>📊 Status</h3>
-        <button class="btn" onclick="cpCheckStatus()">Check Latest Run</button>
+        <h3>📊 Live Progress</h3>
+        <div class="cp-btn-row">
+          <button class="btn btn-primary" id="cp-poll-btn" onclick="cpTogglePoll()">▶ Start Monitoring</button>
+          <button class="btn" onclick="cpCheckOnce()">Check Once</button>
+        </div>
         <div class="cp-status" id="cp-status"></div>
+        <div class="cp-live" id="cp-live" style="display:none">
+          <div class="cp-live-hdr">
+            <span><span class="cp-live-dot" id="cp-live-dot"></span><span id="cp-live-label">Workflow Runs</span></span>
+            <span id="cp-live-ts"></span>
+          </div>
+          <div class="cp-live-body" id="cp-live-body"></div>
+          <div class="cp-live-footer" id="cp-live-footer">Auto-refreshes every 5 seconds while monitoring</div>
+        </div>
       </div>
     </div>
   </div>
@@ -1576,7 +1609,9 @@ async function _ghDispatch(inputs) {
       body: JSON.stringify({ ref: 'main', inputs: inputs })
     });
     if (resp.status === 204 || resp.ok) {
-      _cpStatus('Workflow dispatched! The website will update in ~10-15 minutes. Click "Check Latest Run" to monitor.', 'ok');
+      _cpStatus('Workflow dispatched! Starting live monitoring...', 'ok');
+      // Auto-start monitoring after 3s (give GitHub time to register the run)
+      setTimeout(() => { if (!_cpPolling) _cpStartPoll(); }, 3000);
       return true;
     }
     const err = await resp.json().catch(() => ({}));
@@ -1618,28 +1653,107 @@ function cpClearNotice() {
   _ghDispatch({ action: 'clear_notice' });
 }
 
-async function cpCheckStatus() {
+let _cpPollTimer = null;
+let _cpPolling = false;
+
+function cpTogglePoll() {
+  if (_cpPolling) { _cpStopPoll(); } else { _cpStartPoll(); }
+}
+
+function _cpStartPoll() {
+  _cpPolling = true;
+  $('cp-poll-btn').textContent = '⏸ Stop Monitoring';
+  $('cp-poll-btn').classList.add('btn-ghost');
+  $('cp-live').style.display = '';
+  _cpFetchRuns();
+  _cpPollTimer = setInterval(_cpFetchRuns, 5000);
+}
+
+function _cpStopPoll() {
+  _cpPolling = false;
+  if (_cpPollTimer) { clearInterval(_cpPollTimer); _cpPollTimer = null; }
+  $('cp-poll-btn').textContent = '▶ Start Monitoring';
+  $('cp-poll-btn').classList.remove('btn-ghost');
+}
+
+async function cpCheckOnce() {
   const token = _getToken(); if (!token) return;
-  _cpStatus('Checking...', 'info');
+  $('cp-live').style.display = '';
+  await _cpFetchRuns();
+}
+
+async function _cpFetchRuns() {
+  const token = _getToken(); if (!token) { _cpStopPoll(); return; }
   try {
-    const resp = await fetch('https://api.github.com/repos/' + GH_REPO + '/actions/workflows/' + GH_WORKFLOW + '/runs?per_page=3', {
+    const resp = await fetch('https://api.github.com/repos/' + GH_REPO + '/actions/workflows/' + GH_WORKFLOW + '/runs?per_page=5', {
       headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json' }
     });
-    if (!resp.ok) { _cpStatus('API error: ' + resp.status, 'err'); return; }
+    if (!resp.ok) { _cpStatus('API error: ' + resp.status, 'err'); _cpStopPoll(); return; }
     const data = await resp.json();
     const runs = data.workflow_runs || [];
     if (!runs.length) { _cpStatus('No workflow runs found', 'info'); return; }
-    let msg = '';
-    for (const r of runs) {
-      const status = r.conclusion || r.status;
-      const icon = status === 'success' ? '✅' : status === 'in_progress' ? '⏳' : status === 'queued' ? '🕐' : '❌';
-      const ago = _timeAgo(r.updated_at);
-      msg += icon + ' ' + (r.display_title || 'Run').substring(0, 60) + ' — ' + status + ' (' + ago + ')\n';
+
+    // Check if any run is active
+    const active = runs.find(r => r.status === 'in_progress' || r.status === 'queued');
+    const dot = $('cp-live-dot');
+    dot.className = 'cp-live-dot ' + (active ? 'running' : (runs[0].conclusion === 'success' ? 'success' : runs[0].conclusion === 'failure' ? 'failure' : 'queued'));
+    $('cp-live-label').textContent = active ? 'Workflow Running…' : 'Latest Runs';
+    $('cp-live-ts').textContent = new Date().toLocaleTimeString();
+
+    // For each run, fetch job details
+    let html = '';
+    for (const r of runs.slice(0, 3)) {
+      const st = r.conclusion || r.status;
+      const icon = st === 'success' ? '✅' : st === 'in_progress' ? '⏳' : st === 'queued' ? '🕐' : st === 'failure' ? '❌' : '⚪';
+      const dur = r.updated_at && r.run_started_at ? _fmtDur(new Date(r.updated_at) - new Date(r.run_started_at)) : '';
+      html += '<div class="cp-run">';
+      html += '<div class="cp-run-title">' + icon + ' ' + (r.event === 'workflow_dispatch' ? 'Manual Dispatch' : r.event === 'schedule' ? 'Scheduled' : r.event) + '</div>';
+      html += '<div class="cp-run-meta">' + _timeAgo(r.created_at) + (dur ? ' · ' + dur : '') + ' · <a href="' + r.html_url + '" target="_blank" style="color:var(--accent2)">View on GitHub</a></div>';
+
+      // Fetch jobs for active or latest run
+      if (r.status === 'in_progress' || r === runs[0]) {
+        try {
+          const jResp = await fetch(r.jobs_url, {
+            headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json' }
+          });
+          if (jResp.ok) {
+            const jData = await jResp.json();
+            html += '<div class="cp-run-steps">';
+            for (const job of (jData.jobs || [])) {
+              for (const step of (job.steps || [])) {
+                const sc = step.conclusion || step.status;
+                const cls = sc === 'success' ? 'done' : sc === 'failure' ? 'fail' : sc === 'in_progress' ? 'run' : sc === 'skipped' ? 'skip' : '';
+                const si = sc === 'success' ? '✓' : sc === 'failure' ? '✗' : sc === 'in_progress' ? '●' : sc === 'skipped' ? '○' : '·';
+                const sdur = step.completed_at && step.started_at ? _fmtDur(new Date(step.completed_at) - new Date(step.started_at)) : (sc === 'in_progress' ? _fmtDur(Date.now() - new Date(step.started_at).getTime()) + '…' : '');
+                html += '<div class="cp-step ' + cls + '"><span class="cp-step-icon">' + si + '</span>' + esc(step.name) + '<span class="cp-step-dur">' + sdur + '</span></div>';
+              }
+            }
+            html += '</div>';
+          }
+        } catch(e) {}
+      }
+      html += '</div>';
     }
-    _cpStatus(msg.trim(), runs[0].conclusion === 'success' || runs[0].status === 'in_progress' ? 'ok' : 'err');
+    $('cp-live-body').innerHTML = html;
+
+    // Auto-stop polling when no active runs
+    if (_cpPolling && !active) {
+      $('cp-live-footer').textContent = 'All runs complete — monitoring stopped';
+      _cpStopPoll();
+    } else if (_cpPolling) {
+      $('cp-live-footer').textContent = 'Auto-refreshing every 5s…';
+    }
   } catch(e) {
-    _cpStatus('Error: ' + e.message, 'err');
+    _cpStatus('Network error: ' + e.message, 'err');
   }
+}
+
+function _fmtDur(ms) {
+  if (ms < 0) ms = 0;
+  const s = Math.floor(ms / 1000);
+  if (s < 60) return s + 's';
+  const m = Math.floor(s / 60);
+  return m + 'm ' + (s % 60) + 's';
 }
 
 function _timeAgo(iso) {
