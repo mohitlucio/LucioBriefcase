@@ -2,9 +2,37 @@ name: Scrape & Deploy
 
 on:
   schedule:
-    # Run every 6 hours
     - cron: '0 */6 * * *'
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Command to execute'
+        required: true
+        default: 'scrape_all'
+        type: choice
+        options:
+          - scrape_all
+          - scrape_sources
+          - post_notice
+          - clear_notice
+          - set_month
+      sources:
+        description: 'Comma-separated source keys (for scrape_sources)'
+        required: false
+        type: string
+      message:
+        description: 'Notice text (for post_notice) or YYYY-MM (for set_month)'
+        required: false
+        type: string
+      notice_type:
+        description: 'Notice style'
+        required: false
+        default: 'info'
+        type: choice
+        options:
+          - info
+          - warning
+          - success
   push:
     branches: [main]
 
@@ -17,6 +45,11 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    if: >-
+      github.event_name != 'workflow_dispatch' ||
+      github.event.inputs.action == 'scrape_all' ||
+      github.event.inputs.action == 'scrape_sources' ||
+      github.event.inputs.action == 'set_month'
 
     steps:
       - uses: actions/checkout@v4
@@ -29,7 +62,15 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y curl
 
       - name: Run scraper
-        run: python3 scrape_to_json.py
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.action }}" = "scrape_sources" ] && [ -n "${{ github.event.inputs.sources }}" ]; then
+            ARGS="--sources ${{ github.event.inputs.sources }}"
+          fi
+          if [ "${{ github.event.inputs.action }}" = "set_month" ] && [ -n "${{ github.event.inputs.message }}" ]; then
+            ARGS="--month ${{ github.event.inputs.message }}"
+          fi
+          python3 scrape_to_json.py $ARGS
         timeout-minutes: 40
         env:
           CLOUD: '1'
@@ -43,5 +84,47 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data.json
+          git add docs/data.json docs/commands.json
           git diff --staged --quiet && echo "No changes" || git commit -m "Update scraped data $(date -u +%Y-%m-%d\ %H:%M)" && git push
+
+  notice:
+    runs-on: ubuntu-latest
+    if: >-
+      github.event_name == 'workflow_dispatch' &&
+      (github.event.inputs.action == 'post_notice' || github.event.inputs.action == 'clear_notice')
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update commands.json
+        run: |
+          if [ "${{ github.event.inputs.action }}" = "clear_notice" ]; then
+            python3 -c "
+          import json, os
+          path = 'docs/commands.json'
+          cmd = json.load(open(path)) if os.path.exists(path) else {}
+          cmd.pop('notice', None)
+          json.dump(cmd, open(path, 'w'), indent=2)
+          print('Notice cleared')
+          "
+          else
+            python3 -c "
+          import json, os, datetime
+          path = 'docs/commands.json'
+          cmd = json.load(open(path)) if os.path.exists(path) else {}
+          cmd['notice'] = {
+              'message': '''${{ github.event.inputs.message }}''',
+              'type': '${{ github.event.inputs.notice_type }}',
+              'posted_at': datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
+          }
+          json.dump(cmd, open(path, 'w'), indent=2)
+          print('Notice posted:', cmd['notice'])
+          "
+          fi
+
+      - name: Commit commands.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/commands.json
+          git diff --staged --quiet && echo "No changes" || git commit -m "Update notice $(date -u +%Y-%m-%d\ %H:%M)" && git push

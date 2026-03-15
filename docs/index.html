@@ -724,6 +724,23 @@ async function init() {
     banner.innerHTML = 'Live data · Last scraped: <b>' + esc(_scrapedData.scraped_at) + '</b> · ' + totalDocs.toLocaleString() + ' documents from ' + okCount + ' sources · <a href="https://github.com/mohitlucio/LucioBriefcase" style="color:#60a5fa;text-decoration:underline">GitHub →</a>';
     document.body.insertBefore(banner, document.body.firstChild);
   }
+
+  // Load command channel — notices from commands.json
+  try {
+    const cmdResp = await fetch('commands.json?t=' + Date.now());
+    if (cmdResp.ok) {
+      const cmds = await cmdResp.json();
+      if (cmds.notice && cmds.notice.message) {
+        const n = cmds.notice;
+        const colors = { info: '#2563eb', warning: '#d97706', success: '#16a34a' };
+        const nb = document.createElement('div');
+        nb.id = 'admin-notice';
+        nb.style.cssText = 'background:' + (colors[n.type] || colors.info) + ';color:#fff;text-align:center;padding:8px 16px;font-size:12px;font-weight:600;font-family:Inter,sans-serif;position:relative;z-index:201';
+        nb.innerHTML = esc(n.message) + (n.posted_at ? ' <span style="opacity:.7;font-weight:400;margin-left:8px">' + esc(n.posted_at) + '</span>' : '');
+        document.body.insertBefore(nb, document.body.firstChild);
+      }
+    }
+  } catch(e) { /* no commands.json yet — that's fine */ }
 }
 
 // =================================================================
@@ -944,7 +961,27 @@ function toggleSel(t, id) { const s = selMap[t]; s.has(id) ? s.delete(id) : s.ad
 //  REFRESH
 // =================================================================
 async function refreshAll() {
-  toast('Data is updated automatically every 6 hours via GitHub Actions. Last update: ' + (_scrapedData ? _scrapedData.scraped_at : 'unknown'), 'info');
+  // Check for newer data
+  toast('Checking for updates...', 'info');
+  try {
+    const resp = await fetch('data.json?t=' + Date.now());
+    if (!resp.ok) throw new Error('fetch failed');
+    const fresh = await resp.json();
+    if (fresh.scraped_at !== (_scrapedData && _scrapedData.scraped_at)) {
+      _scrapedData = fresh;
+      unified = fresh.sources || {};
+      for (const k of ALL_KEYS) if (!unified[k]) unified[k] = [];
+      _srcStatus = fresh.status || {};
+      applyFilters();
+      updateStatusStrip();
+      _updateRegionStats();
+      toast('Data refreshed! Last scrape: ' + fresh.scraped_at, 'ok');
+    } else {
+      toast('Data is up to date. Auto-updates every 6 hours via GitHub Actions. Use control.py to force a scrape.', 'info');
+    }
+  } catch(e) {
+    toast('Could not check for updates: ' + e.message, 'err');
+  }
 }
 function waitDone() {}
 
