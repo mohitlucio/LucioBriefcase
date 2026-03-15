@@ -925,7 +925,7 @@ function renderColumn(t, docs) {
       + '<div class="doc-title">' + (doc.company ? esc(doc.company) : titleLine) + '</div>'
       + (doc.company ? '<div class="doc-company">' + titleLine + '</div>' : '')
       + '<div class="doc-actions">'
-      + (doc.pdf_url ? '<a class="pdf-link" href="' + esc(doc.pdf_url) + '" target="_blank">PDF</a>' : '<button class="dl-btn" onclick="getPdf(\'' + esc(doc.id) + "','" + esc(doc.page_url) + "','" + t + "')\">" + 'Get PDF</button>')
+      + (doc.pdf_url ? '<a class="pdf-link" href="' + esc(doc.pdf_url) + '" target="_blank" download>PDF</a>' : '<button class="dl-btn" onclick="getPdf(\'' + esc(doc.id) + "','" + esc(doc.page_url) + "','" + t + "')\">" + 'Get PDF</button>')
       + dlBadge(doc.id, t)
       + '</div></div></div>';
   }).join('');
@@ -989,25 +989,103 @@ function waitDone() {}
 //  PDF & DOWNLOADS
 // =================================================================
 async function getPdf(id, pageUrl, dtype) {
-  // Open the page URL directly — PDF resolution requires the live backend
   if (pageUrl) window.open(pageUrl, '_blank');
-  else toast('Visit the source page to access the PDF', 'info');
+  else toast('No source page available for this document', 'info');
+}
+
+// Save a single file via fetch→blob→download link
+async function _savePdf(url, filename) {
+  try {
+    const a = document.createElement('a');
+    a.href = url; a.target = '_blank'; a.download = filename || '';
+    // Direct PDF links — browser will download or open depending on headers
+    // Use a visible link click to trigger download
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    return true;
+  } catch(e) { return false; }
+}
+
+function _docFilename(doc, dtype) {
+  let name = (doc.company || doc.title || dtype).replace(/[^a-zA-Z0-9_ .-]/g, '').trim().substring(0, 80);
+  if (doc.date) name = doc.date.replace(/\//g, '-') + ' — ' + name;
+  const ext = (doc.pdf_url || '').toLowerCase().endsWith('.pdf') ? '' : '.pdf';
+  return name + ext;
 }
 
 async function dlOne(id, dtype) {
   const doc = (unified[dtype] || []).find(d => d.id === id); if (!doc) return;
-  if (doc.pdf_url) window.open(doc.pdf_url, '_blank');
-  else if (doc.page_url) window.open(doc.page_url, '_blank');
-  else toast('To download PDFs locally, clone the repo and run: python3 run.py', 'info');
+  if (doc.pdf_url) {
+    // Track in dlProg for the download panel
+    dlProg[id] = { status: 'downloading', type: dtype, title: doc.title || doc.company || id, pdf_url: doc.pdf_url, page_url: doc.page_url, date: doc.date };
+    updatePanel(); applyFilters();
+    $('dlp-cnt').textContent = Object.keys(dlProg).length; $('dlp-toggle').style.display = '';
+    const ok = await _savePdf(doc.pdf_url, _docFilename(doc, dtype));
+    dlProg[id] = { ...dlProg[id], status: ok ? 'done' : 'error', error: ok ? null : 'Download failed' };
+    updatePanel(); applyFilters();
+    if (ok) toast('Download started: ' + (doc.company || doc.title || id), 'ok');
+  } else if (doc.page_url) {
+    window.open(doc.page_url, '_blank');
+    toast('PDF not directly available — opening source page', 'info');
+  } else {
+    toast('No download URL available', 'info');
+  }
 }
 
+let _dlAllRunning = false;
 async function downloadAll() {
-  toast('To bulk download PDFs locally, clone the repo and run: python3 run.py', 'info');
+  // Collect all filtered docs with pdf_url
+  const toDownload = [];
+  for (const [dtype, docs] of Object.entries(filtered)) {
+    for (const doc of docs) {
+      if (doc.pdf_url) toDownload.push({ ...doc, _dtype: dtype });
+    }
+  }
+  if (!toDownload.length) { toast('No downloadable documents in current view', 'info'); return; }
+  if (_dlAllRunning) { toast('Bulk download already in progress', 'info'); return; }
+  if (!confirm('Download ' + toDownload.length + ' PDF documents?')) return;
+
+  _dlAllRunning = true;
+  toast('Starting download of ' + toDownload.length + ' documents...', 'info');
+  let ok = 0, fail = 0;
+  for (const doc of toDownload) {
+    dlProg[doc.id] = { status: 'downloading', type: doc._dtype, title: doc.title || doc.company || doc.id, pdf_url: doc.pdf_url, page_url: doc.page_url, date: doc.date };
+  }
+  $('dlp-cnt').textContent = Object.keys(dlProg).length; $('dlp-toggle').style.display = '';
+  updatePanel();
+
+  // Download in batches of 3 to avoid overwhelming the browser
+  for (let i = 0; i < toDownload.length; i += 3) {
+    const batch = toDownload.slice(i, i + 3);
+    await Promise.all(batch.map(async doc => {
+      const success = await _savePdf(doc.pdf_url, _docFilename(doc, doc._dtype));
+      dlProg[doc.id] = { ...dlProg[doc.id], status: success ? 'done' : 'error', error: success ? null : 'Failed', size_kb: '—' };
+      if (success) ok++; else fail++;
+      updatePanel(); applyFilters();
+    }));
+    // Small delay between batches
+    if (i + 3 < toDownload.length) await sleep(800);
+  }
+  _dlAllRunning = false;
+  toast('Download complete: ' + ok + ' saved' + (fail ? ', ' + fail + ' failed' : ''), fail ? 'err' : 'ok');
 }
 
-async function retryErrors() { toast('Retry requires the local Python server — clone the repo and run: python3 run.py', 'info'); }
+async function retryErrors() {
+  const failed = Object.entries(dlProg).filter(([,d]) => d.status === 'error');
+  if (!failed.length) { toast('No failed downloads to retry', 'info'); return; }
+  toast('Retrying ' + failed.length + ' failed downloads...', 'info');
+  for (const [id, d] of failed) {
+    if (d.pdf_url) {
+      dlProg[id] = { ...d, status: 'downloading', error: null };
+      updatePanel();
+      const ok = await _savePdf(d.pdf_url, (d.title || id) + '.pdf');
+      dlProg[id] = { ...dlProg[id], status: ok ? 'done' : 'error', error: ok ? null : 'Retry failed' };
+      updatePanel();
+    }
+  }
+  toast('Retry complete', 'ok');
+}
 async function retryOne(id, dtype) {
-  toast('Retry requires the local Python server', 'info'); return;
+  const d = dlProg[id]; if (!d) return;
   try {
     // Use the targeted retry endpoint so citation metadata is preserved
     await apiPost('/api/retry_errors', { doc_id: id });
@@ -1134,25 +1212,21 @@ function switchDlTab(tab) {
 }
 
 async function manualDownload(docId, dtype) {
-  toast('Downloads require the local Python server — clone the repo and run: python3 run.py', 'info'); return;
   const d = dlProg[docId]; if (!d) return;
   const safe = 'mdb_' + docId.replace(/[^a-z0-9]/gi, '_');
   const btn  = $(safe);
-  if (!d.pdf_url) { toast('No PDF URL available — use "↗ Open PDF" or "🔗 Source" to download manually', 'warn'); return; }
+  if (!d.pdf_url) { toast('No PDF URL available — use the source link to download manually', 'info'); return; }
   if (btn) { btn.disabled = true; btn.textContent = '⏳ Saving…'; }
-  try {
-    const r = await apiPost('/api/manual_download', {
-      doc_id: docId, pdf_url: d.pdf_url || '', title: d.title || d.filename || docId,
-      type: dtype, page_url: d.page_url || '', date: d.date || ''
-    });
-    if (r.status === 'error') throw new Error(r.error || 'Backend error');
-    toast('Queued for download → Repositories/' + (SRC[dtype]?.label || dtype) + '/', 'ok');
-    if (btn) { btn.textContent = '⟳ Queued'; btn.classList.add('saved'); }
-    startDlPoll();
-  } catch(e) {
-    toast('Failed to queue: ' + (e.message || 'unknown error'), 'warn');
+  const ok = await _savePdf(d.pdf_url, (d.title || docId) + '.pdf');
+  if (ok) {
+    dlProg[docId] = { ...d, status: 'done', error: null };
+    toast('Download started: ' + (d.title || docId), 'ok');
+    if (btn) { btn.textContent = '✓ Saved'; btn.classList.add('saved'); }
+  } else {
+    toast('Download failed — try the direct link', 'err');
     if (btn) { btn.disabled = false; btn.textContent = '💾 Save to Repo'; }
   }
+  updatePanel(); applyFilters();
 }
 
 // =================================================================
