@@ -81,6 +81,73 @@ body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:var(--bg)
 .btn-green:hover{background:var(--accent2);border-color:var(--accent2)}
 .btn-ghost{border-color:transparent;background:transparent}.btn-ghost:hover{background:var(--bg2)}
 
+/* ═══ SCRAPE LOG DASHBOARD ═══ */
+.sl-overlay{position:fixed;inset:0;z-index:1500;background:rgba(0,0,0,.55);opacity:0;pointer-events:none;transition:opacity .2s}
+.sl-overlay.open{opacity:1;pointer-events:all}
+.sl-modal{position:absolute;inset:12px;background:var(--surf);border-radius:var(--radius);display:flex;flex-direction:column;overflow:hidden;box-shadow:var(--shadow-lg)}
+.sl-hdr{display:flex;align-items:center;gap:12px;padding:14px 20px;border-bottom:1px solid var(--border);background:var(--bg2)}
+.sl-hdr h2{font-size:14px;font-weight:800;flex:1}
+.sl-close{background:transparent;border:none;cursor:pointer;font-size:18px;color:var(--txt3);width:28px;height:28px;border-radius:var(--radius-xs);display:flex;align-items:center;justify-content:center}
+.sl-close:hover{background:var(--bg3);color:var(--txt)}
+.sl-stats{display:flex;gap:0;border-bottom:1px solid var(--border);background:var(--surf)}
+.sl-stat{flex:1;padding:12px 16px;text-align:center;border-right:1px solid var(--border)}
+.sl-stat:last-child{border-right:none}
+.sl-stat-val{font-size:20px;font-weight:800}
+.sl-stat-label{font-size:9px;text-transform:uppercase;letter-spacing:.8px;color:var(--txt3);margin-top:2px;font-weight:600}
+.sl-stat.green .sl-stat-val{color:var(--green)}
+.sl-stat.red .sl-stat-val{color:var(--red)}
+.sl-stat.amber .sl-stat-val{color:var(--yellow)}
+.sl-stat.blue .sl-stat-val{color:var(--blue)}
+.sl-body{flex:1;overflow-y:auto;padding:0}
+.sl-body::-webkit-scrollbar{width:5px}.sl-body::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px}
+.sl-toolbar{display:flex;align-items:center;gap:8px;padding:10px 20px;border-bottom:1px solid var(--border);background:var(--surf2);flex-wrap:wrap}
+.sl-filter-btn{padding:4px 10px;font-size:11px;font-weight:600;border:1px solid var(--border);border-radius:var(--radius-xs);background:var(--surf);cursor:pointer;transition:all var(--transition);font-family:inherit}
+.sl-filter-btn.active{background:var(--txt);color:#fff;border-color:var(--txt)}
+.sl-filter-btn:hover:not(.active){background:var(--bg2)}
+.sl-search{padding:5px 10px;font-size:11px;border:1px solid var(--border);border-radius:var(--radius-xs);background:var(--surf);font-family:inherit;width:200px;outline:none}
+.sl-search:focus{border-color:var(--accent2)}
+.sl-src{border-bottom:1px solid var(--border)}
+.sl-src-hdr{display:flex;align-items:center;gap:8px;padding:10px 20px;cursor:pointer;transition:background var(--transition)}
+.sl-src-hdr:hover{background:var(--bg2)}
+.sl-src-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.sl-src-dot.ok{background:var(--green)}
+.sl-src-dot.err{background:var(--red)}
+.sl-src-dot.empty{background:var(--yellow)}
+.sl-src-name{font-size:12px;font-weight:700;flex:1}
+.sl-src-cat{font-size:10px;padding:2px 8px;border-radius:10px;font-weight:600;background:var(--bg3);color:var(--txt2)}
+.sl-src-count{font-size:11px;font-weight:600;color:var(--txt2)}
+.sl-src-err{font-size:10px;color:var(--red);max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sl-src-arrow{font-size:12px;color:var(--txt3);transition:transform .15s}
+.sl-src.open .sl-src-arrow{transform:rotate(90deg)}
+.sl-src-body{display:none;padding:0 20px 10px 36px}
+.sl-src.open .sl-src-body{display:block}
+.sl-src-link{font-size:10px;color:var(--blue);text-decoration:none;margin-bottom:8px;display:inline-block}
+.sl-src-link:hover{text-decoration:underline}
+.sl-doc-table{width:100%;border-collapse:collapse;font-size:11px}
+.sl-doc-table th{text-align:left;font-size:10px;text-transform:uppercase;letter-spacing:.6px;color:var(--txt3);font-weight:600;padding:6px 8px;border-bottom:1px solid var(--border);background:var(--bg2)}
+.sl-doc-table td{padding:6px 8px;border-bottom:1px solid var(--bg3);vertical-align:middle}
+.sl-doc-table tr:last-child td{border-bottom:none}
+.sl-doc-title{max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sl-pdf-yes{color:var(--green);font-weight:700;font-size:10px}
+.sl-pdf-no{color:var(--red);font-weight:700;font-size:10px}
+.sl-pdf-link{color:var(--blue);text-decoration:none;font-size:10px}
+.sl-pdf-link:hover{text-decoration:underline}
+.sl-page-link{color:var(--txt2);text-decoration:none;font-size:10px}
+.sl-page-link:hover{color:var(--blue);text-decoration:underline}
+.sl-footer{padding:8px 20px;font-size:10px;color:var(--txt3);border-top:1px solid var(--border);background:var(--bg2);text-align:center;display:flex;justify-content:space-between;align-items:center}
+.sl-no-data{padding:60px 20px;text-align:center;color:var(--txt3)}
+.sl-no-data-icon{font-size:40px;margin-bottom:12px}
+.sl-no-data p{font-size:13px;margin-bottom:8px}
+.sl-no-data .sl-hint{font-size:11px;color:var(--txt3)}
+.sl-badge{display:inline-block;padding:1px 6px;border-radius:8px;font-size:9px;font-weight:700}
+.sl-badge-ok{background:#16a34a18;color:var(--green)}
+.sl-badge-err{background:#dc262618;color:var(--red)}
+.sl-badge-empty{background:#ca8a0418;color:var(--yellow)}
+.sl-live-strip{display:flex;align-items:center;gap:6px;padding:6px 20px;background:#171717;color:#fff;font-size:11px;font-weight:500}
+.sl-live-strip .sl-live-dot{width:6px;height:6px;border-radius:50%;background:#16a34a;animation:cp-pulse 1.2s infinite}
+.sl-refresh-btn{padding:3px 10px;font-size:10px;font-weight:600;border:1px solid rgba(255,255,255,.2);border-radius:var(--radius-xs);background:transparent;color:#fff;cursor:pointer;margin-left:auto;font-family:inherit}
+.sl-refresh-btn:hover{background:rgba(255,255,255,.1)}
+
 /* ═══ CONTROL PANEL ═══ */
 .cp-overlay{position:fixed;inset:0;z-index:2000;background:rgba(0,0,0,.55);opacity:0;pointer-events:none;transition:opacity .2s}
 .cp-overlay.open{opacity:1;pointer-events:auto}
@@ -440,6 +507,7 @@ body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:var(--bg)
     <button class="btn btn-green" onclick="downloadAll()">Download All</button>
     <button class="btn" onclick="retryErrors()">Retry</button>
     <button class="btn" id="audit-btn" onclick="runAudit()" title="Verify all scraped PDF links are accessible">Audit</button>
+    <button class="btn btn-primary" onclick="openScrapeLog()" title="View detailed scrape results, failed sources, all documents">📊 Scrape Log</button>
     <button class="btn btn-primary" onclick="openControlPanel()" title="Remote control: change dates, trigger scrapes, post notices">⚙ Control</button>
   </div>
   <span class="status-pill" id="h-status" style="display:none"></span>
@@ -591,6 +659,41 @@ body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:var(--bg)
           <div class="cp-live-footer" id="cp-live-footer">Auto-refreshes every 5 seconds while monitoring</div>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ SCRAPE LOG DASHBOARD ═══ -->
+<div class="sl-overlay" id="sl-overlay" onclick="if(event.target===this)closeScrapeLog()">
+  <div class="sl-modal">
+    <div class="sl-hdr">
+      <h2>📊 Scrape Log — Real-Time Evidence</h2>
+      <button class="sl-close" onclick="closeScrapeLog()">&#215;</button>
+    </div>
+    <div class="sl-live-strip" id="sl-live-strip">
+      <span class="sl-live-dot" id="sl-live-dot"></span>
+      <span id="sl-live-msg">Loading scrape log...</span>
+      <button class="sl-refresh-btn" onclick="loadScrapeLog()">↻ Refresh</button>
+    </div>
+    <div class="sl-stats" id="sl-stats"></div>
+    <div class="sl-toolbar" id="sl-toolbar">
+      <button class="sl-filter-btn active" data-filter="all" onclick="slFilter('all',this)">All</button>
+      <button class="sl-filter-btn" data-filter="ok" onclick="slFilter('ok',this)">✓ With Docs</button>
+      <button class="sl-filter-btn" data-filter="error" onclick="slFilter('error',this)">✗ Errors</button>
+      <button class="sl-filter-btn" data-filter="empty" onclick="slFilter('empty',this)">○ Empty</button>
+      <button class="sl-filter-btn" data-filter="no_pdf" onclick="slFilter('no_pdf',this)">📄 No PDF</button>
+      <input type="text" class="sl-search" id="sl-search" placeholder="Search sources or documents..." oninput="slRender()">
+    </div>
+    <div class="sl-body" id="sl-body">
+      <div class="sl-no-data" id="sl-no-data">
+        <div class="sl-no-data-icon">📋</div>
+        <p>No scrape log available yet</p>
+        <p class="sl-hint">Trigger a scrape from the Control Panel, or wait for the next scheduled run.</p>
+      </div>
+    </div>
+    <div class="sl-footer" id="sl-footer">
+      <span id="sl-footer-left">—</span>
+      <span id="sl-footer-right">—</span>
     </div>
   </div>
 </div>
@@ -1764,6 +1867,220 @@ function _timeAgo(iso) {
   const h = Math.floor(m / 60);
   if (h < 24) return h + 'h ago';
   return Math.floor(h / 24) + 'd ago';
+}
+
+// =================================================================
+//  SCRAPE LOG DASHBOARD
+// =================================================================
+let _slData = null;
+let _slFilter = 'all';
+let _slPollTimer = null;
+
+function openScrapeLog() {
+  $('sl-overlay').classList.add('open');
+  loadScrapeLog();
+}
+function closeScrapeLog() {
+  $('sl-overlay').classList.remove('open');
+  if (_slPollTimer) { clearInterval(_slPollTimer); _slPollTimer = null; }
+}
+
+async function loadScrapeLog() {
+  $('sl-live-msg').textContent = 'Loading scrape log...';
+  try {
+    const resp = await fetch('scrape_log.json?t=' + Date.now());
+    if (!resp.ok) {
+      // No log file yet — fall back to data.json
+      _slData = _buildLogFromData();
+      if (!_slData) {
+        $('sl-no-data').style.display = '';
+        $('sl-live-msg').textContent = 'No scrape log file found — trigger a scrape first';
+        return;
+      }
+    } else {
+      _slData = await resp.json();
+    }
+    $('sl-no-data').style.display = 'none';
+    slRenderStats();
+    slRender();
+    $('sl-live-msg').textContent = 'Last scraped: ' + (_slData.finished_at || _slData.started_at || '—');
+    $('sl-live-dot').style.background = '#16a34a';
+  } catch(e) {
+    $('sl-live-msg').textContent = 'Error loading log: ' + e.message;
+    $('sl-live-dot').style.background = '#dc2626';
+  }
+}
+
+function _buildLogFromData() {
+  // Build a log from existing data.json + status info  
+  if (!_scrapedData) return null;
+  const sources = _scrapedData.sources || {};
+  const st = _scrapedData.status || {};
+  const details = [];
+  let ok = 0, err = 0, empty = 0, totalD = 0, withPdf = 0, noPdf = 0;
+
+  for (const key of ALL_KEYS) {
+    const docs = sources[key] || [];
+    const s = st[key] || {};
+    const srcInfo = SRC[key] || {};
+    const error = s.error || null;
+    const docList = Array.isArray(docs) ? docs : [];
+
+    const entry = {
+      key: key,
+      label: srcInfo.label || key,
+      category: srcInfo.cat || '',
+      website_url: srcInfo.url || '',
+      status: error ? 'error' : (docList.length === 0 ? 'empty' : 'ok'),
+      error: error,
+      doc_count: docList.length,
+      docs_with_pdf: docList.filter(d => d.pdf_url).length,
+      docs_without_pdf: docList.filter(d => !d.pdf_url).length,
+      documents: docList.map(d => ({
+        title: d.title || '',
+        date: d.date || '',
+        date_iso: d.date_iso || '',
+        page_url: d.page_url || '',
+        pdf_url: d.pdf_url || '',
+        has_pdf: !!d.pdf_url,
+        id: d.id || '',
+      }))
+    };
+
+    if (error) err++;
+    else if (docList.length === 0) empty++;
+    else ok++;
+    totalD += docList.length;
+    withPdf += entry.docs_with_pdf;
+    noPdf += entry.docs_without_pdf;
+    details.push(entry);
+  }
+
+  return {
+    started_at: _scrapedData.scraped_at || '',
+    finished_at: _scrapedData.scraped_at || '',
+    duration_seconds: 0,
+    date_range: _scrapedData.date_range || {},
+    total_sources: ALL_KEYS.length,
+    sources_scraped: ALL_KEYS.length,
+    sources_ok: ok,
+    sources_error: err,
+    sources_empty: empty,
+    total_documents: totalD,
+    docs_with_pdf: withPdf,
+    docs_without_pdf: noPdf,
+    source_details: details,
+  };
+}
+
+function slRenderStats() {
+  if (!_slData) return;
+  const d = _slData;
+  $('sl-stats').innerHTML =
+    '<div class="sl-stat green"><div class="sl-stat-val">' + d.sources_ok + '</div><div class="sl-stat-label">Sources OK</div></div>' +
+    '<div class="sl-stat red"><div class="sl-stat-val">' + d.sources_error + '</div><div class="sl-stat-label">Errors</div></div>' +
+    '<div class="sl-stat amber"><div class="sl-stat-val">' + d.sources_empty + '</div><div class="sl-stat-label">Empty</div></div>' +
+    '<div class="sl-stat blue"><div class="sl-stat-val">' + d.total_documents + '</div><div class="sl-stat-label">Total Docs</div></div>' +
+    '<div class="sl-stat green"><div class="sl-stat-val">' + (d.docs_with_pdf || 0) + '</div><div class="sl-stat-label">With PDF</div></div>' +
+    '<div class="sl-stat red"><div class="sl-stat-val">' + (d.docs_without_pdf || 0) + '</div><div class="sl-stat-label">No PDF</div></div>' +
+    (d.duration_seconds > 0 ? '<div class="sl-stat"><div class="sl-stat-val">' + _fmtDur(d.duration_seconds * 1000) + '</div><div class="sl-stat-label">Duration</div></div>' : '');
+
+  $('sl-footer-left').textContent = 'Date range: ' + (d.date_range.from || d.date_range.from_iso || '—') + ' → ' + (d.date_range.to || d.date_range.to_iso || '—');
+  $('sl-footer-right').textContent = d.sources_scraped + ' sources scraped' + (d.partial_scrape ? ' (partial)' : ' (full)');
+}
+
+function slFilter(f, btn) {
+  _slFilter = f;
+  document.querySelectorAll('.sl-filter-btn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  slRender();
+}
+
+function slRender() {
+  if (!_slData || !_slData.source_details) return;
+  const q = ($('sl-search').value || '').toLowerCase();
+  const details = _slData.source_details;
+  let html = '';
+  let shown = 0;
+
+  for (const src of details) {
+    // Apply filter
+    if (_slFilter === 'ok' && src.status !== 'ok') continue;
+    if (_slFilter === 'error' && src.status !== 'error') continue;
+    if (_slFilter === 'empty' && src.status !== 'empty') continue;
+    if (_slFilter === 'no_pdf' && src.docs_without_pdf === 0) continue;
+
+    // Apply search
+    if (q) {
+      const haystack = (src.label + ' ' + src.key + ' ' + src.category + ' ' + (src.error || '') + ' ' + src.documents.map(d => d.title).join(' ')).toLowerCase();
+      if (!haystack.includes(q)) continue;
+    }
+
+    shown++;
+    const statusClass = src.status === 'ok' ? 'ok' : src.status === 'error' ? 'err' : 'empty';
+    const badge = src.status === 'ok'
+      ? '<span class="sl-badge sl-badge-ok">' + src.doc_count + ' docs</span>'
+      : src.status === 'error'
+        ? '<span class="sl-badge sl-badge-err">ERROR</span>'
+        : '<span class="sl-badge sl-badge-empty">EMPTY</span>';
+
+    html += '<div class="sl-src" id="sl-src-' + src.key + '">';
+    html += '<div class="sl-src-hdr" onclick="slToggle(\'' + src.key + '\')">';
+    html += '<span class="sl-src-dot ' + statusClass + '"></span>';
+    html += '<span class="sl-src-name">' + esc(src.label) + ' <small style="color:var(--txt3);font-weight:400">(' + esc(src.key) + ')</small></span>';
+    html += '<span class="sl-src-cat">' + esc(src.category) + '</span>';
+    html += badge;
+    if (src.docs_with_pdf > 0) html += '<span style="font-size:10px;color:var(--green);font-weight:600">' + src.docs_with_pdf + ' PDF</span>';
+    if (src.docs_without_pdf > 0) html += '<span style="font-size:10px;color:var(--red);font-weight:600">' + src.docs_without_pdf + ' no PDF</span>';
+    if (src.error) html += '<span class="sl-src-err" title="' + esc(src.error) + '">' + esc(src.error.substring(0, 60)) + '</span>';
+    html += '<span class="sl-src-arrow">▸</span>';
+    html += '</div>';
+
+    // Expanded body
+    html += '<div class="sl-src-body">';
+    if (src.website_url) {
+      html += '<a class="sl-src-link" href="' + esc(src.website_url) + '" target="_blank">🌐 ' + esc(src.website_url.substring(0, 80)) + (src.website_url.length > 80 ? '…' : '') + '</a>';
+    }
+
+    if (src.error) {
+      html += '<div style="padding:8px 12px;background:#dc262610;border:1px solid #dc262630;border-radius:4px;margin-bottom:8px;font-size:11px;color:var(--red)"><b>Error:</b> ' + esc(src.error) + '</div>';
+    }
+
+    if (src.documents && src.documents.length > 0) {
+      html += '<table class="sl-doc-table"><thead><tr>';
+      html += '<th>#</th><th>Document Name</th><th>Date</th><th>PDF</th><th>Links</th>';
+      html += '</tr></thead><tbody>';
+      src.documents.forEach((d, i) => {
+        html += '<tr>';
+        html += '<td>' + (i + 1) + '</td>';
+        html += '<td class="sl-doc-title" title="' + esc(d.title) + '">' + esc(d.title || 'Untitled') + '</td>';
+        html += '<td style="white-space:nowrap">' + esc(d.date || d.date_iso || '—') + '</td>';
+        html += '<td>' + (d.has_pdf
+          ? '<span class="sl-pdf-yes">✓ YES</span>'
+          : '<span class="sl-pdf-no">✗ NO</span>') + '</td>';
+        html += '<td style="white-space:nowrap">';
+        if (d.pdf_url) html += '<a class="sl-pdf-link" href="' + esc(d.pdf_url) + '" target="_blank">📄 PDF</a> ';
+        if (d.page_url) html += '<a class="sl-page-link" href="' + esc(d.page_url) + '" target="_blank">↗ Source</a>';
+        if (!d.pdf_url && !d.page_url) html += '<span style="color:var(--txt3);font-size:10px">—</span>';
+        html += '</td></tr>';
+      });
+      html += '</tbody></table>';
+    } else if (src.status !== 'error') {
+      html += '<div style="padding:12px;text-align:center;color:var(--txt3);font-size:11px">No documents found for this source in the current date range</div>';
+    }
+    html += '</div></div>';
+  }
+
+  if (shown === 0) {
+    html = '<div style="padding:40px;text-align:center;color:var(--txt3);font-size:12px">No sources match the current filter</div>';
+  }
+
+  $('sl-body').innerHTML = html;
+}
+
+function slToggle(key) {
+  const el = $('sl-src-' + key);
+  if (el) el.classList.toggle('open');
 }
 
 init();

@@ -1,0 +1,3168 @@
+{
+  "started_at": "2026-03-15 17:23:44 UTC",
+  "finished_at": "2026-03-15 17:23:44 UTC",
+  "duration_seconds": 0,
+  "date_range": {
+    "from_iso": "2026-03-01",
+    "to_iso": "2026-03-31"
+  },
+  "total_sources": 93,
+  "sources_scraped": 93,
+  "sources_ok": 34,
+  "sources_error": 4,
+  "sources_empty": 55,
+  "total_documents": 222,
+  "docs_with_pdf": 199,
+  "docs_without_pdf": 23,
+  "partial_scrape": false,
+  "source_details": [
+    {
+      "key": "RHP",
+      "label": "RHP",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 5,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 5,
+      "documents": [
+        {
+          "title": "Central Mine Planning & Design Institute Limited - RHP",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/mar-2026/central-mine-planning-and-design-institute-limited-rhp_100326.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100326"
+        },
+        {
+          "title": "GSP Crop Science Limited - RHP",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/mar-2026/gsp-crop-science-limited-rhp_100229.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100229"
+        },
+        {
+          "title": "Innovision Limited - corrigendum to RHP",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/mar-2026/innovision-limited-corrigendum-to-rhp_100216.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100216"
+        },
+        {
+          "title": "Innovision Limited-RHP",
+          "date": "04 Mar 2026",
+          "date_iso": "2026-03-04",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/mar-2026/innovision-limited-rhp_100105.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100105"
+        },
+        {
+          "title": "Rajputana Stainless Limited - RHP",
+          "date": "02 Mar 2026",
+          "date_iso": "2026-03-02",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/mar-2026/rajputana-stainless-limited-rhp_100081.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100081"
+        }
+      ]
+    },
+    {
+      "key": "DRHP",
+      "label": "DRHP",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 3,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 3,
+      "documents": [
+        {
+          "title": "SHRENI SHARES LIMITED",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/mar-2026/shreni-shares-limited_100212.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100212"
+        },
+        {
+          "title": "SUNIL GOLD INDIA LIMITED",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/mar-2026/sunil-gold-india-limited_100202.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100202"
+        },
+        {
+          "title": "Moneyview Limited",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/mar-2026/moneyview-limited_100187.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100187"
+        }
+      ]
+    },
+    {
+      "key": "RIGHTS_LOF",
+      "label": "RIGHTS_LOF",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "INVIT_RI_FINAL",
+      "label": "INVIT_RI_FINAL",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "INVIT_RI_DRAFT",
+      "label": "INVIT_RI_DRAFT",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "INVIT_PUB_FINAL",
+      "label": "INVIT_PUB_FINAL",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "INVIT_PUB_DRAFT",
+      "label": "INVIT_PUB_DRAFT",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "INVIT_PVT_FINAL",
+      "label": "INVIT_PVT_FINAL",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "INVIT_PVT_DRAFT",
+      "label": "INVIT_PVT_DRAFT",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "REIT_FINAL",
+      "label": "REIT_FINAL",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "REIT_DRAFT",
+      "label": "REIT_DRAFT",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "SEBI_INFORMAL",
+      "label": "SEBI_INFORMAL",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "SEBI_CONSULT",
+      "label": "SEBI_CONSULT",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "Consultation Paper on Ease of investing - Simplification of documentation requirement for transmission of securities and revision in threshold limits for simplified documentation",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://www.sebi.gov.in/reports-and-statistics/reports/mar-2026/consultation-paper-on-ease-of-investing-simplification-of-documentation-requirement-for-transmission-of-securities-and-revision-in-threshold-limits-for-simplified-documentation-_100289.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100289"
+        }
+      ]
+    },
+    {
+      "key": "BSE_PLACEMENT",
+      "label": "BSE_PLACEMENT",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "AGI Infra Ltd – Placement Document",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://www.bseindia.com/corporates/qip.aspx",
+          "pdf_url": "https://www.bseindia.com/corporates/download/10859/QIP%20Open/0.%20AGI%20Infra%20Limited%20-%20PD_20260309182649.pdf",
+          "has_pdf": true,
+          "id": "place_agi_infra_ltd_2026-03-09"
+        }
+      ]
+    },
+    {
+      "key": "BSE_PRELIMINARY",
+      "label": "BSE_PRELIMINARY",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "AGI Infra Ltd – Preliminary Placement Document",
+          "date": "02 Mar 2026",
+          "date_iso": "2026-03-02",
+          "page_url": "https://www.bseindia.com/corporates/qip.aspx",
+          "pdf_url": "https://www.bseindia.com/corporates/download/10859/QIP%20Open/FinalPPD_20260302205117.pdf",
+          "has_pdf": true,
+          "id": "prelim_agi_infra_ltd_2026-03-02"
+        }
+      ]
+    },
+    {
+      "key": "CCI_FORM1",
+      "label": "CCI_FORM1",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "CCI_FORM2",
+      "label": "CCI_FORM2",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "CCI_FORM3",
+      "label": "CCI_FORM3",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "CCI_GUN_JUMPING",
+      "label": "CCI_GUN_JUMPING",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "CCI_APPROVED_MOD",
+      "label": "CCI_APPROVED_MOD",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "CCI_ANTI_S26_1",
+      "label": "CCI_ANTI_S26_1",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "CCI_ANTI_S26_2",
+      "label": "CCI_ANTI_S26_2",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "[42/2025] Kannadiputhur Sundararaman Suresh And Interglobe Aviation Limited, Air India Limited",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://www.cci.gov.in/antitrust/orders",
+          "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1773228014.pdf",
+          "has_pdf": true,
+          "id": "cci_anti_7_42_2025"
+        }
+      ]
+    },
+    {
+      "key": "CCI_ANTI_S26_6",
+      "label": "CCI_ANTI_S26_6",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "CCI_ANTI_S26_7",
+      "label": "CCI_ANTI_S26_7",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "CCI_ANTI_S27",
+      "label": "CCI_ANTI_S27",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "CCI_ANTI_S33",
+      "label": "CCI_ANTI_S33",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "CCI_ANTI_OTHER",
+      "label": "CCI_ANTI_OTHER",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "[46/2021] Showtyme (through Vijay Gopal, Prop. of Vanila Entertainments) And Big Tree Entertainment Pvt. Ltd. (BookMyShow)",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://www.cci.gov.in/antitrust/orders",
+          "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1773308476.pdf",
+          "has_pdf": true,
+          "id": "cci_anti_12_46_2021"
+        }
+      ]
+    },
+    {
+      "key": "CCI_GREEN",
+      "label": "CCI_GREEN",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "[C-2026/03/1400] 1. CA Sardo Investments 2. Salisbury Investment Private Limited — Deemed Approved (Section 6(5))",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://www.cci.gov.in/combination/green-channel",
+          "pdf_url": "https://www.cci.gov.in/images/summaryorders/en/summary1773401602.pdf",
+          "has_pdf": true,
+          "id": "cci_green_C-2026_03_1400"
+        },
+        {
+          "title": "[C-2026/03/1396] Summit Asia Investments Holdings Pte. Ltd. — Deemed Approved (Section 6(5))",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://www.cci.gov.in/combination/green-channel",
+          "pdf_url": "https://www.cci.gov.in/images/summaryorders/en/summary1773057504.pdf",
+          "has_pdf": true,
+          "id": "cci_green_C-2026_03_1396"
+        }
+      ]
+    },
+    {
+      "key": "RBI_MD",
+      "label": "RBI_MD",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 5,
+      "docs_with_pdf": 5,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "[Commercial Banks] Reserve Bank of India (Commercial Banks – Prudential Norms on Declaration of Dividend and Remittances of Profits) Directions, 2026",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13319",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/387MD1003202698CBFA3D29254532B33C97C231B6F7D8.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13319"
+        },
+        {
+          "title": "[Local Area Banks] Reserve Bank of India (Local Area Banks – Prudential Norms on Declaration of Dividend) Directions, 2026",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13324",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/389MD100320260CC22242233B4A46883801B79C02FE8B.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13324"
+        },
+        {
+          "title": "[Payments Banks] Reserve Bank of India (Payments Banks – Prudential Norms on Declaration of Dividend) Directions, 2026",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13321",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/388MD10032026C9C28BA2FD904454A24EE40607D82CC7.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13321"
+        },
+        {
+          "title": "[Regional Rural Banks] Reserve Bank of India (Regional Rural Banks – Prudential Norms on Declaration of Dividend) Directions, 2026",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13327",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/390MD10032026A83919BF58A2481BB8240A89F25F285E.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13327"
+        },
+        {
+          "title": "[Small Finance Banks] Reserve Bank of India (Small Finance Banks – Prudential Norms on Declaration of Dividend) Directions, 2026",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13328",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/391MD10032026DEA2C866625C478D9F4CC695FCA60B68.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13328"
+        }
+      ]
+    },
+    {
+      "key": "RBI_MC",
+      "label": "RBI_MC",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "RBI_MD_COMM",
+      "label": "RBI_MD_COMM",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "Reserve Bank of India (Commercial Banks – Prudential Norms on Declaration of Dividend and Remittances of Profits) Directions, 2026",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13319",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/387MD1003202698CBFA3D29254532B33C97C231B6F7D8.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_403_13319"
+        }
+      ]
+    },
+    {
+      "key": "RBI_MD_SFB",
+      "label": "RBI_MD_SFB",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "Reserve Bank of India (Small Finance Banks – Prudential Norms on Declaration of Dividend) Directions, 2026",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13328",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/391MD10032026DEA2C866625C478D9F4CC695FCA60B68.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_404_13328"
+        }
+      ]
+    },
+    {
+      "key": "RBI_MD_PAY",
+      "label": "RBI_MD_PAY",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "Reserve Bank of India (Payments Banks – Prudential Norms on Declaration of Dividend) Directions, 2026",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13321",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/388MD10032026C9C28BA2FD904454A24EE40607D82CC7.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_405_13321"
+        }
+      ]
+    },
+    {
+      "key": "RBI_MD_LAB",
+      "label": "RBI_MD_LAB",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "Reserve Bank of India (Local Area Banks – Prudential Norms on Declaration of Dividend) Directions, 2026",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13324",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/389MD100320260CC22242233B4A46883801B79C02FE8B.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_406_13324"
+        }
+      ]
+    },
+    {
+      "key": "RBI_MD_RRB",
+      "label": "RBI_MD_RRB",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "Reserve Bank of India (Regional Rural Banks – Prudential Norms on Declaration of Dividend) Directions, 2026",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13327",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/390MD10032026A83919BF58A2481BB8240A89F25F285E.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_407_13327"
+        }
+      ]
+    },
+    {
+      "key": "RBI_MD_UCB",
+      "label": "RBI_MD_UCB",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "RBI_MD_RCB",
+      "label": "RBI_MD_RCB",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "RBI_MD_AIFI",
+      "label": "RBI_MD_AIFI",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "RBI_MD_NBFC",
+      "label": "RBI_MD_NBFC",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "IRDAI_CIRC",
+      "label": "IRDAI_CIRC",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "IRDAI_REGS",
+      "label": "IRDAI_REGS",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "INX_CIRC",
+      "label": "INX_CIRC",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "[20260310-1] Issue of LKR 3,000,000,000 Blue Bond by DFCC Bank",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
+          "pdf_url": "https://www.indiainx.com/circulars/20260310-1/20260310-1.pdf",
+          "has_pdf": true,
+          "id": "inx_circ_20260310-1"
+        }
+      ]
+    },
+    {
+      "key": "INX_ISSUER",
+      "label": "INX_ISSUER",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 6,
+      "docs_with_pdf": 6,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "DFCC Bank PLC — LKR 131,600,000 9.75% due 2028",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/ProspectusDFCCBlueBond10032026.zip",
+          "has_pdf": true,
+          "id": "inx_iss_lkr_131_600_000_9_75__due_2028_2026-03-10"
+        },
+        {
+          "title": "DFCC Bank PLC — LKR 27,555,200 9.75% Bond due 2028",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/ProspectusDFCCBlueBond10032026.zip",
+          "has_pdf": true,
+          "id": "inx_iss_lkr_27_555_200_9_75__bond_due__2026-03-10"
+        },
+        {
+          "title": "DFCC Bank PLC — LKR 842,051,000 10.25% Bond due 2029",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/ProspectusDFCCBlueBond10032026.zip",
+          "has_pdf": true,
+          "id": "inx_iss_lkr_842_051_000_10_25__bond_du_2026-03-10"
+        },
+        {
+          "title": "DFCC Bank PLC — LKR 269,980,200 10.25% bond due 2029",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/ProspectusDFCCBlueBond10032026.zip",
+          "has_pdf": true,
+          "id": "inx_iss_lkr_269_980_200_10_25__bond_du_2026-03-10"
+        },
+        {
+          "title": "DFCC Bank PLC — LKR 1,592,040,000 10.5% bond due 2030",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/ProspectusDFCCBlueBond10032026.zip",
+          "has_pdf": true,
+          "id": "inx_iss_lkr_1_592_040_000_10_5__bond_d_2026-03-10"
+        },
+        {
+          "title": "DFCC Bank PLC — LKR 136,773,600 10.5% due 2030",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/ProspectusDFCCBlueBond10032026.zip",
+          "has_pdf": true,
+          "id": "inx_iss_lkr_136_773_600_10_5__due_2030_2026-03-10"
+        }
+      ]
+    },
+    {
+      "key": "TG_RERA_ADJ",
+      "label": "TG_RERA_ADJ",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "TG_RERA_AUTH",
+      "label": "TG_RERA_AUTH",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 48,
+      "docs_with_pdf": 48,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "Order Complaint No. 331 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326102359500.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_0"
+        },
+        {
+          "title": "Order Complaint No. 332 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326102441139.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_1"
+        },
+        {
+          "title": "Order Complaint No. 333 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326102525069.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_2"
+        },
+        {
+          "title": "Order Complaint No. 334 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326102607844.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_3"
+        },
+        {
+          "title": "Order Complaint No. 335 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326102644338.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_4"
+        },
+        {
+          "title": "Order Complaint No. 364 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326102722388.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_5"
+        },
+        {
+          "title": "Order Complaint No. 372 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326102802333.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_6"
+        },
+        {
+          "title": "Order Complaint No. 373 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326102835613.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_7"
+        },
+        {
+          "title": "Order Complaint No. 214 of 2025",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130326175323252.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_8"
+        },
+        {
+          "title": "Order Complaint No. 277 of 2025",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130326180141829.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_9"
+        },
+        {
+          "title": "Order Complaint No. 302 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326095509182.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_10"
+        },
+        {
+          "title": "Order Complaint No. 303 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326095616552.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_11"
+        },
+        {
+          "title": "Order Complaint No. 304 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326095705257.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_12"
+        },
+        {
+          "title": "Order Complaint No. 304 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326100118193.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_13"
+        },
+        {
+          "title": "Order Complaint No. 306 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326100218362.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_14"
+        },
+        {
+          "title": "Order Complaint No. 307 of 2025",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326100259184.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_15"
+        },
+        {
+          "title": "Order Complaint No. 308 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326100344493.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_16"
+        },
+        {
+          "title": "Order Complaint No. 309 of 2025",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326100503746.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_17"
+        },
+        {
+          "title": "Order Complaint No. 310 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326100550228.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_18"
+        },
+        {
+          "title": "Order Complaint No. 311 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326100711912.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_19"
+        },
+        {
+          "title": "Order Complaint No. 312 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326100751228.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_20"
+        },
+        {
+          "title": "Order Complaint No. 313 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326100853698.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_21"
+        },
+        {
+          "title": "Order Complaint No. 314 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326100931291.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_22"
+        },
+        {
+          "title": "Order Complaint No. 315 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326101015713.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_23"
+        },
+        {
+          "title": "Order Complaint No. 316 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326101056748.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_24"
+        },
+        {
+          "title": "Order Complaint No. 317 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326101209928.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_25"
+        },
+        {
+          "title": "Order Complaint No. 318 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326101248363.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_26"
+        },
+        {
+          "title": "Order Complaint No. 319 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326101450373.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_27"
+        },
+        {
+          "title": "Order Complaint No. 320 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326101547194.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_28"
+        },
+        {
+          "title": "Order Complaint No. 321 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326101628823.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_29"
+        },
+        {
+          "title": "Order Complaint No. 322 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326101725572.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_30"
+        },
+        {
+          "title": "Order Complaint No. 323 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326101844078.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_31"
+        },
+        {
+          "title": "Order Complaint No. 324 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326101930349.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_32"
+        },
+        {
+          "title": "Order Complaint No. 325 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326102000298.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_33"
+        },
+        {
+          "title": "Order Complaint No. 326 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326102039808.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_34"
+        },
+        {
+          "title": "Order Complaint No. 327 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326102112004.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_35"
+        },
+        {
+          "title": "Order Complaint No. 328 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326102146975.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_36"
+        },
+        {
+          "title": "Order Complaint No. 329 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326102223937.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_37"
+        },
+        {
+          "title": "Order Complaint No. 330 of 25",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140326102302865.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_38"
+        },
+        {
+          "title": "Order Complaint No. 274 of 2025",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130326173100828.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_39"
+        },
+        {
+          "title": "Order Complaint No. 344 and 411 of 2025",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130326173217678.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_40"
+        },
+        {
+          "title": "Order Complaint No. 215 of 2025",
+          "date": "07 Mar 2026",
+          "date_iso": "2026-03-07",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130326170901021.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_41"
+        },
+        {
+          "title": "Order Complaint No. 381 of 2025",
+          "date": "07 Mar 2026",
+          "date_iso": "2026-03-07",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130326170739500.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_42"
+        },
+        {
+          "title": "Order Complaint No. 516 of 2025",
+          "date": "07 Mar 2026",
+          "date_iso": "2026-03-07",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130326170649501.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_43"
+        },
+        {
+          "title": "Order Complaint No. 267 of 2025",
+          "date": "07 Mar 2026",
+          "date_iso": "2026-03-07",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130326161150574.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_44"
+        },
+        {
+          "title": "Interim Order 65 of 2026",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_110326153135180.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_45"
+        },
+        {
+          "title": "Order Complaint No. 03 of 2026",
+          "date": "02 Mar 2026",
+          "date_iso": "2026-03-02",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130326172037873.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_46"
+        },
+        {
+          "title": "Order Complaints No. 527,528,529 of 2025",
+          "date": "02 Mar 2026",
+          "date_iso": "2026-03-02",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130326172314436.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_47"
+        }
+      ]
+    },
+    {
+      "key": "TG_RERA_SUO",
+      "label": "TG_RERA_SUO",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "TG_RERA_CIRC",
+      "label": "TG_RERA_CIRC",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "TN_RERA",
+      "label": "TN_RERA",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "DTCP_KA",
+      "label": "DTCP_KA",
+      "category": "",
+      "website_url": "",
+      "status": "error",
+      "error": "<urlopen error timed out>",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "MAHA_RERA",
+      "label": "MAHA_RERA",
+      "category": "",
+      "website_url": "",
+      "status": "error",
+      "error": "<urlopen error timed out>",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "KA_REAT",
+      "label": "KA_REAT",
+      "category": "",
+      "website_url": "",
+      "status": "error",
+      "error": "<urlopen error timed out>",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "KA_RERA",
+      "label": "KA_RERA",
+      "category": "",
+      "website_url": "",
+      "status": "error",
+      "error": "<urlopen error timed out>",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "HR_REAT",
+      "label": "HR_REAT",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 20,
+      "docs_with_pdf": 20,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "H-REAT-1577-2025 — GLORII EDUCATION TECHNOLOGY PVT LTD vs HARYANA REAL ESTATE REGULATORY AUTHORITY GURUGRAM HARYANA",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MDEw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1577-2025_0"
+        },
+        {
+          "title": "H-REAT-1321-2025 — Neeru Singh and Prakash Chand Jat vs BPTP LIMITED",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3ODgz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1321-2025_1"
+        },
+        {
+          "title": "H-REAT-1241-2025 — Vardhman Jain vs MTHREEM INDIA PRIVATE LIMITED",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3ODgw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1241-2025_2"
+        },
+        {
+          "title": "H-REAT-1341-2025 — SPLENDOR BUILDWELL PVT LTD vs DANISH AHMED",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3Mjk2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1341-2025_3"
+        },
+        {
+          "title": "H-REAT-1342-2025 — SPLENDOR BUILDWELL PVT LTD vs SUSHILA TIWARI",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3Mjk3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1342-2025_4"
+        },
+        {
+          "title": "H-REAT-716-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA PVT LTD",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzE5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-716-2024_5"
+        },
+        {
+          "title": "H-REAT-717-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA PVT LTD",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzIw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-717-2024_6"
+        },
+        {
+          "title": "H-REAT-718-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA PVT LTD",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzIx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-718-2024_7"
+        },
+        {
+          "title": "H-REAT-683-2023 — Nitish Singhal vs MS DSS BUILDTECH PVT LTD",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzI4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-683-2023_8"
+        },
+        {
+          "title": "H-REAT-713-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA LTD",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzE2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-713-2024_9"
+        },
+        {
+          "title": "H-REAT-714-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA LTD",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzE3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-714-2024_10"
+        },
+        {
+          "title": "H-REAT-715-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA PVT LTD",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzE4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-715-2024_11"
+        },
+        {
+          "title": "H-REAT-1072-2025 — Neena Goel and Vikas Goel vs PAREENA INFRASTRUCTURES PVT LTD",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzIz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1072-2025_12"
+        },
+        {
+          "title": "H-REAT-381-2022 — ASHOK MANCHANDA vs MS RAMPRASTHA PROMOTERS AND DEVELOPERS PVT LTD",
+          "date": "06 Mar 2026",
+          "date_iso": "2026-03-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NDE5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-381-2022_13"
+        },
+        {
+          "title": "H-REAT-785-2022 — Mandira Monga vs VATIKA LIMITED",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NTE1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-785-2022_14"
+        },
+        {
+          "title": "H-REAT-786-2022 — Alok Jha and Neeta Jha vs VATIKA LIMITED",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NTE2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-786-2022_15"
+        },
+        {
+          "title": "H-REAT-606-2022 — Samaresh Sinha and Sangeeta Sinha vs VATIKA LIMITED",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NTEz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-606-2022_16"
+        },
+        {
+          "title": "H-REAT-579-2022 — Shivek Ranjan and Sweta Suman vs VATIKA LIMITED",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NTE0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-579-2022_17"
+        },
+        {
+          "title": "H-REAT-787-2022 — Vinayak Kumar Sinha and Kaveri Sinha vs VATIKA LIMITED",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NTE3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-787-2022_18"
+        },
+        {
+          "title": "H-REAT-398-2023 — Emaar India Ltd vs MADHO SINGH RAWAT",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NDUz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-398-2023_19"
+        }
+      ]
+    },
+    {
+      "key": "DL_REAT",
+      "label": "DL_REAT",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "TRAI_DIR",
+      "label": "TRAI_DIR",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "Direction regarding display of information relating to Complaint Centre and Appellate Authority on the landing page of website and mobile application of the service providers.",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://www.trai.gov.in/release-publication/directions",
+          "pdf_url": "https://www.trai.gov.in/sites/default/files/2026-03/Direction_12032026.pdf",
+          "has_pdf": true,
+          "id": "trai_dir_direction_regarding_display_of_informati_2026-03-12"
+        }
+      ]
+    },
+    {
+      "key": "TRAI_REG",
+      "label": "TRAI_REG",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "Notification - Updated contact details of Auditors to Audit the accuracy of Metering and Billing Systems of the service providers.",
+          "date": "02 Mar 2026",
+          "date_iso": "2026-03-02",
+          "page_url": "https://www.trai.gov.in/release-publication/regulations",
+          "pdf_url": "https://www.trai.gov.in/sites/default/files/2026-03/Notification_02032026.pdf",
+          "has_pdf": true,
+          "id": "trai_reg_notification___updated_contact_details_o_2026-03-02"
+        }
+      ]
+    },
+    {
+      "key": "TRAI_REC",
+      "label": "TRAI_REC",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "TRAI_CON",
+      "label": "TRAI_CON",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "Consultation on Draft Telecom Commercial Communications Customer Preference (Third Amendment) Regulations, 2026.",
+          "date": "Mar 2026",
+          "date_iso": "2026-03-15",
+          "page_url": "https://www.trai.gov.in/release-publication/consultation",
+          "pdf_url": "https://www.trai.gov.in/sites/default/files/2026-03/Draft_CP_13032026_0.pdf",
+          "has_pdf": true,
+          "id": "trai_con_consultation_on_draft_telecom_commercial_2026-03-15"
+        }
+      ]
+    },
+    {
+      "key": "CGST_CIRC",
+      "label": "CGST_CIRC",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "IBBI_RES",
+      "label": "IBBI_RES",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "IBBI_ADM",
+      "label": "IBBI_ADM",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 11,
+      "docs_with_pdf": 11,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "In the matter of KRISHNAGANGA SPINNING MILLS PRIVATE LIMITED [C.P. (IB)/32/AM/2025] (16 MB)",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/1f9049aa78ddca1c36c48b7851551f97.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_1f9049aa78ddca1c36c48b7851551f97_pdf"
+        },
+        {
+          "title": "In the matter of KRISFO INFOTECH SOLUTIONS PRIVATE LIMITED [C.P. (IB)/51/BEN/2025] (331.05 KB)",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/33ffc80c6906d29a0ab61d21f65fd246.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_33ffc80c6906d29a0ab61d21f65fd246_pdf"
+        },
+        {
+          "title": "In the matter of JCR FASHION RETAIL PRIVATE LIMITED [RCP (IB) 1 (AHM) 2026 [CP(IB)/249/(AHM) 2025)]] (501.07 KB)",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/af0a73a0d13117ff57851b45218d7bd8.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_af0a73a0d13117ff57851b45218d7bd8_pdf"
+        },
+        {
+          "title": "In the matter of SSAB ENERGY & MINERALS LIMITED [23/CB/2025] (5.55 MB)",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/6711e9a2f161ef554073caabfac7844d.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_6711e9a2f161ef554073caabfac7844d_pdf"
+        },
+        {
+          "title": "In the matter of SANYA HOSPITALITY PRIVATE LIMITED [(IB)-30/ND/2024] (2.93 MB)",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-03-13-125204-co4du-f7b52e968e72bae2020a4030704a920d.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_03_13_125204_co4du_f7b52e968e72bae2"
+        },
+        {
+          "title": "In the matter of ECSTASY REALTY PRIVATE LIMITED [C.P.(IB)922/MB/2022 ] (482.2 KB)",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/9f0d71b9cc0838aad560e41f08239b8f.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_9f0d71b9cc0838aad560e41f08239b8f_pdf"
+        },
+        {
+          "title": "In the matter of VOI JEANS RETAIL INDIA PRIVATE LIMITED [C.P (IB) No.204/BB/2025] (379.5 KB)",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/fae81282559023428e4bdc3feac485ea.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_fae81282559023428e4bdc3feac485ea_pdf"
+        },
+        {
+          "title": "In the matter of SVARYU ENERGY LIMITED [CP/IB/88/CHE/2024] (489.63 KB)",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/44a5505f117c5725ed6f790ed155684b.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_44a5505f117c5725ed6f790ed155684b_pdf"
+        },
+        {
+          "title": "In the matter of NAVSAN GLASS INDUSTRIES LIMITED [IA/122(MP)2026 in CP(IB)/63(MP)2022] (771.4 KB)",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2edb50d9ccecea210304190242da3b98.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2edb50d9ccecea210304190242da3b98_pdf"
+        },
+        {
+          "title": "In the matter of J MODI VENTURE PRIVATE LIMITED [CP (IB) NO. 62 of 2026] (605.34 KB)",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/ed762923c4575d716e8f021cf56fc0a8.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_ed762923c4575d716e8f021cf56fc0a8_pdf"
+        },
+        {
+          "title": "In the matter of VISAKHA PRIME PROPERTIES CONSTRUCTIONS LIMITED [30/07/2025] (828.48 KB)",
+          "date": "04 Mar 2026",
+          "date_iso": "2026-03-04",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/a5f4f9cc3e34ba1fb4b5c0295d236a31.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_a5f4f9cc3e34ba1fb4b5c0295d236a31_pdf"
+        }
+      ]
+    },
+    {
+      "key": "EU_MERGER",
+      "label": "EU_MERGER",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 12,
+      "docs_with_pdf": 10,
+      "docs_without_pdf": 2,
+      "documents": [
+        {
+          "title": "[M.12318] I SQUARED / RAMUDDEN",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12318",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12318"
+        },
+        {
+          "title": "[M.12352] DIGITALBRIDGE / TCGL / COUNTY BROADBAND / FREEDOM FIBRE / TRUESPEED",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12352",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202611/M_12352_10917296_95_3.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12352"
+        },
+        {
+          "title": "[M.12305] BRIDGEPOINT / POLARIS MANAGEMENT / PDSVISION",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12305",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12305"
+        },
+        {
+          "title": "[M.12248] SBG / ABB ROBOTICS",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12248",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202611/M_12248_10917345_115_3.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12248"
+        },
+        {
+          "title": "[M.12333] APOLLO FUNDS / LECTA",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12333",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202611/M_12333_10915706_92_3.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12333"
+        },
+        {
+          "title": "[M.12322] NEUBERGER / ARES / ONEX / FOUNDER / RYAN",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12322",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202611/M_12322_10915666_103_3.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12322"
+        },
+        {
+          "title": "[M.12287] TPG / VITALITY / SOFTBANK / CAMBRIDGE MOBILE TELEMATICS",
+          "date": "08 Mar 2026",
+          "date_iso": "2026-03-08",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12287",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202611/M_12287_10915634_141_3.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12287"
+        },
+        {
+          "title": "[M.12315] KKR / PAG / SAPPORO REAL ESTATE",
+          "date": "04 Mar 2026",
+          "date_iso": "2026-03-04",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12315",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202611/M_12315_10912700_96_3.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12315"
+        },
+        {
+          "title": "[M.12284] BROOKFIELD / OAKTREE",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12284",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202611/M_12284_10917347_109_3.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12284"
+        },
+        {
+          "title": "[M.12252] BLACKSTONE / TINICUM / PENNAERO / TRIMAS AEROSPACE",
+          "date": "01 Mar 2026",
+          "date_iso": "2026-03-01",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12252",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202610/M_12252_10910634_139_3.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12252"
+        },
+        {
+          "title": "[M.12254] AAK / KLK / JV",
+          "date": "01 Mar 2026",
+          "date_iso": "2026-03-01",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12254",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202610/M_12254_10910032_130_3.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12254"
+        },
+        {
+          "title": "[M.12310] BAIN CAPITAL / MCJ",
+          "date": "01 Mar 2026",
+          "date_iso": "2026-03-01",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12310",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202610/M_12310_10906754_116_3.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12310"
+        }
+      ]
+    },
+    {
+      "key": "EU_ANTITRUST",
+      "label": "EU_ANTITRUST",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "EU_DMA",
+      "label": "EU_DMA",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "EU_FS",
+      "label": "EU_FS",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 6,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 6,
+      "documents": [
+        {
+          "title": "[FS.100306] EPEI / AURES HOLDINGS",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100306",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100306"
+        },
+        {
+          "title": "[FS.100305] APOLLO FUNDS / PROSOL GROUP",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100305",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100305"
+        },
+        {
+          "title": "[FS.100289] LOV GROUP / TIPICO",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100289",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100289"
+        },
+        {
+          "title": "[FS.100288] CD&R / SEALED AIR",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100288",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100288"
+        },
+        {
+          "title": "[FS.100273] ARDIAN / ENERGIA",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100273",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100273"
+        },
+        {
+          "title": "[FS.100237] SUZANO / KIMBERLY- CLARK (INTERNATIONAL FAMILY CARE & PROFESSIONAL BUSINESS)",
+          "date": "02 Mar 2026",
+          "date_iso": "2026-03-02",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100237",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100237"
+        }
+      ]
+    },
+    {
+      "key": "EPO_BOA",
+      "label": "EPO_BOA",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 47,
+      "docs_with_pdf": 47,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "T 0185/26 — System and method for triggering an alarm during a sensor jamming attack",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t260185eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t260185eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t260185eu1"
+        },
+        {
+          "title": "T 1044/24",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241044du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241044du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241044du1"
+        },
+        {
+          "title": "T 1162/24",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241162fu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241162fu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241162fu1"
+        },
+        {
+          "title": "T 0209/24 — PROCESS FOR THE PRODUCTION OF NATURAL CRYSTALLINE COLORANT AND RELATED PROCESSING SYSTEM",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240209eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240209eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240209eu1"
+        },
+        {
+          "title": "T 0339/24 — MEDICAL SYSTEM AND METHOD FOR PROVIDING INFORMATION FOR GLYCEMIC CONTROL",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240339eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240339eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240339eu1"
+        },
+        {
+          "title": "T 1889/23 — KOCHFELD MIT DUNSTABZUGSVORRICHTUNG",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231889du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231889du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t231889du1"
+        },
+        {
+          "title": "T 0190/24 — POWDER COMPOSITION COMPRISING HAIR DIRECT DYES",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240190eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240190eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240190eu1"
+        },
+        {
+          "title": "T 1224/23 — Method for producing a watch case middle of reduced weight",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231224eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231224eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t231224eu1"
+        },
+        {
+          "title": "T 1150/24 — BOWSING ARRANGEMENT",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241150eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241150eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241150eu1"
+        },
+        {
+          "title": "R 0016/23 — BIO-MINERALIZED CATHODE AND ANODE MATERIALS FOR ELECTROCHEMICAL CELL",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/r230016eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/r230016eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_r230016eu1"
+        },
+        {
+          "title": "T 1310/25 — Datenverarbeitungsvorrichtung mit mehreren Prozessoren und mehreren Schnittstellen",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t251310du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t251310du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t251310du1"
+        },
+        {
+          "title": "T 0877/22 — INFERRING USER AVAILABILITY FOR A COMMUNICATION AND CHANGING NOTIFICATIONS SETTINGS BASED ON USER AVAILABILITY OR CONTEXT",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t220877eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t220877eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t220877eu1"
+        },
+        {
+          "title": "T 0222/23 — STORAGE STABLE AQUEOUS ORGANIC PEROXIDE EMULSIONS",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230222eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230222eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t230222eu1"
+        },
+        {
+          "title": "T 1672/23",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231672du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231672du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t231672du1"
+        },
+        {
+          "title": "T 1223/24",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241223du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241223du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241223du1"
+        },
+        {
+          "title": "T 0424/24",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240424fu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240424fu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240424fu1"
+        },
+        {
+          "title": "T 0214/24 — HIGHLY UNSATURATED FATTY ACID OR HIGHLY UNSATURATED FATTY ACID ETHYL ESTER WITH REDUCED ENVIRONMENTAL POLLUTANTS, AND METHOD FOR PRODUCING SAME",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240214eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240214eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240214eu1"
+        },
+        {
+          "title": "T 0452/23 — LASER FIDUCIALS FOR AXIS ALIGNMENT IN CATARACT SURGERY",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230452eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230452eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t230452eu1"
+        },
+        {
+          "title": "T 1208/24 — PACKET OF SMOKE ARTICLES",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241208eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241208eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241208eu1"
+        },
+        {
+          "title": "T 0265/24 — PACKAGED LIQUID FABRIC SOFTENER COMPOSITION HAVING IMPROVED STABILITY",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240265eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240265eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240265eu1"
+        },
+        {
+          "title": "T 1567/23 — Security print media and method of manufacture thereof",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231567eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231567eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t231567eu1"
+        },
+        {
+          "title": "T 0251/24 — Compositions and methods for treating hematologic cancers targeting the SIRP - CD47 interaction",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240251eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240251eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240251eu1"
+        },
+        {
+          "title": "T 0439/25 — Systems and method for scoring entities and networks in a knowledge graph",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250439eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250439eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250439eu1"
+        },
+        {
+          "title": "T 0953/23 — APPARATUS FOR SILICONE BREAST IMPLANT DELIVERY",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230953eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230953eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t230953eu1"
+        },
+        {
+          "title": "T 0281/24 — Immunoglobulin preparation and storage system for an immunoglobulin preparation",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240281eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240281eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240281eu1"
+        },
+        {
+          "title": "T 1221/23 — IRRADIATING DEVICE AND IRRADIATION METHOD",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231221eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231221eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t231221eu1"
+        },
+        {
+          "title": "T 1941/23 — Methods of Genomic Evaluation in Livestock",
+          "date": "06 Mar 2026",
+          "date_iso": "2026-03-06",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231941eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231941eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t231941eu1"
+        },
+        {
+          "title": "R 0012/24 — LIGHTWEIGHT PLASTIC CONTAINER",
+          "date": "06 Mar 2026",
+          "date_iso": "2026-03-06",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/r240012eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/r240012eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_r240012eu1"
+        },
+        {
+          "title": "T 1791/23 — COLD PLASMA GENERATING SYSTEM",
+          "date": "06 Mar 2026",
+          "date_iso": "2026-03-06",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231791eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231791eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t231791eu1"
+        },
+        {
+          "title": "T 1794/23",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231794fu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231794fu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t231794fu1"
+        },
+        {
+          "title": "T 0644/24",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240644du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240644du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240644du1"
+        },
+        {
+          "title": "T 0540/24 — VORRICHTUNG ZUR ADDITIVEN HERSTELLUNG DREIDIMENSIONALER OBJEKTE",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240540du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240540du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240540du1"
+        },
+        {
+          "title": "D 0013/25",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/d250013du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/d250013du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_d250013du1"
+        },
+        {
+          "title": "D 0019/25",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/d250019eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/d250019eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_d250019eu1"
+        },
+        {
+          "title": "T 0420/24 — SLICING MACHINES, KNIFE ASSEMBLIES, AND METHODS FOR SLICING PRODUCTS",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240420eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240420eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240420eu1"
+        },
+        {
+          "title": "T 1088/24 — METHOD AND APPARATUS OF AFFINE INTER PREDICTION FOR VIDEO CODING SYSTEM",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241088eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241088eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241088eu1"
+        },
+        {
+          "title": "T 1108/24 — Seamless grid and canvas integration in a spreadsheet application",
+          "date": "04 Mar 2026",
+          "date_iso": "2026-03-04",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241108eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241108eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241108eu1"
+        },
+        {
+          "title": "T 0762/24 — TRANSFORMING A SPECIFICATION INTO A PERSISTENT COMPUTER PROGRAM",
+          "date": "04 Mar 2026",
+          "date_iso": "2026-03-04",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240762eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240762eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240762eu1"
+        },
+        {
+          "title": "T 1153/24 — Working machine and control system",
+          "date": "04 Mar 2026",
+          "date_iso": "2026-03-04",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241153eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241153eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241153eu1"
+        },
+        {
+          "title": "T 1024/24 — IMPROVED FLOUR BASED DOUGH AND METHOD OF PREPARING SUCH DOUGH",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241024eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241024eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241024eu1"
+        },
+        {
+          "title": "T 0144/24 — IMPROVEMENTS RELATING TO WIND TURBINE BLADE MANUFACTURE",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240144eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240144eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240144eu1"
+        },
+        {
+          "title": "T 0069/24",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240069du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240069du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240069du1"
+        },
+        {
+          "title": "T 0364/23 — Methods for multi-resolution analysis of cell-free nucleic acids",
+          "date": "02 Mar 2026",
+          "date_iso": "2026-03-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230364eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230364eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t230364eu1"
+        },
+        {
+          "title": "T 0002/25",
+          "date": "02 Mar 2026",
+          "date_iso": "2026-03-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250002du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250002du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250002du1"
+        },
+        {
+          "title": "T 1009/25 — METHOD AND SYSTEM FOR PROPELLING A VEHICLE",
+          "date": "02 Mar 2026",
+          "date_iso": "2026-03-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t251009eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t251009eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t251009eu1"
+        },
+        {
+          "title": "T 1850/23 — Water absorbent resin powder comprising polyacrylic acid (salt)-based water absorbent resin",
+          "date": "02 Mar 2026",
+          "date_iso": "2026-03-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231850eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231850eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t231850eu1"
+        },
+        {
+          "title": "T 1638/23 — Polyacrylic acid (salt)-based water absorbent resin powder",
+          "date": "02 Mar 2026",
+          "date_iso": "2026-03-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231638eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231638eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t231638eu1"
+        }
+      ]
+    },
+    {
+      "key": "EDPB_BINDING",
+      "label": "EDPB_BINDING",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "EDPB_OPINIONS",
+      "label": "EDPB_OPINIONS",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "EDPB-EDPS Joint Opinion 3/2026 on the Proposal for a European Biotech Act",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-32026-proposal-european_en",
+          "pdf_url": "https://www.edpb.europa.eu/system/files/2026-03/edpb_edps_jointopinion_202603_biotechact_en.pdf",
+          "has_pdf": true,
+          "id": "edpb_edpb-edps-joint-opinion-32026-proposal-european_en"
+        }
+      ]
+    },
+    {
+      "key": "EDPB_GUIDELINES",
+      "label": "EDPB_GUIDELINES",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "ADGM_ORDERS",
+      "label": "ADGM_ORDERS",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "ADGMCFI-2022-265 — Union Properties P.J.S.C & Anor. v. Trinkler & Partners Ltd & Others",
+          "date": "06 Mar 2026",
+          "date_iso": "2026-03-06",
+          "page_url": "https://www.adgm.com/adgm-courts/judgments",
+          "pdf_url": "https://assets.adgm.com/download/assets/ADGMCFI-2022-265+-+Judgment+%28Determination+of+Claim%29+06032026+SEALED.pdf/fbaa90301b8511f1ae1b12b391b8c30f",
+          "has_pdf": true,
+          "id": "adgm_ADGMCFI-2022-265"
+        },
+        {
+          "title": "ADGMCFI-2023-249 — Federal Properties Limited – Sole Proprietorship L.L.C (also known as Federal Properties Limited) v. Rawafid H Jazairi Ibrahim",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://www.adgm.com/adgm-courts/judgments",
+          "pdf_url": "https://assets.adgm.com/download/assets/ADGMCFI-2023-249+%26+ADGMCFI-2024-047+-+Joint+Judgment+-+Correction+to+Register+SEALED.pdf/4cf7685616f311f1a7bb925dbd42f6af",
+          "has_pdf": true,
+          "id": "adgm_ADGMCFI-2023-249"
+        },
+        {
+          "title": "ADGMCFI-2024-047 — Federal Properties Limited – Sole Proprietorship L.L.C (also known as Federal Properties Limited) v. Amir Sadik Ali Al Samarraie",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://www.adgm.com/adgm-courts/judgments",
+          "pdf_url": "https://assets.adgm.com/download/assets/ADGMCFI-2023-249+%26+ADGMCFI-2024-047+-+Joint+Judgment+-+Correction+to+Register+SEALED.pdf/4cf7685616f311f1a7bb925dbd42f6af",
+          "has_pdf": true,
+          "id": "adgm_ADGMCFI-2024-047"
+        }
+      ]
+    },
+    {
+      "key": "DIFC_CA_ORDERS",
+      "label": "DIFC_CA_ORDERS",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "MOHRE_LAWS",
+      "label": "MOHRE_LAWS",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "MOHRE_RESOLUTIONS",
+      "label": "MOHRE_RESOLUTIONS",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "UK_ET_ENG",
+      "label": "UK_ET_ENG",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "UK_AAC",
+      "label": "UK_AAC",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "UK_CAT",
+      "label": "UK_CAT",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 8,
+      "docs_with_pdf": 8,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "(1304) J Gutmann South Western (1305) J Gutmann South Eastern - Judgment (Costs)",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-03/%281304%29%20J%20Gutmann%20South%20Western%20%281305%29%20J%20Gutmann%20South%20Eastern%20-%20Judgment%20%28Costs%29%20%2013%20Mar%202026.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-03__1304__J_Gutmann_South_Western__1305__J_"
+        },
+        {
+          "title": "14687722 Mr Justin Gutmann v Apple Inc., Apple Distribution International Limited, and Apple Retail UK Limited - Judgment (Summary judgment strike out)",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-03/14687722%20Mr%20Justin%20Gutmann%20v%20Apple%20Inc.%2C%20Apple%20Distribution%20International%20Limited%2C%20and%20Apple%20Retail%20UK%20Limited%20-%20Judgment%20%28Summary%20judgment%20strike%20out%29%20%2011%20Mar%202026.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-03_14687722_Mr_Justin_Gutmann_v_Apple_Inc__"
+        },
+        {
+          "title": "176641226 Aramark Limited v Competition and Markets Authority - Judgment (Extension of time)",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-03/176641226%20Aramark%20Limited%20v%20Competition%20and%20Markets%20Authority%20-%20Judgment%20%28Extension%20of%20time%29%20%2010%20Mar%202026_0.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-03_176641226_Aramark_Limited_v_Competition_"
+        },
+        {
+          "title": "14337722 Dr Liza Lovdahl Gormsen v Meta Platforms, Inc. and Others - Ruling (RFI)",
+          "date": "06 Mar 2026",
+          "date_iso": "2026-03-06",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-03/14337722%20Dr%20Liza%20Lovdahl%20Gormsen%20v%20Meta%20Platforms%2C%20Inc.%20and%20Others%20-%20Ruling%20%28RFI%29%20%2006%20Mar%202026.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-03_14337722_Dr_Liza_Lovdahl_Gormsen_v_Meta_"
+        },
+        {
+          "title": "Water Cases (1603; 1628-1631; 1635) - Judgment of the Court of Appeal",
+          "date": "5 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-03/Water%20Cases%20%281603%3B%201628-1631%3B%201635%29%20-%20Judgment%20of%20the%20Court%20of%20Appeal%20%205%20Mar%202026.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-03_Water_Cases__1603__1628-1631__1635__-_Ju"
+        },
+        {
+          "title": "15185722 London Array Limited & Others v Nexans France SAS & Others - Ruling (Costs)",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-03/15185722%20London%20Array%20Limited%20%26%20Others%20v%20Nexans%20France%20SAS%20%26%20Others%20-%20Ruling%20%28Costs%29%20%2003%20Mar%202026.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-03_15185722_London_Array_Limited___Others_v"
+        },
+        {
+          "title": "14407722 Clare Mary Joan Spottiswoode CBE v Nexans France S.A.S. & Others - Ruling (Costs - ROC Issue)",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-03/14407722%20Clare%20Mary%20Joan%20Spottiswoode%20CBE%20v%20Nexans%20France%20S.A.S.%20%26%20Others%20-%20Ruling%20%28Costs%20-%20ROC%20Issue%29%20%20%2003%20Mar%202026_0.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-03_14407722_Clare_Mary_Joan_Spottiswoode_CB"
+        },
+        {
+          "title": "CICC (1441-1444) - Judgment (Opt-in Application)",
+          "date": "02 Mar 2026",
+          "date_iso": "2026-03-02",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-03/CICC%20%281441-1444%29%20-%20Judgment%20%28Opt-in%20Application%29%20%2002%20Mar%202026.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-03_CICC__1441-1444__-_Judgment__Opt-in_Appl"
+        }
+      ]
+    },
+    {
+      "key": "UK_CMA_MERGERS",
+      "label": "UK_CMA_MERGERS",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "UK_CMA_NONMERGER",
+      "label": "UK_CMA_NONMERGER",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "UK_EAT",
+      "label": "UK_EAT",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 6,
+      "docs_with_pdf": 6,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "Mr Adamu Thomas v The Kingsdale Foundation: [2026] EAT 40",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/mr-adamu-thomas-v-the-kingsdale-foundation-2026-eat-40",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69b29b82c9de29c35c1258cf/Mr_Adamu_Thomas_v_The_Kingsdale_Foundation__2026__EAT_40.pdf",
+          "has_pdf": true,
+          "id": "govuk_sions_mr-adamu-thomas-v-the-kingsdale-foundation-2026-eat-40"
+        },
+        {
+          "title": "A v (1) B, the Organisation (2) C (3) D: [2026] EAT 35",
+          "date": "04 Mar 2026",
+          "date_iso": "2026-03-04",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/a-v-1-b-the-organisation-2-c-3-d-2026-eat-35",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69b17d14187a6dea782331c3/A_v__1__B__the_Organisation__2__C__3__D__2026__EAT_35.pdf",
+          "has_pdf": true,
+          "id": "govuk_bunal-decisions_a-v-1-b-the-organisation-2-c-3-d-2026-eat-35"
+        },
+        {
+          "title": "The Laurels Family Assessment Ltd v Miss M Y Kay: [2026] EAT 39",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/the-laurels-family-assessment-ltd-v-miss-m-y-kay-2026-eat-39",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69b00239917847c0a4c89a5d/The_Laurels_Family_Assessment_Ltd_v_Miss_M_Y_Kay__2026__EAT_39.pdf",
+          "has_pdf": true,
+          "id": "govuk_the-laurels-family-assessment-ltd-v-miss-m-y-kay-2026-eat-39"
+        },
+        {
+          "title": "Mr. O. E. Olarewaju v Bupa Care Services Ltd: [2026] EAT 38",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/mr-o-e-olarewaju-v-bupa-care-services-ltd-2026-eat-38",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69aea155c78869bf8eb8a526/Mr._O._E._Olarewaju_v_Bupa_Care_Services_Ltd__2026__EAT_38.pdf",
+          "has_pdf": true,
+          "id": "govuk_isions_mr-o-e-olarewaju-v-bupa-care-services-ltd-2026-eat-38"
+        },
+        {
+          "title": "Mr Daniel Matovu v The Chambers of Mr Martin Porter, KC, 2 Temple Gardens and others: [2026] EAT 36",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/mr-daniel-matovu-v-the-chambers-of-mr-martin-porter-kc-2-temple-gardens-and-others-2026-eat-36",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69a960d998da555143be929c/Mr_Daniel_Matovu_v_The_Chambers_of_Mr_Martin_Porter__KC__2_Temple_Gardens_and_others__2026__EAT_36.pdf",
+          "has_pdf": true,
+          "id": "govuk_-mr-martin-porter-kc-2-temple-gardens-and-others-2026-eat-36"
+        },
+        {
+          "title": "The Attorney General v Ms Sandra Messi: [2026] EAT 34",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/the-attorney-general-v-ms-sandra-messi-2026-eat-34",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69a5bb73b346998e6646b5c6/The_Attorney_General_v_Ms_Sandra_Messi__2026__EAT_34.pdf",
+          "has_pdf": true,
+          "id": "govuk_decisions_the-attorney-general-v-ms-sandra-messi-2026-eat-34"
+        }
+      ]
+    },
+    {
+      "key": "UK_ET_SCOT",
+      "label": "UK_ET_SCOT",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "UK_UTIAC",
+      "label": "UK_UTIAC",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "UK_LAND",
+      "label": "UK_LAND",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 7,
+      "docs_with_pdf": 7,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "Dr Rosh Jamal v  London Borough of Enfield",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukut/lc/2026/104",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-050e5e84-c32f-45fe-a088-9ce5372ef8df/d-050e5e84-c32f-45fe-a088-9ce5372ef8df.pdf",
+          "has_pdf": true,
+          "id": "na_104"
+        },
+        {
+          "title": "Luke Highet Bendram Jamieson v London and Quadrant Housing Trust",
+          "date": "04 Mar 2026",
+          "date_iso": "2026-03-04",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukut/lc/2026/103",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-69de17c4-cc8a-432d-96b3-d03b70975d19/d-69de17c4-cc8a-432d-96b3-d03b70975d19.pdf",
+          "has_pdf": true,
+          "id": "na_103"
+        },
+        {
+          "title": "K&K Property Investments Limited v Southwark London Borough Council",
+          "date": "04 Mar 2026",
+          "date_iso": "2026-03-04",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukut/lc/2026/97",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-62ec1922-655b-4a88-a0c6-a993def405df/d-62ec1922-655b-4a88-a0c6-a993def405df.pdf",
+          "has_pdf": true,
+          "id": "na_97"
+        },
+        {
+          "title": "Milon Miah & Anor v Anchor Court Management (Ipswich) Limited",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukut/lc/2026/98",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-5fe71047-80cc-4e73-9bda-76ee6270671b/d-5fe71047-80cc-4e73-9bda-76ee6270671b.pdf",
+          "has_pdf": true,
+          "id": "na_98"
+        },
+        {
+          "title": "214 Bermondsey Street Limited v Crispin Corfe & Ors",
+          "date": "02 Mar 2026",
+          "date_iso": "2026-03-02",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukut/lc/2026/96",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-19d7b8b0-9f5b-485c-a65a-3d466a619cc4/d-19d7b8b0-9f5b-485c-a65a-3d466a619cc4.pdf",
+          "has_pdf": true,
+          "id": "na_96"
+        },
+        {
+          "title": "Robert Charles Hayward v Suffolk County Council",
+          "date": "02 Mar 2026",
+          "date_iso": "2026-03-02",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukut/lc/2026/94",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-619698ae-c5f7-47bc-9759-c306048769f1/d-619698ae-c5f7-47bc-9759-c306048769f1.pdf",
+          "has_pdf": true,
+          "id": "na_94"
+        },
+        {
+          "title": "Elizabeth Roseanne Dobson & Anor v Alison Unsted & Anor",
+          "date": "02 Mar 2026",
+          "date_iso": "2026-03-02",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukut/lc/2026/93",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-2e7db154-53de-4722-a177-125aa54eeadd/d-2e7db154-53de-4722-a177-125aa54eeadd.pdf",
+          "has_pdf": true,
+          "id": "na_93"
+        }
+      ]
+    },
+    {
+      "key": "UK_TAX_CHANCERY",
+      "label": "UK_TAX_CHANCERY",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 8,
+      "docs_with_pdf": 8,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "NEW CLAIRE WINE LIMITED v  THE COMMISSIONERS FOR HIS MAJESTY’S  REVENUE AND CUSTOMS  [2026] UKUT 00116 (TCC)",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/new-claire-wine-limited-v-the-commissioners-for-his-majestys-revenue-and-customs-2026-ukut-00116-tcc",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69b2a190c9de29c35c1258da/New_Claire_Wine_v_HMRC_Final_Decision.pdf",
+          "has_pdf": true,
+          "id": "govuk_ers-for-his-majestys-revenue-and-customs-2026-ukut-00116-tcc"
+        },
+        {
+          "title": "THE COMMISSIONERS FOR HIS MAJESTY’S REVENUE and CUSTOMS v SHAUN HARTE [2026] UKUT 00112 (TCC)",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/the-commissioners-for-his-majestys-revenue-and-customs-v-shaun-harte-2026-ukut-00112-tcc",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69b2a068efd187add14e0058/HMRC_v_Harte_Final_decision_for_issue_to_parties_.pdf",
+          "has_pdf": true,
+          "id": "govuk_jestys-revenue-and-customs-v-shaun-harte-2026-ukut-00112-tcc"
+        },
+        {
+          "title": "[2026] UKUT 00109 (TCC) LONDON LUTON HOTEL BPRA PROPERTY FUND LLP v HMRC",
+          "date": "06 Mar 2026",
+          "date_iso": "2026-03-06",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/2026-ukut-00109-tcc-london-luton-hotel-bpra-property-fund-llp-v-hmrc",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69aae588bde9c3f213c89949/London_Luton_judgment_final_for_publication.pdf",
+          "has_pdf": true,
+          "id": "govuk_t-00109-tcc-london-luton-hotel-bpra-property-fund-llp-v-hmrc"
+        },
+        {
+          "title": "PUTNEY POWER LIMITED PISTON HEATING SERVICES LIMITED v  THE COMMISSIONERS FOR HIS MAJESTY’S REVENUE AND CUSTOMS  [2026] UKUT 00105 (TCC)",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/putney-power-limited-piston-heating-services-limited-v-the-commissioners-for-his-majestys-revenue-and-customs-2026-ukut-00105-tcc",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69aad445bde9c3f213c8992c/Putney_Power_v_HMRC_Final_for_release.pdf",
+          "has_pdf": true,
+          "id": "govuk_ers-for-his-majestys-revenue-and-customs-2026-ukut-00105-tcc"
+        },
+        {
+          "title": "[2026] UKUT 00102 (TCC) Afshin Sajedi, Akram Rafie, Phillip Hall and Trusha Pillay v The Commissioners for His Majesty’s Revenue and Customs",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/2026-ukut-00102-tcc-afshin-sajedi-akram-rafie-phillip-hall-and-trusha-pillay-v-the-commissioners-for-his-majestys-revenue-and-customs",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69a701c43b5b78231d1a9b2c/Sajedi_and_others_v_HMRC_consent_order.pdf",
+          "has_pdf": true,
+          "id": "govuk_lay-v-the-commissioners-for-his-majestys-revenue-and-customs"
+        },
+        {
+          "title": "[2026] UKUT 00100 (TCC) KNR Flooring Ltd v The Commissioners for His Majesty’s Revenue and Customs",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/2026-ukut-00100-tcc-knr-flooring-ltd-v-the-commissioners-for-his-majestys-revenue-and-customs",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69a6ff31723a61518b9f13d0/PTA_decision__following_oral_renewal__KNR_Flooring_Ltd.pdf",
+          "has_pdf": true,
+          "id": "govuk_ltd-v-the-commissioners-for-his-majestys-revenue-and-customs"
+        },
+        {
+          "title": "[2026] UKUT 00101 (TCC) Afshin Sajedi, Akram Rafie, Phillip Hall and Trusha Pillay v The Commissioners for His Majesty’s Revenue and Customs",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/2026-ukut-00101-tcc-afshin-sajedi-akram-rafie-phillip-hall-and-trusha-pillay-v-the-commissioners-for-his-majestys-revenue-and-customs",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69a7003cb9bd90e63a252235/Sajedi__Ors_v_HMRC_pta_papers.pdf",
+          "has_pdf": true,
+          "id": "govuk_lay-v-the-commissioners-for-his-majestys-revenue-and-customs"
+        },
+        {
+          "title": "KIAKIAFX LIMITED v  THE FINANCIAL CONDUCT AUTHORITY : [2026] UKUT 00099 (TCC)",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/kiakiafx-limited-v-the-financial-conduct-authority-2026-ukut-00099-tcc",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69a96e561f59a04b996e77b9/KiakiaFX_v_FCA__Application_Decision.pdf",
+          "has_pdf": true,
+          "id": "govuk_imited-v-the-financial-conduct-authority-2026-ukut-00099-tcc"
+        }
+      ]
+    },
+    {
+      "key": "UK_TAX_FTT",
+      "label": "UK_TAX_FTT",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
+      "docs_without_pdf": 0,
+      "documents": [
+        {
+          "title": "Ponders End International Ltd v The Commissioners for HMRC",
+          "date": "04 Mar 2026",
+          "date_iso": "2026-03-04",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/356",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-2db2346d-2223-46a2-8c5d-a3a68751caa6/d-2db2346d-2223-46a2-8c5d-a3a68751caa6.pdf",
+          "has_pdf": true,
+          "id": "na_356"
+        },
+        {
+          "title": "Countrywide Partners Limited v The Commissioners for HMRC",
+          "date": "04 Mar 2026",
+          "date_iso": "2026-03-04",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/357",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-3ab6f4e4-e590-41b6-8f64-d286cedeb813/d-3ab6f4e4-e590-41b6-8f64-d286cedeb813.pdf",
+          "has_pdf": true,
+          "id": "na_357"
+        },
+        {
+          "title": "CooperVision Lens Care Limited v The Commissioners for HMRC",
+          "date": "02 Mar 2026",
+          "date_iso": "2026-03-02",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/324",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-d75132c4-a7c4-4f9e-88a4-18671e25873f/d-d75132c4-a7c4-4f9e-88a4-18671e25873f.pdf",
+          "has_pdf": true,
+          "id": "na_324"
+        },
+        {
+          "title": "Hector Lester v The Commissioners for HMRC",
+          "date": "02 Mar 2026",
+          "date_iso": "2026-03-02",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/323",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-bf423414-7b4f-4323-acbf-e27e587de605/d-bf423414-7b4f-4323-acbf-e27e587de605.pdf",
+          "has_pdf": true,
+          "id": "na_323"
+        }
+      ]
+    },
+    {
+      "key": "SEBI_CIRCULARS",
+      "label": "SEBI_CIRCULARS",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 5,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 5,
+      "documents": [
+        {
+          "title": "Borrowing by Mutual Funds",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/mar-2026/borrowing-by-mutual-funds_100329.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100329"
+        },
+        {
+          "title": "Ease of Doing Business – Relaxation in certification requirement for Persons Associated with Research Services (PARS) – Sales and other non-core services",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/mar-2026/ease-of-doing-business-relaxation-in-certification-requirement-for-persons-associated-with-research-services-pars-sales-and-other-non-core-services_100249.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100249"
+        },
+        {
+          "title": "Introduction of Voluntary Lock-in / Debit freeze facility to Mutual Fund folios",
+          "date": "06 Mar 2026",
+          "date_iso": "2026-03-06",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/mar-2026/introduction-of-voluntary-lock-in-debit-freeze-facility-to-mutual-fund-folios_100159.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100159"
+        },
+        {
+          "title": "Regulatory Reporting by AIFs",
+          "date": "04 Mar 2026",
+          "date_iso": "2026-03-04",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/mar-2026/regulatory-reporting-by-aifs_100120.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100120"
+        },
+        {
+          "title": "Guidelines for Custodians",
+          "date": "04 Mar 2026",
+          "date_iso": "2026-03-04",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/mar-2026/guidelines-for-custodians_100118.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100118"
+        }
+      ]
+    },
+    {
+      "key": "SEBI_FINAL_OFFER",
+      "label": "SEBI_FINAL_OFFER",
+      "category": "",
+      "website_url": "",
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "SEDEMAC MECHATRONICS LIMITED",
+          "date": "06 Mar 2026",
+          "date_iso": "2026-03-06",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/mar-2026/sedemac-mechatronics-limited_100214.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100214"
+        }
+      ]
+    },
+    {
+      "key": "SEBI_LODR",
+      "label": "SEBI_LODR",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "SEBI_ICDR",
+      "label": "SEBI_ICDR",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "SEBI_TAKEOVER",
+      "label": "SEBI_TAKEOVER",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "SEBI_AIF",
+      "label": "SEBI_AIF",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "RBI_FEMA_DIR",
+      "label": "RBI_FEMA_DIR",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "RBI_FEMA_CIRC",
+      "label": "RBI_FEMA_CIRC",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    },
+    {
+      "key": "RBI_FEMA_NOTIF",
+      "label": "RBI_FEMA_NOTIF",
+      "category": "",
+      "website_url": "",
+      "status": "empty",
+      "error": null,
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
+    }
+  ]
+}

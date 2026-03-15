@@ -10,7 +10,7 @@ Usage:
 """
 
 import sys, os, json, time, threading, calendar, argparse
-from datetime import datetime
+from datetime import datetime, timezone
 
 # Force cloud mode so the server doesn't try to open browsers or use Desktop paths
 os.environ['CLOUD'] = '1'
@@ -20,6 +20,91 @@ os.environ['DOWNLOAD_DIR'] = '/tmp/Repositories'
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'backend'))
 
 import server as srv
+
+# ── Detailed scrape log ─────────────────────────────────────────
+_scrape_log = {
+    "started_at": "",
+    "finished_at": "",
+    "duration_seconds": 0,
+    "date_range": {},
+    "total_sources": 0,
+    "sources_scraped": 0,
+    "sources_ok": 0,
+    "sources_error": 0,
+    "sources_empty": 0,
+    "total_documents": 0,
+    "docs_with_pdf": 0,
+    "docs_without_pdf": 0,
+    "source_details": []
+}
+
+def _build_log(target_keys, from_iso, to_iso, start_time, partial):
+    """Build detailed per-source, per-document log."""
+    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+    _scrape_log["finished_at"] = now_utc
+    _scrape_log["duration_seconds"] = round(time.time() - start_time, 1)
+    _scrape_log["date_range"] = {"from": from_iso, "to": to_iso}
+    _scrape_log["total_sources"] = len(target_keys)
+    _scrape_log["partial_scrape"] = partial
+
+    ok = err = empty = total_docs = with_pdf = without_pdf = 0
+    details = []
+
+    for dtype in target_keys:
+        c = srv.cache.get(dtype, {})
+        cfg = srv.SOURCES.get(dtype, {})
+        docs = list(c.get("data", []))
+        docs = [d for d in docs if d.get("date_iso") and from_iso <= d["date_iso"] <= to_iso]
+        error = c.get("error")
+
+        src_entry = {
+            "key": dtype,
+            "label": cfg.get("label", dtype),
+            "category": cfg.get("cat", ""),
+            "website_url": cfg.get("url", ""),
+            "status": "error" if error else ("empty" if not docs else "ok"),
+            "error": error,
+            "doc_count": len(docs),
+            "docs_with_pdf": sum(1 for d in docs if d.get("pdf_url")),
+            "docs_without_pdf": sum(1 for d in docs if not d.get("pdf_url")),
+            "documents": []
+        }
+
+        for d in docs:
+            has_pdf = bool(d.get("pdf_url"))
+            src_entry["documents"].append({
+                "title": d.get("title", ""),
+                "date": d.get("date", ""),
+                "date_iso": d.get("date_iso", ""),
+                "page_url": d.get("page_url", ""),
+                "pdf_url": d.get("pdf_url", ""),
+                "has_pdf": has_pdf,
+                "id": d.get("id", ""),
+            })
+            total_docs += 1
+            if has_pdf:
+                with_pdf += 1
+            else:
+                without_pdf += 1
+
+        if error:
+            err += 1
+        elif not docs:
+            empty += 1
+        else:
+            ok += 1
+
+        details.append(src_entry)
+
+    _scrape_log["sources_scraped"] = len(target_keys)
+    _scrape_log["sources_ok"] = ok
+    _scrape_log["sources_error"] = err
+    _scrape_log["sources_empty"] = empty
+    _scrape_log["total_documents"] = total_docs
+    _scrape_log["docs_with_pdf"] = with_pdf
+    _scrape_log["docs_without_pdf"] = without_pdf
+    _scrape_log["source_details"] = details
+    return _scrape_log
 
 def main():
     parser = argparse.ArgumentParser()
@@ -65,6 +150,9 @@ def main():
     if partial:
         print(f"Target sources: {', '.join(target_keys)}")
     print("=" * 60)
+
+    start_time = time.time()
+    _scrape_log["started_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
 
     # For partial scrapes, load existing data.json first so we merge
     out_dir = os.path.join(os.path.dirname(__file__), "docs")
@@ -173,6 +261,14 @@ def main():
     action = f"partial ({len(target_keys)} sources)" if partial else "full"
     print(f"Done [{action}]! {total_docs} documents from {ok_count} sources ({err_count} errors)")
     print(f"Written to {out_path} ({size_kb:.1f} KB)")
+
+    # Write detailed scrape log
+    log = _build_log(target_keys, from_iso, to_iso, start_time, partial)
+    log_path = os.path.join(out_dir, "scrape_log.json")
+    with open(log_path, "w", encoding="utf-8") as f:
+        json.dump(log, f, ensure_ascii=False, indent=2)
+    log_kb = os.path.getsize(log_path) / 1024
+    print(f"Scrape log written to {log_path} ({log_kb:.1f} KB)")
 
 if __name__ == "__main__":
     main()
