@@ -388,6 +388,8 @@ body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:var(--bg)
     <button class="btn btn-ghost" onclick="resetFilters()">Reset</button>
     <button class="btn btn-primary" id="refresh-btn" onclick="refreshAll()">Refresh</button>
     <button class="btn btn-green" onclick="downloadAll()">Download All</button>
+    <button class="btn" onclick="exportExcel()" title="Export document counts to Excel">Export Excel</button>
+    <button class="btn" onclick="downloadZip()" title="Download all saved documents as ZIP">Download Zip</button>
     <button class="btn" onclick="retryErrors()">Retry</button>
     <button class="btn" id="audit-btn" onclick="runAudit()" title="Verify all scraped PDF links are accessible">Audit</button>
   </div>
@@ -596,7 +598,9 @@ const SRC = {
 };
 
 const ALL_KEYS = Object.keys(SRC);
-const API = 'http://localhost:8765';
+const API = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+            ? 'http://localhost:8765'
+            : location.origin;
 const TOTAL_SOURCES = ALL_KEYS.length;
 
 // =================================================================
@@ -1024,6 +1028,27 @@ async function downloadAll() {
 }
 
 async function retryErrors() { try { const r = await apiPost('/api/retry_errors', {}); toast('Retrying ' + r.count + ' failed downloads', 'warn'); startDlPoll(); applyFilters(); } catch(e) {} }
+
+function exportExcel() {
+  toast('Generating Excel...', 'info');
+  const a = document.createElement('a');
+  a.href = API + '/api/export_excel';
+  a.download = '';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
+
+function downloadZip() {
+  toast('Generating ZIP of all downloaded documents...', 'info');
+  const a = document.createElement('a');
+  a.href = API + '/api/download_zip';
+  a.download = '';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
+
 async function retryOne(id, dtype) {
   try {
     // Use the targeted retry endpoint so citation metadata is preserved

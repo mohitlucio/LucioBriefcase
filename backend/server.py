@@ -2172,6 +2172,7 @@ def _scrape_ka_tribunal(doc_type, judgment_type, from_date_iso=None, to_date_iso
     Table id='kreatList', single-quote hrefs: href='/download_jc?DOC_ID=...'  """
     cache[doc_type].update({"fetching": True, "error": None, "fetch_started_at": time.time()})
     label = "K-REAT" if judgment_type == "reat" else "K-RERA"
+    page_url = "https://rera.karnataka.gov.in/tribunalDisposedList"
     print(f"[{doc_type}] Fetching Karnataka {label} Orders")
 
     try:
@@ -2234,7 +2235,7 @@ def _scrape_ka_tribunal(doc_type, judgment_type, from_date_iso=None, to_date_iso
             docs.append({
                 "date": date_text, "date_iso": date_iso,
                 "title": title, "company": respondent,
-                "page_url": url, "pdf_url": pdf_url,
+                "page_url": page_url, "pdf_url": pdf_url,
                 "type": doc_type, "id": doc_id,
             })
 
@@ -2259,8 +2260,10 @@ def scrape_ka_rera(doc_type, from_date_iso=None, to_date_iso=None):
     Both RERA and REAT orders share the same rows:
       RERA order → cols 6 (date) / 7 (pdf)
       REAT order → cols 8 (date) / 9 (pdf)
-    Filter/display uses the K-RERA date from col 6."""
+    Filter uses K-REAT date (col 8) so K-RERA shows the same rows as K-REAT,
+    but the PDF link comes from the K-RERA column (col 7)."""
     cache[doc_type].update({"fetching": True, "error": None, "fetch_started_at": time.time()})
+    page_url = "https://rera.karnataka.gov.in/tribunalDisposedList"
     print(f"[{doc_type}] Fetching Karnataka K-RERA Orders (same rows as K-REAT)")
 
     try:
@@ -2288,16 +2291,17 @@ def scrape_ka_rera(doc_type, from_date_iso=None, to_date_iso=None):
             if not sno or not sno[0].isdigit():
                 continue
 
-            # Use K-RERA date (col 6) for filtering and display
-            rera_date_raw = _clean_text(tds[6]).strip()
+            # Use K-REAT date (col 8) for filtering and display
+            # so K-RERA shows the same rows as K-REAT for the date range
+            reat_date_raw = _clean_text(tds[8]).strip()
             try:
-                rera_iso  = datetime.strptime(rera_date_raw, "%d-%m-%Y").strftime("%Y-%m-%d")
-                rera_text = datetime.strptime(rera_date_raw, "%d-%m-%Y").strftime("%d %b %Y")
+                reat_iso  = datetime.strptime(reat_date_raw, "%d-%m-%Y").strftime("%Y-%m-%d")
+                reat_text = datetime.strptime(reat_date_raw, "%d-%m-%Y").strftime("%d %b %Y")
             except Exception:
-                continue  # No K-RERA date — skip row
+                continue  # No K-REAT date — skip row
             if from_date_iso and to_date_iso:
-                if not (from_date_iso <= rera_iso <= to_date_iso):
-                    continue  # K-RERA order is outside the selected month
+                if not (from_date_iso <= reat_iso <= to_date_iso):
+                    continue  # K-REAT date is outside the selected range
 
             # Grab the K-RERA PDF from col 7
             pdf_m = re.search(r"href='([^']+download_jc[^']*)'", tds[7])
@@ -2317,9 +2321,9 @@ def scrape_ka_rera(doc_type, from_date_iso=None, to_date_iso=None):
 
             doc_id = f"ka_rera_{appeal_no.replace('/', '_')}_{len(docs)}"
             docs.append({
-                "date": rera_text, "date_iso": rera_iso,
+                "date": reat_text, "date_iso": reat_iso,
                 "title": title, "company": respondent,
-                "page_url": url, "pdf_url": pdf_url,
+                "page_url": page_url, "pdf_url": pdf_url,
                 "type": doc_type, "id": doc_id,
             })
 
@@ -5063,6 +5067,118 @@ class Handler(BaseHTTPRequestHandler):
         elif path == '/api/download_progress':
             self._json(download_progress)
 
+        elif path == '/api/export_excel':
+            import openpyxl
+            from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
+            from io import BytesIO
+
+            wb = openpyxl.Workbook()
+            ws = wb.active
+            ws.title = "Document Summary"
+
+            # ── Header styling ──
+            hdr_font = Font(bold=True, color="FFFFFF", size=11)
+            hdr_fill = PatternFill(start_color="171717", end_color="171717", fill_type="solid")
+            hdr_align = Alignment(horizontal="center", vertical="center")
+            thin_border = Border(
+                left=Side(style='thin', color='D4D4D4'),
+                right=Side(style='thin', color='D4D4D4'),
+                top=Side(style='thin', color='D4D4D4'),
+                bottom=Side(style='thin', color='D4D4D4'),
+            )
+
+            # ── Date range info ──
+            range_from = ACTIVE_RANGE['from_iso']
+            range_to   = ACTIVE_RANGE['to_iso']
+            ws.merge_cells('A1:E1')
+            title_cell = ws['A1']
+            title_cell.value = f"Lucio Briefcase — Document Summary ({range_from} to {range_to})"
+            title_cell.font = Font(bold=True, size=13)
+            title_cell.alignment = Alignment(horizontal="left", vertical="center")
+            ws.row_dimensions[1].height = 28
+
+            # ── Column headers ──
+            headers = ["#", "Source Key", "Source Label", "Category", "Documents"]
+            ws.append([])  # blank row 2
+            for col_idx, h in enumerate(headers, 1):
+                cell = ws.cell(row=3, column=col_idx, value=h)
+                cell.font = hdr_font
+                cell.fill = hdr_fill
+                cell.alignment = hdr_align
+                cell.border = thin_border
+            ws.row_dimensions[3].height = 22
+
+            # ── Data rows ──
+            row_num = 4
+            total_docs = 0
+            src_meta = {}
+            # Build source metadata from SOURCES dict
+            for key, cfg in SOURCES.items():
+                src_meta[key] = {'label': cfg.get('label', key), 'cat': cfg.get('cat', '')}
+
+            for idx, dtype in enumerate(sorted(SOURCES.keys()), 1):
+                docs = list(cache.get(dtype, {}).get('data', []))
+                # Apply same date filter as /api/unified
+                docs = [d for d in docs if d.get('date_iso')]
+                docs = [d for d in docs if range_from <= d['date_iso'] <= range_to]
+                count = len(docs)
+                total_docs += count
+                meta = src_meta.get(dtype, {'label': dtype, 'cat': ''})
+                row = [idx, dtype, meta['label'], meta['cat'], count]
+                for col_idx, val in enumerate(row, 1):
+                    cell = ws.cell(row=row_num, column=col_idx, value=val)
+                    cell.border = thin_border
+                    if col_idx == 5:
+                        cell.alignment = Alignment(horizontal="center")
+                row_num += 1
+
+            # ── Total row ──
+            ws.append([])
+            total_row = row_num + 1
+            ws.cell(row=total_row, column=3, value="TOTAL").font = Font(bold=True, size=11)
+            total_cell = ws.cell(row=total_row, column=5, value=total_docs)
+            total_cell.font = Font(bold=True, size=11)
+            total_cell.alignment = Alignment(horizontal="center")
+
+            # ── Column widths ──
+            ws.column_dimensions['A'].width = 6
+            ws.column_dimensions['B'].width = 22
+            ws.column_dimensions['C'].width = 30
+            ws.column_dimensions['D'].width = 14
+            ws.column_dimensions['E'].width = 14
+
+            buf = BytesIO()
+            wb.save(buf)
+            data = buf.getvalue()
+            fname = f"Briefcase_Summary_{range_from}_to_{range_to}.xlsx"
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+            self.send_header('Content-Disposition', f'attachment; filename="{fname}"')
+            self.send_header('Content-Length', str(len(data)))
+            self.cors(); self.end_headers()
+            self.wfile.write(data)
+
+        elif path == '/api/download_zip':
+            import zipfile
+            from io import BytesIO
+            buf = BytesIO()
+            range_from = ACTIVE_RANGE['from_iso']
+            range_to   = ACTIVE_RANGE['to_iso']
+            with zipfile.ZipFile(buf, 'w', zipfile.ZIP_DEFLATED) as zf:
+                for root, dirs, files in os.walk(BASE_DOWNLOAD_DIR):
+                    for f in files:
+                        fpath = os.path.join(root, f)
+                        arcname = os.path.relpath(fpath, BASE_DOWNLOAD_DIR)
+                        zf.write(fpath, arcname)
+            zdata = buf.getvalue()
+            fname = f"Repositories_{range_from}_to_{range_to}.zip"
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/zip')
+            self.send_header('Content-Disposition', f'attachment; filename="{fname}"')
+            self.send_header('Content-Length', str(len(zdata)))
+            self.cors(); self.end_headers()
+            self.wfile.write(zdata)
+
         else:
             self.send_response(404); self.end_headers()
       except Exception as e:
@@ -5371,6 +5487,22 @@ class Handler(BaseHTTPRequestHandler):
                 cache[t]["fetching"] = False
             self._json({"status": "stopped"})
 
+        elif path == '/api/browser_inject':
+            # Accept scraped docs from the browser-based SEBI scraper
+            dtype = data.get('type', '').upper()
+            docs = data.get('docs', [])
+            if dtype not in SOURCES:
+                self._json({'error': f'Unknown source type: {dtype}'}, 400); return
+            cache[dtype].update({
+                "data": docs,
+                "total": len(docs),
+                "pages_done": 1,
+                "fetching": False,
+                "error": None,
+            })
+            print(f"[BROWSER_INJECT] {dtype}: {len(docs)} docs injected")
+            self._json({'status': 'ok', 'type': dtype, 'count': len(docs)})
+
         else:
             self.send_response(404); self.end_headers()
       except Exception as e:
@@ -5382,9 +5514,18 @@ class Handler(BaseHTTPRequestHandler):
     # ── Helpers ───────────────────────────────────────────────────────────────
     def _status(self, dtype):
         c = cache[dtype]
+        # Count only docs within the active date range so the dashboard total is accurate
+        range_from = ACTIVE_RANGE.get('from_iso', '')
+        range_to   = ACTIVE_RANGE.get('to_iso', '')
+        if range_from and range_to:
+            in_range = sum(1 for d in c["data"]
+                          if d.get("date_iso") and range_from <= d["date_iso"] <= range_to)
+        else:
+            in_range = len(c["data"])
         return {"fetching": c["fetching"], "total": c["total"],
-                "fetched": len(c["data"]), "pages_done": c["pages_done"], "error": c["error"],
-                "fetch_started_at": c.get("fetch_started_at", 0)}
+                "fetched": in_range, "pages_done": c["pages_done"], "error": c["error"],
+                "fetch_started_at": c.get("fetch_started_at", 0),
+                "count": in_range}
 
     def _filter(self, docs, qs):
         df = qs.get('from',   [None])[0]
