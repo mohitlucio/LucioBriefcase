@@ -12,5 +12,7 @@ COPY . .
 
 ENV CLOUD=1
 ENV PYTHONUNBUFFERED=1
+ENV PORT=7860
+EXPOSE 7860
 
 CMD ["python", "backend/server.py"]
