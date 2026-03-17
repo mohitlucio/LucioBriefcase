@@ -1984,7 +1984,18 @@ def scrape_dtcp_ka(doc_type, from_date_iso=None, to_date_iso=None):
 
     try:
         url = "http://www.dtcp.gov.in/en/circulars"
-        html_text = fetch_simple(url)
+        try:
+            html_text = fetch_simple(url, timeout=45, retries=3)
+        except Exception:
+            # Fallback: curl handles geo-restricted / slow govt sites better
+            r = subprocess.run(
+                ['curl', '-s', '--compressed', '-L', '--max-time', '60',
+                 '--connect-timeout', '30',
+                 '-H', f'User-Agent: {SEBI_UA}', url],
+                capture_output=True, timeout=75)
+            if r.returncode != 0 or not r.stdout:
+                raise
+            html_text = r.stdout.decode('utf-8', 'ignore')
         tables = re.findall(r'<table[^>]*>(.*?)</table>', html_text, re.S)
         if not tables:
             raise ValueError("No tables found")
@@ -2043,6 +2054,23 @@ def scrape_dtcp_ka(doc_type, from_date_iso=None, to_date_iso=None):
 #  MAHARASHTRA RERA — CIRCULARS
 # ════════════════════════════════════════════════════════════════════════════════
 
+def _fetch_with_curl_fallback(url, timeout=45, retries=3):
+    """fetch_simple with automatic curl fallback for govt sites that block cloud IPs."""
+    try:
+        return fetch_simple(url, timeout=timeout, retries=retries)
+    except Exception:
+        r = subprocess.run(
+            ['curl', '-s', '--compressed', '-L', '--max-time', str(timeout + 15),
+             '--connect-timeout', '30',
+             '-H', f'User-Agent: {SEBI_UA}',
+             '-H', 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+             url],
+            capture_output=True, timeout=timeout + 30)
+        if r.returncode != 0 or not r.stdout:
+            raise
+        return r.stdout.decode('utf-8', 'ignore')
+
+
 def scrape_maha_rera(doc_type, from_date_iso=None, to_date_iso=None):
     """Scrape MahaRERA circulars — paginated (page=0 .. page=N).
     6 cols: [sno, circular_no, file_no, date(DD/MM/YYYY), description, pdf_size]."""
@@ -2055,7 +2083,7 @@ def scrape_maha_rera(doc_type, from_date_iso=None, to_date_iso=None):
 
         for page_num in range(200):  # safety cap
             url = f"{base_url}?page={page_num}" if page_num > 0 else base_url
-            html_text = fetch_simple(url)
+            html_text = _fetch_with_curl_fallback(url, timeout=45)
 
             tables = re.findall(r'<table[^>]*>(.*?)</table>', html_text, re.S)
             if not tables:
@@ -2150,14 +2178,17 @@ def _fetch_ka_html():
             return _ka_html_cache["html"]
     url = "https://rera.karnataka.gov.in/tribunalDisposedList"
     try:
-        html = fetch_simple(url, retries=4, timeout=90)
+        html = fetch_simple(url, retries=4, timeout=120)
     except Exception:
         # Fallback: curl has different TLS fingerprint and may succeed
         r = subprocess.run(
-            ['curl', '-s', '--compressed', '-L', '--max-time', '120',
-             '--connect-timeout', '30',
-             '-H', f'User-Agent: {SEBI_UA}', url],
-            capture_output=True, timeout=140)
+            ['curl', '-s', '--compressed', '-L', '--max-time', '180',
+             '--connect-timeout', '60',
+             '-H', f'User-Agent: {SEBI_UA}',
+             '-H', 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+             '-H', 'Accept-Language: en-US,en;q=0.5',
+             url],
+            capture_output=True, timeout=200)
         if r.returncode != 0 or not r.stdout:
             raise
         html = r.stdout.decode('utf-8', 'ignore')
