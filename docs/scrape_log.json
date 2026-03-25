@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-03-25 05:18:09 UTC",
-  "finished_at": "2026-03-25 05:30:02 UTC",
-  "duration_seconds": 712.4,
+  "started_at": "2026-03-25 08:06:56 UTC",
+  "finished_at": "2026-03-25 08:16:33 UTC",
+  "duration_seconds": 577.2,
   "date_range": {
     "from": "2026-03-01",
     "to": "2026-03-31"
@@ -11,9 +11,9 @@
   "sources_ok": 42,
   "sources_error": 4,
   "sources_empty": 47,
-  "total_documents": 402,
-  "docs_with_pdf": 356,
-  "docs_without_pdf": 46,
+  "total_documents": 405,
+  "docs_with_pdf": 358,
+  "docs_without_pdf": 47,
   "source_details": [
     {
       "key": "RHP",
@@ -98,10 +98,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 6,
+      "doc_count": 7,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 6,
+      "docs_without_pdf": 7,
       "documents": [
+        {
+          "title": "Trenzet Infra Limited - DRHP",
+          "date": "25 Mar 2026",
+          "date_iso": "2026-03-25",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/mar-2026/trenzet-infra-limited-drhp_100553.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100553"
+        },
         {
           "title": "Sterlite Electric Limited - Addendum to DRHP",
           "date": "24 Mar 2026",
@@ -1485,7 +1494,7 @@
           "date": "16 Mar 2026",
           "date_iso": "2026-03-16",
           "page_url": "https://rera.telangana.gov.in/amavlnjoiu7532845972-TG-RERA-74698ijgsdfjgbi349529",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_240326171317620.pdf",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250326115116446.pdf",
           "has_pdf": true,
           "id": "tgrera_circ_0"
         }
@@ -1617,67 +1626,22 @@
           "id": "hr_reat_H-REAT-46-2025_5"
         },
         {
+          "title": "H-REAT-465-2023 — EXPERION DEVELOPERS PRIVATE LIMITED vs PREM PRADEEP",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mjcz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-465-2023_6"
+        },
+        {
           "title": "H-REAT-327-2023 — TG Buildwell Private Limited and Others vs MANOJ KUMAR VERMA",
           "date": "12 Mar 2026",
           "date_iso": "2026-03-12",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4NDA3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-327-2023_6"
-        },
-        {
-          "title": "H-REAT-328-2023 — TG Buildwell Private Limited vs SURENDER KUMAR GARG",
-          "date": "12 Mar 2026",
-          "date_iso": "2026-03-12",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4NDA4",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-328-2023_7"
-        },
-        {
-          "title": "H-REAT-326-2023 — TG Buildwell Private Limited and Others vs RAMESH PAPER MART",
-          "date": "12 Mar 2026",
-          "date_iso": "2026-03-12",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4NDA2",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-326-2023_8"
-        },
-        {
-          "title": "H-REAT-541-2023 — Sunil Kumar Nigam vs MS EXPERION DEVELOPERS PVT LTD",
-          "date": "12 Mar 2026",
-          "date_iso": "2026-03-12",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mjc3",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-541-2023_9"
-        },
-        {
-          "title": "H-REAT-456-2023 — Prem Pradeep and Another vs MS EXPERION DEVELOPERS PVT LTD",
-          "date": "12 Mar 2026",
-          "date_iso": "2026-03-12",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mjc0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-456-2023_10"
-        },
-        {
-          "title": "H-REAT-519-2023 — EXPERION DEVELOPERS PRIVATE LIMITED vs SUNIL KUMAR NIGAM",
-          "date": "12 Mar 2026",
-          "date_iso": "2026-03-12",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mjc2",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-519-2023_11"
-        },
-        {
-          "title": "H-REAT-542-2023 — Sunil Kumar Nigam vs MS EXPERION DEVELOPERS PVT LTD",
-          "date": "12 Mar 2026",
-          "date_iso": "2026-03-12",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mjc4",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-542-2023_12"
+          "id": "hr_reat_H-REAT-327-2023_7"
         },
         {
           "title": "H-REAT-518-2023 — EXPERION DEVELOPERS PRIVATE LIMITED vs SUNIL KUMAR NIGAM",
@@ -1686,43 +1650,97 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mjc1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-518-2023_13"
+          "id": "hr_reat_H-REAT-518-2023_8"
         },
         {
-          "title": "H-REAT-465-2023 — EXPERION DEVELOPERS PRIVATE LIMITED vs PREM PRADEEP",
+          "title": "H-REAT-542-2023 — Sunil Kumar Nigam vs MS EXPERION DEVELOPERS PVT LTD",
           "date": "12 Mar 2026",
           "date_iso": "2026-03-12",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mjcz",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mjc4",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-465-2023_14"
+          "id": "hr_reat_H-REAT-542-2023_9"
         },
         {
-          "title": "H-REAT-410-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs HANUMAN PRASAD",
+          "title": "H-REAT-328-2023 — TG Buildwell Private Limited vs SURENDER KUMAR GARG",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4NDA4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-328-2023_10"
+        },
+        {
+          "title": "H-REAT-326-2023 — TG Buildwell Private Limited and Others vs RAMESH PAPER MART",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4NDA2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-326-2023_11"
+        },
+        {
+          "title": "H-REAT-541-2023 — Sunil Kumar Nigam vs MS EXPERION DEVELOPERS PVT LTD",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mjc3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-541-2023_12"
+        },
+        {
+          "title": "H-REAT-519-2023 — EXPERION DEVELOPERS PRIVATE LIMITED vs SUNIL KUMAR NIGAM",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mjc2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-519-2023_13"
+        },
+        {
+          "title": "H-REAT-456-2023 — Prem Pradeep and Another vs MS EXPERION DEVELOPERS PVT LTD",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mjc0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-456-2023_14"
+        },
+        {
+          "title": "H-REAT-399-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs HARIPAL MALIK",
           "date": "11 Mar 2026",
           "date_iso": "2026-03-11",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzY1",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzU1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-410-2025_15"
+          "id": "hr_reat_H-REAT-399-2025_15"
         },
         {
-          "title": "H-REAT-438-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs VISHRUTA MATTU",
+          "title": "H-REAT-401-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs SUNNY NAGPAL",
           "date": "11 Mar 2026",
           "date_iso": "2026-03-11",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzg1",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzU3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-438-2025_16"
+          "id": "hr_reat_H-REAT-401-2025_16"
         },
         {
-          "title": "H-REAT-442-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs RAJIV GUPTA",
+          "title": "H-REAT-402-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs AMIT KUMAR ANAND",
           "date": "11 Mar 2026",
           "date_iso": "2026-03-11",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzg4",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzU4",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-442-2025_17"
+          "id": "hr_reat_H-REAT-402-2025_17"
+        },
+        {
+          "title": "H-REAT-422-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs ANIL KUMAR YADAV",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzgz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-422-2025_18"
         },
         {
           "title": "H-REAT-437-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs ASHISH YADAV",
@@ -1731,34 +1749,25 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzg0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-437-2025_18"
+          "id": "hr_reat_H-REAT-437-2025_19"
         },
         {
-          "title": "H-REAT-376-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs AVNEET DHAKA",
+          "title": "H-REAT-438-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs VISHRUTA MATTU",
           "date": "11 Mar 2026",
           "date_iso": "2026-03-11",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mjc5",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzg1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-376-2025_19"
+          "id": "hr_reat_H-REAT-438-2025_20"
         },
         {
-          "title": "H-REAT-420-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs ROOPAK GUPTA",
+          "title": "H-REAT-406-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs SONIA PRASAD",
           "date": "11 Mar 2026",
           "date_iso": "2026-03-11",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzgw",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzYx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-420-2025_20"
-        },
-        {
-          "title": "H-REAT-419-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs SUNIL GUPTA",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzc4",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-419-2025_21"
+          "id": "hr_reat_H-REAT-406-2025_21"
         },
         {
           "title": "H-REAT-412-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs BHUMESH",
@@ -1770,112 +1779,22 @@
           "id": "hr_reat_H-REAT-412-2025_22"
         },
         {
-          "title": "H-REAT-418-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs CHANDRA KANTA SHARMA",
+          "title": "H-REAT-393-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs ANAMIKA SEN",
           "date": "11 Mar 2026",
           "date_iso": "2026-03-11",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzc3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzUw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-418-2025_23"
+          "id": "hr_reat_H-REAT-393-2025_23"
         },
         {
-          "title": "H-REAT-414-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs DEVID KUMAR SHARMA",
+          "title": "H-REAT-439-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs DILVINDER SINGH",
           "date": "11 Mar 2026",
           "date_iso": "2026-03-11",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzcw",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzg2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-414-2025_24"
-        },
-        {
-          "title": "H-REAT-406-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs SONIA PRASAD",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzYx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-406-2025_25"
-        },
-        {
-          "title": "H-REAT-422-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs ANIL KUMAR YADAV",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzgz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-422-2025_26"
-        },
-        {
-          "title": "H-REAT-415-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs JAI PRAKASH SHARMA",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzcy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-415-2025_27"
-        },
-        {
-          "title": "H-REAT-411-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs NISHANT KUMAR SINGH",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzY2",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-411-2025_28"
-        },
-        {
-          "title": "H-REAT-402-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs AMIT KUMAR ANAND",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzU4",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-402-2025_29"
-        },
-        {
-          "title": "H-REAT-401-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs SUNNY NAGPAL",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzU3",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-401-2025_30"
-        },
-        {
-          "title": "H-REAT-421-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs DEEPAK SHARMA",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzgy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-421-2025_31"
-        },
-        {
-          "title": "H-REAT-398-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs DEEPALI ANEJA",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzU0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-398-2025_32"
-        },
-        {
-          "title": "H-REAT-441-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs SARVENDRA VIKRAM SINGH",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzg3",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-441-2025_33"
-        },
-        {
-          "title": "H-REAT-417-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs RASHI KAPOOR",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzc1",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-417-2025_34"
+          "id": "hr_reat_H-REAT-439-2025_24"
         },
         {
           "title": "H-REAT-407-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs SWADESH KUMAR DWIVEDI",
@@ -1884,16 +1803,52 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzYy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-407-2025_35"
+          "id": "hr_reat_H-REAT-407-2025_25"
         },
         {
-          "title": "H-REAT-404-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs APOORVA VERMA",
+          "title": "H-REAT-416-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs RAKESH ARORA",
           "date": "11 Mar 2026",
           "date_iso": "2026-03-11",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzYw",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzc0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-404-2025_36"
+          "id": "hr_reat_H-REAT-416-2025_26"
+        },
+        {
+          "title": "H-REAT-414-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs DEVID KUMAR SHARMA",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzcw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-414-2025_27"
+        },
+        {
+          "title": "H-REAT-392-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs VERSHA SHRIVASTAVA",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzQ5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-392-2025_28"
+        },
+        {
+          "title": "H-REAT-403-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs ASHISH AGARWAL",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzU5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-403-2025_29"
+        },
+        {
+          "title": "H-REAT-398-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs DEEPALI ANEJA",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzU0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-398-2025_30"
         },
         {
           "title": "H-REAT-400-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs SHIVANI SHARMA",
@@ -1902,7 +1857,61 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzU2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-400-2025_37"
+          "id": "hr_reat_H-REAT-400-2025_31"
+        },
+        {
+          "title": "H-REAT-419-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs SUNIL GUPTA",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzc4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-419-2025_32"
+        },
+        {
+          "title": "H-REAT-418-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs CHANDRA KANTA SHARMA",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzc3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-418-2025_33"
+        },
+        {
+          "title": "H-REAT-413-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs DEEPAK MATHUR",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzY4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-413-2025_34"
+        },
+        {
+          "title": "H-REAT-420-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs ROOPAK GUPTA",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzgw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-420-2025_35"
+        },
+        {
+          "title": "H-REAT-1321-2025 — Neeru Singh and Prakash Chand Jat vs BPTP LIMITED",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3ODgz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1321-2025_36"
+        },
+        {
+          "title": "H-REAT-395-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs PRAKASH KUMAR",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzUy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-395-2025_37"
         },
         {
           "title": "H-REAT-328-2020 — Parsvnath Developers Ltd vs SMT SUNITA JAIN",
@@ -1914,58 +1923,31 @@
           "id": "hr_reat_H-REAT-328-2020_38"
         },
         {
-          "title": "H-REAT-1321-2025 — Neeru Singh and Prakash Chand Jat vs BPTP LIMITED",
+          "title": "H-REAT-409-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs MOHINDER KUMAR",
           "date": "11 Mar 2026",
           "date_iso": "2026-03-11",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3ODgz",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzY0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1321-2025_39"
+          "id": "hr_reat_H-REAT-409-2025_39"
         },
         {
-          "title": "H-REAT-393-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs ANAMIKA SEN",
+          "title": "H-REAT-442-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs RAJIV GUPTA",
           "date": "11 Mar 2026",
           "date_iso": "2026-03-11",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzUw",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzg4",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-393-2025_40"
+          "id": "hr_reat_H-REAT-442-2025_40"
         },
         {
-          "title": "H-REAT-395-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs PRAKASH KUMAR",
+          "title": "H-REAT-404-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs APOORVA VERMA",
           "date": "11 Mar 2026",
           "date_iso": "2026-03-11",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzUy",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzYw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-395-2025_41"
-        },
-        {
-          "title": "H-REAT-394-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs RAVENDRA SINGH",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzUx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-394-2025_42"
-        },
-        {
-          "title": "H-REAT-403-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs ASHISH AGARWAL",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzU5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-403-2025_43"
-        },
-        {
-          "title": "H-REAT-392-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs VERSHA SHRIVASTAVA",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzQ5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-392-2025_44"
+          "id": "hr_reat_H-REAT-404-2025_41"
         },
         {
           "title": "H-REAT-1241-2025 — Vardhman Jain vs MTHREEM INDIA PRIVATE LIMITED",
@@ -1974,52 +1956,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3ODgw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1241-2025_45"
-        },
-        {
-          "title": "H-REAT-399-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs HARIPAL MALIK",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzU1",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-399-2025_46"
-        },
-        {
-          "title": "H-REAT-439-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs DILVINDER SINGH",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzg2",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-439-2025_47"
-        },
-        {
-          "title": "H-REAT-413-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs DEEPAK MATHUR",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzY4",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-413-2025_48"
-        },
-        {
-          "title": "H-REAT-416-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs RAKESH ARORA",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzc0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-416-2025_49"
-        },
-        {
-          "title": "H-REAT-408-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs EKTA KUMAR",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzYz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-408-2025_50"
+          "id": "hr_reat_H-REAT-1241-2025_42"
         },
         {
           "title": "H-REAT-396-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs SONAM TASHI",
@@ -2028,25 +1965,88 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzUz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-396-2025_51"
+          "id": "hr_reat_H-REAT-396-2025_43"
         },
         {
-          "title": "H-REAT-409-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs MOHINDER KUMAR",
+          "title": "H-REAT-421-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs DEEPAK SHARMA",
           "date": "11 Mar 2026",
           "date_iso": "2026-03-11",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzY0",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzgy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-409-2025_52"
+          "id": "hr_reat_H-REAT-421-2025_44"
         },
         {
-          "title": "H-REAT-66-2025 — ALPHA CORP DEVELOPMENT PRIVATE LIMITED vs ASHISH KUMAR NARANG",
-          "date": "10 Mar 2026",
-          "date_iso": "2026-03-10",
+          "title": "H-REAT-376-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs AVNEET DHAKA",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MjY3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mjc5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-66-2025_53"
+          "id": "hr_reat_H-REAT-376-2025_45"
+        },
+        {
+          "title": "H-REAT-411-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs NISHANT KUMAR SINGH",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzY2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-411-2025_46"
+        },
+        {
+          "title": "H-REAT-408-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs EKTA KUMAR",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzYz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-408-2025_47"
+        },
+        {
+          "title": "H-REAT-410-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs HANUMAN PRASAD",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzY1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-410-2025_48"
+        },
+        {
+          "title": "H-REAT-441-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs SARVENDRA VIKRAM SINGH",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzg3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-441-2025_49"
+        },
+        {
+          "title": "H-REAT-417-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs RASHI KAPOOR",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzc1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-417-2025_50"
+        },
+        {
+          "title": "H-REAT-394-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs RAVENDRA SINGH",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MzUx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-394-2025_51"
+        },
+        {
+          "title": "H-REAT-415-2025 — M/S SUNRAYS HEIGHTS PRIVATE LIMITED vs JAI PRAKASH SHARMA",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4Mzcy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-415-2025_52"
         },
         {
           "title": "H-REAT-1342-2025 — SPLENDOR BUILDWELL PVT LTD vs SUSHILA TIWARI",
@@ -2055,16 +2055,25 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3Mjk3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1342-2025_54"
+          "id": "hr_reat_H-REAT-1342-2025_53"
         },
         {
-          "title": "H-REAT-23-2025 — ALPHA CORRP DEVELOPMENT PRIVATE LIMITED vs NEELKAMAL",
+          "title": "H-REAT-1341-2025 — SPLENDOR BUILDWELL PVT LTD vs DANISH AHMED",
           "date": "10 Mar 2026",
           "date_iso": "2026-03-10",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MjY2",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3Mjk2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-23-2025_55"
+          "id": "hr_reat_H-REAT-1341-2025_54"
+        },
+        {
+          "title": "H-REAT-68-2025 — ALPHA CORRP DEVELOPMENT PRIVATE LIMITED vs AVDESH JINDAL",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MjY5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-68-2025_55"
         },
         {
           "title": "H-REAT-67-2025 — ALPHA CORRP DEVELOPMENT PRIVATE LIMITED vs SHAM SUNDER",
@@ -2076,22 +2085,22 @@
           "id": "hr_reat_H-REAT-67-2025_56"
         },
         {
-          "title": "H-REAT-1341-2025 — SPLENDOR BUILDWELL PVT LTD vs DANISH AHMED",
+          "title": "H-REAT-66-2025 — ALPHA CORP DEVELOPMENT PRIVATE LIMITED vs ASHISH KUMAR NARANG",
           "date": "10 Mar 2026",
           "date_iso": "2026-03-10",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3Mjk2",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MjY3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1341-2025_57"
+          "id": "hr_reat_H-REAT-66-2025_57"
         },
         {
-          "title": "H-REAT-68-2025 — ALPHA CORRP DEVELOPMENT PRIVATE LIMITED vs AVDESH JINDAL",
+          "title": "H-REAT-23-2025 — ALPHA CORRP DEVELOPMENT PRIVATE LIMITED vs NEELKAMAL",
           "date": "10 Mar 2026",
           "date_iso": "2026-03-10",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MjY5",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg4MjY2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-68-2025_58"
+          "id": "hr_reat_H-REAT-23-2025_58"
         },
         {
           "title": "H-REAT-1072-2025 — Neena Goel and Vikas Goel vs PAREENA INFRASTRUCTURES PVT LTD",
@@ -2139,22 +2148,13 @@
           "id": "hr_reat_H-REAT-714-2024_63"
         },
         {
-          "title": "H-REAT-683-2023 — Nitish Singhal vs MS DSS BUILDTECH PVT LTD",
+          "title": "H-REAT-718-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA PVT LTD",
           "date": "09 Mar 2026",
           "date_iso": "2026-03-09",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzI4",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzIx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-683-2023_64"
-        },
-        {
-          "title": "H-REAT-717-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA PVT LTD",
-          "date": "09 Mar 2026",
-          "date_iso": "2026-03-09",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzIw",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-717-2024_65"
+          "id": "hr_reat_H-REAT-718-2024_64"
         },
         {
           "title": "H-REAT-715-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA PVT LTD",
@@ -2163,16 +2163,25 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzE4",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-715-2024_66"
+          "id": "hr_reat_H-REAT-715-2024_65"
         },
         {
-          "title": "H-REAT-718-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA PVT LTD",
+          "title": "H-REAT-717-2024 — DEEPAK NARULA AND SUJATA NARULA vs VATIKA PVT LTD",
           "date": "09 Mar 2026",
           "date_iso": "2026-03-09",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzIx",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzIw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-718-2024_67"
+          "id": "hr_reat_H-REAT-717-2024_66"
+        },
+        {
+          "title": "H-REAT-683-2023 — Nitish Singhal vs MS DSS BUILDTECH PVT LTD",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg3MzI4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-683-2023_67"
         },
         {
           "title": "H-REAT-381-2022 — ASHOK MANCHANDA vs MS RAMPRASTHA PROMOTERS AND DEVELOPERS PVT LTD",
@@ -2193,13 +2202,13 @@
           "id": "hr_reat_H-REAT-398-2023_69"
         },
         {
-          "title": "H-REAT-787-2022 — Vinayak Kumar Sinha and Kaveri Sinha vs VATIKA LIMITED",
+          "title": "H-REAT-786-2022 — Alok Jha and Neeta Jha vs VATIKA LIMITED",
           "date": "05 Mar 2026",
           "date_iso": "2026-03-05",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NTE3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NTE2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-787-2022_70"
+          "id": "hr_reat_H-REAT-786-2022_70"
         },
         {
           "title": "H-REAT-785-2022 — Mandira Monga vs VATIKA LIMITED",
@@ -2211,13 +2220,13 @@
           "id": "hr_reat_H-REAT-785-2022_71"
         },
         {
-          "title": "H-REAT-606-2022 — Samaresh Sinha and Sangeeta Sinha vs VATIKA LIMITED",
+          "title": "H-REAT-787-2022 — Vinayak Kumar Sinha and Kaveri Sinha vs VATIKA LIMITED",
           "date": "05 Mar 2026",
           "date_iso": "2026-03-05",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NTEz",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NTE3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-606-2022_72"
+          "id": "hr_reat_H-REAT-787-2022_72"
         },
         {
           "title": "H-REAT-579-2022 — Shivek Ranjan and Sweta Suman vs VATIKA LIMITED",
@@ -2229,13 +2238,13 @@
           "id": "hr_reat_H-REAT-579-2022_73"
         },
         {
-          "title": "H-REAT-786-2022 — Alok Jha and Neeta Jha vs VATIKA LIMITED",
+          "title": "H-REAT-606-2022 — Samaresh Sinha and Sangeeta Sinha vs VATIKA LIMITED",
           "date": "05 Mar 2026",
           "date_iso": "2026-03-05",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NTE2",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjg2NTEz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-786-2022_74"
+          "id": "hr_reat_H-REAT-606-2022_74"
         }
       ]
     },
@@ -2388,8 +2397,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 29,
-      "docs_with_pdf": 29,
+      "doc_count": 31,
+      "docs_with_pdf": 31,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -2402,15 +2411,6 @@
           "id": "ibbi_adm_eb704610efe15c9d7005bb4cb2a85284_pdf"
         },
         {
-          "title": "In the matter of PRASANNABIOMOLECULES PRIVATE LIMITED [CP(IB)No.130/7/HDB/2025] (537.68 KB)",
-          "date": "18 Mar 2026",
-          "date_iso": "2026-03-18",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/d0d329bc8f80544b669f9e0af3c9eec1.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_d0d329bc8f80544b669f9e0af3c9eec1_pdf"
-        },
-        {
           "title": "In the matter of FORTUNE ASSETS PRIVATE LIMITED [CP (IB) 87(AHM)2026 ] (523.52 KB)",
           "date": "18 Mar 2026",
           "date_iso": "2026-03-18",
@@ -2420,13 +2420,22 @@
           "id": "ibbi_adm_629e6403ac95012d7b5dcb30edfae82e_pdf"
         },
         {
-          "title": "In the matter of KASTURI FARM PRIVATE LIMITED [(IB)/1099(MB)2025] (708.76 KB)",
+          "title": "In the matter of PRASANNABIOMOLECULES PRIVATE LIMITED [CP(IB)No.130/7/HDB/2025] (537.68 KB)",
+          "date": "18 Mar 2026",
+          "date_iso": "2026-03-18",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/d0d329bc8f80544b669f9e0af3c9eec1.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_d0d329bc8f80544b669f9e0af3c9eec1_pdf"
+        },
+        {
+          "title": "In the matter of SUPHA PHARMACHEM LIMITED [C.P. (IB)/579/MB/2025] (1.12 MB)",
           "date": "17 Mar 2026",
           "date_iso": "2026-03-17",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-03-20-165007-h3jbs-83d170066359253b6ac2aeac9d44c8de.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-03-19-123518-6t53x-e0ac666c44b08d440fd6f5c5db893911.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_2026_03_20_165007_h3jbs_83d170066359253b"
+          "id": "ibbi_adm_2026_03_19_123518_6t53x_e0ac666c44b08d44"
         },
         {
           "title": "In the matter of SUMERU BUILDCON PRIVATE LIMITED [C.P. (IB)/685(MB)2025] (439.65 KB)",
@@ -2438,13 +2447,13 @@
           "id": "ibbi_adm_2026_03_21_114816_kd2fw_d7b320923ba0910f"
         },
         {
-          "title": "In the matter of SUPHA PHARMACHEM LIMITED [C.P. (IB)/579/MB/2025] (1.12 MB)",
+          "title": "In the matter of KASTURI FARM PRIVATE LIMITED [(IB)/1099(MB)2025] (708.76 KB)",
           "date": "17 Mar 2026",
           "date_iso": "2026-03-17",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-03-19-123518-6t53x-e0ac666c44b08d440fd6f5c5db893911.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-03-20-165007-h3jbs-83d170066359253b6ac2aeac9d44c8de.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_2026_03_19_123518_6t53x_e0ac666c44b08d44"
+          "id": "ibbi_adm_2026_03_20_165007_h3jbs_83d170066359253b"
         },
         {
           "title": "In the matter of MEDICLONE BIOTECH PRIVATE LIMITED [CP(IB)/93/CHE/2024] (933.92 KB)",
@@ -2463,15 +2472,6 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/2026-03-18-112256-0kbc3-6d6629fe34ad97a91993da960f1dd5dd.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_2026_03_18_112256_0kbc3_6d6629fe34ad97a9"
-        },
-        {
-          "title": "In the matter of SHIVA DYESTUFF PRIVATE LIMITED [C.P. (IB)/351/AHM/2025] (16.61 MB)",
-          "date": "13 Mar 2026",
-          "date_iso": "2026-03-13",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/c0c445ce3df03fc95cafbffac08047a0.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_c0c445ce3df03fc95cafbffac08047a0_pdf"
         },
         {
           "title": "In the matter of EYEMYEYE PRIVATE LIMITED [67 OF 2025] (2.27 MB)",
@@ -2501,6 +2501,15 @@
           "id": "ibbi_adm_408bd54de03371cd93fcd4ec60aaa29d_pdf"
         },
         {
+          "title": "In the matter of SHIVA DYESTUFF PRIVATE LIMITED [C.P. (IB)/351/AHM/2025] (16.61 MB)",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/c0c445ce3df03fc95cafbffac08047a0.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_c0c445ce3df03fc95cafbffac08047a0_pdf"
+        },
+        {
           "title": "In the matter of OMEGA PREMISES PRIVATE LIMITED [C.P. (IB)/826/MB/2025] (922.94 KB)",
           "date": "12 Mar 2026",
           "date_iso": "2026-03-12",
@@ -2528,13 +2537,13 @@
           "id": "ibbi_adm_364888f58b86eb7e4192aa444ccc82dd_pdf"
         },
         {
-          "title": "In the matter of SSAB ENERGY & MINERALS LIMITED [23/CB/2025] (5.55 MB)",
+          "title": "In the matter of POSITIVE HOUSINGS PRIVATE LIMITED [C.P. (IB)/74/CHE/202] (746.44 KB)",
           "date": "10 Mar 2026",
           "date_iso": "2026-03-10",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/6711e9a2f161ef554073caabfac7844d.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-03-16-125144-86hd7-e1c62373533de941694dfb279d89c818.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_6711e9a2f161ef554073caabfac7844d_pdf"
+          "id": "ibbi_adm_2026_03_16_125144_86hd7_e1c62373533de941"
         },
         {
           "title": "In the matter of JCR FASHION RETAIL PRIVATE LIMITED [RCP (IB) 1 (AHM) 2026 [CP(IB)/249/(AHM) 2025)]] (501.07 KB)",
@@ -2546,13 +2555,22 @@
           "id": "ibbi_adm_af0a73a0d13117ff57851b45218d7bd8_pdf"
         },
         {
-          "title": "In the matter of POSITIVE HOUSINGS PRIVATE LIMITED [C.P. (IB)/74/CHE/202] (746.44 KB)",
+          "title": "In the matter of KRISHNAGANGA SPINNING MILLS PRIVATE LIMITED [C.P. (IB)/32/AM/2025] (16 MB)",
           "date": "10 Mar 2026",
           "date_iso": "2026-03-10",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-03-16-125144-86hd7-e1c62373533de941694dfb279d89c818.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/1f9049aa78ddca1c36c48b7851551f97.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_2026_03_16_125144_86hd7_e1c62373533de941"
+          "id": "ibbi_adm_1f9049aa78ddca1c36c48b7851551f97_pdf"
+        },
+        {
+          "title": "In the matter of SSAB ENERGY & MINERALS LIMITED [23/CB/2025] (5.55 MB)",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/6711e9a2f161ef554073caabfac7844d.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_6711e9a2f161ef554073caabfac7844d_pdf"
         },
         {
           "title": "In the matter of KRISFO INFOTECH SOLUTIONS PRIVATE LIMITED [C.P. (IB)/51/BEN/2025] (331.05 KB)",
@@ -2564,22 +2582,22 @@
           "id": "ibbi_adm_33ffc80c6906d29a0ab61d21f65fd246_pdf"
         },
         {
-          "title": "In the matter of KRISHNAGANGA SPINNING MILLS PRIVATE LIMITED [C.P. (IB)/32/AM/2025] (16 MB)",
+          "title": "In the matter of KAY BEE COTGIN PRIVATE LIMITED [CP(IB) No.320/Chd/Pb/2024] (245.26 KB)",
           "date": "10 Mar 2026",
           "date_iso": "2026-03-10",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/1f9049aa78ddca1c36c48b7851551f97.pdf",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/3a76576b264cc60d09b0cf5f8d35391d.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_1f9049aa78ddca1c36c48b7851551f97_pdf"
+          "id": "ibbi_adm_3a76576b264cc60d09b0cf5f8d35391d_pdf"
         },
         {
-          "title": "In the matter of ECSTASY REALTY PRIVATE LIMITED [C.P.(IB)922/MB/2022 ] (482.2 KB)",
-          "date": "09 Mar 2026",
-          "date_iso": "2026-03-09",
+          "title": "In the matter of NICO ALLEN INFRASTRUCTURE PRIVATE LIMITED [C.P.(IB)/136(CHE)2025] (721.58 KB)",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/9f0d71b9cc0838aad560e41f08239b8f.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2e943cd3189933b182d259d234b85dcc.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_9f0d71b9cc0838aad560e41f08239b8f_pdf"
+          "id": "ibbi_adm_2e943cd3189933b182d259d234b85dcc_pdf"
         },
         {
           "title": "In the matter of SVARYU ENERGY LIMITED [CP/IB/88/CHE/2024] (489.63 KB)",
@@ -2591,13 +2609,13 @@
           "id": "ibbi_adm_44a5505f117c5725ed6f790ed155684b_pdf"
         },
         {
-          "title": "In the matter of SANYA HOSPITALITY PRIVATE LIMITED [(IB)-30/ND/2024] (2.93 MB)",
+          "title": "In the matter of ANMOL INNOVATIVE ELECTRICAL PRIVATE LIMITED [CP(IB) 459/MB/2024] (2 MB)",
           "date": "09 Mar 2026",
           "date_iso": "2026-03-09",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-03-13-125204-co4du-f7b52e968e72bae2020a4030704a920d.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/761f9094e111118eabb0c7efda418cc0.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_2026_03_13_125204_co4du_f7b52e968e72bae2"
+          "id": "ibbi_adm_761f9094e111118eabb0c7efda418cc0_pdf"
         },
         {
           "title": "In the matter of VOI JEANS RETAIL INDIA PRIVATE LIMITED [C.P (IB) No.204/BB/2025] (379.5 KB)",
@@ -2609,13 +2627,22 @@
           "id": "ibbi_adm_fae81282559023428e4bdc3feac485ea_pdf"
         },
         {
-          "title": "In the matter of ANMOL INNOVATIVE ELECTRICAL PRIVATE LIMITED [CP(IB) 459/MB/2024] (2 MB)",
+          "title": "In the matter of ECSTASY REALTY PRIVATE LIMITED [C.P.(IB)922/MB/2022 ] (482.2 KB)",
           "date": "09 Mar 2026",
           "date_iso": "2026-03-09",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/761f9094e111118eabb0c7efda418cc0.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/9f0d71b9cc0838aad560e41f08239b8f.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_761f9094e111118eabb0c7efda418cc0_pdf"
+          "id": "ibbi_adm_9f0d71b9cc0838aad560e41f08239b8f_pdf"
+        },
+        {
+          "title": "In the matter of SANYA HOSPITALITY PRIVATE LIMITED [(IB)-30/ND/2024] (2.93 MB)",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-03-13-125204-co4du-f7b52e968e72bae2020a4030704a920d.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_03_13_125204_co4du_f7b52e968e72bae2"
         },
         {
           "title": "In the matter of CREATIVE QUARTZ LLP [RCP (IB) / 1 (MP)/ 2025 IN CP (IB)/ 63 (MP)/ 2020] (468.29 KB)",
@@ -3032,6 +3059,15 @@
           "id": "epo_boa_t241220du1"
         },
         {
+          "title": "T 2633/22",
+          "date": "24 Mar 2026",
+          "date_iso": "2026-03-24",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t222633fu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t222633fu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t222633fu1"
+        },
+        {
           "title": "T 1342/24 — ROBOT SYSTEM",
           "date": "24 Mar 2026",
           "date_iso": "2026-03-24",
@@ -3059,15 +3095,6 @@
           "id": "epo_boa_t241484eu1"
         },
         {
-          "title": "T 2633/22",
-          "date": "24 Mar 2026",
-          "date_iso": "2026-03-24",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t222633fu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t222633fu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t222633fu1"
-        },
-        {
           "title": "T 0638/24 — METHOD FOR REDUCING THE 3-MCPD/GLYCIDYL ESTER CONTENT IN OILS",
           "date": "24 Mar 2026",
           "date_iso": "2026-03-24",
@@ -3075,6 +3102,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240638eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t240638eu1"
+        },
+        {
+          "title": "T 0433/24 — STABILIZED MODIFIED RELEASE VITAMIN D FORMULATION AND METHOD OF ADMINISTRING SAME",
+          "date": "23 Mar 2026",
+          "date_iso": "2026-03-23",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240433eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240433eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240433eu1"
         },
         {
           "title": "T 0664/24 — Compositions and methods for synthesizing 5'-capped RNAs",
@@ -3093,15 +3129,6 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240586eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t240586eu1"
-        },
-        {
-          "title": "T 0433/24 — STABILIZED MODIFIED RELEASE VITAMIN D FORMULATION AND METHOD OF ADMINISTRING SAME",
-          "date": "23 Mar 2026",
-          "date_iso": "2026-03-23",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240433eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240433eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240433eu1"
         },
         {
           "title": "T 1436/24 — DEVICE AND METHOD FOR PLACEMENT OF LIGHT SOURCE ON A HEAT SINK",
@@ -3140,6 +3167,24 @@
           "id": "epo_boa_t240432eu1"
         },
         {
+          "title": "T 0951/24 — Method for colouring hair",
+          "date": "19 Mar 2026",
+          "date_iso": "2026-03-19",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240951eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240951eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240951eu1"
+        },
+        {
+          "title": "T 1156/23 — VEHICLE WINDOW GLASS",
+          "date": "19 Mar 2026",
+          "date_iso": "2026-03-19",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231156eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231156eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t231156eu1"
+        },
+        {
           "title": "T 0434/24 — STABILIZED MODIFIED RELEASE VITAMIN D FORMULATION AND METHOD OF ADMINISTERING SAME",
           "date": "19 Mar 2026",
           "date_iso": "2026-03-19",
@@ -3158,22 +3203,31 @@
           "id": "epo_boa_t251398eu1"
         },
         {
-          "title": "T 0951/24 — Method for colouring hair",
-          "date": "19 Mar 2026",
-          "date_iso": "2026-03-19",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240951eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240951eu1.pdf",
+          "title": "T 0268/24 — DEVICES FOR ESTIMATING REGIONAL METABOLIC RATE OF ORGANS BASED ON HEAT GENERATION AND FOR ESTIMATING REGIONAL BLOOD FLOW(S) FOR THE VOLUME(S) OF TISSUE PERFUSED",
+          "date": "18 Mar 2026",
+          "date_iso": "2026-03-18",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240268eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240268eu1.pdf",
           "has_pdf": true,
-          "id": "epo_boa_t240951eu1"
+          "id": "epo_boa_t240268eu1"
         },
         {
-          "title": "T 1156/23 — VEHICLE WINDOW GLASS",
-          "date": "19 Mar 2026",
-          "date_iso": "2026-03-19",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231156eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231156eu1.pdf",
+          "title": "T 0013/24 — VORRICHTUNG ZUR HALTERUNG EINER BILDERFASSENDEN EINRICHTUNG AN EINEM BIOREAKTOR, BIOREAKTOR MIT VORRICHTUNG ZUR HALTERUNG EINER BILDERFASSENDEN EINRICHTUNG SOWIE VERFAHREN ZUR VERMEHRUNG ODER KULTIVIERUNG BIOLOGISCHEN MATERIALS",
+          "date": "18 Mar 2026",
+          "date_iso": "2026-03-18",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240013du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240013du1.pdf",
           "has_pdf": true,
-          "id": "epo_boa_t231156eu1"
+          "id": "epo_boa_t240013du1"
+        },
+        {
+          "title": "T 0101/24 — Composition for inducing proliferation or accumulation of regulatory T cells",
+          "date": "18 Mar 2026",
+          "date_iso": "2026-03-18",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240101eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240101eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240101eu1"
         },
         {
           "title": "T 0724/24 — SEMICONDUCTOR LIGHT-EMITTING DEVICE AND ILLUMINATION DEVICE",
@@ -3194,31 +3248,13 @@
           "id": "epo_boa_t230450eu1"
         },
         {
-          "title": "T 0013/24 — VORRICHTUNG ZUR HALTERUNG EINER BILDERFASSENDEN EINRICHTUNG AN EINEM BIOREAKTOR, BIOREAKTOR MIT VORRICHTUNG ZUR HALTERUNG EINER BILDERFASSENDEN EINRICHTUNG SOWIE VERFAHREN ZUR VERMEHRUNG ODER KULTIVIERUNG BIOLOGISCHEN MATERIALS",
+          "title": "T 0100/24 — Composition for inducing proliferation or accumulation of regulatory cells",
           "date": "18 Mar 2026",
           "date_iso": "2026-03-18",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240013du1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240013du1.pdf",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240100eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240100eu1.pdf",
           "has_pdf": true,
-          "id": "epo_boa_t240013du1"
-        },
-        {
-          "title": "T 0268/24 — DEVICES FOR ESTIMATING REGIONAL METABOLIC RATE OF ORGANS BASED ON HEAT GENERATION AND FOR ESTIMATING REGIONAL BLOOD FLOW(S) FOR THE VOLUME(S) OF TISSUE PERFUSED",
-          "date": "18 Mar 2026",
-          "date_iso": "2026-03-18",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240268eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240268eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240268eu1"
-        },
-        {
-          "title": "T 0101/24 — Composition for inducing proliferation or accumulation of regulatory T cells",
-          "date": "18 Mar 2026",
-          "date_iso": "2026-03-18",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240101eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240101eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240101eu1"
+          "id": "epo_boa_t240100eu1"
         },
         {
           "title": "T 1856/23",
@@ -3239,13 +3275,13 @@
           "id": "epo_boa_t240305du1"
         },
         {
-          "title": "T 0100/24 — Composition for inducing proliferation or accumulation of regulatory cells",
-          "date": "18 Mar 2026",
-          "date_iso": "2026-03-18",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240100eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240100eu1.pdf",
+          "title": "T 1286/23 — SKIN CLEANSER",
+          "date": "17 Mar 2026",
+          "date_iso": "2026-03-17",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231286eu2",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231286eu2.pdf",
           "has_pdf": true,
-          "id": "epo_boa_t240100eu1"
+          "id": "epo_boa_t231286eu2"
         },
         {
           "title": "T 1138/24 — SYSTEMS FOR ACQUIRING AND MOVING OBJECTS",
@@ -3293,15 +3329,6 @@
           "id": "epo_boa_t230246eu2"
         },
         {
-          "title": "T 1286/23 — SKIN CLEANSER",
-          "date": "17 Mar 2026",
-          "date_iso": "2026-03-17",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231286eu2",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231286eu2.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t231286eu2"
-        },
-        {
           "title": "T 0044/25",
           "date": "17 Mar 2026",
           "date_iso": "2026-03-17",
@@ -3338,15 +3365,6 @@
           "id": "epo_boa_t240145du1"
         },
         {
-          "title": "T 1162/24",
-          "date": "13 Mar 2026",
-          "date_iso": "2026-03-13",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241162fu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241162fu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241162fu1"
-        },
-        {
           "title": "T 0185/26 — System and method for triggering an alarm during a sensor jamming attack",
           "date": "13 Mar 2026",
           "date_iso": "2026-03-13",
@@ -3365,13 +3383,13 @@
           "id": "epo_boa_t241044du1"
         },
         {
-          "title": "T 0339/24 — MEDICAL SYSTEM AND METHOD FOR PROVIDING INFORMATION FOR GLYCEMIC CONTROL",
-          "date": "12 Mar 2026",
-          "date_iso": "2026-03-12",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240339eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240339eu1.pdf",
+          "title": "T 1162/24",
+          "date": "13 Mar 2026",
+          "date_iso": "2026-03-13",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241162fu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241162fu1.pdf",
           "has_pdf": true,
-          "id": "epo_boa_t240339eu1"
+          "id": "epo_boa_t241162fu1"
         },
         {
           "title": "T 0209/24 — PROCESS FOR THE PRODUCTION OF NATURAL CRYSTALLINE COLORANT AND RELATED PROCESSING SYSTEM",
@@ -3383,13 +3401,13 @@
           "id": "epo_boa_t240209eu1"
         },
         {
-          "title": "T 0190/24 — POWDER COMPOSITION COMPRISING HAIR DIRECT DYES",
+          "title": "T 0339/24 — MEDICAL SYSTEM AND METHOD FOR PROVIDING INFORMATION FOR GLYCEMIC CONTROL",
           "date": "12 Mar 2026",
           "date_iso": "2026-03-12",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240190eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240190eu1.pdf",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240339eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240339eu1.pdf",
           "has_pdf": true,
-          "id": "epo_boa_t240190eu1"
+          "id": "epo_boa_t240339eu1"
         },
         {
           "title": "T 1889/23 — KOCHFELD MIT DUNSTABZUGSVORRICHTUNG",
@@ -3401,22 +3419,13 @@
           "id": "epo_boa_t231889du1"
         },
         {
-          "title": "R 0016/23 — BIO-MINERALIZED CATHODE AND ANODE MATERIALS FOR ELECTROCHEMICAL CELL",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/r230016eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/r230016eu1.pdf",
+          "title": "T 0190/24 — POWDER COMPOSITION COMPRISING HAIR DIRECT DYES",
+          "date": "12 Mar 2026",
+          "date_iso": "2026-03-12",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240190eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240190eu1.pdf",
           "has_pdf": true,
-          "id": "epo_boa_r230016eu1"
-        },
-        {
-          "title": "T 1310/25 — Datenverarbeitungsvorrichtung mit mehreren Prozessoren und mehreren Schnittstellen",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t251310du1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t251310du1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t251310du1"
+          "id": "epo_boa_t240190eu1"
         },
         {
           "title": "T 1224/23 — Method for producing a watch case middle of reduced weight",
@@ -3437,6 +3446,33 @@
           "id": "epo_boa_t241150eu1"
         },
         {
+          "title": "R 0016/23 — BIO-MINERALIZED CATHODE AND ANODE MATERIALS FOR ELECTROCHEMICAL CELL",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/r230016eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/r230016eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_r230016eu1"
+        },
+        {
+          "title": "T 1310/25 — Datenverarbeitungsvorrichtung mit mehreren Prozessoren und mehreren Schnittstellen",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t251310du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t251310du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t251310du1"
+        },
+        {
+          "title": "T 0877/22 — INFERRING USER AVAILABILITY FOR A COMMUNICATION AND CHANGING NOTIFICATIONS SETTINGS BASED ON USER AVAILABILITY OR CONTEXT",
+          "date": "11 Mar 2026",
+          "date_iso": "2026-03-11",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t220877eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t220877eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t220877eu1"
+        },
+        {
           "title": "T 0222/23 — STORAGE STABLE AQUEOUS ORGANIC PEROXIDE EMULSIONS",
           "date": "11 Mar 2026",
           "date_iso": "2026-03-11",
@@ -3455,15 +3491,6 @@
           "id": "epo_boa_t231672du1"
         },
         {
-          "title": "T 0877/22 — INFERRING USER AVAILABILITY FOR A COMMUNICATION AND CHANGING NOTIFICATIONS SETTINGS BASED ON USER AVAILABILITY OR CONTEXT",
-          "date": "11 Mar 2026",
-          "date_iso": "2026-03-11",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t220877eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t220877eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t220877eu1"
-        },
-        {
           "title": "T 1223/24",
           "date": "10 Mar 2026",
           "date_iso": "2026-03-10",
@@ -3471,33 +3498,6 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241223du1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t241223du1"
-        },
-        {
-          "title": "T 0265/24 — PACKAGED LIQUID FABRIC SOFTENER COMPOSITION HAVING IMPROVED STABILITY",
-          "date": "10 Mar 2026",
-          "date_iso": "2026-03-10",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240265eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240265eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240265eu1"
-        },
-        {
-          "title": "T 1208/24 — PACKET OF SMOKE ARTICLES",
-          "date": "10 Mar 2026",
-          "date_iso": "2026-03-10",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241208eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241208eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241208eu1"
-        },
-        {
-          "title": "T 1567/23 — Security print media and method of manufacture thereof",
-          "date": "10 Mar 2026",
-          "date_iso": "2026-03-10",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231567eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231567eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t231567eu1"
         },
         {
           "title": "T 0424/24",
@@ -3527,13 +3527,31 @@
           "id": "epo_boa_t230452eu1"
         },
         {
-          "title": "T 0439/25 — Systems and method for scoring entities and networks in a knowledge graph",
-          "date": "09 Mar 2026",
-          "date_iso": "2026-03-09",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250439eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250439eu1.pdf",
+          "title": "T 1208/24 — PACKET OF SMOKE ARTICLES",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241208eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241208eu1.pdf",
           "has_pdf": true,
-          "id": "epo_boa_t250439eu1"
+          "id": "epo_boa_t241208eu1"
+        },
+        {
+          "title": "T 0265/24 — PACKAGED LIQUID FABRIC SOFTENER COMPOSITION HAVING IMPROVED STABILITY",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240265eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240265eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240265eu1"
+        },
+        {
+          "title": "T 1567/23 — Security print media and method of manufacture thereof",
+          "date": "10 Mar 2026",
+          "date_iso": "2026-03-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231567eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231567eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t231567eu1"
         },
         {
           "title": "T 0251/24 — Compositions and methods for treating hematologic cancers targeting the SIRP - CD47 interaction",
@@ -3543,6 +3561,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240251eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t240251eu1"
+        },
+        {
+          "title": "T 0439/25 — Systems and method for scoring entities and networks in a knowledge graph",
+          "date": "09 Mar 2026",
+          "date_iso": "2026-03-09",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250439eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250439eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250439eu1"
         },
         {
           "title": "T 0953/23 — APPARATUS FOR SILICONE BREAST IMPLANT DELIVERY",
@@ -3599,6 +3626,33 @@
           "id": "epo_boa_t231791eu1"
         },
         {
+          "title": "T 1794/23",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231794fu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231794fu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t231794fu1"
+        },
+        {
+          "title": "T 0644/24",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240644du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240644du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240644du1"
+        },
+        {
+          "title": "T 0540/24 — VORRICHTUNG ZUR ADDITIVEN HERSTELLUNG DREIDIMENSIONALER OBJEKTE",
+          "date": "05 Mar 2026",
+          "date_iso": "2026-03-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240540du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240540du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240540du1"
+        },
+        {
           "title": "D 0013/25",
           "date": "05 Mar 2026",
           "date_iso": "2026-03-05",
@@ -3626,33 +3680,6 @@
           "id": "epo_boa_t240420eu1"
         },
         {
-          "title": "T 1794/23",
-          "date": "05 Mar 2026",
-          "date_iso": "2026-03-05",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231794fu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231794fu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t231794fu1"
-        },
-        {
-          "title": "T 0540/24 — VORRICHTUNG ZUR ADDITIVEN HERSTELLUNG DREIDIMENSIONALER OBJEKTE",
-          "date": "05 Mar 2026",
-          "date_iso": "2026-03-05",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240540du1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240540du1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240540du1"
-        },
-        {
-          "title": "T 0644/24",
-          "date": "05 Mar 2026",
-          "date_iso": "2026-03-05",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240644du1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240644du1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240644du1"
-        },
-        {
           "title": "T 1088/24 — METHOD AND APPARATUS OF AFFINE INTER PREDICTION FOR VIDEO CODING SYSTEM",
           "date": "05 Mar 2026",
           "date_iso": "2026-03-05",
@@ -3671,15 +3698,6 @@
           "id": "epo_boa_t241108eu1"
         },
         {
-          "title": "T 1153/24 — Working machine and control system",
-          "date": "04 Mar 2026",
-          "date_iso": "2026-03-04",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241153eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241153eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241153eu1"
-        },
-        {
           "title": "T 0762/24 — TRANSFORMING A SPECIFICATION INTO A PERSISTENT COMPUTER PROGRAM",
           "date": "04 Mar 2026",
           "date_iso": "2026-03-04",
@@ -3687,6 +3705,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240762eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t240762eu1"
+        },
+        {
+          "title": "T 1153/24 — Working machine and control system",
+          "date": "04 Mar 2026",
+          "date_iso": "2026-03-04",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241153eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241153eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241153eu1"
         },
         {
           "title": "T 1024/24 — IMPROVED FLOUR BASED DOUGH AND METHOD OF PREPARING SUCH DOUGH",
@@ -3698,15 +3725,6 @@
           "id": "epo_boa_t241024eu1"
         },
         {
-          "title": "T 0069/24",
-          "date": "03 Mar 2026",
-          "date_iso": "2026-03-03",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240069du1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240069du1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240069du1"
-        },
-        {
           "title": "T 0144/24 — IMPROVEMENTS RELATING TO WIND TURBINE BLADE MANUFACTURE",
           "date": "03 Mar 2026",
           "date_iso": "2026-03-03",
@@ -3716,13 +3734,13 @@
           "id": "epo_boa_t240144eu1"
         },
         {
-          "title": "T 0364/23 — Methods for multi-resolution analysis of cell-free nucleic acids",
-          "date": "02 Mar 2026",
-          "date_iso": "2026-03-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230364eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230364eu1.pdf",
+          "title": "T 0069/24",
+          "date": "03 Mar 2026",
+          "date_iso": "2026-03-03",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240069du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240069du1.pdf",
           "has_pdf": true,
-          "id": "epo_boa_t230364eu1"
+          "id": "epo_boa_t240069du1"
         },
         {
           "title": "T 0002/25",
@@ -3741,6 +3759,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t251009eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t251009eu1"
+        },
+        {
+          "title": "T 0364/23 — Methods for multi-resolution analysis of cell-free nucleic acids",
+          "date": "02 Mar 2026",
+          "date_iso": "2026-03-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230364eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230364eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t230364eu1"
         },
         {
           "title": "T 1850/23 — Water absorbent resin powder comprising polyacrylic acid (salt)-based water absorbent resin",
