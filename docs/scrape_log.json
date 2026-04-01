@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-04-01 13:56:07 UTC",
-  "finished_at": "2026-04-01 14:05:57 UTC",
-  "duration_seconds": 589.3,
+  "started_at": "2026-04-01 19:15:46 UTC",
+  "finished_at": "2026-04-01 19:25:26 UTC",
+  "duration_seconds": 580.5,
   "date_range": {
     "from": "2026-04-01",
     "to": "2026-04-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 7,
+  "sources_ok": 8,
   "sources_error": 4,
-  "sources_empty": 82,
-  "total_documents": 11,
-  "docs_with_pdf": 9,
-  "docs_without_pdf": 2,
+  "sources_empty": 81,
+  "total_documents": 13,
+  "docs_with_pdf": 10,
+  "docs_without_pdf": 3,
   "source_details": [
     {
       "key": "RHP",
@@ -800,12 +800,22 @@
       "label": "EU_MERGER",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "[M.12314] BIOMARIN PHARMACEUTICAL / AMICUS THERAPEUTICS",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12314",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12314"
+        }
+      ]
     },
     {
       "key": "EU_ANTITRUST",
@@ -1213,10 +1223,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Risk Management and Inter-Bank Dealings ( Revised )",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13363&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/APDIR04D586D4D4A17E42759C682D2F7513F918.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13363"
+        },
         {
           "title": "Overseas Investment – Submission of References to the Reserve Bank",
           "date": "01 Apr 2026",
