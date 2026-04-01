@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-04-01 07:45:57 UTC",
-  "finished_at": "2026-04-01 07:56:01 UTC",
-  "duration_seconds": 604.1,
+  "started_at": "2026-04-01 13:56:07 UTC",
+  "finished_at": "2026-04-01 14:05:57 UTC",
+  "duration_seconds": 589.3,
   "date_range": {
     "from": "2026-04-01",
     "to": "2026-04-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 3,
+  "sources_ok": 7,
   "sources_error": 4,
-  "sources_empty": 86,
-  "total_documents": 4,
-  "docs_with_pdf": 3,
-  "docs_without_pdf": 1,
+  "sources_empty": 82,
+  "total_documents": 11,
+  "docs_with_pdf": 9,
+  "docs_without_pdf": 2,
   "source_details": [
     {
       "key": "RHP",
@@ -366,12 +366,40 @@
       "label": "RBI_MD",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[Issuer of Currency] Master Direction – Facility for Exchange of Notes and Coins",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13362",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/395MDDCEE303B29F7409B867FAAEC10242C4A.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13362"
+        },
+        {
+          "title": "[Issuer of Currency] Master Direction on Counterfeit Notes – Detection, Reporting and Monitoring",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13361",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/MD39472AB49ECE87F40868FBB8F0714E1627F.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13361"
+        },
+        {
+          "title": "[Issuer of Currency] Master Direction on Incentives for Currency Distribution and Exchange and Penalties / Penal Provisions for Bank Branches and Currency Chests for Deficiency in Rendering Customer Service and Reporting of Transactions / Balances",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13360",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/393MD748717FE591F47CA86031C181677D39B.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13360"
+        }
+      ]
     },
     {
       "key": "RBI_MC",
@@ -498,12 +526,22 @@
       "label": "IRDAI_CIRC",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "IRDAI/IFRS/CIR/MISC/45/4/2026",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://irdai.gov.in/circulars",
+          "pdf_url": "https://irdai.gov.in/documents/37343/365525/IRDAI+Ind+AS+Circular+01.04.2026.pdf/75505922-46a0-cd6a-efc2-00b38d38f49c?version=2.0&t=1775049958849&download=true",
+          "has_pdf": true,
+          "id": "irdai_irdai_ifrs_cir_misc_45_4_2026_01-04-2026"
+        }
+      ]
     },
     {
       "key": "IRDAI_REGS",
@@ -798,12 +836,22 @@
       "label": "EU_FS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "[FS.100299] EPH / TTE / EFG",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100299",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100299"
+        }
+      ]
     },
     {
       "key": "EPO_BOA",
@@ -1163,12 +1211,31 @@
       "label": "RBI_FEMA_NOTIF",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Overseas Investment – Submission of References to the Reserve Bank",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13359&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/02APDIR01042026CC321D9006BC43E1B5E7FF31EC93E8D3.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13359"
+        },
+        {
+          "title": "Reporting under Foreign Exchange Management Act, 1999 – Returns pertaining to Foreign Exchange Management (Guarantees) Regulations, 2026",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13358&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/APDIR027C34873255BF491DA45D5776BEE4C3D4.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13358"
+        }
+      ]
     }
   ],
   "partial_scrape": false
