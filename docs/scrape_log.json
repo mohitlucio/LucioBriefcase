@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-04-01 03:33:54 UTC",
-  "finished_at": "2026-04-01 03:43:51 UTC",
-  "duration_seconds": 596.4,
+  "started_at": "2026-04-01 07:45:57 UTC",
+  "finished_at": "2026-04-01 07:56:01 UTC",
+  "duration_seconds": 604.1,
   "date_range": {
     "from": "2026-04-01",
     "to": "2026-04-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 0,
-  "sources_error": 6,
-  "sources_empty": 87,
-  "total_documents": 0,
-  "docs_with_pdf": 0,
-  "docs_without_pdf": 0,
+  "sources_ok": 3,
+  "sources_error": 4,
+  "sources_empty": 86,
+  "total_documents": 4,
+  "docs_with_pdf": 3,
+  "docs_without_pdf": 1,
   "source_details": [
     {
       "key": "RHP",
@@ -260,12 +260,22 @@
       "label": "CCI_ANTI_S26_1",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[15/2025] People For Animals (PFA) And Venkateshwara Hatcheries Pvt. Ltd. & Ors.",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://www.cci.gov.in/antitrust/orders",
+          "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1775027096.pdf",
+          "has_pdf": true,
+          "id": "cci_anti_6_15_2025"
+        }
+      ]
     },
     {
       "key": "CCI_ANTI_S26_2",
@@ -488,8 +498,8 @@
       "label": "IRDAI_CIRC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 504: Gateway Time-out",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -500,8 +510,8 @@
       "label": "IRDAI_REGS",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 504: Gateway Time-out",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -800,12 +810,31 @@
       "label": "EPO_BOA",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "T 0535/25 — LABYRINTHINE FIXING SYSTEM",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250535eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250535eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250535eu1"
+        },
+        {
+          "title": "R 0005/24",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/r240005du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/r240005du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_r240005du1"
+        }
+      ]
     },
     {
       "key": "EDPB_BINDING",
@@ -1040,12 +1069,22 @@
       "label": "SEBI_FINAL_OFFER",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "Amir Chand Jagdish Kumar Exports Limited - Prospectus",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/apr-2026/amir-chand-jagdish-kumar-exports-limited-prospectus_100674.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100674"
+        }
+      ]
     },
     {
       "key": "SEBI_LODR",
