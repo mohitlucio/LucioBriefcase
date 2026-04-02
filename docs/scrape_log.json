@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-04-02 13:46:29 UTC",
-  "finished_at": "2026-04-02 13:56:06 UTC",
-  "duration_seconds": 576.5,
+  "started_at": "2026-04-02 19:07:44 UTC",
+  "finished_at": "2026-04-02 19:16:59 UTC",
+  "duration_seconds": 555.1,
   "date_range": {
     "from": "2026-04-01",
     "to": "2026-04-30"
@@ -11,8 +11,8 @@
   "sources_ok": 14,
   "sources_error": 4,
   "sources_empty": 75,
-  "total_documents": 27,
-  "docs_with_pdf": 20,
+  "total_documents": 29,
+  "docs_with_pdf": 22,
   "docs_without_pdf": 7,
   "source_details": [
     {
@@ -1209,8 +1209,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -1221,6 +1221,24 @@
           "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-ab22f930-64b2-42d5-b2a1-78b594f5ab0f/d-ab22f930-64b2-42d5-b2a1-78b594f5ab0f.pdf",
           "has_pdf": true,
           "id": "na_518"
+        },
+        {
+          "title": "The Personal Representatives of Mukesh Sehgal & Anor v The Commissioners for HMRC",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/516",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-209885c7-ef6e-4318-8c1f-414412025d57/d-209885c7-ef6e-4318-8c1f-414412025d57.pdf",
+          "has_pdf": true,
+          "id": "na_516"
+        },
+        {
+          "title": "Simon Wilders v The Commissioners for HMRC",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/517",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-ef6da5b2-dc51-48d6-9d32-ba799ef0e9aa/d-ef6da5b2-dc51-48d6-9d32-ba799ef0e9aa.pdf",
+          "has_pdf": true,
+          "id": "na_517"
         }
       ]
     },
