@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-04-02 07:25:39 UTC",
-  "finished_at": "2026-04-02 07:35:32 UTC",
-  "duration_seconds": 593.5,
+  "started_at": "2026-04-02 13:46:29 UTC",
+  "finished_at": "2026-04-02 13:56:06 UTC",
+  "duration_seconds": 576.5,
   "date_range": {
     "from": "2026-04-01",
     "to": "2026-04-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 9,
+  "sources_ok": 14,
   "sources_error": 4,
-  "sources_empty": 80,
-  "total_documents": 19,
-  "docs_with_pdf": 15,
-  "docs_without_pdf": 4,
+  "sources_empty": 75,
+  "total_documents": 27,
+  "docs_with_pdf": 20,
+  "docs_without_pdf": 7,
   "source_details": [
     {
       "key": "RHP",
@@ -34,10 +34,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 2,
       "documents": [
+        {
+          "title": "Pioneer Fil-Med Limited - DRHP",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/apr-2026/pioneer-fil-med-limited-drhp_100715.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100715"
+        },
         {
           "title": "RKB Global Limited - DRHP",
           "date": "02 Apr 2026",
@@ -174,12 +183,22 @@
       "label": "SEBI_CONSULT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "Re-introduction of Open Market Buy-Back of Shares or Other Specified Securities through Stock Exchange",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://www.sebi.gov.in/reports-and-statistics/reports/apr-2026/re-introduction-of-open-market-buy-back-of-shares-or-other-specified-securities-through-stock-exchange-_100716.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100716"
+        }
+      ]
     },
     {
       "key": "BSE_PLACEMENT",
@@ -364,12 +383,22 @@
       "label": "CCI_GREEN",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[C-2026/04/1405] Permira Growth II Topco (Lux) Fifteen Bidco S.A.R.L. — Deemed Approved (Section 6(5))",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://www.cci.gov.in/combination/green-channel",
+          "pdf_url": "https://www.cci.gov.in/images/summaryorders/en/summary1775132898.pdf",
+          "has_pdf": true,
+          "id": "cci_green_C-2026_04_1405"
+        }
+      ]
     },
     {
       "key": "RBI_MD",
@@ -1062,12 +1091,22 @@
       "label": "UK_CAT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "16897724 Consumers' Association (Which) v Apple Inc, Apple Distribution International Limited, Apple Europe Limited & Apple Retail UK Limited - Judgment (CPO Applica",
+          "date": "2026-04",
+          "date_iso": "2026-04-01",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-04/16897724%20Consumers%27%20Association%20%28Which%29%20v%20Apple%20Inc%2C%20Apple%20Distribution%20International%20Limited%2C%20Apple%20Europe%20Limited%20%26%20Apple%20Retail%20UK%20Limited%20-%20Judgment%20%28CPO%20Applica.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-04_16897724_Consumers__Association__Which__"
+        }
+      ]
     },
     {
       "key": "UK_CMA_MERGERS",
@@ -1098,12 +1137,22 @@
       "label": "UK_EAT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Mr A Boateng v Moss Bros Group Ltd: [2026] EAT 50",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/mr-a-boateng-v-moss-bros-group-ltd-2026-eat-50",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69cd1a7eb5210036050bc63c/Mr_A_Boateng_v_Moss_Bros_Group_Ltd__2026__EAT_50.pdf",
+          "has_pdf": true,
+          "id": "govuk_nal-decisions_mr-a-boateng-v-moss-bros-group-ltd-2026-eat-50"
+        }
+      ]
     },
     {
       "key": "UK_ET_SCOT",
@@ -1158,12 +1207,22 @@
       "label": "UK_TAX_FTT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "The Commissioners for HMRC v Tailored UK Services Limited (in Liquidation)",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/518",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-ab22f930-64b2-42d5-b2a1-78b594f5ab0f/d-ab22f930-64b2-42d5-b2a1-78b594f5ab0f.pdf",
+          "has_pdf": true,
+          "id": "na_518"
+        }
+      ]
     },
     {
       "key": "SEBI_CIRCULARS",
@@ -1184,10 +1243,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 2,
       "documents": [
+        {
+          "title": "Central Mine Planning & Design Institute Limited - Prospectus",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/apr-2026/central-mine-planning-and-design-institute-limited-prospectus_100707.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100707"
+        },
         {
           "title": "Amir Chand Jagdish Kumar Exports Limited - Prospectus",
           "date": "01 Apr 2026",
@@ -1278,10 +1346,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Memorandum of Instructions governing money changing activities – Location of Forex Counters in International Airports in India",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13364&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/APDIR04020420266F9D9C9439404E2AA9005E7A55A2B4D5.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13364"
+        },
         {
           "title": "Risk Management and Inter-Bank Dealings ( Revised )",
           "date": "01 Apr 2026",
