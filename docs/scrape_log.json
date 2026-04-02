@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-04-02 03:16:29 UTC",
-  "finished_at": "2026-04-02 03:25:56 UTC",
-  "duration_seconds": 566.7,
+  "started_at": "2026-04-02 07:25:39 UTC",
+  "finished_at": "2026-04-02 07:35:32 UTC",
+  "duration_seconds": 593.5,
   "date_range": {
     "from": "2026-04-01",
     "to": "2026-04-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 8,
+  "sources_ok": 9,
   "sources_error": 4,
-  "sources_empty": 81,
-  "total_documents": 13,
-  "docs_with_pdf": 10,
-  "docs_without_pdf": 3,
+  "sources_empty": 80,
+  "total_documents": 19,
+  "docs_with_pdf": 15,
+  "docs_without_pdf": 4,
   "source_details": [
     {
       "key": "RHP",
@@ -32,12 +32,22 @@
       "label": "DRHP",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "RKB Global Limited - DRHP",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/apr-2026/rkb-global-limited-drhp_100702.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100702"
+        }
+      ]
     },
     {
       "key": "RIGHTS_LOF",
@@ -870,10 +880,37 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 7,
+      "docs_with_pdf": 7,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "T 0576/24 — ENDOSCOPIC CUTTING FORCEPS WITH JAW CLAMP LEVER LATCHING MECHANISM",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240576eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240576eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240576eu1"
+        },
+        {
+          "title": "T 1731/23 — Simulation of an electrical power distribution network in a wind farm",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231731eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231731eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t231731eu1"
+        },
+        {
+          "title": "T 1002/24 — A noise cancellation enabled audio system and method for adjusting a target transfer function of a noise cancellation enabled audio system",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241002eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241002eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241002eu1"
+        },
         {
           "title": "T 0535/25 — LABYRINTHINE FIXING SYSTEM",
           "date": "01 Apr 2026",
@@ -882,6 +919,24 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250535eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250535eu1"
+        },
+        {
+          "title": "T 0186/24 — Saccharomyces boulardii pour le traitement des troubles de l'humeur",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240186fu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240186fu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240186fu1"
+        },
+        {
+          "title": "T 1440/24",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241440du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241440du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241440du1"
         },
         {
           "title": "R 0005/24",
