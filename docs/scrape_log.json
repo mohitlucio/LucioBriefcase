@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-04-03 07:22:22 UTC",
-  "finished_at": "2026-04-03 07:31:57 UTC",
-  "duration_seconds": 574.8,
+  "started_at": "2026-04-03 13:22:05 UTC",
+  "finished_at": "2026-04-03 13:31:38 UTC",
+  "duration_seconds": 572.0,
   "date_range": {
     "from": "2026-04-01",
     "to": "2026-04-30"
@@ -9,8 +9,8 @@
   "total_sources": 93,
   "sources_scraped": 93,
   "sources_ok": 14,
-  "sources_error": 4,
-  "sources_empty": 75,
+  "sources_error": 6,
+  "sources_empty": 73,
   "total_documents": 30,
   "docs_with_pdf": 23,
   "docs_without_pdf": 7,
@@ -968,15 +968,6 @@
           "id": "epo_boa_t240186fu1"
         },
         {
-          "title": "T 1440/24",
-          "date": "01 Apr 2026",
-          "date_iso": "2026-04-01",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241440du1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241440du1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241440du1"
-        },
-        {
           "title": "R 0005/24",
           "date": "01 Apr 2026",
           "date_iso": "2026-04-01",
@@ -984,6 +975,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/r240005du1.pdf",
           "has_pdf": true,
           "id": "epo_boa_r240005du1"
+        },
+        {
+          "title": "T 1440/24",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241440du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241440du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241440du1"
         }
       ]
     },
@@ -1052,8 +1052,8 @@
       "label": "MOHRE_LAWS",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1064,8 +1064,8 @@
       "label": "MOHRE_RESOLUTIONS",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
