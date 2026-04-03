@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-04-03 03:18:41 UTC",
-  "finished_at": "2026-04-03 03:27:56 UTC",
-  "duration_seconds": 555.3,
+  "started_at": "2026-04-03 07:22:22 UTC",
+  "finished_at": "2026-04-03 07:31:57 UTC",
+  "duration_seconds": 574.8,
   "date_range": {
     "from": "2026-04-01",
     "to": "2026-04-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 13,
+  "sources_ok": 14,
   "sources_error": 4,
-  "sources_empty": 76,
-  "total_documents": 28,
-  "docs_with_pdf": 21,
+  "sources_empty": 75,
+  "total_documents": 30,
+  "docs_with_pdf": 23,
   "docs_without_pdf": 7,
   "source_details": [
     {
@@ -721,12 +721,22 @@
       "label": "HR_REAT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "H-REAT-608-2021 — EMAAR INDIA LIMITED vs ROHITASHVA SWAROOP",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxMjQx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-608-2021_0"
+        }
+      ]
     },
     {
       "key": "DL_REAT",
@@ -899,8 +909,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 7,
-      "docs_with_pdf": 7,
+      "doc_count": 8,
+      "docs_with_pdf": 8,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -931,6 +941,15 @@
           "id": "epo_boa_t241002eu1"
         },
         {
+          "title": "T 0778/24",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240778du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240778du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240778du1"
+        },
+        {
           "title": "T 0535/25 — LABYRINTHINE FIXING SYSTEM",
           "date": "01 Apr 2026",
           "date_iso": "2026-04-01",
@@ -938,15 +957,6 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250535eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250535eu1"
-        },
-        {
-          "title": "R 0005/24",
-          "date": "01 Apr 2026",
-          "date_iso": "2026-04-01",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/r240005du1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/r240005du1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_r240005du1"
         },
         {
           "title": "T 0186/24 — Saccharomyces boulardii pour le traitement des troubles de l'humeur",
@@ -965,6 +975,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241440du1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t241440du1"
+        },
+        {
+          "title": "R 0005/24",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/r240005du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/r240005du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_r240005du1"
         }
       ]
     },
