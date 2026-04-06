@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-04-06 07:57:18 UTC",
-  "finished_at": "2026-04-06 08:06:59 UTC",
-  "duration_seconds": 580.5,
+  "started_at": "2026-04-06 13:39:22 UTC",
+  "finished_at": "2026-04-06 13:49:12 UTC",
+  "duration_seconds": 589.9,
   "date_range": {
     "from": "2026-04-01",
     "to": "2026-04-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 15,
+  "sources_ok": 17,
   "sources_error": 8,
-  "sources_empty": 70,
-  "total_documents": 32,
-  "docs_with_pdf": 24,
+  "sources_empty": 68,
+  "total_documents": 35,
+  "docs_with_pdf": 27,
   "docs_without_pdf": 8,
   "source_details": [
     {
@@ -810,12 +810,22 @@
       "label": "TRAI_CON",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Consultation Paper on Formulation of a Regulatory Framework for Application-based Linear Television Distribution (ALTD) Services (Including Free Ad-Supported Streaming Television (FAST) Services)",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://www.trai.gov.in/release-publication/consultation",
+          "pdf_url": "https://www.trai.gov.in/sites/default/files/2026-04/CP_06042026.pdf",
+          "has_pdf": true,
+          "id": "trai_con_consultation_paper_on_formulation_of_a_r_2026-04-06"
+        }
+      ]
     },
     {
       "key": "CGST_CIRC",
@@ -846,12 +856,22 @@
       "label": "IBBI_ADM",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "In the matter of KALLAM TEXTILES LIMITED [CP (IB) No. 3/7/AMR/2026] (1.56 MB)",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/1d8d095e4edd80c7d533f9da7df9e9ec.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_1d8d095e4edd80c7d533f9da7df9e9ec_pdf"
+        }
+      ]
     },
     {
       "key": "EU_MERGER",
@@ -978,15 +998,6 @@
           "id": "epo_boa_t250535eu1"
         },
         {
-          "title": "T 1440/24",
-          "date": "01 Apr 2026",
-          "date_iso": "2026-04-01",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241440du1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241440du1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241440du1"
-        },
-        {
           "title": "T 0186/24 — Saccharomyces boulardii pour le traitement des troubles de l'humeur",
           "date": "01 Apr 2026",
           "date_iso": "2026-04-01",
@@ -994,6 +1005,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240186fu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t240186fu1"
+        },
+        {
+          "title": "T 1440/24",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241440du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241440du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241440du1"
         },
         {
           "title": "R 0005/24",
@@ -1012,7 +1032,7 @@
       "category": "",
       "website_url": "",
       "status": "error",
-      "error": "HTTP Error 503: Backend fetch failed",
+      "error": "The read operation timed out",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1024,7 +1044,7 @@
       "category": "",
       "website_url": "",
       "status": "error",
-      "error": "HTTP Error 504: Gateway Time-out",
+      "error": "The read operation timed out",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1392,10 +1412,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 4,
-      "docs_with_pdf": 4,
+      "doc_count": 5,
+      "docs_with_pdf": 5,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Limits for investment in debt and sale of Credit Default Swaps by Foreign Portfolio Investors (FPIs)",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13366&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT071E04EF8ADA5E444B865AFAC3F1AD85F5.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13366"
+        },
         {
           "title": "Memorandum of Instructions governing money changing activities – Location of Forex Counters in International Airports in India",
           "date": "02 Apr 2026",
