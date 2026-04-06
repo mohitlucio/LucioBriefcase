@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-04-06 03:31:49 UTC",
-  "finished_at": "2026-04-06 03:41:25 UTC",
-  "duration_seconds": 575.6,
+  "started_at": "2026-04-06 07:57:18 UTC",
+  "finished_at": "2026-04-06 08:06:59 UTC",
+  "duration_seconds": 580.5,
   "date_range": {
     "from": "2026-04-01",
     "to": "2026-04-30"
@@ -9,11 +9,11 @@
   "total_sources": 93,
   "sources_scraped": 93,
   "sources_ok": 15,
-  "sources_error": 6,
-  "sources_empty": 72,
-  "total_documents": 31,
+  "sources_error": 8,
+  "sources_empty": 70,
+  "total_documents": 32,
   "docs_with_pdf": 24,
-  "docs_without_pdf": 7,
+  "docs_without_pdf": 8,
   "source_details": [
     {
       "key": "RHP",
@@ -34,10 +34,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
+      "doc_count": 3,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 2,
+      "docs_without_pdf": 3,
       "documents": [
+        {
+          "title": "COSMIC PV POWER LIMITED",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/apr-2026/cosmic-pv-power-limited_100718.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100718"
+        },
         {
           "title": "Pioneer Fil-Med Limited - DRHP",
           "date": "02 Apr 2026",
@@ -978,15 +987,6 @@
           "id": "epo_boa_t241440du1"
         },
         {
-          "title": "R 0005/24",
-          "date": "01 Apr 2026",
-          "date_iso": "2026-04-01",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/r240005du1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/r240005du1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_r240005du1"
-        },
-        {
           "title": "T 0186/24 — Saccharomyces boulardii pour le traitement des troubles de l'humeur",
           "date": "01 Apr 2026",
           "date_iso": "2026-04-01",
@@ -994,6 +994,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240186fu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t240186fu1"
+        },
+        {
+          "title": "R 0005/24",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/r240005du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/r240005du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_r240005du1"
         }
       ]
     },
@@ -1002,8 +1011,8 @@
       "label": "EDPB_BINDING",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 503: Backend fetch failed",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1014,8 +1023,8 @@
       "label": "EDPB_OPINIONS",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 504: Gateway Time-out",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
