@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-04-06 13:39:22 UTC",
-  "finished_at": "2026-04-06 13:49:12 UTC",
-  "duration_seconds": 589.9,
+  "started_at": "2026-04-06 19:13:00 UTC",
+  "finished_at": "2026-04-06 19:22:24 UTC",
+  "duration_seconds": 564.0,
   "date_range": {
     "from": "2026-04-01",
     "to": "2026-04-30"
@@ -9,8 +9,8 @@
   "total_sources": 93,
   "sources_scraped": 93,
   "sources_ok": 17,
-  "sources_error": 8,
-  "sources_empty": 68,
+  "sources_error": 6,
+  "sources_empty": 70,
   "total_documents": 35,
   "docs_with_pdf": 27,
   "docs_without_pdf": 8,
@@ -998,15 +998,6 @@
           "id": "epo_boa_t250535eu1"
         },
         {
-          "title": "T 0186/24 — Saccharomyces boulardii pour le traitement des troubles de l'humeur",
-          "date": "01 Apr 2026",
-          "date_iso": "2026-04-01",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240186fu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240186fu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240186fu1"
-        },
-        {
           "title": "T 1440/24",
           "date": "01 Apr 2026",
           "date_iso": "2026-04-01",
@@ -1014,6 +1005,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241440du1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t241440du1"
+        },
+        {
+          "title": "T 0186/24 — Saccharomyces boulardii pour le traitement des troubles de l'humeur",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240186fu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240186fu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240186fu1"
         },
         {
           "title": "R 0005/24",
@@ -1031,8 +1031,8 @@
       "label": "EDPB_BINDING",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "The read operation timed out",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1043,8 +1043,8 @@
       "label": "EDPB_OPINIONS",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "The read operation timed out",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
