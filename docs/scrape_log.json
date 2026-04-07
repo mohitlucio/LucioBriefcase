@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-04-07 13:51:14 UTC",
-  "finished_at": "2026-04-07 14:00:50 UTC",
-  "duration_seconds": 576.1,
+  "started_at": "2026-04-07 19:16:54 UTC",
+  "finished_at": "2026-04-07 19:26:31 UTC",
+  "duration_seconds": 576.7,
   "date_range": {
     "from": "2026-04-01",
     "to": "2026-04-30"
@@ -11,8 +11,8 @@
   "sources_ok": 21,
   "sources_error": 6,
   "sources_empty": 66,
-  "total_documents": 60,
-  "docs_with_pdf": 45,
+  "total_documents": 63,
+  "docs_with_pdf": 48,
   "docs_without_pdf": 15,
   "source_details": [
     {
@@ -803,31 +803,13 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "H-REAT-13-2023 — Roshni Builders Private Limited vs RAVI KUMAR KEJRIWAL",
-          "date": "06 Apr 2026",
-          "date_iso": "2026-04-06",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzE2",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-13-2023_0"
-        },
-        {
-          "title": "H-REAT-386-2024 — Ms IREO Grace Realtech Pvt Ltd vs G V CHANANA",
-          "date": "06 Apr 2026",
-          "date_iso": "2026-04-06",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzI0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-386-2024_1"
-        },
-        {
           "title": "H-REAT-407-2024 — Ms Ireo Victory Valley Pvt Ltd vs BABUL KUMAR GANGULI AND BARNALI GANGULY",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-407-2024_2"
+          "id": "hr_reat_H-REAT-407-2024_0"
         },
         {
           "title": "H-REAT-72-2024 — Ms IREO GRACE REALTECH PVT LTD vs LOVNISH KHANDUJA",
@@ -836,7 +818,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzE3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-72-2024_3"
+          "id": "hr_reat_H-REAT-72-2024_1"
+        },
+        {
+          "title": "H-REAT-13-2023 — Roshni Builders Private Limited vs RAVI KUMAR KEJRIWAL",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzE2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-13-2023_2"
         },
         {
           "title": "H-REAT-391-2024 — Ms Ireo Victory Valley Pvt Ltd vs CHANDAN KHAITAN",
@@ -845,16 +836,25 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-391-2024_4"
+          "id": "hr_reat_H-REAT-391-2024_3"
         },
         {
-          "title": "H-REAT-228-2024 — Ms IREO Grace Realtech Pvt Ltd vs NITIN AGGARWAL AND ANIL KUMAR",
+          "title": "H-REAT-386-2024 — Ms IREO Grace Realtech Pvt Ltd vs G V CHANANA",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzI1",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzI0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-228-2024_5"
+          "id": "hr_reat_H-REAT-386-2024_4"
+        },
+        {
+          "title": "H-REAT-211-2024 — Ms IREO Grace Realtech Pvt Ltd vs SONIKA SEHGAL",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-211-2024_5"
         },
         {
           "title": "H-REAT-374-2024 — Ms Ireo Victory Valley Pvt Ltd vs ANISH MUKKER AND TRUPTI MUKKER",
@@ -875,13 +875,13 @@
           "id": "hr_reat_H-REAT-183-2024_7"
         },
         {
-          "title": "H-REAT-211-2024 — Ms IREO Grace Realtech Pvt Ltd vs SONIKA SEHGAL",
+          "title": "H-REAT-228-2024 — Ms IREO Grace Realtech Pvt Ltd vs NITIN AGGARWAL AND ANIL KUMAR",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIy",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzI1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-211-2024_8"
+          "id": "hr_reat_H-REAT-228-2024_8"
         },
         {
           "title": "H-REAT-608-2021 — EMAAR INDIA LIMITED vs ROHITASHVA SWAROOP",
@@ -1341,10 +1341,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "1740121325 - Bristol Airport v Welsh Ministers - Judgment",
+          "date": "07 Apr 2026",
+          "date_iso": "2026-04-07",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-04/1740121325%20-%20Bristol%20Airport%20v%20Welsh%20Ministers%20-%20Judgment%20%2007%20Apr%202026.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-04_1740121325_-_Bristol_Airport_v_Welsh_Min"
+        },
         {
           "title": "16897724 Consumers' Association (Which) v Apple Inc, Apple Distribution International Limited, Apple Europe Limited & Apple Retail UK Limited - Judgment (CPO Applica",
           "date": "2026-04",
@@ -1445,10 +1454,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[2026] UKUT 00144 (TCC) Forster T/as Premier Research and Marketing v The Financial Conduct Authority",
+          "date": "07 Apr 2026",
+          "date_iso": "2026-04-07",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/2026-ukut-00144-tcc-forster-t-slash-as-premier-research-and-marketing-v-the-financial-conduct-authority",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69d5126a758ba8b7b13b27ab/Forster_t-a_Premier_Research_and_Marketing_v_FCA_final_decison_for_issue_to_parties_and_publication.pdf",
+          "has_pdf": true,
+          "id": "govuk_ier-research-and-marketing-v-the-financial-conduct-authority"
+        },
+        {
+          "title": "[2026] UKUT 00142 (TCC) CATS NORTH SEA LIMITED v HMRC",
+          "date": "07 Apr 2026",
+          "date_iso": "2026-04-07",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/2026-ukut-00142-tcc-cats-north-sea-limited-v-hmrc",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69d4efce5e0e8088a545b3b3/CATS_North_Sea_Limited_v_HMRC_Final_decision_for_issue_to_parties_and_publication_20260402.pdf",
+          "has_pdf": true,
+          "id": "govuk_-decisions_2026-ukut-00142-tcc-cats-north-sea-limited-v-hmrc"
+        },
         {
           "title": "[2026] UKUT 00141 (TCC) Odey v FCA",
           "date": "07 Apr 2026",
