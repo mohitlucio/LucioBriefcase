@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-04-07 07:44:43 UTC",
-  "finished_at": "2026-04-07 07:54:39 UTC",
-  "duration_seconds": 596.0,
+  "started_at": "2026-04-07 13:51:14 UTC",
+  "finished_at": "2026-04-07 14:00:50 UTC",
+  "duration_seconds": 576.1,
   "date_range": {
     "from": "2026-04-01",
     "to": "2026-04-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 17,
+  "sources_ok": 21,
   "sources_error": 6,
-  "sources_empty": 70,
-  "total_documents": 40,
-  "docs_with_pdf": 31,
-  "docs_without_pdf": 9,
+  "sources_empty": 66,
+  "total_documents": 60,
+  "docs_with_pdf": 45,
+  "docs_without_pdf": 15,
   "source_details": [
     {
       "key": "RHP",
@@ -34,10 +34,37 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 4,
+      "doc_count": 7,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 4,
+      "docs_without_pdf": 7,
       "documents": [
+        {
+          "title": "Intellius Recode Limited - DRHP",
+          "date": "07 Apr 2026",
+          "date_iso": "2026-04-07",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/apr-2026/intellius-recode-limited-drhp_100765.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100765"
+        },
+        {
+          "title": "Manipal Health Enterprises Limited",
+          "date": "07 Apr 2026",
+          "date_iso": "2026-04-07",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/apr-2026/manipal-health-enterprises-limited_100763.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100763"
+        },
+        {
+          "title": "SADBHAV FUTURETECH LIMITED",
+          "date": "07 Apr 2026",
+          "date_iso": "2026-04-07",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/apr-2026/sadbhav-futuretech-limited_100753.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100753"
+        },
         {
           "title": "RENTOMOJO LIMITED",
           "date": "06 Apr 2026",
@@ -329,12 +356,22 @@
       "label": "CCI_ANTI_S26_2",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[40/2025] Kshitij Srivastava And M/s Arthur Flury India Private Limited",
+          "date": "07 Apr 2026",
+          "date_iso": "2026-04-07",
+          "page_url": "https://www.cci.gov.in/antitrust/orders",
+          "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1775559758.pdf",
+          "has_pdf": true,
+          "id": "cci_anti_7_40_2025"
+        }
+      ]
     },
     {
       "key": "CCI_ANTI_S26_6",
@@ -365,12 +402,22 @@
       "label": "CCI_ANTI_S27",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[Suo Moto Case No. 03/2021] M/s Purbanchal Enterprise, M/s Kalita Electric Works, M/s Ramani Enterprise, M/s D.B. Electricals, M/s Horizon Enterprise, M/s Deys Electric, M/s Sri Krishna Electricals, M/s Satyajit Electricals, M/s R.M. Electricals, M/s Choudhury Engineering Works, M/s Sarmah Electricals, M/s B.N. Enterprise, M/s G.B. Enterprise, M/s Assam Engineering Electrical Construction, M/s Dee Dees Brilliance, M/s Ganesh Electricals, M/s Kamakhya Electricals,",
+          "date": "07 Apr 2026",
+          "date_iso": "2026-04-07",
+          "page_url": "https://www.cci.gov.in/antitrust/orders",
+          "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1775559507.pdf",
+          "has_pdf": true,
+          "id": "cci_anti_10_Suo_Moto_Case_No__03_2021"
+        }
+      ]
     },
     {
       "key": "CCI_ANTI_S33",
@@ -590,13 +637,13 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "IRDAI/IFRS/CIR/MISC/45/4/2026",
+          "title": "भारतीय लेखांकन मानकों (इंड एएस) के कार्यान्वयन संबंधी स्पष्टीकरण / Clarifications on implementation of Indian Accounting Standards (Ind AS)",
           "date": "01 Apr 2026",
           "date_iso": "2026-04-01",
           "page_url": "https://irdai.gov.in/circulars",
-          "pdf_url": "https://irdai.gov.in/documents/37343/365525/IRDAI+Ind+AS+Circular+01.04.2026.pdf/75505922-46a0-cd6a-efc2-00b38d38f49c?version=2.0&t=1775049958849&download=true",
+          "pdf_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%AF+%E0%A4%B2%E0%A5%87%E0%A4%96%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A4%A8+%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A5%8B%E0%A4%82+%28%E0%A4%87%E0%A4%82%E0%A4%A1+%E0%A4%8F%E0%A4%8F%E0%A4%B8%29+%E0%A4%95%E0%A5%87+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A4%A8+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7%E0%A5%80+%E0%A4%B8%E0%A5%8D%E0%A4%AA%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+_+Clarifications+on+implementation+of+Indian+Accounting+Standards+%28Ind+AS%29.pdf/75505922-46a0-cd6a-efc2-00b38d38f49c?version=3.0&t=1775558439491&download=true",
           "has_pdf": true,
-          "id": "irdai_irdai_ifrs_cir_misc_45_4_2026_01-04-2026"
+          "id": "irdai__________________________________________01-04-2026"
         }
       ]
     },
@@ -751,10 +798,91 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 10,
+      "docs_with_pdf": 10,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "H-REAT-13-2023 — Roshni Builders Private Limited vs RAVI KUMAR KEJRIWAL",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzE2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-13-2023_0"
+        },
+        {
+          "title": "H-REAT-386-2024 — Ms IREO Grace Realtech Pvt Ltd vs G V CHANANA",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzI0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-386-2024_1"
+        },
+        {
+          "title": "H-REAT-407-2024 — Ms Ireo Victory Valley Pvt Ltd vs BABUL KUMAR GANGULI AND BARNALI GANGULY",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-407-2024_2"
+        },
+        {
+          "title": "H-REAT-72-2024 — Ms IREO GRACE REALTECH PVT LTD vs LOVNISH KHANDUJA",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzE3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-72-2024_3"
+        },
+        {
+          "title": "H-REAT-391-2024 — Ms Ireo Victory Valley Pvt Ltd vs CHANDAN KHAITAN",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-391-2024_4"
+        },
+        {
+          "title": "H-REAT-228-2024 — Ms IREO Grace Realtech Pvt Ltd vs NITIN AGGARWAL AND ANIL KUMAR",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzI1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-228-2024_5"
+        },
+        {
+          "title": "H-REAT-374-2024 — Ms Ireo Victory Valley Pvt Ltd vs ANISH MUKKER AND TRUPTI MUKKER",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzE5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-374-2024_6"
+        },
+        {
+          "title": "H-REAT-183-2024 — Ms IREO Grace Realtech Pvt Ltd vs BHANU MARWAHA AND MONA MARWAHA",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-183-2024_7"
+        },
+        {
+          "title": "H-REAT-211-2024 — Ms IREO Grace Realtech Pvt Ltd vs SONIKA SEHGAL",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-211-2024_8"
+        },
         {
           "title": "H-REAT-608-2021 — EMAAR INDIA LIMITED vs ROHITASHVA SWAROOP",
           "date": "01 Apr 2026",
@@ -762,7 +890,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxMjQx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-608-2021_0"
+          "id": "hr_reat_H-REAT-608-2021_9"
         }
       ]
     },
@@ -821,10 +949,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Draft Telecom Consumers Protection (Thirteenth Amendment) Regulations, 2026",
+          "date": "07 Apr 2026",
+          "date_iso": "2026-04-07",
+          "page_url": "https://www.trai.gov.in/release-publication/consultation",
+          "pdf_url": "https://www.trai.gov.in/sites/default/files/2026-04/CP_07042026.pdf",
+          "has_pdf": true,
+          "id": "trai_con_draft_telecom_consumers_protection__thir_2026-04-07"
+        },
         {
           "title": "Consultation Paper on Formulation of a Regulatory Framework for Application-based Linear Television Distribution (ALTD) Services (Including Free Ad-Supported Streaming Television (FAST) Services)",
           "date": "06 Apr 2026",
@@ -867,8 +1004,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -879,6 +1016,15 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/1d8d095e4edd80c7d533f9da7df9e9ec.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_1d8d095e4edd80c7d533f9da7df9e9ec_pdf"
+        },
+        {
+          "title": "In the matter of MADHUVAN TIEUP PVT LTD [CP (IB)- 25/ND/2023] (518.53 KB)",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/da2d10dca17281c715f8a282d8f35dbc.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_da2d10dca17281c715f8a282d8f35dbc_pdf"
         }
       ]
     },
@@ -889,10 +1035,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 2,
       "documents": [
+        {
+          "title": "[M.12316] IG4 GROUP / PETROBRAS / BRASKEM",
+          "date": "07 Apr 2026",
+          "date_iso": "2026-04-07",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12316",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12316"
+        },
         {
           "title": "[M.12314] BIOMARIN PHARMACEUTICAL / AMICUS THERAPEUTICS",
           "date": "01 Apr 2026",
@@ -1288,12 +1443,22 @@
       "label": "UK_TAX_CHANCERY",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[2026] UKUT 00141 (TCC) Odey v FCA",
+          "date": "07 Apr 2026",
+          "date_iso": "2026-04-07",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/2026-ukut-00141-tcc-odey-v-fca",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69d4e30fb168efedf97ef06b/Mr_Odey_-v-_The_Authority_UT-2025-000021_approved_Rule_14_Order_without_Confidential_Rule_for_publication.pdf",
+          "has_pdf": true,
+          "id": "govuk_d-chancery-tribunal-decisions_2026-ukut-00141-tcc-odey-v-fca"
+        }
+      ]
     },
     {
       "key": "UK_TAX_FTT",
@@ -1340,12 +1505,31 @@
       "label": "SEBI_CIRCULARS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 2,
+      "documents": [
+        {
+          "title": "Relaxation from the applicability of SEBI Master Circular for compliance with the provisions of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 on non-compliance with the Minimum Public Shareholding (MPS) requirements",
+          "date": "07 Apr 2026",
+          "date_iso": "2026-04-07",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/apr-2026/relaxation-from-the-applicability-of-sebi-master-circular-for-compliance-with-the-provisions-of-the-sebi-listing-obligations-and-disclosure-requirements-regulations-2015-on-non-compliance-with-the-_100787.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100787"
+        },
+        {
+          "title": "One-time relaxation with respect to validity of SEBI Observations",
+          "date": "07 Apr 2026",
+          "date_iso": "2026-04-07",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/apr-2026/one-time-relaxation-with-respect-to-validity-of-sebi-observations_100786.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100786"
+        }
+      ]
     },
     {
       "key": "SEBI_FINAL_OFFER",
