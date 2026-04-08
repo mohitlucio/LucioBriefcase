@@ -1,31 +1,41 @@
 {
-  "started_at": "2026-04-08 03:24:26 UTC",
-  "finished_at": "2026-04-08 03:33:59 UTC",
-  "duration_seconds": 572.7,
+  "started_at": "2026-04-08 07:48:04 UTC",
+  "finished_at": "2026-04-08 07:57:54 UTC",
+  "duration_seconds": 589.8,
   "date_range": {
     "from": "2026-04-01",
     "to": "2026-04-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 21,
+  "sources_ok": 22,
   "sources_error": 6,
-  "sources_empty": 66,
-  "total_documents": 63,
-  "docs_with_pdf": 48,
-  "docs_without_pdf": 15,
+  "sources_empty": 65,
+  "total_documents": 69,
+  "docs_with_pdf": 52,
+  "docs_without_pdf": 17,
   "source_details": [
     {
       "key": "RHP",
       "label": "RHP",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "Om Power Transmission Limited - RHP",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/apr-2026/om-power-transmission-limited-rhp_100792.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100792"
+        }
+      ]
     },
     {
       "key": "DRHP",
@@ -48,10 +58,10 @@
           "id": "100765"
         },
         {
-          "title": "Manipal Health Enterprises Limited",
+          "title": "Manipal Health Enterprises Limited - DRHP",
           "date": "07 Apr 2026",
           "date_iso": "2026-04-07",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/apr-2026/manipal-health-enterprises-limited_100763.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/apr-2026/manipal-health-enterprises-limited-drhp_100763.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "100763"
@@ -66,19 +76,19 @@
           "id": "100753"
         },
         {
-          "title": "RENTOMOJO LIMITED",
+          "title": "Rentomojo Limited - DRHP",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/apr-2026/rentomojo-limited_100746.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/apr-2026/rentomojo-limited-drhp_100746.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "100746"
         },
         {
-          "title": "COSMIC PV POWER LIMITED",
+          "title": "Cosmic PV Power Limited - DRHP",
           "date": "02 Apr 2026",
           "date_iso": "2026-04-02",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/apr-2026/cosmic-pv-power-limited_100718.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/apr-2026/cosmic-pv-power-limited-drhp_100718.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "100718"
@@ -798,8 +808,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 10,
-      "docs_with_pdf": 10,
+      "doc_count": 11,
+      "docs_with_pdf": 11,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -821,40 +831,13 @@
           "id": "hr_reat_H-REAT-13-2023_1"
         },
         {
-          "title": "H-REAT-211-2024 — Ms IREO Grace Realtech Pvt Ltd vs SONIKA SEHGAL",
-          "date": "06 Apr 2026",
-          "date_iso": "2026-04-06",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-211-2024_2"
-        },
-        {
-          "title": "H-REAT-386-2024 — Ms IREO Grace Realtech Pvt Ltd vs G V CHANANA",
-          "date": "06 Apr 2026",
-          "date_iso": "2026-04-06",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzI0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-386-2024_3"
-        },
-        {
-          "title": "H-REAT-391-2024 — Ms Ireo Victory Valley Pvt Ltd vs CHANDAN KHAITAN",
-          "date": "06 Apr 2026",
-          "date_iso": "2026-04-06",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-391-2024_4"
-        },
-        {
           "title": "H-REAT-407-2024 — Ms Ireo Victory Valley Pvt Ltd vs BABUL KUMAR GANGULI AND BARNALI GANGULY",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-407-2024_5"
+          "id": "hr_reat_H-REAT-407-2024_2"
         },
         {
           "title": "H-REAT-183-2024 — Ms IREO Grace Realtech Pvt Ltd vs BHANU MARWAHA AND MONA MARWAHA",
@@ -863,16 +846,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-183-2024_6"
-        },
-        {
-          "title": "H-REAT-228-2024 — Ms IREO Grace Realtech Pvt Ltd vs NITIN AGGARWAL AND ANIL KUMAR",
-          "date": "06 Apr 2026",
-          "date_iso": "2026-04-06",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzI1",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-228-2024_7"
+          "id": "hr_reat_H-REAT-183-2024_3"
         },
         {
           "title": "H-REAT-374-2024 — Ms Ireo Victory Valley Pvt Ltd vs ANISH MUKKER AND TRUPTI MUKKER",
@@ -881,7 +855,52 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzE5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-374-2024_8"
+          "id": "hr_reat_H-REAT-374-2024_4"
+        },
+        {
+          "title": "H-REAT-228-2024 — Ms IREO Grace Realtech Pvt Ltd vs NITIN AGGARWAL AND ANIL KUMAR",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzI1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-228-2024_5"
+        },
+        {
+          "title": "H-REAT-211-2024 — Ms IREO Grace Realtech Pvt Ltd vs SONIKA SEHGAL",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-211-2024_6"
+        },
+        {
+          "title": "H-REAT-391-2024 — Ms Ireo Victory Valley Pvt Ltd vs CHANDAN KHAITAN",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-391-2024_7"
+        },
+        {
+          "title": "H-REAT-386-2024 — Ms IREO Grace Realtech Pvt Ltd vs G V CHANANA",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzI0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-386-2024_8"
+        },
+        {
+          "title": "H-REAT-50-2023 — Vikas Chandra vs MS PURI CONSTRUCTIONS PVT LTD",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxODE3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-50-2023_9"
         },
         {
           "title": "H-REAT-608-2021 — EMAAR INDIA LIMITED vs ROHITASHVA SWAROOP",
@@ -890,7 +909,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxMjQx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-608-2021_9"
+          "id": "hr_reat_H-REAT-608-2021_10"
         }
       ]
     },
@@ -1112,10 +1131,37 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 12,
-      "docs_with_pdf": 12,
+      "doc_count": 15,
+      "docs_with_pdf": 15,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "T 2007/23 — Optical System for Detecting Light from Polymerase Chain Reactions",
+          "date": "08 Apr 2026",
+          "date_iso": "2026-04-08",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t232007eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t232007eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t232007eu1"
+        },
+        {
+          "title": "T 0985/25 — Simulating legacy bus behavior for backwards compatibility",
+          "date": "08 Apr 2026",
+          "date_iso": "2026-04-08",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250985eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250985eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250985eu1"
+        },
+        {
+          "title": "T 0581/24 — OXIDIZED REGENERATED CELLULOSE HEMOSTATIC POWDERS AND METHODS OF MAKING",
+          "date": "08 Apr 2026",
+          "date_iso": "2026-04-08",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240581eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240581eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240581eu1"
+        },
         {
           "title": "T 0717/23 — CONTACTLESS ROTARY JOINT",
           "date": "07 Apr 2026",
@@ -1135,15 +1181,6 @@
           "id": "epo_boa_t241010eu1"
         },
         {
-          "title": "T 0037/25 — FRICTION MATERIAL",
-          "date": "07 Apr 2026",
-          "date_iso": "2026-04-07",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250037eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250037eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t250037eu1"
-        },
-        {
           "title": "T 0958/25 — INNER EXPLOSION RESISTANT MEMBRANE DOOR FOR A MARINE VESSEL",
           "date": "07 Apr 2026",
           "date_iso": "2026-04-07",
@@ -1151,6 +1188,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250958eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250958eu1"
+        },
+        {
+          "title": "T 0037/25 — FRICTION MATERIAL",
+          "date": "07 Apr 2026",
+          "date_iso": "2026-04-07",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250037eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250037eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250037eu1"
         },
         {
           "title": "T 0576/24 — ENDOSCOPIC CUTTING FORCEPS WITH JAW CLAMP LEVER LATCHING MECHANISM",
@@ -1162,15 +1208,6 @@
           "id": "epo_boa_t240576eu1"
         },
         {
-          "title": "T 1002/24 — A noise cancellation enabled audio system and method for adjusting a target transfer function of a noise cancellation enabled audio system",
-          "date": "02 Apr 2026",
-          "date_iso": "2026-04-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241002eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241002eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241002eu1"
-        },
-        {
           "title": "T 1731/23 — Simulation of an electrical power distribution network in a wind farm",
           "date": "02 Apr 2026",
           "date_iso": "2026-04-02",
@@ -1178,6 +1215,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231731eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t231731eu1"
+        },
+        {
+          "title": "T 1002/24 — A noise cancellation enabled audio system and method for adjusting a target transfer function of a noise cancellation enabled audio system",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241002eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241002eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241002eu1"
         },
         {
           "title": "T 0778/24",
@@ -1198,15 +1244,6 @@
           "id": "epo_boa_t250535eu1"
         },
         {
-          "title": "T 0186/24 — Saccharomyces boulardii pour le traitement des troubles de l'humeur",
-          "date": "01 Apr 2026",
-          "date_iso": "2026-04-01",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240186fu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240186fu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240186fu1"
-        },
-        {
           "title": "R 0005/24",
           "date": "01 Apr 2026",
           "date_iso": "2026-04-01",
@@ -1214,6 +1251,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/r240005du1.pdf",
           "has_pdf": true,
           "id": "epo_boa_r240005du1"
+        },
+        {
+          "title": "T 0186/24 — Saccharomyces boulardii pour le traitement des troubles de l'humeur",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240186fu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240186fu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240186fu1"
         },
         {
           "title": "T 1440/24",
@@ -1565,10 +1611,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
+      "doc_count": 3,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 2,
+      "docs_without_pdf": 3,
       "documents": [
+        {
+          "title": "Rajputana Stainless Limited - Prospectus",
+          "date": "08 Apr 2026",
+          "date_iso": "2026-04-08",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/apr-2026/rajputana-stainless-limited-prospectus_100791.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100791"
+        },
         {
           "title": "Central Mine Planning & Design Institute Limited - Prospectus",
           "date": "02 Apr 2026",
