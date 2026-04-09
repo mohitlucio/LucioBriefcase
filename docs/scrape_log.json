@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-04-09 03:18:32 UTC",
-  "finished_at": "2026-04-09 03:27:59 UTC",
-  "duration_seconds": 567.7,
+  "started_at": "2026-04-09 07:50:48 UTC",
+  "finished_at": "2026-04-09 08:00:25 UTC",
+  "duration_seconds": 577.3,
   "date_range": {
     "from": "2026-04-01",
     "to": "2026-04-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 26,
+  "sources_ok": 27,
   "sources_error": 6,
-  "sources_empty": 61,
-  "total_documents": 93,
-  "docs_with_pdf": 70,
-  "docs_without_pdf": 23,
+  "sources_empty": 60,
+  "total_documents": 102,
+  "docs_with_pdf": 78,
+  "docs_without_pdf": 24,
   "source_details": [
     {
       "key": "RHP",
@@ -199,12 +199,22 @@
       "label": "INVIT_PUB_FINAL",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "Citius TransNet Investment Trust",
+          "date": "08 Apr 2026",
+          "date_iso": "2026-04-08",
+          "page_url": "https://www.sebi.gov.in/filings/invit-public-issues/apr-2026/citius-transnet-investment-trust_100831.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "100831"
+        }
+      ]
     },
     {
       "key": "INVIT_PUB_DRAFT",
@@ -969,22 +979,22 @@
       "docs_without_pdf": 0,
       "documents": [
         {
+          "title": "H-REAT-211-2024 — Ms IREO Grace Realtech Pvt Ltd vs SONIKA SEHGAL",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-211-2024_0"
+        },
+        {
           "title": "H-REAT-72-2024 — Ms IREO GRACE REALTECH PVT LTD vs LOVNISH KHANDUJA",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzE3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-72-2024_0"
-        },
-        {
-          "title": "H-REAT-407-2024 — Ms Ireo Victory Valley Pvt Ltd vs BABUL KUMAR GANGULI AND BARNALI GANGULY",
-          "date": "06 Apr 2026",
-          "date_iso": "2026-04-06",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIw",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-407-2024_1"
+          "id": "hr_reat_H-REAT-72-2024_1"
         },
         {
           "title": "H-REAT-13-2023 — Roshni Builders Private Limited vs RAVI KUMAR KEJRIWAL",
@@ -996,22 +1006,13 @@
           "id": "hr_reat_H-REAT-13-2023_2"
         },
         {
-          "title": "H-REAT-211-2024 — Ms IREO Grace Realtech Pvt Ltd vs SONIKA SEHGAL",
-          "date": "06 Apr 2026",
-          "date_iso": "2026-04-06",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-211-2024_3"
-        },
-        {
           "title": "H-REAT-55-2023 — Puri Construction Pvt Ltd vs VIKAS CHANDRA",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxOTQy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-55-2023_4"
+          "id": "hr_reat_H-REAT-55-2023_3"
         },
         {
           "title": "H-REAT-50-2023 — Vikas Chandra vs MS PURI CONSTRUCTIONS PVT LTD",
@@ -1020,16 +1021,25 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxODE3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-50-2023_5"
+          "id": "hr_reat_H-REAT-50-2023_4"
         },
         {
-          "title": "H-REAT-228-2024 — Ms IREO Grace Realtech Pvt Ltd vs NITIN AGGARWAL AND ANIL KUMAR",
+          "title": "H-REAT-407-2024 — Ms Ireo Victory Valley Pvt Ltd vs BABUL KUMAR GANGULI AND BARNALI GANGULY",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzI1",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-228-2024_6"
+          "id": "hr_reat_H-REAT-407-2024_5"
+        },
+        {
+          "title": "H-REAT-183-2024 — Ms IREO Grace Realtech Pvt Ltd vs BHANU MARWAHA AND MONA MARWAHA",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-183-2024_6"
         },
         {
           "title": "H-REAT-374-2024 — Ms Ireo Victory Valley Pvt Ltd vs ANISH MUKKER AND TRUPTI MUKKER",
@@ -1041,22 +1051,13 @@
           "id": "hr_reat_H-REAT-374-2024_7"
         },
         {
-          "title": "H-REAT-183-2024 — Ms IREO Grace Realtech Pvt Ltd vs BHANU MARWAHA AND MONA MARWAHA",
-          "date": "06 Apr 2026",
-          "date_iso": "2026-04-06",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-183-2024_8"
-        },
-        {
           "title": "H-REAT-386-2024 — Ms IREO Grace Realtech Pvt Ltd vs G V CHANANA",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzI0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-386-2024_9"
+          "id": "hr_reat_H-REAT-386-2024_8"
         },
         {
           "title": "H-REAT-391-2024 — Ms Ireo Victory Valley Pvt Ltd vs CHANDAN KHAITAN",
@@ -1065,7 +1066,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-391-2024_10"
+          "id": "hr_reat_H-REAT-391-2024_9"
+        },
+        {
+          "title": "H-REAT-228-2024 — Ms IREO Grace Realtech Pvt Ltd vs NITIN AGGARWAL AND ANIL KUMAR",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzI1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-228-2024_10"
         },
         {
           "title": "H-REAT-608-2021 — EMAAR INDIA LIMITED vs ROHITASHVA SWAROOP",
@@ -1216,8 +1226,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "doc_count": 5,
+      "docs_with_pdf": 5,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -1228,6 +1238,24 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/1d8d095e4edd80c7d533f9da7df9e9ec.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_1d8d095e4edd80c7d533f9da7df9e9ec_pdf"
+        },
+        {
+          "title": "In the matter of TRANSCON BUILDCON PRIVATE LIMITED [C.P. (IB)/697/MB/2025] (750.51 KB)",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-04-08-233439-gw84o-c745acc28c297ad57ff9f3fef0f52926.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_04_08_233439_gw84o_c745acc28c297ad5"
+        },
+        {
+          "title": "In the matter of VARDHAN AGRO PROCESSING LIMITED [C.P. (IB)/700/MB/2025] (1.54 MB)",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-04-09-083910-y42lq-a240fa27925a635b08dc28c9e4f9216d.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_04_09_083910_y42lq_a240fa27925a635b"
         },
         {
           "title": "In the matter of MADHUVAN TIEUP PVT LTD [CP (IB)- 25/ND/2023] (518.53 KB)",
@@ -1333,10 +1361,64 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 15,
-      "docs_with_pdf": 15,
+      "doc_count": 21,
+      "docs_with_pdf": 21,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "T 0163/24 — A method for determination of diversity and viability thresholds used to assess microorganisms in process samples",
+          "date": "09 Apr 2026",
+          "date_iso": "2026-04-09",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240163eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240163eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240163eu1"
+        },
+        {
+          "title": "T 0378/24 — METHOD AND SYSTEM FOR PRE-PURIFICATION OF A FEED GAS STREAM",
+          "date": "09 Apr 2026",
+          "date_iso": "2026-04-09",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240378eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240378eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240378eu1"
+        },
+        {
+          "title": "T 0273/24 — VERBUNDSCHEIBE UND VERFAHREN ZUM HERSTELLEN DER VERBUNDSCHEIBE",
+          "date": "09 Apr 2026",
+          "date_iso": "2026-04-09",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240273du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240273du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240273du1"
+        },
+        {
+          "title": "T 0135/24 — POLYARYLENE ETHER SULFONES",
+          "date": "09 Apr 2026",
+          "date_iso": "2026-04-09",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240135eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240135eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240135eu1"
+        },
+        {
+          "title": "T 0402/24 — FABRIC SOFTENER COMPOSITION COMPRISING ENCAPSULATED BENEFIT AGENT",
+          "date": "09 Apr 2026",
+          "date_iso": "2026-04-09",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240402eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240402eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240402eu1"
+        },
+        {
+          "title": "T 0985/25 — Simulating legacy bus behavior for backwards compatibility",
+          "date": "08 Apr 2026",
+          "date_iso": "2026-04-08",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250985eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250985eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250985eu1"
+        },
         {
           "title": "T 2007/23 — Optical System for Detecting Light from Polymerase Chain Reactions",
           "date": "08 Apr 2026",
@@ -1347,13 +1429,13 @@
           "id": "epo_boa_t232007eu1"
         },
         {
-          "title": "T 0985/25 — Simulating legacy bus behavior for backwards compatibility",
+          "title": "T 0106/24 — Multivalent PCV2 immunogenic compositions and methods of producing them",
           "date": "08 Apr 2026",
           "date_iso": "2026-04-08",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250985eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250985eu1.pdf",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240106eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240106eu1.pdf",
           "has_pdf": true,
-          "id": "epo_boa_t250985eu1"
+          "id": "epo_boa_t240106eu1"
         },
         {
           "title": "T 0581/24 — OXIDIZED REGENERATED CELLULOSE HEMOSTATIC POWDERS AND METHODS OF MAKING",
@@ -1446,15 +1528,6 @@
           "id": "epo_boa_t250535eu1"
         },
         {
-          "title": "R 0005/24",
-          "date": "01 Apr 2026",
-          "date_iso": "2026-04-01",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/r240005du1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/r240005du1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_r240005du1"
-        },
-        {
           "title": "T 0186/24 — Saccharomyces boulardii pour le traitement des troubles de l'humeur",
           "date": "01 Apr 2026",
           "date_iso": "2026-04-01",
@@ -1462,6 +1535,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240186fu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t240186fu1"
+        },
+        {
+          "title": "R 0005/24",
+          "date": "01 Apr 2026",
+          "date_iso": "2026-04-01",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/r240005du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/r240005du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_r240005du1"
         },
         {
           "title": "T 1440/24",
