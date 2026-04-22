@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-04-22 08:01:31 UTC",
-  "finished_at": "2026-04-22 08:11:20 UTC",
-  "duration_seconds": 588.6,
+  "started_at": "2026-04-22 14:02:50 UTC",
+  "finished_at": "2026-04-22 14:12:32 UTC",
+  "duration_seconds": 582.2,
   "date_range": {
     "from": "2026-04-01",
     "to": "2026-04-30"
@@ -11,9 +11,9 @@
   "sources_ok": 40,
   "sources_error": 6,
   "sources_empty": 47,
-  "total_documents": 508,
-  "docs_with_pdf": 463,
-  "docs_without_pdf": 45,
+  "total_documents": 518,
+  "docs_with_pdf": 474,
+  "docs_without_pdf": 44,
   "source_details": [
     {
       "key": "RHP",
@@ -44,10 +44,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 18,
+      "doc_count": 19,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 18,
+      "docs_without_pdf": 19,
       "documents": [
+        {
+          "title": "Punjab Carbonic Limited",
+          "date": "22 Apr 2026",
+          "date_iso": "2026-04-22",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/apr-2026/punjab-carbonic-limited_101039.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "101039"
+        },
         {
           "title": "Absolute Projects India Limited",
           "date": "16 Apr 2026",
@@ -3000,13 +3009,13 @@
           "id": "hr_reat_H-REAT-415-2023_0"
         },
         {
-          "title": "H-REAT-1266-2025 — New Look Builders & Developers Pvt. Ltd. vs LALIT ADVANI",
+          "title": "H-REAT-765-2025 — GURSHARAN KAUR CHADHA vs SIGNATURE GLOBAL INDIA PRIVATE LIMITED",
           "date": "17 Apr 2026",
           "date_iso": "2026-04-17",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzNDk4",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzMzg1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1266-2025_1"
+          "id": "hr_reat_H-REAT-765-2025_1"
         },
         {
           "title": "H-REAT-1270-2025 — New Look Builders & Developers Pvt Ltd vs LALIT ADVANI HUF THROUGH ITS KARTA LALIT ADVANI",
@@ -3018,31 +3027,22 @@
           "id": "hr_reat_H-REAT-1270-2025_2"
         },
         {
-          "title": "H-REAT-601-2023 — Dr Suresh Chand Jain and Another vs TDI INFRASTRUCTURE PVT LTD",
-          "date": "17 Apr 2026",
-          "date_iso": "2026-04-17",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzNzQw",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-601-2023_3"
-        },
-        {
-          "title": "H-REAT-765-2025 — GURSHARAN KAUR CHADHA vs SIGNATURE GLOBAL INDIA PRIVATE LIMITED",
-          "date": "17 Apr 2026",
-          "date_iso": "2026-04-17",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzMzg1",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-765-2025_4"
-        },
-        {
           "title": "H-REAT-908-2024 — RAKESH KUMAR AND ANOTHER vs THE HARYANA REAL ESTATE REGULATORY AUTHORITY GURUGRAM",
           "date": "17 Apr 2026",
           "date_iso": "2026-04-17",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk0MDQx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-908-2024_5"
+          "id": "hr_reat_H-REAT-908-2024_3"
+        },
+        {
+          "title": "H-REAT-601-2023 — Dr Suresh Chand Jain and Another vs TDI INFRASTRUCTURE PVT LTD",
+          "date": "17 Apr 2026",
+          "date_iso": "2026-04-17",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzNzQw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-601-2023_4"
         },
         {
           "title": "H-REAT-1268-2025 — New Look Builders & Developers Pvt. Ltd. vs MONA ADVANI",
@@ -3051,25 +3051,34 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzNDk5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1268-2025_6"
+          "id": "hr_reat_H-REAT-1268-2025_5"
         },
         {
-          "title": "H-REAT-331-2025 — Aarcity Builders pvt. ltd. vs ANAND KUMAR MAHESHWARI",
+          "title": "H-REAT-1266-2025 — New Look Builders & Developers Pvt. Ltd. vs LALIT ADVANI",
+          "date": "17 Apr 2026",
+          "date_iso": "2026-04-17",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzNDk4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1266-2025_6"
+        },
+        {
+          "title": "H-REAT-393-2021 — Naveen Tokas vs EMAAR MGF LAND LIMITED",
           "date": "16 Apr 2026",
           "date_iso": "2026-04-16",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzNDY1",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzNTAx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-331-2025_7"
+          "id": "hr_reat_H-REAT-393-2021_7"
         },
         {
-          "title": "H-REAT-779-2022 — Manoj Suneja vs TDI INFRASTRUCTURE PVT LTD",
+          "title": "H-REAT-269-2023 — Manoj Suneja vs TDI INFRASTRUCTURE PVT LTD",
           "date": "16 Apr 2026",
           "date_iso": "2026-04-16",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzNDYx",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzNDU5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-779-2022_8"
+          "id": "hr_reat_H-REAT-269-2023_8"
         },
         {
           "title": "H-REAT-472-2019 — TDI Infrastructure Ltd vs MANOJ SUNEJA",
@@ -3081,40 +3090,40 @@
           "id": "hr_reat_H-REAT-472-2019_9"
         },
         {
-          "title": "H-REAT-393-2021 — Naveen Tokas vs EMAAR MGF LAND LIMITED",
-          "date": "16 Apr 2026",
-          "date_iso": "2026-04-16",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzNTAx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-393-2021_10"
-        },
-        {
-          "title": "H-REAT-269-2023 — Manoj Suneja vs TDI INFRASTRUCTURE PVT LTD",
-          "date": "16 Apr 2026",
-          "date_iso": "2026-04-16",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzNDU5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-269-2023_11"
-        },
-        {
-          "title": "H-REAT-329-2025 — Aarcity Builders pvt. ltd. vs SURENDER KUMAR",
-          "date": "16 Apr 2026",
-          "date_iso": "2026-04-16",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzNDYz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-329-2025_12"
-        },
-        {
           "title": "H-REAT-724-2023 — RINKU KHANCHI vs S S GROUP PVT LTD",
           "date": "16 Apr 2026",
           "date_iso": "2026-04-16",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzNTAy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-724-2023_13"
+          "id": "hr_reat_H-REAT-724-2023_10"
+        },
+        {
+          "title": "H-REAT-331-2025 — Aarcity Builders pvt. ltd. vs ANAND KUMAR MAHESHWARI",
+          "date": "16 Apr 2026",
+          "date_iso": "2026-04-16",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzNDY1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-331-2025_11"
+        },
+        {
+          "title": "H-REAT-779-2022 — Manoj Suneja vs TDI INFRASTRUCTURE PVT LTD",
+          "date": "16 Apr 2026",
+          "date_iso": "2026-04-16",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzNDYx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-779-2022_12"
+        },
+        {
+          "title": "H-REAT-329-2025 — Aarcity Builders pvt. ltd. vs SURENDER KUMAR",
+          "date": "16 Apr 2026",
+          "date_iso": "2026-04-16",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzNDYy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-329-2025_13"
         },
         {
           "title": "H-REAT-330-2025 — Aarcity Builders pvt. ltd. vs ANAND KUMAR MAHESHWARI",
@@ -3162,22 +3171,22 @@
           "id": "hr_reat_H-REAT-1027-2025_18"
         },
         {
-          "title": "H-REAT-449-2025 — Vinod Kumar vs SRS REAL INFRASTRUCTURE PVT LTD THROUGH RESOLUTION PROFESSIONAL",
-          "date": "10 Apr 2026",
-          "date_iso": "2026-04-10",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzMTYw",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-449-2025_19"
-        },
-        {
           "title": "H-REAT-528-2025 — Anil Kumar vs SRS REAL INFRASTRUCTURE PVT LTD THROUGH RESOLUTION PROFESSIONAL",
           "date": "10 Apr 2026",
           "date_iso": "2026-04-10",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzMTYx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-528-2025_20"
+          "id": "hr_reat_H-REAT-528-2025_19"
+        },
+        {
+          "title": "H-REAT-449-2025 — Vinod Kumar vs SRS REAL INFRASTRUCTURE PVT LTD THROUGH RESOLUTION PROFESSIONAL",
+          "date": "10 Apr 2026",
+          "date_iso": "2026-04-10",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkzMTYw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-449-2025_20"
         },
         {
           "title": "H-REAT-604-2023 — Sekhar Ramadurai vs NEO DEVELOPERS PVT LTD",
@@ -3198,49 +3207,49 @@
           "id": "hr_reat_H-REAT-281-2024_22"
         },
         {
-          "title": "H-REAT-386-2024 — Ms IREO Grace Realtech Pvt Ltd vs G V CHANANA",
+          "title": "H-REAT-391-2024 — Ms Ireo Victory Valley Pvt Ltd vs CHANDAN KHAITAN",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzI0",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-386-2024_23"
+          "id": "hr_reat_H-REAT-391-2024_23"
         },
         {
-          "title": "H-REAT-228-2024 — Ms IREO Grace Realtech Pvt Ltd vs NITIN AGGARWAL AND ANIL KUMAR",
+          "title": "H-REAT-775-2024 — Express Projects Pvt Ltd and Anr vs BIMLA AND ANOTHER",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzI1",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkyMDk1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-228-2024_24"
+          "id": "hr_reat_H-REAT-775-2024_24"
         },
         {
-          "title": "H-REAT-374-2024 — Ms Ireo Victory Valley Pvt Ltd vs ANISH MUKKER AND TRUPTI MUKKER",
+          "title": "H-REAT-778-2024 — Express Projects Pvt Ltd and Anr vs PRIYANKA ARORA",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzE5",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkyMDc1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-374-2024_25"
+          "id": "hr_reat_H-REAT-778-2024_25"
         },
         {
-          "title": "H-REAT-785-2024 — Express Projects Pvt Ltd and Anr vs SUVERCHA BHARDWAJ AND ANOTHER",
+          "title": "H-REAT-781-2024 — Express Projects Pvt Ltd and Anr vs SHASHANK JAIN AND ANR",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkyMDgx",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkyMDc3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-785-2024_26"
+          "id": "hr_reat_H-REAT-781-2024_26"
         },
         {
-          "title": "H-REAT-216-2024 — Ramprastha Developers Pvt Ltd vs UMA DEVI LAKHOTIYA",
+          "title": "H-REAT-782-2024 — Express Projects Pvt Ltd and Anr vs SACHIN SHARMA AND ANOTHER",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkyMzc2",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkyMDc4",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-216-2024_27"
+          "id": "hr_reat_H-REAT-782-2024_27"
         },
         {
           "title": "H-REAT-783-2024 — Express Projects Pvt Ltd and Anr vs NEERAJ GAUTAM AND ANOTHER",
@@ -3252,31 +3261,22 @@
           "id": "hr_reat_H-REAT-783-2024_28"
         },
         {
-          "title": "H-REAT-782-2024 — Express Projects Pvt Ltd and Anr vs SACHIN SHARMA AND ANOTHER",
+          "title": "H-REAT-785-2024 — Express Projects Pvt Ltd and Anr vs SUVERCHA BHARDWAJ AND ANOTHER",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkyMDc4",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkyMDgx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-782-2024_29"
+          "id": "hr_reat_H-REAT-785-2024_29"
         },
         {
-          "title": "H-REAT-781-2024 — Express Projects Pvt Ltd and Anr vs SHASHANK JAIN AND ANR",
+          "title": "H-REAT-386-2024 — Ms IREO Grace Realtech Pvt Ltd vs G V CHANANA",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkyMDc3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzI0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-781-2024_30"
-        },
-        {
-          "title": "H-REAT-778-2024 — Express Projects Pvt Ltd and Anr vs PRIYANKA ARORA",
-          "date": "06 Apr 2026",
-          "date_iso": "2026-04-06",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkyMDc1",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-778-2024_31"
+          "id": "hr_reat_H-REAT-386-2024_30"
         },
         {
           "title": "H-REAT-776-2024 — Express Projects Pvt Ltd and Anr vs SUMAN SHARMA AND ANOTHER",
@@ -3285,34 +3285,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkyMDcz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-776-2024_32"
+          "id": "hr_reat_H-REAT-776-2024_31"
         },
         {
-          "title": "H-REAT-775-2024 — Express Projects Pvt Ltd and Anr vs BIMLA AND ANOTHER",
+          "title": "H-REAT-374-2024 — Ms Ireo Victory Valley Pvt Ltd vs ANISH MUKKER AND TRUPTI MUKKER",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkyMDk1",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzE5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-775-2024_33"
-        },
-        {
-          "title": "H-REAT-391-2024 — Ms Ireo Victory Valley Pvt Ltd vs CHANDAN KHAITAN",
-          "date": "06 Apr 2026",
-          "date_iso": "2026-04-06",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-391-2024_34"
-        },
-        {
-          "title": "H-REAT-215-2024 — Ramprastha Developers Pvt Ltd vs DEEPIKA LAKHOTIYA",
-          "date": "06 Apr 2026",
-          "date_iso": "2026-04-06",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkyMzc0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-215-2024_35"
+          "id": "hr_reat_H-REAT-374-2024_32"
         },
         {
           "title": "H-REAT-183-2024 — Ms IREO Grace Realtech Pvt Ltd vs BHANU MARWAHA AND MONA MARWAHA",
@@ -3321,7 +3303,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-183-2024_36"
+          "id": "hr_reat_H-REAT-183-2024_33"
         },
         {
           "title": "H-REAT-407-2024 — Ms Ireo Victory Valley Pvt Ltd vs BABUL KUMAR GANGULI AND BARNALI GANGULY",
@@ -3330,16 +3312,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-407-2024_37"
-        },
-        {
-          "title": "H-REAT-211-2024 — Ms IREO Grace Realtech Pvt Ltd vs SONIKA SEHGAL",
-          "date": "06 Apr 2026",
-          "date_iso": "2026-04-06",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-211-2024_38"
+          "id": "hr_reat_H-REAT-407-2024_34"
         },
         {
           "title": "H-REAT-13-2023 — Roshni Builders Private Limited vs RAVI KUMAR KEJRIWAL",
@@ -3348,7 +3321,25 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzE2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-13-2023_39"
+          "id": "hr_reat_H-REAT-13-2023_35"
+        },
+        {
+          "title": "H-REAT-211-2024 — Ms IREO Grace Realtech Pvt Ltd vs SONIKA SEHGAL",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzIy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-211-2024_36"
+        },
+        {
+          "title": "H-REAT-228-2024 — Ms IREO Grace Realtech Pvt Ltd vs NITIN AGGARWAL AND ANIL KUMAR",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzI1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-228-2024_37"
         },
         {
           "title": "H-REAT-72-2024 — Ms IREO GRACE REALTECH PVT LTD vs LOVNISH KHANDUJA",
@@ -3357,16 +3348,34 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxNzE3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-72-2024_40"
+          "id": "hr_reat_H-REAT-72-2024_38"
         },
         {
-          "title": "H-REAT-50-2023 — Vikas Chandra vs MS PURI CONSTRUCTIONS PVT LTD",
+          "title": "H-REAT-784-2024 — Express Projects Pvt Ltd and Anr vs SUJATA KUMARI AND ANOTHER",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxODE3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkyMDgw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-50-2023_41"
+          "id": "hr_reat_H-REAT-784-2024_39"
+        },
+        {
+          "title": "H-REAT-215-2024 — Ramprastha Developers Pvt Ltd vs DEEPIKA LAKHOTIYA",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkyMzc0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-215-2024_40"
+        },
+        {
+          "title": "H-REAT-216-2024 — Ramprastha Developers Pvt Ltd vs UMA DEVI LAKHOTIYA",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkyMzc2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-216-2024_41"
         },
         {
           "title": "H-REAT-909-2025 — Parvesh vs GODREJ HIGHVIEW LLP",
@@ -3387,13 +3396,13 @@
           "id": "hr_reat_H-REAT-55-2023_43"
         },
         {
-          "title": "H-REAT-784-2024 — Express Projects Pvt Ltd and Anr vs SUJATA KUMARI AND ANOTHER",
+          "title": "H-REAT-50-2023 — Vikas Chandra vs MS PURI CONSTRUCTIONS PVT LTD",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkyMDgw",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MjkxODE3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-784-2024_44"
+          "id": "hr_reat_H-REAT-50-2023_44"
         },
         {
           "title": "H-REAT-12-2025 — MS STERNAL BUILDCON PRIVATE LIMITED vs RAJESH KUMARI",
@@ -3522,10 +3531,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 4,
-      "docs_with_pdf": 4,
+      "doc_count": 7,
+      "docs_with_pdf": 7,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Approval of Resolution Plan - Indrajit Power Private Limited [IA. (IBC)(Plan) No. 126 of 2025 in C.P (IB) No. 884/MB/2023] (258.31 KB)",
+          "date": "20 Apr 2026",
+          "date_iso": "2026-04-20",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/5d43461982204c5f8900a3eb0ca2c6fd.pdf",
+          "has_pdf": true,
+          "id": "ibbi_res_5d43461982204c5f8900a3eb0ca2c6fd_pdf"
+        },
+        {
+          "title": "Approval of Resolution Plan - SDF Industries Limited [IA (IBC)(Plan)/01/KOB/2026 in CP (IBC)/21/KOB/2024] (4.87 MB)",
+          "date": "16 Apr 2026",
+          "date_iso": "2026-04-16",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-04-20-112616-a87g1-a8138faeeea3b5ced357bec84c4e67df.pdf",
+          "has_pdf": true,
+          "id": "ibbi_res_2026_04_20_112616_a87g1_a8138faeeea3b5ce"
+        },
         {
           "title": "Approval of Resolution Plan - Universal Construction Machinery and Equipment Limited [I.A. (Plan) No. 79 of 2025 in CP (IB) NO. 1121 of 2022] (664.53 KB)",
           "date": "08 Apr 2026",
@@ -3534,6 +3561,15 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/c4ab7afb7db3c89c06783fff811a5674.pdf",
           "has_pdf": true,
           "id": "ibbi_res_c4ab7afb7db3c89c06783fff811a5674_pdf"
+        },
+        {
+          "title": "Approval of Resolution Plan - Samson and Sons Builders and Developers Private Limited [IA (IBC)(Plan)/03 & 05/KOB/2024 in CP (IB)/05/KOB/2021] (248.88 KB)",
+          "date": "08 Apr 2026",
+          "date_iso": "2026-04-08",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/72ee2e43f70bdb4a5d7931fc281389f6.pdf",
+          "has_pdf": true,
+          "id": "ibbi_res_72ee2e43f70bdb4a5d7931fc281389f6_pdf"
         },
         {
           "title": "Approval of Resolution Plan - Kute Sons Fresh Dairy Private Limited [IA (IBC) (PLAN) No. 10 of 2026 in CP (IB) 246 of 2025] (626.94 KB)",
@@ -3545,15 +3581,6 @@
           "id": "ibbi_res_545c0fd23f2f1cbae559b0ecfafc41cd_pdf"
         },
         {
-          "title": "Approval of Resolution Plan - Esteem Press Parts Private Limited [IA (IBC) (Plan) No. 137 of 2025 in CP (IB) 997 of 2024] (848.95 KB)",
-          "date": "06 Apr 2026",
-          "date_iso": "2026-04-06",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/c426f757bf68a2cb612f75d4e5792cdb.pdf",
-          "has_pdf": true,
-          "id": "ibbi_res_c426f757bf68a2cb612f75d4e5792cdb_pdf"
-        },
-        {
           "title": "Approval of Resolution Plan - Vijaygroup Realty LLP [I.A. 72 of 2025 in C.P.(IB)/4359 (MB)/C-III/2019] (401.83 KB)",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
@@ -3561,6 +3588,15 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/dd4b771b091b1c8ad6834c00d99e775a.pdf",
           "has_pdf": true,
           "id": "ibbi_res_dd4b771b091b1c8ad6834c00d99e775a_pdf"
+        },
+        {
+          "title": "Approval of Resolution Plan - Esteem Press Parts Private Limited [IA (IBC) (Plan) No. 137 of 2025 in CP (IB) 997 of 2024] (848.95 KB)",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/c426f757bf68a2cb612f75d4e5792cdb.pdf",
+          "has_pdf": true,
+          "id": "ibbi_res_c426f757bf68a2cb612f75d4e5792cdb_pdf"
         }
       ]
     },
@@ -3571,8 +3607,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 39,
-      "docs_with_pdf": 39,
+      "doc_count": 38,
+      "docs_with_pdf": 38,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -3585,24 +3621,6 @@
           "id": "ibbi_adm_2026_04_21_120610_xzbfj_2443b87e82f33a9f"
         },
         {
-          "title": "In the matter of NEELKANTH REALTORS LIMITED [C.P.(IB)/747(MB)2025] (976.35 KB)",
-          "date": "17 Apr 2026",
-          "date_iso": "2026-04-17",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/d17f07263f639925f7f8aa268455f8a6.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_d17f07263f639925f7f8aa268455f8a6_pdf"
-        },
-        {
-          "title": "In the matter of HARSHIL AGROTECH LIMITED [C.P. (IB)/97/AHM/2026] (1.16 MB)",
-          "date": "17 Apr 2026",
-          "date_iso": "2026-04-17",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/00df5a83af3416bcda2fb6b286ac68aa.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_00df5a83af3416bcda2fb6b286ac68aa_pdf"
-        },
-        {
           "title": "In the matter of NEO MICRONS PRIVATE LIMITED [C.P.(IB)/89(AHM)2026] (598.91 KB)",
           "date": "17 Apr 2026",
           "date_iso": "2026-04-17",
@@ -3610,15 +3628,6 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/04f2ccaf2a5b2801dc52d5a9594a5d35.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_04f2ccaf2a5b2801dc52d5a9594a5d35_pdf"
-        },
-        {
-          "title": "In the matter of CARDIAC CARE AND ALLIED HEALTH PRIVATE LIMITED [CP No.(IB) - 19/9/JPR/2023] (11.05 MB)",
-          "date": "17 Apr 2026",
-          "date_iso": "2026-04-17",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/82b637c71fef46cf4fda38ca395e16d6.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_82b637c71fef46cf4fda38ca395e16d6_pdf"
         },
         {
           "title": "In the matter of WIZ LOGTEC INDIA PRIVATE LIMITED [C.P. (IB)/353(CHE)2025] (1.09 MB)",
@@ -3630,6 +3639,33 @@
           "id": "ibbi_adm_67a263a43a045f01caa508a5c699fdea_pdf"
         },
         {
+          "title": "In the matter of HARSHIL AGROTECH LIMITED [C.P. (IB)/97/AHM/2026] (1.16 MB)",
+          "date": "17 Apr 2026",
+          "date_iso": "2026-04-17",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/00df5a83af3416bcda2fb6b286ac68aa.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_00df5a83af3416bcda2fb6b286ac68aa_pdf"
+        },
+        {
+          "title": "In the matter of NEELKANTH REALTORS LIMITED [C.P.(IB)/747(MB)2025] (976.35 KB)",
+          "date": "17 Apr 2026",
+          "date_iso": "2026-04-17",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/d17f07263f639925f7f8aa268455f8a6.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_d17f07263f639925f7f8aa268455f8a6_pdf"
+        },
+        {
+          "title": "In the matter of CARDIAC CARE AND ALLIED HEALTH PRIVATE LIMITED [CP No.(IB) - 19/9/JPR/2023] (11.05 MB)",
+          "date": "17 Apr 2026",
+          "date_iso": "2026-04-17",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/82b637c71fef46cf4fda38ca395e16d6.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_82b637c71fef46cf4fda38ca395e16d6_pdf"
+        },
+        {
           "title": "In the matter of JLA INFRAVILLE SHOPPERS LIMITED [332/BB/2025] (292.63 KB)",
           "date": "16 Apr 2026",
           "date_iso": "2026-04-16",
@@ -3639,15 +3675,6 @@
           "id": "ibbi_adm_426a195b42eccc62997085a2b85de8e0_pdf"
         },
         {
-          "title": "In the matter of INDO SHELL MOULD LIMITED [CP(IB)/59(CHE)/2025 ] (1.22 MB)",
-          "date": "15 Apr 2026",
-          "date_iso": "2026-04-15",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2bd93121b33c470588b1729993c06fa3.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2bd93121b33c470588b1729993c06fa3_pdf"
-        },
-        {
           "title": "In the matter of VURUPA TRADING PRIVATE LIMITED [CP(IB) No 118/BB/2025] (381.74 KB)",
           "date": "15 Apr 2026",
           "date_iso": "2026-04-15",
@@ -3655,6 +3682,15 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/d2372822efa46090b30f73c27473bfe7.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_d2372822efa46090b30f73c27473bfe7_pdf"
+        },
+        {
+          "title": "In the matter of INDO SHELL MOULD LIMITED [CP(IB)/59(CHE)/2025 ] (1.22 MB)",
+          "date": "15 Apr 2026",
+          "date_iso": "2026-04-15",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2bd93121b33c470588b1729993c06fa3.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2bd93121b33c470588b1729993c06fa3_pdf"
         },
         {
           "title": "In the matter of VIVIMED LABS LIMITED [C.P. (IB)/91/BEN/2025] (286.83 KB)",
@@ -3756,33 +3792,6 @@
           "id": "ibbi_adm_2026_04_09_194640_nyh6g_5c84d69c85cbc0a0"
         },
         {
-          "title": "In the matter of IMAGINE HABITAT PRIVATE LIMITED [CP (IB)-30/(ND)/2026] (3.7 MB)",
-          "date": "07 Apr 2026",
-          "date_iso": "2026-04-07",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/5c84d69c85cbc0a05f67ea71ee17e4f8.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_5c84d69c85cbc0a05f67ea71ee17e4f8_pdf"
-        },
-        {
-          "title": "In the matter of GREVEK INVESTMENTS AND FINANCE PRIVATE LIMITED [C.P. (IB)/260(MB)2024] (956.73 KB)",
-          "date": "07 Apr 2026",
-          "date_iso": "2026-04-07",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-04-09-172544-5tbid-a240fa27925a635b08dc28c9e4f9216d.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2026_04_09_172544_5tbid_a240fa27925a635b"
-        },
-        {
-          "title": "In the matter of LET'S JUMP TRAMPOLINE AND ADVENTURE PRIVATE LIMITED [C.P.(IB)/41 (AHM) 2026] (10.69 MB)",
-          "date": "06 Apr 2026",
-          "date_iso": "2026-04-06",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/0228a26d397f541f0d0b51e860b248ee.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_0228a26d397f541f0d0b51e860b248ee_pdf"
-        },
-        {
           "title": "In the matter of Marveledge Realtors Private Limited [C.P. (IB)/732/MB/2025] (818.51 KB)",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
@@ -3799,6 +3808,15 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/1d8d095e4edd80c7d533f9da7df9e9ec.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_1d8d095e4edd80c7d533f9da7df9e9ec_pdf"
+        },
+        {
+          "title": "In the matter of LET'S JUMP TRAMPOLINE AND ADVENTURE PRIVATE LIMITED [C.P.(IB)/41 (AHM) 2026] (10.69 MB)",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/0228a26d397f541f0d0b51e860b248ee.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_0228a26d397f541f0d0b51e860b248ee_pdf"
         },
         {
           "title": "In the matter of TRANSCON BUILDCON PRIVATE LIMITED [C.P. (IB)/697/MB/2025] (750.51 KB)",
@@ -3819,6 +3837,15 @@
           "id": "ibbi_adm_2026_04_09_083910_y42lq_a240fa27925a635b"
         },
         {
+          "title": "In the matter of Transcon Buildcon Private Limited [IA (I.B.C)/5793(MB)2025 with C.P. (IB)/697(MB)2025] (685.11 KB)",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/dd4fdc68726f2f071517a5d31be6ac37.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_dd4fdc68726f2f071517a5d31be6ac37_pdf"
+        },
+        {
           "title": "In the matter of MARVELEDGE REALTORS PRIVATE LIMITED [C.P. (IB)/732/MB/2025] (861.64 KB)",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
@@ -3837,6 +3864,15 @@
           "id": "ibbi_adm_2026_04_13_123405_e7aj4_e30088f48d2c18e1"
         },
         {
+          "title": "In the matter of Let's Jump Trampoline and Adventure Pvt. Ltd. [IA/423(AHM)2026 in CP (IB)/41(AHM)/2026] (10.69 MB)",
+          "date": "06 Apr 2026",
+          "date_iso": "2026-04-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/dc8f32e0a0ff8a53446f5464fd1fbb9e.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_dc8f32e0a0ff8a53446f5464fd1fbb9e_pdf"
+        },
+        {
           "title": "In the matter of MADHUVAN TIEUP PVT LTD [CP (IB)- 25/ND/2023] (518.53 KB)",
           "date": "06 Apr 2026",
           "date_iso": "2026-04-06",
@@ -3844,51 +3880,6 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/da2d10dca17281c715f8a282d8f35dbc.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_da2d10dca17281c715f8a282d8f35dbc_pdf"
-        },
-        {
-          "title": "In the matter of E.K.S. Spinners Private Limited [CP(IB)/201(CHE)/2025] (923.2 KB)",
-          "date": "02 Apr 2026",
-          "date_iso": "2026-04-02",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/362ced2e13e0578054c4fc6061c719fd.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_362ced2e13e0578054c4fc6061c719fd_pdf"
-        },
-        {
-          "title": "In the matter of Candid Industries Limited [CP/109/IB/CB/2025] (1.31 MB)",
-          "date": "02 Apr 2026",
-          "date_iso": "2026-04-02",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/f5b8f6805700d26e0d1d9fde1a417fb8.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_f5b8f6805700d26e0d1d9fde1a417fb8_pdf"
-        },
-        {
-          "title": "In the matter of VANATHI EXPORTS PRIVATE LIMITED [CP/IB/140/CHE/2023] (801.29 KB)",
-          "date": "02 Apr 2026",
-          "date_iso": "2026-04-02",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-04-13-140902-zuyax-ae4ee124911418180cad93ef016a5d83.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2026_04_13_140902_zuyax_ae4ee12491141818"
-        },
-        {
-          "title": "In the matter of Sri Vinayakha Spinning Mills Private Limited [CP(IB)/184(CHE)/2025] (1.3 MB)",
-          "date": "02 Apr 2026",
-          "date_iso": "2026-04-02",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-04-10-181423-53ju4-80cedabd506f7d0a4295b9561b17fa2b.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2026_04_10_181423_53ju4_80cedabd506f7d0a"
-        },
-        {
-          "title": "In the matter of E.K.S. SPINNERS PRIVATE LIMITED [C.P. (IB)/201/CHE/2025] (922.18 KB)",
-          "date": "02 Apr 2026",
-          "date_iso": "2026-04-02",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/fb5b1ec7749a224ddfabc3dc171c4c9e.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_fb5b1ec7749a224ddfabc3dc171c4c9e_pdf"
         },
         {
           "title": "In the matter of HERO ELECTRIC VEHICLES PRIVATE LIMITED [CP(IB)/397/2024] (622.51 KB)",
@@ -3909,6 +3900,51 @@
           "id": "ibbi_adm_2026_04_08_115333_qhsiw_3ddd51d7476a8546"
         },
         {
+          "title": "In the matter of E.K.S. Spinners Private Limited [CP(IB)/201(CHE)/2025] (923.2 KB)",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/362ced2e13e0578054c4fc6061c719fd.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_362ced2e13e0578054c4fc6061c719fd_pdf"
+        },
+        {
+          "title": "In the matter of Candid Industries Limited [CP/109/IB/CB/2025] (1.31 MB)",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/f5b8f6805700d26e0d1d9fde1a417fb8.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_f5b8f6805700d26e0d1d9fde1a417fb8_pdf"
+        },
+        {
+          "title": "In the matter of E.K.S. SPINNERS PRIVATE LIMITED [C.P. (IB)/201/CHE/2025] (922.18 KB)",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/fb5b1ec7749a224ddfabc3dc171c4c9e.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_fb5b1ec7749a224ddfabc3dc171c4c9e_pdf"
+        },
+        {
+          "title": "In the matter of Sri Vinayakha Spinning Mills Private Limited [CP(IB)/184(CHE)/2025] (1.3 MB)",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-04-10-181423-53ju4-80cedabd506f7d0a4295b9561b17fa2b.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_04_10_181423_53ju4_80cedabd506f7d0a"
+        },
+        {
+          "title": "In the matter of VANATHI EXPORTS PRIVATE LIMITED [CP/IB/140/CHE/2023] (801.29 KB)",
+          "date": "02 Apr 2026",
+          "date_iso": "2026-04-02",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-04-13-140902-zuyax-ae4ee124911418180cad93ef016a5d83.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_04_13_140902_zuyax_ae4ee12491141818"
+        },
+        {
           "title": "In the matter of S. Kasi Viswanathan, [I.A. No. 708/2025 in C.P.(IB) No. 133/BB/2025] (234.47 KB)",
           "date": "01 Apr 2026",
           "date_iso": "2026-04-01",
@@ -3916,15 +3952,6 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/4d644fd1c9b35b193d4ba03fa3bcd0f0.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_4d644fd1c9b35b193d4ba03fa3bcd0f0_pdf"
-        },
-        {
-          "title": "In the matter of S. Kasi Viswanathan, [I.A. No. 709/2025 in C.P.(IB) No. 134/BB/2025] (234.41 KB)",
-          "date": "01 Apr 2026",
-          "date_iso": "2026-04-01",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/304b48562aae432519195b02fd3a214a.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_304b48562aae432519195b02fd3a214a_pdf"
         }
       ]
     },
@@ -3936,8 +3963,8 @@
       "status": "ok",
       "error": null,
       "doc_count": 16,
-      "docs_with_pdf": 10,
-      "docs_without_pdf": 6,
+      "docs_with_pdf": 12,
+      "docs_without_pdf": 4,
       "documents": [
         {
           "title": "[M.12335] ARMIRA / INVEST KG / AVILOO",
@@ -3953,8 +3980,8 @@
           "date": "21 Apr 2026",
           "date_iso": "2026-04-21",
           "page_url": "https://competition-cases.ec.europa.eu/cases/M.12379",
-          "pdf_url": "",
-          "has_pdf": false,
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202617/M_12379_44.pdf",
+          "has_pdf": true,
           "id": "eu_m_M_12379"
         },
         {
@@ -3962,8 +3989,8 @@
           "date": "20 Apr 2026",
           "date_iso": "2026-04-20",
           "page_url": "https://competition-cases.ec.europa.eu/cases/M.12345",
-          "pdf_url": "",
-          "has_pdf": false,
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202617/M_12345_59.pdf",
+          "has_pdf": true,
           "id": "eu_m_M_12345"
         },
         {
@@ -4098,8 +4125,8 @@
       "documents": [
         {
           "title": "[AT.41034] Exclusion of AI competitors from WhatsApp",
-          "date": "15 Apr 2026",
-          "date_iso": "2026-04-15",
+          "date": "14 Apr 2026",
+          "date_iso": "2026-04-14",
           "page_url": "https://competition-cases.ec.europa.eu/cases/AT.41034",
           "pdf_url": "https://ec.europa.eu/competition/antitrust/cases1/202551/AT_41034_23.pdf",
           "has_pdf": true,
@@ -4965,10 +4992,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "ADGMCFI-2025-262 — Sowwah Square Investment – Sole Proprietorship  L.L.C. v. Forever Rose Retail Limited",
+          "date": "22 Apr 2026",
+          "date_iso": "2026-04-22",
+          "page_url": "https://www.adgm.com/adgm-courts/judgments",
+          "pdf_url": "https://assets.adgm.com/download/assets/ADGMCFI-2025-262+-+Judgment+%28Summary+Judgment+Application%29+-2026-+ADGMCFI+0013+SEALED.pdf/2d77b04e3e3011f19307e64efd5e0ffd",
+          "has_pdf": true,
+          "id": "adgm_ADGMCFI-2025-262"
+        },
         {
           "title": "ADGMCFI-2020-020 — NMC Healthcare LTD and associated companies",
           "date": "15 Apr 2026",
@@ -5138,10 +5174,37 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 5,
-      "docs_with_pdf": 5,
+      "doc_count": 8,
+      "docs_with_pdf": 8,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Halley v Smith and another: [2026] EAT 56",
+          "date": "17 Apr 2026",
+          "date_iso": "2026-04-17",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/halley-v-smith-and-another-2026-eat-56",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69e897e820a498c16734add3/Halley_v_Smith_and_another__2026__EAT_56.pdf",
+          "has_pdf": true,
+          "id": "govuk_al-tribunal-decisions_halley-v-smith-and-another-2026-eat-56"
+        },
+        {
+          "title": "Mr I Bickley v John Lewis PLC: [2026] EAT 59",
+          "date": "22 Apr 2026",
+          "date_iso": "2026-04-22",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/mr-i-bickley-v-john-lewis-plc-2026-eat-59",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69e8939e606c20d412163218/Mr_I_Bickley_v_John_Lewis_PLC__2026__EAT_59.pdf",
+          "has_pdf": true,
+          "id": "govuk_tribunal-decisions_mr-i-bickley-v-john-lewis-plc-2026-eat-59"
+        },
+        {
+          "title": "QRS v London Borough of Tower Hamlets and others: [2026] EAT 60",
+          "date": "22 Apr 2026",
+          "date_iso": "2026-04-22",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/qrs-v-london-borough-of-tower-hamlets-and-others-2026-eat-60",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69e8a22208ecdb5c6f34adc7/QRS_v_London_Borough_of_Tower_Hamlets_and_others__2026__EAT_60.pdf",
+          "has_pdf": true,
+          "id": "govuk_qrs-v-london-borough-of-tower-hamlets-and-others-2026-eat-60"
+        },
         {
           "title": "Ms M Mulumba v 1) Partners Group (UK) Ltd 2) Partners Group (USA) Inc: [2026] EAT 53",
           "date": "21 Apr 2026",
@@ -5217,7 +5280,7 @@
           "date": "14 Apr 2026",
           "date_iso": "2026-04-14",
           "page_url": "https://tribunalsdecisions.service.gov.uk/utiac/2026-ukut-00150",
-          "pdf_url": "https://cloud-platform-a3746548e43b85309785c70a0876e95c.s3-eu-west-1.amazonaws.com/decision/pdf_file/84577/00150_ukut_iac_2026_AK___Ors_Iraq_CG.pdf?X-Amz-Expires=600&X-Amz-Date=20260422T080133Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA27HJSWAHNYGRJ42F/20260422/eu-west-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=92554ebf2e41fcf6d3bf96351e0491313f3fe7aedd766031e4c9590d95df5acc",
+          "pdf_url": "https://cloud-platform-a3746548e43b85309785c70a0876e95c.s3-eu-west-1.amazonaws.com/decision/pdf_file/84577/00150_ukut_iac_2026_AK___Ors_Iraq_CG.pdf?X-Amz-Expires=600&X-Amz-Date=20260422T140252Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA27HJSWAHNYGRJ42F/20260422/eu-west-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=3bd2f1c26dbf188320cd3f7b4f7edbbcb31a1cad61a11840f67d776d8ba310c3",
           "has_pdf": true,
           "id": "utiac_utiac_2026-ukut-00150"
         }
@@ -5319,10 +5382,37 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 16,
-      "docs_with_pdf": 16,
+      "doc_count": 19,
+      "docs_with_pdf": 19,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Meydan Asset Management Ltd v The Commissioners for HMRC",
+          "date": "21 Apr 2026",
+          "date_iso": "2026-04-21",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/613",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-9aa2342e-0f33-4a94-9597-3eed9f72b50f/d-9aa2342e-0f33-4a94-9597-3eed9f72b50f.pdf",
+          "has_pdf": true,
+          "id": "na_613"
+        },
+        {
+          "title": "Chester Lettings Limited v The Commissioners for HMRC",
+          "date": "21 Apr 2026",
+          "date_iso": "2026-04-21",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/614",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-5c2093d5-ebe9-413d-82e9-79c501421e4c/d-5c2093d5-ebe9-413d-82e9-79c501421e4c.pdf",
+          "has_pdf": true,
+          "id": "na_614"
+        },
+        {
+          "title": "Rune Madsen v The Commissioners for HMRC",
+          "date": "21 Apr 2026",
+          "date_iso": "2026-04-21",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/615",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-0e46b9b0-ba0e-4a1d-8b36-5f0117cf2503/d-0e46b9b0-ba0e-4a1d-8b36-5f0117cf2503.pdf",
+          "has_pdf": true,
+          "id": "na_615"
+        },
         {
           "title": "Pacfic Computers Limited v The Commissioners for HMRC",
           "date": "17 Apr 2026",
