@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-05-01 08:22:43 UTC",
-  "finished_at": "2026-05-01 08:32:21 UTC",
-  "duration_seconds": 578.3,
+  "started_at": "2026-05-01 13:45:58 UTC",
+  "finished_at": "2026-05-01 13:55:22 UTC",
+  "duration_seconds": 563.3,
   "date_range": {
     "from": "2026-05-01",
     "to": "2026-05-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 0,
-  "sources_error": 6,
-  "sources_empty": 87,
-  "total_documents": 0,
-  "docs_with_pdf": 0,
+  "sources_ok": 2,
+  "sources_error": 7,
+  "sources_empty": 84,
+  "total_documents": 2,
+  "docs_with_pdf": 2,
   "docs_without_pdf": 0,
   "source_details": [
     {
@@ -488,8 +488,8 @@
       "label": "IRDAI_CIRC",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "The read operation timed out",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -920,12 +920,22 @@
       "label": "UK_CAT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "14407722 Clare Mary Joan Spottiswoode CBE v Nexans France S.A.S. & Others - Ruling (Wider ROC Costs)",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-05/14407722%20Clare%20Mary%20Joan%20Spottiswoode%20CBE%20v%20Nexans%20France%20S.A.S.%20%26%20Others%20-%20Ruling%20%28Wider%20ROC%20Costs%29%20%2001%20May%202026%20.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-05_14407722_Clare_Mary_Joan_Spottiswoode_CB"
+        }
+      ]
     },
     {
       "key": "UK_CMA_MERGERS",
@@ -956,12 +966,22 @@
       "label": "UK_EAT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Mr J Truman v (1) SPL Powerlines UK Ltd (2) Network Rail Infrastructure Ltd (3) Express Medicals Ltd: [2026] EAT 54",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/mr-j-truman-v-1-spl-powerlines-uk-ltd-2-network-rail-infrastructure-ltd-3-express-medicals-ltd-2026-eat-54",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69f468987c02660a84d1ebc5/Mr_J_Truman_v__1__SPL_Powerlines_UK_Ltd__2__Network_Rail_Infrastructure_Ltd__3__Express_Medicals_Ltd__2026__EAT_54.pdf",
+          "has_pdf": true,
+          "id": "govuk_k-rail-infrastructure-ltd-3-express-medicals-ltd-2026-eat-54"
+        }
+      ]
     },
     {
       "key": "UK_ET_SCOT",
