@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-05-01 13:45:58 UTC",
-  "finished_at": "2026-05-01 13:55:22 UTC",
-  "duration_seconds": 563.3,
+  "started_at": "2026-05-01 19:22:33 UTC",
+  "finished_at": "2026-05-01 19:32:24 UTC",
+  "duration_seconds": 591.0,
   "date_range": {
     "from": "2026-05-01",
     "to": "2026-05-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 2,
-  "sources_error": 7,
+  "sources_ok": 3,
+  "sources_error": 6,
   "sources_empty": 84,
-  "total_documents": 2,
-  "docs_with_pdf": 2,
+  "total_documents": 6,
+  "docs_with_pdf": 6,
   "docs_without_pdf": 0,
   "source_details": [
     {
@@ -488,8 +488,8 @@
       "label": "IRDAI_CIRC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "The read operation timed out",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1036,12 +1036,49 @@
       "label": "UK_TAX_FTT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Michael Parker v The Commissioners for HMRC",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/652",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-3891a46b-59d7-4810-a5b9-242d692acfc9/d-3891a46b-59d7-4810-a5b9-242d692acfc9.pdf",
+          "has_pdf": true,
+          "id": "na_652"
+        },
+        {
+          "title": "Top Notch Accountants Limited & Anor v The Commissioners for HMRC",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/653",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-ade2b206-bc10-4c26-ac43-b42014986894/d-ade2b206-bc10-4c26-ac43-b42014986894.pdf",
+          "has_pdf": true,
+          "id": "na_653"
+        },
+        {
+          "title": "British Institute of Technology Limited v The Commissioners for HMRC",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/651",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-bf4bbaa7-304f-4e90-8f5d-2533d8abdd10/d-bf4bbaa7-304f-4e90-8f5d-2533d8abdd10.pdf",
+          "has_pdf": true,
+          "id": "na_651"
+        },
+        {
+          "title": "Professional Game Match Officials Ltd v The Commissioners for HMRC",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/654",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-17589553-77d8-49ec-9a9a-e13a40ea7494/d-17589553-77d8-49ec-9a9a-e13a40ea7494.pdf",
+          "has_pdf": true,
+          "id": "na_654"
+        }
+      ]
     },
     {
       "key": "SEBI_CIRCULARS",
