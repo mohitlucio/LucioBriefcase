@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-05-03 04:00:52 UTC",
-  "finished_at": "2026-05-03 04:10:43 UTC",
-  "duration_seconds": 590.7,
+  "started_at": "2026-05-03 08:10:18 UTC",
+  "finished_at": "2026-05-03 08:20:10 UTC",
+  "duration_seconds": 592.2,
   "date_range": {
     "from": "2026-05-01",
     "to": "2026-05-31"
@@ -489,7 +489,7 @@
       "category": "",
       "website_url": "",
       "status": "error",
-      "error": "The read operation timed out",
+      "error": "HTTP Error 504: Gateway Time-out",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -501,7 +501,7 @@
       "category": "",
       "website_url": "",
       "status": "error",
-      "error": "The read operation timed out",
+      "error": "HTTP Error 504: Gateway Time-out",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
