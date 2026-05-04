@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-05-04 14:22:29 UTC",
-  "finished_at": "2026-05-04 14:31:55 UTC",
-  "duration_seconds": 565.6,
+  "started_at": "2026-05-04 19:50:44 UTC",
+  "finished_at": "2026-05-04 20:00:22 UTC",
+  "duration_seconds": 578.1,
   "date_range": {
     "from": "2026-05-01",
     "to": "2026-05-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 5,
+  "sources_ok": 6,
   "sources_error": 6,
-  "sources_empty": 82,
-  "total_documents": 12,
+  "sources_empty": 81,
+  "total_documents": 13,
   "docs_with_pdf": 11,
-  "docs_without_pdf": 1,
+  "docs_without_pdf": 2,
   "source_details": [
     {
       "key": "RHP",
@@ -762,12 +762,22 @@
       "label": "EU_MERGER",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "[M.12391] OAI / SBG / SB OAI JV",
+          "date": "04 May 2026",
+          "date_iso": "2026-05-04",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12391",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12391"
+        }
+      ]
     },
     {
       "key": "EU_ANTITRUST",
