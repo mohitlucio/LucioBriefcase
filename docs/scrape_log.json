@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-05-04 03:57:46 UTC",
-  "finished_at": "2026-05-04 04:07:36 UTC",
-  "duration_seconds": 590.7,
+  "started_at": "2026-05-04 08:40:09 UTC",
+  "finished_at": "2026-05-04 08:50:01 UTC",
+  "duration_seconds": 592.2,
   "date_range": {
     "from": "2026-05-01",
     "to": "2026-05-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 3,
+  "sources_ok": 4,
   "sources_error": 21,
-  "sources_empty": 69,
-  "total_documents": 6,
-  "docs_with_pdf": 6,
+  "sources_empty": 68,
+  "total_documents": 11,
+  "docs_with_pdf": 11,
   "docs_without_pdf": 0,
   "source_details": [
     {
@@ -800,12 +800,58 @@
       "label": "EPO_BOA",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 5,
+      "docs_with_pdf": 5,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "T 0257/24 — Electrical machine with resonant circuit in shaft grounding",
+          "date": "04 May 2026",
+          "date_iso": "2026-05-04",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240257eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240257eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240257eu1"
+        },
+        {
+          "title": "T 0996/24 — SPIELZEUG",
+          "date": "04 May 2026",
+          "date_iso": "2026-05-04",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240996du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240996du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240996du1"
+        },
+        {
+          "title": "T 0723/24 — GLASS COMPOSITIONS, FIBERIZABLE GLASS COMPOSITIONS, AND GLASS FIBERS MADE THEREFROM",
+          "date": "04 May 2026",
+          "date_iso": "2026-05-04",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240723eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240723eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240723eu1"
+        },
+        {
+          "title": "T 2488/22 — Solar inverter and control method",
+          "date": "04 May 2026",
+          "date_iso": "2026-05-04",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t222488eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t222488eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t222488eu1"
+        },
+        {
+          "title": "T 0377/24 — PACKS OF METAL CONTAINERS",
+          "date": "04 May 2026",
+          "date_iso": "2026-05-04",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240377eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240377eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240377eu1"
+        }
+      ]
     },
     {
       "key": "EDPB_BINDING",
