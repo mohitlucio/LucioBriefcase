@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-05-05 08:22:00 UTC",
-  "finished_at": "2026-05-05 08:31:48 UTC",
-  "duration_seconds": 588.0,
+  "started_at": "2026-05-05 19:46:40 UTC",
+  "finished_at": "2026-05-05 19:56:03 UTC",
+  "duration_seconds": 563.4,
   "date_range": {
     "from": "2026-05-01",
     "to": "2026-05-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 7,
+  "sources_ok": 11,
   "sources_error": 6,
-  "sources_empty": 80,
-  "total_documents": 15,
-  "docs_with_pdf": 11,
-  "docs_without_pdf": 4,
+  "sources_empty": 76,
+  "total_documents": 24,
+  "docs_with_pdf": 17,
+  "docs_without_pdf": 7,
   "source_details": [
     {
       "key": "RHP",
@@ -176,10 +176,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
+      "doc_count": 3,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 2,
+      "docs_without_pdf": 3,
       "documents": [
+        {
+          "title": "Consultation Paper on Draft Circular on Clarification with respect to Applicability of the benefit of Early Pay-In in Commodity Derivatives Segment",
+          "date": "05 May 2026",
+          "date_iso": "2026-05-05",
+          "page_url": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-draft-circular-on-clarification-with-respect-to-applicability-of-the-benefit-of-early-pay-in-in-commodity-derivatives-segment_101257.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "101257"
+        },
         {
           "title": "Consultation paper on Modification in the regulatory framework for Online Bond Platform Providers (OBPPs)",
           "date": "05 May 2026",
@@ -673,12 +682,49 @@
       "label": "HR_REAT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "H-REAT-906-2024 — Shine Buildcon Private Limited vs KAPIL TANDON",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTU0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-906-2024_0"
+        },
+        {
+          "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTQ5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-130-2026_1"
+        },
+        {
+          "title": "H-REAT-131-2026 — M/S DLF LTD vs GAUTAM RANA",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTUw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-131-2026_2"
+        },
+        {
+          "title": "H-REAT-308-2025 — Pankaj Chawla & Another vs AMB INFRAVENTURES PVT LTD",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTY4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-308-2025_3"
+        }
+      ]
     },
     {
       "key": "DL_REAT",
@@ -697,12 +743,22 @@
       "label": "TRAI_DIR",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Order regarding seeking information for conducting village level digital connectivity and usage study",
+          "date": "05 May 2026",
+          "date_iso": "2026-05-05",
+          "page_url": "https://www.trai.gov.in/release-publication/directions",
+          "pdf_url": "https://www.trai.gov.in/sites/default/files/2026-05/Order_05052026.pdf",
+          "has_pdf": true,
+          "id": "trai_dir_order_regarding_seeking_information_for__2026-05-05"
+        }
+      ]
     },
     {
       "key": "TRAI_REG",
@@ -1109,12 +1165,22 @@
       "label": "UK_TAX_CHANCERY",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "UT-2025-000078 [2026] UKUT 00173 (TCC)",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/ut-2025-000078-2026-ukut-00173-tcc",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/69f9f4e4a96f4d06cda76ffb/Furlong_Oral_PTA_Decision__002_.pdf",
+          "has_pdf": true,
+          "id": "govuk_ancery-tribunal-decisions_ut-2025-000078-2026-ukut-00173-tcc"
+        }
+      ]
     },
     {
       "key": "UK_TAX_FTT",
@@ -1170,12 +1236,31 @@
       "label": "SEBI_CIRCULARS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 2,
+      "documents": [
+        {
+          "title": "‘Significant Indices’ under SEBI (Index Providers) Regulations, 2024",
+          "date": "05 May 2026",
+          "date_iso": "2026-05-05",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/may-2026/-significant-indices-under-sebi-index-providers-regulations-2024_101271.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "101271"
+        },
+        {
+          "title": "Advisory on Emerging Advanced Artificial Intelligence (AI) Tools for Vulnerability Detection",
+          "date": "05 May 2026",
+          "date_iso": "2026-05-05",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/may-2026/advisory-on-emerging-advanced-artificial-intelligence-ai-tools-for-vulnerability-detection_101270.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "101270"
+        }
+      ]
     },
     {
       "key": "SEBI_FINAL_OFFER",
