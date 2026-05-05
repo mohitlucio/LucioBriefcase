@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-05-05 03:38:14 UTC",
-  "finished_at": "2026-05-05 03:47:51 UTC",
-  "duration_seconds": 576.4,
+  "started_at": "2026-05-05 08:22:00 UTC",
+  "finished_at": "2026-05-05 08:31:48 UTC",
+  "duration_seconds": 588.0,
   "date_range": {
     "from": "2026-05-01",
     "to": "2026-05-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 6,
+  "sources_ok": 7,
   "sources_error": 6,
-  "sources_empty": 81,
-  "total_documents": 13,
+  "sources_empty": 80,
+  "total_documents": 15,
   "docs_with_pdf": 11,
-  "docs_without_pdf": 2,
+  "docs_without_pdf": 4,
   "source_details": [
     {
       "key": "RHP",
@@ -32,12 +32,22 @@
       "label": "DRHP",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "Jindal Supreme (India) Limited - DRHP",
+          "date": "05 May 2026",
+          "date_iso": "2026-05-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/may-2026/jindal-supreme-india-limited-drhp_101256.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "101256"
+        }
+      ]
     },
     {
       "key": "RIGHTS_LOF",
@@ -166,10 +176,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 2,
       "documents": [
+        {
+          "title": "Consultation paper on Modification in the regulatory framework for Online Bond Platform Providers (OBPPs)",
+          "date": "05 May 2026",
+          "date_iso": "2026-05-05",
+          "page_url": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-paper-on-modification-in-the-regulatory-framework-for-online-bond-platform-providers-obpps-_101254.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "101254"
+        },
         {
           "title": "Consultation paper on amendments to the SEBI (Issue and Listing of Securitised Debt Instruments and Security Receipts) Regulations, 2008",
           "date": "04 May 2026",
