@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-05-05 19:46:40 UTC",
-  "finished_at": "2026-05-05 19:56:03 UTC",
-  "duration_seconds": 563.4,
+  "started_at": "2026-05-06 03:54:42 UTC",
+  "finished_at": "2026-05-06 04:04:20 UTC",
+  "duration_seconds": 577.9,
   "date_range": {
     "from": "2026-05-01",
     "to": "2026-05-31"
@@ -9,8 +9,8 @@
   "total_sources": 93,
   "sources_scraped": 93,
   "sources_ok": 11,
-  "sources_error": 6,
-  "sources_empty": 76,
+  "sources_error": 7,
+  "sources_empty": 75,
   "total_documents": 24,
   "docs_with_pdf": 17,
   "docs_without_pdf": 7,
@@ -953,8 +953,8 @@
       "label": "EDPB_BINDING",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 502: Service Unavailable",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
