@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-05-06 03:54:42 UTC",
-  "finished_at": "2026-05-06 04:04:20 UTC",
-  "duration_seconds": 577.9,
+  "started_at": "2026-05-06 08:38:23 UTC",
+  "finished_at": "2026-05-06 08:47:59 UTC",
+  "duration_seconds": 575.8,
   "date_range": {
     "from": "2026-05-01",
     "to": "2026-05-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 11,
-  "sources_error": 7,
+  "sources_ok": 12,
+  "sources_error": 6,
   "sources_empty": 75,
-  "total_documents": 24,
-  "docs_with_pdf": 17,
-  "docs_without_pdf": 7,
+  "total_documents": 31,
+  "docs_with_pdf": 23,
+  "docs_without_pdf": 8,
   "source_details": [
     {
       "key": "RHP",
@@ -883,12 +883,22 @@
       "label": "EU_FS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "[FS.100318] EPG / FNAC DARTY GROUP",
+          "date": "04 May 2026",
+          "date_iso": "2026-05-04",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100318",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100318"
+        }
+      ]
     },
     {
       "key": "EPO_BOA",
@@ -897,10 +907,64 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 5,
-      "docs_with_pdf": 5,
+      "doc_count": 11,
+      "docs_with_pdf": 11,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "T 1088/23 — AXE HORLOGER",
+          "date": "06 May 2026",
+          "date_iso": "2026-05-06",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231088fu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231088fu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t231088fu1"
+        },
+        {
+          "title": "T 0916/24 — BLECHBAUTEIL, HERGESTELLT DURCH WARMUMFORMEN EINES STAHLFLACHPRODUKTS UND VERFAHREN ZU DESSEN HERSTELLUNG",
+          "date": "06 May 2026",
+          "date_iso": "2026-05-06",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240916du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240916du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240916du1"
+        },
+        {
+          "title": "T 1770/23 — GUIDANCE SYSTEM AND AUTOMATIC CONTROL FOR VEHICLES",
+          "date": "06 May 2026",
+          "date_iso": "2026-05-06",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231770eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231770eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t231770eu1"
+        },
+        {
+          "title": "T 0235/25 — BEFESTIGUNGSEINRICHTUNG",
+          "date": "06 May 2026",
+          "date_iso": "2026-05-06",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250235du2",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250235du2.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250235du2"
+        },
+        {
+          "title": "T 0225/24",
+          "date": "06 May 2026",
+          "date_iso": "2026-05-06",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240225du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240225du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240225du1"
+        },
+        {
+          "title": "T 0440/24 — Printing process using soft photopolymer plates",
+          "date": "05 May 2026",
+          "date_iso": "2026-05-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240440eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240440eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240440eu1"
+        },
         {
           "title": "T 0257/24 — Electrical machine with resonant circuit in shaft grounding",
           "date": "04 May 2026",
@@ -953,8 +1017,8 @@
       "label": "EDPB_BINDING",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 502: Service Unavailable",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
