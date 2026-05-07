@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-05-07 08:45:55 UTC",
-  "finished_at": "2026-05-07 08:55:26 UTC",
-  "duration_seconds": 571.0,
+  "started_at": "2026-05-07 14:39:24 UTC",
+  "finished_at": "2026-05-07 14:49:20 UTC",
+  "duration_seconds": 596.7,
   "date_range": {
     "from": "2026-05-01",
     "to": "2026-05-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 14,
+  "sources_ok": 16,
   "sources_error": 6,
-  "sources_empty": 73,
-  "total_documents": 70,
-  "docs_with_pdf": 61,
-  "docs_without_pdf": 9,
+  "sources_empty": 71,
+  "total_documents": 75,
+  "docs_with_pdf": 64,
+  "docs_without_pdf": 11,
   "source_details": [
     {
       "key": "RHP",
@@ -586,12 +586,22 @@
       "label": "TG_RERA_AUTH",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Order Complaint No. 73 of 2025",
+          "date": "04 May 2026",
+          "date_iso": "2026-05-04",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070526154315752.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_0"
+        }
+      ]
     },
     {
       "key": "TG_RERA_SUO",
@@ -707,31 +717,31 @@
           "id": "hr_reat_H-REAT-940-2024_1"
         },
         {
-          "title": "H-REAT-846-2025 — DIPIN BEHL vs ADTV COMMUNICATIONS PRIVATE LIMITED",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2NDAz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-846-2025_2"
-        },
-        {
           "title": "H-REAT-906-2024 — Shine Buildcon Private Limited vs KAPIL TANDON",
           "date": "01 May 2026",
           "date_iso": "2026-05-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTU0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-906-2024_3"
+          "id": "hr_reat_H-REAT-906-2024_2"
         },
         {
-          "title": "H-REAT-308-2025 — Pankaj Chawla & Another vs AMB INFRAVENTURES PVT LTD",
+          "title": "H-REAT-642-2025 — SUNRAYS HEIGHTS PRIVATE LIMITED vs ARPITA VERMA",
           "date": "01 May 2026",
           "date_iso": "2026-05-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTY4",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MzUz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-308-2025_4"
+          "id": "hr_reat_H-REAT-642-2025_3"
+        },
+        {
+          "title": "H-REAT-846-2025 — DIPIN BEHL vs ADTV COMMUNICATIONS PRIVATE LIMITED",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2NDAz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-846-2025_4"
         },
         {
           "title": "H-REAT-536-2023 — Chitvan Nagpal vs ADTV COMMUNICATIONS PVT LTD",
@@ -743,76 +753,49 @@
           "id": "hr_reat_H-REAT-536-2023_5"
         },
         {
-          "title": "H-REAT-527-2023 — ABHISHEK GUPTA vs ADTV COMMUNICATIONS PVT LTD",
+          "title": "H-REAT-524-2023 — Rohit Khanna vs ADTV COMMUNICATIONS PVT LTD",
           "date": "01 May 2026",
           "date_iso": "2026-05-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzgz",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzc5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-527-2023_6"
+          "id": "hr_reat_H-REAT-524-2023_6"
         },
         {
-          "title": "H-REAT-534-2023 — Dr Santosh Gupta vs ADTV COMMUNICATIONS PVT LTD",
+          "title": "H-REAT-523-2023 — Suresh Kapasia vs ADTV COMMUNICATIONS PVT LTD",
           "date": "01 May 2026",
           "date_iso": "2026-05-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzk0",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzc3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-534-2023_7"
+          "id": "hr_reat_H-REAT-523-2023_7"
         },
         {
-          "title": "H-REAT-528-2023 — KRISHAN KUMAR SINGH vs ADTV COMMUNICATIONS PVT LTD",
+          "title": "H-REAT-522-2023 — SIDDHARTHA GOGIA vs ADTV COMMUNICATIONS PVT LTD",
           "date": "01 May 2026",
           "date_iso": "2026-05-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzg1",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzc2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-528-2023_8"
+          "id": "hr_reat_H-REAT-522-2023_8"
         },
         {
-          "title": "H-REAT-131-2026 — M/S DLF LTD vs GAUTAM RANA",
+          "title": "H-REAT-521-2023 — B R Singh vs ADTV COMMUNICATIONS PVT LTD",
           "date": "01 May 2026",
           "date_iso": "2026-05-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTUw",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzc0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-131-2026_9"
+          "id": "hr_reat_H-REAT-521-2023_9"
         },
         {
-          "title": "H-REAT-531-2023 — Rajiv Bhatia vs ADTV COMMUNICATIONS PVT LTD",
+          "title": "H-REAT-525-2023 — Vinod Sawhney vs ADTV COMMUNICATIONS PVT LTD",
           "date": "01 May 2026",
           "date_iso": "2026-05-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzkw",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzgx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-531-2023_10"
-        },
-        {
-          "title": "H-REAT-533-2023 — Yogesh Kumar vs ADTV COMMUNICATIONS PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzkz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-533-2023_11"
-        },
-        {
-          "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTQ5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-130-2026_12"
-        },
-        {
-          "title": "H-REAT-535-2023 — Sanjiv Malhotra vs ADTV COMMUNICATIONS PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzk5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-535-2023_13"
+          "id": "hr_reat_H-REAT-525-2023_10"
         },
         {
           "title": "H-REAT-526-2023 — RAJEEV MEHTANI vs ADTV COMMUNICATIONS PVT LTD",
@@ -821,7 +804,34 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzgy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-526-2023_14"
+          "id": "hr_reat_H-REAT-526-2023_11"
+        },
+        {
+          "title": "H-REAT-527-2023 — ABHISHEK GUPTA vs ADTV COMMUNICATIONS PVT LTD",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzgz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-527-2023_12"
+        },
+        {
+          "title": "H-REAT-528-2023 — KRISHAN KUMAR SINGH vs ADTV COMMUNICATIONS PVT LTD",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzg1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-528-2023_13"
+        },
+        {
+          "title": "H-REAT-535-2023 — Sanjiv Malhotra vs ADTV COMMUNICATIONS PVT LTD",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzk5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-535-2023_14"
         },
         {
           "title": "H-REAT-529-2023 — SAMEER DUTT vs ADTV COMMUNICATIONS PVT LTD",
@@ -833,49 +843,31 @@
           "id": "hr_reat_H-REAT-529-2023_15"
         },
         {
-          "title": "H-REAT-525-2023 — Vinod Sawhney vs ADTV COMMUNICATIONS PVT LTD",
+          "title": "H-REAT-534-2023 — Dr Santosh Gupta vs ADTV COMMUNICATIONS PVT LTD",
           "date": "01 May 2026",
           "date_iso": "2026-05-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzgx",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzk0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-525-2023_16"
+          "id": "hr_reat_H-REAT-534-2023_16"
         },
         {
-          "title": "H-REAT-532-2023 — Raman Chhabra vs ADTV COMMUNICATIONS PVT LTD",
+          "title": "H-REAT-308-2025 — Pankaj Chawla & Another vs AMB INFRAVENTURES PVT LTD",
           "date": "01 May 2026",
           "date_iso": "2026-05-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzky",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTY4",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-532-2023_17"
+          "id": "hr_reat_H-REAT-308-2025_17"
         },
         {
-          "title": "H-REAT-524-2023 — Rohit Khanna vs ADTV COMMUNICATIONS PVT LTD",
+          "title": "H-REAT-533-2023 — Yogesh Kumar vs ADTV COMMUNICATIONS PVT LTD",
           "date": "01 May 2026",
           "date_iso": "2026-05-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzc5",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzkz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-524-2023_18"
-        },
-        {
-          "title": "H-REAT-523-2023 — Suresh Kapasia vs ADTV COMMUNICATIONS PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzc3",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-523-2023_19"
-        },
-        {
-          "title": "H-REAT-522-2023 — SIDDHARTHA GOGIA vs ADTV COMMUNICATIONS PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzc2",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-522-2023_20"
+          "id": "hr_reat_H-REAT-533-2023_18"
         },
         {
           "title": "H-REAT-530-2023 — Shiv Kumar Bhatia vs ADTV COMMUNICATIONS PVT LTD",
@@ -884,25 +876,43 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzg4",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-530-2023_21"
+          "id": "hr_reat_H-REAT-530-2023_19"
         },
         {
-          "title": "H-REAT-642-2025 — SUNRAYS HEIGHTS PRIVATE LIMITED vs ARPITA VERMA",
+          "title": "H-REAT-532-2023 — Raman Chhabra vs ADTV COMMUNICATIONS PVT LTD",
           "date": "01 May 2026",
           "date_iso": "2026-05-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MzUz",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzky",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-642-2025_22"
+          "id": "hr_reat_H-REAT-532-2023_20"
         },
         {
-          "title": "H-REAT-521-2023 — B R Singh vs ADTV COMMUNICATIONS PVT LTD",
+          "title": "H-REAT-531-2023 — Rajiv Bhatia vs ADTV COMMUNICATIONS PVT LTD",
           "date": "01 May 2026",
           "date_iso": "2026-05-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzc0",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzkw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-521-2023_23"
+          "id": "hr_reat_H-REAT-531-2023_21"
+        },
+        {
+          "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTQ5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-130-2026_22"
+        },
+        {
+          "title": "H-REAT-131-2026 — M/S DLF LTD vs GAUTAM RANA",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTUw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-131-2026_23"
         }
       ]
     },
@@ -969,12 +979,22 @@
       "label": "TRAI_CON",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Draft Telecom Consumers Complaint Redressal (Fourth Amendment) Regulation, 2026",
+          "date": "07 May 2026",
+          "date_iso": "2026-05-07",
+          "page_url": "https://www.trai.gov.in/release-publication/consultation",
+          "pdf_url": "https://www.trai.gov.in/sites/default/files/2026-05/Regulation_07052026.pdf",
+          "has_pdf": true,
+          "id": "trai_con_draft_telecom_consumers_complaint_redres_2026-05-07"
+        }
+      ]
     },
     {
       "key": "CGST_CIRC",
@@ -1019,10 +1039,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
+      "doc_count": 3,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 2,
+      "docs_without_pdf": 3,
       "documents": [
+        {
+          "title": "[M.12422] LONE STAR FUNDS / CAPSUGEL BELGIUM / CAPSUGEL SWITZERLAND / CAPSUGEL HOLDINGS US",
+          "date": "07 May 2026",
+          "date_iso": "2026-05-07",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12422",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12422"
+        },
         {
           "title": "[M.12266] EMIL FREY FRANCE / GROUPE KERTRUCKS FINANCE",
           "date": "06 May 2026",
@@ -1424,10 +1453,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "15975723 GLOBAL-365 plc & Another v PayPoint plc & Others - Judgment",
+          "date": "07 May 2026",
+          "date_iso": "2026-05-07",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-05/15975723%20GLOBAL-365%20plc%20%26%20Another%20v%20PayPoint%20plc%20%26%20Others%20-%20Judgment%20%2007%20May%202026%20%20.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-05_15975723_GLOBAL-365_plc___Another_v_PayP"
+        },
         {
           "title": "151711722 (UM) Merchant Interchange Fee Umbrella Proceedings - Reasoned order of the Tribunal (Permission to appeal)",
           "date": "6 May 2026",
@@ -1636,10 +1674,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
+      "doc_count": 3,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 2,
+      "docs_without_pdf": 3,
       "documents": [
+        {
+          "title": "Discontinuation of Investor Risk Reduction Access (IRRA) platform",
+          "date": "07 May 2026",
+          "date_iso": "2026-05-07",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/may-2026/discontinuation-of-investor-risk-reduction-access-irra-platform_101300.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "101300"
+        },
         {
           "title": "‘Significant Indices’ under SEBI (Index Providers) Regulations, 2024",
           "date": "05 May 2026",
