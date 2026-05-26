@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-05-26 10:13:00 UTC",
-  "finished_at": "2026-05-26 10:22:45 UTC",
-  "duration_seconds": 584.7,
+  "started_at": "2026-05-26 16:00:38 UTC",
+  "finished_at": "2026-05-26 16:10:35 UTC",
+  "duration_seconds": 596.8,
   "date_range": {
     "from": "2026-05-01",
     "to": "2026-05-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 35,
+  "sources_ok": 36,
   "sources_error": 8,
-  "sources_empty": 50,
-  "total_documents": 359,
-  "docs_with_pdf": 314,
-  "docs_without_pdf": 45,
+  "sources_empty": 49,
+  "total_documents": 363,
+  "docs_with_pdf": 319,
+  "docs_without_pdf": 44,
   "source_details": [
     {
       "key": "RHP",
@@ -946,15 +946,6 @@
           "id": "inx_iss_u_s__1_000_000_000_global_medi_2026-05-26"
         },
         {
-          "title": "ATSOL Global IFSC Limited — U.S $500,000,000 6.117 percent due 2041 by ATSOL Global IFSC Limited",
-          "date": "19 May 2026",
-          "date_iso": "2026-05-19",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3312234092.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__500_000_000_6_117_percent_2026-05-19"
-        },
-        {
           "title": "Capri Global Capital Limited — U.S.$1,000,000,000 Global Medium Term Note Programme",
           "date": "19 May 2026",
           "date_iso": "2026-05-19",
@@ -962,6 +953,15 @@
           "pdf_url": "https://www.indiainx.com/IssuerDetails/CapriGlobalFinalOC20260519211022.pdf",
           "has_pdf": true,
           "id": "inx_iss_u_s__1_000_000_000_global_medi_2026-05-19"
+        },
+        {
+          "title": "ATSOL Global IFSC Limited — U.S $500,000,000 6.117 percent due 2041 by ATSOL Global IFSC Limited",
+          "date": "19 May 2026",
+          "date_iso": "2026-05-19",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3312234092.pdf",
+          "has_pdf": true,
+          "id": "inx_iss_u_s__500_000_000_6_117_percent_2026-05-19"
         }
       ]
     },
@@ -1285,22 +1285,13 @@
           "id": "hr_reat_H-REAT-1226-2025_0"
         },
         {
-          "title": "H-REAT-99-2026 — M/s DLF Home Developers Ltd vs RAM GIRI YADAV",
-          "date": "21 May 2026",
-          "date_iso": "2026-05-21",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk4ODU0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-99-2026_1"
-        },
-        {
           "title": "H-REAT-1612-2025 — Ram Giri Yadav vs DLF HOME DEVELOPERS LIMITED",
           "date": "21 May 2026",
           "date_iso": "2026-05-21",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk4ODU1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1612-2025_2"
+          "id": "hr_reat_H-REAT-1612-2025_1"
         },
         {
           "title": "H-REAT-213-2026 — M/s Tashee Land Developers and M/s KNS Infracon Private Limited vs SANJAY KUMAR VERMA",
@@ -1309,25 +1300,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk4ODQx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-213-2026_3"
+          "id": "hr_reat_H-REAT-213-2026_2"
         },
         {
-          "title": "H-REAT-42-2025 — Rajan Sharma vs ADVANCE INDIA PRIVATE LIMITED",
-          "date": "20 May 2026",
-          "date_iso": "2026-05-20",
+          "title": "H-REAT-99-2026 — M/s DLF Home Developers Ltd vs RAM GIRI YADAV",
+          "date": "21 May 2026",
+          "date_iso": "2026-05-21",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk4ODI5",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk4ODU0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-42-2025_4"
-        },
-        {
-          "title": "H-REAT-41-2025 — Rajan Sharma vs ADVANCE INDIA PRIVATE LIMITED",
-          "date": "20 May 2026",
-          "date_iso": "2026-05-20",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk4ODI3",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-41-2025_5"
+          "id": "hr_reat_H-REAT-99-2026_3"
         },
         {
           "title": "H-REAT-735-2023 — SURAJ MAL YADAV vs ST PATRICKS REALTY PRIVATE LIMITED",
@@ -1336,7 +1318,25 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk5MDM0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-735-2023_6"
+          "id": "hr_reat_H-REAT-735-2023_4"
+        },
+        {
+          "title": "H-REAT-42-2025 — Rajan Sharma vs ADVANCE INDIA PRIVATE LIMITED",
+          "date": "20 May 2026",
+          "date_iso": "2026-05-20",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk4ODI5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-42-2025_5"
+        },
+        {
+          "title": "H-REAT-41-2025 — Rajan Sharma vs ADVANCE INDIA PRIVATE LIMITED",
+          "date": "20 May 2026",
+          "date_iso": "2026-05-20",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk4ODI3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-41-2025_6"
         },
         {
           "title": "H-REAT-266-2025 — BPTP Limited vs ANAK LAL AND NEHA KAUL",
@@ -1348,22 +1348,22 @@
           "id": "hr_reat_H-REAT-266-2025_7"
         },
         {
-          "title": "H-REAT-131-2024 — Tata Housing Development Company Limited vs SRIKANTH SRINIVASAN",
-          "date": "18 May 2026",
-          "date_iso": "2026-05-18",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk4Nzkw",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-131-2024_8"
-        },
-        {
           "title": "H-REAT-70-2024 — MR MANSOOR ALI SHOKET vs BPTP LTD",
           "date": "18 May 2026",
           "date_iso": "2026-05-18",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk4ODk3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-70-2024_9"
+          "id": "hr_reat_H-REAT-70-2024_8"
+        },
+        {
+          "title": "H-REAT-131-2024 — Tata Housing Development Company Limited vs SRIKANTH SRINIVASAN",
+          "date": "18 May 2026",
+          "date_iso": "2026-05-18",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk4Nzkw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-131-2024_9"
         },
         {
           "title": "H-REAT-677-2024 — Alok Gupta vs ADVANCE INDIA PROJECTS LIMITED",
@@ -1411,22 +1411,22 @@
           "id": "hr_reat_H-REAT-396-2020_14"
         },
         {
-          "title": "H-REAT-223-2024 — JMD LTD vs NISHAT HASIN KHAN",
+          "title": "H-REAT-443-2022 — Emaar India Limited vs RAHUL JINDAL",
           "date": "13 May 2026",
           "date_iso": "2026-05-13",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk3Nzc4",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk3OTU5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-223-2024_15"
+          "id": "hr_reat_H-REAT-443-2022_15"
         },
         {
-          "title": "H-REAT-80-2024 — Rahul jindal vs EMAAR INDIA LIMITED",
+          "title": "H-REAT-526-2025 — M/s Maninderjit Singh Sekhon (HUF) Through its Karta, Maninderjit Singh Sekhon vs MS PARSVNATH DEVELOPERS LTD",
           "date": "13 May 2026",
           "date_iso": "2026-05-13",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk3OTU4",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk3Nzg1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-80-2024_16"
+          "id": "hr_reat_H-REAT-526-2025_16"
         },
         {
           "title": "H-REAT-643-2025 — Jop International Pvt. Limited vs SAJJAN SINGH AND ANOTHER",
@@ -1438,22 +1438,22 @@
           "id": "hr_reat_H-REAT-643-2025_17"
         },
         {
-          "title": "H-REAT-526-2025 — M/s Maninderjit Singh Sekhon (HUF) Through its Karta, Maninderjit Singh Sekhon vs MS PARSVNATH DEVELOPERS LTD",
+          "title": "H-REAT-223-2024 — JMD LTD vs NISHAT HASIN KHAN",
           "date": "13 May 2026",
           "date_iso": "2026-05-13",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk3Nzg1",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk3Nzc4",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-526-2025_18"
+          "id": "hr_reat_H-REAT-223-2024_18"
         },
         {
-          "title": "H-REAT-443-2022 — Emaar India Limited vs RAHUL JINDAL",
+          "title": "H-REAT-80-2024 — Rahul jindal vs EMAAR INDIA LIMITED",
           "date": "13 May 2026",
           "date_iso": "2026-05-13",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk3OTU5",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk3OTU4",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-443-2022_19"
+          "id": "hr_reat_H-REAT-80-2024_19"
         },
         {
           "title": "H-REAT-932-2025 — Parvesh Siwach and Others vs OMAXE LIMITED",
@@ -1465,31 +1465,22 @@
           "id": "hr_reat_H-REAT-932-2025_20"
         },
         {
-          "title": "H-REAT-1246-2025 — M/s Omaxe Limited vs RAJNISH ALIAS RAJNISH GUPTA",
-          "date": "12 May 2026",
-          "date_iso": "2026-05-12",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk3NjIx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-1246-2025_21"
-        },
-        {
           "title": "H-REAT-218-2025 — TS REALTECH PRIVATE LIMITED vs ROSHAN LAL THROUGH LEGAL REPRESENTATIVE MANOJ KUMAR GOEL",
           "date": "12 May 2026",
           "date_iso": "2026-05-12",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk3NjMz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-218-2025_22"
+          "id": "hr_reat_H-REAT-218-2025_21"
         },
         {
-          "title": "H-REAT-1433-2025 — PARTHO BANERJEE AND SHUKLA BANERJEE vs VATIKA LIMITED",
-          "date": "11 May 2026",
-          "date_iso": "2026-05-11",
+          "title": "H-REAT-1246-2025 — M/s Omaxe Limited vs RAJNISH ALIAS RAJNISH GUPTA",
+          "date": "12 May 2026",
+          "date_iso": "2026-05-12",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk3NzA5",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk3NjIx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1433-2025_23"
+          "id": "hr_reat_H-REAT-1246-2025_22"
         },
         {
           "title": "H-REAT-1058-2025 — Shine Buildcon Private Limited vs NILESH AGGARWAL",
@@ -1498,7 +1489,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk3MDgz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1058-2025_24"
+          "id": "hr_reat_H-REAT-1058-2025_23"
+        },
+        {
+          "title": "H-REAT-1433-2025 — PARTHO BANERJEE AND SHUKLA BANERJEE vs VATIKA LIMITED",
+          "date": "11 May 2026",
+          "date_iso": "2026-05-11",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk3NzA5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1433-2025_24"
         },
         {
           "title": "H-REAT-222-2024 — BIGJOS INFRA ESTATE LTD vs PRADEEP KUMAR JINDAL",
@@ -1519,13 +1519,13 @@
           "id": "hr_reat_H-REAT-221-2024_26"
         },
         {
-          "title": "H-REAT-4-2025 — Saurabh Kumar Through Attorney Raghuvinder Singh vs NATIVE BUILDCON PRIVATE LIMITED",
+          "title": "H-REAT-1274-2025 — Rita Gupta vs TDI INFRASTRUCTURE PRIVATE LIMITED",
           "date": "06 May 2026",
           "date_iso": "2026-05-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2ODgx",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2ODQ0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-4-2025_27"
+          "id": "hr_reat_H-REAT-1274-2025_27"
         },
         {
           "title": "H-REAT-475-2023 — HARYANA SHEHRI VIKAS PRADHIKARAN vs HARYANA REAL ESTATE REGULATION AUTHORITY",
@@ -1537,13 +1537,13 @@
           "id": "hr_reat_H-REAT-475-2023_28"
         },
         {
-          "title": "H-REAT-1274-2025 — Rita Gupta vs TDI INFRASTRUCTURE PRIVATE LIMITED",
+          "title": "H-REAT-4-2025 — Saurabh Kumar Through Attorney Raghuvinder Singh vs NATIVE BUILDCON PRIVATE LIMITED",
           "date": "06 May 2026",
           "date_iso": "2026-05-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2ODQ0",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2ODgx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1274-2025_29"
+          "id": "hr_reat_H-REAT-4-2025_29"
         },
         {
           "title": "H-REAT-940-2024 — GIRISH NARANG vs ATHENA INFRASTRUCTURE PVT LTD",
@@ -1555,166 +1555,13 @@
           "id": "hr_reat_H-REAT-940-2024_30"
         },
         {
-          "title": "H-REAT-642-2025 — SUNRAYS HEIGHTS PRIVATE LIMITED vs ARPITA VERMA",
+          "title": "H-REAT-529-2023 — SAMEER DUTT vs ADTV COMMUNICATIONS PVT LTD",
           "date": "01 May 2026",
           "date_iso": "2026-05-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MzUz",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzg2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-642-2025_31"
-        },
-        {
-          "title": "H-REAT-536-2023 — Chitvan Nagpal vs ADTV COMMUNICATIONS PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2NDAx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-536-2023_32"
-        },
-        {
-          "title": "H-REAT-308-2025 — Pankaj Chawla & Another vs AMB INFRAVENTURES PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTY4",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-308-2025_33"
-        },
-        {
-          "title": "H-REAT-521-2023 — B R Singh vs ADTV COMMUNICATIONS PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzc0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-521-2023_34"
-        },
-        {
-          "title": "H-REAT-522-2023 — SIDDHARTHA GOGIA vs ADTV COMMUNICATIONS PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzc2",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-522-2023_35"
-        },
-        {
-          "title": "H-REAT-523-2023 — Suresh Kapasia vs ADTV COMMUNICATIONS PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzc3",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-523-2023_36"
-        },
-        {
-          "title": "H-REAT-524-2023 — Rohit Khanna vs ADTV COMMUNICATIONS PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzc5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-524-2023_37"
-        },
-        {
-          "title": "H-REAT-526-2023 — RAJEEV MEHTANI vs ADTV COMMUNICATIONS PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzgy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-526-2023_38"
-        },
-        {
-          "title": "H-REAT-527-2023 — ABHISHEK GUPTA vs ADTV COMMUNICATIONS PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzgz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-527-2023_39"
-        },
-        {
-          "title": "H-REAT-528-2023 — KRISHAN KUMAR SINGH vs ADTV COMMUNICATIONS PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzg1",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-528-2023_40"
-        },
-        {
-          "title": "H-REAT-906-2024 — Shine Buildcon Private Limited vs KAPIL TANDON",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTU0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-906-2024_41"
-        },
-        {
-          "title": "H-REAT-530-2023 — Shiv Kumar Bhatia vs ADTV COMMUNICATIONS PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzg4",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-530-2023_42"
-        },
-        {
-          "title": "H-REAT-531-2023 — Rajiv Bhatia vs ADTV COMMUNICATIONS PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzkw",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-531-2023_43"
-        },
-        {
-          "title": "H-REAT-533-2023 — Yogesh Kumar vs ADTV COMMUNICATIONS PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzkz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-533-2023_44"
-        },
-        {
-          "title": "H-REAT-534-2023 — Dr Santosh Gupta vs ADTV COMMUNICATIONS PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzk0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-534-2023_45"
-        },
-        {
-          "title": "H-REAT-535-2023 — Sanjiv Malhotra vs ADTV COMMUNICATIONS PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzk5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-535-2023_46"
-        },
-        {
-          "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTQ5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-130-2026_47"
-        },
-        {
-          "title": "H-REAT-131-2026 — M/S DLF LTD vs GAUTAM RANA",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTUw",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-131-2026_48"
+          "id": "hr_reat_H-REAT-529-2023_31"
         },
         {
           "title": "H-REAT-532-2023 — Raman Chhabra vs ADTV COMMUNICATIONS PVT LTD",
@@ -1723,16 +1570,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzky",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-532-2023_49"
-        },
-        {
-          "title": "H-REAT-529-2023 — SAMEER DUTT vs ADTV COMMUNICATIONS PVT LTD",
-          "date": "01 May 2026",
-          "date_iso": "2026-05-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzg2",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-529-2023_50"
+          "id": "hr_reat_H-REAT-532-2023_32"
         },
         {
           "title": "H-REAT-525-2023 — Vinod Sawhney vs ADTV COMMUNICATIONS PVT LTD",
@@ -1741,7 +1579,142 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzgx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-525-2023_51"
+          "id": "hr_reat_H-REAT-525-2023_33"
+        },
+        {
+          "title": "H-REAT-530-2023 — Shiv Kumar Bhatia vs ADTV COMMUNICATIONS PVT LTD",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzg4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-530-2023_34"
+        },
+        {
+          "title": "H-REAT-642-2025 — SUNRAYS HEIGHTS PRIVATE LIMITED vs ARPITA VERMA",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MzUz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-642-2025_35"
+        },
+        {
+          "title": "H-REAT-906-2024 — Shine Buildcon Private Limited vs KAPIL TANDON",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTU0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-906-2024_36"
+        },
+        {
+          "title": "H-REAT-536-2023 — Chitvan Nagpal vs ADTV COMMUNICATIONS PVT LTD",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2NDAx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-536-2023_37"
+        },
+        {
+          "title": "H-REAT-535-2023 — Sanjiv Malhotra vs ADTV COMMUNICATIONS PVT LTD",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzk5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-535-2023_38"
+        },
+        {
+          "title": "H-REAT-534-2023 — Dr Santosh Gupta vs ADTV COMMUNICATIONS PVT LTD",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzk0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-534-2023_39"
+        },
+        {
+          "title": "H-REAT-533-2023 — Yogesh Kumar vs ADTV COMMUNICATIONS PVT LTD",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzkz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-533-2023_40"
+        },
+        {
+          "title": "H-REAT-531-2023 — Rajiv Bhatia vs ADTV COMMUNICATIONS PVT LTD",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzkw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-531-2023_41"
+        },
+        {
+          "title": "H-REAT-523-2023 — Suresh Kapasia vs ADTV COMMUNICATIONS PVT LTD",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzc3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-523-2023_42"
+        },
+        {
+          "title": "H-REAT-528-2023 — KRISHAN KUMAR SINGH vs ADTV COMMUNICATIONS PVT LTD",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzg1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-528-2023_43"
+        },
+        {
+          "title": "H-REAT-527-2023 — ABHISHEK GUPTA vs ADTV COMMUNICATIONS PVT LTD",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzgz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-527-2023_44"
+        },
+        {
+          "title": "H-REAT-526-2023 — RAJEEV MEHTANI vs ADTV COMMUNICATIONS PVT LTD",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzgy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-526-2023_45"
+        },
+        {
+          "title": "H-REAT-521-2023 — B R Singh vs ADTV COMMUNICATIONS PVT LTD",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzc0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-521-2023_46"
+        },
+        {
+          "title": "H-REAT-524-2023 — Rohit Khanna vs ADTV COMMUNICATIONS PVT LTD",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzc5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-524-2023_47"
+        },
+        {
+          "title": "H-REAT-522-2023 — SIDDHARTHA GOGIA vs ADTV COMMUNICATIONS PVT LTD",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2Mzc2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-522-2023_48"
         },
         {
           "title": "H-REAT-846-2025 — DIPIN BEHL vs ADTV COMMUNICATIONS PRIVATE LIMITED",
@@ -1750,7 +1723,34 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2NDAz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-846-2025_52"
+          "id": "hr_reat_H-REAT-846-2025_49"
+        },
+        {
+          "title": "H-REAT-308-2025 — Pankaj Chawla & Another vs AMB INFRAVENTURES PVT LTD",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTY4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-308-2025_50"
+        },
+        {
+          "title": "H-REAT-131-2026 — M/S DLF LTD vs GAUTAM RANA",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTUw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-131-2026_51"
+        },
+        {
+          "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
+          "date": "01 May 2026",
+          "date_iso": "2026-05-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/Mjk2MTQ5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-130-2026_52"
         }
       ]
     },
@@ -1948,10 +1948,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 45,
-      "docs_with_pdf": 45,
+      "doc_count": 47,
+      "docs_with_pdf": 47,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "In the matter of MARTINA BIO GENICS PRIVATE LIMITED [T.P. No. 26/KB/2023] (1.08 MB)",
+          "date": "22 May 2026",
+          "date_iso": "2026-05-22",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-05-25-181423-atspj-93a3e16b084398e3ae3065a5cda97eca.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_05_25_181423_atspj_93a3e16b084398e3"
+        },
         {
           "title": "In the matter of JMV ISPAT PRIVATE LIMITED [(IB)-236/ND/2025] (306.55 KB)",
           "date": "22 May 2026",
@@ -1969,15 +1978,6 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/ebffa7d3fb338cd8cb234031486cdd7e.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_ebffa7d3fb338cd8cb234031486cdd7e_pdf"
-        },
-        {
-          "title": "In the matter of MARTINA BIO GENICS PRIVATE LIMITED [T.P. No. 26/KB/2023] (1.08 MB)",
-          "date": "22 May 2026",
-          "date_iso": "2026-05-22",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-05-25-181423-atspj-93a3e16b084398e3ae3065a5cda97eca.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2026_05_25_181423_atspj_93a3e16b084398e3"
         },
         {
           "title": "In the matter of LUCETIO PRIMARY MANPOWER PRIVATE LIMITED [39/BB/2025] (1.95 MB)",
@@ -2007,15 +2007,6 @@
           "id": "ibbi_adm_2b33c5d0bdb627aba571d963b9aaabe1_pdf"
         },
         {
-          "title": "In the matter of Bahubali Realbuild Private Limited [CP (IB) No. 27/KB/2026] (164.3 KB)",
-          "date": "18 May 2026",
-          "date_iso": "2026-05-18",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/4440fdc5a2a6f7937cc369cca80a6cca.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_4440fdc5a2a6f7937cc369cca80a6cca_pdf"
-        },
-        {
           "title": "In the matter of SPECTRA INDIA ECO PROJECTS PRIVATE LIMITED [CP(IB)/205/7/HDB/2025] (661.25 KB)",
           "date": "18 May 2026",
           "date_iso": "2026-05-18",
@@ -2023,6 +2014,15 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/968f1370b43e1f661d0929ca219aa2c7.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_968f1370b43e1f661d0929ca219aa2c7_pdf"
+        },
+        {
+          "title": "In the matter of Bahubali Realbuild Private Limited [CP (IB) No. 27/KB/2026] (164.3 KB)",
+          "date": "18 May 2026",
+          "date_iso": "2026-05-18",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/4440fdc5a2a6f7937cc369cca80a6cca.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_4440fdc5a2a6f7937cc369cca80a6cca_pdf"
         },
         {
           "title": "In the matter of SUNBEAM DEALERS PRIVATE LIMITED [3] (306.4 KB)",
@@ -2034,22 +2034,13 @@
           "id": "ibbi_adm_2026_05_16_150818_q2ecb_0b4832e92c4688a3"
         },
         {
-          "title": "In the matter of India Power Corporation Limited [205/7/HDB/2021] (1.21 MB)",
+          "title": "In the matter of Sumer Buildcorp Private Limited [C.P.(IB)/284/MB/2024] (985.12 KB)",
           "date": "15 May 2026",
           "date_iso": "2026-05-15",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/bcac57fea095f8376421912931e37c42.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/070c362ccf2ae551b070003d2a84dbff.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_bcac57fea095f8376421912931e37c42_pdf"
-        },
-        {
-          "title": "In the matter of SSAGRI GROUP PRIVATE LIMITED [CP (IB)/43/7/AMR/2025 ] (2.76 MB)",
-          "date": "15 May 2026",
-          "date_iso": "2026-05-15",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/9d3a6fed75f43c6501fc02846e54e139.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_9d3a6fed75f43c6501fc02846e54e139_pdf"
+          "id": "ibbi_adm_070c362ccf2ae551b070003d2a84dbff_pdf"
         },
         {
           "title": "In the matter of Sumer Radius Realty Private Limited [C.P. (IB)/284/MB/2024] (1.03 MB)",
@@ -2061,13 +2052,22 @@
           "id": "ibbi_adm_2026_05_19_161352_jp9o2_4993894be5d8f3d4"
         },
         {
-          "title": "In the matter of Sumer Buildcorp Private Limited [C.P.(IB)/284/MB/2024] (985.12 KB)",
+          "title": "In the matter of SSAGRI GROUP PRIVATE LIMITED [CP (IB)/43/7/AMR/2025 ] (2.76 MB)",
           "date": "15 May 2026",
           "date_iso": "2026-05-15",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/070c362ccf2ae551b070003d2a84dbff.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/9d3a6fed75f43c6501fc02846e54e139.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_070c362ccf2ae551b070003d2a84dbff_pdf"
+          "id": "ibbi_adm_9d3a6fed75f43c6501fc02846e54e139_pdf"
+        },
+        {
+          "title": "In the matter of Sumer Buildcorp Private Limited [C.P. (IB)/284/MB/2024] (1.03 MB)",
+          "date": "15 May 2026",
+          "date_iso": "2026-05-15",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-05-19-161234-0x2ga-4993894be5d8f3d4d622199be7948f9f.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_05_19_161234_0x2ga_4993894be5d8f3d4"
         },
         {
           "title": "In the matter of RNA Lifestyle Private Limited [RCP (IB)/31/MB/2024 in C.P. (IB)/2394/MB/2019] (650.45 KB)",
@@ -2079,13 +2079,22 @@
           "id": "ibbi_adm_a53abcf38a362e6823e71e84e03be3d2_pdf"
         },
         {
-          "title": "In the matter of Sumer Buildcorp Private Limited [C.P. (IB)/284/MB/2024] (1.03 MB)",
+          "title": "In the matter of India Power Corporation Limited [205/7/HDB/2021] (1.21 MB)",
           "date": "15 May 2026",
           "date_iso": "2026-05-15",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-05-19-161234-0x2ga-4993894be5d8f3d4d622199be7948f9f.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/bcac57fea095f8376421912931e37c42.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_2026_05_19_161234_0x2ga_4993894be5d8f3d4"
+          "id": "ibbi_adm_bcac57fea095f8376421912931e37c42_pdf"
+        },
+        {
+          "title": "In the matter of RANKINI POWER GENERATION PRIVATE LIMITED [Company Petition (IB) No. 67/KB/2025] (1.32 MB)",
+          "date": "14 May 2026",
+          "date_iso": "2026-05-14",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/1834e0e44f51c421ee358ed602101e0e.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_1834e0e44f51c421ee358ed602101e0e_pdf"
         },
         {
           "title": "In the matter of JAINCO AUTOMOTIVE PVT LTD [95/KB/2024] (517.31 KB)",
@@ -2106,13 +2115,13 @@
           "id": "ibbi_adm_55d44c2890ec1a78a349c6703a229be9_pdf"
         },
         {
-          "title": "In the matter of RANKINI POWER GENERATION PRIVATE LIMITED [Company Petition (IB) No. 67/KB/2025] (1.32 MB)",
+          "title": "In the matter of Madhur Nourishment Products LLP [IA/1982/2026 in C.P. (IB)/236(MB)2020] (17.83 KB)",
           "date": "14 May 2026",
           "date_iso": "2026-05-14",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/1834e0e44f51c421ee358ed602101e0e.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/372a4be04261ce2b254b9c9ea7deb5c9.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_1834e0e44f51c421ee358ed602101e0e_pdf"
+          "id": "ibbi_adm_372a4be04261ce2b254b9c9ea7deb5c9_pdf"
         },
         {
           "title": "In the matter of ASWINIKRISHNAA TEXTILE PRIVATE LIMITED [CP (IB)/201(MB)/2025] (632.31 KB)",
@@ -2127,28 +2136,10 @@
           "title": "In the matter of Supreme Housing and Hospitality Private Limited [IA (I.B.C) 683/MB/2026 in CP (IB) No. 1257/MB/2025] (780.96 KB)",
           "date": "13 May 2026",
           "date_iso": "2026-05-13",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/9fd5eab888515ca397a910b207b998e7.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_9fd5eab888515ca397a910b207b998e7_pdf"
-        },
-        {
-          "title": "In the matter of TRIG DETECTIVES PVT LTD [CP 480 of 2026] (3.56 MB)",
-          "date": "13 May 2026",
-          "date_iso": "2026-05-13",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/851158d5f6b350b24cb84f75ef28c2dc.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/6fad558255529f2046427f7fb6aa0214.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_851158d5f6b350b24cb84f75ef28c2dc_pdf"
-        },
-        {
-          "title": "In the matter of Trig Detectives Private Limited [CP (IB) No. 480 of 2026] (625.59 KB)",
-          "date": "13 May 2026",
-          "date_iso": "2026-05-13",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/c2f9d37ed7c4d723f814df62c28d1e7b.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_c2f9d37ed7c4d723f814df62c28d1e7b_pdf"
+          "id": "ibbi_adm_6fad558255529f2046427f7fb6aa0214_pdf"
         },
         {
           "title": "In the matter of Supreme Housing and Hospitality Private Limited [CP (IB) No. 1257/MB/2025] (797.25 KB)",
@@ -2160,13 +2151,31 @@
           "id": "ibbi_adm_2026_05_13_191713_7wnz3_c745acc28c297ad5"
         },
         {
-          "title": "In the matter of POWER PACK STEEL INDUSTRIES PRIVATE LIMITED [CP(IB)no 150/CBT/2019] (3.1 MB)",
-          "date": "11 May 2026",
-          "date_iso": "2026-05-11",
+          "title": "In the matter of Supreme Housing and Hospitality Private Limited [IA (I.B.C) 683/MB/2026 in CP (IB) No. 1257/MB/2025] (780.96 KB)",
+          "date": "13 May 2026",
+          "date_iso": "2026-05-13",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/7a8b18298169e79692583cb0928b949e.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/9fd5eab888515ca397a910b207b998e7.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_7a8b18298169e79692583cb0928b949e_pdf"
+          "id": "ibbi_adm_9fd5eab888515ca397a910b207b998e7_pdf"
+        },
+        {
+          "title": "In the matter of Trig Detectives Private Limited [CP (IB) No. 480 of 2026] (625.59 KB)",
+          "date": "13 May 2026",
+          "date_iso": "2026-05-13",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/c2f9d37ed7c4d723f814df62c28d1e7b.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_c2f9d37ed7c4d723f814df62c28d1e7b_pdf"
+        },
+        {
+          "title": "In the matter of TRIG DETECTIVES PVT LTD [CP 480 of 2026] (3.56 MB)",
+          "date": "13 May 2026",
+          "date_iso": "2026-05-13",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/851158d5f6b350b24cb84f75ef28c2dc.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_851158d5f6b350b24cb84f75ef28c2dc_pdf"
         },
         {
           "title": "In the matter of GOLF TECHNOLOGIES PRIVATE LIMITED [IB-CP-274/ND/2025] (530.95 KB)",
@@ -2176,6 +2185,15 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/ddcd799a0bcacf0b02316a299a4da36e.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_ddcd799a0bcacf0b02316a299a4da36e_pdf"
+        },
+        {
+          "title": "In the matter of POWER PACK STEEL INDUSTRIES PRIVATE LIMITED [CP(IB)no 150/CBT/2019] (3.1 MB)",
+          "date": "11 May 2026",
+          "date_iso": "2026-05-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/7a8b18298169e79692583cb0928b949e.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_7a8b18298169e79692583cb0928b949e_pdf"
         },
         {
           "title": "In the matter of CEDAR HOSPITALITY PRIVATE LIMITED [C.P.(IB)/277/ND/2025] (465.45 KB)",
@@ -2250,6 +2268,15 @@
           "id": "ibbi_adm_2026_05_20_131202_dovth_81f179cf58841cea"
         },
         {
+          "title": "In the matter of ARTLAY AGRITECH PRIVATE LIMITED [CP NO. (ib)-40/9/JPR/2025] (3.17 MB)",
+          "date": "06 May 2026",
+          "date_iso": "2026-05-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/4c87ac274f975559a7dcc07e7a37c78b.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_4c87ac274f975559a7dcc07e7a37c78b_pdf"
+        },
+        {
           "title": "In the matter of INDITRADE CAPITAL LIMITED [CP(IBC)/6/KOB/2026] (4.49 MB)",
           "date": "06 May 2026",
           "date_iso": "2026-05-06",
@@ -2257,6 +2284,15 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/2e718b10c4f77b40c4e23a069733ec47.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_2e718b10c4f77b40c4e23a069733ec47_pdf"
+        },
+        {
+          "title": "In the matter of PRIME FOCUS LIMITED [C.P.(IB)/845(MB)2023] (766.55 KB)",
+          "date": "06 May 2026",
+          "date_iso": "2026-05-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-05-08-185916-4g7iv-0264ccddc88ed8890b8f8a46d2186223.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_05_08_185916_4g7iv_0264ccddc88ed889"
         },
         {
           "title": "In the matter of ARPANA W FLOUR MILLS PRIVATE LIMITED [C.P. (IB)/615(MB)2025] (834.95 KB)",
@@ -2280,37 +2316,10 @@
           "title": "In the matter of NAXNOVA TECHNOLOGIES PRIVATE LIMITED [C.P. (IB)/669(MB)2025] (540.53 KB)",
           "date": "06 May 2026",
           "date_iso": "2026-05-06",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
           "pdf_url": "https://ibbi.gov.in/uploads/order/48c934ac79f33f3fa4e782603ee15c71.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_48c934ac79f33f3fa4e782603ee15c71_pdf"
-        },
-        {
-          "title": "In the matter of PRIME FOCUS LIMITED [C.P.(IB)/845(MB)2023] (766.55 KB)",
-          "date": "06 May 2026",
-          "date_iso": "2026-05-06",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-05-08-185916-4g7iv-0264ccddc88ed8890b8f8a46d2186223.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2026_05_08_185916_4g7iv_0264ccddc88ed889"
-        },
-        {
-          "title": "In the matter of ARTLAY AGRITECH PRIVATE LIMITED [CP NO. (ib)-40/9/JPR/2025] (3.17 MB)",
-          "date": "06 May 2026",
-          "date_iso": "2026-05-06",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/4c87ac274f975559a7dcc07e7a37c78b.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_4c87ac274f975559a7dcc07e7a37c78b_pdf"
-        },
-        {
-          "title": "In the matter of THIEF HOTELS & RESORTS PRIVATE LIMITED [CP(IB)/261/(CHE)/2025] (889.58 KB)",
-          "date": "05 May 2026",
-          "date_iso": "2026-05-05",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/d0d468637b576f8d35023ed278dabcf6.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_d0d468637b576f8d35023ed278dabcf6_pdf"
         },
         {
           "title": "In the matter of BALAGANGA TEXTILES PRIVATE LIMITED [CP(IB)/212/CHE/2024] (742.18 KB)",
@@ -2322,6 +2331,15 @@
           "id": "ibbi_adm_2026_05_22_122323_fwy5o_1e1362017f4a2685"
         },
         {
+          "title": "In the matter of THIEF HOTELS & RESORTS PRIVATE LIMITED [CP(IB)/261/(CHE)/2025] (889.58 KB)",
+          "date": "05 May 2026",
+          "date_iso": "2026-05-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/d0d468637b576f8d35023ed278dabcf6.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_d0d468637b576f8d35023ed278dabcf6_pdf"
+        },
+        {
           "title": "In the matter of MADESH HUMAN RESOURCES PRIVATE LIMITED [C.P. (IB)/48/CHE/2024] (770.8 KB)",
           "date": "05 May 2026",
           "date_iso": "2026-05-05",
@@ -2331,13 +2349,13 @@
           "id": "ibbi_adm_bbf3d682664676ccef105ed38534e9c2_pdf"
         },
         {
-          "title": "In the matter of GARVIT INNOVATIVE PROMOTERS LIMITED [CP (IB) No.17/ALD/2022] (582.96 KB)",
+          "title": "In the matter of GVK COAL (TOKISUD) COMPANY PRIVATE LIMITED [CP IB 212/7/HDB/2025] (533.69 KB)",
           "date": "04 May 2026",
           "date_iso": "2026-05-04",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/70504b9eb79efd4c737ae59488d54c07.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/bd448ee05eefbfd72df9604591ca6920.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_70504b9eb79efd4c737ae59488d54c07_pdf"
+          "id": "ibbi_adm_bd448ee05eefbfd72df9604591ca6920_pdf"
         },
         {
           "title": "In the matter of PATHWAYS RETAIL PRIVATE LIMITED [CP (IB) No. 490/ND/2024] (2.14 MB)",
@@ -2349,13 +2367,13 @@
           "id": "ibbi_adm_e2a608906236e361cb696c64e0c0a6f1_pdf"
         },
         {
-          "title": "In the matter of GVK COAL (TOKISUD) COMPANY PRIVATE LIMITED [CP IB 212/7/HDB/2025] (533.69 KB)",
+          "title": "In the matter of GARVIT INNOVATIVE PROMOTERS LIMITED [CP (IB) No.17/ALD/2022] (582.96 KB)",
           "date": "04 May 2026",
           "date_iso": "2026-05-04",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/bd448ee05eefbfd72df9604591ca6920.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/70504b9eb79efd4c737ae59488d54c07.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_bd448ee05eefbfd72df9604591ca6920_pdf"
+          "id": "ibbi_adm_70504b9eb79efd4c737ae59488d54c07_pdf"
         }
       ]
     },
@@ -2367,8 +2385,8 @@
       "status": "ok",
       "error": null,
       "doc_count": 24,
-      "docs_with_pdf": 18,
-      "docs_without_pdf": 6,
+      "docs_with_pdf": 20,
+      "docs_without_pdf": 4,
       "documents": [
         {
           "title": "[M.12289] IFM INVESTORS / ATLAS ARTERIA",
@@ -2393,8 +2411,8 @@
           "date": "22 May 2026",
           "date_iso": "2026-05-22",
           "page_url": "https://competition-cases.ec.europa.eu/cases/M.12393",
-          "pdf_url": "",
-          "has_pdf": false,
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202622/M_12393_103.pdf",
+          "has_pdf": true,
           "id": "eu_m_M_12393"
         },
         {
@@ -2402,8 +2420,8 @@
           "date": "22 May 2026",
           "date_iso": "2026-05-22",
           "page_url": "https://competition-cases.ec.europa.eu/cases/M.12357",
-          "pdf_url": "",
-          "has_pdf": false,
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202622/M_12357_79.pdf",
+          "has_pdf": true,
           "id": "eu_m_M_12357"
         },
         {
@@ -2638,10 +2656,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 5,
+      "doc_count": 6,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 5,
+      "docs_without_pdf": 6,
       "documents": [
+        {
+          "title": "[FS.100336] LE DUFF GROUP / PANAMAR GROUP",
+          "date": "26 May 2026",
+          "date_iso": "2026-05-26",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100336",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100336"
+        },
         {
           "title": "[FS.100311] SALZGITTER MANNESMANN / HÜTTENWERKE KRUPP MANNESMANN",
           "date": "13 May 2026",
@@ -2782,6 +2809,15 @@
           "id": "epo_boa_t240882eu1"
         },
         {
+          "title": "T 0385/24 — USE OF WHEY PROTEIN MICELLES FOR INFANTS AT RISK OF OBESITY OR DIABETES",
+          "date": "22 May 2026",
+          "date_iso": "2026-05-22",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240385eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240385eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240385eu1"
+        },
+        {
           "title": "T 0658/24 — Intra ear canal hearing aid",
           "date": "22 May 2026",
           "date_iso": "2026-05-22",
@@ -2798,15 +2834,6 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240842eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t240842eu1"
-        },
-        {
-          "title": "T 0385/24 — USE OF WHEY PROTEIN MICELLES FOR INFANTS AT RISK OF OBESITY OR DIABETES",
-          "date": "22 May 2026",
-          "date_iso": "2026-05-22",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240385eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240385eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240385eu1"
         },
         {
           "title": "T 0157/25 — Lighting system and assembling method of the same",
@@ -2827,15 +2854,6 @@
           "id": "epo_boa_t240150eu1"
         },
         {
-          "title": "T 0557/24 — Loading devices and methods of loading pipe fusion machines",
-          "date": "21 May 2026",
-          "date_iso": "2026-05-21",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240557eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240557eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240557eu1"
-        },
-        {
           "title": "T 1260/24 — COURROIE DE TRANSMISSION DE PUISSANCE PRESENTANT UNE DENTURE A BASE ELASTOMERIQUE MUNIE, EN SURFACE, D'UN TRICOT.",
           "date": "21 May 2026",
           "date_iso": "2026-05-21",
@@ -2843,6 +2861,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241260fu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t241260fu1"
+        },
+        {
+          "title": "T 0557/24 — Loading devices and methods of loading pipe fusion machines",
+          "date": "21 May 2026",
+          "date_iso": "2026-05-21",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240557eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240557eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240557eu1"
         },
         {
           "title": "T 1017/24 — BRAKE SYSTEM FOR A COMMERCIAL VEHICLE",
@@ -2899,6 +2926,15 @@
           "id": "epo_boa_t230094eu1"
         },
         {
+          "title": "T 1265/24 — SMOKING ARTICLE PROVIDED WITH FILTER",
+          "date": "20 May 2026",
+          "date_iso": "2026-05-20",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241265eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241265eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241265eu1"
+        },
+        {
           "title": "T 0135/25",
           "date": "20 May 2026",
           "date_iso": "2026-05-20",
@@ -2915,15 +2951,6 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240548eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t240548eu1"
-        },
-        {
-          "title": "T 1265/24 — SMOKING ARTICLE PROVIDED WITH FILTER",
-          "date": "20 May 2026",
-          "date_iso": "2026-05-20",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241265eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241265eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241265eu1"
         },
         {
           "title": "T 0578/24 — PROCESS OF PREPARING A CROSS LINKED GEL",
@@ -2989,15 +3016,6 @@
           "id": "epo_boa_t241052du1"
         },
         {
-          "title": "T 0888/24 — CRYSTALLINE FORM K OF RIVAROXABAN AND PROCESS FOR ITS PREPARATION",
-          "date": "18 May 2026",
-          "date_iso": "2026-05-18",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240888eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240888eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240888eu1"
-        },
-        {
           "title": "T 0674/24 — Anlage zur Herstellung von dreidimensionalen Siebdrucken",
           "date": "18 May 2026",
           "date_iso": "2026-05-18",
@@ -3005,6 +3023,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240674du1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t240674du1"
+        },
+        {
+          "title": "T 0888/24 — CRYSTALLINE FORM K OF RIVAROXABAN AND PROCESS FOR ITS PREPARATION",
+          "date": "18 May 2026",
+          "date_iso": "2026-05-18",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240888eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240888eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240888eu1"
         },
         {
           "title": "T 1016/24 — Verfahren zur Herstellung eines Sicherheitselements sowie ein Sicherheitselement",
@@ -3061,15 +3088,6 @@
           "id": "epo_boa_t250196du1"
         },
         {
-          "title": "T 0762/23 — SERVO DRIVER",
-          "date": "12 May 2026",
-          "date_iso": "2026-05-12",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230762eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230762eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t230762eu1"
-        },
-        {
           "title": "T 1171/24 — Drug eluting medical device",
           "date": "12 May 2026",
           "date_iso": "2026-05-12",
@@ -3077,6 +3095,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241171eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t241171eu1"
+        },
+        {
+          "title": "T 0762/23 — SERVO DRIVER",
+          "date": "12 May 2026",
+          "date_iso": "2026-05-12",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230762eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230762eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t230762eu1"
         },
         {
           "title": "T 2051/23 — Purification of triple helical proteins",
@@ -3169,15 +3196,6 @@
           "id": "epo_boa_t230758eu1"
         },
         {
-          "title": "T 0156/21 — A METHOD FOR CHANGING A SOFTWARE CODE EXECUTED BY A PRODUCTION SYSTEM",
-          "date": "07 May 2026",
-          "date_iso": "2026-05-07",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t210156eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t210156eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t210156eu1"
-        },
-        {
           "title": "T 0357/24 — LINERLESS WASHABLE LABEL, APPARATUS AND METHOD FOR PREPARING A LABEL",
           "date": "07 May 2026",
           "date_iso": "2026-05-07",
@@ -3185,6 +3203,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240357eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t240357eu1"
+        },
+        {
+          "title": "T 0156/21 — A METHOD FOR CHANGING A SOFTWARE CODE EXECUTED BY A PRODUCTION SYSTEM",
+          "date": "07 May 2026",
+          "date_iso": "2026-05-07",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t210156eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t210156eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t210156eu1"
         },
         {
           "title": "T 1486/23 — SAUBERE VENTURI ASPIRATION",
@@ -3232,15 +3259,6 @@
           "id": "epo_boa_t231378eu1"
         },
         {
-          "title": "T 0122/25 — INJECTION DEVICE WITH A SLIDING SCALE",
-          "date": "07 May 2026",
-          "date_iso": "2026-05-07",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250122eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250122eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t250122eu1"
-        },
-        {
           "title": "T 1161/24 — COMPOSITION COMPRISING A MIXTURE OF PROTEINS",
           "date": "07 May 2026",
           "date_iso": "2026-05-07",
@@ -3257,6 +3275,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241155eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t241155eu1"
+        },
+        {
+          "title": "T 0122/25 — INJECTION DEVICE WITH A SLIDING SCALE",
+          "date": "07 May 2026",
+          "date_iso": "2026-05-07",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250122eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250122eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250122eu1"
         },
         {
           "title": "T 0498/24 — PHOTON MARKER SYSTEM FOR FIBER MATERIAL",
@@ -3523,12 +3550,22 @@
       "label": "UK_ET_ENG",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Miss C O'Connor v Safe Haven Adolescent Care Group Ltd: 1811237/2024",
+          "date": "13 May 2026",
+          "date_iso": "2026-05-13",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/miss-c-oconnor-v-safe-haven-adolescent-care-group-ltd-1811237-slash-2024",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a15846429bb11891b1cf0f4/Miss_C_O_Connor_v_Safe_Heaven_Adolescent_Care_Group_Limited_-_1811237-_2024.pdf",
+          "has_pdf": true,
+          "id": "govuk_or-v-safe-haven-adolescent-care-group-ltd-1811237-slash-2024"
+        }
+      ]
     },
     {
       "key": "UK_AAC",
