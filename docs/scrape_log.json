@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-06-01 05:04:57 UTC",
-  "finished_at": "2026-06-01 05:14:30 UTC",
-  "duration_seconds": 572.2,
+  "started_at": "2026-06-01 21:41:10 UTC",
+  "finished_at": "2026-06-01 21:50:31 UTC",
+  "duration_seconds": 561.6,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 1,
+  "sources_ok": 8,
   "sources_error": 8,
-  "sources_empty": 84,
-  "total_documents": 5,
-  "docs_with_pdf": 5,
-  "docs_without_pdf": 0,
+  "sources_empty": 77,
+  "total_documents": 13,
+  "docs_with_pdf": 9,
+  "docs_without_pdf": 4,
   "source_details": [
     {
       "key": "RHP",
@@ -32,12 +32,22 @@
       "label": "DRHP",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "Laser Power and Infra Limited - Addendum to DRHP",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/jun-2026/laser-power-and-infra-limited-addendum-to-drhp_101721.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "101721"
+        }
+      ]
     },
     {
       "key": "RIGHTS_LOF",
@@ -152,24 +162,44 @@
       "label": "SEBI_INFORMAL",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "Request for Informal Guidance by way of an",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://www.sebi.gov.in/enforcement/informal-guidance/jun-2026/request-for-informal-guidance-by-way-of-an-interpretive-letter-under-under-the-securities-and-exchange-board-of-india-informal-guidance-scheme-2025-received-from-maithan-alloys-limited-seeking-in-_101737.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "101737"
+        }
+      ]
     },
     {
       "key": "SEBI_CONSULT",
       "label": "SEBI_CONSULT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "Consultation Paper on Review of Framework for Calculation of Net Distributable Cash Flows for InvITs",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2026/consultation-paper-on-review-of-framework-for-calculation-of-net-distributable-cash-flows-for-invits_101725.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "101725"
+        }
+      ]
     },
     {
       "key": "BSE_PLACEMENT",
@@ -644,12 +674,31 @@
       "label": "HR_REAT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzEz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-130-2026_0"
+        },
+        {
+          "title": "H-REAT-131-2026 — M/S DLF LTD vs GAUTAM RANA",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzE0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-131-2026_1"
+        }
+      ]
     },
     {
       "key": "DL_REAT",
@@ -788,12 +837,22 @@
       "label": "EU_FS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "[FS.100348] POSTE ITALIANE / TELECOM ITALIA",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100348",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100348"
+        }
+      ]
     },
     {
       "key": "EPO_BOA",
@@ -1002,12 +1061,22 @@
       "label": "UK_EAT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Mr P Chandrashekarappa v Wipro Ltd: [2026] EAT 73",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/mr-p-chandrashekarappa-v-wipro-ltd-2026-eat-73",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a1d47e5c7335e2ca6daad69/Mr_P_Chandrashekarappa_v_Wipro_Ltd__2026__EAT_73.pdf",
+          "has_pdf": true,
+          "id": "govuk_nal-decisions_mr-p-chandrashekarappa-v-wipro-ltd-2026-eat-73"
+        }
+      ]
     },
     {
       "key": "UK_ET_SCOT",
@@ -1050,12 +1119,22 @@
       "label": "UK_TAX_CHANCERY",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[2026] UKUT 00206 (TCC) Bharat Patel v HMRC",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/2026-ukut-00206-tcc-bharat-patel-v-hmrc",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a1d8bcc916cd732dcdaad9f/Bharat_Patel_v_HMRC_Final_decision_for_issue_to_parties_and_publication.pdf",
+          "has_pdf": true,
+          "id": "govuk_y-tribunal-decisions_2026-ukut-00206-tcc-bharat-patel-v-hmrc"
+        }
+      ]
     },
     {
       "key": "UK_TAX_FTT",
