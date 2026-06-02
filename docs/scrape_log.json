@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-06-02 16:49:01 UTC",
-  "finished_at": "2026-06-02 16:58:31 UTC",
-  "duration_seconds": 570.5,
+  "started_at": "2026-06-02 21:19:20 UTC",
+  "finished_at": "2026-06-02 21:28:48 UTC",
+  "duration_seconds": 568.4,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_error": 8,
-  "sources_empty": 75,
-  "total_documents": 24,
+  "sources_empty": 74,
+  "total_documents": 25,
   "docs_with_pdf": 18,
-  "docs_without_pdf": 6,
+  "docs_without_pdf": 7,
   "source_details": [
     {
       "key": "RHP",
@@ -718,22 +718,22 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
-          "date": "01 Jun 2026",
-          "date_iso": "2026-06-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzEz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-130-2026_0"
-        },
-        {
           "title": "H-REAT-131-2026 — M/S DLF LTD vs GAUTAM RANA",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzE0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-131-2026_1"
+          "id": "hr_reat_H-REAT-131-2026_0"
+        },
+        {
+          "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzEz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-130-2026_1"
         }
       ]
     },
@@ -838,12 +838,22 @@
       "label": "EU_MERGER",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "[M.12237] CARLYLE / BASF COATINGS",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12237",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12237"
+        }
+      ]
     },
     {
       "key": "EU_ANTITRUST",
