@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-06-02 04:51:26 UTC",
-  "finished_at": "2026-06-02 05:01:12 UTC",
-  "duration_seconds": 585.9,
+  "started_at": "2026-06-02 10:50:04 UTC",
+  "finished_at": "2026-06-02 10:59:46 UTC",
+  "duration_seconds": 581.8,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 8,
+  "sources_ok": 9,
   "sources_error": 8,
-  "sources_empty": 77,
-  "total_documents": 19,
-  "docs_with_pdf": 14,
-  "docs_without_pdf": 5,
+  "sources_empty": 76,
+  "total_documents": 21,
+  "docs_with_pdf": 15,
+  "docs_without_pdf": 6,
   "source_details": [
     {
       "key": "RHP",
@@ -34,10 +34,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
+      "doc_count": 3,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 2,
+      "docs_without_pdf": 3,
       "documents": [
+        {
+          "title": "Matangi Rubber Limited - DRHP",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/jun-2026/matangi-rubber-limited-drhp_101764.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "101764"
+        },
         {
           "title": "Arohan Financial Services Limited - DRHP",
           "date": "02 Jun 2026",
@@ -299,12 +308,22 @@
       "label": "CCI_ANTI_S26_1",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[41/2025] XYZ",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://www.cci.gov.in/antitrust/orders",
+          "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1780394258.pdf",
+          "has_pdf": true,
+          "id": "cci_anti_6_41_2025"
+        }
+      ]
     },
     {
       "key": "CCI_ANTI_S26_2",
