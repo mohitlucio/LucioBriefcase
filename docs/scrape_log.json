@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-06-01 21:41:10 UTC",
-  "finished_at": "2026-06-01 21:50:31 UTC",
-  "duration_seconds": 561.6,
+  "started_at": "2026-06-02 04:51:26 UTC",
+  "finished_at": "2026-06-02 05:01:12 UTC",
+  "duration_seconds": 585.9,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
@@ -11,9 +11,9 @@
   "sources_ok": 8,
   "sources_error": 8,
   "sources_empty": 77,
-  "total_documents": 13,
-  "docs_with_pdf": 9,
-  "docs_without_pdf": 4,
+  "total_documents": 19,
+  "docs_with_pdf": 14,
+  "docs_without_pdf": 5,
   "source_details": [
     {
       "key": "RHP",
@@ -34,10 +34,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 2,
       "documents": [
+        {
+          "title": "Arohan Financial Services Limited - DRHP",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/jun-2026/arohan-financial-services-limited-drhp_101753.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "101753"
+        },
         {
           "title": "Laser Power and Infra Limited - Addendum to DRHP",
           "date": "01 Jun 2026",
@@ -861,10 +870,55 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 5,
-      "docs_with_pdf": 5,
+      "doc_count": 10,
+      "docs_with_pdf": 10,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "T 0867/24 — NASAL COMPOSITION COMPRISING MIXTURE OF HYALURONIC ACIDS AND SALINE SOLUTION",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240867eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240867eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240867eu1"
+        },
+        {
+          "title": "T 1117/24",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241117fu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241117fu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241117fu1"
+        },
+        {
+          "title": "T 0358/25 — PHARMACEUTICAL DELIVERY SYSTEMS FOR HYDROPHOBIC DRUGS AND COMPOSITIONS COMPRISING SAME",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250358eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250358eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250358eu1"
+        },
+        {
+          "title": "T 0592/24 — COMBINATION THERAPY FOR THE TREATMENT OF CANCER",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240592eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240592eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240592eu1"
+        },
+        {
+          "title": "T 0363/25 — Method for obtaining information about a luminaire",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250363eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250363eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250363eu1"
+        },
         {
           "title": "T 0360/25 — BIG TELEMATICS DATA CONSTRUCTING SYSTEM",
           "date": "01 Jun 2026",
