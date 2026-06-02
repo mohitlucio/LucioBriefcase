@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-06-02 10:50:04 UTC",
-  "finished_at": "2026-06-02 10:59:46 UTC",
-  "duration_seconds": 581.8,
+  "started_at": "2026-06-02 16:49:01 UTC",
+  "finished_at": "2026-06-02 16:58:31 UTC",
+  "duration_seconds": 570.5,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 9,
+  "sources_ok": 10,
   "sources_error": 8,
-  "sources_empty": 76,
-  "total_documents": 21,
-  "docs_with_pdf": 15,
+  "sources_empty": 75,
+  "total_documents": 24,
+  "docs_with_pdf": 18,
   "docs_without_pdf": 6,
   "source_details": [
     {
@@ -310,10 +310,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[12/2025] Rinima Borah Agarwal vs. Mrs. India Inc.",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://www.cci.gov.in/antitrust/orders",
+          "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1780401907.pdf",
+          "has_pdf": true,
+          "id": "cci_anti_6_12_2025"
+        },
         {
           "title": "[41/2025] XYZ",
           "date": "01 Jun 2026",
@@ -1136,10 +1145,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Mr P Holmes v Kirklees Council: [2026] EAT 80",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/mr-p-holmes-v-kirklees-council-2026-eat-80",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a1e9df9b95db968c8f3bd2c/Mr_P_Holmes_v_Kirklees_Council__2026__EAT_80.pdf",
+          "has_pdf": true,
+          "id": "govuk_ribunal-decisions_mr-p-holmes-v-kirklees-council-2026-eat-80"
+        },
         {
           "title": "Mr P Chandrashekarappa v Wipro Ltd: [2026] EAT 73",
           "date": "01 Jun 2026",
@@ -1214,12 +1232,22 @@
       "label": "UK_TAX_FTT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Mypay Limited v The Commissioners for HMRC",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/807",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-d7ae3e11-2260-4119-863a-95affeb496d2/d-d7ae3e11-2260-4119-863a-95affeb496d2.pdf",
+          "has_pdf": true,
+          "id": "na_807"
+        }
+      ]
     },
     {
       "key": "SEBI_CIRCULARS",
