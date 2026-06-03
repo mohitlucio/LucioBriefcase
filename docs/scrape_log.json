@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-06-02 21:19:20 UTC",
-  "finished_at": "2026-06-02 21:28:48 UTC",
-  "duration_seconds": 568.4,
+  "started_at": "2026-06-03 05:02:00 UTC",
+  "finished_at": "2026-06-03 05:11:40 UTC",
+  "duration_seconds": 579.9,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
@@ -11,8 +11,8 @@
   "sources_ok": 11,
   "sources_error": 8,
   "sources_empty": 74,
-  "total_documents": 25,
-  "docs_with_pdf": 18,
+  "total_documents": 27,
+  "docs_with_pdf": 20,
   "docs_without_pdf": 7,
   "source_details": [
     {
@@ -908,10 +908,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 10,
-      "docs_with_pdf": 10,
+      "doc_count": 12,
+      "docs_with_pdf": 12,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "T 0460/26 — SINGLE LINE QUBIT CONTROL",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t260460eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t260460eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t260460eu1"
+        },
+        {
+          "title": "T 0633/24 — DENTIFRICE INCLUDING ZINC AND BLUE DYE OR PIGMENT",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240633eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240633eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240633eu1"
+        },
         {
           "title": "T 0867/24 — NASAL COMPOSITION COMPRISING MIXTURE OF HYALURONIC ACIDS AND SALINE SOLUTION",
           "date": "02 Jun 2026",
