@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-06-03 11:18:53 UTC",
-  "finished_at": "2026-06-03 11:28:30 UTC",
-  "duration_seconds": 577.0,
+  "started_at": "2026-06-03 17:06:14 UTC",
+  "finished_at": "2026-06-03 17:15:53 UTC",
+  "duration_seconds": 579.3,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
@@ -11,8 +11,8 @@
   "sources_ok": 12,
   "sources_error": 8,
   "sources_empty": 73,
-  "total_documents": 31,
-  "docs_with_pdf": 23,
+  "total_documents": 33,
+  "docs_with_pdf": 25,
   "docs_without_pdf": 8,
   "source_details": [
     {
@@ -842,13 +842,13 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "In the matter of THIRANI INDUSTRIES LIMITED [540/ND/2022] (632.02 KB)",
+          "title": "In the matter of MAIYAS RESTAURANTS PRIVATE LIMITED [C.P. (IB)/40(BEN)2026] (630.39 KB)",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-132438-mbnxj-d7b320923ba0910f0114aac7517cef61.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-120025-dmn6c-35f784155b7f48eaae60238453ebf0cf.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_2026_06_03_132438_mbnxj_d7b320923ba0910f"
+          "id": "ibbi_adm_2026_06_03_120025_dmn6c_35f784155b7f48ea"
         },
         {
           "title": "In the matter of EARTH TOWNE INFRASTRUCTURES PRIVATE LIMITED [Restored Company Petition (IBC) 9/ND/2025] (767.71 KB)",
@@ -860,13 +860,13 @@
           "id": "ibbi_adm_723f54f0251a44d8664a58857deabb67_pdf"
         },
         {
-          "title": "In the matter of MAIYAS RESTAURANTS PRIVATE LIMITED [C.P. (IB)/40(BEN)2026] (630.39 KB)",
+          "title": "In the matter of THIRANI INDUSTRIES LIMITED [540/ND/2022] (632.02 KB)",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-120025-dmn6c-35f784155b7f48eaae60238453ebf0cf.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-132438-mbnxj-d7b320923ba0910f0114aac7517cef61.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_2026_06_03_120025_dmn6c_35f784155b7f48ea"
+          "id": "ibbi_adm_2026_06_03_132438_mbnxj_d7b320923ba0910f"
         }
       ]
     },
@@ -968,6 +968,15 @@
           "id": "epo_boa_t240633eu1"
         },
         {
+          "title": "T 0867/24 — NASAL COMPOSITION COMPRISING MIXTURE OF HYALURONIC ACIDS AND SALINE SOLUTION",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240867eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240867eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240867eu1"
+        },
+        {
           "title": "T 1117/24",
           "date": "02 Jun 2026",
           "date_iso": "2026-06-02",
@@ -977,13 +986,13 @@
           "id": "epo_boa_t241117fu1"
         },
         {
-          "title": "T 0867/24 — NASAL COMPOSITION COMPRISING MIXTURE OF HYALURONIC ACIDS AND SALINE SOLUTION",
+          "title": "T 0358/25 — PHARMACEUTICAL DELIVERY SYSTEMS FOR HYDROPHOBIC DRUGS AND COMPOSITIONS COMPRISING SAME",
           "date": "02 Jun 2026",
           "date_iso": "2026-06-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240867eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240867eu1.pdf",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250358eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250358eu1.pdf",
           "has_pdf": true,
-          "id": "epo_boa_t240867eu1"
+          "id": "epo_boa_t250358eu1"
         },
         {
           "title": "T 0592/24 — COMBINATION THERAPY FOR THE TREATMENT OF CANCER",
@@ -1002,15 +1011,6 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250363eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250363eu1"
-        },
-        {
-          "title": "T 0358/25 — PHARMACEUTICAL DELIVERY SYSTEMS FOR HYDROPHOBIC DRUGS AND COMPOSITIONS COMPRISING SAME",
-          "date": "02 Jun 2026",
-          "date_iso": "2026-06-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250358eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250358eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t250358eu1"
         },
         {
           "title": "T 0360/25 — BIG TELEMATICS DATA CONSTRUCTING SYSTEM",
@@ -1299,10 +1299,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Big and Small Construction Limited v The Commissioners for HMRC",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/816",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-3a280a71-6920-4db0-a6aa-c29e7273bb99/d-3a280a71-6920-4db0-a6aa-c29e7273bb99.pdf",
+          "has_pdf": true,
+          "id": "na_816"
+        },
+        {
+          "title": "3V International Limited v The Commissioners for HMRC",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/815",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-d1afc3af-d1ec-4d91-902d-c3b7d7d6eff1/d-d1afc3af-d1ec-4d91-902d-c3b7d7d6eff1.pdf",
+          "has_pdf": true,
+          "id": "na_815"
+        },
         {
           "title": "Mypay Limited v The Commissioners for HMRC",
           "date": "02 Jun 2026",
