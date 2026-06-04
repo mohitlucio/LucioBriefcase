@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-06-04 10:11:13 UTC",
-  "finished_at": "2026-06-04 10:20:59 UTC",
-  "duration_seconds": 586.0,
+  "started_at": "2026-06-04 15:34:34 UTC",
+  "finished_at": "2026-06-04 15:44:04 UTC",
+  "duration_seconds": 570.1,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 13,
+  "sources_ok": 14,
   "sources_error": 8,
-  "sources_empty": 72,
-  "total_documents": 39,
-  "docs_with_pdf": 29,
+  "sources_empty": 71,
+  "total_documents": 42,
+  "docs_with_pdf": 32,
   "docs_without_pdf": 10,
   "source_details": [
     {
@@ -367,12 +367,22 @@
       "label": "CCI_ANTI_S26_2",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[01/2026] Dinesh Kumar Dadsena And Whitesheep Technology Pvt. Ltd.",
+          "date": "04 Jun 2026",
+          "date_iso": "2026-06-04",
+          "page_url": "https://www.cci.gov.in/antitrust/orders",
+          "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1780570294.pdf",
+          "has_pdf": true,
+          "id": "cci_anti_7_01_2026"
+        }
+      ]
     },
     {
       "key": "CCI_ANTI_S26_6",
@@ -746,13 +756,13 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "H-REAT-594-2024 — Alpha Corp Development Private Limited vs VIKAS SINGLA",
+          "title": "H-REAT-293-2022 — Experion Developers Private Limited vs PARVEEN GAMBHIR",
           "date": "03 Jun 2026",
           "date_iso": "2026-06-03",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUx",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-594-2024_0"
+          "id": "hr_reat_H-REAT-293-2022_0"
         },
         {
           "title": "H-REAT-82-2024 — GLS Infracon Pvt Ltd vs MAHUA DAS",
@@ -764,13 +774,13 @@
           "id": "hr_reat_H-REAT-82-2024_1"
         },
         {
-          "title": "H-REAT-293-2022 — Experion Developers Private Limited vs PARVEEN GAMBHIR",
+          "title": "H-REAT-594-2024 — Alpha Corp Development Private Limited vs VIKAS SINGLA",
           "date": "03 Jun 2026",
           "date_iso": "2026-06-03",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUy",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-293-2022_2"
+          "id": "hr_reat_H-REAT-594-2024_2"
         },
         {
           "title": "H-REAT-810-2022 — DSS Buildtech Private Limited vs RUCHI CHAUHAN AND VIKRAM SINGH MANDHOTRA",
@@ -782,22 +792,22 @@
           "id": "hr_reat_H-REAT-810-2022_3"
         },
         {
-          "title": "H-REAT-131-2026 — M/S DLF LTD vs GAUTAM RANA",
-          "date": "01 Jun 2026",
-          "date_iso": "2026-06-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzE0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-131-2026_4"
-        },
-        {
           "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzEz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-130-2026_5"
+          "id": "hr_reat_H-REAT-130-2026_4"
+        },
+        {
+          "title": "H-REAT-131-2026 — M/S DLF LTD vs GAUTAM RANA",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzE0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-131-2026_5"
         }
       ]
     },
@@ -897,13 +907,13 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "In the matter of THIRANI INDUSTRIES LIMITED [540/ND/2022] (632.02 KB)",
+          "title": "In the matter of MAIYAS RESTAURANTS PRIVATE LIMITED [C.P. (IB)/40(BEN)2026] (630.39 KB)",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-132438-mbnxj-d7b320923ba0910f0114aac7517cef61.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-120025-dmn6c-35f784155b7f48eaae60238453ebf0cf.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_2026_06_03_132438_mbnxj_d7b320923ba0910f"
+          "id": "ibbi_adm_2026_06_03_120025_dmn6c_35f784155b7f48ea"
         },
         {
           "title": "In the matter of EARTH TOWNE INFRASTRUCTURES PRIVATE LIMITED [Restored Company Petition (IBC) 9/ND/2025] (767.71 KB)",
@@ -915,13 +925,13 @@
           "id": "ibbi_adm_723f54f0251a44d8664a58857deabb67_pdf"
         },
         {
-          "title": "In the matter of MAIYAS RESTAURANTS PRIVATE LIMITED [C.P. (IB)/40(BEN)2026] (630.39 KB)",
+          "title": "In the matter of THIRANI INDUSTRIES LIMITED [540/ND/2022] (632.02 KB)",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-120025-dmn6c-35f784155b7f48eaae60238453ebf0cf.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-132438-mbnxj-d7b320923ba0910f0114aac7517cef61.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_2026_06_03_120025_dmn6c_35f784155b7f48ea"
+          "id": "ibbi_adm_2026_06_03_132438_mbnxj_d7b320923ba0910f"
         }
       ]
     },
@@ -1354,10 +1364,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "doc_count": 5,
+      "docs_with_pdf": 5,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "WWM (Harrogate) LLP v The Commissioners for HMRC",
+          "date": "04 Jun 2026",
+          "date_iso": "2026-06-04",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/832",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-919082d8-8fba-4aa8-aa46-23d705e2ec78/d-919082d8-8fba-4aa8-aa46-23d705e2ec78.pdf",
+          "has_pdf": true,
+          "id": "na_832"
+        },
+        {
+          "title": "Anthony Wong v The Commissioners for HMRC",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/822",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-0c413f52-7184-4d5a-8f9b-0c5c252a63ac/d-0c413f52-7184-4d5a-8f9b-0c5c252a63ac.pdf",
+          "has_pdf": true,
+          "id": "na_822"
+        },
         {
           "title": "Big and Small Construction Limited v The Commissioners for HMRC",
           "date": "03 Jun 2026",
