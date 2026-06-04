@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-06-04 04:54:49 UTC",
-  "finished_at": "2026-06-04 05:04:27 UTC",
-  "duration_seconds": 577.4,
+  "started_at": "2026-06-04 10:11:13 UTC",
+  "finished_at": "2026-06-04 10:20:59 UTC",
+  "duration_seconds": 586.0,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
@@ -11,9 +11,9 @@
   "sources_ok": 13,
   "sources_error": 8,
   "sources_empty": 72,
-  "total_documents": 34,
-  "docs_with_pdf": 25,
-  "docs_without_pdf": 9,
+  "total_documents": 39,
+  "docs_with_pdf": 29,
+  "docs_without_pdf": 10,
   "source_details": [
     {
       "key": "RHP",
@@ -44,10 +44,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 4,
+      "doc_count": 5,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 4,
+      "docs_without_pdf": 5,
       "documents": [
+        {
+          "title": "Pushp Brand India Limited",
+          "date": "04 Jun 2026",
+          "date_iso": "2026-06-04",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/jun-2026/pushp-brand-india-limited_101826.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "101826"
+        },
         {
           "title": "Laser Power and Infra Limited - Corrigendum to DRHP",
           "date": "03 Jun 2026",
@@ -732,18 +741,45 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 6,
+      "docs_with_pdf": 6,
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
-          "date": "01 Jun 2026",
-          "date_iso": "2026-06-01",
+          "title": "H-REAT-594-2024 — Alpha Corp Development Private Limited vs VIKAS SINGLA",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzEz",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-130-2026_0"
+          "id": "hr_reat_H-REAT-594-2024_0"
+        },
+        {
+          "title": "H-REAT-82-2024 — GLS Infracon Pvt Ltd vs MAHUA DAS",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-82-2024_1"
+        },
+        {
+          "title": "H-REAT-293-2022 — Experion Developers Private Limited vs PARVEEN GAMBHIR",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-293-2022_2"
+        },
+        {
+          "title": "H-REAT-810-2022 — DSS Buildtech Private Limited vs RUCHI CHAUHAN AND VIKRAM SINGH MANDHOTRA",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjMz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-810-2022_3"
         },
         {
           "title": "H-REAT-131-2026 — M/S DLF LTD vs GAUTAM RANA",
@@ -752,7 +788,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzE0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-131-2026_1"
+          "id": "hr_reat_H-REAT-131-2026_4"
+        },
+        {
+          "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzEz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-130-2026_5"
         }
       ]
     },
