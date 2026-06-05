@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-06-05 04:38:52 UTC",
-  "finished_at": "2026-06-05 04:48:43 UTC",
-  "duration_seconds": 591.4,
+  "started_at": "2026-06-05 10:05:56 UTC",
+  "finished_at": "2026-06-05 10:23:16 UTC",
+  "duration_seconds": 1039.7,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
@@ -9,11 +9,11 @@
   "total_sources": 93,
   "sources_scraped": 93,
   "sources_ok": 14,
-  "sources_error": 8,
-  "sources_empty": 71,
-  "total_documents": 51,
-  "docs_with_pdf": 41,
-  "docs_without_pdf": 10,
+  "sources_error": 25,
+  "sources_empty": 54,
+  "total_documents": 55,
+  "docs_with_pdf": 43,
+  "docs_without_pdf": 12,
   "source_details": [
     {
       "key": "RHP",
@@ -461,8 +461,8 @@
       "label": "RBI_MD",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -473,8 +473,8 @@
       "label": "RBI_MC",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -485,8 +485,8 @@
       "label": "RBI_MD_COMM",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -497,8 +497,8 @@
       "label": "RBI_MD_SFB",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -509,8 +509,8 @@
       "label": "RBI_MD_PAY",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -521,8 +521,8 @@
       "label": "RBI_MD_LAB",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -533,8 +533,8 @@
       "label": "RBI_MD_RRB",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -545,8 +545,8 @@
       "label": "RBI_MD_UCB",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -557,8 +557,8 @@
       "label": "RBI_MD_RCB",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -569,8 +569,8 @@
       "label": "RBI_MD_AIFI",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -581,8 +581,8 @@
       "label": "RBI_MD_NBFC",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -751,10 +751,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 6,
-      "docs_with_pdf": 6,
+      "doc_count": 8,
+      "docs_with_pdf": 8,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "H-REAT-287-2025 — M/s JMK Holdings Private limited vs HARYANA REAL ESTATE REGULATORY AUTHORITY GURUGRAM",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjc1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-287-2025_0"
+        },
         {
           "title": "H-REAT-82-2024 — GLS Infracon Pvt Ltd vs MAHUA DAS",
           "date": "03 Jun 2026",
@@ -762,7 +771,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-82-2024_0"
+          "id": "hr_reat_H-REAT-82-2024_1"
         },
         {
           "title": "H-REAT-293-2022 — Experion Developers Private Limited vs PARVEEN GAMBHIR",
@@ -771,7 +780,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-293-2022_1"
+          "id": "hr_reat_H-REAT-293-2022_2"
         },
         {
           "title": "H-REAT-594-2024 — Alpha Corp Development Private Limited vs VIKAS SINGLA",
@@ -780,7 +789,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-594-2024_2"
+          "id": "hr_reat_H-REAT-594-2024_3"
         },
         {
           "title": "H-REAT-810-2022 — DSS Buildtech Private Limited vs RUCHI CHAUHAN AND VIKRAM SINGH MANDHOTRA",
@@ -789,7 +798,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjMz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-810-2022_3"
+          "id": "hr_reat_H-REAT-810-2022_4"
+        },
+        {
+          "title": "H-REAT-583-2024 — Icon Realcon Private Limited vs HARYANA REAL ESTATE REGULATORY AUTHORITY AT PANCHKULA",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNzI3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-583-2024_5"
         },
         {
           "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
@@ -798,7 +816,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzEz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-130-2026_4"
+          "id": "hr_reat_H-REAT-130-2026_6"
         },
         {
           "title": "H-REAT-131-2026 — M/S DLF LTD vs GAUTAM RANA",
@@ -807,7 +825,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzE0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-131-2026_5"
+          "id": "hr_reat_H-REAT-131-2026_7"
         }
       ]
     },
@@ -997,10 +1015,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 3,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 3,
       "documents": [
+        {
+          "title": "[FS.100307] GLENCORE / FINCOENERGIES",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100307",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100307"
+        },
+        {
+          "title": "[FS.100309] EDIZIONE / TAGES / 21 INVEST",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100309",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100309"
+        },
         {
           "title": "[FS.100348] POSTE ITALIANE / TELECOM ITALIA",
           "date": "01 Jun 2026",
@@ -1024,15 +1060,6 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "T 0734/24 — Processes for production of tumor infiltrating lymphocytes and uses of same in immunotherapy",
-          "date": "05 Jun 2026",
-          "date_iso": "2026-06-05",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240734eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240734eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240734eu1"
-        },
-        {
           "title": "T 0567/23 — Multiple conveyor and weighing apparatus",
           "date": "05 Jun 2026",
           "date_iso": "2026-06-05",
@@ -1042,13 +1069,13 @@
           "id": "epo_boa_t230567eu1"
         },
         {
-          "title": "J 0006/23 — TEXTILE WITH BIOCONTROLLING PROPERTIES",
+          "title": "T 0734/24 — Processes for production of tumor infiltrating lymphocytes and uses of same in immunotherapy",
           "date": "05 Jun 2026",
           "date_iso": "2026-06-05",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/j230006eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/j230006eu1.pdf",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240734eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240734eu1.pdf",
           "has_pdf": true,
-          "id": "epo_boa_j230006eu1"
+          "id": "epo_boa_t240734eu1"
         },
         {
           "title": "T 0174/25",
@@ -1058,6 +1085,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250174du1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250174du1"
+        },
+        {
+          "title": "J 0006/23 — TEXTILE WITH BIOCONTROLLING PROPERTIES",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/j230006eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/j230006eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_j230006eu1"
         },
         {
           "title": "T 0772/24 — FOULING RELEASE COATINGS",
@@ -1096,15 +1132,6 @@
           "id": "epo_boa_t260460eu1"
         },
         {
-          "title": "T 0867/24 — NASAL COMPOSITION COMPRISING MIXTURE OF HYALURONIC ACIDS AND SALINE SOLUTION",
-          "date": "02 Jun 2026",
-          "date_iso": "2026-06-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240867eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240867eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240867eu1"
-        },
-        {
           "title": "T 1117/24",
           "date": "02 Jun 2026",
           "date_iso": "2026-06-02",
@@ -1112,6 +1139,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241117fu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t241117fu1"
+        },
+        {
+          "title": "T 0867/24 — NASAL COMPOSITION COMPRISING MIXTURE OF HYALURONIC ACIDS AND SALINE SOLUTION",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240867eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240867eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240867eu1"
         },
         {
           "title": "T 0633/24 — DENTIFRICE INCLUDING ZINC AND BLUE DYE OR PIGMENT",
@@ -1201,8 +1237,8 @@
       "label": "EDPB_BINDING",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "EDPB: still blocked after 5 retries — https://www.edpb.europa.eu/our-work-tools/consistency-findings/binding-decisions_en",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1213,8 +1249,8 @@
       "label": "EDPB_OPINIONS",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "EDPB: still blocked after 5 retries — https://www.edpb.europa.eu/our-work-tools/consistency-findings/opinions_en",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1225,8 +1261,8 @@
       "label": "EDPB_GUIDELINES",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "EDPB: still blocked after 5 retries — https://www.edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1573,8 +1609,8 @@
       "label": "RBI_FEMA_DIR",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1585,8 +1621,8 @@
       "label": "RBI_FEMA_CIRC",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1597,8 +1633,8 @@
       "label": "RBI_FEMA_NOTIF",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
