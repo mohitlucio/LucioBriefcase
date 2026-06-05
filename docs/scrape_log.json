@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-06-05 10:05:56 UTC",
-  "finished_at": "2026-06-05 10:23:16 UTC",
-  "duration_seconds": 1039.7,
+  "started_at": "2026-06-05 15:22:27 UTC",
+  "finished_at": "2026-06-05 15:31:47 UTC",
+  "duration_seconds": 559.9,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 14,
-  "sources_error": 25,
-  "sources_empty": 54,
-  "total_documents": 55,
-  "docs_with_pdf": 43,
-  "docs_without_pdf": 12,
+  "sources_ok": 16,
+  "sources_error": 8,
+  "sources_empty": 69,
+  "total_documents": 65,
+  "docs_with_pdf": 51,
+  "docs_without_pdf": 14,
   "source_details": [
     {
       "key": "RHP",
@@ -461,8 +461,8 @@
       "label": "RBI_MD",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -473,8 +473,8 @@
       "label": "RBI_MC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -485,8 +485,8 @@
       "label": "RBI_MD_COMM",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -497,8 +497,8 @@
       "label": "RBI_MD_SFB",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -509,8 +509,8 @@
       "label": "RBI_MD_PAY",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -521,8 +521,8 @@
       "label": "RBI_MD_LAB",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -533,8 +533,8 @@
       "label": "RBI_MD_RRB",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -545,8 +545,8 @@
       "label": "RBI_MD_UCB",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -557,8 +557,8 @@
       "label": "RBI_MD_RCB",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -569,8 +569,8 @@
       "label": "RBI_MD_AIFI",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -581,8 +581,8 @@
       "label": "RBI_MD_NBFC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -751,8 +751,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 8,
-      "docs_with_pdf": 8,
+      "doc_count": 9,
+      "docs_with_pdf": 9,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -765,22 +765,13 @@
           "id": "hr_reat_H-REAT-287-2025_0"
         },
         {
-          "title": "H-REAT-82-2024 — GLS Infracon Pvt Ltd vs MAHUA DAS",
+          "title": "H-REAT-195-2025 — BPTP Ltd. and Anjali Promoters and Developers Pvt. Ltd. vs UMA CHANDERNAIN OBEROI",
           "date": "03 Jun 2026",
           "date_iso": "2026-06-03",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUz",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwODE1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-82-2024_1"
-        },
-        {
-          "title": "H-REAT-293-2022 — Experion Developers Private Limited vs PARVEEN GAMBHIR",
-          "date": "03 Jun 2026",
-          "date_iso": "2026-06-03",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-293-2022_2"
+          "id": "hr_reat_H-REAT-195-2025_1"
         },
         {
           "title": "H-REAT-594-2024 — Alpha Corp Development Private Limited vs VIKAS SINGLA",
@@ -789,7 +780,25 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-594-2024_3"
+          "id": "hr_reat_H-REAT-594-2024_2"
+        },
+        {
+          "title": "H-REAT-82-2024 — GLS Infracon Pvt Ltd vs MAHUA DAS",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-82-2024_3"
+        },
+        {
+          "title": "H-REAT-293-2022 — Experion Developers Private Limited vs PARVEEN GAMBHIR",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-293-2022_4"
         },
         {
           "title": "H-REAT-810-2022 — DSS Buildtech Private Limited vs RUCHI CHAUHAN AND VIKRAM SINGH MANDHOTRA",
@@ -798,7 +807,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjMz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-810-2022_4"
+          "id": "hr_reat_H-REAT-810-2022_5"
         },
         {
           "title": "H-REAT-583-2024 — Icon Realcon Private Limited vs HARYANA REAL ESTATE REGULATORY AUTHORITY AT PANCHKULA",
@@ -807,7 +816,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNzI3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-583-2024_5"
+          "id": "hr_reat_H-REAT-583-2024_6"
         },
         {
           "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
@@ -816,7 +825,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzEz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-130-2026_6"
+          "id": "hr_reat_H-REAT-130-2026_7"
         },
         {
           "title": "H-REAT-131-2026 — M/S DLF LTD vs GAUTAM RANA",
@@ -825,7 +834,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzE0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-131-2026_7"
+          "id": "hr_reat_H-REAT-131-2026_8"
         }
       ]
     },
@@ -920,8 +929,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 4,
-      "docs_with_pdf": 4,
+      "doc_count": 5,
+      "docs_with_pdf": 5,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -959,6 +968,15 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-120025-dmn6c-35f784155b7f48eaae60238453ebf0cf.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_2026_06_03_120025_dmn6c_35f784155b7f48ea"
+        },
+        {
+          "title": "In the matter of CREDITSAVVY TECHNOLOGIES PRIVATE LIMITED [C.P. (IB) No./51/ALD/2026] (414.64 KB)",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-05-135723-oqiyg-d1e58e9f794ee0728fab250d53c5de99.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_06_05_135723_oqiyg_d1e58e9f794ee072"
         }
       ]
     },
@@ -969,10 +987,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 2,
       "documents": [
+        {
+          "title": "[M.12397] MUTARES / MAGNA LIGHTING BUSINESS",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12397",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12397"
+        },
         {
           "title": "[M.12237] CARLYLE / BASF COATINGS",
           "date": "02 Jun 2026",
@@ -1015,9 +1042,9 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
+      "doc_count": 4,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 3,
+      "docs_without_pdf": 4,
       "documents": [
         {
           "title": "[FS.100307] GLENCORE / FINCOENERGIES",
@@ -1036,6 +1063,15 @@
           "pdf_url": "",
           "has_pdf": false,
           "id": "eu_instru_FS_100309"
+        },
+        {
+          "title": "[FS.100303] IFM INVESTORS / ATLAS ARTERIA",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100303",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100303"
         },
         {
           "title": "[FS.100348] POSTE ITALIANE / TELECOM ITALIA",
@@ -1237,8 +1273,8 @@
       "label": "EDPB_BINDING",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "EDPB: still blocked after 5 retries — https://www.edpb.europa.eu/our-work-tools/consistency-findings/binding-decisions_en",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1249,8 +1285,8 @@
       "label": "EDPB_OPINIONS",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "EDPB: still blocked after 5 retries — https://www.edpb.europa.eu/our-work-tools/consistency-findings/opinions_en",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1261,8 +1297,8 @@
       "label": "EDPB_GUIDELINES",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "EDPB: still blocked after 5 retries — https://www.edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1345,12 +1381,22 @@
       "label": "UK_CAT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "17515725 Mr Graham Thomas & Others v Durham County Council  - Judgment",
+          "date": "5 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-06/17515725%20Mr%20Graham%20Thomas%20%26%20Others%20v%20Durham%20County%20Council%20%20-%20Judgment%20%205%20Jun%202026%20.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-06_17515725_Mr_Graham_Thomas___Others_v_Dur"
+        }
+      ]
     },
     {
       "key": "UK_CMA_MERGERS",
@@ -1472,10 +1518,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 6,
-      "docs_with_pdf": 6,
+      "doc_count": 8,
+      "docs_with_pdf": 8,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "TPY Limited v The Commissioners for HMRC",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/843",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-f68d427f-af8d-433d-950c-033f83f9cae4/d-f68d427f-af8d-433d-950c-033f83f9cae4.pdf",
+          "has_pdf": true,
+          "id": "na_843"
+        },
+        {
+          "title": "Adrian Filimon v The Commissioners for HMRC",
+          "date": "04 Jun 2026",
+          "date_iso": "2026-06-04",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/842",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-250d49c3-dc2b-413d-b0b5-0a3a9af3a7a8/d-250d49c3-dc2b-413d-b0b5-0a3a9af3a7a8.pdf",
+          "has_pdf": true,
+          "id": "na_842"
+        },
         {
           "title": "WWM (Harrogate) LLP v The Commissioners for HMRC",
           "date": "04 Jun 2026",
@@ -1609,8 +1673,8 @@
       "label": "RBI_FEMA_DIR",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1621,8 +1685,8 @@
       "label": "RBI_FEMA_CIRC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1633,12 +1697,40 @@
       "label": "RBI_FEMA_NOTIF",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Foreign Exchange Management (Cross Border Merger) (Amendment) Regulations, 2026",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13466&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/FEMA389050620262004133EF5EB477EA06F6AC597C1917B.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13466"
+        },
+        {
+          "title": "Submission of statement/return on Centralized Information Management System (CIMS)",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13465&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/12APDIR050620260924D775A2294FCD9E1CE9A27D6140F1.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13465"
+        },
+        {
+          "title": "Investments by Foreign Portfolio Investors in Government Securities – Amendments to the regulatory framework",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13464&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT9752AB8622AD294C368E271246D72D678F.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13464"
+        }
+      ]
     }
   ],
   "partial_scrape": false
