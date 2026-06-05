@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-06-04 20:19:51 UTC",
-  "finished_at": "2026-06-04 20:29:18 UTC",
-  "duration_seconds": 566.7,
+  "started_at": "2026-06-05 04:38:52 UTC",
+  "finished_at": "2026-06-05 04:48:43 UTC",
+  "duration_seconds": 591.4,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
@@ -11,8 +11,8 @@
   "sources_ok": 14,
   "sources_error": 8,
   "sources_empty": 71,
-  "total_documents": 43,
-  "docs_with_pdf": 33,
+  "total_documents": 51,
+  "docs_with_pdf": 41,
   "docs_without_pdf": 10,
   "source_details": [
     {
@@ -756,22 +756,22 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "H-REAT-293-2022 — Experion Developers Private Limited vs PARVEEN GAMBHIR",
-          "date": "03 Jun 2026",
-          "date_iso": "2026-06-03",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-293-2022_0"
-        },
-        {
           "title": "H-REAT-82-2024 — GLS Infracon Pvt Ltd vs MAHUA DAS",
           "date": "03 Jun 2026",
           "date_iso": "2026-06-03",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-82-2024_1"
+          "id": "hr_reat_H-REAT-82-2024_0"
+        },
+        {
+          "title": "H-REAT-293-2022 — Experion Developers Private Limited vs PARVEEN GAMBHIR",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-293-2022_1"
         },
         {
           "title": "H-REAT-594-2024 — Alpha Corp Development Private Limited vs VIKAS SINGLA",
@@ -792,22 +792,22 @@
           "id": "hr_reat_H-REAT-810-2022_3"
         },
         {
-          "title": "H-REAT-131-2026 — M/S DLF LTD vs GAUTAM RANA",
-          "date": "01 Jun 2026",
-          "date_iso": "2026-06-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzE0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-131-2026_4"
-        },
-        {
           "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzEz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-130-2026_5"
+          "id": "hr_reat_H-REAT-130-2026_4"
+        },
+        {
+          "title": "H-REAT-131-2026 — M/S DLF LTD vs GAUTAM RANA",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzE0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-131-2026_5"
         }
       ]
     },
@@ -902,10 +902,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "In the matter of NEW PEARL VITRIFIED PRIVATE LIMITED [C.P.(IB)/484(AHM)2025] (508.79 KB)",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2886fb85ae4c25d8f4b399cf8243c1b7.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2886fb85ae4c25d8f4b399cf8243c1b7_pdf"
+        },
         {
           "title": "In the matter of THIRANI INDUSTRIES LIMITED [540/ND/2022] (632.02 KB)",
           "date": "01 Jun 2026",
@@ -1010,10 +1019,73 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 12,
-      "docs_with_pdf": 12,
+      "doc_count": 19,
+      "docs_with_pdf": 19,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "T 0734/24 — Processes for production of tumor infiltrating lymphocytes and uses of same in immunotherapy",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240734eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240734eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240734eu1"
+        },
+        {
+          "title": "T 0567/23 — Multiple conveyor and weighing apparatus",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230567eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230567eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t230567eu1"
+        },
+        {
+          "title": "J 0006/23 — TEXTILE WITH BIOCONTROLLING PROPERTIES",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/j230006eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/j230006eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_j230006eu1"
+        },
+        {
+          "title": "T 0174/25",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250174du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250174du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250174du1"
+        },
+        {
+          "title": "T 0772/24 — FOULING RELEASE COATINGS",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240772eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240772eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240772eu1"
+        },
+        {
+          "title": "T 1222/24 — SOLID STATE FORMS OF LUMATEPERONE DITOSYLATE SALT",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241222eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241222eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241222eu1"
+        },
+        {
+          "title": "T 1293/24 — VENTILATOR MIT INTEGRIERTER VOLUMENSTROMREGELUNG",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241293du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241293du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241293du1"
+        },
         {
           "title": "T 0460/26 — SINGLE LINE QUBIT CONTROL",
           "date": "03 Jun 2026",
@@ -1051,15 +1123,6 @@
           "id": "epo_boa_t240633eu1"
         },
         {
-          "title": "T 0592/24 — COMBINATION THERAPY FOR THE TREATMENT OF CANCER",
-          "date": "02 Jun 2026",
-          "date_iso": "2026-06-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240592eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240592eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240592eu1"
-        },
-        {
           "title": "T 0358/25 — PHARMACEUTICAL DELIVERY SYSTEMS FOR HYDROPHOBIC DRUGS AND COMPOSITIONS COMPRISING SAME",
           "date": "02 Jun 2026",
           "date_iso": "2026-06-02",
@@ -1067,6 +1130,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250358eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250358eu1"
+        },
+        {
+          "title": "T 0592/24 — COMBINATION THERAPY FOR THE TREATMENT OF CANCER",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240592eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240592eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240592eu1"
         },
         {
           "title": "T 0363/25 — Method for obtaining information about a luminaire",
