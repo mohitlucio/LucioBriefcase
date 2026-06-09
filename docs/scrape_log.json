@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-06-09 11:15:19 UTC",
-  "finished_at": "2026-06-09 11:26:38 UTC",
-  "duration_seconds": 679.5,
+  "started_at": "2026-06-09 11:27:43 UTC",
+  "finished_at": "2026-06-09 11:37:17 UTC",
+  "duration_seconds": 573.2,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 20,
-  "sources_error": 8,
-  "sources_empty": 65,
-  "total_documents": 95,
-  "docs_with_pdf": 78,
+  "sources_ok": 19,
+  "sources_error": 10,
+  "sources_empty": 64,
+  "total_documents": 86,
+  "docs_with_pdf": 69,
   "docs_without_pdf": 17,
   "source_details": [
     {
@@ -875,13 +875,13 @@
           "id": "hr_reat_H-REAT-195-2025_3"
         },
         {
-          "title": "H-REAT-594-2024 — Alpha Corp Development Private Limited vs VIKAS SINGLA",
+          "title": "H-REAT-293-2022 — Experion Developers Private Limited vs PARVEEN GAMBHIR",
           "date": "03 Jun 2026",
           "date_iso": "2026-06-03",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUx",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-594-2024_4"
+          "id": "hr_reat_H-REAT-293-2022_4"
         },
         {
           "title": "H-REAT-82-2024 — GLS Infracon Pvt Ltd vs MAHUA DAS",
@@ -893,22 +893,13 @@
           "id": "hr_reat_H-REAT-82-2024_5"
         },
         {
-          "title": "H-REAT-293-2022 — Experion Developers Private Limited vs PARVEEN GAMBHIR",
+          "title": "H-REAT-594-2024 — Alpha Corp Development Private Limited vs VIKAS SINGLA",
           "date": "03 Jun 2026",
           "date_iso": "2026-06-03",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUy",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-293-2022_6"
-        },
-        {
-          "title": "H-REAT-583-2024 — Icon Realcon Private Limited vs HARYANA REAL ESTATE REGULATORY AUTHORITY AT PANCHKULA",
-          "date": "02 Jun 2026",
-          "date_iso": "2026-06-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNzI3",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-583-2024_7"
+          "id": "hr_reat_H-REAT-594-2024_6"
         },
         {
           "title": "H-REAT-810-2022 — DSS Buildtech Private Limited vs RUCHI CHAUHAN AND VIKRAM SINGH MANDHOTRA",
@@ -917,7 +908,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjMz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-810-2022_8"
+          "id": "hr_reat_H-REAT-810-2022_7"
+        },
+        {
+          "title": "H-REAT-583-2024 — Icon Realcon Private Limited vs HARYANA REAL ESTATE REGULATORY AUTHORITY AT PANCHKULA",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNzI3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-583-2024_8"
         },
         {
           "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
@@ -1016,8 +1016,8 @@
       "label": "IBBI_RES",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "The read operation timed out",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1028,94 +1028,12 @@
       "label": "IBBI_ADM",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 9,
-      "docs_with_pdf": 9,
+      "status": "error",
+      "error": "The read operation timed out",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "In the matter of PRIMEZONE DEVELOPERS PRIVATE LIMITED [C.P. (IB) - 128/2022]",
-          "date": "05 Jun 2026",
-          "date_iso": "2026-06-05",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/ab5bbc3b102e1ae1ca8ed1c2c1a38b30.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_ab5bbc3b102e1ae1ca8ed1c2c1a38b30_pdf"
-        },
-        {
-          "title": "In the matter of BLD METAL AND ALLOYS PRIVATE LIMITED [COMPANY PETITION IB (IBC) NO. 549/ND/2025]",
-          "date": "03 Jun 2026",
-          "date_iso": "2026-06-03",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/a4dbe1007b3775d916ddbe26c791737d.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_a4dbe1007b3775d916ddbe26c791737d_pdf"
-        },
-        {
-          "title": "In the matter of BLACKBERRY OVERSEAS PRIVATE LIMITED [CP IB NO. 221/ND/2025]",
-          "date": "03 Jun 2026",
-          "date_iso": "2026-06-03",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-08-152205-lnpme-d1e58e9f794ee0728fab250d53c5de99.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2026_06_08_152205_lnpme_d1e58e9f794ee072"
-        },
-        {
-          "title": "In the matter of NEW PEARL VITRIFIED PRIVATE LIMITED [C.P.(IB)/484(AHM)2025]",
-          "date": "02 Jun 2026",
-          "date_iso": "2026-06-02",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2886fb85ae4c25d8f4b399cf8243c1b7.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2886fb85ae4c25d8f4b399cf8243c1b7_pdf"
-        },
-        {
-          "title": "In the matter of EARTH TOWNE INFRASTRUCTURES PRIVATE LIMITED [Restored Company Petition (IBC) 9/ND/2025]",
-          "date": "01 Jun 2026",
-          "date_iso": "2026-06-01",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/723f54f0251a44d8664a58857deabb67.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_723f54f0251a44d8664a58857deabb67_pdf"
-        },
-        {
-          "title": "In the matter of MAIYAS RESTAURANTS PRIVATE LIMITED [C.P. (IB)/40(BEN)2026]",
-          "date": "01 Jun 2026",
-          "date_iso": "2026-06-01",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-120025-dmn6c-35f784155b7f48eaae60238453ebf0cf.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2026_06_03_120025_dmn6c_35f784155b7f48ea"
-        },
-        {
-          "title": "In the matter of CREDITSAVVY TECHNOLOGIES PRIVATE LIMITED [C.P. (IB) No./51/ALD/2026]",
-          "date": "01 Jun 2026",
-          "date_iso": "2026-06-01",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-05-135723-oqiyg-d1e58e9f794ee0728fab250d53c5de99.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2026_06_05_135723_oqiyg_d1e58e9f794ee072"
-        },
-        {
-          "title": "In the matter of THIRANI INDUSTRIES LIMITED [540/ND/2022]",
-          "date": "01 Jun 2026",
-          "date_iso": "2026-06-01",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-132438-mbnxj-d7b320923ba0910f0114aac7517cef61.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2026_06_03_132438_mbnxj_d7b320923ba0910f"
-        },
-        {
-          "title": "In the matter of ATTHARV SAI FLEXIPACK PRIVATE LIMITED [CP (IB) No. 72/BB/2025]",
-          "date": "01 Jun 2026",
-          "date_iso": "2026-06-01",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-08-113223-zxlu7-b72d79647ca644c6d0d94692173df3c7.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2026_06_08_113223_zxlu7_b72d79647ca644c6"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "EU_MERGER",
@@ -1395,15 +1313,6 @@
           "id": "epo_boa_t250358eu1"
         },
         {
-          "title": "T 0592/24 — COMBINATION THERAPY FOR THE TREATMENT OF CANCER",
-          "date": "02 Jun 2026",
-          "date_iso": "2026-06-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240592eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240592eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240592eu1"
-        },
-        {
           "title": "T 0363/25 — Method for obtaining information about a luminaire",
           "date": "02 Jun 2026",
           "date_iso": "2026-06-02",
@@ -1411,6 +1320,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250363eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250363eu1"
+        },
+        {
+          "title": "T 0592/24 — COMBINATION THERAPY FOR THE TREATMENT OF CANCER",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240592eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240592eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240592eu1"
         },
         {
           "title": "T 0360/25 — BIG TELEMATICS DATA CONSTRUCTING SYSTEM",
