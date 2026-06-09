@@ -1,0 +1,19 @@
+{
+  "name": "LucioBriefcase",
+  "description": "93-Source Regulatory Document Briefcase - Scrapes and displays regulatory filings online",
+  "keywords": ["python", "regulatory", "scraper", "sebi", "automation"],
+  "repository": "https://github.com/yourusername/LucioBriefcase",
+  "env": {
+    "CLOUD": {
+      "description": "Enable cloud mode",
+      "value": "1"
+    },
+    "PYTHONUNBUFFERED": {
+      "description": "Python unbuffered output",
+      "value": "1"
+    }
+  },
+  "buildCommand": "pip install -r requirements.txt",
+  "startCommand": "python backend/server.py",
+  "plan": "free"
+}

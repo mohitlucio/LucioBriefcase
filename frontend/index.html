@@ -1020,8 +1020,13 @@ async function dlOne(id, dtype) {
 }
 
 async function downloadAll() {
+  // Only download docs from the currently visible/active category
+  const visibleKeys = activeCat === 'ALL' ? ALL_KEYS
+    : activeCat === 'NATIONAL' ? ALL_KEYS.filter(k => NATIONAL_CATS.includes(SRC[k].cat))
+    : activeCat === 'INTERNATIONAL' ? ALL_KEYS.filter(k => INTL_CATS.includes(SRC[k].cat))
+    : ALL_KEYS.filter(k => SRC[k].cat === activeCat);
   const allDocs = [];
-  for (const [dtype, docs] of Object.entries(filtered)) for (const doc of docs) allDocs.push({ id: doc.id, pdf_url: doc.pdf_url, page_url: doc.page_url, title: doc.title, date: doc.date || '', type: dtype });
+  for (const dtype of visibleKeys) for (const doc of (filtered[dtype] || [])) allDocs.push({ id: doc.id, pdf_url: doc.pdf_url, page_url: doc.page_url, title: doc.title, date: doc.date || '', type: dtype });
   if (!allDocs.length) { toast('No documents to download', 'warn'); return; }
   try { const r = await apiPost('/api/download_all', { documents: allDocs }); toast('Queued ' + r.count + ' downloads', 'ok'); openDlModal(); $('dlp-toggle').style.display = ''; startDlPoll(); applyFilters(); }
   catch(e) { toast('Failed to queue downloads', 'warn'); }

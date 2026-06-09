@@ -99,6 +99,18 @@ The dashboard opens automatically at **http://localhost:8765**
 python3 run_tests.py
 ```
 
+### Deploy Online
+
+Want to share with others? Deploy to **Render.com** with automatic updates via GitHub Actions:
+
+**[→ Deploy in 5 Steps (Quick Guide)](DEPLOY_QUICK.md)** | **[→ Full Guide](DEPLOYMENT.md)**
+
+This takes ~10 minutes and gives you:
+- ✅ Live URL anyone can access (e.g., `https://luciobriefcase.onrender.com`)
+- ✅ Automatic updates when you push to GitHub
+- ✅ Persistent storage for downloaded PDFs
+- ✅ Free tier available
+
 ## API Endpoints
 
 | Endpoint | Method | Description |

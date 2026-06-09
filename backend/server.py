@@ -840,94 +840,14 @@ def scrape_sebi(doc_type, from_date=None, to_date=None, _resolve_ip=None):
 
 
 # ════════════════════════════════════════════════════════════════════════════════
-#  BSE QIP SCRAPING
+#  BSE QIP SCRAPING  (via JSON API — BSE migrated to Angular SPA)
 # ════════════════════════════════════════════════════════════════════════════════
 
-def parse_bse_qip_page(html):
-    """
-    Parse BSE QIP GridView HTML. Each data row has:
-      <td class="TTRow_left">Company Name</td>
-      <td><a href="/corporates/download/.../QIP Open/PPD_...pdf">DD/MM/YYYY</a></td>  ← Preliminary
-      <td><a href="/corporates/download/.../QIP Open/Placement...pdf">DD/MM/YYYY</a></td>  ← Placement
-      <td>Allottees link</td>
-      <td>SHP link</td>
-    Returns (placement_docs, preliminary_docs)
-    """
-    placement, preliminary = [], []
-
-    # Find all data rows (class TTRow)
-    row_pattern = re.compile(
-        r'<td\s+class=["\']TTRow_left["\']>(.*?)</td>(.*?)'
-        r'(?=<td\s+class=["\']TTRow_left["\']|</table)',
-        re.DOTALL | re.IGNORECASE
-    )
-    # Alternative: find all <tr> that contain TTRow_left
-    tr_pattern = re.compile(r'<tr\b[^>]*>(.*?)</tr>', re.DOTALL | re.IGNORECASE)
-    trs = tr_pattern.findall(html)
-
-    for tr in trs:
-        # Company name
-        co_m = re.search(r'class=["\']TTRow_left["\'][^>]*>(.*?)</td>', tr, re.IGNORECASE | re.DOTALL)
-        if not co_m:
-            continue
-        company = re.sub(r'<[^>]+>', '', co_m.group(1)).strip()
-        if not company:
-            continue
-
-        # All <td> cells in row
-        cells = re.findall(r'<td[^>]*>(.*?)</td>', tr, re.DOTALL | re.IGNORECASE)
-        # Cells: [0]=company, [1]=preliminary/draft, [2]=placement, [3]=allottees, [4]=shp
-        if len(cells) < 3:
-            continue
-
-        def extract_link_and_date(cell):
-            lm = re.search(r'href=["\'](/corporates/download/[^"\']+\.(?:pdf|PDF))["\'][^>]*>(\d{2}/\d{2}/\d{4})', cell, re.IGNORECASE)
-            if lm:
-                url = BSE_BASE + lm.group(1)
-                date_str = lm.group(2)  # DD/MM/YYYY
-                try:
-                    date_iso = datetime.strptime(date_str, "%d/%m/%Y").strftime("%Y-%m-%d")
-                except Exception:
-                    date_iso = ""
-                return url, date_str, date_iso
-            return None, None, None
-
-        # Cell 1 = Preliminary (Draft Placement)
-        prelim_url, prelim_date, prelim_iso = extract_link_and_date(cells[1] if len(cells) > 1 else "")
-        # Cell 2 = Placement
-        place_url, place_date, place_iso = extract_link_and_date(cells[2] if len(cells) > 2 else "")
-
-        doc_id_base = re.sub(r'[^a-z0-9]', '_', company.lower())[:30]
-
-        if prelim_url and prelim_date:
-            preliminary.append({
-                "date": _fmt_date(prelim_date),
-                "date_iso": prelim_iso,
-                "title": f"{company} – Preliminary Placement Document",
-                "company": company,
-                "pdf_url": prelim_url,
-                "page_url": f"{BSE_BASE}/corporates/qip.aspx",
-                "type": "BSE_PRELIMINARY",
-                "id": f"prelim_{doc_id_base}_{prelim_iso}",
-            })
-
-        if place_url and place_date:
-            placement.append({
-                "date": _fmt_date(place_date),
-                "date_iso": place_iso,
-                "title": f"{company} – Placement Document",
-                "company": company,
-                "pdf_url": place_url,
-                "page_url": f"{BSE_BASE}/corporates/qip.aspx",
-                "type": "BSE_PLACEMENT",
-                "id": f"place_{doc_id_base}_{place_iso}",
-            })
-
-    return placement, preliminary
+BSE_QIP_API = "https://api.bseindia.com/BseIndiaAPI/api/qipdisplay/w"
 
 
 def scrape_bse_qip(from_date_iso=None, to_date_iso=None):
-    """Background thread — fetch BSE QIP page and populate both BSE caches."""
+    """Background thread — fetch BSE QIP data via JSON API and populate both BSE caches."""
     for t in ["BSE_PLACEMENT", "BSE_PRELIMINARY"]:
         cache[t].update({"fetching": True, "error": None, "fetch_started_at": time.time()})
 
@@ -935,15 +855,70 @@ def scrape_bse_qip(from_date_iso=None, to_date_iso=None):
     try:
         headers = {
             'User-Agent': BSE_UA,
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-            'Referer': 'https://www.bseindia.com',
+            'Accept': 'application/json, text/plain, */*',
+            'Referer': 'https://www.bseindia.com/corporates/qip',
+            'Origin': 'https://www.bseindia.com',
             'Accept-Language': 'en-US,en;q=0.9',
         }
-        req = urllib.request.Request(f"{BSE_BASE}/corporates/qip.aspx", headers=headers)
-        with urllib.request.urlopen(req, timeout=25, context=SSL_CTX) as r:
-            html = r.read().decode('utf-8', errors='ignore')
+        url = f"{BSE_QIP_API}?comp="
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=30, context=SSL_CTX) as r:
+            data = json.loads(r.read().decode('utf-8', errors='ignore'))
 
-        placement, preliminary = parse_bse_qip_page(html)
+        # API returns {"Table": [...]}
+        items = data.get("Table", []) if isinstance(data, dict) else data
+
+        placement, preliminary = [], []
+        for item in items:
+            company = (item.get("Scrip_Name") or "").strip()
+            scrip_code = (item.get("scrip_code") or "").strip()
+            if not company:
+                continue
+
+            doc_id_base = re.sub(r'[^a-z0-9]', '_', company.lower())[:30]
+            qip_page = f"{BSE_BASE}/corporates/qip"
+
+            # Preliminary = Draft Placement Document
+            draft_date = item.get("DraftPlacement_Date")
+            draft_doc = item.get("DraftPlacement_Doc") or ""
+            if draft_date:
+                try:
+                    dt = datetime.fromisoformat(draft_date.split("T")[0])
+                    date_iso = dt.strftime("%Y-%m-%d")
+                    date_text = dt.strftime("%d %b %Y")
+                    pdf_url = f"{BSE_BASE}{draft_doc}" if draft_doc else ""
+                    preliminary.append({
+                        "date": date_text, "date_iso": date_iso,
+                        "title": f"{company} – Draft Placement Document",
+                        "company": company,
+                        "pdf_url": pdf_url,
+                        "page_url": qip_page,
+                        "type": "BSE_PRELIMINARY",
+                        "id": f"prelim_{doc_id_base}_{date_iso}",
+                    })
+                except Exception:
+                    pass
+
+            # Placement = Placement Document
+            place_date = item.get("Placement_Date")
+            place_doc = item.get("Placement_Doc") or ""
+            if place_date:
+                try:
+                    dt = datetime.fromisoformat(place_date.split("T")[0])
+                    date_iso = dt.strftime("%Y-%m-%d")
+                    date_text = dt.strftime("%d %b %Y")
+                    pdf_url = f"{BSE_BASE}{place_doc}" if place_doc else ""
+                    placement.append({
+                        "date": date_text, "date_iso": date_iso,
+                        "title": f"{company} – Placement Document",
+                        "company": company,
+                        "pdf_url": pdf_url,
+                        "page_url": qip_page,
+                        "type": "BSE_PLACEMENT",
+                        "id": f"place_{doc_id_base}_{date_iso}",
+                    })
+                except Exception:
+                    pass
 
         # Apply date filter if provided
         if from_date_iso and to_date_iso:
@@ -2567,12 +2542,15 @@ def scrape_dl_reat(doc_type, from_date_iso=None, to_date_iso=None):
 def scrape_irdai_regs(doc_type, from_date_iso=None, to_date_iso=None):
     """Scrape IRDAI Consolidated & Gazette Notified Regulations.
     Liferay table, 7 cols: [checkbox, archived_status, title, date(DD-MM-YYYY),
-    description, file_no, hindi_title]. PDF links in cells."""
+    description, file_no, hindi_title]. PDF links in cells.
+    NOTE: IRDAI Liferay pagination is broken — the _cur page param is ignored,
+    so every page returns the same content. We fetch page 1 only and dedup."""
     cache[doc_type].update({"fetching": True, "error": None, "fetch_started_at": time.time()})
     print(f"[{doc_type}] Fetching IRDAI Regulations")
 
     try:
         all_docs = []
+        seen_keys = set()  # dedup by title+date (pagination returns duplicate content)
         base_url = "https://irdai.gov.in/consolidated-gazette-notified-regulations"
         page_param = "_com_irdai_document_media_IRDAIDocumentMediaPortlet_cur"
 
@@ -2582,6 +2560,7 @@ def scrape_irdai_regs(doc_type, from_date_iso=None, to_date_iso=None):
 
             rows = re.findall(r'<tr[^>]*>(.*?)</tr>', html_text, re.S)
             page_docs = 0
+            new_on_page = 0  # count of genuinely new (non-duplicate) docs
             for row in rows:
                 tds = re.findall(r'<td[^>]*>(.*?)</td>', row, re.S)
                 if len(tds) < 6:
@@ -2593,6 +2572,13 @@ def scrape_irdai_regs(doc_type, from_date_iso=None, to_date_iso=None):
 
                 if not title or not date_raw or len(date_raw) != 10:
                     continue
+
+                # Dedup: skip if we've already seen this title+date combo
+                dedup_key = f"{title.lower().strip()}|{date_raw}"
+                if dedup_key in seen_keys:
+                    page_docs += 1  # still counts as a parsed doc (for empty-page check)
+                    continue
+                seen_keys.add(dedup_key)
 
                 # PDF link — first href with download=true or .pdf
                 pdf_m = re.search(r'href="([^"]+(?:download=true|\.pdf)[^"]*)"', row)
@@ -2607,14 +2593,15 @@ def scrape_irdai_regs(doc_type, from_date_iso=None, to_date_iso=None):
                     date_text = date_raw
 
                 slug = re.sub(r'[^a-z0-9]', '_', title.lower())[:40]
-                doc_id = f"irdai_reg_{slug}_{len(all_docs)}"
+                doc_id = f"irdai_reg_{slug}_{date_raw.replace('-', '')}"
                 all_docs.append({
                     "date": date_text, "date_iso": date_iso,
                     "title": title, "company": file_no,
-                    "page_url": url, "pdf_url": pdf_url,
+                    "page_url": base_url, "pdf_url": pdf_url,
                     "type": doc_type, "id": doc_id,
                 })
                 page_docs += 1
+                new_on_page += 1
 
             # Update cache with FILTERED data so status checks are accurate
             if from_date_iso and to_date_iso:
@@ -2623,13 +2610,17 @@ def scrape_irdai_regs(doc_type, from_date_iso=None, to_date_iso=None):
                 filtered_regs = list(all_docs)
             cache[doc_type].update({"pages_done": page_num, "total": len(filtered_regs), "data": filtered_regs,
                                      "fetch_started_at": time.time()})
-            print(f"  [{doc_type}] page {page_num}: +{page_docs} docs (filtered: {len(filtered_regs)})")
+            print(f"  [{doc_type}] page {page_num}: +{new_on_page} new docs (total unique: {len(all_docs)}, filtered: {len(filtered_regs)})")
 
             if page_docs == 0:
                 break
+            # Stop if this page yielded zero new docs (pagination returning duplicate content)
+            if new_on_page == 0:
+                print(f"  [{doc_type}] page {page_num}: no new docs (pagination returning duplicates), stopping")
+                break
             # Early termination: if all docs on this page are before target date range, stop
             if from_date_iso:
-                pg_dates = [d["date_iso"] for d in all_docs[-page_docs:] if d["date_iso"]]
+                pg_dates = [d["date_iso"] for d in all_docs[-new_on_page:] if d["date_iso"]]
                 if pg_dates and all(d < from_date_iso for d in pg_dates):
                     print(f"  [{doc_type}] page {page_num}: all docs before {from_date_iso}, stopping")
                     break
@@ -2640,7 +2631,7 @@ def scrape_irdai_regs(doc_type, from_date_iso=None, to_date_iso=None):
             docs = [d for d in docs if d["date_iso"] and from_date_iso <= d["date_iso"] <= to_date_iso]
 
         cache[doc_type].update({"data": docs, "total": len(docs), "fetching": False})
-        print(f"[{doc_type}] Done — {len(docs)} IRDAI regulations")
+        print(f"[{doc_type}] Done — {len(docs)} IRDAI regulations (from {len(all_docs)} unique total)")
 
     except Exception as e:
         cache[doc_type].update({"error": str(e), "fetching": False})
@@ -2980,15 +2971,16 @@ def scrape_ibbi_nclt(doc_type, from_date_iso=None, to_date_iso=None):
     """Scrape IBBI NCLT orders (Resolution or Admission).
     Table: 4 cols: [sno, date(DD Mon, YYYY), title_with_onclick_pdf, type].
     PDF in onclick: javascript:newwindow1('/uploads/order/HASH.pdf').
+    Also handles <a href="/uploads/order/...pdf"> links.
     Paginated via ?page=N.
-    Fixes: dedup by title+date+pdf, filtered intermediate cache."""
+    Fixes: dedup by title+date+pdf, filtered intermediate cache, clean titles."""
     ibbi_title = SOURCES[doc_type]["ibbi_title"]
     cache[doc_type].update({"fetching": True, "error": None, "fetch_started_at": time.time()})
     print(f"[{doc_type}] Fetching IBBI NCLT {ibbi_title} Orders")
 
     try:
         all_docs = []
-        seen_keys = set()  # dedup by title+date+pdf
+        seen_keys = set()  # dedup by normalized title+date
         base_url = f"https://ibbi.gov.in/orders/nclt?title={ibbi_title}&date=&nclt="
 
         for page_num in range(1, 200):  # 1-indexed pages
@@ -3007,14 +2999,19 @@ def scrape_ibbi_nclt(doc_type, from_date_iso=None, to_date_iso=None):
                     continue
 
                 date_raw = _clean_text(tds[1]).strip()  # "03 Feb, 2026"
-                title = _clean_text(tds[2])
+                title_raw = _clean_text(tds[2])
+                # Clean title: remove trailing file size like "(834.95 KB)" or "(1.22 MB)"
+                title = re.sub(r'\s*\(\d+(?:\.\d+)?\s*(?:KB|MB|GB|bytes)\)\s*$', '', title_raw, flags=re.IGNORECASE).strip()
 
-                # PDF from onclick
+                # PDF from onclick (primary) or href (fallback)
                 onclick_m = re.search(r"newwindow1\('([^']+\.pdf)'\)", row)
+                href_m = re.search(r'href="(/uploads/order/[^"]+\.pdf)"', row) if not onclick_m else None
                 pdf_url = ""
                 if onclick_m:
                     pdf_path = onclick_m.group(1)
                     pdf_url = f"https://ibbi.gov.in{pdf_path}" if pdf_path.startswith("/") else pdf_path
+                elif href_m:
+                    pdf_url = f"https://ibbi.gov.in{href_m.group(1)}"
                 if not pdf_url:
                     pdf_url = url
 
@@ -3029,8 +3026,10 @@ def scrape_ibbi_nclt(doc_type, from_date_iso=None, to_date_iso=None):
                 if date_iso:
                     page_dates.append(date_iso)
 
-                # Dedup: skip if we've seen same title+date+pdf
-                dedup_key = f"{title.lower().strip()}|{date_iso}|{pdf_url}"
+                # Dedup: normalize title for comparison — remove case number formatting differences
+                # e.g. "C.P. (IB)/615(MB)2025" vs "CP (IB) No.615/MB/2025" should match
+                norm_title = re.sub(r'[\s.()/\-]+', '', title.lower())
+                dedup_key = f"{norm_title}|{date_iso}|{pdf_url}"
                 if dedup_key in seen_keys:
                     continue
                 seen_keys.add(dedup_key)
@@ -3064,7 +3063,12 @@ def scrape_ibbi_nclt(doc_type, from_date_iso=None, to_date_iso=None):
                 if all(d < from_date_iso for d in page_dates):
                     print(f"  [{doc_type}] page {page_num}: all docs before {from_date_iso}, stopping early")
                     break
-            if f"page={page_num + 1}" not in html_text:
+            # Check for next page — IBBI uses "page=N" or "?page=N" links
+            has_next = f"page={page_num + 1}" in html_text
+            if not has_next:
+                # Also check for a ">" (next arrow) link that isn't disabled
+                has_next = re.search(r'<a[^>]+page=\d+[^>]*>\s*>\s*</a>', html_text) is not None
+            if not has_next:
                 break
             time.sleep(1.0)
 
@@ -4139,21 +4143,39 @@ def scrape_govuk_finder(doc_type, from_date_iso=None, to_date_iso=None):
                     body = r.read().decode("utf-8", errors="replace")
 
                 # Each result is wrapped in <li class="gem-c-document-list__item...">
-                items = re.findall(
-                    r'<li[^>]+class="[^"]*gem-c-document-list__item[^"]*"[^>]*>(.*?)</li>',
-                    body, re.DOTALL
-                )
+                # Use split to handle nested <li> tags inside metadata <ul>
+                _item_starts = [m.start() for m in re.finditer(
+                    r'<li[^>]+class="[^"]*gem-c-document-list__item[^"]*"', body
+                )]
+                items = []
+                for si, start in enumerate(_item_starts):
+                    end = _item_starts[si + 1] if si + 1 < len(_item_starts) else start + 5000
+                    items.append(body[start:end])
                 if not items:
                     break
 
                 for item_html in items:
                     title_m = re.search(r'href="(/[^"]+)"[^>]*>\s*(.*?)\s*</a>', item_html, re.DOTALL)
-                    date_m  = re.search(r'<time[^>]+datetime="([^"]+)"', item_html)
+                    # Prefer Closed date <time> over Opened date <time>
+                    closed_time_m = re.search(r'Closed:.*?<time[^>]+datetime="([^"]+)"', item_html, re.DOTALL)
+                    date_m  = closed_time_m or re.search(r'<time[^>]+datetime="([^"]+)"', item_html)
                     if not title_m:
                         continue
                     href      = title_m.group(1)
                     title     = re.sub(r"<[^>]+>", "", html.unescape(title_m.group(2))).strip()
                     date_iso  = date_m.group(1)[:10] if date_m else ""
+                    # Fallback: if no <time> tag, extract date from metadata text
+                    if not date_iso:
+                        closed_m = re.search(r'Closed:\s*(\d{1,2}\s+\w+\s+\d{4})', item_html)
+                        if not closed_m:
+                            closed_m = re.search(r'Opened:\s*(\d{1,2}\s+\w+\s+\d{4})', item_html)
+                        if closed_m:
+                            for dfmt in ("%d %B %Y", "%d %b %Y"):
+                                try:
+                                    date_iso = datetime.strptime(closed_m.group(1).strip(), dfmt).strftime("%Y-%m-%d")
+                                    break
+                                except ValueError:
+                                    pass
                     try:
                         date_txt = datetime.fromisoformat(date_iso).strftime("%d %b %Y") if date_iso else date_iso
                     except Exception:
@@ -4197,30 +4219,40 @@ def scrape_govuk_finder(doc_type, from_date_iso=None, to_date_iso=None):
 
                 if final_only:
                     # Score each PDF by how authoritative it is:
-                    # 4 = final report  3 = full text / final decision
-                    # 2 = final (other)  1 = any decision  0 = other
+                    # 5 = full text (any)  4 = final report  3 = final decision
+                    # 2 = final (other)  1 = any decision/report/order  0 = other
                     best_url, best_score = '', -1
                     for url in all_urls:
                         fname = url.split('/')[-1].lower()
                         idx   = det_body.find(url)
-                        ctx   = det_body[max(0, idx - 250):idx].lower()
+                        ctx   = det_body[max(0, idx - 400):idx + 400].lower()
                         if 'final report' in ctx or 'final_report' in fname or 'final-report' in fname:
-                            score = 4
+                            score = 5
+                        elif 'full_text' in fname or 'full-text' in fname or 'full text' in ctx:
+                            score = 5
                         elif 'full_text_decision' in fname or 'full text decision' in ctx or 'full-text-decision' in fname:
-                            score = 3
+                            score = 4
                         elif 'final_decision' in fname or 'final decision' in ctx or 'final-decision' in fname:
+                            score = 4
+                        elif 'final' in fname and ('decision' in fname or 'report' in fname or 'order' in fname):
                             score = 3
-                        elif 'final' in fname and ('decision' in fname or 'report' in fname):
-                            score = 2
-                        elif 'final' in ctx and ('decision' in ctx or 'report' in ctx):
-                            score = 2
+                        elif 'final' in ctx and ('decision' in ctx or 'report' in ctx or 'order' in ctx):
+                            score = 3
+                        elif 'phase_1_decision' in fname or 'phase-1-decision' in fname or 'phase 1 decision' in ctx:
+                            score = 3
+                        elif 'phase_2' in fname and ('report' in fname or 'decision' in fname):
+                            score = 3
                         elif 'decision' in fname or 'decision' in ctx:
+                            score = 2
+                        elif 'report' in fname or 'order' in fname:
+                            score = 1
+                        elif 'infringement' in fname or 'infringement' in ctx:
                             score = 1
                         else:
                             score = 0
                         if score > best_score:
                             best_score, best_url = score, url
-                    # Only keep docs that have at least some decision/final PDF
+                    # Keep docs that have at least some relevant PDF (score >= 1)
                     if best_url and best_score >= 1:
                         doc["pdf_url"] = html.unescape(best_url)
                 else:
@@ -4922,6 +4954,9 @@ class Handler(BaseHTTPRequestHandler):
         if path == '/':
             _base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
             self._file(os.path.join(_base, 'frontend', 'index.html'), 'text/html')
+
+        elif path == '/health':
+            self._json({"status": "ok", "service": "LucioBriefcase"})
 
         elif path == '/api/status':
             self._json({k: self._status(k) for k in SOURCES})

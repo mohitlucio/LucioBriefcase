@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: luciobriefcase
+    env: python
+    
+    # Build and start commands
+    buildCommand: pip install -r requirements.txt
+    startCommand: python backend/server.py
+    
+    # Environment variables for cloud deployment
+    envVars:
+      - key: CLOUD
+        value: "1"
+      - key: PORT
+        value: "10000"
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: DOWNLOAD_DIR
+        value: /data/Repositories
+    
+    # Persistent disk for storing downloaded PDFs
+    disk:
+      name: briefcase-storage
+      mountPath: /data
+      sizeGb: 1
