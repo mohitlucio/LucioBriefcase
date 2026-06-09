@@ -236,8 +236,10 @@ download_progress = {}
 _download_sem = threading.Semaphore(40)  # global cap; adaptive per-source workers below
 
 # ─── HTTP helpers ────────────────────────────────────────────────────────────
-def _urlopen_retry(req, timeout=60, retries=2, ctx=None):
+def _urlopen_retry(req, timeout=None, retries=2, ctx=None):
     """urlopen with retries for transient timeouts."""
+    if timeout is None:
+        timeout = 10 if _CLOUD else 60  # shorter timeout for cloud
     last_exc = None
     for attempt in range(retries + 1):
         try:
@@ -251,7 +253,8 @@ def _urlopen_retry(req, timeout=60, retries=2, ctx=None):
 
 # ─── PARALLEL SCRAPER RUNNER ─────────────────────────────────────────────────
 _scrape_generation = 0  # bumped on every month switch; runner stops if stale
-SCRAPER_TIMEOUT = 1800  # max 30 min per scraper — allows wide date-range full pagination
+# Shorter timeout for cloud (Render free tier has limited resources)
+SCRAPER_TIMEOUT = 120 if _CLOUD else 1800  # 2 min cloud, 30 min local
 SCRAPER_WORKERS = len(SOURCES)  # one worker per source — all sources run in parallel (pure I/O-bound)
 
 def _run_all_scrapers(from_iso, to_iso, from_dd, to_dd, generation):
@@ -401,7 +404,7 @@ def _run_all_scrapers(from_iso, to_iso, from_dd, to_dd, generation):
         print(f"[RUNNER] generation {generation} complete — all sources done")
 
 # ─── WATCHDOG — reset stuck scrapers ─────────────────────────────────────────
-SCRAPE_TIMEOUT = 600  # seconds before a scraper is considered stuck
+SCRAPE_TIMEOUT = 60 if _CLOUD else 600  # seconds before a scraper is considered stuck
 
 def _watchdog():
     """Run every 30s; if a source has been 'fetching' for > SCRAPE_TIMEOUT seconds, reset it."""
@@ -560,7 +563,9 @@ def _sebi_curl(url, post_data=None, cookie_file=None, timeout=30, referer=None, 
     raise last_err
 
 
-def fetch_simple(url, ua=SEBI_UA, retries=3, timeout=25):
+def fetch_simple(url, ua=SEBI_UA, retries=3, timeout=None):
+    if timeout is None:
+        timeout = 10 if _CLOUD else 25  # shorter timeout for cloud
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, headers={
@@ -5650,12 +5655,21 @@ def main():
     # Start watchdog thread
     threading.Thread(target=_watchdog, daemon=True).start()
 
-    # Boot scrapers sequentially in a background thread
+    # Boot scrapers sequentially in a background thread (with error handling)
     _scrape_generation += 1
     gen = _scrape_generation
     for k in SOURCES:
         cache[k]["fetching"] = True
-    threading.Thread(target=_run_all_scrapers, args=(from_iso, to_iso, from_dd, to_dd, gen), daemon=True).start()
+    
+    def _safe_scrapers():
+        try:
+            _run_all_scrapers(from_iso, to_iso, from_dd, to_dd, gen)
+        except Exception as e:
+            print(f"Scraper error (non-fatal): {e}")
+            for k in SOURCES:
+                cache[k]["fetching"] = False
+    
+    threading.Thread(target=_safe_scrapers, daemon=True).start()
 
     server = ThreadingHTTPServer((HOST, PORT), Handler)
     if not _CLOUD:
