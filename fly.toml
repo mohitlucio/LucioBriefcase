@@ -1,0 +1,38 @@
+app = "luciobriefcase"
+primary_region = "iad"
+
+[build]
+  image = "luciobriefcase:latest"
+
+[env]
+  CLOUD = "1"
+  AUTO_SCRAPE_ON_START = "1"
+  DOWNLOAD_DIR = "/data"
+  PORT = "10000"
+
+[[services]]
+  internal_port = 10000
+  protocol = "tcp"
+
+  [[services.ports]]
+    port = 80
+    handlers = ["http"]
+
+  [[services.ports]]
+    port = 443
+    handlers = ["tls", "http"]
+
+[[mounts]]
+  source = "repositories_data"
+  destination = "/data"
+  initial_size = "10gb"
+
+[checks]
+  [checks.health]
+    type = "http"
+    interval = "30s"
+    timeout = "10s"
+    grace_period = "30s"
+    method = "get"
+    path = "/health"
+    protocol = "http"
