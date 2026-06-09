@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-06-09 09:58:50 UTC",
-  "finished_at": "2026-06-09 10:08:32 UTC",
-  "duration_seconds": 582.2,
+  "started_at": "2026-06-09 11:15:19 UTC",
+  "finished_at": "2026-06-09 11:26:38 UTC",
+  "duration_seconds": 679.5,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 16,
-  "sources_error": 22,
-  "sources_empty": 55,
-  "total_documents": 82,
-  "docs_with_pdf": 65,
+  "sources_ok": 20,
+  "sources_error": 8,
+  "sources_empty": 65,
+  "total_documents": 95,
+  "docs_with_pdf": 78,
   "docs_without_pdf": 17,
   "source_details": [
     {
@@ -261,24 +261,89 @@
       "label": "BSE_PLACEMENT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Aanchal Ispat Ltd – Placement Document",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/10765/QIP Open/Final PD_20260605195522.pdf",
+          "has_pdf": true,
+          "id": "place_aanchal_ispat_ltd_2026-06-05"
+        },
+        {
+          "title": "ACME Solar Holdings Ltd – Placement Document",
+          "date": "04 Jun 2026",
+          "date_iso": "2026-06-04",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/11619/QIP Open/PDJune042026_20260604212850.pdf",
+          "has_pdf": true,
+          "id": "place_acme_solar_holdings_ltd_2026-06-04"
+        },
+        {
+          "title": "Ola Electric Mobility Ltd – Placement Document",
+          "date": "04 Jun 2026",
+          "date_iso": "2026-06-04",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/13251/QIP Open/OlaElectricMobilityLimitedPlacementDocument_20260604203111.pdf",
+          "has_pdf": true,
+          "id": "place_ola_electric_mobility_ltd_2026-06-04"
+        },
+        {
+          "title": "KRN Heat Exchanger And Refrigeration Ltd – Placement Document",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/13283/QIP Open/pdfinal_20260601224639.pdf",
+          "has_pdf": true,
+          "id": "place_krn_heat_exchanger_and_refrige_2026-06-01"
+        }
+      ]
     },
     {
       "key": "BSE_PRELIMINARY",
       "label": "BSE_PRELIMINARY",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Aanchal Ispat Ltd – Draft Placement Document",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/10765/QIP Open/PPD_with price_20260603215858.pdf",
+          "has_pdf": true,
+          "id": "prelim_aanchal_ispat_ltd_2026-06-03"
+        },
+        {
+          "title": "ACME Solar Holdings Ltd – Draft Placement Document",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/11619/QIP Open/PPD_20260601201335.pdf",
+          "has_pdf": true,
+          "id": "prelim_acme_solar_holdings_ltd_2026-06-01"
+        },
+        {
+          "title": "Ola Electric Mobility Ltd – Draft Placement Document",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/13251/QIP Open/OlaElectricMobilityLimitedPPD_20260601181349.pdf",
+          "has_pdf": true,
+          "id": "prelim_ola_electric_mobility_ltd_2026-06-01"
+        }
+      ]
     },
     {
       "key": "CCI_FORM1",
@@ -479,8 +544,8 @@
       "label": "RBI_MD",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -491,8 +556,8 @@
       "label": "RBI_MC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -503,8 +568,8 @@
       "label": "RBI_MD_COMM",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -515,8 +580,8 @@
       "label": "RBI_MD_SFB",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -527,8 +592,8 @@
       "label": "RBI_MD_PAY",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -539,8 +604,8 @@
       "label": "RBI_MD_LAB",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -551,8 +616,8 @@
       "label": "RBI_MD_RRB",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -563,8 +628,8 @@
       "label": "RBI_MD_UCB",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -575,8 +640,8 @@
       "label": "RBI_MD_RCB",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -587,8 +652,8 @@
       "label": "RBI_MD_AIFI",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -599,8 +664,8 @@
       "label": "RBI_MD_NBFC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -801,22 +866,13 @@
           "id": "hr_reat_H-REAT-287-2025_2"
         },
         {
-          "title": "H-REAT-82-2024 — GLS Infracon Pvt Ltd vs MAHUA DAS",
+          "title": "H-REAT-195-2025 — BPTP Ltd. and Anjali Promoters and Developers Pvt. Ltd. vs UMA CHANDERNAIN OBEROI",
           "date": "03 Jun 2026",
           "date_iso": "2026-06-03",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUz",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwODE1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-82-2024_3"
-        },
-        {
-          "title": "H-REAT-293-2022 — Experion Developers Private Limited vs PARVEEN GAMBHIR",
-          "date": "03 Jun 2026",
-          "date_iso": "2026-06-03",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-293-2022_4"
+          "id": "hr_reat_H-REAT-195-2025_3"
         },
         {
           "title": "H-REAT-594-2024 — Alpha Corp Development Private Limited vs VIKAS SINGLA",
@@ -825,25 +881,25 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-594-2024_5"
+          "id": "hr_reat_H-REAT-594-2024_4"
         },
         {
-          "title": "H-REAT-195-2025 — BPTP Ltd. and Anjali Promoters and Developers Pvt. Ltd. vs UMA CHANDERNAIN OBEROI",
+          "title": "H-REAT-82-2024 — GLS Infracon Pvt Ltd vs MAHUA DAS",
           "date": "03 Jun 2026",
           "date_iso": "2026-06-03",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwODE1",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-195-2025_6"
+          "id": "hr_reat_H-REAT-82-2024_5"
         },
         {
-          "title": "H-REAT-810-2022 — DSS Buildtech Private Limited vs RUCHI CHAUHAN AND VIKRAM SINGH MANDHOTRA",
-          "date": "02 Jun 2026",
-          "date_iso": "2026-06-02",
+          "title": "H-REAT-293-2022 — Experion Developers Private Limited vs PARVEEN GAMBHIR",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjMz",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-810-2022_7"
+          "id": "hr_reat_H-REAT-293-2022_6"
         },
         {
           "title": "H-REAT-583-2024 — Icon Realcon Private Limited vs HARYANA REAL ESTATE REGULATORY AUTHORITY AT PANCHKULA",
@@ -852,16 +908,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNzI3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-583-2024_8"
+          "id": "hr_reat_H-REAT-583-2024_7"
         },
         {
-          "title": "H-REAT-131-2026 — M/S DLF LTD vs GAUTAM RANA",
-          "date": "01 Jun 2026",
-          "date_iso": "2026-06-01",
+          "title": "H-REAT-810-2022 — DSS Buildtech Private Limited vs RUCHI CHAUHAN AND VIKRAM SINGH MANDHOTRA",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzE0",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjMz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-131-2026_9"
+          "id": "hr_reat_H-REAT-810-2022_8"
         },
         {
           "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
@@ -870,7 +926,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzEz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-130-2026_10"
+          "id": "hr_reat_H-REAT-130-2026_9"
+        },
+        {
+          "title": "H-REAT-131-2026 — M/S DLF LTD vs GAUTAM RANA",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzE0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-131-2026_10"
         }
       ]
     },
@@ -970,7 +1035,7 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "In the matter of PRIMEZONE DEVELOPERS PRIVATE LIMITED [C.P. (IB) - 128/2022] (298.23 KB)",
+          "title": "In the matter of PRIMEZONE DEVELOPERS PRIVATE LIMITED [C.P. (IB) - 128/2022]",
           "date": "05 Jun 2026",
           "date_iso": "2026-06-05",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -979,7 +1044,7 @@
           "id": "ibbi_adm_ab5bbc3b102e1ae1ca8ed1c2c1a38b30_pdf"
         },
         {
-          "title": "In the matter of BLD METAL AND ALLOYS PRIVATE LIMITED [COMPANY PETITION IB (IBC) NO. 549/ND/2025] (203.19 KB)",
+          "title": "In the matter of BLD METAL AND ALLOYS PRIVATE LIMITED [COMPANY PETITION IB (IBC) NO. 549/ND/2025]",
           "date": "03 Jun 2026",
           "date_iso": "2026-06-03",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -988,7 +1053,7 @@
           "id": "ibbi_adm_a4dbe1007b3775d916ddbe26c791737d_pdf"
         },
         {
-          "title": "In the matter of BLACKBERRY OVERSEAS PRIVATE LIMITED [CP IB NO. 221/ND/2025] (215.45 KB)",
+          "title": "In the matter of BLACKBERRY OVERSEAS PRIVATE LIMITED [CP IB NO. 221/ND/2025]",
           "date": "03 Jun 2026",
           "date_iso": "2026-06-03",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -997,7 +1062,7 @@
           "id": "ibbi_adm_2026_06_08_152205_lnpme_d1e58e9f794ee072"
         },
         {
-          "title": "In the matter of NEW PEARL VITRIFIED PRIVATE LIMITED [C.P.(IB)/484(AHM)2025] (508.79 KB)",
+          "title": "In the matter of NEW PEARL VITRIFIED PRIVATE LIMITED [C.P.(IB)/484(AHM)2025]",
           "date": "02 Jun 2026",
           "date_iso": "2026-06-02",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1006,7 +1071,7 @@
           "id": "ibbi_adm_2886fb85ae4c25d8f4b399cf8243c1b7_pdf"
         },
         {
-          "title": "In the matter of EARTH TOWNE INFRASTRUCTURES PRIVATE LIMITED [Restored Company Petition (IBC) 9/ND/2025] (767.71 KB)",
+          "title": "In the matter of EARTH TOWNE INFRASTRUCTURES PRIVATE LIMITED [Restored Company Petition (IBC) 9/ND/2025]",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1015,7 +1080,7 @@
           "id": "ibbi_adm_723f54f0251a44d8664a58857deabb67_pdf"
         },
         {
-          "title": "In the matter of MAIYAS RESTAURANTS PRIVATE LIMITED [C.P. (IB)/40(BEN)2026] (630.39 KB)",
+          "title": "In the matter of MAIYAS RESTAURANTS PRIVATE LIMITED [C.P. (IB)/40(BEN)2026]",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1024,7 +1089,7 @@
           "id": "ibbi_adm_2026_06_03_120025_dmn6c_35f784155b7f48ea"
         },
         {
-          "title": "In the matter of CREDITSAVVY TECHNOLOGIES PRIVATE LIMITED [C.P. (IB) No./51/ALD/2026] (414.64 KB)",
+          "title": "In the matter of CREDITSAVVY TECHNOLOGIES PRIVATE LIMITED [C.P. (IB) No./51/ALD/2026]",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1033,22 +1098,22 @@
           "id": "ibbi_adm_2026_06_05_135723_oqiyg_d1e58e9f794ee072"
         },
         {
-          "title": "In the matter of ATTHARV SAI FLEXIPACK PRIVATE LIMITED [CP (IB) No. 72/BB/2025] (755.32 KB)",
-          "date": "01 Jun 2026",
-          "date_iso": "2026-06-01",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-08-113223-zxlu7-b72d79647ca644c6d0d94692173df3c7.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2026_06_08_113223_zxlu7_b72d79647ca644c6"
-        },
-        {
-          "title": "In the matter of THIRANI INDUSTRIES LIMITED [540/ND/2022] (632.02 KB)",
+          "title": "In the matter of THIRANI INDUSTRIES LIMITED [540/ND/2022]",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-132438-mbnxj-d7b320923ba0910f0114aac7517cef61.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_2026_06_03_132438_mbnxj_d7b320923ba0910f"
+        },
+        {
+          "title": "In the matter of ATTHARV SAI FLEXIPACK PRIVATE LIMITED [CP (IB) No. 72/BB/2025]",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-08-113223-zxlu7-b72d79647ca644c6d0d94692173df3c7.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_06_08_113223_zxlu7_b72d79647ca644c6"
         }
       ]
     },
@@ -1539,12 +1604,22 @@
       "label": "UK_CMA_MERGERS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "LB Group / Venator UK (TiO2 assets) merger inquiry",
+          "date": "04 Jun 2026",
+          "date_iso": "2026-06-04",
+          "page_url": "https://www.gov.uk/cma-cases/lb-group-slash-venator-uk-tio2-assets-merger-inquiry",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a213226730aece621f098e6/Full_text_decision.pdf",
+          "has_pdf": true,
+          "id": "govuk_a-cases_lb-group-slash-venator-uk-tio2-assets-merger-inquiry"
+        }
+      ]
     },
     {
       "key": "UK_CMA_NONMERGER",
@@ -1854,8 +1929,8 @@
       "label": "RBI_FEMA_DIR",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1866,8 +1941,8 @@
       "label": "RBI_FEMA_CIRC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1878,12 +1953,58 @@
       "label": "RBI_FEMA_NOTIF",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 5,
+      "docs_with_pdf": 5,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "NOP-INR position of Authorised Dealer Category-I banks",
+          "date": "08 Jun 2026",
+          "date_iso": "2026-06-08",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13470&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT101006035F74F4F498BB485CB28A998F8ED.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13470"
+        },
+        {
+          "title": "Foreign Exchange Management (Export of Goods and Services) (First Amendment) Regulations, 2026",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13467&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/EGS050620261F93347664F94E4491D6F8762DFF8EF7.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13467"
+        },
+        {
+          "title": "Foreign Exchange Management (Cross Border Merger) (Amendment) Regulations, 2026",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13466&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/FEMA389050620262004133EF5EB477EA06F6AC597C1917B.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13466"
+        },
+        {
+          "title": "Submission of statement/return on Centralized Information Management System (CIMS)",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13465&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/12APDIR050620260924D775A2294FCD9E1CE9A27D6140F1.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13465"
+        },
+        {
+          "title": "Investments by Foreign Portfolio Investors in Government Securities – Amendments to the regulatory framework",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13464&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT9752AB8622AD294C368E271246D72D678F.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13464"
+        }
+      ]
     }
   ],
   "partial_scrape": false
