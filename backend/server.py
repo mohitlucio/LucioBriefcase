@@ -5655,21 +5655,25 @@ def main():
     # Start watchdog thread
     threading.Thread(target=_watchdog, daemon=True).start()
 
-    # Boot scrapers sequentially in a background thread (with error handling)
-    _scrape_generation += 1
-    gen = _scrape_generation
-    for k in SOURCES:
-        cache[k]["fetching"] = True
-    
-    def _safe_scrapers():
-        try:
-            _run_all_scrapers(from_iso, to_iso, from_dd, to_dd, gen)
-        except Exception as e:
-            print(f"Scraper error (non-fatal): {e}")
-            for k in SOURCES:
-                cache[k]["fetching"] = False
-    
-    threading.Thread(target=_safe_scrapers, daemon=True).start()
+    # Boot scrapers only on local deployment
+    # On cloud (Render free tier), skip auto-scraping to avoid resource exhaustion
+    if not _CLOUD:
+        _scrape_generation += 1
+        gen = _scrape_generation
+        for k in SOURCES:
+            cache[k]["fetching"] = True
+        
+        def _safe_scrapers():
+            try:
+                _run_all_scrapers(from_iso, to_iso, from_dd, to_dd, gen)
+            except Exception as e:
+                print(f"Scraper error (non-fatal): {e}")
+                for k in SOURCES:
+                    cache[k]["fetching"] = False
+        
+        threading.Thread(target=_safe_scrapers, daemon=True).start()
+    else:
+        print("  [CLOUD MODE] Scrapers disabled - use /api/refresh to scrape on-demand")
 
     server = ThreadingHTTPServer((HOST, PORT), Handler)
     if not _CLOUD:
