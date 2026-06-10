@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-06-10 10:16:24 UTC",
-  "finished_at": "2026-06-10 10:25:43 UTC",
-  "duration_seconds": 558.4,
+  "started_at": "2026-06-10 15:57:03 UTC",
+  "finished_at": "2026-06-10 16:06:23 UTC",
+  "duration_seconds": 559.4,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 24,
+  "sources_ok": 28,
   "sources_error": 6,
-  "sources_empty": 63,
-  "total_documents": 104,
-  "docs_with_pdf": 83,
-  "docs_without_pdf": 21,
+  "sources_empty": 59,
+  "total_documents": 122,
+  "docs_with_pdf": 100,
+  "docs_without_pdf": 22,
   "source_details": [
     {
       "key": "RHP",
@@ -44,10 +44,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 6,
+      "doc_count": 7,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 6,
+      "docs_without_pdf": 7,
       "documents": [
+        {
+          "title": "Aastha Spintex Limited - Addendum to DRHP",
+          "date": "10 Jun 2026",
+          "date_iso": "2026-06-10",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/jun-2026/aastha-spintex-limited-addendum-to-drhp_102025.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "102025"
+        },
         {
           "title": "Zepto Limited - UDRHP1",
           "date": "09 Jun 2026",
@@ -270,24 +279,98 @@
       "label": "BSE_PLACEMENT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Aanchal Ispat Ltd – Placement Document",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/10765/QIP Open/Final PD_20260605195522.pdf",
+          "has_pdf": true,
+          "id": "place_aanchal_ispat_ltd_2026-06-05"
+        },
+        {
+          "title": "ACME Solar Holdings Ltd – Placement Document",
+          "date": "04 Jun 2026",
+          "date_iso": "2026-06-04",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/11619/QIP Open/PDJune042026_20260604212850.pdf",
+          "has_pdf": true,
+          "id": "place_acme_solar_holdings_ltd_2026-06-04"
+        },
+        {
+          "title": "Ola Electric Mobility Ltd – Placement Document",
+          "date": "04 Jun 2026",
+          "date_iso": "2026-06-04",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/13251/QIP Open/OlaElectricMobilityLimitedPlacementDocument_20260604203111.pdf",
+          "has_pdf": true,
+          "id": "place_ola_electric_mobility_ltd_2026-06-04"
+        },
+        {
+          "title": "KRN Heat Exchanger And Refrigeration Ltd – Placement Document",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/13283/QIP Open/pdfinal_20260601224639.pdf",
+          "has_pdf": true,
+          "id": "place_krn_heat_exchanger_and_refrige_2026-06-01"
+        }
+      ]
     },
     {
       "key": "BSE_PRELIMINARY",
       "label": "BSE_PRELIMINARY",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Motisons Jewellers Ltd – Draft Placement Document",
+          "date": "09 Jun 2026",
+          "date_iso": "2026-06-09",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/12871/QIP Open/MJL_PPD-V10_20260610120044.pdf",
+          "has_pdf": true,
+          "id": "prelim_motisons_jewellers_ltd_2026-06-09"
+        },
+        {
+          "title": "Aanchal Ispat Ltd – Draft Placement Document",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/10765/QIP Open/PPD_with price_20260603215858.pdf",
+          "has_pdf": true,
+          "id": "prelim_aanchal_ispat_ltd_2026-06-03"
+        },
+        {
+          "title": "ACME Solar Holdings Ltd – Draft Placement Document",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/11619/QIP Open/PPD_20260601201335.pdf",
+          "has_pdf": true,
+          "id": "prelim_acme_solar_holdings_ltd_2026-06-01"
+        },
+        {
+          "title": "Ola Electric Mobility Ltd – Draft Placement Document",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/13251/QIP Open/OlaElectricMobilityLimitedPPD_20260601181349.pdf",
+          "has_pdf": true,
+          "id": "prelim_ola_electric_mobility_ltd_2026-06-01"
+        }
+      ]
     },
     {
       "key": "CCI_FORM1",
@@ -654,24 +737,44 @@
       "label": "INX_CIRC",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[20260610-1] Issue of U.S $500,000,000 7.60 percent due 2029 IIFL Finance Limited",
+          "date": "10 Jun 2026",
+          "date_iso": "2026-06-10",
+          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
+          "pdf_url": "https://www.indiainx.com/circulars/20260610-1/20260610-1.pdf",
+          "has_pdf": true,
+          "id": "inx_circ_20260610-1"
+        }
+      ]
     },
     {
       "key": "INX_ISSUER",
       "label": "INX_ISSUER",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "IIFL Finance Limited — Issue of U.S $500,000,000 7.60 percent due 2029 IIFL Finance Limited",
+          "date": "10 Jun 2026",
+          "date_iso": "2026-06-10",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/IIFL144AGMTN2026DrawdownPricingSupplement20260609163008.pdf",
+          "has_pdf": true,
+          "id": "inx_iss_issue_of_u_s__500_000_000_7_60_2026-06-10"
+        }
+      ]
     },
     {
       "key": "TG_RERA_ADJ",
@@ -803,22 +906,22 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "H-REAT-915-2024 — Mapsko Builders Private Limited vs ANIL KUMAR",
-          "date": "09 Jun 2026",
-          "date_iso": "2026-06-09",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxMDcx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-915-2024_0"
-        },
-        {
           "title": "H-REAT-482-2022 — State of Haryana through Director Town and Country Planning Department Haryana Chandigarh vs HARYANA REAL ESTATE REGULATORY AUTHORITY",
           "date": "09 Jun 2026",
           "date_iso": "2026-06-09",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxMDcw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-482-2022_1"
+          "id": "hr_reat_H-REAT-482-2022_0"
+        },
+        {
+          "title": "H-REAT-915-2024 — Mapsko Builders Private Limited vs ANIL KUMAR",
+          "date": "09 Jun 2026",
+          "date_iso": "2026-06-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxMDcx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-915-2024_1"
         },
         {
           "title": "H-REAT-287-2025 — M/s JMK Holdings Private limited vs HARYANA REAL ESTATE REGULATORY AUTHORITY GURUGRAM",
@@ -830,31 +933,22 @@
           "id": "hr_reat_H-REAT-287-2025_2"
         },
         {
-          "title": "H-REAT-594-2024 — Alpha Corp Development Private Limited vs VIKAS SINGLA",
-          "date": "03 Jun 2026",
-          "date_iso": "2026-06-03",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-594-2024_3"
-        },
-        {
           "title": "H-REAT-195-2025 — BPTP Ltd. and Anjali Promoters and Developers Pvt. Ltd. vs UMA CHANDERNAIN OBEROI",
           "date": "03 Jun 2026",
           "date_iso": "2026-06-03",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwODE1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-195-2025_4"
+          "id": "hr_reat_H-REAT-195-2025_3"
         },
         {
-          "title": "H-REAT-293-2022 — Experion Developers Private Limited vs PARVEEN GAMBHIR",
+          "title": "H-REAT-594-2024 — Alpha Corp Development Private Limited vs VIKAS SINGLA",
           "date": "03 Jun 2026",
           "date_iso": "2026-06-03",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUy",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-293-2022_5"
+          "id": "hr_reat_H-REAT-594-2024_4"
         },
         {
           "title": "H-REAT-82-2024 — GLS Infracon Pvt Ltd vs MAHUA DAS",
@@ -863,16 +957,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-82-2024_6"
+          "id": "hr_reat_H-REAT-82-2024_5"
         },
         {
-          "title": "H-REAT-583-2024 — Icon Realcon Private Limited vs HARYANA REAL ESTATE REGULATORY AUTHORITY AT PANCHKULA",
-          "date": "02 Jun 2026",
-          "date_iso": "2026-06-02",
+          "title": "H-REAT-293-2022 — Experion Developers Private Limited vs PARVEEN GAMBHIR",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNzI3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-583-2024_7"
+          "id": "hr_reat_H-REAT-293-2022_6"
         },
         {
           "title": "H-REAT-810-2022 — DSS Buildtech Private Limited vs RUCHI CHAUHAN AND VIKRAM SINGH MANDHOTRA",
@@ -881,7 +975,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjMz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-810-2022_8"
+          "id": "hr_reat_H-REAT-810-2022_7"
+        },
+        {
+          "title": "H-REAT-583-2024 — Icon Realcon Private Limited vs HARYANA REAL ESTATE REGULATORY AUTHORITY AT PANCHKULA",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNzI3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-583-2024_8"
         },
         {
           "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
@@ -1008,15 +1111,6 @@
           "id": "ibbi_adm_daeb8670d7a0783b29b3b0eb4dc3c10c_pdf"
         },
         {
-          "title": "In the matter of PRIMEZONE DEVELOPERS PRIVATE LIMITED [C.P. (IB) - 128/2022]",
-          "date": "05 Jun 2026",
-          "date_iso": "2026-06-05",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/ab5bbc3b102e1ae1ca8ed1c2c1a38b30.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_ab5bbc3b102e1ae1ca8ed1c2c1a38b30_pdf"
-        },
-        {
           "title": "In the matter of INODAYA FOODS PRIVATE LIMITED [C.P. (IB) No. 105/Chd/Hry/2025]",
           "date": "05 Jun 2026",
           "date_iso": "2026-06-05",
@@ -1026,13 +1120,13 @@
           "id": "ibbi_adm_0a010626ec2e681f197cf9ff134066ee_pdf"
         },
         {
-          "title": "In the matter of BLD METAL AND ALLOYS PRIVATE LIMITED [COMPANY PETITION IB (IBC) NO. 549/ND/2025]",
-          "date": "03 Jun 2026",
-          "date_iso": "2026-06-03",
+          "title": "In the matter of PRIMEZONE DEVELOPERS PRIVATE LIMITED [C.P. (IB) - 128/2022]",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/a4dbe1007b3775d916ddbe26c791737d.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/ab5bbc3b102e1ae1ca8ed1c2c1a38b30.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_a4dbe1007b3775d916ddbe26c791737d_pdf"
+          "id": "ibbi_adm_ab5bbc3b102e1ae1ca8ed1c2c1a38b30_pdf"
         },
         {
           "title": "In the matter of BLACKBERRY OVERSEAS PRIVATE LIMITED [CP IB NO. 221/ND/2025]",
@@ -1044,6 +1138,15 @@
           "id": "ibbi_adm_2026_06_08_152205_lnpme_d1e58e9f794ee072"
         },
         {
+          "title": "In the matter of BLD METAL AND ALLOYS PRIVATE LIMITED [COMPANY PETITION IB (IBC) NO. 549/ND/2025]",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/a4dbe1007b3775d916ddbe26c791737d.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_a4dbe1007b3775d916ddbe26c791737d_pdf"
+        },
+        {
           "title": "In the matter of NEW PEARL VITRIFIED PRIVATE LIMITED [C.P.(IB)/484(AHM)2025]",
           "date": "02 Jun 2026",
           "date_iso": "2026-06-02",
@@ -1051,6 +1154,15 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/2886fb85ae4c25d8f4b399cf8243c1b7.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_2886fb85ae4c25d8f4b399cf8243c1b7_pdf"
+        },
+        {
+          "title": "In the matter of THIRANI INDUSTRIES LIMITED [540/ND/2022]",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-132438-mbnxj-d7b320923ba0910f0114aac7517cef61.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_06_03_132438_mbnxj_d7b320923ba0910f"
         },
         {
           "title": "In the matter of EARTH TOWNE INFRASTRUCTURES PRIVATE LIMITED [Restored Company Petition (IBC) 9/ND/2025]",
@@ -1062,15 +1174,6 @@
           "id": "ibbi_adm_723f54f0251a44d8664a58857deabb67_pdf"
         },
         {
-          "title": "In the matter of CREDITSAVVY TECHNOLOGIES PRIVATE LIMITED [C.P. (IB) No./51/ALD/2026]",
-          "date": "01 Jun 2026",
-          "date_iso": "2026-06-01",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-05-135723-oqiyg-d1e58e9f794ee0728fab250d53c5de99.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2026_06_05_135723_oqiyg_d1e58e9f794ee072"
-        },
-        {
           "title": "In the matter of MAIYAS RESTAURANTS PRIVATE LIMITED [C.P. (IB)/40(BEN)2026]",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
@@ -1080,13 +1183,13 @@
           "id": "ibbi_adm_2026_06_03_120025_dmn6c_35f784155b7f48ea"
         },
         {
-          "title": "In the matter of THIRANI INDUSTRIES LIMITED [540/ND/2022]",
+          "title": "In the matter of CREDITSAVVY TECHNOLOGIES PRIVATE LIMITED [C.P. (IB) No./51/ALD/2026]",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-132438-mbnxj-d7b320923ba0910f0114aac7517cef61.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-05-135723-oqiyg-d1e58e9f794ee0728fab250d53c5de99.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_2026_06_03_132438_mbnxj_d7b320923ba0910f"
+          "id": "ibbi_adm_2026_06_05_135723_oqiyg_d1e58e9f794ee072"
         },
         {
           "title": "In the matter of ATTHARV SAI FLEXIPACK PRIVATE LIMITED [CP (IB) No. 72/BB/2025]",
@@ -1256,8 +1359,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 28,
-      "docs_with_pdf": 28,
+      "doc_count": 33,
+      "docs_with_pdf": 33,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -1288,6 +1391,15 @@
           "id": "epo_boa_t241059eu1"
         },
         {
+          "title": "T 0120/25",
+          "date": "10 Jun 2026",
+          "date_iso": "2026-06-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250120du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250120du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250120du1"
+        },
+        {
           "title": "T 0424/23 — APPARATUS TO SIMULATE DRIVING A LAND VEHICLE",
           "date": "10 Jun 2026",
           "date_iso": "2026-06-10",
@@ -1297,6 +1409,33 @@
           "id": "epo_boa_t230424eu1"
         },
         {
+          "title": "T 0770/24 — NON-ISOCYANATE POLYURETHANE INKS FOR 3D PRINTING",
+          "date": "10 Jun 2026",
+          "date_iso": "2026-06-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240770eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240770eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240770eu1"
+        },
+        {
+          "title": "T 0536/25 — SUSPENSION DEVICE",
+          "date": "10 Jun 2026",
+          "date_iso": "2026-06-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250536eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250536eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250536eu1"
+        },
+        {
+          "title": "T 1337/24",
+          "date": "10 Jun 2026",
+          "date_iso": "2026-06-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241337du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241337du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241337du1"
+        },
+        {
           "title": "T 1139/24",
           "date": "09 Jun 2026",
           "date_iso": "2026-06-09",
@@ -1304,6 +1443,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241139du1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t241139du1"
+        },
+        {
+          "title": "T 0742/24 — A METHOD FOR CONTROLLING RUST",
+          "date": "09 Jun 2026",
+          "date_iso": "2026-06-09",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240742eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240742eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240742eu1"
         },
         {
           "title": "T 1034/24 — GETRIEBESTEUERVERFAHREN",
@@ -1333,15 +1481,6 @@
           "id": "epo_boa_t240276eu1"
         },
         {
-          "title": "T 0567/23 — Multiple conveyor and weighing apparatus",
-          "date": "05 Jun 2026",
-          "date_iso": "2026-06-05",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230567eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230567eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t230567eu1"
-        },
-        {
           "title": "T 0734/24 — Processes for production of tumor infiltrating lymphocytes and uses of same in immunotherapy",
           "date": "05 Jun 2026",
           "date_iso": "2026-06-05",
@@ -1351,13 +1490,13 @@
           "id": "epo_boa_t240734eu1"
         },
         {
-          "title": "J 0006/23 — TEXTILE WITH BIOCONTROLLING PROPERTIES",
+          "title": "T 0567/23 — Multiple conveyor and weighing apparatus",
           "date": "05 Jun 2026",
           "date_iso": "2026-06-05",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/j230006eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/j230006eu1.pdf",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230567eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230567eu1.pdf",
           "has_pdf": true,
-          "id": "epo_boa_j230006eu1"
+          "id": "epo_boa_t230567eu1"
         },
         {
           "title": "T 0174/25",
@@ -1367,6 +1506,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250174du1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250174du1"
+        },
+        {
+          "title": "J 0006/23 — TEXTILE WITH BIOCONTROLLING PROPERTIES",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/j230006eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/j230006eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_j230006eu1"
         },
         {
           "title": "T 0772/24 — FOULING RELEASE COATINGS",
@@ -1423,6 +1571,15 @@
           "id": "epo_boa_t240867eu1"
         },
         {
+          "title": "T 1117/24",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241117fu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241117fu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241117fu1"
+        },
+        {
           "title": "T 0633/24 — DENTIFRICE INCLUDING ZINC AND BLUE DYE OR PIGMENT",
           "date": "02 Jun 2026",
           "date_iso": "2026-06-02",
@@ -1432,13 +1589,13 @@
           "id": "epo_boa_t240633eu1"
         },
         {
-          "title": "T 1117/24",
+          "title": "T 0592/24 — COMBINATION THERAPY FOR THE TREATMENT OF CANCER",
           "date": "02 Jun 2026",
           "date_iso": "2026-06-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241117fu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241117fu1.pdf",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240592eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240592eu1.pdf",
           "has_pdf": true,
-          "id": "epo_boa_t241117fu1"
+          "id": "epo_boa_t240592eu1"
         },
         {
           "title": "T 0358/25 — PHARMACEUTICAL DELIVERY SYSTEMS FOR HYDROPHOBIC DRUGS AND COMPOSITIONS COMPRISING SAME",
@@ -1457,15 +1614,6 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250363eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250363eu1"
-        },
-        {
-          "title": "T 0592/24 — COMBINATION THERAPY FOR THE TREATMENT OF CANCER",
-          "date": "02 Jun 2026",
-          "date_iso": "2026-06-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240592eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240592eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240592eu1"
         },
         {
           "title": "T 0360/25 — BIG TELEMATICS DATA CONSTRUCTING SYSTEM",
@@ -1649,10 +1797,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "1382-7-7-21 Consumers' Association v Qualcomm Incorporated - Judgment (CSAO) - 10th June 2026",
+          "date": "2026-06",
+          "date_iso": "2026-06-01",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-06/1382-7-7-21%20Consumers%27%20Association%20v%20Qualcomm%20Incorporated%20-%20Judgment%20%28CSAO%29%20-%2010th%20June%202026.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-06_1382-7-7-21_Consumers__Association_v_Qua"
+        },
         {
           "title": "17515725 Mr Graham Thomas & Others v Durham County Council  - Judgment",
           "date": "5 Jun 2026",
@@ -1661,6 +1818,15 @@
           "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-06/17515725%20Mr%20Graham%20Thomas%20%26%20Others%20v%20Durham%20County%20Council%20%20-%20Judgment%20%205%20Jun%202026%20.pdf",
           "has_pdf": true,
           "id": "cat_2026-06_17515725_Mr_Graham_Thomas___Others_v_Dur"
+        },
+        {
+          "title": "Google App Distribution Market (1408 & 1673) -  Judgment (CPO Variation Application) - 10th June 2026",
+          "date": "2026-06",
+          "date_iso": "2026-06-01",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-06/Google%20App%20Distribution%20Market%20%281408%20%26%201673%29%20-%20%20Judgment%20%28CPO%20Variation%20Application%29%20-%2010th%20June%202026.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-06_Google_App_Distribution_Market__1408___1"
         }
       ]
     },
@@ -1951,10 +2117,10 @@
       "docs_without_pdf": 1,
       "documents": [
         {
-          "title": "Hindustan Nutrition Limited - Prospectus",
+          "title": "Hexagon Nutrition Limited - Prospectus",
           "date": "10 Jun 2026",
           "date_iso": "2026-06-10",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/jun-2026/hindustan-nutrition-limited-prospectus_101991.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/jun-2026/hexagon-nutrition-limited-prospectus_101991.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "101991"
