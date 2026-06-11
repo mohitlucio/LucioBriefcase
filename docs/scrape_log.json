@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-06-11 10:52:01 UTC",
-  "finished_at": "2026-06-11 11:01:36 UTC",
-  "duration_seconds": 575.1,
+  "started_at": "2026-06-11 16:16:26 UTC",
+  "finished_at": "2026-06-11 16:25:50 UTC",
+  "duration_seconds": 564.2,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 28,
+  "sources_ok": 29,
   "sources_error": 6,
-  "sources_empty": 59,
-  "total_documents": 130,
-  "docs_with_pdf": 106,
-  "docs_without_pdf": 24,
+  "sources_empty": 58,
+  "total_documents": 135,
+  "docs_with_pdf": 108,
+  "docs_without_pdf": 27,
   "source_details": [
     {
       "key": "RHP",
@@ -268,10 +268,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
+      "doc_count": 3,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 2,
+      "docs_without_pdf": 3,
       "documents": [
+        {
+          "title": "Consultation Paper on Harmonization of Base price for Call Auction in Pre-open Session and for Price Band - For scrips listed on multiple stock exchanges",
+          "date": "11 Jun 2026",
+          "date_iso": "2026-06-11",
+          "page_url": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2026/consultation-paper-on-harmonization-of-base-price-for-call-auction-in-pre-open-session-and-for-price-band-for-scrips-listed-on-multiple-stock-exchanges_102073.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "102073"
+        },
         {
           "title": "Consultation paper on review of provisions on disclosure of Executive Remuneration by Asset Management Companies (AMCs)",
           "date": "10 Jun 2026",
@@ -924,22 +933,22 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "H-REAT-915-2024 — Mapsko Builders Private Limited vs ANIL KUMAR",
-          "date": "09 Jun 2026",
-          "date_iso": "2026-06-09",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxMDcx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-915-2024_0"
-        },
-        {
           "title": "H-REAT-482-2022 — State of Haryana through Director Town and Country Planning Department Haryana Chandigarh vs HARYANA REAL ESTATE REGULATORY AUTHORITY",
           "date": "09 Jun 2026",
           "date_iso": "2026-06-09",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxMDcw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-482-2022_1"
+          "id": "hr_reat_H-REAT-482-2022_0"
+        },
+        {
+          "title": "H-REAT-915-2024 — Mapsko Builders Private Limited vs ANIL KUMAR",
+          "date": "09 Jun 2026",
+          "date_iso": "2026-06-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxMDcx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-915-2024_1"
         },
         {
           "title": "H-REAT-287-2025 — M/s JMK Holdings Private limited vs HARYANA REAL ESTATE REGULATORY AUTHORITY GURUGRAM",
@@ -960,13 +969,13 @@
           "id": "hr_reat_H-REAT-82-2024_3"
         },
         {
-          "title": "H-REAT-293-2022 — Experion Developers Private Limited vs PARVEEN GAMBHIR",
+          "title": "H-REAT-594-2024 — Alpha Corp Development Private Limited vs VIKAS SINGLA",
           "date": "03 Jun 2026",
           "date_iso": "2026-06-03",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUy",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-293-2022_4"
+          "id": "hr_reat_H-REAT-594-2024_4"
         },
         {
           "title": "H-REAT-195-2025 — BPTP Ltd. and Anjali Promoters and Developers Pvt. Ltd. vs UMA CHANDERNAIN OBEROI",
@@ -978,13 +987,13 @@
           "id": "hr_reat_H-REAT-195-2025_5"
         },
         {
-          "title": "H-REAT-594-2024 — Alpha Corp Development Private Limited vs VIKAS SINGLA",
+          "title": "H-REAT-293-2022 — Experion Developers Private Limited vs PARVEEN GAMBHIR",
           "date": "03 Jun 2026",
           "date_iso": "2026-06-03",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUx",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-594-2024_6"
+          "id": "hr_reat_H-REAT-293-2022_6"
         },
         {
           "title": "H-REAT-583-2024 — Icon Realcon Private Limited vs HARYANA REAL ESTATE REGULATORY AUTHORITY AT PANCHKULA",
@@ -1227,10 +1236,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 4,
+      "doc_count": 5,
       "docs_with_pdf": 1,
-      "docs_without_pdf": 3,
+      "docs_without_pdf": 4,
       "documents": [
+        {
+          "title": "[M.12382] CVC / DSM ANIMAL NUTRITION AND HEALTH BUSINESS",
+          "date": "11 Jun 2026",
+          "date_iso": "2026-06-11",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12382",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12382"
+        },
         {
           "title": "[M.12294] VAN LANSCHOT KEMPEN / KBC SECURITIES / JV",
           "date": "08 Jun 2026",
@@ -1869,10 +1887,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "12667716 Walter Hugh Merricks CBE v Mastercard Incorporated and Others - Divisional Court judgment",
+          "date": "10 Jun 2026",
+          "date_iso": "2026-06-10",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-06/12667716%20Walter%20Hugh%20Merricks%20CBE%20v%20Mastercard%20Incorporated%20and%20Others%20-%20Divisional%20Court%20judgment%20%2010%20Jun%202026.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-06_12667716_Walter_Hugh_Merricks_CBE_v_Mast"
+        },
         {
           "title": "1382-7-7-21 Consumers' Association v Qualcomm Incorporated - Judgment (CSAO) - 10th June 2026",
           "date": "2026-06",
@@ -1943,10 +1970,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 4,
-      "docs_with_pdf": 4,
+      "doc_count": 5,
+      "docs_with_pdf": 5,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Costco Wholesale UK Ltd v Mr Jaiden Nash: [2026] EAT 85",
+          "date": "11 Jun 2026",
+          "date_iso": "2026-06-11",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/costco-wholesale-uk-ltd-v-mr-jaiden-nash-2026-eat-85",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a2a7c14c39255c595b506aa/Costco_Wholesale_UK_Ltd_v_Mr_Jaiden_Nash__2026__EAT_85.pdf",
+          "has_pdf": true,
+          "id": "govuk_cisions_costco-wholesale-uk-ltd-v-mr-jaiden-nash-2026-eat-85"
+        },
         {
           "title": "(1) Mr C Di Fiore (2) Ms H Qadri v Introhive UK Ltd: [2026] EAT 82",
           "date": "09 Jun 2026",
@@ -2170,12 +2206,22 @@
       "label": "SEBI_CIRCULARS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "Extension of timelines for compliance with certain provisions of Circular dated  January 02, 2026",
+          "date": "11 Jun 2026",
+          "date_iso": "2026-06-11",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/jun-2026/extension-of-timelines-for-compliance-with-certain-provisions-of-circular-dated-january-02-2026_102083.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "102083"
+        }
+      ]
     },
     {
       "key": "SEBI_FINAL_OFFER",
