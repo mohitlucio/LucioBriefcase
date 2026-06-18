@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-06-18 15:46:02 UTC",
-  "finished_at": "2026-06-18 15:55:29 UTC",
-  "duration_seconds": 567.3,
+  "started_at": "2026-06-18 20:35:44 UTC",
+  "finished_at": "2026-06-18 20:45:18 UTC",
+  "duration_seconds": 574.6,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 28,
-  "sources_error": 12,
-  "sources_empty": 53,
-  "total_documents": 233,
-  "docs_with_pdf": 207,
-  "docs_without_pdf": 26,
+  "sources_ok": 31,
+  "sources_error": 8,
+  "sources_empty": 54,
+  "total_documents": 258,
+  "docs_with_pdf": 218,
+  "docs_without_pdf": 40,
   "source_details": [
     {
       "key": "RHP",
@@ -362,10 +362,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 6,
-      "docs_with_pdf": 6,
+      "doc_count": 7,
+      "docs_with_pdf": 7,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Craftsman Automation Ltd – Placement Document",
+          "date": "18 Jun 2026",
+          "date_iso": "2026-06-18",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/11951/QIP Open/CraftsmanPD_20260618223424.pdf",
+          "has_pdf": true,
+          "id": "place_craftsman_automation_ltd_2026-06-18"
+        },
         {
           "title": "Indus Infra Trust – Placement Document",
           "date": "16 Jun 2026",
@@ -1257,15 +1266,6 @@
           "id": "ibbi_adm_2026_06_17_005814_38975_cdd4d87d5a353fbf"
         },
         {
-          "title": "In the matter of Longrange Commodities Private Limited [C.P. (IB)/514/MB/2025]",
-          "date": "12 Jun 2026",
-          "date_iso": "2026-06-12",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/fc39996735b49633511e723e2039ea18.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_fc39996735b49633511e723e2039ea18_pdf"
-        },
-        {
           "title": "In the matter of Tirumalla Groundnuts Industries India Private Limited [CP (IB) No.1390/MB/2025]",
           "date": "12 Jun 2026",
           "date_iso": "2026-06-12",
@@ -1273,6 +1273,15 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/120a3bf69b7c1751103c97a4e5af9730.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_120a3bf69b7c1751103c97a4e5af9730_pdf"
+        },
+        {
+          "title": "In the matter of LONGRANGE COMMODITIES PRIVATE LIMITED [C.P. (IB)/514(MB)2025]",
+          "date": "12 Jun 2026",
+          "date_iso": "2026-06-12",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-13-203729-4x2iz-f53dd26908f18a8a6620903037615c0c.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_06_13_203729_4x2iz_f53dd26908f18a8a"
         },
         {
           "title": "In the matter of NIRVIKAR FILMS LLP [CP(IB)-190/2026]",
@@ -1284,13 +1293,13 @@
           "id": "ibbi_adm_55ab5d604732207435f49f0a8323c8ba_pdf"
         },
         {
-          "title": "In the matter of LONGRANGE COMMODITIES PRIVATE LIMITED [C.P. (IB)/514(MB)2025]",
+          "title": "In the matter of Longrange Commodities Private Limited [C.P. (IB)/514/MB/2025]",
           "date": "12 Jun 2026",
           "date_iso": "2026-06-12",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-13-203729-4x2iz-f53dd26908f18a8a6620903037615c0c.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/fc39996735b49633511e723e2039ea18.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_2026_06_13_203729_4x2iz_f53dd26908f18a8a"
+          "id": "ibbi_adm_fc39996735b49633511e723e2039ea18_pdf"
         },
         {
           "title": "In the matter of TALENT UNLIMITED ONLINE SERVICES PRIVATE LIMITED [C.P.(IB)–169(ND)/2026]",
@@ -1347,22 +1356,13 @@
           "id": "ibbi_adm_893bbf508280bb6685fd5a97783a18a3_pdf"
         },
         {
-          "title": "In the matter of TYCOONS INDUSTRIES PRIVATE LIMITED [CP (IB) NO.35/Chd/J&K/2025]",
+          "title": "In the matter of SHANTI INFRACONSTRUCT PRIVATE LIMITED [CP(IB)148/ALD/2024]",
           "date": "11 Jun 2026",
           "date_iso": "2026-06-11",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-15-150653-bokj9-6575d9a58f0b41a108f2d6a565a0650d.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/af323f59393dd318b2f31d48475b35e6.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_2026_06_15_150653_bokj9_6575d9a58f0b41a1"
-        },
-        {
-          "title": "In the matter of Adison Granito Private Limited [RCP (IB) 03/2025]",
-          "date": "11 Jun 2026",
-          "date_iso": "2026-06-11",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/347c380a38caade98818b9792f43a43a.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_347c380a38caade98818b9792f43a43a_pdf"
+          "id": "ibbi_adm_af323f59393dd318b2f31d48475b35e6_pdf"
         },
         {
           "title": "In the matter of HK TOLL ROAD PRIVATE LIMITED [C.P. (IB)/522/MB/2025]",
@@ -1392,13 +1392,13 @@
           "id": "ibbi_adm_5b5a66719e10e9e9e4b0d60a5c2c0c89_pdf"
         },
         {
-          "title": "In the matter of TIRUPATI BUILD-CON PRIVATE LIMITED [185/KB/2025]",
-          "date": "10 Jun 2026",
-          "date_iso": "2026-06-10",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/9d5438b73d22329bda209de9a2bc95d3.pdf",
+          "title": "In the matter of TYCOONS INDUSTRIES PRIVATE LIMITED [CP (IB) NO.35/Chd/J&K/2025]",
+          "date": "11 Jun 2026",
+          "date_iso": "2026-06-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-15-150653-bokj9-6575d9a58f0b41a108f2d6a565a0650d.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_9d5438b73d22329bda209de9a2bc95d3_pdf"
+          "id": "ibbi_adm_2026_06_15_150653_bokj9_6575d9a58f0b41a1"
         },
         {
           "title": "In the matter of ARELI COMMERCE PRIVATE LIMITED [C.P.(IB)/49(AHM)2026]",
@@ -1410,15 +1410,6 @@
           "id": "ibbi_adm_3e03c0a8766922167e77868a33a22e86_pdf"
         },
         {
-          "title": "In the matter of EXCEL OVERSEAS PVT LTD [C.P. (IB)/845(MB)2025]",
-          "date": "10 Jun 2026",
-          "date_iso": "2026-06-10",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/6f34d3f98c6fb2d642e3581a70a5de56.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_6f34d3f98c6fb2d642e3581a70a5de56_pdf"
-        },
-        {
           "title": "In the matter of SKI AND SNOW RESORTS PRIVATE LIMITED [CP (IB) NO.30/ALD/2023]",
           "date": "10 Jun 2026",
           "date_iso": "2026-06-10",
@@ -1428,13 +1419,22 @@
           "id": "ibbi_adm_2026_06_15_114145_5ctpa_cf280cce3529ad3a"
         },
         {
-          "title": "In the matter of Areli Commerce Private Limited [CP (IB) No. 49/7/AHM/2026]",
+          "title": "In the matter of TIRUPATI BUILD-CON PRIVATE LIMITED [185/KB/2025]",
           "date": "10 Jun 2026",
           "date_iso": "2026-06-10",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/e9f87aa9973fd35c3124472da1514a77.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/9d5438b73d22329bda209de9a2bc95d3.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_e9f87aa9973fd35c3124472da1514a77_pdf"
+          "id": "ibbi_adm_9d5438b73d22329bda209de9a2bc95d3_pdf"
+        },
+        {
+          "title": "In the matter of EXCEL OVERSEAS PVT LTD [C.P. (IB)/845(MB)2025]",
+          "date": "10 Jun 2026",
+          "date_iso": "2026-06-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/6f34d3f98c6fb2d642e3581a70a5de56.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_6f34d3f98c6fb2d642e3581a70a5de56_pdf"
         },
         {
           "title": "In the matter of PITHADAI CONSTRUCTION PRIVATE LIMITED [CP(IB) NO. 113/9/AHM/2026]",
@@ -1446,13 +1446,13 @@
           "id": "ibbi_adm_2026_06_12_220045_yk4n0_caa01e4df1fc4898"
         },
         {
-          "title": "In the matter of APL METALS LIMITED [C.P. (IB)/161/KB/2025]",
-          "date": "09 Jun 2026",
-          "date_iso": "2026-06-09",
+          "title": "In the matter of Areli Commerce Private Limited [CP (IB) No. 49/7/AHM/2026]",
+          "date": "10 Jun 2026",
+          "date_iso": "2026-06-10",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-12-153334-volki-70a17ffa722a3985b86d30b034ad06d7.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/e9f87aa9973fd35c3124472da1514a77.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_2026_06_12_153334_volki_70a17ffa722a3985"
+          "id": "ibbi_adm_e9f87aa9973fd35c3124472da1514a77_pdf"
         },
         {
           "title": "In the matter of MOGUIRE VIRAGO PRIVATE LIMITED [294/BB/2025]",
@@ -1464,13 +1464,13 @@
           "id": "ibbi_adm_72583a599b3d5b7d28c96d61d23b404c_pdf"
         },
         {
-          "title": "In the matter of MANGLAM FISCAL SERVICES P. LTD. [157/KB/2022]",
+          "title": "In the matter of APL METALS LIMITED [C.P. (IB)/161/KB/2025]",
           "date": "09 Jun 2026",
           "date_iso": "2026-06-09",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/cd993f60b300335b71774cd7523cb6a4.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-12-153334-volki-70a17ffa722a3985b86d30b034ad06d7.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_cd993f60b300335b71774cd7523cb6a4_pdf"
+          "id": "ibbi_adm_2026_06_12_153334_volki_70a17ffa722a3985"
         },
         {
           "title": "In the matter of EVOQ REMEDIES LIMITED [C.P. (IB)/149/AHM/2026]",
@@ -1482,13 +1482,22 @@
           "id": "ibbi_adm_daeb8670d7a0783b29b3b0eb4dc3c10c_pdf"
         },
         {
-          "title": "In the matter of SHRI GIRIJA ALLOY & POWER (I) PRIVATE LIMITED [CP (IB)/38/9/AMR/2025]",
+          "title": "In the matter of MANGLAM FISCAL SERVICES P. LTD. [157/KB/2022]",
+          "date": "09 Jun 2026",
+          "date_iso": "2026-06-09",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/cd993f60b300335b71774cd7523cb6a4.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_cd993f60b300335b71774cd7523cb6a4_pdf"
+        },
+        {
+          "title": "In the matter of Raheja Developers Limited [CP (IB) - 182(ND)/2024]",
           "date": "08 Jun 2026",
           "date_iso": "2026-06-08",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/8f6991276c6aa03a611ef755010cef58.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/d5992fa47d1ff8c5864c6d0ae66e1809.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_8f6991276c6aa03a611ef755010cef58_pdf"
+          "id": "ibbi_adm_d5992fa47d1ff8c5864c6d0ae66e1809_pdf"
         },
         {
           "title": "In the matter of OSWAL OVERSEAS LIMITED [C.P.(IB) NO. 655/ND/2025]",
@@ -1500,6 +1509,15 @@
           "id": "ibbi_adm_444555b1c32ea9c812856fa20b4a0c13_pdf"
         },
         {
+          "title": "In the matter of SHRI GIRIJA ALLOY & POWER (I) PRIVATE LIMITED [CP (IB)/38/9/AMR/2025]",
+          "date": "08 Jun 2026",
+          "date_iso": "2026-06-08",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/8f6991276c6aa03a611ef755010cef58.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_8f6991276c6aa03a611ef755010cef58_pdf"
+        },
+        {
           "title": "In the matter of SWAL LIMITED. [C.P. (IB)/261/KB/2025]",
           "date": "08 Jun 2026",
           "date_iso": "2026-06-08",
@@ -1507,15 +1525,6 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-14-211039-0m2wc-55458cf36e3484b5f60f9c6ce60d81aa.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_2026_06_14_211039_0m2wc_55458cf36e3484b5"
-        },
-        {
-          "title": "In the matter of Raheja Developers Limited [CP (IB) - 182(ND)/2024]",
-          "date": "08 Jun 2026",
-          "date_iso": "2026-06-08",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/d5992fa47d1ff8c5864c6d0ae66e1809.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_d5992fa47d1ff8c5864c6d0ae66e1809_pdf"
         },
         {
           "title": "In the matter of INODAYA FOODS PRIVATE LIMITED [C.P. (IB) No. 105/Chd/Hry/2025]",
@@ -1545,15 +1554,6 @@
           "id": "ibbi_adm_2026_06_10_182435_47b5n_2443b87e82f33a9f"
         },
         {
-          "title": "In the matter of BLACKBERRY OVERSEAS PRIVATE LIMITED [CP IB NO. 221/ND/2025]",
-          "date": "03 Jun 2026",
-          "date_iso": "2026-06-03",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-08-152205-lnpme-d1e58e9f794ee0728fab250d53c5de99.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2026_06_08_152205_lnpme_d1e58e9f794ee072"
-        },
-        {
           "title": "In the matter of BLD METAL AND ALLOYS PRIVATE LIMITED [COMPANY PETITION IB (IBC) NO. 549/ND/2025]",
           "date": "03 Jun 2026",
           "date_iso": "2026-06-03",
@@ -1561,6 +1561,15 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/a4dbe1007b3775d916ddbe26c791737d.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_a4dbe1007b3775d916ddbe26c791737d_pdf"
+        },
+        {
+          "title": "In the matter of BLACKBERRY OVERSEAS PRIVATE LIMITED [CP IB NO. 221/ND/2025]",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-08-152205-lnpme-d1e58e9f794ee0728fab250d53c5de99.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_06_08_152205_lnpme_d1e58e9f794ee072"
         },
         {
           "title": "In the matter of NEW PEARL VITRIFIED PRIVATE LIMITED [C.P.(IB)/484(AHM)2025]",
@@ -1572,49 +1581,13 @@
           "id": "ibbi_adm_2886fb85ae4c25d8f4b399cf8243c1b7_pdf"
         },
         {
-          "title": "In the matter of MAIYAS RESTAURANTS PRIVATE LIMITED [C.P. (IB)/40(BEN)2026]",
+          "title": "In the matter of THIRANI INDUSTRIES LIMITED [540/ND/2022]",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-120025-dmn6c-35f784155b7f48eaae60238453ebf0cf.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-132438-mbnxj-d7b320923ba0910f0114aac7517cef61.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_2026_06_03_120025_dmn6c_35f784155b7f48ea"
-        },
-        {
-          "title": "In the matter of ATTHARV SAI FLEXIPACK PRIVATE LIMITED [CP (IB) No. 72/BB/2025]",
-          "date": "01 Jun 2026",
-          "date_iso": "2026-06-01",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-08-113223-zxlu7-b72d79647ca644c6d0d94692173df3c7.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2026_06_08_113223_zxlu7_b72d79647ca644c6"
-        },
-        {
-          "title": "In the matter of AMW Commercial Vehicle Applications Limited [C.P. (IB)/117(MB)2021]",
-          "date": "01 Jun 2026",
-          "date_iso": "2026-06-01",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/c0890177abb4eb24257c5085eef0d4f2.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_c0890177abb4eb24257c5085eef0d4f2_pdf"
-        },
-        {
-          "title": "In the matter of EARTH TOWNE INFRASTRUCTURES PRIVATE LIMITED [Restored Company Petition (IBC) 9/ND/2025]",
-          "date": "01 Jun 2026",
-          "date_iso": "2026-06-01",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/723f54f0251a44d8664a58857deabb67.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_723f54f0251a44d8664a58857deabb67_pdf"
-        },
-        {
-          "title": "In the matter of METAL CLOSURES PRIVATE LIMITED [103/BB/2018]",
-          "date": "01 Jun 2026",
-          "date_iso": "2026-06-01",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/6b531912571e0075aac90065bf46f878.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_6b531912571e0075aac90065bf46f878_pdf"
+          "id": "ibbi_adm_2026_06_03_132438_mbnxj_d7b320923ba0910f"
         },
         {
           "title": "In the matter of CREDITSAVVY TECHNOLOGIES PRIVATE LIMITED [C.P. (IB) No./51/ALD/2026]",
@@ -1626,13 +1599,49 @@
           "id": "ibbi_adm_2026_06_05_135723_oqiyg_d1e58e9f794ee072"
         },
         {
-          "title": "In the matter of THIRANI INDUSTRIES LIMITED [540/ND/2022]",
+          "title": "In the matter of METAL CLOSURES PRIVATE LIMITED [103/BB/2018]",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-132438-mbnxj-d7b320923ba0910f0114aac7517cef61.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/6b531912571e0075aac90065bf46f878.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_2026_06_03_132438_mbnxj_d7b320923ba0910f"
+          "id": "ibbi_adm_6b531912571e0075aac90065bf46f878_pdf"
+        },
+        {
+          "title": "In the matter of EARTH TOWNE INFRASTRUCTURES PRIVATE LIMITED [Restored Company Petition (IBC) 9/ND/2025]",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/723f54f0251a44d8664a58857deabb67.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_723f54f0251a44d8664a58857deabb67_pdf"
+        },
+        {
+          "title": "In the matter of MAIYAS RESTAURANTS PRIVATE LIMITED [C.P. (IB)/40(BEN)2026]",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-120025-dmn6c-35f784155b7f48eaae60238453ebf0cf.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_06_03_120025_dmn6c_35f784155b7f48ea"
+        },
+        {
+          "title": "In the matter of AMW Commercial Vehicle Applications Limited [C.P. (IB)/117(MB)2021]",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/c0890177abb4eb24257c5085eef0d4f2.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_c0890177abb4eb24257c5085eef0d4f2_pdf"
+        },
+        {
+          "title": "In the matter of ATTHARV SAI FLEXIPACK PRIVATE LIMITED [CP (IB) No. 72/BB/2025]",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-08-113223-zxlu7-b72d79647ca644c6d0d94692173df3c7.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_06_08_113223_zxlu7_b72d79647ca644c6"
         }
       ]
     },
@@ -1641,32 +1650,169 @@
       "label": "EU_MERGER",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "The read operation timed out",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "status": "ok",
+      "error": null,
+      "doc_count": 14,
+      "docs_with_pdf": 9,
+      "docs_without_pdf": 5,
+      "documents": [
+        {
+          "title": "[M.12467] PAI PARTNERS / FID / MECAER AVIATION GROUP",
+          "date": "17 Jun 2026",
+          "date_iso": "2026-06-17",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12467",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12467"
+        },
+        {
+          "title": "[M.12440] BMWE / BMVG / KFW / GIAT / KNDS",
+          "date": "17 Jun 2026",
+          "date_iso": "2026-06-17",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12440",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12440"
+        },
+        {
+          "title": "[M.12412] INCHCAPE / SILVER STAR",
+          "date": "16 Jun 2026",
+          "date_iso": "2026-06-16",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12412",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202625/M_12412_87.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12412"
+        },
+        {
+          "title": "[M.12426] ONE ROCK CAPITAL PARTNERS / EAT HAPPY / HANA GROUP",
+          "date": "15 Jun 2026",
+          "date_iso": "2026-06-15",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12426",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202625/M_12426_107.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12426"
+        },
+        {
+          "title": "[M.12404] APG / ANTIN / NORTHC",
+          "date": "15 Jun 2026",
+          "date_iso": "2026-06-15",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12404",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202625/M_12404_74.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12404"
+        },
+        {
+          "title": "[M.12354] STONEPEAK / CASTROL",
+          "date": "15 Jun 2026",
+          "date_iso": "2026-06-15",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12354",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202625/M_12354_147.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12354"
+        },
+        {
+          "title": "[M.12201] HOLCIM / XELLA",
+          "date": "12 Jun 2026",
+          "date_iso": "2026-06-12",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12201",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12201"
+        },
+        {
+          "title": "[M.12418] INFLEXION / MARIOFF",
+          "date": "12 Jun 2026",
+          "date_iso": "2026-06-12",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12418",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202625/M_12418_64.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12418"
+        },
+        {
+          "title": "[M.12410] TOTALENERGIES / MASDAR / JV",
+          "date": "12 Jun 2026",
+          "date_iso": "2026-06-12",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12410",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202625/M_12410_51.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12410"
+        },
+        {
+          "title": "[M.12382] CVC / DSM ANIMAL NUTRITION AND HEALTH BUSINESS",
+          "date": "11 Jun 2026",
+          "date_iso": "2026-06-11",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12382",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202625/M_12382_72.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12382"
+        },
+        {
+          "title": "[M.12294] VAN LANSCHOT KEMPEN / KBC SECURITIES / JV",
+          "date": "08 Jun 2026",
+          "date_iso": "2026-06-08",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12294",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202624/M_12294_104.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12294"
+        },
+        {
+          "title": "[M.12321] MUBADALA / EQUITIX / BALTIC CABLE / GREENLINK GROUP",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12321",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12321"
+        },
+        {
+          "title": "[M.12397] MUTARES / MAGNA LIGHTING BUSINESS",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12397",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202624/M_12397_89.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12397"
+        },
+        {
+          "title": "[M.12237] CARLYLE / BASF COATINGS",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12237",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12237"
+        }
+      ]
     },
     {
       "key": "EU_ANTITRUST",
       "label": "EU_ANTITRUST",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "The read operation timed out",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[AT.41034] Exclusion of AI competitors from WhatsApp",
+          "date": "09 Jun 2026",
+          "date_iso": "2026-06-09",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/AT.41034",
+          "pdf_url": "https://ec.europa.eu/competition/antitrust/cases1/202551/AT_41034_23.pdf",
+          "has_pdf": true,
+          "id": "eu_at_AT_41034"
+        }
+      ]
     },
     {
       "key": "EU_DMA",
       "label": "EU_DMA",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "The read operation timed out",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1677,12 +1823,94 @@
       "label": "EU_FS",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "The read operation timed out",
-      "doc_count": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 9,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 9,
+      "documents": [
+        {
+          "title": "[FS.100334] LATOUR CAPITAL / EHS",
+          "date": "12 Jun 2026",
+          "date_iso": "2026-06-12",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100334",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100334"
+        },
+        {
+          "title": "[FS.100337] ORANGE / SCOREFIT",
+          "date": "11 Jun 2026",
+          "date_iso": "2026-06-11",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100337",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100337"
+        },
+        {
+          "title": "[FS.100325] RUHR ENERGY / RUHR OEL / GELSENKIRCHEN RAFFINERIE NETZ",
+          "date": "11 Jun 2026",
+          "date_iso": "2026-06-11",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100325",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100325"
+        },
+        {
+          "title": "[FS.100322] KIMBERLY-CLARK / KENVUE",
+          "date": "08 Jun 2026",
+          "date_iso": "2026-06-08",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100322",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100322"
+        },
+        {
+          "title": "[FS.100328] EFMS / BLACKSTONE / URBASER",
+          "date": "08 Jun 2026",
+          "date_iso": "2026-06-08",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100328",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100328"
+        },
+        {
+          "title": "[FS.100307] GLENCORE / FINCOENERGIES",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100307",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100307"
+        },
+        {
+          "title": "[FS.100303] IFM INVESTORS / ATLAS ARTERIA",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100303",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100303"
+        },
+        {
+          "title": "[FS.100309] EDIZIONE / TAGES / 21 INVEST",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100309",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100309"
+        },
+        {
+          "title": "[FS.100348] POSTE ITALIANE / TELECOM ITALIA",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100348",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100348"
+        }
+      ]
     },
     {
       "key": "EPO_BOA",
@@ -1714,15 +1942,6 @@
           "id": "epo_boa_t241243eu1"
         },
         {
-          "title": "T 0245/24 — DUAL CURE POLYTHIOETHER",
-          "date": "18 Jun 2026",
-          "date_iso": "2026-06-18",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240245eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240245eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240245eu1"
-        },
-        {
           "title": "T 0914/25 — DEFINITION SWITCHING ALGORITHM SELECTION METHOD AND SYSTEM, AND DEVICE AND MEDIUM",
           "date": "18 Jun 2026",
           "date_iso": "2026-06-18",
@@ -1730,6 +1949,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250914eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250914eu1"
+        },
+        {
+          "title": "T 0245/24 — DUAL CURE POLYTHIOETHER",
+          "date": "18 Jun 2026",
+          "date_iso": "2026-06-18",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240245eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240245eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240245eu1"
         },
         {
           "title": "T 1974/22 — ELECTRONIC DEVICE AND METHOD FOR CONTROLLING FAN OF ELECTRONIC DEVICE",
@@ -1750,15 +1978,6 @@
           "id": "epo_boa_t241128du1"
         },
         {
-          "title": "T 1168/24 — Novel lipid formulations for nucleic acid delivery",
-          "date": "18 Jun 2026",
-          "date_iso": "2026-06-18",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241168eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241168eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241168eu1"
-        },
-        {
           "title": "T 1967/23 — EQUIPMENT WITH THERMAL DISINFECTION",
           "date": "18 Jun 2026",
           "date_iso": "2026-06-18",
@@ -1775,6 +1994,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250296eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250296eu1"
+        },
+        {
+          "title": "T 1168/24 — Novel lipid formulations for nucleic acid delivery",
+          "date": "18 Jun 2026",
+          "date_iso": "2026-06-18",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241168eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241168eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241168eu1"
         },
         {
           "title": "T 0740/23 — DIGITAL IMAGE PROCESSING CHAIN AND PROCESSING BLOCKS AND A DISPLAY INCLUDING THE SAME",
@@ -1885,6 +2113,15 @@
           "id": "epo_boa_t241447eu1"
         },
         {
+          "title": "T 0133/25 — COMPOSITIONS AND METHODS COMPRISING BUPROPION OR RELATED COMPOUNDS AND DEXTROMETHORPHAN",
+          "date": "16 Jun 2026",
+          "date_iso": "2026-06-16",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250133eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250133eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250133eu1"
+        },
+        {
           "title": "T 0482/24 — FORMMASSE ENTHALTEND POLYETHERBLOCKAMID (PEBA)",
           "date": "16 Jun 2026",
           "date_iso": "2026-06-16",
@@ -1910,15 +2147,6 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250040eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250040eu1"
-        },
-        {
-          "title": "T 0133/25 — COMPOSITIONS AND METHODS COMPRISING BUPROPION OR RELATED COMPOUNDS AND DEXTROMETHORPHAN",
-          "date": "16 Jun 2026",
-          "date_iso": "2026-06-16",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250133eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250133eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t250133eu1"
         },
         {
           "title": "T 0378/25 — Automatic injection device with trigger lock",
@@ -2002,15 +2230,6 @@
           "id": "epo_boa_t250224eu1"
         },
         {
-          "title": "T 0673/24 — Anti-counterfeiting element and anti-counterfeiting product",
-          "date": "12 Jun 2026",
-          "date_iso": "2026-06-12",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240673eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240673eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240673eu1"
-        },
-        {
           "title": "T 1924/23 — AUTOMATED ELEVATOR MAINTENANCE MODE INITIATION",
           "date": "12 Jun 2026",
           "date_iso": "2026-06-12",
@@ -2018,6 +2237,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231924eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t231924eu1"
+        },
+        {
+          "title": "T 0673/24 — Anti-counterfeiting element and anti-counterfeiting product",
+          "date": "12 Jun 2026",
+          "date_iso": "2026-06-12",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240673eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240673eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240673eu1"
         },
         {
           "title": "T 0401/24 — Culturing of human embryonic stem cells at the air-liquid interface for differentiation into pancreatic endocrine cells",
@@ -2029,15 +2257,6 @@
           "id": "epo_boa_t240401eu1"
         },
         {
-          "title": "T 1192/24",
-          "date": "12 Jun 2026",
-          "date_iso": "2026-06-12",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241192fu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241192fu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241192fu1"
-        },
-        {
           "title": "T 0425/25",
           "date": "12 Jun 2026",
           "date_iso": "2026-06-12",
@@ -2045,6 +2264,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250425du1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250425du1"
+        },
+        {
+          "title": "T 1192/24",
+          "date": "12 Jun 2026",
+          "date_iso": "2026-06-12",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241192fu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241192fu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241192fu1"
         },
         {
           "title": "T 1105/24 — COMPOSITIONS COMPRISING WHEY PROTEIN, NATIVE STARCH AND SUGAR",
@@ -2083,15 +2311,6 @@
           "id": "epo_boa_t240271eu1"
         },
         {
-          "title": "T 0381/25 — Control body for an electronic smoking article",
-          "date": "11 Jun 2026",
-          "date_iso": "2026-06-11",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250381eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250381eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t250381eu1"
-        },
-        {
           "title": "T 1201/24 — LAUNDRY DETERGENT",
           "date": "11 Jun 2026",
           "date_iso": "2026-06-11",
@@ -2099,6 +2318,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241201eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t241201eu1"
+        },
+        {
+          "title": "T 0381/25 — Control body for an electronic smoking article",
+          "date": "11 Jun 2026",
+          "date_iso": "2026-06-11",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250381eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250381eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250381eu1"
         },
         {
           "title": "T 0249/24 — PBAT RESIN COMPOSITION",
@@ -2110,15 +2338,6 @@
           "id": "epo_boa_t240249eu1"
         },
         {
-          "title": "T 0908/24 — METAL PRETREATMENT COMPOSITION CONTAINING ZIRCONIUM, COPPER, AND METAL CHELATING AGENTS AND RELATED COATINGS ON METAL SUBSTRATES",
-          "date": "11 Jun 2026",
-          "date_iso": "2026-06-11",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240908eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240908eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240908eu1"
-        },
-        {
           "title": "T 0311/25 — GYPSUM PANELS, CORES, AND METHODS FOR THE MANUFACTURE THEREOF",
           "date": "11 Jun 2026",
           "date_iso": "2026-06-11",
@@ -2126,6 +2345,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250311eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250311eu1"
+        },
+        {
+          "title": "T 0908/24 — METAL PRETREATMENT COMPOSITION CONTAINING ZIRCONIUM, COPPER, AND METAL CHELATING AGENTS AND RELATED COATINGS ON METAL SUBSTRATES",
+          "date": "11 Jun 2026",
+          "date_iso": "2026-06-11",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240908eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240908eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240908eu1"
         },
         {
           "title": "T 0919/24",
@@ -2146,6 +2374,15 @@
           "id": "epo_boa_t240034eu1"
         },
         {
+          "title": "T 0771/24 — METHOD OF DEVELOPMENT OF CONCENTRATIONS AND DEVICE PRK-1U FOR ITS IMPLEMENTATION",
+          "date": "10 Jun 2026",
+          "date_iso": "2026-06-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240771eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240771eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240771eu1"
+        },
+        {
           "title": "T 0120/25",
           "date": "10 Jun 2026",
           "date_iso": "2026-06-10",
@@ -2162,15 +2399,6 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241059eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t241059eu1"
-        },
-        {
-          "title": "T 0771/24 — METHOD OF DEVELOPMENT OF CONCENTRATIONS AND DEVICE PRK-1U FOR ITS IMPLEMENTATION",
-          "date": "10 Jun 2026",
-          "date_iso": "2026-06-10",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240771eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240771eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240771eu1"
         },
         {
           "title": "T 0770/24 — NON-ISOCYANATE POLYURETHANE INKS FOR 3D PRINTING",
@@ -2299,15 +2527,6 @@
           "id": "epo_boa_t240772eu1"
         },
         {
-          "title": "T 1293/24 — VENTILATOR MIT INTEGRIERTER VOLUMENSTROMREGELUNG",
-          "date": "05 Jun 2026",
-          "date_iso": "2026-06-05",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241293du1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241293du1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241293du1"
-        },
-        {
           "title": "T 1222/24 — SOLID STATE FORMS OF LUMATEPERONE DITOSYLATE SALT",
           "date": "05 Jun 2026",
           "date_iso": "2026-06-05",
@@ -2315,6 +2534,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241222eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t241222eu1"
+        },
+        {
+          "title": "T 1293/24 — VENTILATOR MIT INTEGRIERTER VOLUMENSTROMREGELUNG",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241293du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241293du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241293du1"
         },
         {
           "title": "T 0873/24 — COATED STEEL STRIPS, METHOD OF MAKING THE SAME, STAMPED PRODUCTS PREPARED FROM THE SAME AND ARTICLES OF MANUFACTURE WHICH CONTAIN SUCH A STAMPED PRODUCT",
@@ -2335,15 +2563,6 @@
           "id": "epo_boa_t260460eu1"
         },
         {
-          "title": "T 0867/24 — NASAL COMPOSITION COMPRISING MIXTURE OF HYALURONIC ACIDS AND SALINE SOLUTION",
-          "date": "02 Jun 2026",
-          "date_iso": "2026-06-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240867eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240867eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240867eu1"
-        },
-        {
           "title": "T 0633/24 — DENTIFRICE INCLUDING ZINC AND BLUE DYE OR PIGMENT",
           "date": "02 Jun 2026",
           "date_iso": "2026-06-02",
@@ -2360,6 +2579,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241117fu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t241117fu1"
+        },
+        {
+          "title": "T 0867/24 — NASAL COMPOSITION COMPRISING MIXTURE OF HYALURONIC ACIDS AND SALINE SOLUTION",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240867eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240867eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240867eu1"
         },
         {
           "title": "T 0358/25 — PHARMACEUTICAL DELIVERY SYSTEMS FOR HYDROPHOBIC DRUGS AND COMPOSITIONS COMPRISING SAME",
