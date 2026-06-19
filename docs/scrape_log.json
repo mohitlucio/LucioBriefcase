@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-06-19 10:52:02 UTC",
-  "finished_at": "2026-06-19 11:01:36 UTC",
-  "duration_seconds": 573.5,
+  "started_at": "2026-06-19 15:36:38 UTC",
+  "finished_at": "2026-06-19 15:46:17 UTC",
+  "duration_seconds": 579.3,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
@@ -11,9 +11,9 @@
   "sources_ok": 31,
   "sources_error": 8,
   "sources_empty": 54,
-  "total_documents": 275,
-  "docs_with_pdf": 233,
-  "docs_without_pdf": 42,
+  "total_documents": 292,
+  "docs_with_pdf": 246,
+  "docs_without_pdf": 46,
   "source_details": [
     {
       "key": "RHP",
@@ -22,10 +22,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 4,
+      "doc_count": 5,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 4,
+      "docs_without_pdf": 5,
       "documents": [
+        {
+          "title": "Aastha Spintex Limited - RHP",
+          "date": "19 Jun 2026",
+          "date_iso": "2026-06-19",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/jun-2026/aastha-spintex-limited-rhp_102246.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "102246"
+        },
         {
           "title": "Waterways Leisure Tourism Limited- RHP",
           "date": "19 Jun 2026",
@@ -71,10 +80,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 12,
+      "doc_count": 13,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 12,
+      "docs_without_pdf": 13,
       "documents": [
+        {
+          "title": "Jio Platforms Ltd - DRHP",
+          "date": "19 Jun 2026",
+          "date_iso": "2026-06-19",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/jun-2026/jio-platforms-ltd-drhp_102248.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "102248"
+        },
         {
           "title": "National Stock Exchange of India Ltd - DRHP",
           "date": "18 Jun 2026",
@@ -85,10 +103,10 @@
           "id": "102189"
         },
         {
-          "title": "Varmora Granito Limited - Addendum cum Corrigendum",
+          "title": "Varmora Granito Limited - Addendum to DRHP",
           "date": "18 Jun 2026",
           "date_iso": "2026-06-18",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/jun-2026/varmora-granito-limited-addendum-cum-corrigendum_102188.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/jun-2026/varmora-granito-limited-addendum-to-drhp_102188.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "102188"
@@ -736,10 +754,46 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 5,
+      "docs_with_pdf": 5,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[Financial Inclusion and Development] Reserve Bank of India [Rural Co-operative Banks - Kisan Credit Card (KCC) Scheme] Directions, 2026",
+          "date": "19 Jun 2026",
+          "date_iso": "2026-06-19",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13525",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/405MDD58E90A39C3D479CB0CF706F173BF58F.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13525"
+        },
+        {
+          "title": "[Financial Inclusion and Development] Reserve Bank of India [Regional Rural Banks - Kisan Credit Card (KCC) Scheme] Directions, 2026",
+          "date": "19 Jun 2026",
+          "date_iso": "2026-06-19",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13524",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/404MDE8BE807BACAC4DA09EA3561C820C7A13.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13524"
+        },
+        {
+          "title": "[Financial Inclusion and Development] Reserve Bank of India [Small Finance Banks - Kisan Credit Card (KCC) Scheme] Directions, 2026",
+          "date": "19 Jun 2026",
+          "date_iso": "2026-06-19",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13523",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/403MDB87EB105BA0A40E18A89C5231E301639.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13523"
+        },
+        {
+          "title": "[Financial Inclusion and Development] Reserve Bank of India [Commercial Banks - Kisan Credit Card (KCC) Scheme] Directions, 2026",
+          "date": "19 Jun 2026",
+          "date_iso": "2026-06-19",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13522",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/402MD09973277BFE449CC8E21A0C9634191F2.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13522"
+        },
         {
           "title": "[Payment and Settlement System] Master Directions on Authorisation to operate a Payment System",
           "date": "15 Jun 2026",
@@ -1225,8 +1279,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 51,
-      "docs_with_pdf": 51,
+      "doc_count": 56,
+      "docs_with_pdf": 56,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -1237,6 +1291,15 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/d98e50e4d7f799a882699d3ddbb96a50.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_d98e50e4d7f799a882699d3ddbb96a50_pdf"
+        },
+        {
+          "title": "In the matter of FABZEN TECHNOLOGIES PRIVATE LIMITED [C.P. (IB)/884/MB/2025]",
+          "date": "18 Jun 2026",
+          "date_iso": "2026-06-18",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-19-145259-467n5-d7b320923ba0910f0114aac7517cef61.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_06_19_145259_467n5_d7b320923ba0910f"
         },
         {
           "title": "In the matter of UTKAL STEELS LIMITED. [TP(IBC)/2/AHM/2026]",
@@ -1293,13 +1356,22 @@
           "id": "ibbi_adm_f2c8acad984a1dd75b907c293f26fb77_pdf"
         },
         {
-          "title": "In the matter of VIKRAM SOLAR LIMITED [CP(IB)87/KB/2025]",
+          "title": "In the matter of LONGRANGE COMMODITIES PRIVATE LIMITED [C.P. (IB)/514(MB)2025]",
           "date": "12 Jun 2026",
           "date_iso": "2026-06-12",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/9d8c403e14fc141d580b958184ac05c7.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-13-203729-4x2iz-f53dd26908f18a8a6620903037615c0c.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_9d8c403e14fc141d580b958184ac05c7_pdf"
+          "id": "ibbi_adm_2026_06_13_203729_4x2iz_f53dd26908f18a8a"
+        },
+        {
+          "title": "In the matter of TIRUMALLA GROUNDNUTS INDUSTRIES INDIA PRIVATE LIMITED [1390/2025]",
+          "date": "12 Jun 2026",
+          "date_iso": "2026-06-12",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/1a33c01a66654b839010d1b0771147b1.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_1a33c01a66654b839010d1b0771147b1_pdf"
         },
         {
           "title": "In the matter of Tirumalla Groundnuts Industries India Private Limited [CP (IB) No.1390/MB/2025]",
@@ -1309,15 +1381,6 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/120a3bf69b7c1751103c97a4e5af9730.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_120a3bf69b7c1751103c97a4e5af9730_pdf"
-        },
-        {
-          "title": "In the matter of LONGRANGE COMMODITIES PRIVATE LIMITED [C.P. (IB)/514(MB)2025]",
-          "date": "12 Jun 2026",
-          "date_iso": "2026-06-12",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-13-203729-4x2iz-f53dd26908f18a8a6620903037615c0c.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2026_06_13_203729_4x2iz_f53dd26908f18a8a"
         },
         {
           "title": "In the matter of KSK WIND ENERGY PRIVATE LIMITED [CP (IB)No.50/10/HDB/2025]",
@@ -1365,6 +1428,15 @@
           "id": "ibbi_adm_55ab5d604732207435f49f0a8323c8ba_pdf"
         },
         {
+          "title": "In the matter of VIKRAM SOLAR LIMITED [CP(IB)87/KB/2025]",
+          "date": "12 Jun 2026",
+          "date_iso": "2026-06-12",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/9d8c403e14fc141d580b958184ac05c7.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_9d8c403e14fc141d580b958184ac05c7_pdf"
+        },
+        {
           "title": "In the matter of M C INDUSTRIES LTD [C.P. (IB)/265/KB/2023]",
           "date": "12 Jun 2026",
           "date_iso": "2026-06-12",
@@ -1392,10 +1464,19 @@
           "id": "ibbi_adm_9ba61c716a6010a1e4cd3248fc73ad36_pdf"
         },
         {
+          "title": "In the matter of SHANTI INFRACONSTRUCT PRIVATE LIMITED [CP(IB)148/ALD/2024]",
+          "date": "11 Jun 2026",
+          "date_iso": "2026-06-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/af323f59393dd318b2f31d48475b35e6.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_af323f59393dd318b2f31d48475b35e6_pdf"
+        },
+        {
           "title": "In the matter of COSMOS FERROUS PRIVATE LIMITED [CP(IB)/1/ALD/2026]",
           "date": "11 Jun 2026",
           "date_iso": "2026-06-11",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
           "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-19-122035-6v3zy-d1e58e9f794ee0728fab250d53c5de99.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_2026_06_19_122035_6v3zy_d1e58e9f794ee072"
@@ -1404,7 +1485,7 @@
           "title": "In the matter of State Bank of India vs. Anil Dhirajlal Ambani, [I.A. (I.B.C)/5420(MB)2025 in C.P. (IB)/916(MB)2020]",
           "date": "11 Jun 2026",
           "date_iso": "2026-06-11",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
           "pdf_url": "https://ibbi.gov.in/uploads/order/3887e39297c6be6ea9194c15b93c7e2c.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_3887e39297c6be6ea9194c15b93c7e2c_pdf"
@@ -1419,6 +1500,15 @@
           "id": "ibbi_adm_2026_06_13_173138_a5oef_4b2ec5f4671ee5e3"
         },
         {
+          "title": "In the matter of RAYWAYS INFRA PROJECTS PRIVATE LIMITED [C.P. (IB)/146/CH/2024]",
+          "date": "11 Jun 2026",
+          "date_iso": "2026-06-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-13-120853-eso26-d7b320923ba0910f0114aac7517cef61.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_06_13_120853_eso26_d7b320923ba0910f"
+        },
+        {
           "title": "In the matter of RVD SALES PRIVATE LIMITED [CP (IB) No. 87/Chd/HP/2024]",
           "date": "11 Jun 2026",
           "date_iso": "2026-06-11",
@@ -1426,15 +1516,6 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/893bbf508280bb6685fd5a97783a18a3.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_893bbf508280bb6685fd5a97783a18a3_pdf"
-        },
-        {
-          "title": "In the matter of TYCOONS INDUSTRIES PRIVATE LIMITED [CP (IB) NO.35/Chd/J&K/2025]",
-          "date": "11 Jun 2026",
-          "date_iso": "2026-06-11",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-15-150653-bokj9-6575d9a58f0b41a108f2d6a565a0650d.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2026_06_15_150653_bokj9_6575d9a58f0b41a1"
         },
         {
           "title": "In the matter of HK Toll Road Private Limited [IA (I.B.C) 5338/MB/2025 in CP (IB) No. 522/MB/2025]",
@@ -1446,49 +1527,13 @@
           "id": "ibbi_adm_5b5a66719e10e9e9e4b0d60a5c2c0c89_pdf"
         },
         {
-          "title": "In the matter of RAYWAYS INFRA PROJECTS PRIVATE LIMITED [C.P. (IB)/146/CH/2024]",
+          "title": "In the matter of TYCOONS INDUSTRIES PRIVATE LIMITED [CP (IB) NO.35/Chd/J&K/2025]",
           "date": "11 Jun 2026",
           "date_iso": "2026-06-11",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-13-120853-eso26-d7b320923ba0910f0114aac7517cef61.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-15-150653-bokj9-6575d9a58f0b41a108f2d6a565a0650d.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_2026_06_13_120853_eso26_d7b320923ba0910f"
-        },
-        {
-          "title": "In the matter of TIRUPATI BUILD-CON PRIVATE LIMITED [185/KB/2025]",
-          "date": "10 Jun 2026",
-          "date_iso": "2026-06-10",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/9d5438b73d22329bda209de9a2bc95d3.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_9d5438b73d22329bda209de9a2bc95d3_pdf"
-        },
-        {
-          "title": "In the matter of ARELI COMMERCE PRIVATE LIMITED [C.P.(IB)/49(AHM)2026]",
-          "date": "10 Jun 2026",
-          "date_iso": "2026-06-10",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/3e03c0a8766922167e77868a33a22e86.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_3e03c0a8766922167e77868a33a22e86_pdf"
-        },
-        {
-          "title": "In the matter of PITHADAI CONSTRUCTION PRIVATE LIMITED [CP(IB) NO. 113/9/AHM/2026]",
-          "date": "10 Jun 2026",
-          "date_iso": "2026-06-10",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-12-220045-yk4n0-caa01e4df1fc489840fc149765e706e3.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_2026_06_12_220045_yk4n0_caa01e4df1fc4898"
-        },
-        {
-          "title": "In the matter of Areli Commerce Private Limited [CP (IB) No. 49/7/AHM/2026]",
-          "date": "10 Jun 2026",
-          "date_iso": "2026-06-10",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/e9f87aa9973fd35c3124472da1514a77.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_e9f87aa9973fd35c3124472da1514a77_pdf"
+          "id": "ibbi_adm_2026_06_15_150653_bokj9_6575d9a58f0b41a1"
         },
         {
           "title": "In the matter of SKI AND SNOW RESORTS PRIVATE LIMITED [CP (IB) NO.30/ALD/2023]",
@@ -1509,6 +1554,42 @@
           "id": "ibbi_adm_6f34d3f98c6fb2d642e3581a70a5de56_pdf"
         },
         {
+          "title": "In the matter of Areli Commerce Private Limited [CP (IB) No. 49/7/AHM/2026]",
+          "date": "10 Jun 2026",
+          "date_iso": "2026-06-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/e9f87aa9973fd35c3124472da1514a77.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_e9f87aa9973fd35c3124472da1514a77_pdf"
+        },
+        {
+          "title": "In the matter of PITHADAI CONSTRUCTION PRIVATE LIMITED [CP(IB) NO. 113/9/AHM/2026]",
+          "date": "10 Jun 2026",
+          "date_iso": "2026-06-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-12-220045-yk4n0-caa01e4df1fc489840fc149765e706e3.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_06_12_220045_yk4n0_caa01e4df1fc4898"
+        },
+        {
+          "title": "In the matter of ARELI COMMERCE PRIVATE LIMITED [C.P.(IB)/49(AHM)2026]",
+          "date": "10 Jun 2026",
+          "date_iso": "2026-06-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/3e03c0a8766922167e77868a33a22e86.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_3e03c0a8766922167e77868a33a22e86_pdf"
+        },
+        {
+          "title": "In the matter of TIRUPATI BUILD-CON PRIVATE LIMITED [185/KB/2025]",
+          "date": "10 Jun 2026",
+          "date_iso": "2026-06-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/9d5438b73d22329bda209de9a2bc95d3.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_9d5438b73d22329bda209de9a2bc95d3_pdf"
+        },
+        {
           "title": "In the matter of MANGLAM FISCAL SERVICES P. LTD. [157/KB/2022]",
           "date": "09 Jun 2026",
           "date_iso": "2026-06-09",
@@ -1527,15 +1608,6 @@
           "id": "ibbi_adm_daeb8670d7a0783b29b3b0eb4dc3c10c_pdf"
         },
         {
-          "title": "In the matter of MOGUIRE VIRAGO PRIVATE LIMITED [294/BB/2025]",
-          "date": "09 Jun 2026",
-          "date_iso": "2026-06-09",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/72583a599b3d5b7d28c96d61d23b404c.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_72583a599b3d5b7d28c96d61d23b404c_pdf"
-        },
-        {
           "title": "In the matter of APL METALS LIMITED [C.P. (IB)/161/KB/2025]",
           "date": "09 Jun 2026",
           "date_iso": "2026-06-09",
@@ -1543,6 +1615,15 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-12-153334-volki-70a17ffa722a3985b86d30b034ad06d7.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_2026_06_12_153334_volki_70a17ffa722a3985"
+        },
+        {
+          "title": "In the matter of MOGUIRE VIRAGO PRIVATE LIMITED [294/BB/2025]",
+          "date": "09 Jun 2026",
+          "date_iso": "2026-06-09",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/72583a599b3d5b7d28c96d61d23b404c.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_72583a599b3d5b7d28c96d61d23b404c_pdf"
         },
         {
           "title": "In the matter of SWAL LIMITED. [C.P. (IB)/261/KB/2025]",
@@ -1554,10 +1635,19 @@
           "id": "ibbi_adm_2026_06_14_211039_0m2wc_55458cf36e3484b5"
         },
         {
+          "title": "In the matter of SHRI GIRIJA ALLOY & POWER (I) PRIVATE LIMITED [CP (IB)/38/9/AMR/2025]",
+          "date": "08 Jun 2026",
+          "date_iso": "2026-06-08",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/8f6991276c6aa03a611ef755010cef58.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_8f6991276c6aa03a611ef755010cef58_pdf"
+        },
+        {
           "title": "In the matter of Raheja Developers Limited [CP (IB) - 182(ND)/2024]",
           "date": "08 Jun 2026",
           "date_iso": "2026-06-08",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
           "pdf_url": "https://ibbi.gov.in/uploads/order/d5992fa47d1ff8c5864c6d0ae66e1809.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_d5992fa47d1ff8c5864c6d0ae66e1809_pdf"
@@ -1566,19 +1656,10 @@
           "title": "In the matter of OSWAL OVERSEAS LIMITED [C.P.(IB) NO. 655/ND/2025]",
           "date": "08 Jun 2026",
           "date_iso": "2026-06-08",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
           "pdf_url": "https://ibbi.gov.in/uploads/order/444555b1c32ea9c812856fa20b4a0c13.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_444555b1c32ea9c812856fa20b4a0c13_pdf"
-        },
-        {
-          "title": "In the matter of INODAYA FOODS PRIVATE LIMITED [C.P. (IB) No. 105/Chd/Hry/2025]",
-          "date": "05 Jun 2026",
-          "date_iso": "2026-06-05",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/0a010626ec2e681f197cf9ff134066ee.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_0a010626ec2e681f197cf9ff134066ee_pdf"
         },
         {
           "title": "In the matter of PRIMEZONE DEVELOPERS PRIVATE LIMITED [C.P. (IB) - 128/2022]",
@@ -1590,6 +1671,24 @@
           "id": "ibbi_adm_ab5bbc3b102e1ae1ca8ed1c2c1a38b30_pdf"
         },
         {
+          "title": "In the matter of SAMRUDDHI REALTY LIMITED [189/BB/2018]",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/699bc6134d95e6d16987e1831dbed3f1.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_699bc6134d95e6d16987e1831dbed3f1_pdf"
+        },
+        {
+          "title": "In the matter of INODAYA FOODS PRIVATE LIMITED [C.P. (IB) No. 105/Chd/Hry/2025]",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/0a010626ec2e681f197cf9ff134066ee.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_0a010626ec2e681f197cf9ff134066ee_pdf"
+        },
+        {
           "title": "In the matter of GENERAL COMPOSITES PRIVATE LIMITED [IA(I.B.C)/2205( MB)2026 IN C.P. (IB)/703(MB)2019 ]",
           "date": "04 Jun 2026",
           "date_iso": "2026-06-04",
@@ -1599,15 +1698,6 @@
           "id": "ibbi_adm_2026_06_10_182435_47b5n_2443b87e82f33a9f"
         },
         {
-          "title": "In the matter of BLD METAL AND ALLOYS PRIVATE LIMITED [COMPANY PETITION IB (IBC) NO. 549/ND/2025]",
-          "date": "03 Jun 2026",
-          "date_iso": "2026-06-03",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/a4dbe1007b3775d916ddbe26c791737d.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_a4dbe1007b3775d916ddbe26c791737d_pdf"
-        },
-        {
           "title": "In the matter of BLACKBERRY OVERSEAS PRIVATE LIMITED [CP IB NO. 221/ND/2025]",
           "date": "03 Jun 2026",
           "date_iso": "2026-06-03",
@@ -1615,6 +1705,15 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-08-152205-lnpme-d1e58e9f794ee0728fab250d53c5de99.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_2026_06_08_152205_lnpme_d1e58e9f794ee072"
+        },
+        {
+          "title": "In the matter of BLD METAL AND ALLOYS PRIVATE LIMITED [COMPANY PETITION IB (IBC) NO. 549/ND/2025]",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/a4dbe1007b3775d916ddbe26c791737d.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_a4dbe1007b3775d916ddbe26c791737d_pdf"
         },
         {
           "title": "In the matter of NEW PEARL VITRIFIED PRIVATE LIMITED [C.P.(IB)/484(AHM)2025]",
@@ -1697,10 +1796,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 14,
-      "docs_with_pdf": 9,
-      "docs_without_pdf": 5,
+      "doc_count": 16,
+      "docs_with_pdf": 10,
+      "docs_without_pdf": 6,
       "documents": [
+        {
+          "title": "[M.12400] 3i / RITTAL / IDRO 2020 / NORDIC WINDFARM / LEFDAL DATACENTRE",
+          "date": "19 Jun 2026",
+          "date_iso": "2026-06-19",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12400",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12400"
+        },
+        {
+          "title": "[M.12487] GRUPO MÉXICO / GIM / SAAVI / CIEM",
+          "date": "19 Jun 2026",
+          "date_iso": "2026-06-19",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12487",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12487"
+        },
         {
           "title": "[M.12467] PAI PARTNERS / FID / MECAER AVIATION GROUP",
           "date": "17 Jun 2026",
@@ -1715,8 +1832,8 @@
           "date": "17 Jun 2026",
           "date_iso": "2026-06-17",
           "page_url": "https://competition-cases.ec.europa.eu/cases/M.12440",
-          "pdf_url": "",
-          "has_pdf": false,
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202625/M_12440_91.pdf",
+          "has_pdf": true,
           "id": "eu_m_M_12440"
         },
         {
@@ -2827,10 +2944,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
+      "doc_count": 3,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 2,
+      "docs_without_pdf": 3,
       "documents": [
+        {
+          "title": "Krystal Financial Consultants LLC v Nextgen Robopark Investment LLC [2025] DIFC CA 007",
+          "date": "16 Jun 2026",
+          "date_iso": "2026-06-16",
+          "page_url": "https://www.difccourts.ae/rules-decisions/judgments-orders/court-appeal/krystal-financial-consultants-llc-v-nextgen-robopark-investment-llc-2025-difc-ca-007",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "difc_ca_krystal-financial-consultants-llc-v-nextgen-robopark-investment-llc-2025-difc-ca-007"
+        },
         {
           "title": "(1) Roman Abramenko (2) Vadim Misevich v Igor Chuprin [2026] DIFC CA 009",
           "date": "08 Jun 2026",
@@ -3232,8 +3358,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 20,
-      "docs_with_pdf": 20,
+      "doc_count": 22,
+      "docs_with_pdf": 22,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -3262,6 +3388,24 @@
           "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-1201a36c-ef07-4a44-a2ff-de10d1d36252/d-1201a36c-ef07-4a44-a2ff-de10d1d36252.pdf",
           "has_pdf": true,
           "id": "na_912"
+        },
+        {
+          "title": "Liam Henry v The Commissioners for HMRC",
+          "date": "18 Jun 2026",
+          "date_iso": "2026-06-18",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/921",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-8c3cd796-0676-4ca9-baca-3b3585c85bf7/d-8c3cd796-0676-4ca9-baca-3b3585c85bf7.pdf",
+          "has_pdf": true,
+          "id": "na_921"
+        },
+        {
+          "title": "Dr Robin Garai v The Commissioners for HMRC",
+          "date": "18 Jun 2026",
+          "date_iso": "2026-06-18",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/920",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-ac455b4a-c491-40f7-b047-34ffdd0547fd/d-ac455b4a-c491-40f7-b047-34ffdd0547fd.pdf",
+          "has_pdf": true,
+          "id": "na_920"
         },
         {
           "title": "L&Y Enterprise Ltd v The Commissioners for HMRC",
@@ -3568,10 +3712,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 7,
-      "docs_with_pdf": 7,
+      "doc_count": 8,
+      "docs_with_pdf": 8,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Reporting of FCNR (B) Deposits, ECB and OFCB mobilized under Reserve Bank’s Swap Facility",
+          "date": "19 Jun 2026",
+          "date_iso": "2026-06-19",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13515&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT14484C8480AA43A4A199EE98FD684E7BC84.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13515"
+        },
         {
           "title": "Foreign Exchange Management (Mode of Payment and Reporting of Non-Debt Instruments) (Amendment) Regulations, 2026",
           "date": "15 Jun 2026",
