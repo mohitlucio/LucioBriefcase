@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-06-22 12:20:27 UTC",
-  "finished_at": "2026-06-22 12:30:12 UTC",
-  "duration_seconds": 584.7,
+  "started_at": "2026-06-22 21:09:01 UTC",
+  "finished_at": "2026-06-22 21:18:18 UTC",
+  "duration_seconds": 556.9,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 32,
-  "sources_error": 8,
+  "sources_ok": 33,
+  "sources_error": 7,
   "sources_empty": 53,
-  "total_documents": 305,
-  "docs_with_pdf": 258,
-  "docs_without_pdf": 47,
+  "total_documents": 324,
+  "docs_with_pdf": 275,
+  "docs_without_pdf": 49,
   "source_details": [
     {
       "key": "RHP",
@@ -483,10 +483,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 7,
-      "docs_with_pdf": 7,
+      "doc_count": 8,
+      "docs_with_pdf": 8,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "JSW Infrastructure Ltd – Draft Placement Document",
+          "date": "22 Jun 2026",
+          "date_iso": "2026-06-22",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/10460/QIP Open/Preliminary Placement Document_20260622194956.pdf",
+          "has_pdf": true,
+          "id": "prelim_jsw_infrastructure_ltd_2026-06-22"
+        },
         {
           "title": "Krishna Institute of Medical Sciences Ltd – Draft Placement Document",
           "date": "16 Jun 2026",
@@ -974,10 +983,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[20260622-3] Issue of U.S $4,000,000 Floating rate notes due 2029 by Choice Finserv Private Limited",
+          "date": "22 Jun 2026",
+          "date_iso": "2026-06-22",
+          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
+          "pdf_url": "https://www.indiainx.com/circulars/20260622-3/20260622-3.pdf",
+          "has_pdf": true,
+          "id": "inx_circ_20260622-3"
+        },
         {
           "title": "[20260616-2] Issue of U.S.$200,000,000 5.180 per cent. Senior Notes due 2029 to be consolidated and form a single series with the U.S.$450,000,000 5.180 per cent. Senior Notes due 2029 by HDFC Bank Limited",
           "date": "16 Jun 2026",
@@ -1005,10 +1023,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Choice Finserv Private Limited — U.S $4,000,000 Floating rate notes due 2029 by Choice Finserv Private Limited",
+          "date": "22 Jun 2026",
+          "date_iso": "2026-06-22",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/ChoiceFinservIMECBINIFD2605019.pdf",
+          "has_pdf": true,
+          "id": "inx_iss_u_s__4_000_000_floating_rate_n_2026-06-22"
+        },
         {
           "title": "HDFC Bank Limited — Issue of U.S.$200,000,000 5.180 per cent. Senior Notes due 2029",
           "date": "16 Jun 2026",
@@ -1162,12 +1189,112 @@
       "label": "HR_REAT",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "<urlopen error timed out>",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 11,
+      "docs_with_pdf": 11,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "H-REAT-915-2024 — Mapsko Builders Private Limited vs ANIL KUMAR",
+          "date": "09 Jun 2026",
+          "date_iso": "2026-06-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxMjYz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-915-2024_0"
+        },
+        {
+          "title": "H-REAT-482-2022 — State of Haryana through Director Town and Country Planning Department Haryana Chandigarh vs HARYANA REAL ESTATE REGULATORY AUTHORITY",
+          "date": "09 Jun 2026",
+          "date_iso": "2026-06-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxMjYy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-482-2022_1"
+        },
+        {
+          "title": "H-REAT-287-2025 — M/s JMK Holdings Private limited vs HARYANA REAL ESTATE REGULATORY AUTHORITY GURUGRAM",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjc1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-287-2025_2"
+        },
+        {
+          "title": "H-REAT-594-2024 — Alpha Corp Development Private Limited vs VIKAS SINGLA",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-594-2024_3"
+        },
+        {
+          "title": "H-REAT-82-2024 — GLS Infracon Pvt Ltd vs MAHUA DAS",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-82-2024_4"
+        },
+        {
+          "title": "H-REAT-293-2022 — Experion Developers Private Limited vs PARVEEN GAMBHIR",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-293-2022_5"
+        },
+        {
+          "title": "H-REAT-195-2025 — BPTP Ltd. and Anjali Promoters and Developers Pvt. Ltd. vs UMA CHANDERNAIN OBEROI",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwODE1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-195-2025_6"
+        },
+        {
+          "title": "H-REAT-583-2024 — Icon Realcon Private Limited vs HARYANA REAL ESTATE REGULATORY AUTHORITY AT PANCHKULA",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNzI3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-583-2024_7"
+        },
+        {
+          "title": "H-REAT-810-2022 — DSS Buildtech Private Limited vs RUCHI CHAUHAN AND VIKRAM SINGH MANDHOTRA",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjMz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-810-2022_8"
+        },
+        {
+          "title": "H-REAT-131-2026 — M/S DLF LTD vs GAUTAM RANA",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzE0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-131-2026_9"
+        },
+        {
+          "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzEz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-130-2026_10"
+        }
+      ]
     },
     {
       "key": "DL_REAT",
@@ -1401,15 +1528,6 @@
           "id": "ibbi_adm_3d1b1ec15ef197d1eeea64c0774ceec4_pdf"
         },
         {
-          "title": "In the matter of NIRVIKAR FILMS LLP [CP(IB)-190/2026]",
-          "date": "12 Jun 2026",
-          "date_iso": "2026-06-12",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/55ab5d604732207435f49f0a8323c8ba.pdf",
-          "has_pdf": true,
-          "id": "ibbi_adm_55ab5d604732207435f49f0a8323c8ba_pdf"
-        },
-        {
           "title": "In the matter of VIKRAM SOLAR LIMITED [CP(IB)87/KB/2025]",
           "date": "12 Jun 2026",
           "date_iso": "2026-06-12",
@@ -1419,13 +1537,13 @@
           "id": "ibbi_adm_9d8c403e14fc141d580b958184ac05c7_pdf"
         },
         {
-          "title": "In the matter of Longrange Commodities Private Limited [C.P. (IB)/514/MB/2025]",
+          "title": "In the matter of NIRVIKAR FILMS LLP [CP(IB)-190/2026]",
           "date": "12 Jun 2026",
           "date_iso": "2026-06-12",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/fc39996735b49633511e723e2039ea18.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/55ab5d604732207435f49f0a8323c8ba.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_fc39996735b49633511e723e2039ea18_pdf"
+          "id": "ibbi_adm_55ab5d604732207435f49f0a8323c8ba_pdf"
         },
         {
           "title": "In the matter of TALENT UNLIMITED ONLINE SERVICES PRIVATE LIMITED [C.P.(IB)–169(ND)/2026]",
@@ -1435,6 +1553,15 @@
           "pdf_url": "https://ibbi.gov.in/uploads/order/404c7d3a632ff8013b3a3f553bc6104a.pdf",
           "has_pdf": true,
           "id": "ibbi_adm_404c7d3a632ff8013b3a3f553bc6104a_pdf"
+        },
+        {
+          "title": "In the matter of BUXA DOOARS TEA CO. (INDIA) LTD [CP(IB)193/KB/2025]",
+          "date": "12 Jun 2026",
+          "date_iso": "2026-06-12",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-16-141040-9fktg-fbcc0808163afaeb8c17b9c0a6c554e1.pdf",
+          "has_pdf": true,
+          "id": "ibbi_adm_2026_06_16_141040_9fktg_fbcc0808163afaeb"
         },
         {
           "title": "In the matter of KSK WIND ENERGY PRIVATE LIMITED [CP (IB)No.50/10/HDB/2025]",
@@ -1464,13 +1591,13 @@
           "id": "ibbi_adm_120a3bf69b7c1751103c97a4e5af9730_pdf"
         },
         {
-          "title": "In the matter of BUXA DOOARS TEA CO. (INDIA) LTD [CP(IB)193/KB/2025]",
+          "title": "In the matter of Longrange Commodities Private Limited [C.P. (IB)/514/MB/2025]",
           "date": "12 Jun 2026",
           "date_iso": "2026-06-12",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-16-141040-9fktg-fbcc0808163afaeb8c17b9c0a6c554e1.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/fc39996735b49633511e723e2039ea18.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_2026_06_16_141040_9fktg_fbcc0808163afaeb"
+          "id": "ibbi_adm_fc39996735b49633511e723e2039ea18_pdf"
         },
         {
           "title": "In the matter of TIRUMALLA GROUNDNUTS INDUSTRIES INDIA PRIVATE LIMITED [1390/2025]",
@@ -1788,13 +1915,13 @@
           "id": "ibbi_adm_c0890177abb4eb24257c5085eef0d4f2_pdf"
         },
         {
-          "title": "In the matter of MAIYAS RESTAURANTS PRIVATE LIMITED [C.P. (IB)/40(BEN)2026]",
+          "title": "In the matter of EARTH TOWNE INFRASTRUCTURES PRIVATE LIMITED [Restored Company Petition (IBC) 9/ND/2025]",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-120025-dmn6c-35f784155b7f48eaae60238453ebf0cf.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/723f54f0251a44d8664a58857deabb67.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_2026_06_03_120025_dmn6c_35f784155b7f48ea"
+          "id": "ibbi_adm_723f54f0251a44d8664a58857deabb67_pdf"
         },
         {
           "title": "In the matter of THIRANI INDUSTRIES LIMITED [540/ND/2022]",
@@ -1806,13 +1933,13 @@
           "id": "ibbi_adm_2026_06_03_132438_mbnxj_d7b320923ba0910f"
         },
         {
-          "title": "In the matter of EARTH TOWNE INFRASTRUCTURES PRIVATE LIMITED [Restored Company Petition (IBC) 9/ND/2025]",
+          "title": "In the matter of MAIYAS RESTAURANTS PRIVATE LIMITED [C.P. (IB)/40(BEN)2026]",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/uploads/order/723f54f0251a44d8664a58857deabb67.pdf",
+          "pdf_url": "https://ibbi.gov.in/uploads/order/2026-06-03-120025-dmn6c-35f784155b7f48eaae60238453ebf0cf.pdf",
           "has_pdf": true,
-          "id": "ibbi_adm_723f54f0251a44d8664a58857deabb67_pdf"
+          "id": "ibbi_adm_2026_06_03_120025_dmn6c_35f784155b7f48ea"
         },
         {
           "title": "In the matter of METAL CLOSURES PRIVATE LIMITED [103/BB/2018]",
@@ -1832,10 +1959,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 17,
+      "doc_count": 18,
       "docs_with_pdf": 11,
-      "docs_without_pdf": 6,
+      "docs_without_pdf": 7,
       "documents": [
+        {
+          "title": "[M.12477] TMUS / KIA / I3 BROADBAND",
+          "date": "22 Jun 2026",
+          "date_iso": "2026-06-22",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12477",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12477"
+        },
         {
           "title": "[M.12453] BLACKSTONE / ES GROUP",
           "date": "19 Jun 2026",
@@ -2032,10 +2168,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 9,
+      "doc_count": 10,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 9,
+      "docs_without_pdf": 10,
       "documents": [
+        {
+          "title": "[FS.100321] SOFTBANK / DIGITALBRIDGE",
+          "date": "22 Jun 2026",
+          "date_iso": "2026-06-22",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100321",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100321"
+        },
         {
           "title": "[FS.100334] LATOUR CAPITAL / EHS",
           "date": "12 Jun 2026",
@@ -2158,15 +2303,6 @@
           "id": "epo_boa_t240806eu1"
         },
         {
-          "title": "T 0491/24 — POSITIONIERVORRICHTUNG",
-          "date": "19 Jun 2026",
-          "date_iso": "2026-06-19",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240491du1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240491du1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240491du1"
-        },
-        {
           "title": "T 0020/25 — LAMINATED GLASS",
           "date": "19 Jun 2026",
           "date_iso": "2026-06-19",
@@ -2174,6 +2310,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250020eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250020eu1"
+        },
+        {
+          "title": "T 0491/24 — POSITIONIERVORRICHTUNG",
+          "date": "19 Jun 2026",
+          "date_iso": "2026-06-19",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240491du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240491du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240491du1"
         },
         {
           "title": "T 1214/24",
@@ -2221,15 +2366,6 @@
           "id": "epo_boa_t241107eu1"
         },
         {
-          "title": "T 0245/24 — DUAL CURE POLYTHIOETHER",
-          "date": "18 Jun 2026",
-          "date_iso": "2026-06-18",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240245eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240245eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240245eu1"
-        },
-        {
           "title": "T 0914/25 — DEFINITION SWITCHING ALGORITHM SELECTION METHOD AND SYSTEM, AND DEVICE AND MEDIUM",
           "date": "18 Jun 2026",
           "date_iso": "2026-06-18",
@@ -2255,6 +2391,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241243eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t241243eu1"
+        },
+        {
+          "title": "T 0245/24 — DUAL CURE POLYTHIOETHER",
+          "date": "18 Jun 2026",
+          "date_iso": "2026-06-18",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240245eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240245eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240245eu1"
         },
         {
           "title": "T 1974/22 — ELECTRONIC DEVICE AND METHOD FOR CONTROLLING FAN OF ELECTRONIC DEVICE",
@@ -2320,15 +2465,6 @@
           "id": "epo_boa_t240759du1"
         },
         {
-          "title": "T 1150/25 — SYSTEMS AND METHODS FOR CLASSIFYING DRIVER BEHAVIOR",
-          "date": "17 Jun 2026",
-          "date_iso": "2026-06-17",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t251150eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t251150eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t251150eu1"
-        },
-        {
           "title": "R 0014/25 — ABSORBENT ARTICLES",
           "date": "17 Jun 2026",
           "date_iso": "2026-06-17",
@@ -2336,6 +2472,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/r250014eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_r250014eu1"
+        },
+        {
+          "title": "T 1150/25 — SYSTEMS AND METHODS FOR CLASSIFYING DRIVER BEHAVIOR",
+          "date": "17 Jun 2026",
+          "date_iso": "2026-06-17",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t251150eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t251150eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t251150eu1"
         },
         {
           "title": "T 0605/24 — OPENING DEVICE FOR A PACKAGING FOR POURABLE PRODUCTS",
@@ -2356,15 +2501,6 @@
           "id": "epo_boa_t240134eu1"
         },
         {
-          "title": "T 0808/23 — Apparatus for patterned plasma-mediated laser trephination of the lens capsule and three dimensional phaco-segmentation",
-          "date": "16 Jun 2026",
-          "date_iso": "2026-06-16",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230808eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230808eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t230808eu1"
-        },
-        {
           "title": "T 0134/25 — COMPOSITIONS AND METHODS COMPRISING BUPROPION OR RELATED COMPOUNDS AND DEXTROMETHORPHAN",
           "date": "16 Jun 2026",
           "date_iso": "2026-06-16",
@@ -2372,6 +2508,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250134eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250134eu1"
+        },
+        {
+          "title": "T 0808/23 — Apparatus for patterned plasma-mediated laser trephination of the lens capsule and three dimensional phaco-segmentation",
+          "date": "16 Jun 2026",
+          "date_iso": "2026-06-16",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230808eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230808eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t230808eu1"
         },
         {
           "title": "T 0688/24 — VORRICHTUNG UND VERFAHREN ZUM ERZEUGEN VON STEUERDATEN ZUR OPERATIVEN FEHLSICHTIGKEITSKORREKTUR EINES AUGES",
@@ -2392,15 +2537,6 @@
           "id": "epo_boa_t231376du1"
         },
         {
-          "title": "T 1447/24 — PROCESS FOR PRODUCING LIPSTICKS WITH SPECIAL TRIDIMENSIONAL SURFACE EFFECTS",
-          "date": "16 Jun 2026",
-          "date_iso": "2026-06-16",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241447eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241447eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241447eu1"
-        },
-        {
           "title": "T 0132/25 — COMPOSITIONS AND METHODS COMPRISING BUPROPION OR RELATED COMPOUNDS AND DEXTROMETHORPHAN",
           "date": "16 Jun 2026",
           "date_iso": "2026-06-16",
@@ -2410,13 +2546,13 @@
           "id": "epo_boa_t250132eu1"
         },
         {
-          "title": "T 0482/24 — FORMMASSE ENTHALTEND POLYETHERBLOCKAMID (PEBA)",
+          "title": "T 1447/24 — PROCESS FOR PRODUCING LIPSTICKS WITH SPECIAL TRIDIMENSIONAL SURFACE EFFECTS",
           "date": "16 Jun 2026",
           "date_iso": "2026-06-16",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240482du1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240482du1.pdf",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241447eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241447eu1.pdf",
           "has_pdf": true,
-          "id": "epo_boa_t240482du1"
+          "id": "epo_boa_t241447eu1"
         },
         {
           "title": "T 0081/24 — DEVICE FOR THE ORAL DELIVERY OF THERAPEUTIC COMPOUNDS",
@@ -2426,6 +2562,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240081eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t240081eu1"
+        },
+        {
+          "title": "T 0482/24 — FORMMASSE ENTHALTEND POLYETHERBLOCKAMID (PEBA)",
+          "date": "16 Jun 2026",
+          "date_iso": "2026-06-16",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240482du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240482du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240482du1"
         },
         {
           "title": "T 0133/25 — COMPOSITIONS AND METHODS COMPRISING BUPROPION OR RELATED COMPOUNDS AND DEXTROMETHORPHAN",
@@ -2455,15 +2600,6 @@
           "id": "epo_boa_t250378eu1"
         },
         {
-          "title": "T 1165/24 — SYSTEMS AND METHODS FOR PROVIDING L-BAND RF ARCHITECTURES",
-          "date": "15 Jun 2026",
-          "date_iso": "2026-06-15",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241165eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241165eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241165eu1"
-        },
-        {
           "title": "T 1301/24 — WELLNESS-PANTOLETTE MIT SKALIERBARER AKUPRESSURWIRKUNG",
           "date": "15 Jun 2026",
           "date_iso": "2026-06-15",
@@ -2471,6 +2607,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241301du1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t241301du1"
+        },
+        {
+          "title": "T 1165/24 — SYSTEMS AND METHODS FOR PROVIDING L-BAND RF ARCHITECTURES",
+          "date": "15 Jun 2026",
+          "date_iso": "2026-06-15",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241165eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241165eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241165eu1"
         },
         {
           "title": "T 0024/24 — AEROSOL-GENERATING DEVICE COMPRISING AN INDUCTIVE HEATING ARRANGEMENT COMPRISING FIRST AND SECOND LC CIRCUITS HAVING DIFFERENT RESONANCE FREQUENCIES",
@@ -2518,15 +2663,6 @@
           "id": "epo_boa_t250531eu1"
         },
         {
-          "title": "T 1924/23 — AUTOMATED ELEVATOR MAINTENANCE MODE INITIATION",
-          "date": "12 Jun 2026",
-          "date_iso": "2026-06-12",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231924eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231924eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t231924eu1"
-        },
-        {
           "title": "T 0224/25 — Correlated incremental loading of multiple data sets for an interactive data prep application",
           "date": "12 Jun 2026",
           "date_iso": "2026-06-12",
@@ -2534,6 +2670,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250224eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250224eu1"
+        },
+        {
+          "title": "T 1924/23 — AUTOMATED ELEVATOR MAINTENANCE MODE INITIATION",
+          "date": "12 Jun 2026",
+          "date_iso": "2026-06-12",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t231924eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t231924eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t231924eu1"
         },
         {
           "title": "T 0673/24 — Anti-counterfeiting element and anti-counterfeiting product",
@@ -2590,15 +2735,6 @@
           "id": "epo_boa_t240909eu1"
         },
         {
-          "title": "T 0271/24 — Compositions and methods for accurately identifying mutations",
-          "date": "12 Jun 2026",
-          "date_iso": "2026-06-12",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240271eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240271eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240271eu1"
-        },
-        {
           "title": "T 1451/24 — COLORED AND LIGHT-TRANSMITTING SINTERED ZIRCONIA COMPACT AND USE OF SAME",
           "date": "12 Jun 2026",
           "date_iso": "2026-06-12",
@@ -2608,13 +2744,13 @@
           "id": "epo_boa_t241451eu1"
         },
         {
-          "title": "T 1201/24 — LAUNDRY DETERGENT",
-          "date": "11 Jun 2026",
-          "date_iso": "2026-06-11",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241201eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241201eu1.pdf",
+          "title": "T 0271/24 — Compositions and methods for accurately identifying mutations",
+          "date": "12 Jun 2026",
+          "date_iso": "2026-06-12",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240271eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240271eu1.pdf",
           "has_pdf": true,
-          "id": "epo_boa_t241201eu1"
+          "id": "epo_boa_t240271eu1"
         },
         {
           "title": "T 0381/25 — Control body for an electronic smoking article",
@@ -2624,6 +2760,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250381eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250381eu1"
+        },
+        {
+          "title": "T 1201/24 — LAUNDRY DETERGENT",
+          "date": "11 Jun 2026",
+          "date_iso": "2026-06-11",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241201eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241201eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241201eu1"
         },
         {
           "title": "T 0249/24 — PBAT RESIN COMPOSITION",
@@ -2671,15 +2816,6 @@
           "id": "epo_boa_t240034eu1"
         },
         {
-          "title": "T 1059/24 — THE DEVICE OF DEVELOPMENT OF CONCENTRATIONS OF ETERNAL LIFE PRK-1U IS OF THREE-MODES",
-          "date": "10 Jun 2026",
-          "date_iso": "2026-06-10",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241059eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241059eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241059eu1"
-        },
-        {
           "title": "T 0771/24 — METHOD OF DEVELOPMENT OF CONCENTRATIONS AND DEVICE PRK-1U FOR ITS IMPLEMENTATION",
           "date": "10 Jun 2026",
           "date_iso": "2026-06-10",
@@ -2696,6 +2832,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250120du1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250120du1"
+        },
+        {
+          "title": "T 1059/24 — THE DEVICE OF DEVELOPMENT OF CONCENTRATIONS OF ETERNAL LIFE PRK-1U IS OF THREE-MODES",
+          "date": "10 Jun 2026",
+          "date_iso": "2026-06-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241059eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241059eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241059eu1"
         },
         {
           "title": "T 0770/24 — NON-ISOCYANATE POLYURETHANE INKS FOR 3D PRINTING",
@@ -2797,15 +2942,6 @@
           "id": "epo_boa_t240734eu1"
         },
         {
-          "title": "T 0174/25",
-          "date": "05 Jun 2026",
-          "date_iso": "2026-06-05",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250174du1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250174du1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t250174du1"
-        },
-        {
           "title": "J 0006/23 — TEXTILE WITH BIOCONTROLLING PROPERTIES",
           "date": "05 Jun 2026",
           "date_iso": "2026-06-05",
@@ -2813,6 +2949,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/j230006eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_j230006eu1"
+        },
+        {
+          "title": "T 0174/25",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250174du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250174du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250174du1"
         },
         {
           "title": "T 0772/24 — FOULING RELEASE COATINGS",
@@ -2860,13 +3005,13 @@
           "id": "epo_boa_t260460eu1"
         },
         {
-          "title": "T 0867/24 — NASAL COMPOSITION COMPRISING MIXTURE OF HYALURONIC ACIDS AND SALINE SOLUTION",
+          "title": "T 0633/24 — DENTIFRICE INCLUDING ZINC AND BLUE DYE OR PIGMENT",
           "date": "02 Jun 2026",
           "date_iso": "2026-06-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240867eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240867eu1.pdf",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240633eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240633eu1.pdf",
           "has_pdf": true,
-          "id": "epo_boa_t240867eu1"
+          "id": "epo_boa_t240633eu1"
         },
         {
           "title": "T 1117/24",
@@ -2878,22 +3023,13 @@
           "id": "epo_boa_t241117fu1"
         },
         {
-          "title": "T 0633/24 — DENTIFRICE INCLUDING ZINC AND BLUE DYE OR PIGMENT",
+          "title": "T 0867/24 — NASAL COMPOSITION COMPRISING MIXTURE OF HYALURONIC ACIDS AND SALINE SOLUTION",
           "date": "02 Jun 2026",
           "date_iso": "2026-06-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240633eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240633eu1.pdf",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240867eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240867eu1.pdf",
           "has_pdf": true,
-          "id": "epo_boa_t240633eu1"
-        },
-        {
-          "title": "T 0592/24 — COMBINATION THERAPY FOR THE TREATMENT OF CANCER",
-          "date": "02 Jun 2026",
-          "date_iso": "2026-06-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240592eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240592eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240592eu1"
+          "id": "epo_boa_t240867eu1"
         },
         {
           "title": "T 0358/25 — PHARMACEUTICAL DELIVERY SYSTEMS FOR HYDROPHOBIC DRUGS AND COMPOSITIONS COMPRISING SAME",
@@ -2905,6 +3041,15 @@
           "id": "epo_boa_t250358eu1"
         },
         {
+          "title": "T 0592/24 — COMBINATION THERAPY FOR THE TREATMENT OF CANCER",
+          "date": "02 Jun 2026",
+          "date_iso": "2026-06-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240592eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240592eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240592eu1"
+        },
+        {
           "title": "T 0363/25 — Method for obtaining information about a luminaire",
           "date": "02 Jun 2026",
           "date_iso": "2026-06-02",
@@ -2914,15 +3059,6 @@
           "id": "epo_boa_t250363eu1"
         },
         {
-          "title": "T 0534/24 — TRANSPARENT PLASTIC SUBSTRATE AND PLASTIC LENS",
-          "date": "01 Jun 2026",
-          "date_iso": "2026-06-01",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240534eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240534eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240534eu1"
-        },
-        {
           "title": "T 0360/25 — BIG TELEMATICS DATA CONSTRUCTING SYSTEM",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
@@ -2930,6 +3066,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250360eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250360eu1"
+        },
+        {
+          "title": "T 0534/24 — TRANSPARENT PLASTIC SUBSTRATE AND PLASTIC LENS",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240534eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240534eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240534eu1"
         },
         {
           "title": "T 0079/24 — TRANSPARENT PLASTIC SUBSTRATE AND PLASTIC LENS",
@@ -3400,10 +3545,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 7,
-      "docs_with_pdf": 7,
+      "doc_count": 8,
+      "docs_with_pdf": 8,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[2026] UKUT 00233 (TCC)  Promethean Finance Limited  v FCA",
+          "date": "22 Jun 2026",
+          "date_iso": "2026-06-22",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/2026-ukut-00233-tcc-promethean-finance-limited-v-fca",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a39506e0bea238415c9a3ea/Promethean_privacy_decision_142022672.1_.pdf",
+          "has_pdf": true,
+          "id": "govuk_cisions_2026-ukut-00233-tcc-promethean-finance-limited-v-fca"
+        },
         {
           "title": "SWISS CENTRE LIMITED v THE COMMISSIONERS FOR HIS MAJESTY’S REVENUE AND CUSTOMS  [2026] UKUT 00227 (TCC)",
           "date": "22 Jun 2026",
@@ -3476,10 +3630,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 22,
-      "docs_with_pdf": 22,
+      "doc_count": 24,
+      "docs_with_pdf": 24,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "LFS Enterprises Limited v The Commissioners for HMRC",
+          "date": "19 Jun 2026",
+          "date_iso": "2026-06-19",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/930",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-4b97020e-11e6-40dc-a740-2d5a99210a0c/d-4b97020e-11e6-40dc-a740-2d5a99210a0c.pdf",
+          "has_pdf": true,
+          "id": "na_930"
+        },
+        {
+          "title": "Conor Maguire v The Commissioners for HMRC",
+          "date": "18 Jun 2026",
+          "date_iso": "2026-06-18",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/929",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-14e220a4-7361-4e04-9b8f-26f8c8fa871a/d-14e220a4-7361-4e04-9b8f-26f8c8fa871a.pdf",
+          "has_pdf": true,
+          "id": "na_929"
+        },
         {
           "title": "Richard Ellison v The Commissioners for HMRC",
           "date": "18 Jun 2026",
