@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-06-28 04:42:09 UTC",
-  "finished_at": "2026-06-28 04:51:51 UTC",
-  "duration_seconds": 581.7,
+  "started_at": "2026-06-28 09:24:11 UTC",
+  "finished_at": "2026-06-28 09:33:29 UTC",
+  "duration_seconds": 558.3,
   "date_range": {
     "from": "2026-06-01",
     "to": "2026-06-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 32,
-  "sources_error": 21,
-  "sources_empty": 40,
-  "total_documents": 398,
-  "docs_with_pdf": 340,
+  "sources_ok": 34,
+  "sources_error": 7,
+  "sources_empty": 52,
+  "total_documents": 416,
+  "docs_with_pdf": 358,
   "docs_without_pdf": 58,
   "source_details": [
     {
@@ -860,20 +860,84 @@
       "label": "RBI_MD",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 7,
+      "docs_with_pdf": 7,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[Financial Inclusion and Development] Reserve Bank of India [Rural Co-operative Banks - Kisan Credit Card (KCC) Scheme] Directions, 2026",
+          "date": "19 Jun 2026",
+          "date_iso": "2026-06-19",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13525",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/405MDD58E90A39C3D479CB0CF706F173BF58F.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13525"
+        },
+        {
+          "title": "[Financial Inclusion and Development] Reserve Bank of India [Regional Rural Banks - Kisan Credit Card (KCC) Scheme] Directions, 2026",
+          "date": "19 Jun 2026",
+          "date_iso": "2026-06-19",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13524",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/404MDE8BE807BACAC4DA09EA3561C820C7A13.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13524"
+        },
+        {
+          "title": "[Financial Inclusion and Development] Reserve Bank of India [Small Finance Banks - Kisan Credit Card (KCC) Scheme] Directions, 2026",
+          "date": "19 Jun 2026",
+          "date_iso": "2026-06-19",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13523",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/403MDB87EB105BA0A40E18A89C5231E301639.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13523"
+        },
+        {
+          "title": "[Financial Inclusion and Development] Reserve Bank of India [Commercial Banks - Kisan Credit Card (KCC) Scheme] Directions, 2026",
+          "date": "19 Jun 2026",
+          "date_iso": "2026-06-19",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13522",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/402MD09973277BFE449CC8E21A0C9634191F2.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13522"
+        },
+        {
+          "title": "[Financial Market] Master Direction – Reserve Bank of India (Credit Derivatives) Directions, 2026",
+          "date": "25 Jun 2026",
+          "date_iso": "2026-06-25",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13552",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/407MD23637C77AC6742318BC8906ED8B98BEC.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13552"
+        },
+        {
+          "title": "[Payment and Settlement System] Reserve Bank of India (Trade Receivables Discounting System) Directions, 2026",
+          "date": "23 Jun 2026",
+          "date_iso": "2026-06-23",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13526",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/406MD184DBA53FAE148368AD6D3ACF0DB824E.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13526"
+        },
+        {
+          "title": "[Payment and Settlement System] Master Directions on Authorisation to operate a Payment System",
+          "date": "15 Jun 2026",
+          "date_iso": "2026-06-15",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13502",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/401MDDAB7489361B4431DB9A075997E990529.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13502"
+        }
+      ]
     },
     {
       "key": "RBI_MC",
       "label": "RBI_MC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -884,8 +948,8 @@
       "label": "RBI_MD_COMM",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -896,8 +960,8 @@
       "label": "RBI_MD_SFB",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -908,8 +972,8 @@
       "label": "RBI_MD_PAY",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -920,8 +984,8 @@
       "label": "RBI_MD_LAB",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -932,8 +996,8 @@
       "label": "RBI_MD_RRB",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -944,8 +1008,8 @@
       "label": "RBI_MD_UCB",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -956,8 +1020,8 @@
       "label": "RBI_MD_RCB",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -968,8 +1032,8 @@
       "label": "RBI_MD_AIFI",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -980,8 +1044,8 @@
       "label": "RBI_MD_NBFC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1366,22 +1430,22 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "H-REAT-915-2024 — Mapsko Builders Private Limited vs ANIL KUMAR",
-          "date": "09 Jun 2026",
-          "date_iso": "2026-06-09",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxMjYz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-915-2024_0"
-        },
-        {
           "title": "H-REAT-482-2022 — State of Haryana through Director Town and Country Planning Department Haryana Chandigarh vs HARYANA REAL ESTATE REGULATORY AUTHORITY",
           "date": "09 Jun 2026",
           "date_iso": "2026-06-09",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxMjYy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-482-2022_1"
+          "id": "hr_reat_H-REAT-482-2022_0"
+        },
+        {
+          "title": "H-REAT-915-2024 — Mapsko Builders Private Limited vs ANIL KUMAR",
+          "date": "09 Jun 2026",
+          "date_iso": "2026-06-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxMjYz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-915-2024_1"
         },
         {
           "title": "H-REAT-287-2025 — M/s JMK Holdings Private limited vs HARYANA REAL ESTATE REGULATORY AUTHORITY GURUGRAM",
@@ -1402,22 +1466,13 @@
           "id": "hr_reat_H-REAT-195-2025_3"
         },
         {
-          "title": "H-REAT-82-2024 — GLS Infracon Pvt Ltd vs MAHUA DAS",
-          "date": "03 Jun 2026",
-          "date_iso": "2026-06-03",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-82-2024_4"
-        },
-        {
           "title": "H-REAT-594-2024 — Alpha Corp Development Private Limited vs VIKAS SINGLA",
           "date": "03 Jun 2026",
           "date_iso": "2026-06-03",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-594-2024_5"
+          "id": "hr_reat_H-REAT-594-2024_4"
         },
         {
           "title": "H-REAT-293-2022 — Experion Developers Private Limited vs PARVEEN GAMBHIR",
@@ -1426,7 +1481,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-293-2022_6"
+          "id": "hr_reat_H-REAT-293-2022_5"
+        },
+        {
+          "title": "H-REAT-82-2024 — GLS Infracon Pvt Ltd vs MAHUA DAS",
+          "date": "03 Jun 2026",
+          "date_iso": "2026-06-03",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwNjUz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-82-2024_6"
         },
         {
           "title": "H-REAT-810-2022 — DSS Buildtech Private Limited vs RUCHI CHAUHAN AND VIKRAM SINGH MANDHOTRA",
@@ -1447,22 +1511,22 @@
           "id": "hr_reat_H-REAT-583-2024_8"
         },
         {
-          "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
-          "date": "01 Jun 2026",
-          "date_iso": "2026-06-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzEz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-130-2026_9"
-        },
-        {
           "title": "H-REAT-131-2026 — M/S DLF LTD vs GAUTAM RANA",
           "date": "01 Jun 2026",
           "date_iso": "2026-06-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzE0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-131-2026_10"
+          "id": "hr_reat_H-REAT-131-2026_9"
+        },
+        {
+          "title": "H-REAT-130-2026 — M/S DLF LTD vs GAUTAM RANA",
+          "date": "01 Jun 2026",
+          "date_iso": "2026-06-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAwMzEz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-130-2026_10"
         }
       ]
     },
@@ -2514,15 +2578,6 @@
       "docs_without_pdf": 12,
       "documents": [
         {
-          "title": "[FS.100324] STONEPEAK / CASTROL",
-          "date": "26 Jun 2026",
-          "date_iso": "2026-06-26",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100324",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_instru_FS_100324"
-        },
-        {
           "title": "[FS.100349] BMWE / BMVG / KFW / GIAT / KNDS",
           "date": "26 Jun 2026",
           "date_iso": "2026-06-26",
@@ -2530,6 +2585,15 @@
           "pdf_url": "",
           "has_pdf": false,
           "id": "eu_instru_FS_100349"
+        },
+        {
+          "title": "[FS.100324] STONEPEAK / CASTROL",
+          "date": "26 Jun 2026",
+          "date_iso": "2026-06-26",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100324",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100324"
         },
         {
           "title": "[FS.100321] SOFTBANK / DIGITALBRIDGE",
@@ -4714,8 +4778,8 @@
       "label": "RBI_FEMA_DIR",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -4726,8 +4790,8 @@
       "label": "RBI_FEMA_CIRC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -4738,12 +4802,112 @@
       "label": "RBI_FEMA_NOTIF",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 418: Unknown Code",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 11,
+      "docs_with_pdf": 11,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Review of Circulars issued under Foreign Exchange Management Act, 1999 (FEMA)",
+          "date": "24 Jun 2026",
+          "date_iso": "2026-06-24",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13551&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTI175F6B054B1ED504FC9884DC0F4460A7934.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13551"
+        },
+        {
+          "title": "Modification of Returns / Reporting requirements under FEMA, 1999",
+          "date": "24 Jun 2026",
+          "date_iso": "2026-06-24",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13550&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOT174861384D42127405E96F021116C60778E.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13550"
+        },
+        {
+          "title": "Open positions of Authorised Dealer Category-I banks",
+          "date": "23 Jun 2026",
+          "date_iso": "2026-06-23",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13529&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT153AC48B7D594674F71874D73C3DE12C4B9.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13529"
+        },
+        {
+          "title": "Reporting of FCNR (B) Deposits, ECB and OFCB mobilized under Reserve Bank’s Swap Facility",
+          "date": "19 Jun 2026",
+          "date_iso": "2026-06-19",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13515&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT14484C8480AA43A4A199EE98FD684E7BC84.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13515"
+        },
+        {
+          "title": "Foreign Exchange Management (Mode of Payment and Reporting of Non-Debt Instruments) (Amendment) Regulations, 2026",
+          "date": "15 Jun 2026",
+          "date_iso": "2026-06-15",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13484&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/FEMA395150620262C7B3A9A9E874AB699D15A2C820B3DBA.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13484"
+        },
+        {
+          "title": "Liberalisation of Foreign Portfolio Investment under Schedule III of the Foreign Exchange Management (Non-debt Instruments) Rules, 2019",
+          "date": "15 Jun 2026",
+          "date_iso": "2026-06-15",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13483&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT1144713DB525EC5480686F24FF00FC38BC0.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13483"
+        },
+        {
+          "title": "NOP-INR position of Authorised Dealer Category-I banks",
+          "date": "08 Jun 2026",
+          "date_iso": "2026-06-08",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13470&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT101006035F74F4F498BB485CB28A998F8ED.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13470"
+        },
+        {
+          "title": "Foreign Exchange Management (Export of Goods and Services) (First Amendment) Regulations, 2026",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13467&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/EGS050620261F93347664F94E4491D6F8762DFF8EF7.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13467"
+        },
+        {
+          "title": "Foreign Exchange Management (Cross Border Merger) (Amendment) Regulations, 2026",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13466&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/FEMA389050620262004133EF5EB477EA06F6AC597C1917B.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13466"
+        },
+        {
+          "title": "Submission of statement/return on Centralized Information Management System (CIMS)",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13465&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/12APDIR050620260924D775A2294FCD9E1CE9A27D6140F1.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13465"
+        },
+        {
+          "title": "Investments by Foreign Portfolio Investors in Government Securities – Amendments to the regulatory framework",
+          "date": "05 Jun 2026",
+          "date_iso": "2026-06-05",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13464&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT9752AB8622AD294C368E271246D72D678F.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13464"
+        }
+      ]
     }
   ],
   "partial_scrape": false
