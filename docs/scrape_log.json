@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-07-01 04:45:23 UTC",
-  "finished_at": "2026-07-01 04:54:58 UTC",
-  "duration_seconds": 574.6,
+  "started_at": "2026-07-01 10:04:39 UTC",
+  "finished_at": "2026-07-01 10:14:13 UTC",
+  "duration_seconds": 574.2,
   "date_range": {
     "from": "2026-07-01",
     "to": "2026-07-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 1,
-  "sources_error": 9,
-  "sources_empty": 83,
-  "total_documents": 2,
+  "sources_ok": 2,
+  "sources_error": 7,
+  "sources_empty": 84,
+  "total_documents": 4,
   "docs_with_pdf": 2,
-  "docs_without_pdf": 0,
+  "docs_without_pdf": 2,
   "source_details": [
     {
       "key": "RHP",
@@ -32,12 +32,31 @@
       "label": "DRHP",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 2,
+      "documents": [
+        {
+          "title": "Social Worth Technologies Limited – DRHP",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/jul-2026/social-worth-technologies-limited-drhp_102477.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "102477"
+        },
+        {
+          "title": "Maan Fleet Partners Limited - DRHP",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/jul-2026/maan-fleet-partners-limited-drhp_102474.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "102474"
+        }
+      ]
     },
     {
       "key": "RIGHTS_LOF",
@@ -728,8 +747,8 @@
       "label": "IBBI_RES",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "<urlopen error timed out>",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -740,8 +759,8 @@
       "label": "IBBI_ADM",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "<urlopen error timed out>",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
