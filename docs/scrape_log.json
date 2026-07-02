@@ -1,31 +1,41 @@
 {
-  "started_at": "2026-07-02 04:12:28 UTC",
-  "finished_at": "2026-07-02 04:21:55 UTC",
-  "duration_seconds": 567.1,
+  "started_at": "2026-07-02 09:26:58 UTC",
+  "finished_at": "2026-07-02 09:36:33 UTC",
+  "duration_seconds": 575.7,
   "date_range": {
     "from": "2026-07-01",
     "to": "2026-07-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 2,
+  "sources_ok": 3,
   "sources_error": 7,
-  "sources_empty": 84,
-  "total_documents": 7,
-  "docs_with_pdf": 5,
-  "docs_without_pdf": 2,
+  "sources_empty": 83,
+  "total_documents": 11,
+  "docs_with_pdf": 8,
+  "docs_without_pdf": 3,
   "source_details": [
     {
       "key": "RHP",
       "label": "RHP",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "KUSUMGAR LIMITED - RHP",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/jul-2026/kusumgar-limited-rhp_102510.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "102510"
+        }
+      ]
     },
     {
       "key": "DRHP",
@@ -821,8 +831,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 5,
-      "docs_with_pdf": 5,
+      "doc_count": 8,
+      "docs_with_pdf": 8,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -833,6 +843,24 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230082eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t230082eu1"
+        },
+        {
+          "title": "T 0967/23 — SYSTEM AND METHOD FOR LIMITING OVER-VOLTAGE IN POWER SUPPLY SYSTEM",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230967eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230967eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t230967eu1"
+        },
+        {
+          "title": "T 1033/24 — METHOD AND ELECTRONIC DEVICE FOR CONTROLLING A MANUFACTURING OF A GROUP OF FINAL METAL PRODUCT(S) FROM A GROUP OF INTERMEDIATE METAL PRODUCT(S), RELATED COMPUTER PROGRAM, MANUFACTURING METHOD AND INSTALLATION",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241033eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241033eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241033eu1"
         },
         {
           "title": "T 0910/24 — KAPSEL ZUR ZUBEREITUNG EINES GETRÄNKES, VERFAHREN ZUM HERSTELLEN DERSELBEN UND VERWENDUNG DIESER KAPSEL",
@@ -869,6 +897,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230603eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t230603eu1"
+        },
+        {
+          "title": "T 1388/24 — AUTOMATIC DISHWASHING DETERGENT COMPOSITION",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241388eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241388eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241388eu1"
         }
       ]
     },
