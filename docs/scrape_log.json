@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-07-02 14:22:24 UTC",
-  "finished_at": "2026-07-02 14:31:54 UTC",
-  "duration_seconds": 569.8,
+  "started_at": "2026-07-02 19:43:00 UTC",
+  "finished_at": "2026-07-02 19:52:13 UTC",
+  "duration_seconds": 552.8,
   "date_range": {
     "from": "2026-07-01",
     "to": "2026-07-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 9,
+  "sources_ok": 11,
   "sources_error": 7,
-  "sources_empty": 77,
-  "total_documents": 18,
-  "docs_with_pdf": 13,
-  "docs_without_pdf": 5,
+  "sources_empty": 75,
+  "total_documents": 20,
+  "docs_with_pdf": 14,
+  "docs_without_pdf": 6,
   "source_details": [
     {
       "key": "RHP",
@@ -214,12 +214,22 @@
       "label": "BSE_PLACEMENT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Manorama Industries Ltd – Placement Document",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/11931/QIP Open/PD_20260702230134.pdf",
+          "has_pdf": true,
+          "id": "place_manorama_industries_ltd_2026-07-02"
+        }
+      ]
     },
     {
       "key": "BSE_PRELIMINARY",
@@ -856,12 +866,22 @@
       "label": "EU_FS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "[FS.100343] ONE ROCK CAPITAL PARTNERS / EAT HAPPY / HANA GROUP",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100343",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100343"
+        }
+      ]
     },
     {
       "key": "EPO_BOA",
