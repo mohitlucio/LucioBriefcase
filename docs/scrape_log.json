@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-07-02 09:26:58 UTC",
-  "finished_at": "2026-07-02 09:36:33 UTC",
-  "duration_seconds": 575.7,
+  "started_at": "2026-07-02 14:22:24 UTC",
+  "finished_at": "2026-07-02 14:31:54 UTC",
+  "duration_seconds": 569.8,
   "date_range": {
     "from": "2026-07-01",
     "to": "2026-07-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 3,
+  "sources_ok": 9,
   "sources_error": 7,
-  "sources_empty": 83,
-  "total_documents": 11,
-  "docs_with_pdf": 8,
-  "docs_without_pdf": 3,
+  "sources_empty": 77,
+  "total_documents": 18,
+  "docs_with_pdf": 13,
+  "docs_without_pdf": 5,
   "source_details": [
     {
       "key": "RHP",
@@ -44,10 +44,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
+      "doc_count": 3,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 2,
+      "docs_without_pdf": 3,
       "documents": [
+        {
+          "title": "ESWARI GLOBAL METAL INDUSTRIES LIMITED",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/jul-2026/eswari-global-metal-industries-limited_102541.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "102541"
+        },
         {
           "title": "Social Worth Technologies Limited – DRHP",
           "date": "01 Jul 2026",
@@ -217,12 +226,22 @@
       "label": "BSE_PRELIMINARY",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Adani Enterprises Ltd – Draft Placement Document",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/5097/QIP Open/PPD_AEL_20260702175954.pdf",
+          "has_pdf": true,
+          "id": "prelim_adani_enterprises_ltd_2026-07-02"
+        }
+      ]
     },
     {
       "key": "CCI_FORM1",
@@ -301,12 +320,22 @@
       "label": "CCI_ANTI_S26_2",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[07/2026] Adv. Aditya Tripathi and another Vs. Godrej & Boyce Mfg. Co. Ltd. and others",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://www.cci.gov.in/antitrust/orders",
+          "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1782991439.pdf",
+          "has_pdf": true,
+          "id": "cci_anti_7_07_2026"
+        }
+      ]
     },
     {
       "key": "CCI_ANTI_S26_6",
@@ -517,12 +546,22 @@
       "label": "IRDAI_CIRC",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "वार्षिक शुल्क के भुगतान और पंजीकरण प्रमाणपत्र के निर्गमन के लिए परिवर्ती व्यवस्था का विस्तार / Extension of Transitional Arrangements for Payment of Annual Fee and Issuance of Certificate of Registration",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://irdai.gov.in/circulars",
+          "pdf_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%95+%E0%A4%B6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%95+%E0%A4%95%E0%A5%87+%E0%A4%AD%E0%A5%81%E0%A4%97%E0%A4%A4%E0%A4%BE%E0%A4%A8+%E0%A4%94%E0%A4%B0+%E0%A4%AA%E0%A4%82%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%AE%E0%A4%A8+%E0%A4%95%E0%A5%87+%E0%A4%B2%E0%A4%BF%E0%A4%8F+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A5%80+%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE+%E0%A4%95%E0%A4%BE+%E0%A4%B5%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%B0+_+Extension+of+Transitional+Arrangements+for+Payment+of+Annual+Fee+and+Issuance+of+Certificate+of+Registration.pdf/dcbdf531-a720-34ef-544a-31a52d5d7a7b?version=1.0&t=1782992160826&download=true",
+          "has_pdf": true,
+          "id": "irdai__________________________________________02-07-2026"
+        }
+      ]
     },
     {
       "key": "IRDAI_REGS",
@@ -1058,12 +1097,22 @@
       "label": "UK_EAT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Dr C M Day v Health Education England: [2026] EAT 97",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/dr-c-m-day-v-health-education-england-2026-eat-97",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a46321c8effd97622f53b11/Dr_C_M_Day_v_Health_Education_England__2026__EAT_97.pdf",
+          "has_pdf": true,
+          "id": "govuk_-decisions_dr-c-m-day-v-health-education-england-2026-eat-97"
+        }
+      ]
     },
     {
       "key": "UK_ET_SCOT",
@@ -1106,24 +1155,44 @@
       "label": "UK_TAX_CHANCERY",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "UT (TCC) FILE NUMBER: UT-2026-000028 Hamasala v The Commissioners for His Majesty’s Revenue and Customs",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/ut-tcc-file-number-ut-2026-000028-hamasala-v-the-commissioners-for-his-majestys-revenue-and-customs",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "govuk_ala-v-the-commissioners-for-his-majestys-revenue-and-customs"
+        }
+      ]
     },
     {
       "key": "UK_TAX_FTT",
       "label": "UK_TAX_FTT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Dhalomal Kishore (t/a Movil 2000) V The Commissioners for HMRC",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/987",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-49e3b85b-34d6-4055-ab2a-89faf40d4662/d-49e3b85b-34d6-4055-ab2a-89faf40d4662.pdf",
+          "has_pdf": true,
+          "id": "na_987"
+        }
+      ]
     },
     {
       "key": "SEBI_CIRCULARS",
