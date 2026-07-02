@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-07-01 20:05:07 UTC",
-  "finished_at": "2026-07-01 20:14:22 UTC",
-  "duration_seconds": 555.0,
+  "started_at": "2026-07-02 04:12:28 UTC",
+  "finished_at": "2026-07-02 04:21:55 UTC",
+  "duration_seconds": 567.1,
   "date_range": {
     "from": "2026-07-01",
     "to": "2026-07-31"
@@ -11,8 +11,8 @@
   "sources_ok": 2,
   "sources_error": 7,
   "sources_empty": 84,
-  "total_documents": 4,
-  "docs_with_pdf": 2,
+  "total_documents": 7,
+  "docs_with_pdf": 5,
   "docs_without_pdf": 2,
   "source_details": [
     {
@@ -821,10 +821,37 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 5,
+      "docs_with_pdf": 5,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "T 0082/23 — BLOOD PURIFICATION DEVICE",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230082eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230082eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t230082eu1"
+        },
+        {
+          "title": "T 0910/24 — KAPSEL ZUR ZUBEREITUNG EINES GETRÄNKES, VERFAHREN ZUM HERSTELLEN DERSELBEN UND VERWENDUNG DIESER KAPSEL",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240910du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240910du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240910du1"
+        },
+        {
+          "title": "T 0294/25 — SPANNVORRICHTUNG",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250294du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250294du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250294du1"
+        },
         {
           "title": "T 0666/25 — VIDEO OR IMAGE CODING FOR INDUCING WEIGHT INDEX INFORMATION FOR BI-PREDICTION",
           "date": "01 Jul 2026",
