@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-07-03 09:30:45 UTC",
-  "finished_at": "2026-07-03 09:40:42 UTC",
-  "duration_seconds": 597.3,
+  "started_at": "2026-07-03 14:26:20 UTC",
+  "finished_at": "2026-07-03 14:35:51 UTC",
+  "duration_seconds": 570.3,
   "date_range": {
     "from": "2026-07-01",
     "to": "2026-07-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 14,
+  "sources_ok": 15,
   "sources_error": 7,
-  "sources_empty": 72,
-  "total_documents": 38,
-  "docs_with_pdf": 30,
-  "docs_without_pdf": 8,
+  "sources_empty": 71,
+  "total_documents": 54,
+  "docs_with_pdf": 43,
+  "docs_without_pdf": 11,
   "source_details": [
     {
       "key": "RHP",
@@ -733,18 +733,54 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 8,
-      "docs_with_pdf": 8,
+      "doc_count": 14,
+      "docs_with_pdf": 14,
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "H-REAT-10-2026 — St. Patricks Realty Pvt. Ltd. vs ROHIT BAJAJ",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
+          "title": "H-REAT-644-2023 — YAHSEEKA MAHAJAN vs NEO DEVELOPERS PVT LTD",
+          "date": "03 Jul 2026",
+          "date_iso": "2026-07-03",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYw",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNjAy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-10-2026_0"
+          "id": "hr_reat_H-REAT-644-2023_0"
+        },
+        {
+          "title": "H-REAT-643-2023 — SHILPA MAHAJAN vs NEO DEVELOPERS PVT LTD",
+          "date": "03 Jul 2026",
+          "date_iso": "2026-07-03",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTk5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-643-2023_1"
+        },
+        {
+          "title": "H-REAT-152-2025 — HARPAL SINGH vs GLS INFRACON PVTLTD",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTgx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-152-2025_2"
+        },
+        {
+          "title": "H-REAT-36-2025 — JUBILIANT MALLS PRIVATE LIMITED vs AJAY KUMAR AND VIJAY KUMAR",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNjMz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-36-2025_3"
+        },
+        {
+          "title": "H-REAT-946-2024 — EMAAR INDIA LIMITED vs SMT POONAM GOEL",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTI3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-946-2024_4"
         },
         {
           "title": "H-REAT-15-2026 — St. Patricks Realty Pvt. Ltd. vs SUNIL KUMAR GUPTA",
@@ -753,16 +789,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-15-2026_1"
-        },
-        {
-          "title": "H-REAT-8-2026 — St. Patricks Realty Pvt. Ltd. vs NEHA PRASAD",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDI5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-8-2026_2"
+          "id": "hr_reat_H-REAT-15-2026_5"
         },
         {
           "title": "H-REAT-11-2026 — St. Patricks Realty Pvt. Ltd. vs KUMAR ANIMESH",
@@ -771,7 +798,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-11-2026_3"
+          "id": "hr_reat_H-REAT-11-2026_6"
         },
         {
           "title": "H-REAT-12-2026 — St. Patricks Realty Pvt. Ltd. vs ABHIGYAN SRIVASTAVA",
@@ -780,16 +807,25 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-12-2026_4"
+          "id": "hr_reat_H-REAT-12-2026_7"
         },
         {
-          "title": "H-REAT-16-2026 — St. Patricks Realty Pvt. Ltd. vs YAMINI MEHRA",
+          "title": "H-REAT-8-2026 — St. Patricks Realty Pvt. Ltd. vs NEHA PRASAD",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY2",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDI5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-16-2026_5"
+          "id": "hr_reat_H-REAT-8-2026_8"
+        },
+        {
+          "title": "H-REAT-10-2026 — St. Patricks Realty Pvt. Ltd. vs ROHIT BAJAJ",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-10-2026_9"
         },
         {
           "title": "H-REAT-13-2026 — St. Patricks Realty Pvt. Ltd. vs RITU ANAND",
@@ -798,7 +834,25 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-13-2026_6"
+          "id": "hr_reat_H-REAT-13-2026_10"
+        },
+        {
+          "title": "H-REAT-16-2026 — St. Patricks Realty Pvt. Ltd. vs YAMINI MEHRA",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-16-2026_11"
+        },
+        {
+          "title": "H-REAT-306-2023 — M THREE M INDIA PRIVATE LIMITED vs SHYAM SUNDER CHHABRA",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTU5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-306-2023_12"
         },
         {
           "title": "H-REAT-14-2026 — St. Patricks Realty Pvt. Ltd. vs AAKASH YADAV",
@@ -807,7 +861,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-14-2026_7"
+          "id": "hr_reat_H-REAT-14-2026_13"
         }
       ]
     },
@@ -902,12 +956,21 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "In the matter of PRODOT MEDIA PRIVATE LIMITED [CP (IB) 127 (ND) 2025]",
+          "title": "In the matter of Creativity at Best Technologies Limited [C.P. (IB) 647/ND/2025]",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of OJAAN REALTY PRIVATE LIMITED [CP (IB) 177 (ND) 2025]",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -916,7 +979,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of OJAAN REALTY PRIVATE LIMITED [CP (IB) 177 (ND) 2025]",
+          "title": "In the matter of PRODOT MEDIA PRIVATE LIMITED [CP (IB) 127 (ND) 2025]",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -933,10 +996,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
+      "doc_count": 3,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 2,
+      "docs_without_pdf": 3,
       "documents": [
+        {
+          "title": "[M.12392] NUVEEN / SCHRODERS",
+          "date": "03 Jul 2026",
+          "date_iso": "2026-07-03",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12392",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12392"
+        },
         {
           "title": "[M.11184.AP] VIVENDI / LAGARDERE (Procédure Art. 14(2))",
           "date": "02 Jul 2026",
@@ -988,10 +1060,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 2,
       "documents": [
+        {
+          "title": "[FS.100339] APOLLO FUNDS / NIPPON SHEET GLASS COMPANY",
+          "date": "03 Jul 2026",
+          "date_iso": "2026-07-03",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100339",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100339"
+        },
         {
           "title": "[FS.100343] ONE ROCK CAPITAL PARTNERS / EAT HAPPY / HANA GROUP",
           "date": "02 Jul 2026",
@@ -1364,10 +1445,64 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 7,
+      "docs_with_pdf": 7,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Christopher Kippax v The Commissioners for HMRC",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/994",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-0fcbfaa2-52a1-448a-92b9-f1e20efcf2c3/d-0fcbfaa2-52a1-448a-92b9-f1e20efcf2c3.pdf",
+          "has_pdf": true,
+          "id": "na_994"
+        },
+        {
+          "title": "Scott Waterhouse v The Commissioners for HMRC",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/996",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-6cf58d26-fa03-494e-80c7-bdb4899ce9b1/d-6cf58d26-fa03-494e-80c7-bdb4899ce9b1.pdf",
+          "has_pdf": true,
+          "id": "na_996"
+        },
+        {
+          "title": "Olukemi Dada v The Commissioners for HMRC",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/993",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-c83b7f4a-4906-437e-9c9d-355d703e5e11/d-c83b7f4a-4906-437e-9c9d-355d703e5e11.pdf",
+          "has_pdf": true,
+          "id": "na_993"
+        },
+        {
+          "title": "Plat UK Limited v The Commissioners for HMRC",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/999",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-6869eab7-2778-4890-906b-d329c348504f/d-6869eab7-2778-4890-906b-d329c348504f.pdf",
+          "has_pdf": true,
+          "id": "na_999"
+        },
+        {
+          "title": "Matthew Lambourne & Anor v The Commissioners for HMRC",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/997",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-02d1a773-48d2-4f08-8913-74bee56b4465/d-02d1a773-48d2-4f08-8913-74bee56b4465.pdf",
+          "has_pdf": true,
+          "id": "na_997"
+        },
+        {
+          "title": "William J Cook v The Commissioners for HMRC",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/998",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-2a3252ac-43af-43fc-84dd-56407329e070/d-2a3252ac-43af-43fc-84dd-56407329e070.pdf",
+          "has_pdf": true,
+          "id": "na_998"
+        },
         {
           "title": "Dhalomal Kishore (t/a Movil 2000) V The Commissioners for HMRC",
           "date": "01 Jul 2026",
@@ -1384,12 +1519,22 @@
       "label": "SEBI_CIRCULARS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "Handling of Client’s Unpaid Securities by Trading Members",
+          "date": "03 Jul 2026",
+          "date_iso": "2026-07-03",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/jul-2026/handling-of-client-s-unpaid-securities-by-trading-members_102584.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "102584"
+        }
+      ]
     },
     {
       "key": "SEBI_FINAL_OFFER",
