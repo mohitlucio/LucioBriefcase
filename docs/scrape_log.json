@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-07-04 08:47:21 UTC",
-  "finished_at": "2026-07-04 08:56:40 UTC",
-  "duration_seconds": 558.9,
+  "started_at": "2026-07-04 13:51:19 UTC",
+  "finished_at": "2026-07-04 14:01:15 UTC",
+  "duration_seconds": 595.2,
   "date_range": {
     "from": "2026-07-01",
     "to": "2026-07-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 15,
-  "sources_error": 7,
+  "sources_ok": 14,
+  "sources_error": 8,
   "sources_empty": 71,
-  "total_documents": 55,
-  "docs_with_pdf": 44,
+  "total_documents": 42,
+  "docs_with_pdf": 31,
   "docs_without_pdf": 11,
   "source_details": [
     {
@@ -738,22 +738,22 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "H-REAT-643-2023 — SHILPA MAHAJAN vs NEO DEVELOPERS PVT LTD",
-          "date": "03 Jul 2026",
-          "date_iso": "2026-07-03",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTk5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-643-2023_0"
-        },
-        {
           "title": "H-REAT-644-2023 — YAHSEEKA MAHAJAN vs NEO DEVELOPERS PVT LTD",
           "date": "03 Jul 2026",
           "date_iso": "2026-07-03",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNjAy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-644-2023_1"
+          "id": "hr_reat_H-REAT-644-2023_0"
+        },
+        {
+          "title": "H-REAT-643-2023 — SHILPA MAHAJAN vs NEO DEVELOPERS PVT LTD",
+          "date": "03 Jul 2026",
+          "date_iso": "2026-07-03",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTk5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-643-2023_1"
         },
         {
           "title": "H-REAT-152-2025 — HARPAL SINGH vs GLS INFRACON PVTLTD",
@@ -783,13 +783,13 @@
           "id": "hr_reat_H-REAT-946-2024_4"
         },
         {
-          "title": "H-REAT-306-2023 — M THREE M INDIA PRIVATE LIMITED vs SHYAM SUNDER CHHABRA",
+          "title": "H-REAT-10-2026 — St. Patricks Realty Pvt. Ltd. vs ROHIT BAJAJ",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTU5",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-306-2023_5"
+          "id": "hr_reat_H-REAT-10-2026_5"
         },
         {
           "title": "H-REAT-15-2026 — St. Patricks Realty Pvt. Ltd. vs SUNIL KUMAR GUPTA",
@@ -801,22 +801,13 @@
           "id": "hr_reat_H-REAT-15-2026_6"
         },
         {
-          "title": "H-REAT-16-2026 — St. Patricks Realty Pvt. Ltd. vs YAMINI MEHRA",
+          "title": "H-REAT-306-2023 — M THREE M INDIA PRIVATE LIMITED vs SHYAM SUNDER CHHABRA",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY2",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTU5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-16-2026_7"
-        },
-        {
-          "title": "H-REAT-12-2026 — St. Patricks Realty Pvt. Ltd. vs ABHIGYAN SRIVASTAVA",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-12-2026_8"
+          "id": "hr_reat_H-REAT-306-2023_7"
         },
         {
           "title": "H-REAT-13-2026 — St. Patricks Realty Pvt. Ltd. vs RITU ANAND",
@@ -825,25 +816,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-13-2026_9"
-        },
-        {
-          "title": "H-REAT-10-2026 — St. Patricks Realty Pvt. Ltd. vs ROHIT BAJAJ",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYw",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-10-2026_10"
-        },
-        {
-          "title": "H-REAT-8-2026 — St. Patricks Realty Pvt. Ltd. vs NEHA PRASAD",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDI5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-8-2026_11"
+          "id": "hr_reat_H-REAT-13-2026_8"
         },
         {
           "title": "H-REAT-14-2026 — St. Patricks Realty Pvt. Ltd. vs AAKASH YADAV",
@@ -852,7 +825,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-14-2026_12"
+          "id": "hr_reat_H-REAT-14-2026_9"
+        },
+        {
+          "title": "H-REAT-16-2026 — St. Patricks Realty Pvt. Ltd. vs YAMINI MEHRA",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-16-2026_10"
         },
         {
           "title": "H-REAT-11-2026 — St. Patricks Realty Pvt. Ltd. vs KUMAR ANIMESH",
@@ -861,7 +843,25 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-11-2026_13"
+          "id": "hr_reat_H-REAT-11-2026_11"
+        },
+        {
+          "title": "H-REAT-8-2026 — St. Patricks Realty Pvt. Ltd. vs NEHA PRASAD",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDI5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-8-2026_12"
+        },
+        {
+          "title": "H-REAT-12-2026 — St. Patricks Realty Pvt. Ltd. vs ABHIGYAN SRIVASTAVA",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-12-2026_13"
         }
       ]
     },
@@ -1089,130 +1089,12 @@
       "label": "EPO_BOA",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 13,
-      "docs_with_pdf": 13,
+      "status": "error",
+      "error": "The read operation timed out",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "T 0927/25 — Method and device for setting 2x EHT-STF sequence for wideband in wireless LAN system",
-          "date": "03 Jul 2026",
-          "date_iso": "2026-07-03",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250927eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250927eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t250927eu1"
-        },
-        {
-          "title": "T 0555/25 — SENSOR SYSTEM FOR STEERING WHEEL FOR VEHICLE",
-          "date": "03 Jul 2026",
-          "date_iso": "2026-07-03",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250555eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250555eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t250555eu1"
-        },
-        {
-          "title": "T 1087/24 — DIMESYLATE SALTS OF 4-(3-AMINO-1-(ISOQUINOLIN-6-YLAMINO)-1-OXOPROPAN-2-YL)BENZYL, THEIR COMBINATIONS WITH PROSTAGLANDINS AND THE USE THEREOF IN THE TREATMENT OF OCULAR DISORDERS",
-          "date": "03 Jul 2026",
-          "date_iso": "2026-07-03",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241087eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241087eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241087eu1"
-        },
-        {
-          "title": "T 0529/24 — CONTROL DEVICE AND PUMP APPARATUS",
-          "date": "03 Jul 2026",
-          "date_iso": "2026-07-03",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240529eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240529eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240529eu1"
-        },
-        {
-          "title": "T 0082/23 — BLOOD PURIFICATION DEVICE",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230082eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230082eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t230082eu1"
-        },
-        {
-          "title": "T 0967/23 — SYSTEM AND METHOD FOR LIMITING OVER-VOLTAGE IN POWER SUPPLY SYSTEM",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230967eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230967eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t230967eu1"
-        },
-        {
-          "title": "T 1033/24 — METHOD AND ELECTRONIC DEVICE FOR CONTROLLING A MANUFACTURING OF A GROUP OF FINAL METAL PRODUCT(S) FROM A GROUP OF INTERMEDIATE METAL PRODUCT(S), RELATED COMPUTER PROGRAM, MANUFACTURING METHOD AND INSTALLATION",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241033eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241033eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241033eu1"
-        },
-        {
-          "title": "T 0910/24 — KAPSEL ZUR ZUBEREITUNG EINES GETRÄNKES, VERFAHREN ZUM HERSTELLEN DERSELBEN UND VERWENDUNG DIESER KAPSEL",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240910du1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240910du1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240910du1"
-        },
-        {
-          "title": "T 0294/25 — SPANNVORRICHTUNG",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250294du1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250294du1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t250294du1"
-        },
-        {
-          "title": "T 0666/25 — VIDEO OR IMAGE CODING FOR INDUCING WEIGHT INDEX INFORMATION FOR BI-PREDICTION",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250666eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250666eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t250666eu1"
-        },
-        {
-          "title": "T 1185/24 — Improved brewing process",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241185eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241185eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241185eu1"
-        },
-        {
-          "title": "T 0603/23 — LIGHT-EMITTING MODULE",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230603eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230603eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t230603eu1"
-        },
-        {
-          "title": "T 1388/24 — AUTOMATIC DISHWASHING DETERGENT COMPOSITION",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241388eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241388eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241388eu1"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "EDPB_BINDING",
