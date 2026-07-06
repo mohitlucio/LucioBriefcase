@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-07-06 10:54:09 UTC",
-  "finished_at": "2026-07-06 11:03:49 UTC",
-  "duration_seconds": 580.0,
+  "started_at": "2026-07-06 15:50:45 UTC",
+  "finished_at": "2026-07-06 16:00:18 UTC",
+  "duration_seconds": 572.9,
   "date_range": {
     "from": "2026-07-01",
     "to": "2026-07-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 16,
+  "sources_ok": 19,
   "sources_error": 7,
-  "sources_empty": 70,
-  "total_documents": 63,
-  "docs_with_pdf": 48,
-  "docs_without_pdf": 15,
+  "sources_empty": 67,
+  "total_documents": 71,
+  "docs_with_pdf": 54,
+  "docs_without_pdf": 17,
   "source_details": [
     {
       "key": "RHP",
@@ -265,10 +265,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Blue Jet Healthcare Ltd – Draft Placement Document",
+          "date": "06 Jul 2026",
+          "date_iso": "2026-07-06",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/12831/QIP Open/BluejetPPD_20260706200419.pdf",
+          "has_pdf": true,
+          "id": "prelim_blue_jet_healthcare_ltd_2026-07-06"
+        },
         {
           "title": "Adani Enterprises Ltd – Draft Placement Document",
           "date": "02 Jul 2026",
@@ -439,12 +448,22 @@
       "label": "CCI_GREEN",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[C-2026/07/1438] Dhilmar Ltd. (through its indirect subsidiaries Dhilmar QLD Pty Ltd and Dhilmar QLD Assets Pty Ltd) — Deemed Approved (Section 6(5))",
+          "date": "06 Jul 2026",
+          "date_iso": "2026-07-06",
+          "page_url": "https://www.cci.gov.in/combination/green-channel",
+          "pdf_url": "https://www.cci.gov.in/images/summaryorders/en/summary1783338678.pdf",
+          "has_pdf": true,
+          "id": "cci_green_C-2026_07_1438"
+        }
+      ]
     },
     {
       "key": "RBI_MD",
@@ -617,24 +636,44 @@
       "label": "INX_CIRC",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[20260706-1] Issue of U.S.$300,000,000 Floating Rate Notes due 2029 under the U.S.$10,000,000,000 Medium Term Note Programme by State Bank of India, acting through its London Branch",
+          "date": "06 Jul 2026",
+          "date_iso": "2026-07-06",
+          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
+          "pdf_url": "https://www.indiainx.com/circulars/20260706-1/20260706-1.pdf",
+          "has_pdf": true,
+          "id": "inx_circ_20260706-1"
+        }
+      ]
     },
     {
       "key": "INX_ISSUER",
       "label": "INX_ISSUER",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "State Bank of India — U.S.$300,000,000 Floating Rate Notes due 2029 under the U.S.$10,000,000,000 MTN Programme",
+          "date": "06 Jul 2026",
+          "date_iso": "2026-07-06",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3433781062.pdf",
+          "has_pdf": true,
+          "id": "inx_iss_u_s__300_000_000_floating_rate_2026-07-06"
+        }
+      ]
     },
     {
       "key": "TG_RERA_ADJ",
@@ -774,13 +813,13 @@
           "id": "hr_reat_H-REAT-644-2023_1"
         },
         {
-          "title": "H-REAT-946-2024 — EMAAR INDIA LIMITED vs SMT POONAM GOEL",
+          "title": "H-REAT-36-2025 — JUBILIANT MALLS PRIVATE LIMITED vs AJAY KUMAR AND VIJAY KUMAR",
           "date": "02 Jul 2026",
           "date_iso": "2026-07-02",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTI3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNjMz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-946-2024_2"
+          "id": "hr_reat_H-REAT-36-2025_2"
         },
         {
           "title": "H-REAT-152-2025 — HARPAL SINGH vs GLS INFRACON PVTLTD",
@@ -792,13 +831,22 @@
           "id": "hr_reat_H-REAT-152-2025_3"
         },
         {
-          "title": "H-REAT-36-2025 — JUBILIANT MALLS PRIVATE LIMITED vs AJAY KUMAR AND VIJAY KUMAR",
+          "title": "H-REAT-946-2024 — EMAAR INDIA LIMITED vs SMT POONAM GOEL",
           "date": "02 Jul 2026",
           "date_iso": "2026-07-02",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNjMz",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTI3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-36-2025_4"
+          "id": "hr_reat_H-REAT-946-2024_4"
+        },
+        {
+          "title": "H-REAT-11-2026 — St. Patricks Realty Pvt. Ltd. vs KUMAR ANIMESH",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-11-2026_5"
         },
         {
           "title": "H-REAT-14-2026 — St. Patricks Realty Pvt. Ltd. vs AAKASH YADAV",
@@ -807,16 +855,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-14-2026_5"
-        },
-        {
-          "title": "H-REAT-10-2026 — St. Patricks Realty Pvt. Ltd. vs ROHIT BAJAJ",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYw",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-10-2026_6"
+          "id": "hr_reat_H-REAT-14-2026_6"
         },
         {
           "title": "H-REAT-16-2026 — St. Patricks Realty Pvt. Ltd. vs YAMINI MEHRA",
@@ -828,13 +867,22 @@
           "id": "hr_reat_H-REAT-16-2026_7"
         },
         {
-          "title": "H-REAT-8-2026 — St. Patricks Realty Pvt. Ltd. vs NEHA PRASAD",
+          "title": "H-REAT-13-2026 — St. Patricks Realty Pvt. Ltd. vs RITU ANAND",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDI5",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-8-2026_8"
+          "id": "hr_reat_H-REAT-13-2026_8"
+        },
+        {
+          "title": "H-REAT-10-2026 — St. Patricks Realty Pvt. Ltd. vs ROHIT BAJAJ",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-10-2026_9"
         },
         {
           "title": "H-REAT-306-2023 — M THREE M INDIA PRIVATE LIMITED vs SHYAM SUNDER CHHABRA",
@@ -843,16 +891,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTU5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-306-2023_9"
-        },
-        {
-          "title": "H-REAT-12-2026 — St. Patricks Realty Pvt. Ltd. vs ABHIGYAN SRIVASTAVA",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-12-2026_10"
+          "id": "hr_reat_H-REAT-306-2023_10"
         },
         {
           "title": "H-REAT-15-2026 — St. Patricks Realty Pvt. Ltd. vs SUNIL KUMAR GUPTA",
@@ -864,22 +903,22 @@
           "id": "hr_reat_H-REAT-15-2026_11"
         },
         {
-          "title": "H-REAT-13-2026 — St. Patricks Realty Pvt. Ltd. vs RITU ANAND",
+          "title": "H-REAT-12-2026 — St. Patricks Realty Pvt. Ltd. vs ABHIGYAN SRIVASTAVA",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYz",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-13-2026_12"
+          "id": "hr_reat_H-REAT-12-2026_12"
         },
         {
-          "title": "H-REAT-11-2026 — St. Patricks Realty Pvt. Ltd. vs KUMAR ANIMESH",
+          "title": "H-REAT-8-2026 — St. Patricks Realty Pvt. Ltd. vs NEHA PRASAD",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYx",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDI5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-11-2026_13"
+          "id": "hr_reat_H-REAT-8-2026_13"
         }
       ]
     },
@@ -1041,10 +1080,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 4,
+      "doc_count": 6,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 4,
+      "docs_without_pdf": 6,
       "documents": [
+        {
+          "title": "[M.12434] ZURICH / BEAZLEY",
+          "date": "06 Jul 2026",
+          "date_iso": "2026-07-06",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12434",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12434"
+        },
+        {
+          "title": "[M.12492] OHC / CARLYLE / WGH",
+          "date": "06 Jul 2026",
+          "date_iso": "2026-07-06",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12492",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12492"
+        },
         {
           "title": "[M.12392] NUVEEN / SCHRODERS",
           "date": "03 Jul 2026",
@@ -1240,15 +1297,6 @@
           "id": "epo_boa_t250294du1"
         },
         {
-          "title": "T 0666/25 — VIDEO OR IMAGE CODING FOR INDUCING WEIGHT INDEX INFORMATION FOR BI-PREDICTION",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250666eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250666eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t250666eu1"
-        },
-        {
           "title": "T 1185/24 — Improved brewing process",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
@@ -1256,6 +1304,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241185eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t241185eu1"
+        },
+        {
+          "title": "T 0666/25 — VIDEO OR IMAGE CODING FOR INDUCING WEIGHT INDEX INFORMATION FOR BI-PREDICTION",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250666eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250666eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250666eu1"
         },
         {
           "title": "T 0603/23 — LIGHT-EMITTING MODULE",
@@ -1486,10 +1543,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[2026] UKUT 00249 (TCC)  Cenkci v Commissioners of His Majesty's Revenue and Customs",
+          "date": "06 Jul 2026",
+          "date_iso": "2026-07-06",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/2026-ukut-00249-tcc-cenkci-v-commissioners-of-his-majestys-revenue-and-customs",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a4bb848732d8e7ce5f53d98/uta_pta_decision_cenkci_oral_hearing_refusal.pdf",
+          "has_pdf": true,
+          "id": "govuk_c-cenkci-v-commissioners-of-his-majestys-revenue-and-customs"
+        },
         {
           "title": "UT (TCC) FILE NUMBER: UT-2026-000028 Hamasala v The Commissioners for His Majesty’s Revenue and Customs",
           "date": "02 Jul 2026",
@@ -1498,6 +1564,15 @@
           "pdf_url": "https://assets.publishing.service.gov.uk/media/6a467f1f1c8bd7ce25a5ea11/Hamasala_-_PTA_decision_following_oral_renewal.pdf",
           "has_pdf": true,
           "id": "govuk_ala-v-the-commissioners-for-his-majestys-revenue-and-customs"
+        },
+        {
+          "title": "Ist Alternative Medical Staffing Ltd v HMRC NCN [2026] UKUT 00248 (TCC)",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/ist-alternative-medical-staffing-ltd-v-hmrc-ncn-2026-ukut-00248-tcc",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a4ba4b0045e1108aaa5ebed/1st_Alternative_Medical_Staffing_v_HMRC_PTA_Oral_Renewal__1_.pdf",
+          "has_pdf": true,
+          "id": "govuk_ernative-medical-staffing-ltd-v-hmrc-ncn-2026-ukut-00248-tcc"
         }
       ]
     },
