@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-07-06 15:50:45 UTC",
-  "finished_at": "2026-07-06 16:00:18 UTC",
-  "duration_seconds": 572.9,
+  "started_at": "2026-07-06 20:08:11 UTC",
+  "finished_at": "2026-07-06 20:17:24 UTC",
+  "duration_seconds": 553.0,
   "date_range": {
     "from": "2026-07-01",
     "to": "2026-07-31"
@@ -11,9 +11,9 @@
   "sources_ok": 19,
   "sources_error": 7,
   "sources_empty": 67,
-  "total_documents": 71,
-  "docs_with_pdf": 54,
-  "docs_without_pdf": 17,
+  "total_documents": 73,
+  "docs_with_pdf": 55,
+  "docs_without_pdf": 18,
   "source_details": [
     {
       "key": "RHP",
@@ -813,13 +813,22 @@
           "id": "hr_reat_H-REAT-644-2023_1"
         },
         {
+          "title": "H-REAT-946-2024 — EMAAR INDIA LIMITED vs SMT POONAM GOEL",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTI3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-946-2024_2"
+        },
+        {
           "title": "H-REAT-36-2025 — JUBILIANT MALLS PRIVATE LIMITED vs AJAY KUMAR AND VIJAY KUMAR",
           "date": "02 Jul 2026",
           "date_iso": "2026-07-02",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNjMz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-36-2025_2"
+          "id": "hr_reat_H-REAT-36-2025_3"
         },
         {
           "title": "H-REAT-152-2025 — HARPAL SINGH vs GLS INFRACON PVTLTD",
@@ -828,52 +837,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTgx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-152-2025_3"
-        },
-        {
-          "title": "H-REAT-946-2024 — EMAAR INDIA LIMITED vs SMT POONAM GOEL",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTI3",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-946-2024_4"
-        },
-        {
-          "title": "H-REAT-11-2026 — St. Patricks Realty Pvt. Ltd. vs KUMAR ANIMESH",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-11-2026_5"
-        },
-        {
-          "title": "H-REAT-14-2026 — St. Patricks Realty Pvt. Ltd. vs AAKASH YADAV",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-14-2026_6"
-        },
-        {
-          "title": "H-REAT-16-2026 — St. Patricks Realty Pvt. Ltd. vs YAMINI MEHRA",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY2",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-16-2026_7"
-        },
-        {
-          "title": "H-REAT-13-2026 — St. Patricks Realty Pvt. Ltd. vs RITU ANAND",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-13-2026_8"
+          "id": "hr_reat_H-REAT-152-2025_4"
         },
         {
           "title": "H-REAT-10-2026 — St. Patricks Realty Pvt. Ltd. vs ROHIT BAJAJ",
@@ -882,7 +846,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-10-2026_9"
+          "id": "hr_reat_H-REAT-10-2026_5"
         },
         {
           "title": "H-REAT-306-2023 — M THREE M INDIA PRIVATE LIMITED vs SHYAM SUNDER CHHABRA",
@@ -891,16 +855,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTU5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-306-2023_10"
+          "id": "hr_reat_H-REAT-306-2023_6"
         },
         {
-          "title": "H-REAT-15-2026 — St. Patricks Realty Pvt. Ltd. vs SUNIL KUMAR GUPTA",
+          "title": "H-REAT-11-2026 — St. Patricks Realty Pvt. Ltd. vs KUMAR ANIMESH",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY1",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-15-2026_11"
+          "id": "hr_reat_H-REAT-11-2026_7"
         },
         {
           "title": "H-REAT-12-2026 — St. Patricks Realty Pvt. Ltd. vs ABHIGYAN SRIVASTAVA",
@@ -909,7 +873,43 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-12-2026_12"
+          "id": "hr_reat_H-REAT-12-2026_8"
+        },
+        {
+          "title": "H-REAT-16-2026 — St. Patricks Realty Pvt. Ltd. vs YAMINI MEHRA",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-16-2026_9"
+        },
+        {
+          "title": "H-REAT-13-2026 — St. Patricks Realty Pvt. Ltd. vs RITU ANAND",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-13-2026_10"
+        },
+        {
+          "title": "H-REAT-14-2026 — St. Patricks Realty Pvt. Ltd. vs AAKASH YADAV",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-14-2026_11"
+        },
+        {
+          "title": "H-REAT-15-2026 — St. Patricks Realty Pvt. Ltd. vs SUNIL KUMAR GUPTA",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-15-2026_12"
         },
         {
           "title": "H-REAT-8-2026 — St. Patricks Realty Pvt. Ltd. vs NEHA PRASAD",
@@ -1080,10 +1080,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 6,
-      "docs_with_pdf": 0,
-      "docs_without_pdf": 6,
+      "doc_count": 8,
+      "docs_with_pdf": 1,
+      "docs_without_pdf": 7,
       "documents": [
+        {
+          "title": "[M.12456] PLD / NBIM / TARGET ASSET BÖNEN",
+          "date": "06 Jul 2026",
+          "date_iso": "2026-07-06",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12456",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12456"
+        },
         {
           "title": "[M.12434] ZURICH / BEAZLEY",
           "date": "06 Jul 2026",
@@ -1092,6 +1101,15 @@
           "pdf_url": "",
           "has_pdf": false,
           "id": "eu_m_M_12434"
+        },
+        {
+          "title": "[M.12493] TMUS / OHC / GREENLIGHT / GONETSPEED",
+          "date": "06 Jul 2026",
+          "date_iso": "2026-07-06",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12493",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12493"
         },
         {
           "title": "[M.12492] OHC / CARLYLE / WGH",
@@ -1134,8 +1152,8 @@
           "date": "02 Jul 2026",
           "date_iso": "2026-07-02",
           "page_url": "https://competition-cases.ec.europa.eu/cases/M.12308",
-          "pdf_url": "",
-          "has_pdf": false,
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12308_183.pdf",
+          "has_pdf": true,
           "id": "eu_m_M_12308"
         }
       ]
