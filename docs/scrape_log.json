@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-07-07 14:54:40 UTC",
-  "finished_at": "2026-07-07 15:04:13 UTC",
-  "duration_seconds": 573.3,
+  "started_at": "2026-07-07 20:06:42 UTC",
+  "finished_at": "2026-07-07 20:15:56 UTC",
+  "duration_seconds": 554.1,
   "date_range": {
     "from": "2026-07-01",
     "to": "2026-07-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 20,
-  "sources_error": 7,
-  "sources_empty": 66,
-  "total_documents": 96,
-  "docs_with_pdf": 76,
-  "docs_without_pdf": 20,
+  "sources_ok": 19,
+  "sources_error": 12,
+  "sources_empty": 62,
+  "total_documents": 75,
+  "docs_with_pdf": 59,
+  "docs_without_pdf": 16,
   "source_details": [
     {
       "key": "RHP",
@@ -261,10 +261,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Adani Enterprises Ltd – Placement Document",
+          "date": "07 Jul 2026",
+          "date_iso": "2026-07-07",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/5097/QIP Open/AEL_PD_20260707225135.pdf",
+          "has_pdf": true,
+          "id": "place_adani_enterprises_ltd_2026-07-07"
+        },
         {
           "title": "Manorama Industries Ltd – Placement Document",
           "date": "02 Jul 2026",
@@ -283,10 +292,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Ideaforge Technology Ltd – Draft Placement Document",
+          "date": "07 Jul 2026",
+          "date_iso": "2026-07-07",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/12959/QIP Open/PPD_20260707204844.pdf",
+          "has_pdf": true,
+          "id": "prelim_ideaforge_technology_ltd_2026-07-07"
+        },
         {
           "title": "Blue Jet Healthcare Ltd – Draft Placement Document",
           "date": "06 Jul 2026",
@@ -707,8 +725,8 @@
       "label": "TG_RERA_ADJ",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -719,8 +737,8 @@
       "label": "TG_RERA_AUTH",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -731,8 +749,8 @@
       "label": "TG_RERA_SUO",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -743,8 +761,8 @@
       "label": "TG_RERA_CIRC",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -815,148 +833,12 @@
       "label": "HR_REAT",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 15,
-      "docs_with_pdf": 15,
+      "status": "error",
+      "error": "<urlopen error timed out>",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "H-REAT-398-2023 — Emaar India Ltd vs MADHO SINGH RAWAT",
-          "date": "06 Jul 2026",
-          "date_iso": "2026-07-06",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyMDAz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-398-2023_0"
-        },
-        {
-          "title": "H-REAT-643-2023 — SHILPA MAHAJAN vs NEO DEVELOPERS PVT LTD",
-          "date": "03 Jul 2026",
-          "date_iso": "2026-07-03",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTk5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-643-2023_1"
-        },
-        {
-          "title": "H-REAT-644-2023 — YAHSEEKA MAHAJAN vs NEO DEVELOPERS PVT LTD",
-          "date": "03 Jul 2026",
-          "date_iso": "2026-07-03",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNjAy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-644-2023_2"
-        },
-        {
-          "title": "H-REAT-36-2025 — JUBILIANT MALLS PRIVATE LIMITED vs AJAY KUMAR AND VIJAY KUMAR",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNjMz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-36-2025_3"
-        },
-        {
-          "title": "H-REAT-152-2025 — HARPAL SINGH vs GLS INFRACON PVTLTD",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTgx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-152-2025_4"
-        },
-        {
-          "title": "H-REAT-946-2024 — EMAAR INDIA LIMITED vs SMT POONAM GOEL",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTI3",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-946-2024_5"
-        },
-        {
-          "title": "H-REAT-13-2026 — St. Patricks Realty Pvt. Ltd. vs RITU ANAND",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-13-2026_6"
-        },
-        {
-          "title": "H-REAT-15-2026 — St. Patricks Realty Pvt. Ltd. vs SUNIL KUMAR GUPTA",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY1",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-15-2026_7"
-        },
-        {
-          "title": "H-REAT-11-2026 — St. Patricks Realty Pvt. Ltd. vs KUMAR ANIMESH",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-11-2026_8"
-        },
-        {
-          "title": "H-REAT-16-2026 — St. Patricks Realty Pvt. Ltd. vs YAMINI MEHRA",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY2",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-16-2026_9"
-        },
-        {
-          "title": "H-REAT-10-2026 — St. Patricks Realty Pvt. Ltd. vs ROHIT BAJAJ",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYw",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-10-2026_10"
-        },
-        {
-          "title": "H-REAT-12-2026 — St. Patricks Realty Pvt. Ltd. vs ABHIGYAN SRIVASTAVA",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-12-2026_11"
-        },
-        {
-          "title": "H-REAT-14-2026 — St. Patricks Realty Pvt. Ltd. vs AAKASH YADAV",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-14-2026_12"
-        },
-        {
-          "title": "H-REAT-306-2023 — M THREE M INDIA PRIVATE LIMITED vs SHYAM SUNDER CHHABRA",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTU5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-306-2023_13"
-        },
-        {
-          "title": "H-REAT-8-2026 — St. Patricks Realty Pvt. Ltd. vs NEHA PRASAD",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDI5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-8-2026_14"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "DL_REAT",
@@ -1132,94 +1014,12 @@
       "label": "EU_MERGER",
       "category": "",
       "website_url": "",
-      "status": "ok",
+      "status": "empty",
       "error": null,
-      "doc_count": 9,
-      "docs_with_pdf": 5,
-      "docs_without_pdf": 4,
-      "documents": [
-        {
-          "title": "[M.12456] PLD / NBIM / TARGET ASSET BÖNEN",
-          "date": "06 Jul 2026",
-          "date_iso": "2026-07-06",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12456",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12456_67.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12456"
-        },
-        {
-          "title": "[M.12303] PARKER-HANNIFIN / FGC",
-          "date": "06 Jul 2026",
-          "date_iso": "2026-07-06",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12303",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12303"
-        },
-        {
-          "title": "[M.12434] ZURICH / BEAZLEY",
-          "date": "06 Jul 2026",
-          "date_iso": "2026-07-06",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12434",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12434"
-        },
-        {
-          "title": "[M.12493] TMUS / OHC / GREENLIGHT / GONETSPEED",
-          "date": "06 Jul 2026",
-          "date_iso": "2026-07-06",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12493",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12493_60.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12493"
-        },
-        {
-          "title": "[M.12492] OHC / CARLYLE / WGH",
-          "date": "06 Jul 2026",
-          "date_iso": "2026-07-06",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12492",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12492_62.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12492"
-        },
-        {
-          "title": "[M.12392] NUVEEN / SCHRODERS",
-          "date": "03 Jul 2026",
-          "date_iso": "2026-07-03",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12392",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12392_147.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12392"
-        },
-        {
-          "title": "[M.12172] STV INVEST / PROMET GROUP / NIKA DEVELOPMENT / TATRA TRUCKS JV",
-          "date": "03 Jul 2026",
-          "date_iso": "2026-07-03",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12172",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12172"
-        },
-        {
-          "title": "[M.11184.AP] VIVENDI / LAGARDERE (Procédure Art. 14(2))",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.11184.AP",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_11184_AP"
-        },
-        {
-          "title": "[M.12308] EDIZIONE / TAGES / 21 INVEST",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12308",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12308_183.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12308"
-        }
-      ]
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
     },
     {
       "key": "EU_ANTITRUST",
@@ -1564,12 +1364,22 @@
       "label": "UK_CAT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "15705722 (T) JJH Enterprises Limited (trading as ValueLicensing) v Microsoft Corporation and Others - Judgment of the Court of Appeal (PI Trial & Jurisdiction)  07 J",
+          "date": "2026-07",
+          "date_iso": "2026-07-01",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-07/15705722%20%28T%29%20JJH%20Enterprises%20Limited%20%28trading%20as%20ValueLicensing%29%20v%20Microsoft%20Corporation%20and%20Others%20-%20Judgment%20of%20the%20Court%20of%20Appeal%20%28PI%20Trial%20%26%20Jurisdiction%29%20%2007%20J.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-07_15705722__T__JJH_Enterprises_Limited__tr"
+        }
+      ]
     },
     {
       "key": "UK_CMA_MERGERS",
