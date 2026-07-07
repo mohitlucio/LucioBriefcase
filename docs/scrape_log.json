@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-07-07 09:55:56 UTC",
-  "finished_at": "2026-07-07 10:05:36 UTC",
-  "duration_seconds": 580.2,
+  "started_at": "2026-07-07 14:54:40 UTC",
+  "finished_at": "2026-07-07 15:04:13 UTC",
+  "duration_seconds": 573.3,
   "date_range": {
     "from": "2026-07-01",
     "to": "2026-07-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 19,
+  "sources_ok": 20,
   "sources_error": 7,
-  "sources_empty": 67,
-  "total_documents": 84,
-  "docs_with_pdf": 62,
-  "docs_without_pdf": 22,
+  "sources_empty": 66,
+  "total_documents": 96,
+  "docs_with_pdf": 76,
+  "docs_without_pdf": 20,
   "source_details": [
     {
       "key": "RHP",
@@ -67,10 +67,10 @@
           "id": "102609"
         },
         {
-          "title": "Functional & Innovative Foods Limited",
+          "title": "Functional & Innovative Foods Limited - DRHP",
           "date": "06 Jul 2026",
           "date_iso": "2026-07-06",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/jul-2026/functional-and-innovative-foods-limited_102603.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/jul-2026/functional-and-innovative-foods-limited-drhp_102603.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "102603"
@@ -386,10 +386,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[09/2026] Rajeev Bakshi Vs M/s Nissan Motor lndia Pvt. Ltd",
+          "date": "07 Jul 2026",
+          "date_iso": "2026-07-07",
+          "page_url": "https://www.cci.gov.in/antitrust/orders",
+          "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1783418791.pdf",
+          "has_pdf": true,
+          "id": "cci_anti_7_09_2026"
+        },
         {
           "title": "[07/2026] Adv. Aditya Tripathi and another Vs. Godrej & Boyce Mfg. Co. Ltd. and others",
           "date": "02 Jul 2026",
@@ -876,67 +885,13 @@
           "id": "hr_reat_H-REAT-13-2026_6"
         },
         {
-          "title": "H-REAT-16-2026 — St. Patricks Realty Pvt. Ltd. vs YAMINI MEHRA",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY2",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-16-2026_7"
-        },
-        {
           "title": "H-REAT-15-2026 — St. Patricks Realty Pvt. Ltd. vs SUNIL KUMAR GUPTA",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-15-2026_8"
-        },
-        {
-          "title": "H-REAT-306-2023 — M THREE M INDIA PRIVATE LIMITED vs SHYAM SUNDER CHHABRA",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTU5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-306-2023_9"
-        },
-        {
-          "title": "H-REAT-14-2026 — St. Patricks Realty Pvt. Ltd. vs AAKASH YADAV",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-14-2026_10"
-        },
-        {
-          "title": "H-REAT-8-2026 — St. Patricks Realty Pvt. Ltd. vs NEHA PRASAD",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDI5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-8-2026_11"
-        },
-        {
-          "title": "H-REAT-10-2026 — St. Patricks Realty Pvt. Ltd. vs ROHIT BAJAJ",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYw",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-10-2026_12"
-        },
-        {
-          "title": "H-REAT-12-2026 — St. Patricks Realty Pvt. Ltd. vs ABHIGYAN SRIVASTAVA",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-12-2026_13"
+          "id": "hr_reat_H-REAT-15-2026_7"
         },
         {
           "title": "H-REAT-11-2026 — St. Patricks Realty Pvt. Ltd. vs KUMAR ANIMESH",
@@ -945,7 +900,61 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-11-2026_14"
+          "id": "hr_reat_H-REAT-11-2026_8"
+        },
+        {
+          "title": "H-REAT-16-2026 — St. Patricks Realty Pvt. Ltd. vs YAMINI MEHRA",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-16-2026_9"
+        },
+        {
+          "title": "H-REAT-10-2026 — St. Patricks Realty Pvt. Ltd. vs ROHIT BAJAJ",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-10-2026_10"
+        },
+        {
+          "title": "H-REAT-12-2026 — St. Patricks Realty Pvt. Ltd. vs ABHIGYAN SRIVASTAVA",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-12-2026_11"
+        },
+        {
+          "title": "H-REAT-14-2026 — St. Patricks Realty Pvt. Ltd. vs AAKASH YADAV",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-14-2026_12"
+        },
+        {
+          "title": "H-REAT-306-2023 — M THREE M INDIA PRIVATE LIMITED vs SHYAM SUNDER CHHABRA",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTU5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-306-2023_13"
+        },
+        {
+          "title": "H-REAT-8-2026 — St. Patricks Realty Pvt. Ltd. vs NEHA PRASAD",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDI5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-8-2026_14"
         }
       ]
     },
@@ -1040,10 +1049,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 7,
-      "docs_with_pdf": 7,
+      "doc_count": 8,
+      "docs_with_pdf": 8,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "In the matter of MONTECARLO LIMITED [CP(IB)246(AHM)2025]",
+          "date": "06 Jul 2026",
+          "date_iso": "2026-07-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
         {
           "title": "In the matter of ASHIANA ISPAT LIMITED [25/9/JPR/2025]",
           "date": "03 Jul 2026",
@@ -1063,7 +1081,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of Creativity at Best Technologies Limited [C.P. (IB) 647/ND/2025]",
+          "title": "In the matter of LUCKSHMI YARN IMPEX PRIVATE LIMITED [CP (IB)/369(CHE)/2025]",
           "date": "02 Jul 2026",
           "date_iso": "2026-07-02",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1072,7 +1090,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of LUCKSHMI YARN IMPEX PRIVATE LIMITED [CP (IB)/369(CHE)/2025]",
+          "title": "In the matter of Creativity at Best Technologies Limited [C.P. (IB) 647/ND/2025]",
           "date": "02 Jul 2026",
           "date_iso": "2026-07-02",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1117,16 +1135,16 @@
       "status": "ok",
       "error": null,
       "doc_count": 9,
-      "docs_with_pdf": 2,
-      "docs_without_pdf": 7,
+      "docs_with_pdf": 5,
+      "docs_without_pdf": 4,
       "documents": [
         {
           "title": "[M.12456] PLD / NBIM / TARGET ASSET BÖNEN",
           "date": "06 Jul 2026",
           "date_iso": "2026-07-06",
           "page_url": "https://competition-cases.ec.europa.eu/cases/M.12456",
-          "pdf_url": "",
-          "has_pdf": false,
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12456_67.pdf",
+          "has_pdf": true,
           "id": "eu_m_M_12456"
         },
         {
@@ -1152,8 +1170,8 @@
           "date": "06 Jul 2026",
           "date_iso": "2026-07-06",
           "page_url": "https://competition-cases.ec.europa.eu/cases/M.12493",
-          "pdf_url": "",
-          "has_pdf": false,
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12493_60.pdf",
+          "has_pdf": true,
           "id": "eu_m_M_12493"
         },
         {
@@ -1170,8 +1188,8 @@
           "date": "03 Jul 2026",
           "date_iso": "2026-07-03",
           "page_url": "https://competition-cases.ec.europa.eu/cases/M.12392",
-          "pdf_url": "",
-          "has_pdf": false,
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12392_147.pdf",
+          "has_pdf": true,
           "id": "eu_m_M_12392"
         },
         {
@@ -1628,12 +1646,31 @@
       "label": "UK_LAND",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "On Tower UK Limited v AP Wireless II (UK) Limited",
+          "date": "07 Jul 2026",
+          "date_iso": "2026-07-07",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukut/lc/2026/245",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-09ba12f0-8793-4980-af33-950c94f1744b/d-09ba12f0-8793-4980-af33-950c94f1744b.pdf",
+          "has_pdf": true,
+          "id": "na_245"
+        },
+        {
+          "title": "Sanderstead Removals Limited v Andrew Mouland (Valuation Officer)",
+          "date": "06 Jul 2026",
+          "date_iso": "2026-07-06",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukut/lc/2026/247",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-3ba5fc0a-6a31-4d8b-b992-539f875acd83/d-3ba5fc0a-6a31-4d8b-b992-539f875acd83.pdf",
+          "has_pdf": true,
+          "id": "na_247"
+        }
+      ]
     },
     {
       "key": "UK_TAX_CHANCERY",
@@ -1642,10 +1679,37 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "doc_count": 6,
+      "docs_with_pdf": 6,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[2026] UKUT 00259 (TCC) Scott Brothers Limited v The Commissioners for His Majesty’s Revenue and Customs",
+          "date": "07 Jul 2026",
+          "date_iso": "2026-07-07",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/2026-ukut-00259-tcc-scott-brothers-limited-v-the-commissioners-for-his-majestys-revenue-and-customs",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a4d021bb7203c4c023fd313/Scott_Brothers_Ltd_PTA__Oral_Renewal__1___002_.pdf",
+          "has_pdf": true,
+          "id": "govuk_ted-v-the-commissioners-for-his-majestys-revenue-and-customs"
+        },
+        {
+          "title": "[2026] UKUT 00256 (TCC) HM Revenue and Customs v Align Technology Switzerland GmbH",
+          "date": "07 Jul 2026",
+          "date_iso": "2026-07-07",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/2026-ukut-00256-tcc-hm-revenue-and-customs-v-align-technology-switzerland-gmbh",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a4cd0b4d200ca05e289e673/Align_Technology_-_Final.pdf",
+          "has_pdf": true,
+          "id": "govuk_c-hm-revenue-and-customs-v-align-technology-switzerland-gmbh"
+        },
+        {
+          "title": "NHS AYRSHIRE AND ARRAN HEALTH BOARD v THE COMMISSIONERS FOR HIS MAJESTY’S REVENUE AND CUSTOMS  [2026] UKUT 00258 (TCC)",
+          "date": "07 Jul 2026",
+          "date_iso": "2026-07-07",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/nhs-ayrshire-and-arran-health-board-v-the-commissioners-for-his-majestys-revenue-and-customs-2026-ukut-00258-tcc",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a4cfa68d200ca05e289e6b5/UT_NHS_Ayrshire_and_Arran_v_HMRC_Decision__final_version_.pdf",
+          "has_pdf": true,
+          "id": "govuk_ers-for-his-majestys-revenue-and-customs-2026-ukut-00258-tcc"
+        },
         {
           "title": "[2026] UKUT 00249 (TCC)  Cenkci v Commissioners of His Majesty's Revenue and Customs",
           "date": "06 Jul 2026",
@@ -1682,10 +1746,37 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 8,
-      "docs_with_pdf": 8,
+      "doc_count": 12,
+      "docs_with_pdf": 12,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Grant Anderson v The Commissioners for HMRC",
+          "date": "03 Jul 2026",
+          "date_iso": "2026-07-03",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1007",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-8d8e0491-9252-4e1f-88e1-3cfe9dc99d35/d-8d8e0491-9252-4e1f-88e1-3cfe9dc99d35.pdf",
+          "has_pdf": true,
+          "id": "na_1007"
+        },
+        {
+          "title": "Vasile Cerchez v The Commissioners for HMRC",
+          "date": "03 Jul 2026",
+          "date_iso": "2026-07-03",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1006",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-6bc3a5e4-8a32-46dc-9299-970dfe627151/d-6bc3a5e4-8a32-46dc-9299-970dfe627151.pdf",
+          "has_pdf": true,
+          "id": "na_1006"
+        },
+        {
+          "title": "Mukarram Sattar & Ors v The Commissioners for HMRC",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1005",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-5607af3b-982a-4519-bcc6-d4b3be561773/d-5607af3b-982a-4519-bcc6-d4b3be561773.pdf",
+          "has_pdf": true,
+          "id": "na_1005"
+        },
         {
           "title": "Christopher Kippax v The Commissioners for HMRC",
           "date": "02 Jul 2026",
@@ -1712,6 +1803,15 @@
           "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-c83b7f4a-4906-437e-9c9d-355d703e5e11/d-c83b7f4a-4906-437e-9c9d-355d703e5e11.pdf",
           "has_pdf": true,
           "id": "na_993"
+        },
+        {
+          "title": "Sovereign Corporate Limited v The Commissioners for HMRC (Costs)",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1004",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-f35264e3-3dcd-46e3-afc4-4744af2ec24a/d-f35264e3-3dcd-46e3-afc4-4744af2ec24a.pdf",
+          "has_pdf": true,
+          "id": "na_1004"
         },
         {
           "title": "Plat UK Limited v The Commissioners for HMRC",
@@ -1767,10 +1867,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 2,
       "documents": [
+        {
+          "title": "Review of norms for utilization of interest or income from IPF of the Depositories",
+          "date": "07 Jul 2026",
+          "date_iso": "2026-07-07",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/jul-2026/review-of-norms-for-utilization-of-interest-or-income-from-ipf-of-the-depositories_102639.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "102639"
+        },
         {
           "title": "Handling of Client’s Unpaid Securities by Trading Members",
           "date": "03 Jul 2026",
