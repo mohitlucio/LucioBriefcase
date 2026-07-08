@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-07-07 20:06:42 UTC",
-  "finished_at": "2026-07-07 20:15:56 UTC",
-  "duration_seconds": 554.1,
+  "started_at": "2026-07-08 03:33:21 UTC",
+  "finished_at": "2026-07-08 03:42:36 UTC",
+  "duration_seconds": 554.7,
   "date_range": {
     "from": "2026-07-01",
     "to": "2026-07-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 19,
-  "sources_error": 12,
-  "sources_empty": 62,
-  "total_documents": 75,
-  "docs_with_pdf": 59,
-  "docs_without_pdf": 16,
+  "sources_ok": 20,
+  "sources_error": 8,
+  "sources_empty": 65,
+  "total_documents": 85,
+  "docs_with_pdf": 64,
+  "docs_without_pdf": 21,
   "source_details": [
     {
       "key": "RHP",
@@ -725,8 +725,8 @@
       "label": "TG_RERA_ADJ",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -737,8 +737,8 @@
       "label": "TG_RERA_AUTH",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -749,8 +749,8 @@
       "label": "TG_RERA_SUO",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -761,8 +761,8 @@
       "label": "TG_RERA_CIRC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1014,12 +1014,103 @@
       "label": "EU_MERGER",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "doc_count": 10,
+      "docs_with_pdf": 5,
+      "docs_without_pdf": 5,
+      "documents": [
+        {
+          "title": "[M.12388] GOTLANDSBOLAGET / EQT / NORDIC FERRY INFRASTRUCTURE",
+          "date": "07 Jul 2026",
+          "date_iso": "2026-07-07",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12388",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12388"
+        },
+        {
+          "title": "[M.12456] PLD / NBIM / TARGET ASSET BÖNEN",
+          "date": "06 Jul 2026",
+          "date_iso": "2026-07-06",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12456",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12456_67.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12456"
+        },
+        {
+          "title": "[M.12303] PARKER-HANNIFIN / FGC",
+          "date": "06 Jul 2026",
+          "date_iso": "2026-07-06",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12303",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12303"
+        },
+        {
+          "title": "[M.12434] ZURICH / BEAZLEY",
+          "date": "06 Jul 2026",
+          "date_iso": "2026-07-06",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12434",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12434"
+        },
+        {
+          "title": "[M.12493] TMUS / OHC / GREENLIGHT / GONETSPEED",
+          "date": "06 Jul 2026",
+          "date_iso": "2026-07-06",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12493",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12493_60.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12493"
+        },
+        {
+          "title": "[M.12492] OHC / CARLYLE / WGH",
+          "date": "06 Jul 2026",
+          "date_iso": "2026-07-06",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12492",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12492_62.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12492"
+        },
+        {
+          "title": "[M.12392] NUVEEN / SCHRODERS",
+          "date": "03 Jul 2026",
+          "date_iso": "2026-07-03",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12392",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12392_147.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12392"
+        },
+        {
+          "title": "[M.12172] STV INVEST / PROMET GROUP / NIKA DEVELOPMENT / TATRA TRUCKS JV",
+          "date": "03 Jul 2026",
+          "date_iso": "2026-07-03",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12172",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12172"
+        },
+        {
+          "title": "[M.11184.AP] VIVENDI / LAGARDERE (Procédure Art. 14(2))",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.11184.AP",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_11184_AP"
+        },
+        {
+          "title": "[M.12308] EDIZIONE / TAGES / 21 INVEST",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12308",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12308_183.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12308"
+        }
+      ]
     },
     {
       "key": "EU_ANTITRUST",
@@ -1169,15 +1260,6 @@
           "id": "epo_boa_t240529eu1"
         },
         {
-          "title": "T 0967/23 — SYSTEM AND METHOD FOR LIMITING OVER-VOLTAGE IN POWER SUPPLY SYSTEM",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230967eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230967eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t230967eu1"
-        },
-        {
           "title": "T 0082/23 — BLOOD PURIFICATION DEVICE",
           "date": "02 Jul 2026",
           "date_iso": "2026-07-02",
@@ -1185,6 +1267,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230082eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t230082eu1"
+        },
+        {
+          "title": "T 0967/23 — SYSTEM AND METHOD FOR LIMITING OVER-VOLTAGE IN POWER SUPPLY SYSTEM",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230967eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230967eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t230967eu1"
         },
         {
           "title": "T 1033/24 — METHOD AND ELECTRONIC DEVICE FOR CONTROLLING A MANUFACTURING OF A GROUP OF FINAL METAL PRODUCT(S) FROM A GROUP OF INTERMEDIATE METAL PRODUCT(S), RELATED COMPUTER PROGRAM, MANUFACTURING METHOD AND INSTALLATION",
