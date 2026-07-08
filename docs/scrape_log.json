@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-07-08 03:33:21 UTC",
-  "finished_at": "2026-07-08 03:42:36 UTC",
-  "duration_seconds": 554.7,
+  "started_at": "2026-07-08 08:40:06 UTC",
+  "finished_at": "2026-07-08 08:49:39 UTC",
+  "duration_seconds": 573.6,
   "date_range": {
     "from": "2026-07-01",
     "to": "2026-07-31"
@@ -11,9 +11,9 @@
   "sources_ok": 20,
   "sources_error": 8,
   "sources_empty": 65,
-  "total_documents": 85,
-  "docs_with_pdf": 64,
-  "docs_without_pdf": 21,
+  "total_documents": 90,
+  "docs_with_pdf": 68,
+  "docs_without_pdf": 22,
   "source_details": [
     {
       "key": "RHP",
@@ -44,10 +44,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 8,
+      "doc_count": 9,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 8,
+      "docs_without_pdf": 9,
       "documents": [
+        {
+          "title": "INNOTERRA LIMITED - DRHP",
+          "date": "08 Jul 2026",
+          "date_iso": "2026-07-08",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/jul-2026/innoterra-limited-drhp_102678.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "102678"
+        },
         {
           "title": "Pragyawan Technologies Limited - DRHP",
           "date": "06 Jul 2026",
@@ -931,14 +940,23 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 8,
-      "docs_with_pdf": 8,
+      "doc_count": 10,
+      "docs_with_pdf": 10,
       "docs_without_pdf": 0,
       "documents": [
         {
           "title": "In the matter of MONTECARLO LIMITED [CP(IB)246(AHM)2025]",
           "date": "06 Jul 2026",
           "date_iso": "2026-07-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of KMS MONDIALLE PRIVATE LIMITED [C.P.(IB)/1275(MB)2025]",
+          "date": "03 Jul 2026",
+          "date_iso": "2026-07-03",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "has_pdf": true,
@@ -954,7 +972,16 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of AXLE PAPER PRIVATE LIMITED [C.P.(IB)/422(AHM)2025]",
+          "title": "In the matter of Creativity at Best Technologies Limited [C.P. (IB) 647/ND/2025]",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of AMISHI CONSUMER TECHNOLOGIES PRIVATE LIMITED [CP (IB)-469/ND/2025 ]",
           "date": "02 Jul 2026",
           "date_iso": "2026-07-02",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -972,9 +999,18 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of Creativity at Best Technologies Limited [C.P. (IB) 647/ND/2025]",
+          "title": "In the matter of AXLE PAPER PRIVATE LIMITED [C.P.(IB)/422(AHM)2025]",
           "date": "02 Jul 2026",
           "date_iso": "2026-07-02",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of OJAAN REALTY PRIVATE LIMITED [CP (IB) 177 (ND) 2025]",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "has_pdf": true,
@@ -991,15 +1027,6 @@
         },
         {
           "title": "In the matter of VMN STONES PRIVATE LIMITED [C.P. (IB)/111/JPR/2024]",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of OJAAN REALTY PRIVATE LIMITED [CP (IB) 177 (ND) 2025]",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1174,10 +1201,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 18,
-      "docs_with_pdf": 18,
+      "doc_count": 20,
+      "docs_with_pdf": 20,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "T 0038/25 — DAIRY PRODUCT AND PROCESSES",
+          "date": "08 Jul 2026",
+          "date_iso": "2026-07-08",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250038eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250038eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250038eu1"
+        },
+        {
+          "title": "T 1230/24 — WÄSSRIGE BESCHICHTUNGSSTOFFE",
+          "date": "08 Jul 2026",
+          "date_iso": "2026-07-08",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241230du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241230du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241230du1"
+        },
         {
           "title": "T 0680/24 — METHOD OF PRODUCING CHEMICAL PULP AT A DIGESTER PLANT OF A CHEMICAL PULP MILL",
           "date": "07 Jul 2026",
@@ -1269,15 +1314,6 @@
           "id": "epo_boa_t230082eu1"
         },
         {
-          "title": "T 0967/23 — SYSTEM AND METHOD FOR LIMITING OVER-VOLTAGE IN POWER SUPPLY SYSTEM",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230967eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230967eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t230967eu1"
-        },
-        {
           "title": "T 1033/24 — METHOD AND ELECTRONIC DEVICE FOR CONTROLLING A MANUFACTURING OF A GROUP OF FINAL METAL PRODUCT(S) FROM A GROUP OF INTERMEDIATE METAL PRODUCT(S), RELATED COMPUTER PROGRAM, MANUFACTURING METHOD AND INSTALLATION",
           "date": "02 Jul 2026",
           "date_iso": "2026-07-02",
@@ -1285,6 +1321,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241033eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t241033eu1"
+        },
+        {
+          "title": "T 0967/23 — SYSTEM AND METHOD FOR LIMITING OVER-VOLTAGE IN POWER SUPPLY SYSTEM",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t230967eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t230967eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t230967eu1"
         },
         {
           "title": "T 0910/24 — KAPSEL ZUR ZUBEREITUNG EINES GETRÄNKES, VERFAHREN ZUM HERSTELLEN DERSELBEN UND VERWENDUNG DIESER KAPSEL",
@@ -1305,15 +1350,6 @@
           "id": "epo_boa_t250294du1"
         },
         {
-          "title": "T 1185/24 — Improved brewing process",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241185eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241185eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241185eu1"
-        },
-        {
           "title": "T 0666/25 — VIDEO OR IMAGE CODING FOR INDUCING WEIGHT INDEX INFORMATION FOR BI-PREDICTION",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
@@ -1321,6 +1357,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250666eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t250666eu1"
+        },
+        {
+          "title": "T 1185/24 — Improved brewing process",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241185eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241185eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241185eu1"
         },
         {
           "title": "T 0603/23 — LIGHT-EMITTING MODULE",
