@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-07-09 09:58:26 UTC",
-  "finished_at": "2026-07-09 10:08:07 UTC",
-  "duration_seconds": 581.4,
+  "started_at": "2026-07-09 15:29:51 UTC",
+  "finished_at": "2026-07-09 15:39:23 UTC",
+  "duration_seconds": 572.2,
   "date_range": {
     "from": "2026-07-01",
     "to": "2026-07-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 22,
+  "sources_ok": 23,
   "sources_error": 7,
-  "sources_empty": 64,
-  "total_documents": 127,
-  "docs_with_pdf": 97,
-  "docs_without_pdf": 30,
+  "sources_empty": 63,
+  "total_documents": 133,
+  "docs_with_pdf": 107,
+  "docs_without_pdf": 26,
   "source_details": [
     {
       "key": "RHP",
@@ -703,10 +703,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Formats for publishing financial results as required under the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+          "date": "08 Jul 2026",
+          "date_iso": "2026-07-08",
+          "page_url": "https://irdai.gov.in/circulars",
+          "pdf_url": "https://irdai.gov.in/documents/37343/365525/SEBI+LODR+Circular_pdf.pdf/a33b69e4-a508-9944-f517-d11eea780aed?version=1.0&t=1783599142583&download=true",
+          "has_pdf": true,
+          "id": "irdai_formats_for_publishing_financial_results_08-07-2026"
+        },
         {
           "title": "वार्षिक शुल्क के भुगतान और पंजीकरण प्रमाणपत्र के निर्गमन के लिए परिवर्ती व्यवस्था का विस्तार / Extension of Transitional Arrangements for Payment of Annual Fee and Issuance of Certificate of Registration",
           "date": "02 Jul 2026",
@@ -889,10 +898,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 15,
-      "docs_with_pdf": 15,
+      "doc_count": 17,
+      "docs_with_pdf": 17,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "H-REAT-779-2025 — IRIS PLAZA PVT. LTD. vs BHANU PRATAP DWIWEDI",
+          "date": "08 Jul 2026",
+          "date_iso": "2026-07-08",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNTQz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-779-2025_0"
+        },
+        {
+          "title": "H-REAT-135-2026 — Upender Pal Singh vs ADVANCE INDIA PROJECTS LTD",
+          "date": "07 Jul 2026",
+          "date_iso": "2026-07-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNTA4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-135-2026_1"
+        },
         {
           "title": "H-REAT-398-2023 — Emaar India Ltd vs MADHO SINGH RAWAT",
           "date": "06 Jul 2026",
@@ -900,7 +927,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyMDAz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-398-2023_0"
+          "id": "hr_reat_H-REAT-398-2023_2"
         },
         {
           "title": "H-REAT-644-2023 — YAHSEEKA MAHAJAN vs NEO DEVELOPERS PVT LTD",
@@ -909,7 +936,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNjAy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-644-2023_1"
+          "id": "hr_reat_H-REAT-644-2023_3"
         },
         {
           "title": "H-REAT-643-2023 — SHILPA MAHAJAN vs NEO DEVELOPERS PVT LTD",
@@ -918,25 +945,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTk5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-643-2023_2"
-        },
-        {
-          "title": "H-REAT-946-2024 — EMAAR INDIA LIMITED vs SMT POONAM GOEL",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTI3",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-946-2024_3"
-        },
-        {
-          "title": "H-REAT-152-2025 — HARPAL SINGH vs GLS INFRACON PVTLTD",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTgx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-152-2025_4"
+          "id": "hr_reat_H-REAT-643-2023_4"
         },
         {
           "title": "H-REAT-36-2025 — JUBILIANT MALLS PRIVATE LIMITED vs AJAY KUMAR AND VIJAY KUMAR",
@@ -948,31 +957,31 @@
           "id": "hr_reat_H-REAT-36-2025_5"
         },
         {
-          "title": "H-REAT-16-2026 — St. Patricks Realty Pvt. Ltd. vs YAMINI MEHRA",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
+          "title": "H-REAT-152-2025 — HARPAL SINGH vs GLS INFRACON PVTLTD",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY2",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTgx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-16-2026_6"
+          "id": "hr_reat_H-REAT-152-2025_6"
         },
         {
-          "title": "H-REAT-12-2026 — St. Patricks Realty Pvt. Ltd. vs ABHIGYAN SRIVASTAVA",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
+          "title": "H-REAT-946-2024 — EMAAR INDIA LIMITED vs SMT POONAM GOEL",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYy",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTI3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-12-2026_7"
+          "id": "hr_reat_H-REAT-946-2024_7"
         },
         {
-          "title": "H-REAT-11-2026 — St. Patricks Realty Pvt. Ltd. vs KUMAR ANIMESH",
+          "title": "H-REAT-306-2023 — M THREE M INDIA PRIVATE LIMITED vs SHYAM SUNDER CHHABRA",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYx",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTU5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-11-2026_8"
+          "id": "hr_reat_H-REAT-306-2023_8"
         },
         {
           "title": "H-REAT-8-2026 — St. Patricks Realty Pvt. Ltd. vs NEHA PRASAD",
@@ -984,13 +993,13 @@
           "id": "hr_reat_H-REAT-8-2026_9"
         },
         {
-          "title": "H-REAT-14-2026 — St. Patricks Realty Pvt. Ltd. vs AAKASH YADAV",
+          "title": "H-REAT-16-2026 — St. Patricks Realty Pvt. Ltd. vs YAMINI MEHRA",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY0",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-14-2026_10"
+          "id": "hr_reat_H-REAT-16-2026_10"
         },
         {
           "title": "H-REAT-13-2026 — St. Patricks Realty Pvt. Ltd. vs RITU ANAND",
@@ -1002,13 +1011,13 @@
           "id": "hr_reat_H-REAT-13-2026_11"
         },
         {
-          "title": "H-REAT-306-2023 — M THREE M INDIA PRIVATE LIMITED vs SHYAM SUNDER CHHABRA",
+          "title": "H-REAT-11-2026 — St. Patricks Realty Pvt. Ltd. vs KUMAR ANIMESH",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTU5",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-306-2023_12"
+          "id": "hr_reat_H-REAT-11-2026_12"
         },
         {
           "title": "H-REAT-15-2026 — St. Patricks Realty Pvt. Ltd. vs SUNIL KUMAR GUPTA",
@@ -1020,13 +1029,31 @@
           "id": "hr_reat_H-REAT-15-2026_13"
         },
         {
+          "title": "H-REAT-14-2026 — St. Patricks Realty Pvt. Ltd. vs AAKASH YADAV",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-14-2026_14"
+        },
+        {
           "title": "H-REAT-10-2026 — St. Patricks Realty Pvt. Ltd. vs ROHIT BAJAJ",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-10-2026_14"
+          "id": "hr_reat_H-REAT-10-2026_15"
+        },
+        {
+          "title": "H-REAT-12-2026 — St. Patricks Realty Pvt. Ltd. vs ABHIGYAN SRIVASTAVA",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-12-2026_16"
         }
       ]
     },
@@ -1306,8 +1333,8 @@
       "status": "ok",
       "error": null,
       "doc_count": 15,
-      "docs_with_pdf": 6,
-      "docs_without_pdf": 9,
+      "docs_with_pdf": 10,
+      "docs_without_pdf": 5,
       "documents": [
         {
           "title": "[M.12450] GA GROUP / TA / POWERGEM",
@@ -1323,8 +1350,8 @@
           "date": "08 Jul 2026",
           "date_iso": "2026-07-08",
           "page_url": "https://competition-cases.ec.europa.eu/cases/M.12460",
-          "pdf_url": "",
-          "has_pdf": false,
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12460_69.pdf",
+          "has_pdf": true,
           "id": "eu_m_M_12460"
         },
         {
@@ -1332,8 +1359,8 @@
           "date": "08 Jul 2026",
           "date_iso": "2026-07-08",
           "page_url": "https://competition-cases.ec.europa.eu/cases/M.12438",
-          "pdf_url": "",
-          "has_pdf": false,
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12438_66.pdf",
+          "has_pdf": true,
           "id": "eu_m_M_12438"
         },
         {
@@ -1350,8 +1377,8 @@
           "date": "07 Jul 2026",
           "date_iso": "2026-07-07",
           "page_url": "https://competition-cases.ec.europa.eu/cases/M.12388",
-          "pdf_url": "",
-          "has_pdf": false,
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12388_116.pdf",
+          "has_pdf": true,
           "id": "eu_m_M_12388"
         },
         {
@@ -1377,8 +1404,8 @@
           "date": "06 Jul 2026",
           "date_iso": "2026-07-06",
           "page_url": "https://competition-cases.ec.europa.eu/cases/M.12303",
-          "pdf_url": "",
-          "has_pdf": false,
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12303_436.pdf",
+          "has_pdf": true,
           "id": "eu_m_M_12303"
         },
         {
@@ -1451,12 +1478,22 @@
       "label": "EU_ANTITRUST",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[AT.40823] SAP ERP aftermarket support services",
+          "date": "09 Jul 2026",
+          "date_iso": "2026-07-09",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/AT.40823",
+          "pdf_url": "https://ec.europa.eu/competition/antitrust/cases1/202540/AT_40823_6950.pdf",
+          "has_pdf": true,
+          "id": "eu_at_AT_40823"
+        }
+      ]
     },
     {
       "key": "EU_DMA",
@@ -2036,10 +2073,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 12,
-      "docs_with_pdf": 12,
+      "doc_count": 14,
+      "docs_with_pdf": 14,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Jonathan Gwynne v The Commissioners For HMRC",
+          "date": "08 Jul 2026",
+          "date_iso": "2026-07-08",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1030",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-2d767536-e7ce-4b77-9833-5e84df9266d3/d-2d767536-e7ce-4b77-9833-5e84df9266d3.pdf",
+          "has_pdf": true,
+          "id": "na_1030"
+        },
+        {
+          "title": "Daniel Monaghan v The Commissioners For HMRC",
+          "date": "07 Jul 2026",
+          "date_iso": "2026-07-07",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1029",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-4dbd08ca-a0ca-4e55-a59a-00c4d096b0f3/d-4dbd08ca-a0ca-4e55-a59a-00c4d096b0f3.pdf",
+          "has_pdf": true,
+          "id": "na_1029"
+        },
         {
           "title": "Grant Anderson v The Commissioners for HMRC",
           "date": "03 Jul 2026",
