@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-07-17 03:27:24 UTC",
-  "finished_at": "2026-07-17 03:36:49 UTC",
-  "duration_seconds": 565.2,
+  "started_at": "2026-07-17 08:21:56 UTC",
+  "finished_at": "2026-07-17 08:31:25 UTC",
+  "duration_seconds": 568.6,
   "date_range": {
     "from": "2026-07-01",
     "to": "2026-07-31"
@@ -11,9 +11,9 @@
   "sources_ok": 30,
   "sources_error": 7,
   "sources_empty": 56,
-  "total_documents": 292,
-  "docs_with_pdf": 255,
-  "docs_without_pdf": 37,
+  "total_documents": 303,
+  "docs_with_pdf": 265,
+  "docs_without_pdf": 38,
   "source_details": [
     {
       "key": "RHP",
@@ -22,10 +22,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 6,
+      "doc_count": 7,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 6,
+      "docs_without_pdf": 7,
       "documents": [
+        {
+          "title": "CALIBER MINING AND LOGISTICS LIMITED - Addendum to RHP",
+          "date": "17 Jul 2026",
+          "date_iso": "2026-07-17",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/jul-2026/caliber-mining-and-logistics-limited-addendum-to-rhp_102893.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "102893"
+        },
         {
           "title": "CALIBER MINING AND LOGISTICS LIMITED - RHP",
           "date": "14 Jul 2026",
@@ -892,10 +901,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[20260717-2] Issue of U.S.$300,000,000 Floating Rate Notes due 2029 under the U.S.$8,000,000,000 Global Medium Term Note Programme by Power Finance Corporation Limited",
+          "date": "17 Jul 2026",
+          "date_iso": "2026-07-17",
+          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
+          "pdf_url": "https://www.indiainx.com/circulars/20260717-2/20260717-2.pdf",
+          "has_pdf": true,
+          "id": "inx_circ_20260717-2"
+        },
         {
           "title": "[20260714-3] Issue of U.S.$100,000,000 6.875 per cent AT1 Notes to be consolidated and form a single series with the U.S.$500,000,000 6.875 per cent AT1 Notes under the U.S.$5,000,000,000 GMTN by Axis Bank Limited",
           "date": "14 Jul 2026",
@@ -932,10 +950,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 5,
-      "docs_with_pdf": 5,
+      "doc_count": 6,
+      "docs_with_pdf": 6,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Power Finance Corporation Limited — U.S.$300,000,000 Floating Rate Notes due 2029 under the U.S.$8,000,000,000 GMTN",
+          "date": "17 Jul 2026",
+          "date_iso": "2026-07-17",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3444175551.pdf",
+          "has_pdf": true,
+          "id": "inx_iss_u_s__300_000_000_floating_rate_2026-07-17"
+        },
         {
           "title": "Axis Bank Limited — U.S.$100,000,000 6.875 per cent AT1 Notes consolidated with U.S.$500,000,000 Notes under GMTN",
           "date": "14 Jul 2026",
@@ -1098,18 +1125,27 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 65,
-      "docs_with_pdf": 65,
+      "doc_count": 67,
+      "docs_with_pdf": 67,
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "H-REAT-681-2023 — Ocus Skyscrapers Realty Private Limited vs SHINY CHOPRA",
-          "date": "10 Jul 2026",
-          "date_iso": "2026-07-10",
+          "title": "H-REAT-857-2024 — Ms IREO Grace Realtech Pvt Ltd vs DR SANDEEP BATRA AND DR PRIYANKA BATRA",
+          "date": "14 Jul 2026",
+          "date_iso": "2026-07-14",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAzMTc0",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAzNTY3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-681-2023_0"
+          "id": "hr_reat_H-REAT-857-2024_0"
+        },
+        {
+          "title": "H-REAT-457-2024 — SUNEEL BAKSHI AND SONIA BAKSHI vs CORONA BUILDCON PVT LTD",
+          "date": "14 Jul 2026",
+          "date_iso": "2026-07-14",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAzNTY0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-457-2024_1"
         },
         {
           "title": "H-REAT-212-2026 — Assoctech Moonshine Urban Developers Pvt Ltd vs SPARSH AGGARWAL",
@@ -1118,34 +1154,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNzY2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-212-2026_1"
-        },
-        {
-          "title": "H-REAT-677-2023 — SUNIL BHALLA AND MANCHILLA BHALLA vs OCUS SKYSCRAPERS REALTY LTD",
-          "date": "10 Jul 2026",
-          "date_iso": "2026-07-10",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAzMTgw",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-677-2023_2"
-        },
-        {
-          "title": "H-REAT-650-2023 — SHINY CHOPRA and SEEMA CHOPRA vs OCUS SKYSCRAPERS REALTY LIMITED",
-          "date": "10 Jul 2026",
-          "date_iso": "2026-07-10",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAzMTc5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-650-2023_3"
-        },
-        {
-          "title": "H-REAT-706-2023 — Ocus Skyscrapers Realty Private Limited vs SACHIN KAPOOR",
-          "date": "10 Jul 2026",
-          "date_iso": "2026-07-10",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAzMTc3",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-706-2023_4"
+          "id": "hr_reat_H-REAT-212-2026_2"
         },
         {
           "title": "H-REAT-157-2025 — ATS Real Estate Builders Private Limited through its Authorized Representative / Signatory vs SANJAY KUMAR KHANEJA",
@@ -1154,7 +1163,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAzMTcy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-157-2025_5"
+          "id": "hr_reat_H-REAT-157-2025_3"
+        },
+        {
+          "title": "H-REAT-650-2023 — SHINY CHOPRA and SEEMA CHOPRA vs OCUS SKYSCRAPERS REALTY LIMITED",
+          "date": "10 Jul 2026",
+          "date_iso": "2026-07-10",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAzMTc5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-650-2023_4"
         },
         {
           "title": "H-REAT-680-2023 — Ocus Skyscrapers Realty Private Limited vs SUNIL BHALLA",
@@ -1163,16 +1181,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAzMTc4",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-680-2023_6"
+          "id": "hr_reat_H-REAT-680-2023_5"
         },
         {
-          "title": "H-REAT-707-2023 — Ocus Skyscrapers Realty Private Limited vs PAYAL BHATIYA CHOPRA",
+          "title": "H-REAT-681-2023 — Ocus Skyscrapers Realty Private Limited vs SHINY CHOPRA",
           "date": "10 Jul 2026",
           "date_iso": "2026-07-10",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAzMTc1",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAzMTc0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-707-2023_7"
+          "id": "hr_reat_H-REAT-681-2023_6"
         },
         {
           "title": "H-REAT-155-2025 — ATS Real Estate Builders Private Limited through its Authorized Representative/Signatory vs SUDEEP TANEJA",
@@ -1181,7 +1199,34 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAzMTcx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-155-2025_8"
+          "id": "hr_reat_H-REAT-155-2025_7"
+        },
+        {
+          "title": "H-REAT-707-2023 — Ocus Skyscrapers Realty Private Limited vs PAYAL BHATIYA CHOPRA",
+          "date": "10 Jul 2026",
+          "date_iso": "2026-07-10",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAzMTc1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-707-2023_8"
+        },
+        {
+          "title": "H-REAT-677-2023 — SUNIL BHALLA AND MANCHILLA BHALLA vs OCUS SKYSCRAPERS REALTY LTD",
+          "date": "10 Jul 2026",
+          "date_iso": "2026-07-10",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAzMTgw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-677-2023_9"
+        },
+        {
+          "title": "H-REAT-706-2023 — Ocus Skyscrapers Realty Private Limited vs SACHIN KAPOOR",
+          "date": "10 Jul 2026",
+          "date_iso": "2026-07-10",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAzMTc3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-706-2023_10"
         },
         {
           "title": "H-REAT-141-2024 — Sangeeta Mattoo and Roopak Mattoo vs ST PATRICKS REALTY PRIVATE LIMITED",
@@ -1190,7 +1235,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNzU3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-141-2024_9"
+          "id": "hr_reat_H-REAT-141-2024_11"
         },
         {
           "title": "H-REAT-271-2026 — M/s IREO Victory Valley Pvt. Ltd vs HARYANA REAL ESTATE REGULATORY AUTHORITY GURUGRAM",
@@ -1199,7 +1244,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjIw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-271-2026_10"
+          "id": "hr_reat_H-REAT-271-2026_12"
         },
         {
           "title": "H-REAT-779-2025 — IRIS PLAZA PVT. LTD. vs BHANU PRATAP DWIWEDI",
@@ -1208,7 +1253,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNTQz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-779-2025_11"
+          "id": "hr_reat_H-REAT-779-2025_13"
         },
         {
           "title": "H-REAT-114-2025 — EMAAR INDIA LIMITED vs PROSENJIT SARKAR",
@@ -1217,16 +1262,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNzEy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-114-2025_12"
-        },
-        {
-          "title": "H-REAT-135-2026 — Upender Pal Singh vs ADVANCE INDIA PROJECTS LTD",
-          "date": "07 Jul 2026",
-          "date_iso": "2026-07-07",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNTA4",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-135-2026_13"
+          "id": "hr_reat_H-REAT-114-2025_14"
         },
         {
           "title": "H-REAT-1047-2025 — Sandeep Fogaat and Neeru Fogaat vs EMAAR INDIA LIMITED",
@@ -1235,7 +1271,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAzMDgx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1047-2025_14"
+          "id": "hr_reat_H-REAT-1047-2025_15"
         },
         {
           "title": "H-REAT-1229-2025 — MAHEESH MALIK vs DLF HOMES AND DEVELOPERS LIMITED",
@@ -1244,7 +1280,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNzEz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1229-2025_15"
+          "id": "hr_reat_H-REAT-1229-2025_16"
+        },
+        {
+          "title": "H-REAT-135-2026 — Upender Pal Singh vs ADVANCE INDIA PROJECTS LTD",
+          "date": "07 Jul 2026",
+          "date_iso": "2026-07-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNTA4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-135-2026_17"
         },
         {
           "title": "H-REAT-398-2023 — Emaar India Ltd vs MADHO SINGH RAWAT",
@@ -1253,7 +1298,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyMDAz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-398-2023_16"
+          "id": "hr_reat_H-REAT-398-2023_18"
         },
         {
           "title": "H-REAT-541-2025 — MRS. DEEPA SINHA AND MR. SANJEEV SINHA vs ANSAL HOUSING AND CONSTRUCTION LTD",
@@ -1262,7 +1307,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjkz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-541-2025_17"
+          "id": "hr_reat_H-REAT-541-2025_19"
         },
         {
           "title": "H-REAT-643-2023 — SHILPA MAHAJAN vs NEO DEVELOPERS PVT LTD",
@@ -1271,7 +1316,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTk5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-643-2023_18"
+          "id": "hr_reat_H-REAT-643-2023_20"
         },
         {
           "title": "H-REAT-644-2023 — YAHSEEKA MAHAJAN vs NEO DEVELOPERS PVT LTD",
@@ -1280,61 +1325,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNjAy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-644-2023_19"
-        },
-        {
-          "title": "H-REAT-31-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjUz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-31-2024_20"
-        },
-        {
-          "title": "H-REAT-152-2025 — HARPAL SINGH vs GLS INFRACON PVTLTD",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTgx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-152-2025_21"
-        },
-        {
-          "title": "H-REAT-90-2025 — EMAAR INDIA LIMITED vs MR ABHISHEK MOHAL",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjc1",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-90-2025_22"
-        },
-        {
-          "title": "H-REAT-16-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjI2",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-16-2024_23"
-        },
-        {
-          "title": "H-REAT-23-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjMz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-23-2024_24"
-        },
-        {
-          "title": "H-REAT-26-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjM3",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-26-2024_25"
+          "id": "hr_reat_H-REAT-644-2023_21"
         },
         {
           "title": "H-REAT-946-2024 — EMAAR INDIA LIMITED vs SMT POONAM GOEL",
@@ -1343,70 +1334,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTI3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-946-2024_26"
-        },
-        {
-          "title": "H-REAT-28-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjUw",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-28-2024_27"
-        },
-        {
-          "title": "H-REAT-32-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjU0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-32-2024_28"
-        },
-        {
-          "title": "H-REAT-10-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjI1",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-10-2024_29"
-        },
-        {
-          "title": "H-REAT-29-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjUx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-29-2024_30"
-        },
-        {
-          "title": "H-REAT-641-2024 — EMAAR India Limited vs MRS KIRAN GUPTA",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjYy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-641-2024_31"
-        },
-        {
-          "title": "H-REAT-640-2024 — EMAAR India Limited vs MR AMIT BHATNAGAR",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjYx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-640-2024_32"
-        },
-        {
-          "title": "H-REAT-21-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjMy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-21-2024_33"
+          "id": "hr_reat_H-REAT-946-2024_22"
         },
         {
           "title": "H-REAT-25-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
@@ -1415,7 +1343,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjM2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-25-2024_34"
+          "id": "hr_reat_H-REAT-25-2024_23"
         },
         {
           "title": "H-REAT-645-2024 — EMAAR INDIA LIMITED vs MRS PRIYANKA KHANNA",
@@ -1424,70 +1352,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjY1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-645-2024_35"
+          "id": "hr_reat_H-REAT-645-2024_24"
         },
         {
-          "title": "H-REAT-32-2025 — EMAAR INDIA LIMITED vs MR ANKUSH KUTHIALA",
+          "title": "H-REAT-21-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
           "date": "02 Jul 2026",
           "date_iso": "2026-07-02",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjU1",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjMy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-32-2025_36"
-        },
-        {
-          "title": "H-REAT-35-2025 — EMAAR INDIA LIMITED vs SARABDEEP KHANNA",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjU3",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-35-2025_37"
-        },
-        {
-          "title": "H-REAT-432-2024 — EMAAR INDIA LIMITED vs SUMIKA GUPTA",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjYw",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-432-2024_38"
-        },
-        {
-          "title": "H-REAT-952-2024 — EMAAR INDIA LIMITED vs MR SUJIT KUMAR ROY",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjgx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-952-2024_39"
-        },
-        {
-          "title": "H-REAT-882-2024 — EMAAR INDIA LIMITED vs ARUN KUMA JAIN",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjcz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-882-2024_40"
-        },
-        {
-          "title": "H-REAT-17-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjI4",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-17-2024_41"
-        },
-        {
-          "title": "H-REAT-642-2024 — EMAAR INDIA LIMITED vs RAJNEESH GAUTAM",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjY0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-642-2024_42"
+          "id": "hr_reat_H-REAT-21-2024_25"
         },
         {
           "title": "H-REAT-33-2025 — EMAAR INDIA LIMITED vs MRS NEERU SHARMA",
@@ -1496,106 +1370,34 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjU2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-33-2025_43"
+          "id": "hr_reat_H-REAT-33-2025_26"
         },
         {
-          "title": "H-REAT-30-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
+          "title": "H-REAT-10-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
           "date": "02 Jul 2026",
           "date_iso": "2026-07-02",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjUy",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjI1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-30-2024_44"
+          "id": "hr_reat_H-REAT-10-2024_27"
         },
         {
-          "title": "H-REAT-27-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
+          "title": "H-REAT-29-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
           "date": "02 Jul 2026",
           "date_iso": "2026-07-02",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjM5",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjUx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-27-2024_45"
+          "id": "hr_reat_H-REAT-29-2024_28"
         },
         {
-          "title": "H-REAT-20-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
+          "title": "H-REAT-32-2025 — EMAAR INDIA LIMITED vs MR ANKUSH KUTHIALA",
           "date": "02 Jul 2026",
           "date_iso": "2026-07-02",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjMx",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjU1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-20-2024_46"
-        },
-        {
-          "title": "H-REAT-944-2024 — EMAAR INDIA LIMITED vs DIVYA SURI",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjc5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-944-2024_47"
-        },
-        {
-          "title": "H-REAT-36-2025 — JUBILIANT MALLS PRIVATE LIMITED vs AJAY KUMAR AND VIJAY KUMAR",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNjMz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-36-2025_48"
-        },
-        {
-          "title": "H-REAT-18-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjMw",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-18-2024_49"
-        },
-        {
-          "title": "H-REAT-420-2024 — Emaar India limited vs JAGMOHAN MITTAL",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjU5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-420-2024_50"
-        },
-        {
-          "title": "H-REAT-419-2024 — Emaar India limited vs JYOTSNA KUMAR",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjU4",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-419-2024_51"
-        },
-        {
-          "title": "H-REAT-654-2024 — EMAAR INDIA LIMITED vs MR YATIN SANDUJA",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjY5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-654-2024_52"
-        },
-        {
-          "title": "H-REAT-24-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjM1",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-24-2024_53"
-        },
-        {
-          "title": "H-REAT-950-2024 — EMAAR INDIA LIMITED vs MRS SANGEETA MISRA",
-          "date": "02 Jul 2026",
-          "date_iso": "2026-07-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjc3",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-950-2024_54"
+          "id": "hr_reat_H-REAT-32-2025_29"
         },
         {
           "title": "H-REAT-88-2025 — EMAAR INDIA LIMITED vs SUNANDA SHIVPURI",
@@ -1604,16 +1406,250 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjcx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-88-2025_55"
+          "id": "hr_reat_H-REAT-88-2025_30"
         },
         {
-          "title": "H-REAT-16-2026 — St. Patricks Realty Pvt. Ltd. vs YAMINI MEHRA",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
+          "title": "H-REAT-419-2024 — Emaar India limited vs JYOTSNA KUMAR",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY2",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjU4",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-16-2026_56"
+          "id": "hr_reat_H-REAT-419-2024_31"
+        },
+        {
+          "title": "H-REAT-952-2024 — EMAAR INDIA LIMITED vs MR SUJIT KUMAR ROY",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjgx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-952-2024_32"
+        },
+        {
+          "title": "H-REAT-31-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjUz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-31-2024_33"
+        },
+        {
+          "title": "H-REAT-17-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjI4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-17-2024_34"
+        },
+        {
+          "title": "H-REAT-32-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjU0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-32-2024_35"
+        },
+        {
+          "title": "H-REAT-28-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjUw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-28-2024_36"
+        },
+        {
+          "title": "H-REAT-642-2024 — EMAAR INDIA LIMITED vs RAJNEESH GAUTAM",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjY0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-642-2024_37"
+        },
+        {
+          "title": "H-REAT-882-2024 — EMAAR INDIA LIMITED vs ARUN KUMA JAIN",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjcz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-882-2024_38"
+        },
+        {
+          "title": "H-REAT-30-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjUy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-30-2024_39"
+        },
+        {
+          "title": "H-REAT-950-2024 — EMAAR INDIA LIMITED vs MRS SANGEETA MISRA",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjc3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-950-2024_40"
+        },
+        {
+          "title": "H-REAT-654-2024 — EMAAR INDIA LIMITED vs MR YATIN SANDUJA",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjY5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-654-2024_41"
+        },
+        {
+          "title": "H-REAT-420-2024 — Emaar India limited vs JAGMOHAN MITTAL",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjU5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-420-2024_42"
+        },
+        {
+          "title": "H-REAT-18-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjMw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-18-2024_43"
+        },
+        {
+          "title": "H-REAT-16-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjI2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-16-2024_44"
+        },
+        {
+          "title": "H-REAT-36-2025 — JUBILIANT MALLS PRIVATE LIMITED vs AJAY KUMAR AND VIJAY KUMAR",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNjMz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-36-2025_45"
+        },
+        {
+          "title": "H-REAT-35-2025 — EMAAR INDIA LIMITED vs SARABDEEP KHANNA",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjU3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-35-2025_46"
+        },
+        {
+          "title": "H-REAT-152-2025 — HARPAL SINGH vs GLS INFRACON PVTLTD",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTgx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-152-2025_47"
+        },
+        {
+          "title": "H-REAT-641-2024 — EMAAR India Limited vs MRS KIRAN GUPTA",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjYy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-641-2024_48"
+        },
+        {
+          "title": "H-REAT-23-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjMz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-23-2024_49"
+        },
+        {
+          "title": "H-REAT-24-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjM1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-24-2024_50"
+        },
+        {
+          "title": "H-REAT-20-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjMx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-20-2024_51"
+        },
+        {
+          "title": "H-REAT-432-2024 — EMAAR INDIA LIMITED vs SUMIKA GUPTA",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjYw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-432-2024_52"
+        },
+        {
+          "title": "H-REAT-944-2024 — EMAAR INDIA LIMITED vs DIVYA SURI",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjc5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-944-2024_53"
+        },
+        {
+          "title": "H-REAT-26-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjM3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-26-2024_54"
+        },
+        {
+          "title": "H-REAT-27-2024 — Signature Builders private Limited vs SIGNATURE BUILDERS. PVT. LTD.",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjM5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-27-2024_55"
+        },
+        {
+          "title": "H-REAT-640-2024 — EMAAR India Limited vs MR AMIT BHATNAGAR",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjYx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-640-2024_56"
+        },
+        {
+          "title": "H-REAT-90-2025 — EMAAR INDIA LIMITED vs MR ABHISHEK MOHAL",
+          "date": "02 Jul 2026",
+          "date_iso": "2026-07-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAyNjc1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-90-2025_57"
         },
         {
           "title": "H-REAT-10-2026 — St. Patricks Realty Pvt. Ltd. vs ROHIT BAJAJ",
@@ -1622,25 +1658,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-10-2026_57"
-        },
-        {
-          "title": "H-REAT-12-2026 — St. Patricks Realty Pvt. Ltd. vs ABHIGYAN SRIVASTAVA",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-12-2026_58"
-        },
-        {
-          "title": "H-REAT-15-2026 — St. Patricks Realty Pvt. Ltd. vs SUNIL KUMAR GUPTA",
-          "date": "01 Jul 2026",
-          "date_iso": "2026-07-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY1",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-15-2026_59"
+          "id": "hr_reat_H-REAT-10-2026_58"
         },
         {
           "title": "H-REAT-8-2026 — St. Patricks Realty Pvt. Ltd. vs NEHA PRASAD",
@@ -1649,7 +1667,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDI5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-8-2026_60"
+          "id": "hr_reat_H-REAT-8-2026_59"
         },
         {
           "title": "H-REAT-306-2023 — M THREE M INDIA PRIVATE LIMITED vs SHYAM SUNDER CHHABRA",
@@ -1658,7 +1676,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNTU5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-306-2023_61"
+          "id": "hr_reat_H-REAT-306-2023_60"
+        },
+        {
+          "title": "H-REAT-14-2026 — St. Patricks Realty Pvt. Ltd. vs AAKASH YADAV",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-14-2026_61"
         },
         {
           "title": "H-REAT-13-2026 — St. Patricks Realty Pvt. Ltd. vs RITU ANAND",
@@ -1670,22 +1697,40 @@
           "id": "hr_reat_H-REAT-13-2026_62"
         },
         {
+          "title": "H-REAT-15-2026 — St. Patricks Realty Pvt. Ltd. vs SUNIL KUMAR GUPTA",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-15-2026_63"
+        },
+        {
           "title": "H-REAT-11-2026 — St. Patricks Realty Pvt. Ltd. vs KUMAR ANIMESH",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-11-2026_63"
+          "id": "hr_reat_H-REAT-11-2026_64"
         },
         {
-          "title": "H-REAT-14-2026 — St. Patricks Realty Pvt. Ltd. vs AAKASH YADAV",
+          "title": "H-REAT-16-2026 — St. Patricks Realty Pvt. Ltd. vs YAMINI MEHRA",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY0",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDY2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-14-2026_64"
+          "id": "hr_reat_H-REAT-16-2026_65"
+        },
+        {
+          "title": "H-REAT-12-2026 — St. Patricks Realty Pvt. Ltd. vs ABHIGYAN SRIVASTAVA",
+          "date": "01 Jul 2026",
+          "date_iso": "2026-07-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzAxNDYy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-12-2026_66"
         }
       ]
     },
@@ -2002,7 +2047,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of AMISHI CONSUMER TECHNOLOGIES PRIVATE LIMITED [CP (IB)-469/ND/2025 ]",
+          "title": "In the matter of Creativity at Best Technologies Limited [C.P. (IB) 647/ND/2025]",
           "date": "02 Jul 2026",
           "date_iso": "2026-07-02",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2038,7 +2083,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of J AND K SYNTHETIC PRIVATE LIMITED [C.P. (IB) - 314/2023]",
+          "title": "In the matter of VMN STONES PRIVATE LIMITED [C.P. (IB)/111/JPR/2024]",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2056,7 +2101,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of VMN STONES PRIVATE LIMITED [C.P. (IB)/111/JPR/2024]",
+          "title": "In the matter of J AND K SYNTHETIC PRIVATE LIMITED [C.P. (IB) - 314/2023]",
           "date": "01 Jul 2026",
           "date_iso": "2026-07-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2334,7 +2379,7 @@
           "date": "02 Jul 2026",
           "date_iso": "2026-07-02",
           "page_url": "https://competition-cases.ec.europa.eu/cases/M.12308",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12308_196.pdf",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202628/M_12308_183.pdf",
           "has_pdf": true,
           "id": "eu_m_M_12308"
         }
@@ -2458,10 +2503,64 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 59,
-      "docs_with_pdf": 59,
+      "doc_count": 65,
+      "docs_with_pdf": 65,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "T 0417/25 — Remote controlled demolition robot",
+          "date": "17 Jul 2026",
+          "date_iso": "2026-07-17",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250417eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250417eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250417eu1"
+        },
+        {
+          "title": "T 1154/24 — VERFAHREN UND VORRICHTUNG ZUM ERKENNEN EINES TYPS EINER MOTORBETRIEBENEN BÜRSTE FÜR EINEN STAUBSAUGER, VERFAHREN UND VORRICHTUNG ZUM BETREIBEN EINES STAUBSAUGERS, MOTORBETRIEBENE BÜRSTE FÜR EINEN STAUBSAUGER UND STAUBSAUGER",
+          "date": "17 Jul 2026",
+          "date_iso": "2026-07-17",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241154du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241154du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241154du1"
+        },
+        {
+          "title": "T 0721/25 — Nachhaltige Wasch- und Reinigungsmittel",
+          "date": "17 Jul 2026",
+          "date_iso": "2026-07-17",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250721du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250721du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250721du1"
+        },
+        {
+          "title": "T 0907/24 — HALTEVORRICHTUNG FÜR EIN ANEMOMETER SOWIE RADIALGEBLÄSE",
+          "date": "17 Jul 2026",
+          "date_iso": "2026-07-17",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240907du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240907du1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240907du1"
+        },
+        {
+          "title": "R 0023/25 — ABSORBENT ARTICLE",
+          "date": "17 Jul 2026",
+          "date_iso": "2026-07-17",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/r250023eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/r250023eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_r250023eu1"
+        },
+        {
+          "title": "T 1276/24 — MOTOR-DRIVEN VACUUM CIRCUIT BREAKER",
+          "date": "17 Jul 2026",
+          "date_iso": "2026-07-17",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241276eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241276eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t241276eu1"
+        },
         {
           "title": "T 1450/24 — VERBUNDMATERIAL MIT EINER THERMOPLASTISCHEN FOLIE ZUR VERWENDUNG IN EINEM FUSSBODENPANEEL UND EIN VERFAHREN ZU DESSEN HERSTELLUNG",
           "date": "16 Jul 2026",
@@ -2670,15 +2769,6 @@
           "id": "epo_boa_r250022eu1"
         },
         {
-          "title": "T 0022/25 — Power control method, device and system for wind power station",
-          "date": "13 Jul 2026",
-          "date_iso": "2026-07-13",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250022eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250022eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t250022eu1"
-        },
-        {
           "title": "T 0461/25 — BÜRSTE FÜR EINE SCHALLZAHNBÜRSTE MIT LÄNGSACHSENSCHWINGUNG",
           "date": "13 Jul 2026",
           "date_iso": "2026-07-13",
@@ -2695,6 +2785,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241441du1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t241441du1"
+        },
+        {
+          "title": "T 0022/25 — Power control method, device and system for wind power station",
+          "date": "13 Jul 2026",
+          "date_iso": "2026-07-13",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t250022eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t250022eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t250022eu1"
         },
         {
           "title": "T 1131/24 — TRAINING OF COMPUTERIZED MODEL AND DETECTION OF A LIFE-THREATENING CONDITION USING THE TRAINED COMPUTERIZED MODEL",
@@ -2769,15 +2868,6 @@
           "id": "epo_boa_t240656eu1"
         },
         {
-          "title": "T 0733/24 — Identification of pathogens in body fluids",
-          "date": "10 Jul 2026",
-          "date_iso": "2026-07-10",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240733eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240733eu1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t240733eu1"
-        },
-        {
           "title": "T 1358/24 — METHOD AND APPARATUS FOR A HIGH RESOLUTION, HIGH SPEED RADIATION IMAGING",
           "date": "10 Jul 2026",
           "date_iso": "2026-07-10",
@@ -2785,6 +2875,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241358eu1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t241358eu1"
+        },
+        {
+          "title": "T 0733/24 — Identification of pathogens in body fluids",
+          "date": "10 Jul 2026",
+          "date_iso": "2026-07-10",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240733eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240733eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240733eu1"
         },
         {
           "title": "T 1249/24 — RAIL TRAIN BRAKE CONTROL SYSTEM AND TRAIN",
@@ -2814,15 +2913,6 @@
           "id": "epo_boa_t241473du1"
         },
         {
-          "title": "T 1230/24 — WÄSSRIGE BESCHICHTUNGSSTOFFE",
-          "date": "08 Jul 2026",
-          "date_iso": "2026-07-08",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241230du1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241230du1.pdf",
-          "has_pdf": true,
-          "id": "epo_boa_t241230du1"
-        },
-        {
           "title": "T 0038/25 — DAIRY PRODUCT AND PROCESSES",
           "date": "08 Jul 2026",
           "date_iso": "2026-07-08",
@@ -2832,13 +2922,13 @@
           "id": "epo_boa_t250038eu1"
         },
         {
-          "title": "T 0680/24 — METHOD OF PRODUCING CHEMICAL PULP AT A DIGESTER PLANT OF A CHEMICAL PULP MILL",
-          "date": "07 Jul 2026",
-          "date_iso": "2026-07-07",
-          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240680eu1",
-          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240680eu1.pdf",
+          "title": "T 1230/24 — WÄSSRIGE BESCHICHTUNGSSTOFFE",
+          "date": "08 Jul 2026",
+          "date_iso": "2026-07-08",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t241230du1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t241230du1.pdf",
           "has_pdf": true,
-          "id": "epo_boa_t240680eu1"
+          "id": "epo_boa_t241230du1"
         },
         {
           "title": "T 0922/24 — KANTENLEISTE",
@@ -2848,6 +2938,15 @@
           "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240922du1.pdf",
           "has_pdf": true,
           "id": "epo_boa_t240922du1"
+        },
+        {
+          "title": "T 0680/24 — METHOD OF PRODUCING CHEMICAL PULP AT A DIGESTER PLANT OF A CHEMICAL PULP MILL",
+          "date": "07 Jul 2026",
+          "date_iso": "2026-07-07",
+          "page_url": "https://www.epo.org/en/boards-of-appeal/decisions/t240680eu1",
+          "pdf_url": "https://www.epo.org/boards-of-appeal/decisions/pdf/t240680eu1.pdf",
+          "has_pdf": true,
+          "id": "epo_boa_t240680eu1"
         },
         {
           "title": "T 0427/25 — Elektromotorisch angetriebene Pumpe",
