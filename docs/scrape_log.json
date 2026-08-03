@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-08-03 15:07:30 UTC",
-  "finished_at": "2026-08-03 15:17:02 UTC",
-  "duration_seconds": 572.7,
+  "started_at": "2026-08-03 19:47:20 UTC",
+  "finished_at": "2026-08-03 19:57:03 UTC",
+  "duration_seconds": 583.6,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 8,
+  "sources_ok": 11,
   "sources_error": 8,
-  "sources_empty": 77,
-  "total_documents": 9,
-  "docs_with_pdf": 6,
-  "docs_without_pdf": 3,
+  "sources_empty": 74,
+  "total_documents": 13,
+  "docs_with_pdf": 7,
+  "docs_without_pdf": 6,
   "source_details": [
     {
       "key": "RHP",
@@ -42,12 +42,31 @@
       "label": "DRHP",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 2,
+      "documents": [
+        {
+          "title": "Veritas Finance Limited - DRHP",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/veritas-finance-limited-drhp_103304.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103304"
+        },
+        {
+          "title": "Hero Motors Limited - Corrigendum to DRHP",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/hero-motors-limited-corrigendum-to-drhp_103180.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103180"
+        }
+      ]
     },
     {
       "key": "RIGHTS_LOF",
@@ -186,12 +205,22 @@
       "label": "BSE_PLACEMENT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "P N Gadgil Jewellers Ltd – Placement Document",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/13361/QIP Open/PlacementDocument03082026_20260803234601.pdf",
+          "has_pdf": true,
+          "id": "place_p_n_gadgil_jewellers_ltd_2026-08-03"
+        }
+      ]
     },
     {
       "key": "BSE_PRELIMINARY",
@@ -1107,12 +1136,22 @@
       "label": "SEBI_CIRCULARS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "Extension of timeline for enrolment with PaRRVA as specified in SEBI Circular No. HO/38/14/(4)2026-MIRSD-POD/I/10557/2026 dated April 29, 2026",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/aug-2026/extension-of-timeline-for-enrolment-with-parrva-as-specified-in-sebi-circular-no-ho-38-14-4-2026-mirsd-pod-i-10557-2026-dated-april-29-2026_103314.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103314"
+        }
+      ]
     },
     {
       "key": "SEBI_FINAL_OFFER",
