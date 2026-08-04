@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-08-04 14:33:04 UTC",
-  "finished_at": "2026-08-04 14:42:46 UTC",
-  "duration_seconds": 581.7,
+  "started_at": "2026-08-04 19:46:17 UTC",
+  "finished_at": "2026-08-04 19:55:33 UTC",
+  "duration_seconds": 556.1,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 14,
-  "sources_error": 10,
+  "sources_ok": 16,
+  "sources_error": 8,
   "sources_empty": 69,
-  "total_documents": 23,
-  "docs_with_pdf": 11,
+  "total_documents": 26,
+  "docs_with_pdf": 14,
   "docs_without_pdf": 12,
   "source_details": [
     {
@@ -224,24 +224,53 @@
       "label": "BSE_PLACEMENT",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "The read operation timed out",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "P N Gadgil Jewellers Ltd – Placement Document",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/13361/QIP Open/PlacementDocument03082026_20260803234601.pdf",
+          "has_pdf": true,
+          "id": "place_p_n_gadgil_jewellers_ltd_2026-08-03"
+        }
+      ]
     },
     {
       "key": "BSE_PRELIMINARY",
       "label": "BSE_PRELIMINARY",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "The read operation timed out",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Globus Spirits Ltd – Draft Placement Document",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/9559/QIP Open/Project Elevate PPD Consolidated Public Filing Version_20260804213454.pdf",
+          "has_pdf": true,
+          "id": "prelim_globus_spirits_ltd_2026-08-04"
+        },
+        {
+          "title": "Arvind Ltd – Draft Placement Document",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/203/QIP Open/PPD Launch_20260803194015.pdf",
+          "has_pdf": true,
+          "id": "prelim_arvind_ltd_2026-08-03"
+        }
+      ]
     },
     {
       "key": "CCI_FORM1",
