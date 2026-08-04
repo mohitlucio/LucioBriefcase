@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-08-04 08:49:43 UTC",
-  "finished_at": "2026-08-04 08:59:26 UTC",
-  "duration_seconds": 583.9,
+  "started_at": "2026-08-04 14:33:04 UTC",
+  "finished_at": "2026-08-04 14:42:46 UTC",
+  "duration_seconds": 581.7,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 9,
-  "sources_error": 8,
-  "sources_empty": 76,
-  "total_documents": 12,
-  "docs_with_pdf": 7,
-  "docs_without_pdf": 5,
+  "sources_ok": 14,
+  "sources_error": 10,
+  "sources_empty": 69,
+  "total_documents": 23,
+  "docs_with_pdf": 11,
+  "docs_without_pdf": 12,
   "source_details": [
     {
       "key": "RHP",
@@ -51,12 +51,31 @@
       "label": "DRHP",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 2,
+      "documents": [
+        {
+          "title": "Veritas Finance Limited - DRHP",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/veritas-finance-limited-drhp_103304.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103304"
+        },
+        {
+          "title": "Hero Motors Limited - Corrigendum to DRHP",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/hero-motors-limited-corrigendum-to-drhp_103180.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103180"
+        }
+      ]
     },
     {
       "key": "RIGHTS_LOF",
@@ -183,56 +202,46 @@
       "label": "SEBI_CONSULT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "Consultation Paper on Issuance of Depository Receipts against units of REITs and Publicly Listed InvITs",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/consultation-paper-on-issuance-of-depository-receipts-against-units-of-reits-and-publicly-listed-invits_103343.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103343"
+        }
+      ]
     },
     {
       "key": "BSE_PLACEMENT",
       "label": "BSE_PLACEMENT",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "status": "error",
+      "error": "The read operation timed out",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "P N Gadgil Jewellers Ltd – Placement Document",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://www.bseindia.com/corporates/qip",
-          "pdf_url": "https://www.bseindia.com/corporates/download/13361/QIP Open/PlacementDocument03082026_20260803234601.pdf",
-          "has_pdf": true,
-          "id": "place_p_n_gadgil_jewellers_ltd_2026-08-03"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "BSE_PRELIMINARY",
       "label": "BSE_PRELIMINARY",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "status": "error",
+      "error": "The read operation timed out",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "Arvind Ltd – Draft Placement Document",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://www.bseindia.com/corporates/qip",
-          "pdf_url": "https://www.bseindia.com/corporates/download/203/QIP Open/PPD Launch_20260803194015.pdf",
-          "has_pdf": true,
-          "id": "prelim_arvind_ltd_2026-08-03"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "CCI_FORM1",
@@ -527,12 +536,22 @@
       "label": "IRDAI_CIRC",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "असम के चार ज़िलों को प्रभावित करने वाली प्राकृतिक आपदा के संबंध में परिपत्र / Circular on natural disaster affecting four districts of Assam",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://irdai.gov.in/circulars",
+          "pdf_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%85%E0%A4%B8%E0%A4%AE+%E0%A4%95%E0%A5%87+%E0%A4%9A%E0%A4%BE%E0%A4%B0+%E0%A4%9C%E0%A4%BC%E0%A4%BF%E0%A4%B2%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%8B+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AD%E0%A4%BE%E0%A4%B5%E0%A4%BF%E0%A4%A4+%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A5%87+%E0%A4%B5%E0%A4%BE%E0%A4%B2%E0%A5%80+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF%E0%A4%95+%E0%A4%86%E0%A4%AA%E0%A4%A6%E0%A4%BE+%E0%A4%95%E0%A5%87+%E0%A4%B8%E0%A4%82%E0%A4%AC%E0%A4%82%E0%A4%A7+%E0%A4%AE%E0%A5%87%E0%A4%82+%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+_+Circular+on+natural+disaster+affecting+four+districts+of+Assam.pdf/0264342d-3900-16f7-0e54-1be498c2aeb0?version=1.1&t=1785848026619&download=true",
+          "has_pdf": true,
+          "id": "irdai__________________________________________04-08-2026"
+        }
+      ]
     },
     {
       "key": "IRDAI_REGS",
@@ -609,19 +628,10 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
-        {
-          "title": "Order Complaint No. 549 of 2025",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_030826140154875.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_0"
-        },
         {
           "title": "Order Complaint No. 273 of 2025",
           "date": "03 Aug 2026",
@@ -629,7 +639,25 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_030826140033003.pdf",
           "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_0"
+        },
+        {
+          "title": "Order Complaint No. 551 of 2025",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_040826170315072.pdf",
+          "has_pdf": true,
           "id": "tgrera_TG_RERA_AUTH_1"
+        },
+        {
+          "title": "Order Complaint No. 549 of 2025",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_030826140154875.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_2"
         }
       ]
     },
@@ -885,12 +913,22 @@
       "label": "EU_FS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "[FS.100353] GBL / CVC / RECORDATI",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100353",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100353"
+        }
+      ]
     },
     {
       "key": "EPO_BOA",
@@ -1063,12 +1101,40 @@
       "label": "UK_EAT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Johnson and Johnson Medical Ltd v Mrs T Fayokun: [2026] EAT 118",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/johnson-and-johnson-medical-ltd-v-mrs-t-fayokun-2026-eat-118",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a71b3d72d9e185c82e5b493/Johnson_and_Johnson_Medical_Ltd_v_Mrs_T_Fayokun__2026__EAT_118.pdf",
+          "has_pdf": true,
+          "id": "govuk_johnson-and-johnson-medical-ltd-v-mrs-t-fayokun-2026-eat-118"
+        },
+        {
+          "title": "Fieldfisher LLP v Djamshid Rustambekov: [2026] EAT 99",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/fieldfisher-llp-v-djamshid-rustambekov-2026-eat-99",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a71b450aec8358a34958c1e/Fieldfisher_LLP_v_Djamshid_Rustambekov__2026__EAT_99.pdf",
+          "has_pdf": true,
+          "id": "govuk_decisions_fieldfisher-llp-v-djamshid-rustambekov-2026-eat-99"
+        },
+        {
+          "title": "University of Bristol v Dr David Miller: [2026] EAT 84",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/university-of-bristol-v-dr-david-miller-2026-eat-84",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a71b3b8331a9965a2ed46a9/University_of_Bristol_v_Dr_David_Miller__2026__EAT_84.pdf",
+          "has_pdf": true,
+          "id": "govuk_ecisions_university-of-bristol-v-dr-david-miller-2026-eat-84"
+        }
+      ]
     },
     {
       "key": "UK_ET_SCOT",
@@ -1099,12 +1165,22 @@
       "label": "UK_LAND",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Agincourt Investments Limited v Natasha Joy Williams & Ors",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukut/lc/2026/292",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-2787f7ef-c0f5-466e-8045-000720169a4b/d-2787f7ef-c0f5-466e-8045-000720169a4b.pdf",
+          "has_pdf": true,
+          "id": "na_292"
+        }
+      ]
     },
     {
       "key": "UK_TAX_CHANCERY",
@@ -1135,12 +1211,22 @@
       "label": "SEBI_CIRCULARS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "Extension of timeline for enrolment with PaRRVA as specified in SEBI Circular No. HO/38/14/(4)2026-MIRSD-POD/I/10557/2026 dated April 29, 2026",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/aug-2026/extension-of-timeline-for-enrolment-with-parrva-as-specified-in-sebi-circular-no-ho-38-14-4-2026-mirsd-pod-i-10557-2026-dated-april-29-2026_103314.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103314"
+        }
+      ]
     },
     {
       "key": "SEBI_FINAL_OFFER",
@@ -1149,10 +1235,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 3,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 3,
       "documents": [
+        {
+          "title": "MV Electrosystems Limited​ - Prospectus",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/mv-electrosystems-limited-prospectus_103331.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103331"
+        },
         {
           "title": "Manipal Health Enterprises Limited – Prospectus",
           "date": "03 Aug 2026",
@@ -1161,6 +1256,15 @@
           "pdf_url": "",
           "has_pdf": false,
           "id": "103300"
+        },
+        {
+          "title": "H.R. Hygiene Products Limited",
+          "date": "01 Aug 2026",
+          "date_iso": "2026-08-01",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/h-r-hygiene-products-limited_103341.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103341"
         }
       ]
     },
