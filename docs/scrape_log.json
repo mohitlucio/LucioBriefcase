@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-08-03 19:47:20 UTC",
-  "finished_at": "2026-08-03 19:57:03 UTC",
-  "duration_seconds": 583.6,
+  "started_at": "2026-08-04 03:25:52 UTC",
+  "finished_at": "2026-08-04 03:35:21 UTC",
+  "duration_seconds": 569.6,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_error": 8,
-  "sources_empty": 74,
-  "total_documents": 13,
+  "sources_empty": 75,
+  "total_documents": 11,
   "docs_with_pdf": 7,
-  "docs_without_pdf": 6,
+  "docs_without_pdf": 4,
   "source_details": [
     {
       "key": "RHP",
@@ -42,31 +42,12 @@
       "label": "DRHP",
       "category": "",
       "website_url": "",
-      "status": "ok",
+      "status": "empty",
       "error": null,
-      "doc_count": 2,
+      "doc_count": 0,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 2,
-      "documents": [
-        {
-          "title": "Veritas Finance Limited - DRHP",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/veritas-finance-limited-drhp_103304.html",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "103304"
-        },
-        {
-          "title": "Hero Motors Limited - Corrigendum to DRHP",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/hero-motors-limited-corrigendum-to-drhp_103180.html",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "103180"
-        }
-      ]
+      "docs_without_pdf": 0,
+      "documents": []
     },
     {
       "key": "RIGHTS_LOF",
