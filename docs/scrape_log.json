@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-08-04 03:25:52 UTC",
-  "finished_at": "2026-08-04 03:35:21 UTC",
-  "duration_seconds": 569.6,
+  "started_at": "2026-08-04 08:49:43 UTC",
+  "finished_at": "2026-08-04 08:59:26 UTC",
+  "duration_seconds": 583.9,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 10,
+  "sources_ok": 9,
   "sources_error": 8,
-  "sources_empty": 75,
-  "total_documents": 11,
+  "sources_empty": 76,
+  "total_documents": 12,
   "docs_with_pdf": 7,
-  "docs_without_pdf": 4,
+  "docs_without_pdf": 5,
   "source_details": [
     {
       "key": "RHP",
@@ -22,10 +22,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 2,
       "documents": [
+        {
+          "title": "Dhoot Transmission Limited - RHP",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/dhoot-transmission-limited-rhp_103333.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103333"
+        },
         {
           "title": "LEAP India Limited - RHP",
           "date": "03 Aug 2026",
@@ -823,10 +832,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 2,
       "documents": [
+        {
+          "title": "[M.12538] HIG EU MM LBO II / TERRAS",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12538",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12538"
+        },
         {
           "title": "[M.12536] TRITON / FLENDER",
           "date": "03 Aug 2026",
@@ -1117,22 +1135,12 @@
       "label": "SEBI_CIRCULARS",
       "category": "",
       "website_url": "",
-      "status": "ok",
+      "status": "empty",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 0,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
-      "documents": [
-        {
-          "title": "Extension of timeline for enrolment with PaRRVA as specified in SEBI Circular No. HO/38/14/(4)2026-MIRSD-POD/I/10557/2026 dated April 29, 2026",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://www.sebi.gov.in/legal/circulars/aug-2026/extension-of-timeline-for-enrolment-with-parrva-as-specified-in-sebi-circular-no-ho-38-14-4-2026-mirsd-pod-i-10557-2026-dated-april-29-2026_103314.html",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "103314"
-        }
-      ]
+      "docs_without_pdf": 0,
+      "documents": []
     },
     {
       "key": "SEBI_FINAL_OFFER",
