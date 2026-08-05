@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-08-05 03:20:53 UTC",
-  "finished_at": "2026-08-05 03:30:21 UTC",
-  "duration_seconds": 567.6,
+  "started_at": "2026-08-05 08:46:47 UTC",
+  "finished_at": "2026-08-05 08:56:19 UTC",
+  "duration_seconds": 571.4,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 16,
+  "sources_ok": 17,
   "sources_error": 8,
-  "sources_empty": 69,
-  "total_documents": 25,
-  "docs_with_pdf": 13,
+  "sources_empty": 68,
+  "total_documents": 26,
+  "docs_with_pdf": 14,
   "docs_without_pdf": 12,
   "source_details": [
     {
@@ -830,12 +830,22 @@
       "label": "TRAI_CON",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Consultation Paper on Draft Amendments in The Standards of Quality of Service of Access (Wireline and Wireless) and Broadband (Wireline and Wireless) Service Regulations, 2024",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://www.trai.gov.in/release-publication/consultation",
+          "pdf_url": "https://www.trai.gov.in/sites/default/files/2026-08/CP_05082026.pdf",
+          "has_pdf": true,
+          "id": "trai_con_consultation_paper_on_draft_amendments_i_2026-08-05"
+        }
+      ]
     },
     {
       "key": "CGST_CIRC",
