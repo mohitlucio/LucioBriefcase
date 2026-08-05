@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-08-04 19:46:17 UTC",
-  "finished_at": "2026-08-04 19:55:33 UTC",
-  "duration_seconds": 556.1,
+  "started_at": "2026-08-05 03:20:53 UTC",
+  "finished_at": "2026-08-05 03:30:21 UTC",
+  "duration_seconds": 567.6,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
@@ -11,8 +11,8 @@
   "sources_ok": 16,
   "sources_error": 8,
   "sources_empty": 69,
-  "total_documents": 26,
-  "docs_with_pdf": 14,
+  "total_documents": 25,
+  "docs_with_pdf": 13,
   "docs_without_pdf": 12,
   "source_details": [
     {
@@ -248,19 +248,10 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
       "documents": [
-        {
-          "title": "Globus Spirits Ltd – Draft Placement Document",
-          "date": "04 Aug 2026",
-          "date_iso": "2026-08-04",
-          "page_url": "https://www.bseindia.com/corporates/qip",
-          "pdf_url": "https://www.bseindia.com/corporates/download/9559/QIP Open/Project Elevate PPD Consolidated Public Filing Version_20260804213454.pdf",
-          "has_pdf": true,
-          "id": "prelim_globus_spirits_ltd_2026-08-04"
-        },
         {
           "title": "Arvind Ltd – Draft Placement Document",
           "date": "03 Aug 2026",
