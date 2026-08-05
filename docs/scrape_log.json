@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-08-05 08:46:47 UTC",
-  "finished_at": "2026-08-05 08:56:19 UTC",
-  "duration_seconds": 571.4,
+  "started_at": "2026-08-05 14:26:06 UTC",
+  "finished_at": "2026-08-05 14:35:45 UTC",
+  "duration_seconds": 579.8,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 17,
+  "sources_ok": 19,
   "sources_error": 8,
-  "sources_empty": 68,
-  "total_documents": 26,
-  "docs_with_pdf": 14,
-  "docs_without_pdf": 12,
+  "sources_empty": 66,
+  "total_documents": 34,
+  "docs_with_pdf": 21,
+  "docs_without_pdf": 13,
   "source_details": [
     {
       "key": "RHP",
@@ -248,10 +248,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Globus Spirits Ltd – Draft Placement Document",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/9559/QIP Open/Project_Elevate_PPD_August_4_2026_Final_20260805175719.pdf",
+          "has_pdf": true,
+          "id": "prelim_globus_spirits_ltd_2026-08-04"
+        },
         {
           "title": "Arvind Ltd – Draft Placement Document",
           "date": "03 Aug 2026",
@@ -592,10 +601,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[20260805-4] Issue of EURO 8,000,000 6.00 per cent Notes due 2032 by Annapurna Finance Private Limited",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
+          "pdf_url": "https://www.indiainx.com/circulars/20260805-4/20260805-4.pdf",
+          "has_pdf": true,
+          "id": "inx_circ_20260805-4"
+        },
         {
           "title": "[20260803-1] Issue of U.S.$20,000,000 Floating Rate Notes due 2031 under the U.S.$4,000,000,000 Medium Term Note Programme by HDFC Bank Limited acting through its GIFT-City Branch",
           "date": "03 Aug 2026",
@@ -614,10 +632,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Annapurna Finance Private Limited — EURO 8,000,000 6.00 per cent Notes due 2032",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/INIFD2205034_05082026.pdf",
+          "has_pdf": true,
+          "id": "inx_iss_euro_8_000_000_6_00_per_cent_n_2026-08-05"
+        },
         {
           "title": "HDFC Bank Limited — U.S.$20,000,000 Floating Rate Notes due 2031 under MTN Programme",
           "date": "03 Aug 2026",
@@ -666,7 +693,7 @@
           "date": "03 Aug 2026",
           "date_iso": "2026-08-03",
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_040826170315072.pdf",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_050826151024016.pdf",
           "has_pdf": true,
           "id": "tgrera_TG_RERA_AUTH_1"
         },
@@ -770,12 +797,22 @@
       "label": "HR_REAT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "H-REAT-397-2024 — BHRIGU NAGAL AND ANOTHER vs VARALI PROPERTIES LIMITED",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA2Mzk2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-397-2024_0"
+        }
+      ]
     },
     {
       "key": "DL_REAT",
@@ -945,10 +982,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 2,
       "documents": [
+        {
+          "title": "[FS.100346] ZURICH / BEAZLEY",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100346",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100346"
+        },
         {
           "title": "[FS.100353] GBL / CVC / RECORDATI",
           "date": "04 Aug 2026",
@@ -1087,10 +1133,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "17207725 Or Brook Class Representative Limited v Google Inc & Others - Judgment (Certification)",
+          "date": "5 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-08/17207725%20Or%20Brook%20Class%20Representative%20Limited%20v%20Google%20Inc%20%26%20Others%20-%20Judgment%20%28Certification%29%20%205%20Aug%202026%20.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-08_17207725_Or_Brook_Class_Representative_L"
+        },
         {
           "title": "17025725 (T) Lenzing AG and Others v Westlake Vinnolit GmbH & Co. KG and Others  - Ruling (CMC-3)",
           "date": "03 Aug 2026",
@@ -1133,10 +1188,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Mr J Edward v North London NHS Foundation Trust:  [2026] EAT 116",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/mr-j-edward-v-north-london-nhs-foundation-trust-2026-eat-116",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a72fbbadc689ac736a47706/Mr_J_Edward_v_North_London_NHS_Foundation_Trust__2026__EAT_116.pdf",
+          "has_pdf": true,
+          "id": "govuk_mr-j-edward-v-north-london-nhs-foundation-trust-2026-eat-116"
+        },
         {
           "title": "Johnson and Johnson Medical Ltd v Mrs T Fayokun: [2026] EAT 118",
           "date": "04 Aug 2026",
@@ -1217,12 +1281,22 @@
       "label": "UK_TAX_CHANCERY",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[2026] UKUT 00297 (TCC)  Michael Stefan Duma v HMRC",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/2026-ukut-00297-tcc-michael-stefan-duma-v-hmrc",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a732c04ab347c55ff76397c/Michael_Stefan_Duma_Oral_Renewal_PTA_Decision.pdf",
+          "has_pdf": true,
+          "id": "govuk_nal-decisions_2026-ukut-00297-tcc-michael-stefan-duma-v-hmrc"
+        }
+      ]
     },
     {
       "key": "UK_TAX_FTT",
