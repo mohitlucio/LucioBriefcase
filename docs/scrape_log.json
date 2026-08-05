@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-08-05 14:26:06 UTC",
-  "finished_at": "2026-08-05 14:35:45 UTC",
-  "duration_seconds": 579.8,
+  "started_at": "2026-08-05 19:46:08 UTC",
+  "finished_at": "2026-08-05 19:55:29 UTC",
+  "duration_seconds": 560.3,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
@@ -11,8 +11,8 @@
   "sources_ok": 19,
   "sources_error": 8,
   "sources_empty": 66,
-  "total_documents": 34,
-  "docs_with_pdf": 21,
+  "total_documents": 37,
+  "docs_with_pdf": 24,
   "docs_without_pdf": 13,
   "source_details": [
     {
@@ -58,10 +58,10 @@
       "docs_without_pdf": 2,
       "documents": [
         {
-          "title": "Veritas Finance Limited - DRHP",
+          "title": "Veritas Finance Limited - RHP",
           "date": "03 Aug 2026",
           "date_iso": "2026-08-03",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/veritas-finance-limited-drhp_103304.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/veritas-finance-limited-rhp_103304.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "103304"
@@ -226,10 +226,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Arvind Ltd – Placement Document",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/203/QIP Open/Arivind PD_20260805203010.pdf",
+          "has_pdf": true,
+          "id": "place_arvind_ltd_2026-08-05"
+        },
         {
           "title": "P N Gadgil Jewellers Ltd – Placement Document",
           "date": "03 Aug 2026",
@@ -927,10 +936,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 0,
+      "doc_count": 3,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 2,
       "documents": [
+        {
+          "title": "[M.12472] STRABAG / ABERDEEN / MAK",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12472",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12472"
+        },
         {
           "title": "[M.12538] HIG EU MM LBO II / TERRAS",
           "date": "03 Aug 2026",
@@ -945,8 +963,8 @@
           "date": "03 Aug 2026",
           "date_iso": "2026-08-03",
           "page_url": "https://competition-cases.ec.europa.eu/cases/M.12536",
-          "pdf_url": "",
-          "has_pdf": false,
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202632/M_12536_46.pdf",
+          "has_pdf": true,
           "id": "eu_m_M_12536"
         }
       ]
@@ -1261,10 +1279,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Domus Living Limited v Edward VII Estates Limited",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukut/lc/2026/287",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-a1c24681-62c9-4bc1-a37e-731f707bbca5/d-a1c24681-62c9-4bc1-a37e-731f707bbca5.pdf",
+          "has_pdf": true,
+          "id": "na_287"
+        },
         {
           "title": "Agincourt Investments Limited v Natasha Joy Williams & Ors",
           "date": "03 Aug 2026",
