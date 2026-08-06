@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-08-06 08:48:35 UTC",
-  "finished_at": "2026-08-06 08:58:17 UTC",
-  "duration_seconds": 582.4,
+  "started_at": "2026-08-06 14:29:03 UTC",
+  "finished_at": "2026-08-06 14:38:34 UTC",
+  "duration_seconds": 570.8,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 20,
+  "sources_ok": 22,
   "sources_error": 8,
-  "sources_empty": 65,
-  "total_documents": 41,
-  "docs_with_pdf": 26,
-  "docs_without_pdf": 15,
+  "sources_empty": 63,
+  "total_documents": 52,
+  "docs_with_pdf": 33,
+  "docs_without_pdf": 19,
   "source_details": [
     {
       "key": "RHP",
@@ -222,10 +222,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 3,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 3,
       "documents": [
+        {
+          "title": "Consultation Paper on Measures for ease of doing business on Settlement and Risk Management provisions for Clearing Corporations",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
+          "page_url": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/consultation-paper-on-measures-for-ease-of-doing-business-on-settlement-and-risk-management-provisions-for-clearing-corporations_103412.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103412"
+        },
+        {
+          "title": "Consultation Paper On Measures Towards Ease Of Doing Business For REIT And InvITs",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
+          "page_url": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/consultation-paper-on-measures-towards-ease-of-doing-business-for-reit-and-invits_103401.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103401"
+        },
         {
           "title": "Consultation Paper on Issuance of Depository Receipts against units of REITs and Publicly Listed InvITs",
           "date": "04 Aug 2026",
@@ -376,12 +394,22 @@
       "label": "CCI_ANTI_S26_2",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[08 of 2026] Ms. Meher Mansi Tatineni and Hensel Electric India Private Limited",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://www.cci.gov.in/antitrust/orders",
+          "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1786019488.pdf",
+          "has_pdf": true,
+          "id": "cci_anti_7_08_of_2026"
+        }
+      ]
     },
     {
       "key": "CCI_ANTI_S26_6",
@@ -942,14 +970,32 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
       "documents": [
         {
           "title": "In the matter of SUN GRANITE EXPORT LIMITED [CP (IB) No. 14/C8/2026]",
           "date": "05 Aug 2026",
           "date_iso": "2026-08-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of G & L PROFILE AND EQUIPMENTS PRIVATE LIMITED [C.P. (IB)/22/AHM/2026]",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of SOCRUS PHARMACEUTICALS LIMITED [CP(IB)/47(MP)2026]",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "has_pdf": true,
@@ -973,9 +1019,9 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
+      "doc_count": 5,
       "docs_with_pdf": 1,
-      "docs_without_pdf": 2,
+      "docs_without_pdf": 4,
       "documents": [
         {
           "title": "[M.12472] STRABAG / ABERDEEN / MAK",
@@ -985,6 +1031,24 @@
           "pdf_url": "",
           "has_pdf": false,
           "id": "eu_m_M_12472"
+        },
+        {
+          "title": "[M.12454] ELECTROLUX / MIDEA / JVs",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12454",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12454"
+        },
+        {
+          "title": "[M.12508] IGA HOLDING / UNIFREE / JV",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12508",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12508"
         },
         {
           "title": "[M.12538] HIG EU MM LBO II / TERRAS",
@@ -1316,10 +1380,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "House for Homes Limited v London Borough of Waltham Forest",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukut/lc/2026/296",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-09358231-2402-4a20-86a3-758fceab2452/d-09358231-2402-4a20-86a3-758fceab2452.pdf",
+          "has_pdf": true,
+          "id": "na_296"
+        },
         {
           "title": "Domus Living Limited v Edward VII Estates Limited",
           "date": "05 Aug 2026",
@@ -1347,10 +1420,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[2026] UKUT 00300 (TCC)  HMRC v Quillan",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/2026-ukut-00300-tcc-hmrc-v-quillan",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a746758b5e7ebeb99366221/HMRC_v_Gary_Quillan_final_decison_for_issue_to_parties_and_publication___002_.pdf",
+          "has_pdf": true,
+          "id": "govuk_ancery-tribunal-decisions_2026-ukut-00300-tcc-hmrc-v-quillan"
+        },
         {
           "title": "[2026] UKUT 00297 (TCC)  Michael Stefan Duma v HMRC",
           "date": "05 Aug 2026",
@@ -1367,12 +1449,31 @@
       "label": "UK_TAX_FTT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Andrew Burridge v The Commissioners for HMRC",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1127",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-8a5112e7-7e52-4668-9934-6f180141d085/d-8a5112e7-7e52-4668-9934-6f180141d085.pdf",
+          "has_pdf": true,
+          "id": "na_1127"
+        },
+        {
+          "title": "Tapi Carpets Limited v The Commissioners for HMRC",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1128",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-3a74d3b8-ea66-4e9b-9f78-01e31324111d/d-3a74d3b8-ea66-4e9b-9f78-01e31324111d.pdf",
+          "has_pdf": true,
+          "id": "na_1128"
+        }
+      ]
     },
     {
       "key": "SEBI_CIRCULARS",
