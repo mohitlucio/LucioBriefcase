@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-08-06 14:29:03 UTC",
-  "finished_at": "2026-08-06 14:38:34 UTC",
-  "duration_seconds": 570.8,
+  "started_at": "2026-08-07 00:09:21 UTC",
+  "finished_at": "2026-08-07 00:18:54 UTC",
+  "duration_seconds": 573.4,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
@@ -9,10 +9,10 @@
   "total_sources": 93,
   "sources_scraped": 93,
   "sources_ok": 22,
-  "sources_error": 8,
-  "sources_empty": 63,
-  "total_documents": 52,
-  "docs_with_pdf": 33,
+  "sources_error": 11,
+  "sources_empty": 60,
+  "total_documents": 55,
+  "docs_with_pdf": 36,
   "docs_without_pdf": 19,
   "source_details": [
     {
@@ -76,10 +76,10 @@
           "id": "103353"
         },
         {
-          "title": "Veritas Finance Limited - RHP",
+          "title": "Veritas Finance Limited - DRHP",
           "date": "03 Aug 2026",
           "date_iso": "2026-08-03",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/veritas-finance-limited-rhp_103304.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/veritas-finance-limited-drhp_103304.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "103304"
@@ -262,10 +262,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Globus Spirits Ltd – Placement Document",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/9559/QIP Open/GSLFinalPD06thAUG2026_20260806201508.pdf",
+          "has_pdf": true,
+          "id": "place_globus_spirits_ltd_2026-08-06"
+        },
         {
           "title": "Arvind Ltd – Placement Document",
           "date": "05 Aug 2026",
@@ -524,8 +533,8 @@
       "label": "RBI_MD_SFB",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 502: Bad Gateway",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -572,8 +581,8 @@
       "label": "RBI_MD_UCB",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 502: Bad Gateway",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -596,8 +605,8 @@
       "label": "RBI_MD_AIFI",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 502: Bad Gateway",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1019,10 +1028,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 5,
-      "docs_with_pdf": 1,
+      "doc_count": 6,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 4,
       "documents": [
+        {
+          "title": "[M.12427] APOLLO FUNDS / KKR / ATLANTIC AVIATION HOLDINGS",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12427",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202632/M_12427_90.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12427"
+        },
         {
           "title": "[M.12472] STRABAG / ABERDEEN / MAK",
           "date": "05 Aug 2026",
@@ -1380,8 +1398,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -1392,6 +1410,15 @@
           "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-09358231-2402-4a20-86a3-758fceab2452/d-09358231-2402-4a20-86a3-758fceab2452.pdf",
           "has_pdf": true,
           "id": "na_296"
+        },
+        {
+          "title": "Reshma Tachkani v Thornfield Hawley Management Company Limited",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukut/lc/2026/295",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-fb2b10e0-1260-4a11-9cf8-b1d74da37c6c/d-fb2b10e0-1260-4a11-9cf8-b1d74da37c6c.pdf",
+          "has_pdf": true,
+          "id": "na_295"
         },
         {
           "title": "Domus Living Limited v Edward VII Estates Limited",
