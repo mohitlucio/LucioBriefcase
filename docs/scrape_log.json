@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-08-07 00:09:21 UTC",
-  "finished_at": "2026-08-07 00:18:54 UTC",
-  "duration_seconds": 573.4,
+  "started_at": "2026-08-07 07:35:09 UTC",
+  "finished_at": "2026-08-07 07:44:49 UTC",
+  "duration_seconds": 580.7,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
@@ -9,11 +9,11 @@
   "total_sources": 93,
   "sources_scraped": 93,
   "sources_ok": 22,
-  "sources_error": 11,
-  "sources_empty": 60,
-  "total_documents": 55,
-  "docs_with_pdf": 36,
-  "docs_without_pdf": 19,
+  "sources_error": 8,
+  "sources_empty": 63,
+  "total_documents": 66,
+  "docs_with_pdf": 43,
+  "docs_without_pdf": 23,
   "source_details": [
     {
       "key": "RHP",
@@ -22,10 +22,46 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
+      "doc_count": 6,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 2,
+      "docs_without_pdf": 6,
       "documents": [
+        {
+          "title": "SHIPROCKET LIMITED - RHP",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/shiprocket-limited-rhp_103432.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103432"
+        },
+        {
+          "title": "Molbio Diagnostics Limited - Addendum to RHP",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/molbio-diagnostics-limited-addendum-to-rhp_103430.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103430"
+        },
+        {
+          "title": "Molbio Diagnostics Limited - Red Herring Prospectus",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/molbio-diagnostics-limited-red-herring-prospectus_103428.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103428"
+        },
+        {
+          "title": "LEAP India Limited - Addendum cum Corrigendum",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/leap-india-limited-addendum-cum-corrigendum_103427.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103427"
+        },
         {
           "title": "Dhoot Transmission Limited - RHP",
           "date": "04 Aug 2026",
@@ -76,10 +112,10 @@
           "id": "103353"
         },
         {
-          "title": "Veritas Finance Limited - DRHP",
+          "title": "Veritas Finance Limited - RHP",
           "date": "03 Aug 2026",
           "date_iso": "2026-08-03",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/veritas-finance-limited-drhp_103304.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/veritas-finance-limited-rhp_103304.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "103304"
@@ -410,13 +446,13 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "[08 of 2026] Ms. Meher Mansi Tatineni and Hensel Electric India Private Limited",
+          "title": "[08/2026] Ms. Meher Mansi Tatineni and Hensel Electric India Private Limited",
           "date": "05 Aug 2026",
           "date_iso": "2026-08-05",
           "page_url": "https://www.cci.gov.in/antitrust/orders",
           "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1786019488.pdf",
           "has_pdf": true,
-          "id": "cci_anti_7_08_of_2026"
+          "id": "cci_anti_7_08_2026"
         }
       ]
     },
@@ -533,8 +569,8 @@
       "label": "RBI_MD_SFB",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 502: Bad Gateway",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -581,8 +617,8 @@
       "label": "RBI_MD_UCB",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 502: Bad Gateway",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -605,8 +641,8 @@
       "label": "RBI_MD_AIFI",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 502: Bad Gateway",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -739,27 +775,63 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "doc_count": 9,
+      "docs_with_pdf": 9,
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "Order Complaint No. 273 of 2025",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
+          "title": "Order Complaint No. 828 of 2025",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_030826140033003.pdf",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826122858213.pdf",
           "has_pdf": true,
           "id": "tgrera_TG_RERA_AUTH_0"
         },
         {
-          "title": "Order Complaint No. 551 of 2025",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
+          "title": "Order Complaint No. 698 of 2025",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_050826151024016.pdf",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826122510896.pdf",
           "has_pdf": true,
           "id": "tgrera_TG_RERA_AUTH_1"
+        },
+        {
+          "title": "Order Complaint No. 271 of 2024",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826122417494.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_2"
+        },
+        {
+          "title": "Order Complaint No. 872 of 2025",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826122756313.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_3"
+        },
+        {
+          "title": "Order Complaint No. 836 of 2025",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826123102629.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_4"
+        },
+        {
+          "title": "Order Complaint No. 835 of 2025",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826123004245.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_5"
         },
         {
           "title": "Order Complaint No. 549 of 2025",
@@ -768,7 +840,25 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_030826140154875.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_2"
+          "id": "tgrera_TG_RERA_AUTH_6"
+        },
+        {
+          "title": "Order Complaint No. 551 of 2025",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_050826151024016.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_7"
+        },
+        {
+          "title": "Order Complaint No. 273 of 2025",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_030826140033003.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_8"
         }
       ]
     },
@@ -863,8 +953,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -875,6 +965,15 @@
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA2Mzk2",
           "has_pdf": true,
           "id": "hr_reat_H-REAT-397-2024_0"
+        },
+        {
+          "title": "H-REAT-1260-2025 — Amrita Nakai vs SPLENDOR LANDBASE LTD",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA2ODIz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1260-2025_1"
         }
       ]
     },
