@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-08-08 02:07:20 UTC",
-  "finished_at": "2026-08-08 02:16:37 UTC",
-  "duration_seconds": 556.2,
+  "started_at": "2026-08-08 07:04:26 UTC",
+  "finished_at": "2026-08-08 07:13:55 UTC",
+  "duration_seconds": 568.8,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 22,
-  "sources_error": 10,
+  "sources_ok": 24,
+  "sources_error": 8,
   "sources_empty": 61,
-  "total_documents": 80,
-  "docs_with_pdf": 56,
+  "total_documents": 85,
+  "docs_with_pdf": 61,
   "docs_without_pdf": 24,
   "source_details": [
     {
@@ -112,10 +112,10 @@
           "id": "103353"
         },
         {
-          "title": "Veritas Finance Limited - DRHP",
+          "title": "Veritas Finance Limited - RHP",
           "date": "03 Aug 2026",
           "date_iso": "2026-08-03",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/veritas-finance-limited-drhp_103304.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/veritas-finance-limited-rhp_103304.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "103304"
@@ -296,24 +296,71 @@
       "label": "BSE_PLACEMENT",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "Expecting value: line 3 column 1 (char 4)",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Globus Spirits Ltd – Placement Document",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/9559/QIP Open/GSLFinalPD06thAUG2026_20260806201508.pdf",
+          "has_pdf": true,
+          "id": "place_globus_spirits_ltd_2026-08-06"
+        },
+        {
+          "title": "Arvind Ltd – Placement Document",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/203/QIP Open/Arivind PD_20260805203010.pdf",
+          "has_pdf": true,
+          "id": "place_arvind_ltd_2026-08-05"
+        },
+        {
+          "title": "P N Gadgil Jewellers Ltd – Placement Document",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/13361/QIP Open/PlacementDocument03082026_20260803234601.pdf",
+          "has_pdf": true,
+          "id": "place_p_n_gadgil_jewellers_ltd_2026-08-03"
+        }
+      ]
     },
     {
       "key": "BSE_PRELIMINARY",
       "label": "BSE_PRELIMINARY",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "Expecting value: line 3 column 1 (char 4)",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Globus Spirits Ltd – Draft Placement Document",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/9559/QIP Open/Project_Elevate_PPD_August_4_2026_Final_20260805175719.pdf",
+          "has_pdf": true,
+          "id": "prelim_globus_spirits_ltd_2026-08-04"
+        },
+        {
+          "title": "Arvind Ltd – Draft Placement Document",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/203/QIP Open/PPD Launch_20260803194015.pdf",
+          "has_pdf": true,
+          "id": "prelim_arvind_ltd_2026-08-03"
+        }
+      ]
     },
     {
       "key": "CCI_FORM1",
@@ -1135,7 +1182,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of SOCRUS PHARMACEUTICALS LIMITED [CP(IB)/47(MP)2026]",
+          "title": "In the matter of G & L PROFILE AND EQUIPMENTS PRIVATE LIMITED [C.P. (IB)/22/AHM/2026]",
           "date": "04 Aug 2026",
           "date_iso": "2026-08-04",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1144,7 +1191,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of G & L PROFILE AND EQUIPMENTS PRIVATE LIMITED [C.P. (IB)/22/AHM/2026]",
+          "title": "In the matter of SOCRUS PHARMACEUTICALS LIMITED [CP(IB)/47(MP)2026]",
           "date": "04 Aug 2026",
           "date_iso": "2026-08-04",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
