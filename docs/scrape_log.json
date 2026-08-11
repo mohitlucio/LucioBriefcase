@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-08-10 19:06:05 UTC",
-  "finished_at": "2026-08-10 19:16:07 UTC",
-  "duration_seconds": 601.3,
+  "started_at": "2026-08-11 02:17:16 UTC",
+  "finished_at": "2026-08-11 02:26:39 UTC",
+  "duration_seconds": 563.6,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 27,
+  "sources_ok": 26,
   "sources_error": 8,
-  "sources_empty": 58,
-  "total_documents": 110,
-  "docs_with_pdf": 79,
-  "docs_without_pdf": 31,
+  "sources_empty": 59,
+  "total_documents": 99,
+  "docs_with_pdf": 73,
+  "docs_without_pdf": 26,
   "source_details": [
     {
       "key": "RHP",
@@ -1050,22 +1050,22 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "H-REAT-945-2025 — BPTP Limited vs SANTOSH MUTHOO AND VINOD KUMAR MUTHOO",
-          "date": "06 Aug 2026",
-          "date_iso": "2026-08-06",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA2OTQ4",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-945-2025_0"
-        },
-        {
           "title": "H-REAT-1120-2025 — M/s BPTP Limited vs ASHISH POWARI",
           "date": "06 Aug 2026",
           "date_iso": "2026-08-06",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA2OTQ3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1120-2025_1"
+          "id": "hr_reat_H-REAT-1120-2025_0"
+        },
+        {
+          "title": "H-REAT-945-2025 — BPTP Limited vs SANTOSH MUTHOO AND VINOD KUMAR MUTHOO",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA2OTQ4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-945-2025_1"
         },
         {
           "title": "H-REAT-397-2024 — BHRIGU NAGAL AND ANOTHER vs VARALI PROPERTIES LIMITED",
@@ -1203,7 +1203,7 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "In the matter of Matoshree Infrastructure Private Limited [C.P. (IB)/824/MB/2025]",
+          "title": "In the matter of TULSI SPICES AND FOODS PRIVATE LIMITED [CP/IB(IBC)/20/CB/2026]",
           "date": "05 Aug 2026",
           "date_iso": "2026-08-05",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1221,6 +1221,15 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
+          "title": "In the matter of SUN GRANITE EXPORT LIMITED [CP (IB) No. 14/C8/2026]",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
           "title": "In the matter of Shree Nagai Devi Sugar Private Limited [C.P. (IB)/917/MB/2025]",
           "date": "05 Aug 2026",
           "date_iso": "2026-08-05",
@@ -1230,7 +1239,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of TULSI SPICES AND FOODS PRIVATE LIMITED [CP/IB(IBC)/20/CB/2026]",
+          "title": "In the matter of Matoshree Infrastructure Private Limited [C.P. (IB)/824/MB/2025]",
           "date": "05 Aug 2026",
           "date_iso": "2026-08-05",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1248,15 +1257,6 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of SUN GRANITE EXPORT LIMITED [CP (IB) No. 14/C8/2026]",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
           "title": "In the matter of ARTHUR TURNKEY PROJECTS LIMITED [CP IB (IBC) 123/KB/2026]",
           "date": "04 Aug 2026",
           "date_iso": "2026-08-04",
@@ -1266,7 +1266,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of G & L PROFILE AND EQUIPMENTS PRIVATE LIMITED [C.P. (IB)/22/AHM/2026]",
+          "title": "In the matter of SOCRUS PHARMACEUTICALS LIMITED [CP(IB)/47(MP)2026]",
           "date": "04 Aug 2026",
           "date_iso": "2026-08-04",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1284,7 +1284,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of SOCRUS PHARMACEUTICALS LIMITED [CP(IB)/47(MP)2026]",
+          "title": "In the matter of G & L PROFILE AND EQUIPMENTS PRIVATE LIMITED [C.P. (IB)/22/AHM/2026]",
           "date": "04 Aug 2026",
           "date_iso": "2026-08-04",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1308,112 +1308,12 @@
       "label": "EU_MERGER",
       "category": "",
       "website_url": "",
-      "status": "ok",
+      "status": "empty",
       "error": null,
-      "doc_count": 11,
-      "docs_with_pdf": 6,
-      "docs_without_pdf": 5,
-      "documents": [
-        {
-          "title": "[M.12503] GAHL / MERCEDES-BENZ (CERTAIN ASSETS)",
-          "date": "07 Aug 2026",
-          "date_iso": "2026-08-07",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12503",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202633/M_12503_71.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12503"
-        },
-        {
-          "title": "[M.12451] KHAZNA / ENI / JV",
-          "date": "07 Aug 2026",
-          "date_iso": "2026-08-07",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12451",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202633/M_12451_69.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12451"
-        },
-        {
-          "title": "[M.12479] GBL / CVC / RECORDATI",
-          "date": "07 Aug 2026",
-          "date_iso": "2026-08-07",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12479",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12479"
-        },
-        {
-          "title": "[M.12496] NASPERS / EMAG",
-          "date": "06 Aug 2026",
-          "date_iso": "2026-08-06",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12496",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12496"
-        },
-        {
-          "title": "[M.12427] APOLLO FUNDS / KKR / ATLANTIC AVIATION HOLDINGS",
-          "date": "06 Aug 2026",
-          "date_iso": "2026-08-06",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12427",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202632/M_12427_90.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12427"
-        },
-        {
-          "title": "[M.12472] STRABAG / ABERDEEN / MAK",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12472",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12472"
-        },
-        {
-          "title": "[M.12454] ELECTROLUX / MIDEA / JVs",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12454",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202632/M_12454_110.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12454"
-        },
-        {
-          "title": "[M.12508] IGA HOLDING / UNIFREE / JV",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12508",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12508"
-        },
-        {
-          "title": "[M.12538] HIG EU MM LBO II / TERRAS",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12538",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202632/M_12538_48.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12538"
-        },
-        {
-          "title": "[M.12536] TRITON / FLENDER",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12536",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202632/M_12536_46.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12536"
-        },
-        {
-          "title": "[M.11811] TIL / HUTCHISON PORTS / TERCAT",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.11811",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_11811"
-        }
-      ]
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
     },
     {
       "key": "EU_ANTITRUST",
