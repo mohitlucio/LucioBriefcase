@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-08-11 13:21:38 UTC",
-  "finished_at": "2026-08-11 13:31:10 UTC",
-  "duration_seconds": 572.0,
+  "started_at": "2026-08-11 19:12:13 UTC",
+  "finished_at": "2026-08-11 19:22:20 UTC",
+  "duration_seconds": 607.6,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 26,
+  "sources_ok": 28,
   "sources_error": 8,
-  "sources_empty": 59,
-  "total_documents": 109,
-  "docs_with_pdf": 81,
-  "docs_without_pdf": 28,
+  "sources_empty": 57,
+  "total_documents": 127,
+  "docs_with_pdf": 91,
+  "docs_without_pdf": 36,
   "source_details": [
     {
       "key": "RHP",
@@ -833,10 +833,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Bank of Baroda — U.S.$4,000,000,000 Medium Term Note Programme Supplementary Offering Circular",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/OfferingCircular11082026.pdf",
+          "has_pdf": true,
+          "id": "inx_iss_u_s__4_000_000_000_medium_term_2026-08-11"
+        },
         {
           "title": "Annapurna Finance Private Limited — EURO 8,000,000 6.00 per cent Notes due 2032",
           "date": "05 Aug 2026",
@@ -1398,12 +1407,130 @@
       "label": "EU_MERGER",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "doc_count": 13,
+      "docs_with_pdf": 9,
+      "docs_without_pdf": 4,
+      "documents": [
+        {
+          "title": "[M.12394] CPPIB / EQUINIX / ATNORTH",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12394",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12394"
+        },
+        {
+          "title": "[M.12553] INTEROGO / RMS",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12553",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12553"
+        },
+        {
+          "title": "[M.12503] GAHL / MERCEDES-BENZ (CERTAIN ASSETS)",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12503",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202633/M_12503_71.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12503"
+        },
+        {
+          "title": "[M.12451] KHAZNA / ENI / JV",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12451",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202633/M_12451_69.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12451"
+        },
+        {
+          "title": "[M.12479] GBL / CVC / RECORDATI",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12479",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12479"
+        },
+        {
+          "title": "[M.12496] NASPERS / EMAG",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12496",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202633/M_12496_81.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12496"
+        },
+        {
+          "title": "[M.12427] APOLLO FUNDS / KKR / ATLANTIC AVIATION HOLDINGS",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12427",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202632/M_12427_90.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12427"
+        },
+        {
+          "title": "[M.12454] ELECTROLUX / MIDEA / JVs",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12454",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202632/M_12454_110.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12454"
+        },
+        {
+          "title": "[M.12472] STRABAG / ABERDEEN / MAK",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12472",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202633/M_12472_83.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12472"
+        },
+        {
+          "title": "[M.12508] IGA HOLDING / UNIFREE / JV",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12508",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202633/M_12508_63.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12508"
+        },
+        {
+          "title": "[M.12538] HIG EU MM LBO II / TERRAS",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12538",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202632/M_12538_48.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12538"
+        },
+        {
+          "title": "[M.12536] TRITON / FLENDER",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12536",
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202632/M_12536_46.pdf",
+          "has_pdf": true,
+          "id": "eu_m_M_12536"
+        },
+        {
+          "title": "[M.11811] TIL / HUTCHISON PORTS / TERCAT",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.11811",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_11811"
+        }
+      ]
     },
     {
       "key": "EU_ANTITRUST",
@@ -1434,12 +1561,49 @@
       "label": "EU_FS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 4,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 4,
+      "documents": [
+        {
+          "title": "[FS.100352] ARUM / BF",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100352",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100352"
+        },
+        {
+          "title": "[FS.100350] APOLLO FUNDS / FORVIA AUTOMOTIVE INTERIORS BUSINESS",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100350",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100350"
+        },
+        {
+          "title": "[FS.100346] ZURICH / BEAZLEY",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100346",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100346"
+        },
+        {
+          "title": "[FS.100353] GBL / CVC / RECORDATI",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100353",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100353"
+        }
+      ]
     },
     {
       "key": "EPO_BOA",
