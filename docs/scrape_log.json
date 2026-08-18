@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-08-17 18:49:50 UTC",
-  "finished_at": "2026-08-17 18:59:08 UTC",
-  "duration_seconds": 558.2,
+  "started_at": "2026-08-18 01:41:49 UTC",
+  "finished_at": "2026-08-18 01:51:28 UTC",
+  "duration_seconds": 579.0,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 28,
-  "sources_error": 10,
+  "sources_ok": 30,
+  "sources_error": 8,
   "sources_empty": 55,
-  "total_documents": 233,
-  "docs_with_pdf": 173,
-  "docs_without_pdf": 60,
+  "total_documents": 246,
+  "docs_with_pdf": 184,
+  "docs_without_pdf": 62,
   "source_details": [
     {
       "key": "RHP",
@@ -373,10 +373,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 2,
       "documents": [
+        {
+          "title": "Request for Informal Guidance under the Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from Share India Securities Limited in relation to the provisions of the Securities and Exchange Board of India (Portfolio Managers) Regulations, 2020 regarding permitting pledging of securities purchased under Discretionary Portfolio Management Services",
+          "date": "17 Aug 2026",
+          "date_iso": "2026-08-17",
+          "page_url": "https://www.sebi.gov.in/enforcement/informal-guidance/aug-2026/request-for-informal-guidance-under-the-securities-and-exchange-board-of-india-informal-guidance-scheme-2025-received-from-share-india-securities-limited-in-relation-to-the-provisions-of-the-securi-_103723.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103723"
+        },
         {
           "title": "Request for Informal Guidance under the Securities and Exchange Board of India (Informal Guidance) Scheme, 2025 received from Relitrade Stock Broking Private Limited in relation to the provisions of the Securities and Exchange Board of India (Stock Brokers) Regulations, 2026 regarding the addition of business into the NBFC sector within the existing cooperate entity",
           "date": "10 Aug 2026",
@@ -496,24 +505,125 @@
       "label": "BSE_PLACEMENT",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "Expecting value: line 3 column 1 (char 4)",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 5,
+      "docs_with_pdf": 5,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "GACM Technologies Ltd – Placement Document",
+          "date": "17 Aug 2026",
+          "date_iso": "2026-08-17",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/8255/QIP Open/Final_PD_GACM_Technologies_Limited_17082026_20260817200548.pdf",
+          "has_pdf": true,
+          "id": "place_gacm_technologies_ltd_2026-08-17"
+        },
+        {
+          "title": "Apar Industries Ltd – Placement Document",
+          "date": "13 Aug 2026",
+          "date_iso": "2026-08-13",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/1093/QIP Open/260813_Project Surya - Placement Document (Filing Version) (With Financials)_20260813222217.pdf",
+          "has_pdf": true,
+          "id": "place_apar_industries_ltd_2026-08-13"
+        },
+        {
+          "title": "Globus Spirits Ltd – Placement Document",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/9559/QIP Open/GSLFinalPD06thAUG2026_20260806201508.pdf",
+          "has_pdf": true,
+          "id": "place_globus_spirits_ltd_2026-08-06"
+        },
+        {
+          "title": "Arvind Ltd – Placement Document",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/203/QIP Open/Arivind PD_20260805203010.pdf",
+          "has_pdf": true,
+          "id": "place_arvind_ltd_2026-08-05"
+        },
+        {
+          "title": "P N Gadgil Jewellers Ltd – Placement Document",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/13361/QIP Open/PlacementDocument03082026_20260803234601.pdf",
+          "has_pdf": true,
+          "id": "place_p_n_gadgil_jewellers_ltd_2026-08-03"
+        }
+      ]
     },
     {
       "key": "BSE_PRELIMINARY",
       "label": "BSE_PRELIMINARY",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "Expecting value: line 3 column 1 (char 4)",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 6,
+      "docs_with_pdf": 6,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "SPR Auto Technologies Ltd – Draft Placement Document",
+          "date": "17 Aug 2026",
+          "date_iso": "2026-08-17",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/13476/QIP Open/SPRLPPD1_20260817203404.pdf",
+          "has_pdf": true,
+          "id": "prelim_spr_auto_technologies_ltd_2026-08-17"
+        },
+        {
+          "title": "Netweb Technologies India Ltd – Draft Placement Document",
+          "date": "17 Aug 2026",
+          "date_iso": "2026-08-17",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/12999/QIP Open/NetwebTechnologiesIndia LimitedPreliminaryPlacementDocument_20260817203007.pdf",
+          "has_pdf": true,
+          "id": "prelim_netweb_technologies_india_ltd_2026-08-17"
+        },
+        {
+          "title": "GACM Technologies Ltd – Draft Placement Document",
+          "date": "13 Aug 2026",
+          "date_iso": "2026-08-13",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/8255/QIP Open/PPD_GACMTechnologiesLimited_13082026_20260817182529.pdf",
+          "has_pdf": true,
+          "id": "prelim_gacm_technologies_ltd_2026-08-13"
+        },
+        {
+          "title": "Apar Industries Ltd – Draft Placement Document",
+          "date": "10 Aug 2026",
+          "date_iso": "2026-08-10",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/1093/QIP Open/260810_Project Surya - Consolidated PPD (Filing Version) (With Financials)_20260810193417.pdf",
+          "has_pdf": true,
+          "id": "prelim_apar_industries_ltd_2026-08-10"
+        },
+        {
+          "title": "Globus Spirits Ltd – Draft Placement Document",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/9559/QIP Open/Project_Elevate_PPD_August_4_2026_Final_20260805175719.pdf",
+          "has_pdf": true,
+          "id": "prelim_globus_spirits_ltd_2026-08-04"
+        },
+        {
+          "title": "Arvind Ltd – Draft Placement Document",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/203/QIP Open/PPD Launch_20260803194015.pdf",
+          "has_pdf": true,
+          "id": "prelim_arvind_ltd_2026-08-03"
+        }
+      ]
     },
     {
       "key": "CCI_FORM1",
@@ -1381,13 +1491,13 @@
           "id": "hr_reat_H-REAT-970-2025_0"
         },
         {
-          "title": "H-REAT-334-2022 — Emaar India Limited vs SUDHIR GROVER",
+          "title": "H-REAT-378-2023 — Emaar India Ltd vs ANUJ KUMAR TANEJA",
           "date": "12 Aug 2026",
           "date_iso": "2026-08-12",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3NTky",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3NTg5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-334-2022_1"
+          "id": "hr_reat_H-REAT-378-2023_1"
         },
         {
           "title": "H-REAT-374-2023 — Emaar India Ltd vs PARMINDER DATT",
@@ -1399,22 +1509,13 @@
           "id": "hr_reat_H-REAT-374-2023_2"
         },
         {
-          "title": "H-REAT-378-2023 — Emaar India Ltd vs ANUJ KUMAR TANEJA",
+          "title": "H-REAT-334-2022 — Emaar India Limited vs SUDHIR GROVER",
           "date": "12 Aug 2026",
           "date_iso": "2026-08-12",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3NTg5",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3NTky",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-378-2023_3"
-        },
-        {
-          "title": "H-REAT-853-2025 — Vatika ltd vs VIJAY LUXMI",
-          "date": "07 Aug 2026",
-          "date_iso": "2026-08-07",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3OTU1",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-853-2025_4"
+          "id": "hr_reat_H-REAT-334-2022_3"
         },
         {
           "title": "H-REAT-852-2025 — Vatika ltd vs VIJAY LUXMI",
@@ -1423,7 +1524,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3OTU0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-852-2025_5"
+          "id": "hr_reat_H-REAT-852-2025_4"
         },
         {
           "title": "H-REAT-59-2023 — RPS INFRASTRUCTURE LTD vs SAVANA WELFARE ASSOCIATION",
@@ -1432,7 +1533,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3MjQ1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-59-2023_6"
+          "id": "hr_reat_H-REAT-59-2023_5"
         },
         {
           "title": "H-REAT-854-2025 — Vatika ltd vs VIJAY LUXMI",
@@ -1441,16 +1542,25 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3OTU3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-854-2025_7"
+          "id": "hr_reat_H-REAT-854-2025_6"
         },
         {
-          "title": "H-REAT-469-2025 — M3M INDIA PVT LTD AND M3M INDIA PVT LTD vs SHARAD MALHOTRA",
+          "title": "H-REAT-384-2026 — Varun Roperia vs AARCITY BUILDERS PRIVATE LIMITED",
           "date": "07 Aug 2026",
           "date_iso": "2026-08-07",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3MjQ3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3MjQy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-469-2025_8"
+          "id": "hr_reat_H-REAT-384-2026_7"
+        },
+        {
+          "title": "H-REAT-228-2025 — Jotindra Infrastructure Limited vs HARYANA REAL ESTATE REGULATORY AUTHORITY PANCHKULA",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3NTk0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-228-2025_8"
         },
         {
           "title": "H-REAT-574-2022 — Ms Omaxe Ltd and Anr vs SEEMA JAIN",
@@ -1462,13 +1572,22 @@
           "id": "hr_reat_H-REAT-574-2022_9"
         },
         {
-          "title": "H-REAT-228-2025 — Jotindra Infrastructure Limited vs HARYANA REAL ESTATE REGULATORY AUTHORITY PANCHKULA",
+          "title": "H-REAT-512-2022 — SEEMA JAIN vs OMAXE LIMITED",
           "date": "07 Aug 2026",
           "date_iso": "2026-08-07",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3NTk0",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3MjQz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-228-2025_10"
+          "id": "hr_reat_H-REAT-512-2022_10"
+        },
+        {
+          "title": "H-REAT-469-2025 — M3M INDIA PVT LTD AND M3M INDIA PVT LTD vs SHARAD MALHOTRA",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3MjQ3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-469-2025_11"
         },
         {
           "title": "H-REAT-851-2025 — Ms Vatika ltd vs VIJAY LUXMI",
@@ -1477,34 +1596,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3OTUy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-851-2025_11"
+          "id": "hr_reat_H-REAT-851-2025_12"
         },
         {
-          "title": "H-REAT-512-2022 — SEEMA JAIN vs OMAXE LIMITED",
+          "title": "H-REAT-853-2025 — Vatika ltd vs VIJAY LUXMI",
           "date": "07 Aug 2026",
           "date_iso": "2026-08-07",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3MjQz",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3OTU1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-512-2022_12"
-        },
-        {
-          "title": "H-REAT-384-2026 — Varun Roperia vs AARCITY BUILDERS PRIVATE LIMITED",
-          "date": "07 Aug 2026",
-          "date_iso": "2026-08-07",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3MjQy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-384-2026_13"
-        },
-        {
-          "title": "H-REAT-945-2025 — BPTP Limited vs SANTOSH MUTHOO AND VINOD KUMAR MUTHOO",
-          "date": "06 Aug 2026",
-          "date_iso": "2026-08-06",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA2OTQ4",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-945-2025_14"
+          "id": "hr_reat_H-REAT-853-2025_13"
         },
         {
           "title": "H-REAT-1120-2025 — M/s BPTP Limited vs ASHISH POWARI",
@@ -1513,7 +1614,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA2OTQ3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1120-2025_15"
+          "id": "hr_reat_H-REAT-1120-2025_14"
+        },
+        {
+          "title": "H-REAT-945-2025 — BPTP Limited vs SANTOSH MUTHOO AND VINOD KUMAR MUTHOO",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA2OTQ4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-945-2025_15"
         },
         {
           "title": "H-REAT-397-2024 — BHRIGU NAGAL AND ANOTHER vs VARALI PROPERTIES LIMITED",
@@ -1687,7 +1797,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of SUNSHINE FASTECH LIMITED [C.P. (IB)/364/AHM/2025]",
+          "title": "In the matter of MAARS SOFTWARE INTERNATIONAL LIMITED [CP(IB)/297(CHE)/2025]",
           "date": "11 Aug 2026",
           "date_iso": "2026-08-11",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1714,15 +1824,6 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of SRICHAKRA MERCHANDISING PRIVATE LIMITED [CP(IBC)37/CHE/2026]",
-          "date": "11 Aug 2026",
-          "date_iso": "2026-08-11",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
           "title": "In the matter of CYBERCORP LIMITED [C.P. (IB)/39/KB/2026]",
           "date": "11 Aug 2026",
           "date_iso": "2026-08-11",
@@ -1741,7 +1842,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of MAARS SOFTWARE INTERNATIONAL LIMITED [CP(IB)/297(CHE)/2025]",
+          "title": "In the matter of SRICHAKRA MERCHANDISING PRIVATE LIMITED [CP(IBC)37/CHE/2026]",
           "date": "11 Aug 2026",
           "date_iso": "2026-08-11",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1750,7 +1851,16 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of OSCORP INDUSTRIES PRIVATE LIMITED [CP(IB) 126/KB/2025]",
+          "title": "In the matter of SUNSHINE FASTECH LIMITED [C.P. (IB)/364/AHM/2025]",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of Rajesh Habitat Private Limited [C.P. (IB)/961/MB/2023]",
           "date": "10 Aug 2026",
           "date_iso": "2026-08-10",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1777,7 +1887,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of Rajesh Habitat Private Limited [C.P. (IB)/961/MB/2023]",
+          "title": "In the matter of TEERTH GOPICON LIMITED [CP (IB) 408(AHM)2025]",
           "date": "10 Aug 2026",
           "date_iso": "2026-08-10",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1786,7 +1896,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of TEERTH GOPICON LIMITED [CP (IB) 408(AHM)2025]",
+          "title": "In the matter of OSCORP INDUSTRIES PRIVATE LIMITED [CP(IB) 126/KB/2025]",
           "date": "10 Aug 2026",
           "date_iso": "2026-08-10",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2759,7 +2869,7 @@
           "date": "13 Aug 2026",
           "date_iso": "2026-08-13",
           "page_url": "https://tribunalsdecisions.service.gov.uk/utiac/2026-ukut-00315",
-          "pdf_url": "https://cloud-platform-a3746548e43b85309785c70a0876e95c.s3-eu-west-1.amazonaws.com/decision/pdf_file/85111/00315_ukut_iac_2026_lr_albania_cg.pdf?X-Amz-Expires=600&X-Amz-Date=20260817T184951Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA27HJSWAHNYGRJ42F/20260817/eu-west-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=8f39420cafee1b76baf0949bec923359b9d2b5c3e155ffb934b15fc90369b685",
+          "pdf_url": "https://cloud-platform-a3746548e43b85309785c70a0876e95c.s3-eu-west-1.amazonaws.com/decision/pdf_file/85111/00315_ukut_iac_2026_lr_albania_cg.pdf?X-Amz-Expires=600&X-Amz-Date=20260818T014151Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA27HJSWAHNYGRJ42F/20260818/eu-west-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=394496e9e565bf20c30eb9c6bffaf5e0b0ac31918431742a137d4c5f941b51c4",
           "has_pdf": true,
           "id": "utiac_utiac_2026-ukut-00315"
         }
@@ -3054,10 +3164,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 5,
+      "doc_count": 6,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 5,
+      "docs_without_pdf": 6,
       "documents": [
+        {
+          "title": "Revision of Application Form for Mutual Fund Registration",
+          "date": "17 Aug 2026",
+          "date_iso": "2026-08-17",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/aug-2026/revision-of-application-form-for-mutual-fund-registration_103721.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103721"
+        },
         {
           "title": "Modification in the regulatory framework for Online Bond Platform Providers (OBPPs) including measures for promoting ease of doing business",
           "date": "14 Aug 2026",
