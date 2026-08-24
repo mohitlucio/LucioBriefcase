@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-08-24 07:12:15 UTC",
-  "finished_at": "2026-08-24 07:21:47 UTC",
-  "duration_seconds": 571.9,
+  "started_at": "2026-08-24 13:04:18 UTC",
+  "finished_at": "2026-08-24 13:14:03 UTC",
+  "duration_seconds": 584.9,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 30,
-  "sources_error": 11,
-  "sources_empty": 52,
-  "total_documents": 262,
-  "docs_with_pdf": 177,
-  "docs_without_pdf": 85,
+  "sources_ok": 27,
+  "sources_error": 16,
+  "sources_empty": 50,
+  "total_documents": 287,
+  "docs_with_pdf": 199,
+  "docs_without_pdf": 88,
   "source_details": [
     {
       "key": "RHP",
@@ -202,6 +202,15 @@
       "docs_without_pdf": 17,
       "documents": [
         {
+          "title": "T.C. Terrytex Limited - Addendum-cum-Corrigendum to DRHP",
+          "date": "24 Aug 2026",
+          "date_iso": "2026-08-24",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/t-c-terrytex-limited-addendum-cum-corrigendum-to-drhp_103904.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103904"
+        },
+        {
           "title": "Avtar Steel Limited - DRHP",
           "date": "21 Aug 2026",
           "date_iso": "2026-08-21",
@@ -236,15 +245,6 @@
           "pdf_url": "",
           "has_pdf": false,
           "id": "103765"
-        },
-        {
-          "title": "Muthoot Fincorp Limited - DRHP",
-          "date": "17 Aug 2026",
-          "date_iso": "2026-08-17",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/muthoot-fincorp-limited-drhp_103697.html",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "103697"
         },
         {
           "title": "German Green Steel and Power Ltd. - Addendum to DRHP",
@@ -337,10 +337,10 @@
           "id": "103353"
         },
         {
-          "title": "Veritas Finance Limited - RHP",
+          "title": "Veritas Finance Limited - DRHP",
           "date": "03 Aug 2026",
           "date_iso": "2026-08-03",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/veritas-finance-limited-rhp_103304.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/veritas-finance-limited-drhp_103304.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "103304"
@@ -908,15 +908,6 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "[01/2019] State of Haryana, Through its Director, State Transport Haryana vs. J. K. Tyre & Industries Limited and Others",
-          "date": "21 Aug 2026",
-          "date_iso": "2026-08-21",
-          "page_url": "https://www.cci.gov.in/antitrust/orders",
-          "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1787320580.pdf",
-          "has_pdf": true,
-          "id": "cci_anti_10_01_2019"
-        },
-        {
           "title": "[06/2023] Ulink Agritech Private Limited and Agro Input Dealers Association, others",
           "date": "21 Aug 2026",
           "date_iso": "2026-08-21",
@@ -924,6 +915,15 @@
           "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1787321020.pdf",
           "has_pdf": true,
           "id": "cci_anti_10_06_2023"
+        },
+        {
+          "title": "[Ref. 01/2019] State of Haryana, Through its Director, State Transport Haryana vs. J. K. Tyre & Industries Limited and Others",
+          "date": "21 Aug 2026",
+          "date_iso": "2026-08-21",
+          "page_url": "https://www.cci.gov.in/antitrust/orders",
+          "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1787571955.pdf",
+          "has_pdf": true,
+          "id": "cci_anti_10_Ref__01_2019"
         }
       ]
     },
@@ -1143,233 +1143,24 @@
       "label": "INX_CIRC",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 10,
-      "docs_with_pdf": 10,
+      "status": "error",
+      "error": "<urlopen error timed out>",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "[20260821-3] Issue of U.S.$300,000,000 5.179 per cent Senior Notes due 2029 under the U.S.$5,000,000,000 Global Medium Term Note Programme by Axis Bank Limited acting through its GIFT City IBU",
-          "date": "21 Aug 2026",
-          "date_iso": "2026-08-21",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260821-3/20260821-3.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260821-3"
-        },
-        {
-          "title": "[20260821-2] Issue of U.S.$750,000,000 5.417 per cent Senior Notes due 2031 under the U.S.$7,500,000,000 Global Medium Term Note Programme by ICICI Bank Limited, acting through its IFSC Banking Unit",
-          "date": "21 Aug 2026",
-          "date_iso": "2026-08-21",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260821-2/20260821-2.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260821-2"
-        },
-        {
-          "title": "[20260820-1] Issue of U.S.$400,000,000 5.114 per cent Senior Notes due 2029 and Issue of U.S.$300,000,000 5.318 per cent Senior Notes due 2031 under the U.S.$4,000,000,000 MTN Programme by Bank of Baroda",
-          "date": "20 Aug 2026",
-          "date_iso": "2026-08-20",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260820-1/20260820-1.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260820-1"
-        },
-        {
-          "title": "[20260818-1] Issue of U.S.$500,000,000 5.250 per cent Notes due 2031 under the U.S.$10,000,000,000 Medium Term Note Programme by State Bank of India acting through its London Branch",
-          "date": "18 Aug 2026",
-          "date_iso": "2026-08-18",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260818-1/20260818-1.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260818-1"
-        },
-        {
-          "title": "[20260814-5] Establishment of U.S.$ 850,000,000 Medium Term Note Programme on Global Securities Market by YES Bank Limited",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260814-5/20260814-5.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260814-5"
-        },
-        {
-          "title": "[20260814-4] Establishment of U.S.$1,000,000,000 Medium Term Note Programme on Global Securities Market by Kotak Mahindra Bank Limited",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260814-4/20260814-4.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260814-4"
-        },
-        {
-          "title": "[20260814-3] Issue of U.S.$100,000,000 Floating Rate Notes due 2029 under the U.S.$10,000,000,000 MTN Programme by State Bank of India acting through its London Branch",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260814-3/20260814-3.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260814-3"
-        },
-        {
-          "title": "[20260813-1] Issue of USD 300,000,000 5.352 per cent Senior Notes due 2031 under the U.S.$7,500,000,000 Global Medium Term Note Programme by ICICI Bank Limited acting through its IFSC Banking Unit",
-          "date": "13 Aug 2026",
-          "date_iso": "2026-08-13",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260813-1/20260813-1.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260813-1"
-        },
-        {
-          "title": "[20260812-1] Issue of U.S.$300,000,000 5.348 per cent Senior Notes due 2031 to be consolidated and form a single series with the U.S.$300,000,000 5.348 per cent Senior Notes due 2031 by Axis Bank Limited",
-          "date": "12 Aug 2026",
-          "date_iso": "2026-08-12",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260812-1/20260812-1.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260812-1"
-        },
-        {
-          "title": "[20260805-4] Issue of EURO 8,000,000 6.00 per cent Notes due 2032 by Annapurna Finance Private Limited",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260805-4/20260805-4.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260805-4"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "INX_ISSUER",
       "label": "INX_ISSUER",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 13,
-      "docs_with_pdf": 13,
+      "status": "error",
+      "error": "<urlopen error timed out>",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "Axis Bank Limited — U.S.$300,000,000 5.179 per cent Senior Notes under the U.S.$5,000,000,000 GMTN",
-          "date": "21 Aug 2026",
-          "date_iso": "2026-08-21",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS348059041621082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__300_000_000_5_179_per_cen_2026-08-21"
-        },
-        {
-          "title": "ICICI Bank Limited — U.S.$750,000,000 5.417 per cent Senior Notes due 2031 under the U.S.$7,500,000,000 GMTN",
-          "date": "21 Aug 2026",
-          "date_iso": "2026-08-21",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/USY38604AB36_21082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__750_000_000_5_417_per_cen_2026-08-21"
-        },
-        {
-          "title": "Bank of Baroda — U.S.$300,000,000 5.318 per cent Senior Notes due 2031 under the U.S.$4,000,000,000 MTN",
-          "date": "20 Aug 2026",
-          "date_iso": "2026-08-20",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3424472010_20082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__300_000_000_5_318_per_cen_2026-08-20"
-        },
-        {
-          "title": "Bank of Baroda — US$400,000,000 5.114 per cent Senior Notes due 2029 under the U.S.$4,000,000,000 MTN",
-          "date": "20 Aug 2026",
-          "date_iso": "2026-08-20",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3424472101_20082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_us_400_000_000_5_114_per_cent__2026-08-20"
-        },
-        {
-          "title": "State Bank of India — U.S.$500,000,000 5.250 per cent Notes due 2031 under the U.S.$10,000,000,000 MTN Programme",
-          "date": "18 Aug 2026",
-          "date_iso": "2026-08-18",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3425636787_18082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__500_000_000_5_250_per_cen_2026-08-18"
-        },
-        {
-          "title": "Yes Bank Limited — U.S.$850,000,000 Medium Term Note Programme",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/YesbankOfferingcircular14August2026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__850_000_000_medium_term_n_2026-08-14"
-        },
-        {
-          "title": "Kotak Mahindra Bank Limited — U.S.$1,000,000,000 Medium Term Note Programme",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/kotakOfferingCircular200714082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__1_000_000_000_medium_term_2026-08-14"
-        },
-        {
-          "title": "State Bank of India — U.S.$100,000,000 Floating Rate Notes due 2029 under MTN Programme",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3433781062140826.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__100_000_000_floating_rate_2026-08-14"
-        },
-        {
-          "title": "ICICI Bank Limited — U.S.$300,000,000 5.352 per cent Senior Notes due 2031 under the GMTN Programme",
-          "date": "13 Aug 2026",
-          "date_iso": "2026-08-13",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3470524854_13082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__300_000_000_5_352_per_cen_2026-08-13"
-        },
-        {
-          "title": "Axis Bank Limited — U.S.$ 300,000,000 5.348 per cent Senior Notes consolidated with U.S.$ 300,000,000 under GMTN",
-          "date": "12 Aug 2026",
-          "date_iso": "2026-08-12",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS342394477911082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s___300_000_000_5_348_per_ce_2026-08-12"
-        },
-        {
-          "title": "Bank of Baroda — U.S.$4,000,000,000 Medium Term Note Programme Supplementary Offering Circular",
-          "date": "11 Aug 2026",
-          "date_iso": "2026-08-11",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/OfferingCircular11082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__4_000_000_000_medium_term_2026-08-11"
-        },
-        {
-          "title": "Annapurna Finance Private Limited — EURO 8,000,000 6.00 per cent Notes due 2032",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/INIFD2205034_05082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_euro_8_000_000_6_00_per_cent_n_2026-08-05"
-        },
-        {
-          "title": "HDFC Bank Limited — U.S.$20,000,000 Floating Rate Notes due 2031 under MTN Programme",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3457271594_03082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__20_000_000_floating_rate__2026-08-03"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "TG_RERA_ADJ",
@@ -1779,30 +1570,20 @@
       "label": "TRAI_DIR",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "status": "error",
+      "error": "<urlopen error timed out>",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "Direction on Allocation and operationalization of 1601 numbering series for Service and Transactional Voice Calls by entities in sectors other than BFSI and Government sector, under TCCCPR, 2018",
-          "date": "10 Aug 2026",
-          "date_iso": "2026-08-10",
-          "page_url": "https://www.trai.gov.in/release-publication/directions",
-          "pdf_url": "https://www.trai.gov.in/sites/default/files/2026-08/Direction_10082026.pdf",
-          "has_pdf": true,
-          "id": "trai_dir_direction_on_allocation_and_operationali_2026-08-10"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "TRAI_REG",
       "label": "TRAI_REG",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1813,8 +1594,8 @@
       "label": "TRAI_REC",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1825,22 +1606,12 @@
       "label": "TRAI_CON",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "status": "error",
+      "error": "<urlopen error timed out>",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "Consultation Paper on Draft Amendments in The Standards of Quality of Service of Access (Wireline and Wireless) and Broadband (Wireline and Wireless) Service Regulations, 2024",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://www.trai.gov.in/release-publication/consultation",
-          "pdf_url": "https://www.trai.gov.in/sites/default/files/2026-08/CP_05082026.pdf",
-          "has_pdf": true,
-          "id": "trai_con_consultation_paper_on_draft_amendments_i_2026-08-05"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "CGST_CIRC",
@@ -1859,12 +1630,31 @@
       "label": "IBBI_RES",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "<urlopen error timed out>",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Approval of Resolution plan- Vivin Laboratories Private Limited [IA (IBC) (Plan) 5/2026 in CP (IB) No.87/9/HDB/2024 & CP (IB) NO. 213/7/HDB/2024]",
+          "date": "21 Aug 2026",
+          "date_iso": "2026-08-21",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_res_nclt_title_Resolution_date__nclt_"
+        },
+        {
+          "title": "Approval of Resolution plan- Vivin Drugs & Pharmaceuticals Private Limited [IA (IBC) (Plan) 5/2026 in CP (IB) No.87/9/HDB/2024]",
+          "date": "21 Aug 2026",
+          "date_iso": "2026-08-21",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_res_nclt_title_Resolution_date__nclt_"
+        }
+      ]
     },
     {
       "key": "IBBI_ADM",
@@ -1873,10 +1663,362 @@
       "website_url": "",
       "status": "error",
       "error": "<urlopen error timed out>",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 39,
+      "docs_with_pdf": 39,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "In the matter of ZEBYTE RENTAL PLANET PRIVATE LIMITED [CP (IB) 112/ALD/2025]",
+          "date": "20 Aug 2026",
+          "date_iso": "2026-08-20",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of SHRIVALLABH PITTIE RESEARCH AND TRAINING PRIVATE LIMITED [C.P. (IB)/1224/MB/2025]",
+          "date": "20 Aug 2026",
+          "date_iso": "2026-08-20",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of SATIATE AGRI LIMITED [CP(IB)/77(MP)2026]",
+          "date": "20 Aug 2026",
+          "date_iso": "2026-08-20",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of ANDHRA PRADESH GAS POWER CORPORATION LIMITED [CP (IB) No. 51/7/HDB/2026]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of MRISHI MARCNDEY INDIA LIMITED [CP(IB)/275/Chd/Hry/2024]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of HELAPURI SPINNING MILLS PRIVATE LIMITED [CP (IB) No. 49/7/HDB/2026]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of ERVIKA GLOBAL PRIVATE LIMITED [CP(IBC) No. 43/Chd/Hry/2025]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of Quickspace Technologies F1 Works Private Limited [C.P. (IB)/1238(MB)2025]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of SIDHRAJ TRANSINFRA PRIVATE LIMITED [CP (IBC) No. 69/Chd/Hry/2023 ]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of ANTIQUE EXIM PRIVATE LIMITED [CP(IB) No. 203/7/AHM/2026]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of SKM ESTATES LIMITED [C.P (IB) NO. 243/KB/2025]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of SHROFF TEXTILES LIMITED [(IB)/304(MB)2026]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of LANDMARK MOTELS AND TRAVELS PRIVATE LIMITED [CP (IB) No.1154/MB/2025 with IA (I.B.C) No. 637(MB]",
+          "date": "18 Aug 2026",
+          "date_iso": "2026-08-18",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of SHRI KARVIR NIVASINI MAHALAXMI ISPAT PRIVATE LIMITED [CP (IB) No. 43/MB/2026]",
+          "date": "18 Aug 2026",
+          "date_iso": "2026-08-18",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of KONARK AQUATICS AND EXPORTS PRIVATE LIMITED [37/CB/2022]",
+          "date": "18 Aug 2026",
+          "date_iso": "2026-08-18",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of VYJAYANTHI TELEVENTURES PRIVATE LIMITED [CP(IB) No.483/7/HDB/2019]",
+          "date": "17 Aug 2026",
+          "date_iso": "2026-08-17",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of MYLAR SUGARS LIMITED [C.P. (IB) No. 127/BB/2026]",
+          "date": "17 Aug 2026",
+          "date_iso": "2026-08-17",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of KALAHRIDHAAN TRENDZ LIMITED [CP(IB) 16(AHM)2026]",
+          "date": "14 Aug 2026",
+          "date_iso": "2026-08-14",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of MEENASHI STEELS PRIVATE LIMITED [CP (IB)/140(CHE)2024]",
+          "date": "14 Aug 2026",
+          "date_iso": "2026-08-14",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of ADYA OILS & CHEMICALS LIMITED [C.P. (IB)/2392/MB/2019]",
+          "date": "14 Aug 2026",
+          "date_iso": "2026-08-14",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of OWAIS METAL AND MINERAL PROCESSING LIMITED [76 (MP) 2025]",
+          "date": "13 Aug 2026",
+          "date_iso": "2026-08-13",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of SMO FERRO ALLOYS LIMITED [11 (MP) 2026]",
+          "date": "13 Aug 2026",
+          "date_iso": "2026-08-13",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of RESONANCE PAPER MILL PRIVATE LIMITED [C.P. (IB)/454/MB/2025]",
+          "date": "13 Aug 2026",
+          "date_iso": "2026-08-13",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of JAGDISH CONSTRUCTION LIMITED [CP(IB)/8(MP)2026]",
+          "date": "12 Aug 2026",
+          "date_iso": "2026-08-12",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of JORD ENGINEERS INDIA LIMITED [C.P. (IB)/1101(MB)2017]",
+          "date": "12 Aug 2026",
+          "date_iso": "2026-08-12",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of HOURS OVERSEAS PRIVATE LIMITED [CP(IB)/170(PB)/2026]",
+          "date": "12 Aug 2026",
+          "date_iso": "2026-08-12",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of PIXION MEDIA PRIVATE LIMITED [438(PB)/2018]",
+          "date": "12 Aug 2026",
+          "date_iso": "2026-08-12",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of EMCO LIMITED [IA 3486 / 2026]",
+          "date": "12 Aug 2026",
+          "date_iso": "2026-08-12",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of KAMDAR PLASTICS PRIVATE LIMITED [CP(IB)/725/MB/2025]",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of SUNSHINE FASTECH LIMITED [C.P. (IB)/364/AHM/2025]",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of CYBERCORP LIMITED [C.P. (IB)/39/KB/2026]",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of BLISS VILLA (DELHI) PRIVATE LIMITED [C.P. (IB)/579/ND/2025]",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of TIRUMALLA INDIA STOREHOUSE PRIVATE LIMITED [C.P.(IB)/1415(MB)2025]",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of PEARL VISION PRIVATE LIMITED [419(PB)/2018]",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of SRICHAKRA MERCHANDISING PRIVATE LIMITED [CP(IBC)37/CHE/2026]",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of MAARS SOFTWARE INTERNATIONAL LIMITED [CP(IB)/297(CHE)/2025]",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of PLANET INFRASTRUCTURE MANAGEMENT PRIVATE LIMITED [C.P. (IB)/278/KB/2025]",
+          "date": "10 Aug 2026",
+          "date_iso": "2026-08-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of OSCORP INDUSTRIES PRIVATE LIMITED [CP(IB) 126/KB/2025]",
+          "date": "10 Aug 2026",
+          "date_iso": "2026-08-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of TEERTH GOPICON LIMITED [CP (IB) 408(AHM)2025]",
+          "date": "10 Aug 2026",
+          "date_iso": "2026-08-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        }
+      ]
     },
     {
       "key": "EU_MERGER",
@@ -2393,10 +2535,55 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 32,
-      "docs_with_pdf": 32,
+      "doc_count": 37,
+      "docs_with_pdf": 37,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "S Martin v Asda Stores Ltd: 6015312/2025",
+          "date": "12 Aug 2026",
+          "date_iso": "2026-08-12",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/s-martin-v-asda-stores-ltd-6015312-slash-2025",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a831a523be22055c1aaa3d8/Sarah_Martin_v_Asda_Stores_Limited_6015312-2025_Judgment.pdf",
+          "has_pdf": true,
+          "id": "govuk_unal-decisions_s-martin-v-asda-stores-ltd-6015312-slash-2025"
+        },
+        {
+          "title": "D Kayani v Angard Staffing and Royal Mail: 6048436/2025",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/d-kayani-v-angard-staffing-and-royal-mail-6048436-slash-2025",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a830c553bd75b81e2329a92/Danish_Kayani_v_Angard_staffing_and_Royal_Mail_6048436-2025_-_certificate_of_correction.pdf",
+          "has_pdf": true,
+          "id": "govuk_d-kayani-v-angard-staffing-and-royal-mail-6048436-slash-2025"
+        },
+        {
+          "title": "Mr M I Shabir v Vast Healthcare Ltd: 1807644/2025",
+          "date": "13 Aug 2026",
+          "date_iso": "2026-08-13",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-m-i-shabir-v-vast-healthcare-ltd-1807644-slash-2025",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a83091d03b4fe14b1e7df14/Mr_M_Ibrar_Shabir_v_Vast_Healthcare_Limited_-_1807644.2025_-_Strike_Out_Judgment.pdf",
+          "has_pdf": true,
+          "id": "govuk_sions_mr-m-i-shabir-v-vast-healthcare-ltd-1807644-slash-2025"
+        },
+        {
+          "title": "Ms P Moulson v AB Autocare Ltd: 6003663/2026",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/ms-p-moulson-v-ab-autocare-ltd-6003663-slash-2026",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a831c873be22055c1aaa3e0/6003663.2026_Phillippa_Moulson_v_AB_Autocare_Limited_Judgment_14.08.2026.pdf",
+          "has_pdf": true,
+          "id": "govuk_-decisions_ms-p-moulson-v-ab-autocare-ltd-6003663-slash-2026"
+        },
+        {
+          "title": "E Johns v R and R Country: 6022267/2026",
+          "date": "12 Aug 2026",
+          "date_iso": "2026-08-12",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/e-johns-v-r-and-r-country-6022267-slash-2026",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a831a4492ec93e1e0329aa5/Ellie_Johns_v_R_and_R_Country_60222672026_Strike_Out_Judgement_UDL.pdf",
+          "has_pdf": true,
+          "id": "govuk_bunal-decisions_e-johns-v-r-and-r-country-6022267-slash-2026"
+        },
         {
           "title": "Mr M Hatt v Hampshire Gardencraft Ltd (In Creditors’ Voluntary  Liquidation) and Secretary of State for Business and Trade: 1402248/2025",
           "date": "07 Aug 2026",
@@ -2694,10 +2881,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Cruelty Free International v 1) Information Commissioner 2) Home Office: [2026] UKUT 328 (AAC)",
+          "date": "21 Aug 2026",
+          "date_iso": "2026-08-21",
+          "page_url": "https://www.gov.uk/administrative-appeals-tribunal-decisions/cruelty-free-international-v-1-information-commissioner-2-home-office-2026-ukut-328-aac",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a8c19a408705e34a95daa37/UA-2025-000985-GIA.pdf",
+          "has_pdf": true,
+          "id": "govuk_v-1-information-commissioner-2-home-office-2026-ukut-328-aac"
+        },
         {
           "title": "Mr Gerry Woodhouse v Information Commissioner: [2026] UKUT 313 (AAC)",
           "date": "11 Aug 2026",
@@ -3245,10 +3441,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 7,
+      "doc_count": 10,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 7,
+      "docs_without_pdf": 10,
       "documents": [
+        {
+          "title": "Alignment of SEBI",
+          "date": "24 Aug 2026",
+          "date_iso": "2026-08-24",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/aug-2026/alignment-of-sebi-s-cyber-incident-reporting-portal-with-fire-format_103915.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103915"
+        },
+        {
+          "title": "IT Resilience Index for Market Infrastructure Institutions (MIIs)",
+          "date": "24 Aug 2026",
+          "date_iso": "2026-08-24",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/aug-2026/it-resilience-index-for-market-infrastructure-institutions-miis-_103913.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103913"
+        },
         {
           "title": "Acceptance of digitally signed Power of Attorney from FPIs",
           "date": "20 Aug 2026",
@@ -3266,6 +3480,15 @@
           "pdf_url": "",
           "has_pdf": false,
           "id": "103823"
+        },
+        {
+          "title": "Revision of Application Form for Mutual Fund Registration",
+          "date": "17 Aug 2026",
+          "date_iso": "2026-08-17",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/aug-2026/revision-of-application-form-for-mutual-fund-registration_103721.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103721"
         },
         {
           "title": "Modification in the regulatory framework for Online Bond Platform Providers (OBPPs) including measures for promoting ease of doing business",
