@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-08-25 18:49:00 UTC",
-  "finished_at": "2026-08-25 18:58:46 UTC",
-  "duration_seconds": 585.8,
+  "started_at": "2026-08-26 01:48:38 UTC",
+  "finished_at": "2026-08-26 01:58:03 UTC",
+  "duration_seconds": 565.2,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 33,
-  "sources_error": 10,
-  "sources_empty": 50,
-  "total_documents": 413,
-  "docs_with_pdf": 317,
-  "docs_without_pdf": 96,
+  "sources_ok": 30,
+  "sources_error": 14,
+  "sources_empty": 49,
+  "total_documents": 353,
+  "docs_with_pdf": 275,
+  "docs_without_pdf": 78,
   "source_details": [
     {
       "key": "RHP",
@@ -2133,12 +2133,301 @@
       "label": "HR_REAT",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "<urlopen error timed out>",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 32,
+      "docs_with_pdf": 32,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "H-REAT-566-2023 — HARYANA SHEHRI VIKAS PRADHIKARAN vs HARYANA REAL ESTATE REGULATION AUTHORITY",
+          "date": "20 Aug 2026",
+          "date_iso": "2026-08-20",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA5MTIz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-566-2023_0"
+        },
+        {
+          "title": "H-REAT-1424-2025 — M/s BPTP Limited vs RAJEEV MAGU",
+          "date": "17 Aug 2026",
+          "date_iso": "2026-08-17",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA5MTc2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1424-2025_1"
+        },
+        {
+          "title": "H-REAT-1601-2025 — Pankaj Aggarwal and Neeraj Aggarwal vs SHREE VARDHMAN INFRAHOME PVT LTD",
+          "date": "14 Aug 2026",
+          "date_iso": "2026-08-14",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4NDQ4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1601-2025_2"
+        },
+        {
+          "title": "H-REAT-430-2026 — Skytech Estates Pvt Ltd vs RAJNI KATYAL",
+          "date": "14 Aug 2026",
+          "date_iso": "2026-08-14",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4NDUx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-430-2026_3"
+        },
+        {
+          "title": "H-REAT-31-2026 — ELAN BUILDCON PRIVATE LIMITED vs SWITI GUPTA",
+          "date": "14 Aug 2026",
+          "date_iso": "2026-08-14",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4NDQ5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-31-2026_4"
+        },
+        {
+          "title": "H-REAT-282-2025 — BPTP Limited vs RAMANJEET SINGH SAHOTA",
+          "date": "14 Aug 2026",
+          "date_iso": "2026-08-14",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4Njg4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-282-2025_5"
+        },
+        {
+          "title": "H-REAT-507-2023 — Ocus Skyscrapers Realty Private Limited vs RAMESHWAR",
+          "date": "14 Aug 2026",
+          "date_iso": "2026-08-14",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4NDUw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-507-2023_6"
+        },
+        {
+          "title": "H-REAT-119-2026 — Charanpreet Singh Chanana vs EMAAR MGF LAND LTD",
+          "date": "14 Aug 2026",
+          "date_iso": "2026-08-14",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4NDQ3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-119-2026_7"
+        },
+        {
+          "title": "H-REAT-174-2025 — BPTP LTD vs SANDEEP JAGOTA",
+          "date": "14 Aug 2026",
+          "date_iso": "2026-08-14",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4Njg3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-174-2025_8"
+        },
+        {
+          "title": "H-REAT-304-2025 — BPTP Limited vs RAJESH KUMAR ARORA",
+          "date": "14 Aug 2026",
+          "date_iso": "2026-08-14",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4Njg5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-304-2025_9"
+        },
+        {
+          "title": "H-REAT-381-2026 — MICROTEK INFRASTRUCTURES PVT LTD & ANR vs MRIDULA PARTI",
+          "date": "14 Aug 2026",
+          "date_iso": "2026-08-14",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4NDQ2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-381-2026_10"
+        },
+        {
+          "title": "H-REAT-970-2025 — Ritu Jain & Others vs PARSVNATH DEVELOPERS LTD",
+          "date": "13 Aug 2026",
+          "date_iso": "2026-08-13",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4MTI2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-970-2025_11"
+        },
+        {
+          "title": "H-REAT-19-2024 — Pivotal Infrastructure Pvt Ltd vs SONAM KANODIA",
+          "date": "12 Aug 2026",
+          "date_iso": "2026-08-12",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA5MDE1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-19-2024_12"
+        },
+        {
+          "title": "H-REAT-334-2022 — Emaar India Limited vs SUDHIR GROVER",
+          "date": "12 Aug 2026",
+          "date_iso": "2026-08-12",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3NTky",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-334-2022_13"
+        },
+        {
+          "title": "H-REAT-378-2023 — Emaar India Ltd vs ANUJ KUMAR TANEJA",
+          "date": "12 Aug 2026",
+          "date_iso": "2026-08-12",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3NTg5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-378-2023_14"
+        },
+        {
+          "title": "H-REAT-374-2023 — Emaar India Ltd vs PARMINDER DATT",
+          "date": "12 Aug 2026",
+          "date_iso": "2026-08-12",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3NTkx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-374-2023_15"
+        },
+        {
+          "title": "H-REAT-852-2025 — Vatika ltd vs VIJAY LUXMI",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3OTU0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-852-2025_16"
+        },
+        {
+          "title": "H-REAT-384-2026 — Varun Roperia vs AARCITY BUILDERS PRIVATE LIMITED",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3MjQy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-384-2026_17"
+        },
+        {
+          "title": "H-REAT-851-2025 — Ms Vatika ltd vs VIJAY LUXMI",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3OTUy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-851-2025_18"
+        },
+        {
+          "title": "H-REAT-59-2023 — RPS INFRASTRUCTURE LTD vs SAVANA WELFARE ASSOCIATION",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3MjQ1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-59-2023_19"
+        },
+        {
+          "title": "H-REAT-853-2025 — Vatika ltd vs VIJAY LUXMI",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3OTU1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-853-2025_20"
+        },
+        {
+          "title": "H-REAT-469-2025 — M3M INDIA PVT LTD AND M3M INDIA PVT LTD vs SHARAD MALHOTRA",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3MjQ3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-469-2025_21"
+        },
+        {
+          "title": "H-REAT-512-2022 — SEEMA JAIN vs OMAXE LIMITED",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3MjQz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-512-2022_22"
+        },
+        {
+          "title": "H-REAT-237-2023 — TDI Infrastructure Ltd vs SUBODH BANSAL",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4ODYx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-237-2023_23"
+        },
+        {
+          "title": "H-REAT-231-2023 — TDI Infrastructure Ltd vs NEENA BANSAL",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4ODU5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-231-2023_24"
+        },
+        {
+          "title": "H-REAT-228-2025 — Jotindra Infrastructure Limited vs HARYANA REAL ESTATE REGULATORY AUTHORITY PANCHKULA",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3NTk0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-228-2025_25"
+        },
+        {
+          "title": "H-REAT-574-2022 — Ms Omaxe Ltd and Anr vs SEEMA JAIN",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3NTk2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-574-2022_26"
+        },
+        {
+          "title": "H-REAT-854-2025 — Vatika ltd vs VIJAY LUXMI",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3OTU3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-854-2025_27"
+        },
+        {
+          "title": "H-REAT-945-2025 — BPTP Limited vs SANTOSH MUTHOO AND VINOD KUMAR MUTHOO",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA2OTQ4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-945-2025_28"
+        },
+        {
+          "title": "H-REAT-1120-2025 — M/s BPTP Limited vs ASHISH POWARI",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA2OTQ3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1120-2025_29"
+        },
+        {
+          "title": "H-REAT-397-2024 — BHRIGU NAGAL AND ANOTHER vs VARALI PROPERTIES LIMITED",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA2Mzk2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-397-2024_30"
+        },
+        {
+          "title": "H-REAT-1260-2025 — Amrita Nakai vs SPLENDOR LANDBASE LTD",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA2ODIz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1260-2025_31"
+        }
+      ]
     },
     {
       "key": "DL_REAT",
@@ -2203,22 +2492,12 @@
       "label": "TRAI_CON",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "status": "error",
+      "error": "<urlopen error timed out>",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "Consultation Paper on Draft Amendments in The Standards of Quality of Service of Access (Wireline and Wireless) and Broadband (Wireline and Wireless) Service Regulations, 2024",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://www.trai.gov.in/release-publication/consultation",
-          "pdf_url": "https://www.trai.gov.in/sites/default/files/2026-08/CP_05082026.pdf",
-          "has_pdf": true,
-          "id": "trai_con_consultation_paper_on_draft_amendments_i_2026-08-05"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "CGST_CIRC",
@@ -2286,10 +2565,10 @@
       "label": "IBBI_ADM",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 68,
-      "docs_with_pdf": 68,
+      "status": "error",
+      "error": "<urlopen error timed out>",
+      "doc_count": 19,
+      "docs_with_pdf": 19,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -2311,7 +2590,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of ZEBYTE RENTAL PLANET PRIVATE LIMITED [CP (IB) 112/ALD/2025]",
+          "title": "In the matter of SHRIVALLABH PITTIE RESEARCH AND TRAINING PRIVATE LIMITED [C.P. (IB)/1224/MB/2025]",
           "date": "20 Aug 2026",
           "date_iso": "2026-08-20",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2320,7 +2599,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of SHRIVALLABH PITTIE RESEARCH AND TRAINING PRIVATE LIMITED [C.P. (IB)/1224/MB/2025]",
+          "title": "In the matter of ZEBYTE RENTAL PLANET PRIVATE LIMITED [CP (IB) 112/ALD/2025]",
           "date": "20 Aug 2026",
           "date_iso": "2026-08-20",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2347,70 +2626,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of Quickspace Technologies F1 Works Private Limited [C.P. (IB)/1238(MB)2025]",
-          "date": "19 Aug 2026",
-          "date_iso": "2026-08-19",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of SIDHRAJ TRANSINFRA PRIVATE LIMITED [CP (IBC) No. 69/Chd/Hry/2023 ]",
-          "date": "19 Aug 2026",
-          "date_iso": "2026-08-19",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of SHROFF TEXTILES LIMITED [(IB)/304(MB)2026]",
-          "date": "19 Aug 2026",
-          "date_iso": "2026-08-19",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of SKM ESTATES LIMITED [C.P (IB) NO. 243/KB/2025]",
-          "date": "19 Aug 2026",
-          "date_iso": "2026-08-19",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of ANTIQUE EXIM PRIVATE LIMITED [CP(IB) No. 203/7/AHM/2026]",
-          "date": "19 Aug 2026",
-          "date_iso": "2026-08-19",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
           "title": "In the matter of GLOBE PANEL INDUSTRIES INDIA PRIVATE LIMITED [ (IBC)/46/(ND)2026]",
-          "date": "19 Aug 2026",
-          "date_iso": "2026-08-19",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of RELIANCE ENTERTAINMENT STUDIOS PRIVATE LIMITED [C.P. (IB)/1063/MB/2025]",
-          "date": "19 Aug 2026",
-          "date_iso": "2026-08-19",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of ERVIKA GLOBAL PRIVATE LIMITED [CP(IBC) No. 43/Chd/Hry/2025]",
           "date": "19 Aug 2026",
           "date_iso": "2026-08-19",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2428,9 +2644,81 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
+          "title": "In the matter of SKM ESTATES LIMITED [C.P (IB) NO. 243/KB/2025]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of SIDHRAJ TRANSINFRA PRIVATE LIMITED [CP (IBC) No. 69/Chd/Hry/2023 ]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of Quickspace Technologies F1 Works Private Limited [C.P. (IB)/1238(MB)2025]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of RELIANCE ENTERTAINMENT STUDIOS PRIVATE LIMITED [C.P. (IB)/1063/MB/2025]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of ANTIQUE EXIM PRIVATE LIMITED [CP(IB) No. 203/7/AHM/2026]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of SHROFF TEXTILES LIMITED [(IB)/304(MB)2026]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of ERVIKA GLOBAL PRIVATE LIMITED [CP(IBC) No. 43/Chd/Hry/2025]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
           "title": "In the matter of MRISHI MARCNDEY INDIA LIMITED [CP(IB)/275/Chd/Hry/2024]",
           "date": "19 Aug 2026",
           "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of SHRI KARVIR NIVASINI MAHALAXMI ISPAT PRIVATE LIMITED [CP (IB) No. 43/MB/2026]",
+          "date": "18 Aug 2026",
+          "date_iso": "2026-08-18",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "has_pdf": true,
@@ -2453,456 +2741,6 @@
           "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "has_pdf": true,
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of SHRI KARVIR NIVASINI MAHALAXMI ISPAT PRIVATE LIMITED [CP (IB) No. 43/MB/2026]",
-          "date": "18 Aug 2026",
-          "date_iso": "2026-08-18",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of VYJAYANTHI TELEVENTURES PRIVATE LIMITED [CP(IB) No.483/7/HDB/2019]",
-          "date": "17 Aug 2026",
-          "date_iso": "2026-08-17",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of MYLAR SUGARS LIMITED [C.P. (IB) No. 127/BB/2026]",
-          "date": "17 Aug 2026",
-          "date_iso": "2026-08-17",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of KALAHRIDHAAN TRENDZ LIMITED [CP(IB) 16(AHM)2026]",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of ASSAM PETROLEUM LIMITED [C.P. (IB)/7/GHY/2026]",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of ADYA OILS & CHEMICALS LIMITED [C.P. (IB)/2392/MB/2019]",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of MEENASHI STEELS PRIVATE LIMITED [CP (IB)/140(CHE)2024]",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of SMO FERRO ALLOYS LIMITED [11 (MP) 2026]",
-          "date": "13 Aug 2026",
-          "date_iso": "2026-08-13",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of RESONANCE PAPER MILL PRIVATE LIMITED [C.P. (IB)/454/MB/2025]",
-          "date": "13 Aug 2026",
-          "date_iso": "2026-08-13",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of OWAIS METAL AND MINERAL PROCESSING LIMITED [76 (MP) 2025]",
-          "date": "13 Aug 2026",
-          "date_iso": "2026-08-13",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of EMCO LIMITED [IA 3486 / 2026]",
-          "date": "12 Aug 2026",
-          "date_iso": "2026-08-12",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of HOURS OVERSEAS PRIVATE LIMITED [CP(IB)/170(PB)/2026]",
-          "date": "12 Aug 2026",
-          "date_iso": "2026-08-12",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of JORD ENGINEERS INDIA LIMITED [C.P. (IB)/1101(MB)2017]",
-          "date": "12 Aug 2026",
-          "date_iso": "2026-08-12",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of PIXION MEDIA PRIVATE LIMITED [438(PB)/2018]",
-          "date": "12 Aug 2026",
-          "date_iso": "2026-08-12",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of JAGDISH CONSTRUCTION LIMITED [CP(IB)/8(MP)2026]",
-          "date": "12 Aug 2026",
-          "date_iso": "2026-08-12",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of PEARL VISION PRIVATE LIMITED [419(PB)/2018]",
-          "date": "11 Aug 2026",
-          "date_iso": "2026-08-11",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of SUNSHINE FASTECH LIMITED [C.P. (IB)/364/AHM/2025]",
-          "date": "11 Aug 2026",
-          "date_iso": "2026-08-11",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of KAMDAR PLASTICS PRIVATE LIMITED [CP(IB)/725/MB/2025]",
-          "date": "11 Aug 2026",
-          "date_iso": "2026-08-11",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of CYBERCORP LIMITED [C.P. (IB)/39/KB/2026]",
-          "date": "11 Aug 2026",
-          "date_iso": "2026-08-11",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of MAARS SOFTWARE INTERNATIONAL LIMITED [CP(IB)/297(CHE)/2025]",
-          "date": "11 Aug 2026",
-          "date_iso": "2026-08-11",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of SRICHAKRA MERCHANDISING PRIVATE LIMITED [CP(IBC)37/CHE/2026]",
-          "date": "11 Aug 2026",
-          "date_iso": "2026-08-11",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of BLISS VILLA (DELHI) PRIVATE LIMITED [C.P. (IB)/579/ND/2025]",
-          "date": "11 Aug 2026",
-          "date_iso": "2026-08-11",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of SRICHAKRA MERCHANDISING PRIVATE LIMITED [CP(IBC)37/CHE/2026]",
-          "date": "11 Aug 2026",
-          "date_iso": "2026-08-11",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of PLANET INFRASTRUCTURE MANAGEMENT PRIVATE LIMITED [C.P. (IB)/278/KB/2025]",
-          "date": "10 Aug 2026",
-          "date_iso": "2026-08-10",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of KRRISH REALTECH PRIVATE LIMITED [IB-72/ND/2026]",
-          "date": "10 Aug 2026",
-          "date_iso": "2026-08-10",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of SHIVALAY INFRACON PRIVATE LIMITED [C.P. (IB) No.102/KB/2026]",
-          "date": "10 Aug 2026",
-          "date_iso": "2026-08-10",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of TEERTH GOPICON LIMITED [CP (IB) 408(AHM)2025]",
-          "date": "10 Aug 2026",
-          "date_iso": "2026-08-10",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of Rajesh Habitat Private Limited [C.P. (IB)/961/MB/2023]",
-          "date": "10 Aug 2026",
-          "date_iso": "2026-08-10",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of OSCORP INDUSTRIES PRIVATE LIMITED [CP(IB) 126/KB/2025]",
-          "date": "10 Aug 2026",
-          "date_iso": "2026-08-10",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of KRUX PHARMA PRIVATE LIMITED [C.P. (IB)/235/AHM/2026]",
-          "date": "07 Aug 2026",
-          "date_iso": "2026-08-07",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of SICAL IRON ORE TERMINAL (MANGALORE) LIMITED [CP/(IBC)/240/CHE/2024 ]",
-          "date": "07 Aug 2026",
-          "date_iso": "2026-08-07",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of TKI TOURS (INDIA) PRIVATE LIMITED [(IB)/797/MB/2026]",
-          "date": "07 Aug 2026",
-          "date_iso": "2026-08-07",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of GANGOTRI TEXTILES LIMITED [CP(IB)/310(CHE)2025]",
-          "date": "07 Aug 2026",
-          "date_iso": "2026-08-07",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of CAPABLE BUILDWELL PRIVATE LIMITED [470/ND/2024]",
-          "date": "06 Aug 2026",
-          "date_iso": "2026-08-06",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of CMP EURO TECHNOPLAST PVT. LTD. [C.P. (IB)/1231(MB)2025]",
-          "date": "06 Aug 2026",
-          "date_iso": "2026-08-06",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of SCHEMA ENTERPRISES PRIVATE LIMITED [C.P. (IB)/3442/MB/2019]",
-          "date": "06 Aug 2026",
-          "date_iso": "2026-08-06",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of MAA DURGA RICE PROCESSING AND EXPORTS PRIVATE LIMITED [IA(IB) No.244 / CB / 2023,IA(IB) No\"42/CB/2022]",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of TULSI SPICES AND FOODS PRIVATE LIMITED [CP/IB(IBC)/20/CB/2026]",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of Matoshree Infrastructure Private Limited [C.P. (IB)/824/MB/2025]",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of SUN GRANITE EXPORT LIMITED [CP (IB) No. 14/C8/2026]",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of KVK NILACHAL POWER PRIVATE LIMITED [IA (IBC) 1146/2026 ]",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of MAA DURGA RICE PROCESSING AND EXPORTS PRIVATE LIMITED [IA(IB) No.244 / CB / 2023,IA(IB) No\"42/CB/2022]",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
-        },
-        {
-          "title": "In the matter of Matoshree Infrastructure Private Limited [C.P. (IB)/824/MB/2025]",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
-        },
-        {
-          "title": "In the matter of SOCRUS PHARMACEUTICALS LIMITED [CP(IB)/47(MP)2026]",
-          "date": "04 Aug 2026",
-          "date_iso": "2026-08-04",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
-        },
-        {
-          "title": "In the matter of ARTHUR TURNKEY PROJECTS LIMITED [CP IB (IBC) 123/KB/2026]",
-          "date": "04 Aug 2026",
-          "date_iso": "2026-08-04",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
-        },
-        {
-          "title": "In the matter of TWENTYFIRST CENTURY PHARMACEUTICALS PRIVATE LIMITED [CP-IB-203-2025]",
-          "date": "04 Aug 2026",
-          "date_iso": "2026-08-04",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
-        },
-        {
-          "title": "In the matter of KRRIYAN KONTAINERS PRIVATE LIMITED [CP (IB) No.61/BB/2026]",
-          "date": "04 Aug 2026",
-          "date_iso": "2026-08-04",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
-        },
-        {
-          "title": "In the matter of G & L PROFILE AND EQUIPMENTS PRIVATE LIMITED [C.P. (IB)/22/AHM/2026]",
-          "date": "04 Aug 2026",
-          "date_iso": "2026-08-04",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
-        },
-        {
-          "title": "In the matter of HIGHPOWERV IMPORT AND EXPORTS PRIVATE LIMITED [CP/IB/303/2025]",
-          "date": "04 Aug 2026",
-          "date_iso": "2026-08-04",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
-        },
-        {
-          "title": "In the matter of ORGANIC WORLD PRIVATE LIMITED [C.P. (IB)/60/MP/2024]",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
         }
       ]
     },
@@ -2911,345 +2749,20 @@
       "label": "EU_MERGER",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 36,
-      "docs_with_pdf": 24,
-      "docs_without_pdf": 12,
-      "documents": [
-        {
-          "title": "[M.12501] SOMNIGROUP / LEGGETT & PLATT",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12501",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12501"
-        },
-        {
-          "title": "[M.12578] BCI / APG / TIG / HANCOCK ASSETS",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12578",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12578"
-        },
-        {
-          "title": "[M.12473] BLACKSTONE / NORLYS / EWH / EUROWIND ENERGY",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12473",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12473"
-        },
-        {
-          "title": "[M.12543] INEOS / SINOPEC / JV",
-          "date": "24 Aug 2026",
-          "date_iso": "2026-08-24",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12543",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202635/M_12543_61.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12543"
-        },
-        {
-          "title": "[M.12341] ORANGE / APG / NEXERA",
-          "date": "21 Aug 2026",
-          "date_iso": "2026-08-21",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12341",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12341"
-        },
-        {
-          "title": "[M.12570] C2X / CPCM / JV",
-          "date": "21 Aug 2026",
-          "date_iso": "2026-08-21",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12570",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12570"
-        },
-        {
-          "title": "[M.12406] CMA CGM / TOTALENERGIES / JV",
-          "date": "20 Aug 2026",
-          "date_iso": "2026-08-20",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12406",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202634/M_12406_80.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12406"
-        },
-        {
-          "title": "[M.12498] ACS AIID / TELEFÓNICA / BANCO SANTANDER / SETT / JV",
-          "date": "19 Aug 2026",
-          "date_iso": "2026-08-19",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12498",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12498"
-        },
-        {
-          "title": "[M.12534] EFMS / EXOLAUNCH",
-          "date": "18 Aug 2026",
-          "date_iso": "2026-08-18",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12534",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12534"
-        },
-        {
-          "title": "[M.12545] MSI / NICOLLIN SAS / SMN / NHE / NICOLLIN EAU / MP3D",
-          "date": "18 Aug 2026",
-          "date_iso": "2026-08-18",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12545",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202634/M_12545_59.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12545"
-        },
-        {
-          "title": "[M.12604] PARTNERS GROUP / AVK",
-          "date": "18 Aug 2026",
-          "date_iso": "2026-08-18",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12604",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12604"
-        },
-        {
-          "title": "[M.12362] FEDEX / ADVENT / A&R / INPOST",
-          "date": "17 Aug 2026",
-          "date_iso": "2026-08-17",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12362",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12362"
-        },
-        {
-          "title": "[M.12464] HLA VISTAHERMOSA / SANOPTIS / OFTALVIST",
-          "date": "17 Aug 2026",
-          "date_iso": "2026-08-17",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12464",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202634/M_12464_78.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12464"
-        },
-        {
-          "title": "[M.12325] NYK / SNL / AVENIR",
-          "date": "17 Aug 2026",
-          "date_iso": "2026-08-17",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12325",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202634/M_12325_130.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12325"
-        },
-        {
-          "title": "[M.12481] CENTERBRIDGE / SANTANDER / EBURY",
-          "date": "17 Aug 2026",
-          "date_iso": "2026-08-17",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12481",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202634/M_12481_93.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12481"
-        },
-        {
-          "title": "[M.12436] WARBURG PINCUS / NETFONDS",
-          "date": "17 Aug 2026",
-          "date_iso": "2026-08-17",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12436",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202634/M_12436_129.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12436"
-        },
-        {
-          "title": "[M.12447] FLAMINGO / FONDO NAZCA IV / HERBEX",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12447",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202634/M_12447_78.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12447"
-        },
-        {
-          "title": "[M.12507] LTM / RANDSTAD (DIGITAL SOLUTIONS BUSINESS)",
-          "date": "13 Aug 2026",
-          "date_iso": "2026-08-13",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12507",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202634/M_12507_85.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12507"
-        },
-        {
-          "title": "[M.12504] MITSUBISHI HC CAPITAL / BROOKFIELD / MHBF RENEWABLES",
-          "date": "13 Aug 2026",
-          "date_iso": "2026-08-13",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12504",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202633/M_12504_81.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12504"
-        },
-        {
-          "title": "[M.12510] MERCEDES-BENZ / BMW / SERES / IONCHI",
-          "date": "12 Aug 2026",
-          "date_iso": "2026-08-12",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12510",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202633/M_12510_71.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12510"
-        },
-        {
-          "title": "[M.12476] VERDANE / TELENOR / CONNEXION / BLDNG",
-          "date": "12 Aug 2026",
-          "date_iso": "2026-08-12",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12476",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202634/M_12476_116.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12476"
-        },
-        {
-          "title": "[M.12527] BAIN CAPITAL / VOLKSWAGEN / EVERLLENCE",
-          "date": "12 Aug 2026",
-          "date_iso": "2026-08-12",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12527",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202633/M_12527_76.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12527"
-        },
-        {
-          "title": "[M.12530] ATLAS HOLDINGS / KPS / JV",
-          "date": "11 Aug 2026",
-          "date_iso": "2026-08-11",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12530",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12530"
-        },
-        {
-          "title": "[M.12394] CPPIB / EQUINIX / ATNORTH",
-          "date": "11 Aug 2026",
-          "date_iso": "2026-08-11",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12394",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12394"
-        },
-        {
-          "title": "[M.12553] INTEROGO / RMS",
-          "date": "11 Aug 2026",
-          "date_iso": "2026-08-11",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12553",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202633/M_12553_78.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12553"
-        },
-        {
-          "title": "[M.12503] GAHL / MERCEDES-BENZ (CERTAIN ASSETS)",
-          "date": "07 Aug 2026",
-          "date_iso": "2026-08-07",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12503",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202633/M_12503_71.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12503"
-        },
-        {
-          "title": "[M.12451] KHAZNA / ENI / JV",
-          "date": "07 Aug 2026",
-          "date_iso": "2026-08-07",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12451",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202633/M_12451_69.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12451"
-        },
-        {
-          "title": "[M.12479] GBL / CVC / RECORDATI",
-          "date": "07 Aug 2026",
-          "date_iso": "2026-08-07",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12479",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202633/M_12479_93.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12479"
-        },
-        {
-          "title": "[M.12496] NASPERS / EMAG",
-          "date": "06 Aug 2026",
-          "date_iso": "2026-08-06",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12496",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202633/M_12496_81.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12496"
-        },
-        {
-          "title": "[M.12427] APOLLO FUNDS / KKR / ATLANTIC AVIATION HOLDINGS",
-          "date": "06 Aug 2026",
-          "date_iso": "2026-08-06",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12427",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202632/M_12427_90.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12427"
-        },
-        {
-          "title": "[M.12454] ELECTROLUX / MIDEA / JVs",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12454",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202632/M_12454_110.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12454"
-        },
-        {
-          "title": "[M.12472] STRABAG / ABERDEEN / MAK",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12472",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202633/M_12472_83.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12472"
-        },
-        {
-          "title": "[M.12508] IGA HOLDING / UNIFREE / JV",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12508",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202633/M_12508_63.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12508"
-        },
-        {
-          "title": "[M.12538] HIG EU MM LBO II / TERRAS",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12538",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202632/M_12538_48.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12538"
-        },
-        {
-          "title": "[M.12536] TRITON / FLENDER",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12536",
-          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202632/M_12536_46.pdf",
-          "has_pdf": true,
-          "id": "eu_m_M_12536"
-        },
-        {
-          "title": "[M.11811] TIL / HUTCHISON PORTS / TERCAT",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.11811",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_11811"
-        }
-      ]
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
+      "docs_without_pdf": 0,
+      "documents": []
     },
     {
       "key": "EU_ANTITRUST",
       "label": "EU_ANTITRUST",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -3260,8 +2773,8 @@
       "label": "EU_DMA",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -3272,76 +2785,12 @@
       "label": "EU_FS",
       "category": "",
       "website_url": "",
-      "status": "ok",
+      "status": "empty",
       "error": null,
-      "doc_count": 7,
+      "doc_count": 0,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 7,
-      "documents": [
-        {
-          "title": "[FS.100375] VIN & VIND / VIVA WINE GROUP",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100375",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_instru_FS_100375"
-        },
-        {
-          "title": "[FS.100320] PEGASUS / SMARTWINGS GROUP",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100320",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_instru_FS_100320"
-        },
-        {
-          "title": "[FS.100368] KESKO / DAHL",
-          "date": "20 Aug 2026",
-          "date_iso": "2026-08-20",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100368",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_instru_FS_100368"
-        },
-        {
-          "title": "[FS.100352] ARUM / BF",
-          "date": "07 Aug 2026",
-          "date_iso": "2026-08-07",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100352",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_instru_FS_100352"
-        },
-        {
-          "title": "[FS.100350] APOLLO FUNDS / FORVIA AUTOMOTIVE INTERIORS BUSINESS",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100350",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_instru_FS_100350"
-        },
-        {
-          "title": "[FS.100346] ZURICH / BEAZLEY",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100346",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_instru_FS_100346"
-        },
-        {
-          "title": "[FS.100353] GBL / CVC / RECORDATI",
-          "date": "04 Aug 2026",
-          "date_iso": "2026-08-04",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100353",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_instru_FS_100353"
-        }
-      ]
+      "docs_without_pdf": 0,
+      "documents": []
     },
     {
       "key": "EPO_BOA",
@@ -4589,9 +4038,9 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 9,
+      "doc_count": 10,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 9,
+      "docs_without_pdf": 10,
       "documents": [
         {
           "title": "Alignment of SEBI",
@@ -4628,6 +4077,15 @@
           "pdf_url": "",
           "has_pdf": false,
           "id": "103823"
+        },
+        {
+          "title": "Revision of Application Form for Mutual Fund Registration",
+          "date": "17 Aug 2026",
+          "date_iso": "2026-08-17",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/aug-2026/revision-of-application-form-for-mutual-fund-registration_103721.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "103721"
         },
         {
           "title": "Modification in the regulatory framework for Online Bond Platform Providers (OBPPs) including measures for promoting ease of doing business",
