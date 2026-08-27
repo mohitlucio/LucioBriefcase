@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-08-26 19:55:06 UTC",
-  "finished_at": "2026-08-26 20:04:50 UTC",
-  "duration_seconds": 584.2,
+  "started_at": "2026-08-27 08:55:53 UTC",
+  "finished_at": "2026-08-27 09:05:26 UTC",
+  "duration_seconds": 573.0,
   "date_range": {
     "from": "2026-08-01",
     "to": "2026-08-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 31,
-  "sources_error": 12,
-  "sources_empty": 50,
-  "total_documents": 453,
-  "docs_with_pdf": 356,
-  "docs_without_pdf": 97,
+  "sources_ok": 33,
+  "sources_error": 13,
+  "sources_empty": 47,
+  "total_documents": 513,
+  "docs_with_pdf": 414,
+  "docs_without_pdf": 99,
   "source_details": [
     {
       "key": "RHP",
@@ -22,10 +22,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 19,
+      "doc_count": 20,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 19,
+      "docs_without_pdf": 20,
       "documents": [
+        {
+          "title": "Deepa Jewellers Limited - RHP",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/deepa-jewellers-limited-rhp_104030.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104030"
+        },
         {
           "title": "ESDS Software Solution Limited - RHP",
           "date": "25 Aug 2026",
@@ -206,9 +215,9 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 20,
+      "doc_count": 21,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 20,
+      "docs_without_pdf": 21,
       "documents": [
         {
           "title": "M P STEEL (INDIA) LIMITED - DRHP",
@@ -245,6 +254,15 @@
           "pdf_url": "",
           "has_pdf": false,
           "id": "103904"
+        },
+        {
+          "title": "GEMINI EDIBLES & FATS INDIA LIMITED - DRHP",
+          "date": "22 Aug 2026",
+          "date_iso": "2026-08-22",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/gemini-edibles-and-fats-india-limited-drhp_104032.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104032"
         },
         {
           "title": "Avtar Steel Limited - DRHP",
@@ -840,8 +858,8 @@
       "label": "CCI_FORM2",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "<urlopen error timed out>",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -876,8 +894,8 @@
       "label": "CCI_APPROVED_MOD",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -931,8 +949,8 @@
       "label": "CCI_ANTI_S26_6",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -986,8 +1004,8 @@
       "label": "CCI_ANTI_S33",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1197,272 +1215,46 @@
       "label": "INX_CIRC",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 10,
-      "docs_with_pdf": 10,
+      "status": "error",
+      "error": "<urlopen error timed out>",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "[20260826-2] Issue of U.S.$500,000,000 5.159 per cent Senior Notes due 2029 and U.S.$1,250,000,000 5.401 per cent Senior Notes due 2031 by HDFC Bank Limited acting through its GIFT-City Branch",
-          "date": "26 Aug 2026",
-          "date_iso": "2026-08-26",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260826-2/20260826-2.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260826-2"
-        },
-        {
-          "title": "[20260824-2] Issue of U.S.$650,000,000 5.478 per cent Senior Notes due 2031 under the U.S.$1,000,000,000 MTN by Kotak Mahindra Bank Limited acting through its GIFT-City Branch",
-          "date": "24 Aug 2026",
-          "date_iso": "2026-08-24",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260824-2/20260824-2.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260824-2"
-        },
-        {
-          "title": "[20260821-3] Issue of U.S.$300,000,000 5.179 per cent Senior Notes due 2029 under the U.S.$5,000,000,000 Global Medium Term Note Programme by Axis Bank Limited acting through its GIFT City IBU",
-          "date": "21 Aug 2026",
-          "date_iso": "2026-08-21",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260821-3/20260821-3.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260821-3"
-        },
-        {
-          "title": "[20260821-2] Issue of U.S.$750,000,000 5.417 per cent Senior Notes due 2031 under the U.S.$7,500,000,000 Global Medium Term Note Programme by ICICI Bank Limited, acting through its IFSC Banking Unit",
-          "date": "21 Aug 2026",
-          "date_iso": "2026-08-21",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260821-2/20260821-2.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260821-2"
-        },
-        {
-          "title": "[20260820-1] Issue of U.S.$400,000,000 5.114 per cent Senior Notes due 2029 and Issue of U.S.$300,000,000 5.318 per cent Senior Notes due 2031 under the U.S.$4,000,000,000 MTN Programme by Bank of Baroda",
-          "date": "20 Aug 2026",
-          "date_iso": "2026-08-20",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260820-1/20260820-1.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260820-1"
-        },
-        {
-          "title": "[20260818-1] Issue of U.S.$500,000,000 5.250 per cent Notes due 2031 under the U.S.$10,000,000,000 Medium Term Note Programme by State Bank of India acting through its London Branch",
-          "date": "18 Aug 2026",
-          "date_iso": "2026-08-18",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260818-1/20260818-1.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260818-1"
-        },
-        {
-          "title": "[20260814-5] Establishment of U.S.$ 850,000,000 Medium Term Note Programme on Global Securities Market by YES Bank Limited",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260814-5/20260814-5.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260814-5"
-        },
-        {
-          "title": "[20260814-4] Establishment of U.S.$1,000,000,000 Medium Term Note Programme on Global Securities Market by Kotak Mahindra Bank Limited",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260814-4/20260814-4.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260814-4"
-        },
-        {
-          "title": "[20260814-3] Issue of U.S.$100,000,000 Floating Rate Notes due 2029 under the U.S.$10,000,000,000 MTN Programme by State Bank of India acting through its London Branch",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260814-3/20260814-3.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260814-3"
-        },
-        {
-          "title": "[20260813-1] Issue of USD 300,000,000 5.352 per cent Senior Notes due 2031 under the U.S.$7,500,000,000 Global Medium Term Note Programme by ICICI Bank Limited acting through its IFSC Banking Unit",
-          "date": "13 Aug 2026",
-          "date_iso": "2026-08-13",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20260813-1/20260813-1.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20260813-1"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "INX_ISSUER",
       "label": "INX_ISSUER",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 16,
-      "docs_with_pdf": 16,
+      "status": "error",
+      "error": "<urlopen error timed out>",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "HDFC Bank Limited — U.S.$500,000,000 5.159 per cent Senior Notes due 2029",
-          "date": "26 Aug 2026",
-          "date_iso": "2026-08-26",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/USY30909AA69_26082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__500_000_000_5_159_per_cen_2026-08-26"
-        },
-        {
-          "title": "HDFC Bank Limited — U.S.$1,250,000,000 5.401 per cent Senior Notes due 2031",
-          "date": "26 Aug 2026",
-          "date_iso": "2026-08-26",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/USY30909AB43_26082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__1_250_000_000_5_401_per_c_2026-08-26"
-        },
-        {
-          "title": "Kotak Mahindra Bank Limited — U.S.$650,000,000 5.478 per cent Senior Notes due 2031 under the MTN",
-          "date": "24 Aug 2026",
-          "date_iso": "2026-08-24",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS348076558824082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__650_000_000_5_478_per_cen_2026-08-24"
-        },
-        {
-          "title": "Axis Bank Limited — U.S.$300,000,000 5.179 per cent Senior Notes under the U.S.$5,000,000,000 GMTN",
-          "date": "21 Aug 2026",
-          "date_iso": "2026-08-21",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS348059041621082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__300_000_000_5_179_per_cen_2026-08-21"
-        },
-        {
-          "title": "ICICI Bank Limited — U.S.$750,000,000 5.417 per cent Senior Notes due 2031 under the U.S.$7,500,000,000 GMTN",
-          "date": "21 Aug 2026",
-          "date_iso": "2026-08-21",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/USY38604AB36_21082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__750_000_000_5_417_per_cen_2026-08-21"
-        },
-        {
-          "title": "Bank of Baroda — U.S.$300,000,000 5.318 per cent Senior Notes due 2031 under the U.S.$4,000,000,000 MTN",
-          "date": "20 Aug 2026",
-          "date_iso": "2026-08-20",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3424472010_20082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__300_000_000_5_318_per_cen_2026-08-20"
-        },
-        {
-          "title": "Bank of Baroda — US$400,000,000 5.114 per cent Senior Notes due 2029 under the U.S.$4,000,000,000 MTN",
-          "date": "20 Aug 2026",
-          "date_iso": "2026-08-20",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3424472101_20082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_us_400_000_000_5_114_per_cent__2026-08-20"
-        },
-        {
-          "title": "State Bank of India — U.S.$500,000,000 5.250 per cent Notes due 2031 under the U.S.$10,000,000,000 MTN Programme",
-          "date": "18 Aug 2026",
-          "date_iso": "2026-08-18",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3425636787_18082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__500_000_000_5_250_per_cen_2026-08-18"
-        },
-        {
-          "title": "Yes Bank Limited — U.S.$850,000,000 Medium Term Note Programme",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/YesbankOfferingcircular14August2026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__850_000_000_medium_term_n_2026-08-14"
-        },
-        {
-          "title": "Kotak Mahindra Bank Limited — U.S.$1,000,000,000 Medium Term Note Programme",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/kotakOfferingCircular200714082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__1_000_000_000_medium_term_2026-08-14"
-        },
-        {
-          "title": "State Bank of India — U.S.$100,000,000 Floating Rate Notes due 2029 under MTN Programme",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3433781062140826.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__100_000_000_floating_rate_2026-08-14"
-        },
-        {
-          "title": "ICICI Bank Limited — U.S.$300,000,000 5.352 per cent Senior Notes due 2031 under the GMTN Programme",
-          "date": "13 Aug 2026",
-          "date_iso": "2026-08-13",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3470524854_13082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__300_000_000_5_352_per_cen_2026-08-13"
-        },
-        {
-          "title": "Axis Bank Limited — U.S.$ 300,000,000 5.348 per cent Senior Notes consolidated with U.S.$ 300,000,000 under GMTN",
-          "date": "12 Aug 2026",
-          "date_iso": "2026-08-12",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS342394477911082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s___300_000_000_5_348_per_ce_2026-08-12"
-        },
-        {
-          "title": "Bank of Baroda — U.S.$4,000,000,000 Medium Term Note Programme Supplementary Offering Circular",
-          "date": "11 Aug 2026",
-          "date_iso": "2026-08-11",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/OfferingCircular11082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__4_000_000_000_medium_term_2026-08-11"
-        },
-        {
-          "title": "Annapurna Finance Private Limited — EURO 8,000,000 6.00 per cent Notes due 2032",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/INIFD2205034_05082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_euro_8_000_000_6_00_per_cent_n_2026-08-05"
-        },
-        {
-          "title": "HDFC Bank Limited — U.S.$20,000,000 Floating Rate Notes due 2031 under MTN Programme",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3457271594_03082026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__20_000_000_floating_rate__2026-08-03"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "TG_RERA_ADJ",
       "label": "TG_RERA_ADJ",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Order Complaint No. 660 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/384798wfybwev9fya62435-TG-RERA-skfjdgky483yunskljghfdgjh",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826073425830.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_ADJ_0"
+        }
+      ]
     },
     {
       "key": "TG_RERA_AUTH",
@@ -1471,325 +1263,10 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 109,
-      "docs_with_pdf": 109,
+      "doc_count": 137,
+      "docs_with_pdf": 137,
       "docs_without_pdf": 0,
       "documents": [
-        {
-          "title": "Order Complaint No 639 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826084539934.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_0"
-        },
-        {
-          "title": "Order Complaint No 640 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826084631822.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_1"
-        },
-        {
-          "title": "Order Complaint No 641 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826084721929.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_2"
-        },
-        {
-          "title": "Order Complaint No 642 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826084811273.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_3"
-        },
-        {
-          "title": "Order Complaint No 643 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826084949538.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_4"
-        },
-        {
-          "title": "Order Complaint No 644 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826085202406.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_5"
-        },
-        {
-          "title": "Order Complaint No 645 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826085252153.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_6"
-        },
-        {
-          "title": "Order Complaint No 646 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826085628055.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_7"
-        },
-        {
-          "title": "Order Complaint No 646 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826090102650.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_8"
-        },
-        {
-          "title": "Order Complaint No 647 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826090212697.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_9"
-        },
-        {
-          "title": "Order Complaint No 648 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826090258219.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_10"
-        },
-        {
-          "title": "Order Complaint No 649 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826090347577.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_11"
-        },
-        {
-          "title": "Order Complaint No 650 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826090544048.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_12"
-        },
-        {
-          "title": "Order Complaint No 651 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826090713818.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_13"
-        },
-        {
-          "title": "Order Complaint No 652 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826090802184.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_14"
-        },
-        {
-          "title": "Order Complaint No 654 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826090857224.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_15"
-        },
-        {
-          "title": "Order Complaint No 655 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826091039885.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_16"
-        },
-        {
-          "title": "Order Complaint No 802 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826091147207.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_17"
-        },
-        {
-          "title": "Order Complaint No 806 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826091241428.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_18"
-        },
-        {
-          "title": "Order Complaint No. 878 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826183427281.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_19"
-        },
-        {
-          "title": "Order Complaint No. 879 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826183511835.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_20"
-        },
-        {
-          "title": "Order Complaint No. 880 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826183631340.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_21"
-        },
-        {
-          "title": "Order Complaint No. 881 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826183719855.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_22"
-        },
-        {
-          "title": "Order Complaint No. 882 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826183844229.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_23"
-        },
-        {
-          "title": "Order Complaint No. 883 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826183945107.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_24"
-        },
-        {
-          "title": "Order Complaint No. 884 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826184024828.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_25"
-        },
-        {
-          "title": "Order Complaint No. 885 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826184130356.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_26"
-        },
-        {
-          "title": "Order Complaint No. 496 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826184407352.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_27"
-        },
-        {
-          "title": "Order Complaint No. 497 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826184511286.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_28"
-        },
-        {
-          "title": "Order Complaint No. 498 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826184624796.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_29"
-        },
-        {
-          "title": "Order Complaint No. 499 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826184706851.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_30"
-        },
-        {
-          "title": "Order Complaint No 627 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826185900183.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_31"
-        },
-        {
-          "title": "Order Complaint No 630 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826190031914.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_32"
-        },
-        {
-          "title": "Order Complaint No 631 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826190257936.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_33"
-        },
-        {
-          "title": "Order Complaint No 632 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826190421289.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_34"
-        },
         {
           "title": "Order Complaint No. 626 of 2025",
           "date": "25 Aug 2026",
@@ -1797,7 +1274,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826190632816.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_35"
+          "id": "tgrera_TG_RERA_AUTH_0"
         },
         {
           "title": "Order Complaint No. 628 of 2025",
@@ -1806,124 +1283,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826190831914.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_36"
-        },
-        {
-          "title": "Order Complaint No.734 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826201507560.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_37"
-        },
-        {
-          "title": "Order Complaint No.735 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826201551460.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_38"
-        },
-        {
-          "title": "Order Complaint No.736 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826201634242.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_39"
-        },
-        {
-          "title": "Order Complaint No.737 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826201714319.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_40"
-        },
-        {
-          "title": "Order Complaint No.738 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826201754693.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_41"
-        },
-        {
-          "title": "Order Complaint No.739 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826201834913.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_42"
-        },
-        {
-          "title": "Order Complaint No.740 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826201916667.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_43"
-        },
-        {
-          "title": "Order Complaint No.741 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826202155142.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_44"
-        },
-        {
-          "title": "Order Complaint No.742 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826202429987.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_45"
-        },
-        {
-          "title": "Order Complaint No.743 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826202607871.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_46"
-        },
-        {
-          "title": "Order Complaint No.744 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826202747530.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_47"
-        },
-        {
-          "title": "Order Complaint No.745 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826202827546.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_48"
-        },
-        {
-          "title": "Order Complaint No.746 of 2025",
-          "date": "25 Aug 2026",
-          "date_iso": "2026-08-25",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826202916688.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_49"
+          "id": "tgrera_TG_RERA_AUTH_1"
         },
         {
           "title": "Order Complaint No. 633 of 2025",
@@ -1932,7 +1292,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826190948105.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_50"
+          "id": "tgrera_TG_RERA_AUTH_2"
         },
         {
           "title": "Order Complaint No. 634 of 2025",
@@ -1941,7 +1301,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826191119450.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_51"
+          "id": "tgrera_TG_RERA_AUTH_3"
         },
         {
           "title": "Order Complaint No. 635 of 2025",
@@ -1950,7 +1310,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826191251199.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_52"
+          "id": "tgrera_TG_RERA_AUTH_4"
         },
         {
           "title": "Order Complaint No 636 of 2025",
@@ -1959,7 +1319,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826191456508.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_53"
+          "id": "tgrera_TG_RERA_AUTH_5"
         },
         {
           "title": "Order Complaint No 637 of 2025",
@@ -1968,7 +1328,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826191629733.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_54"
+          "id": "tgrera_TG_RERA_AUTH_6"
         },
         {
           "title": "Order Complaint No. 724 of 2025",
@@ -1977,7 +1337,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826200334070.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_55"
+          "id": "tgrera_TG_RERA_AUTH_7"
         },
         {
           "title": "Order Complaint No. 725 of 2025",
@@ -1986,7 +1346,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826200550977.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_56"
+          "id": "tgrera_TG_RERA_AUTH_8"
         },
         {
           "title": "Order Complaint No. 726 of 2025",
@@ -1995,7 +1355,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826200723000.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_57"
+          "id": "tgrera_TG_RERA_AUTH_9"
         },
         {
           "title": "Order Complaint No.727 of 2025",
@@ -2004,7 +1364,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826200900473.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_58"
+          "id": "tgrera_TG_RERA_AUTH_10"
         },
         {
           "title": "Order Complaint No.728 of 2025",
@@ -2013,7 +1373,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826200944941.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_59"
+          "id": "tgrera_TG_RERA_AUTH_11"
         },
         {
           "title": "Order Complaint No.729 of 2025",
@@ -2022,7 +1382,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826201029082.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_60"
+          "id": "tgrera_TG_RERA_AUTH_12"
         },
         {
           "title": "Order Complaint No.730 of 2025",
@@ -2031,7 +1391,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826201147459.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_61"
+          "id": "tgrera_TG_RERA_AUTH_13"
         },
         {
           "title": "Order Complaint No.731 of 2025",
@@ -2040,7 +1400,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826201233651.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_62"
+          "id": "tgrera_TG_RERA_AUTH_14"
         },
         {
           "title": "Order Complaint No.732 of 2025",
@@ -2049,7 +1409,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826201317522.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_63"
+          "id": "tgrera_TG_RERA_AUTH_15"
         },
         {
           "title": "Order Complaint No.733 of 2025",
@@ -2058,7 +1418,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826201401021.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_64"
+          "id": "tgrera_TG_RERA_AUTH_16"
         },
         {
           "title": "Order Complaint No 637 of 2025",
@@ -2067,7 +1427,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826084324407.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_65"
+          "id": "tgrera_TG_RERA_AUTH_17"
         },
         {
           "title": "Order Complaint No 638 of 2025",
@@ -2076,43 +1436,691 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826084453949.pdf",
           "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_18"
+        },
+        {
+          "title": "Order Complaint No 639 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826084539934.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_19"
+        },
+        {
+          "title": "Order Complaint No 640 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826084631822.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_20"
+        },
+        {
+          "title": "Order Complaint No 641 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826084721929.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_21"
+        },
+        {
+          "title": "Order Complaint No 642 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826084811273.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_22"
+        },
+        {
+          "title": "Order Complaint No 643 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826084949538.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_23"
+        },
+        {
+          "title": "Order Complaint No 644 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826085202406.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_24"
+        },
+        {
+          "title": "Order Complaint No 645 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826085252153.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_25"
+        },
+        {
+          "title": "Order Complaint No 646 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826085628055.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_26"
+        },
+        {
+          "title": "Order Complaint No 646 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826090102650.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_27"
+        },
+        {
+          "title": "Order Complaint No 647 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826090212697.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_28"
+        },
+        {
+          "title": "Order Complaint No 648 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826090258219.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_29"
+        },
+        {
+          "title": "Order Complaint No 649 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826090347577.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_30"
+        },
+        {
+          "title": "Order Complaint No 650 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826090544048.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_31"
+        },
+        {
+          "title": "Order Complaint No 651 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826090713818.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_32"
+        },
+        {
+          "title": "Order Complaint No 652 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826090802184.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_33"
+        },
+        {
+          "title": "Order Complaint No 654 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826090857224.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_34"
+        },
+        {
+          "title": "Order Complaint No 655 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826091039885.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_35"
+        },
+        {
+          "title": "Order Complaint No 802 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826091147207.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_36"
+        },
+        {
+          "title": "Order Complaint No 806 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826091241428.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_37"
+        },
+        {
+          "title": "Order Complaint No. 878 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826183427281.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_38"
+        },
+        {
+          "title": "Order Complaint No. 879 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826183511835.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_39"
+        },
+        {
+          "title": "Order Complaint No. 880 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826183631340.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_40"
+        },
+        {
+          "title": "Order Complaint No. 881 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826183719855.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_41"
+        },
+        {
+          "title": "Order Complaint No. 882 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826183844229.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_42"
+        },
+        {
+          "title": "Order Complaint No. 883 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826183945107.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_43"
+        },
+        {
+          "title": "Order Complaint No. 884 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826184024828.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_44"
+        },
+        {
+          "title": "Order Complaint No. 885 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826184130356.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_45"
+        },
+        {
+          "title": "Order Complaint No. 496 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826184407352.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_46"
+        },
+        {
+          "title": "Order Complaint No. 497 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826184511286.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_47"
+        },
+        {
+          "title": "Order Complaint No. 498 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826184624796.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_48"
+        },
+        {
+          "title": "Order Complaint No. 499 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826184706851.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_49"
+        },
+        {
+          "title": "Order Complaint No 627 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826185900183.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_50"
+        },
+        {
+          "title": "Order Complaint No 630 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826190031914.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_51"
+        },
+        {
+          "title": "Order Complaint No 631 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826190257936.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_52"
+        },
+        {
+          "title": "Order Complaint No 632 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826190421289.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_53"
+        },
+        {
+          "title": "Order Complaint No.738 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826132846580.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_54"
+        },
+        {
+          "title": "Order Complaint No.734 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826201507560.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_55"
+        },
+        {
+          "title": "Order Complaint No.735 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826201551460.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_56"
+        },
+        {
+          "title": "Order Complaint No.736 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826201634242.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_57"
+        },
+        {
+          "title": "Order Complaint No.737 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826201714319.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_58"
+        },
+        {
+          "title": "Order Complaint No.739 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826201834913.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_59"
+        },
+        {
+          "title": "Order Complaint No.740 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826201916667.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_60"
+        },
+        {
+          "title": "Order Complaint No.741 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826202155142.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_61"
+        },
+        {
+          "title": "Order Complaint No.742 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826202429987.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_62"
+        },
+        {
+          "title": "Order Complaint No.743 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826202607871.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_63"
+        },
+        {
+          "title": "Order Complaint No.744 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826202747530.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_64"
+        },
+        {
+          "title": "Order Complaint No.745 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826202827546.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_65"
+        },
+        {
+          "title": "Order Complaint No.746 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_260826202916688.pdf",
+          "has_pdf": true,
           "id": "tgrera_TG_RERA_AUTH_66"
         },
         {
-          "title": "Order Complaint No. 694 of 2025",
-          "date": "24 Aug 2026",
-          "date_iso": "2026-08-24",
+          "title": "Order Complaint No. 616 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826113801398.pdf",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826071408735.pdf",
           "has_pdf": true,
           "id": "tgrera_TG_RERA_AUTH_67"
         },
         {
-          "title": "Order Complaint No. 413 of 2025",
-          "date": "24 Aug 2026",
-          "date_iso": "2026-08-24",
+          "title": "Order Complaint No. 617 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826172936317.pdf",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826071548285.pdf",
           "has_pdf": true,
           "id": "tgrera_TG_RERA_AUTH_68"
         },
         {
-          "title": "Order Complaint No. 672 of 2025",
-          "date": "24 Aug 2026",
-          "date_iso": "2026-08-24",
+          "title": "Order Complaint No. 618 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826130946298.pdf",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826071657857.pdf",
           "has_pdf": true,
           "id": "tgrera_TG_RERA_AUTH_69"
         },
         {
-          "title": "Order Complaint No. 281 of 2024",
-          "date": "24 Aug 2026",
-          "date_iso": "2026-08-24",
+          "title": "Order Complaint No. 619 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826122020120.pdf",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826071934471.pdf",
           "has_pdf": true,
           "id": "tgrera_TG_RERA_AUTH_70"
+        },
+        {
+          "title": "Order Complaint No. 620 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826072048897.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_71"
+        },
+        {
+          "title": "Order Complaint No. 621 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826072147816.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_72"
+        },
+        {
+          "title": "Order Complaint No. 622 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826072250991.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_73"
+        },
+        {
+          "title": "Order Complaint No. 623 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826072347919.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_74"
+        },
+        {
+          "title": "Order Complaint No. 624 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826072434715.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_75"
+        },
+        {
+          "title": "Order Complaint No. 625 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826072518582.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_76"
+        },
+        {
+          "title": "Order Complaint No. 656 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826073047897.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_77"
+        },
+        {
+          "title": "Order Complaint No. 657 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826073137350.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_78"
+        },
+        {
+          "title": "Order Complaint No. 658 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826073245777.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_79"
+        },
+        {
+          "title": "Order Complaint No. 659 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826073328617.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_80"
+        },
+        {
+          "title": "Order Complaint No. 662 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826073513922.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_81"
+        },
+        {
+          "title": "Order Complaint No. 663 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826073602010.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_82"
+        },
+        {
+          "title": "Order Complaint No. 664 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826073648848.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_83"
+        },
+        {
+          "title": "Order Complaint No. 665 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826073806431.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_84"
+        },
+        {
+          "title": "Order Complaint No. 665 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826073928133.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_85"
+        },
+        {
+          "title": "Order Complaint No. 666 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826074012043.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_86"
+        },
+        {
+          "title": "Order Complaint No. 667 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826074058712.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_87"
+        },
+        {
+          "title": "Order Complaint No. 669 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826074153788.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_88"
+        },
+        {
+          "title": "Order Complaint no. 670 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826074238333.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_89"
+        },
+        {
+          "title": "Order Complaint No. 671 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826074321643.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_90"
+        },
+        {
+          "title": "Order Complaint No. 673 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826074401323.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_91"
+        },
+        {
+          "title": "Order Complaint No. 674 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826074445162.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_92"
+        },
+        {
+          "title": "Order Complaint No. 676 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826074534956.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_93"
+        },
+        {
+          "title": "Order Complaint No.675 of 2025",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_270826074621362.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_94"
         },
         {
           "title": "Order Complaint No. 158 of 2026",
@@ -2121,52 +2129,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826121521045.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_71"
-        },
-        {
-          "title": "Order Complaint No. 699 of 2025",
-          "date": "24 Aug 2026",
-          "date_iso": "2026-08-24",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826113622080.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_72"
-        },
-        {
-          "title": "Order Complaint No. 56 of 2026",
-          "date": "24 Aug 2026",
-          "date_iso": "2026-08-24",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826120818948.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_73"
-        },
-        {
-          "title": "Order Complaint No. 41 of 2026",
-          "date": "24 Aug 2026",
-          "date_iso": "2026-08-24",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826114200449.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_74"
-        },
-        {
-          "title": "Order Complaint No. 206 of 2025",
-          "date": "24 Aug 2026",
-          "date_iso": "2026-08-24",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826173028385.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_75"
-        },
-        {
-          "title": "Order Complaint No. 250 of 2024",
-          "date": "24 Aug 2026",
-          "date_iso": "2026-08-24",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826113113564.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_76"
+          "id": "tgrera_TG_RERA_AUTH_95"
         },
         {
           "title": "Order Complaint No. 251 of 2024",
@@ -2175,7 +2138,70 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826113309332.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_77"
+          "id": "tgrera_TG_RERA_AUTH_96"
+        },
+        {
+          "title": "Order Complaint No. 699 of 2025",
+          "date": "24 Aug 2026",
+          "date_iso": "2026-08-24",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826113622080.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_97"
+        },
+        {
+          "title": "Order Complaint No. 694 of 2025",
+          "date": "24 Aug 2026",
+          "date_iso": "2026-08-24",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826113801398.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_98"
+        },
+        {
+          "title": "Order Complaint No. 206 of 2025",
+          "date": "24 Aug 2026",
+          "date_iso": "2026-08-24",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826173028385.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_99"
+        },
+        {
+          "title": "Order Complaint No. 413 of 2025",
+          "date": "24 Aug 2026",
+          "date_iso": "2026-08-24",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826172936317.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_100"
+        },
+        {
+          "title": "Order Complaint No. 672 of 2025",
+          "date": "24 Aug 2026",
+          "date_iso": "2026-08-24",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826130946298.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_101"
+        },
+        {
+          "title": "Order Complaint No. 281 of 2024",
+          "date": "24 Aug 2026",
+          "date_iso": "2026-08-24",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826122020120.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_102"
+        },
+        {
+          "title": "Order Complaint No. 250 of 2024",
+          "date": "24 Aug 2026",
+          "date_iso": "2026-08-24",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826113113564.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_103"
         },
         {
           "title": "Order Complaint No. 219 of 2025",
@@ -2184,16 +2210,25 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826121013344.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_78"
+          "id": "tgrera_TG_RERA_AUTH_104"
         },
         {
-          "title": "Interim Order Complaint No. 199 of 2024",
-          "date": "20 Aug 2026",
-          "date_iso": "2026-08-20",
+          "title": "Order Complaint No. 56 of 2026",
+          "date": "24 Aug 2026",
+          "date_iso": "2026-08-24",
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_200826165552306.pdf",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826120818948.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_79"
+          "id": "tgrera_TG_RERA_AUTH_105"
+        },
+        {
+          "title": "Order Complaint No. 41 of 2026",
+          "date": "24 Aug 2026",
+          "date_iso": "2026-08-24",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_250826114200449.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_106"
         },
         {
           "title": "Order Complaint No. 113 of 2025",
@@ -2202,7 +2237,16 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_220826133057110.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_80"
+          "id": "tgrera_TG_RERA_AUTH_107"
+        },
+        {
+          "title": "Interim Order Complaint No. 199 of 2024",
+          "date": "20 Aug 2026",
+          "date_iso": "2026-08-20",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_200826165552306.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_108"
         },
         {
           "title": "Order Complaint No. 216 of 2024",
@@ -2211,7 +2255,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_190826170049453.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_81"
+          "id": "tgrera_TG_RERA_AUTH_109"
         },
         {
           "title": "I.A. Order Nos. 14 & 15 of 2024 in Complaint Nos. 623 & 624 of 2023",
@@ -2220,7 +2264,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_140826165230172.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_82"
+          "id": "tgrera_TG_RERA_AUTH_110"
         },
         {
           "title": "Order Complaint No. 828 of 2025",
@@ -2229,7 +2273,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826122858213.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_83"
+          "id": "tgrera_TG_RERA_AUTH_111"
         },
         {
           "title": "Order Complaint No. 698 of 2025",
@@ -2238,16 +2282,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826122510896.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_84"
-        },
-        {
-          "title": "Penalty order in Complaint 500 of 2025",
-          "date": "06 Aug 2026",
-          "date_iso": "2026-08-06",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826172330123.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_85"
+          "id": "tgrera_TG_RERA_AUTH_112"
         },
         {
           "title": "Penalty order in Complaint 554 of 2025",
@@ -2256,16 +2291,16 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826172414793.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_86"
+          "id": "tgrera_TG_RERA_AUTH_113"
         },
         {
-          "title": "Penalty order in Complaint 217 of 2025",
+          "title": "Penalty order in Complaint 500 of 2025",
           "date": "06 Aug 2026",
           "date_iso": "2026-08-06",
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826172150461.pdf",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826172330123.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_87"
+          "id": "tgrera_TG_RERA_AUTH_114"
         },
         {
           "title": "Penalty order in Complaint 435 of 2025",
@@ -2274,16 +2309,16 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826172244130.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_88"
+          "id": "tgrera_TG_RERA_AUTH_115"
         },
         {
-          "title": "Interim Order Complaint No. 816 of 2025",
-          "date": "05 Aug 2026",
-          "date_iso": "2026-08-05",
+          "title": "Penalty order in Complaint 217 of 2025",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_180826132410237.pdf",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826172150461.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_89"
+          "id": "tgrera_TG_RERA_AUTH_116"
         },
         {
           "title": "Interim Order Complaint No. 829 of 2025",
@@ -2292,25 +2327,16 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_180826132244097.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_90"
+          "id": "tgrera_TG_RERA_AUTH_117"
         },
         {
-          "title": "Order Complaint No. 836 of 2025",
-          "date": "04 Aug 2026",
-          "date_iso": "2026-08-04",
+          "title": "Interim Order Complaint No. 816 of 2025",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826123102629.pdf",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_180826132410237.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_91"
-        },
-        {
-          "title": "Order Complaint No. 835 of 2025",
-          "date": "04 Aug 2026",
-          "date_iso": "2026-08-04",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826123004245.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_92"
+          "id": "tgrera_TG_RERA_AUTH_118"
         },
         {
           "title": "Order Complaint No. 827 of 2025",
@@ -2319,16 +2345,25 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826122756313.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_93"
+          "id": "tgrera_TG_RERA_AUTH_119"
         },
         {
-          "title": "Order Complaint No. 271 of 2024",
+          "title": "Order Complaint No. 835 of 2025",
           "date": "04 Aug 2026",
           "date_iso": "2026-08-04",
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826122417494.pdf",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826123004245.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_94"
+          "id": "tgrera_TG_RERA_AUTH_120"
+        },
+        {
+          "title": "Order Complaint No. 836 of 2025",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826123102629.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_121"
         },
         {
           "title": "Order Complaint No. 653 of 2025",
@@ -2337,7 +2372,16 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130826162201548.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_95"
+          "id": "tgrera_TG_RERA_AUTH_122"
+        },
+        {
+          "title": "Order Complaint No. 271 of 2024",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_070826122417494.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_123"
         },
         {
           "title": "Penalty order in Complaint 809 of 2025",
@@ -2346,88 +2390,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_110826135304434.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_96"
-        },
-        {
-          "title": "Order Complaint No. 402 of 2025",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130826135953861.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_97"
-        },
-        {
-          "title": "Order Complaint No. 409 of 2025",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130826140934348.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_98"
-        },
-        {
-          "title": "Order Complaint No. 408 of 2025",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130826140750084.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_99"
-        },
-        {
-          "title": "Order Complaint No. 551 of 2025",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_050826151024016.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_100"
-        },
-        {
-          "title": "Order Complaint No. 403 of 2025",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130826140042313.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_101"
-        },
-        {
-          "title": "Order Complaint No. 549 of 2025",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_030826140154875.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_102"
-        },
-        {
-          "title": "Order Complaint No. 405 of 2025",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130826140316997.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_103"
-        },
-        {
-          "title": "Order Complaint No. 410 of 2025",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130826140353337.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_104"
-        },
-        {
-          "title": "Order Complaint No. 406 of 2025",
-          "date": "03 Aug 2026",
-          "date_iso": "2026-08-03",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130826140557093.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_105"
+          "id": "tgrera_TG_RERA_AUTH_124"
         },
         {
           "title": "Order Complaint No. 407 of 2025",
@@ -2436,7 +2399,34 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130826140641507.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_106"
+          "id": "tgrera_TG_RERA_AUTH_125"
+        },
+        {
+          "title": "Order Complaint No. 408 of 2025",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130826140750084.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_126"
+        },
+        {
+          "title": "Order Complaint No. 549 of 2025",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_030826140154875.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_127"
+        },
+        {
+          "title": "Order Complaint No. 551 of 2025",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_050826151024016.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_128"
         },
         {
           "title": "Order Complaint No. 273 of 2025",
@@ -2445,7 +2435,25 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_030826140033003.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_107"
+          "id": "tgrera_TG_RERA_AUTH_129"
+        },
+        {
+          "title": "Order Complaint No. 402 of 2025",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130826135953861.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_130"
+        },
+        {
+          "title": "Order Complaint No. 403 of 2025",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130826140042313.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_131"
         },
         {
           "title": "Order Complaint No. 404 of 2025",
@@ -2454,7 +2462,43 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130826140128884.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_108"
+          "id": "tgrera_TG_RERA_AUTH_132"
+        },
+        {
+          "title": "Order Complaint No. 405 of 2025",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130826140316997.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_133"
+        },
+        {
+          "title": "Order Complaint No. 409 of 2025",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130826140934348.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_134"
+        },
+        {
+          "title": "Order Complaint No. 406 of 2025",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130826140557093.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_135"
+        },
+        {
+          "title": "Order Complaint No. 410 of 2025",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_130826140353337.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_136"
         }
       ]
     },
@@ -2549,8 +2593,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 39,
-      "docs_with_pdf": 39,
+      "doc_count": 40,
+      "docs_with_pdf": 40,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -2563,13 +2607,13 @@
           "id": "hr_reat_H-REAT-566-2023_0"
         },
         {
-          "title": "H-REAT-18-2026 — M/s Landmark Apartments Pvt. Ltd. vs SATISH KUMAR SHARMA",
+          "title": "H-REAT-1424-2025 — M/s BPTP Limited vs RAJEEV MAGU",
           "date": "17 Aug 2026",
           "date_iso": "2026-08-17",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA5NTA2",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA5MTc2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-18-2026_1"
+          "id": "hr_reat_H-REAT-1424-2025_1"
         },
         {
           "title": "H-REAT-421-2026 — Sumeet Singh vs MANGALAM MULTIPLEX PVT LTD",
@@ -2590,22 +2634,13 @@
           "id": "hr_reat_H-REAT-375-2026_3"
         },
         {
-          "title": "H-REAT-555-2026 — M/s Brahma City Pvt. ltd. through its authorized Signatory Satyendra Nath Tiwari vs SMT SEEMA MITTAL",
+          "title": "H-REAT-18-2026 — M/s Landmark Apartments Pvt. Ltd. vs SATISH KUMAR SHARMA",
           "date": "17 Aug 2026",
           "date_iso": "2026-08-17",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA5NTA4",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA5NTA2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-555-2026_4"
-        },
-        {
-          "title": "H-REAT-461-2025 — MANGLAM MULTIPLEX PVT. LTD vs DINESH TYAGI",
-          "date": "17 Aug 2026",
-          "date_iso": "2026-08-17",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA5NTA5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-461-2025_5"
+          "id": "hr_reat_H-REAT-18-2026_4"
         },
         {
           "title": "H-REAT-477-2023 — Anil Sharma vs TATA HOUSING DEVELOPMENT COMPANY LIMITED",
@@ -2614,7 +2649,25 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA5NTAy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-477-2023_6"
+          "id": "hr_reat_H-REAT-477-2023_5"
+        },
+        {
+          "title": "H-REAT-674-2023 — Tata Housing Development Company Limited through Authorized Representative vs ANIL SHARMA",
+          "date": "17 Aug 2026",
+          "date_iso": "2026-08-17",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA5Njkz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-674-2023_6"
+        },
+        {
+          "title": "H-REAT-555-2026 — M/s Brahma City Pvt. ltd. through its authorized Signatory Satyendra Nath Tiwari vs SMT SEEMA MITTAL",
+          "date": "17 Aug 2026",
+          "date_iso": "2026-08-17",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA5NTA4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-555-2026_7"
         },
         {
           "title": "H-REAT-464-2025 — SRV Automotives Pvt. Ltd. vs AJIT SINGH",
@@ -2623,25 +2676,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA5NTEw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-464-2025_7"
+          "id": "hr_reat_H-REAT-464-2025_8"
         },
         {
-          "title": "H-REAT-1424-2025 — M/s BPTP Limited vs RAJEEV MAGU",
+          "title": "H-REAT-461-2025 — MANGLAM MULTIPLEX PVT. LTD vs DINESH TYAGI",
           "date": "17 Aug 2026",
           "date_iso": "2026-08-17",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA5MTc2",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA5NTA5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1424-2025_8"
-        },
-        {
-          "title": "H-REAT-430-2026 — Skytech Estates Pvt Ltd vs RAJNI KATYAL",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4NDUx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-430-2026_9"
+          "id": "hr_reat_H-REAT-461-2025_9"
         },
         {
           "title": "H-REAT-174-2025 — BPTP LTD vs SANDEEP JAGOTA",
@@ -2671,13 +2715,31 @@
           "id": "hr_reat_H-REAT-31-2026_12"
         },
         {
+          "title": "H-REAT-1601-2025 — Pankaj Aggarwal and Neeraj Aggarwal vs SHREE VARDHMAN INFRAHOME PVT LTD",
+          "date": "14 Aug 2026",
+          "date_iso": "2026-08-14",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4NDQ4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1601-2025_13"
+        },
+        {
           "title": "H-REAT-381-2026 — MICROTEK INFRASTRUCTURES PVT LTD & ANR vs MRIDULA PARTI",
           "date": "14 Aug 2026",
           "date_iso": "2026-08-14",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4NDQ2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-381-2026_13"
+          "id": "hr_reat_H-REAT-381-2026_14"
+        },
+        {
+          "title": "H-REAT-430-2026 — Skytech Estates Pvt Ltd vs RAJNI KATYAL",
+          "date": "14 Aug 2026",
+          "date_iso": "2026-08-14",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4NDUx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-430-2026_15"
         },
         {
           "title": "H-REAT-282-2025 — BPTP Limited vs RAMANJEET SINGH SAHOTA",
@@ -2686,16 +2748,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4Njg4",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-282-2025_14"
-        },
-        {
-          "title": "H-REAT-1601-2025 — Pankaj Aggarwal and Neeraj Aggarwal vs SHREE VARDHMAN INFRAHOME PVT LTD",
-          "date": "14 Aug 2026",
-          "date_iso": "2026-08-14",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4NDQ4",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-1601-2025_15"
+          "id": "hr_reat_H-REAT-282-2025_16"
         },
         {
           "title": "H-REAT-507-2023 — Ocus Skyscrapers Realty Private Limited vs RAMESHWAR",
@@ -2704,7 +2757,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4NDUw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-507-2023_16"
+          "id": "hr_reat_H-REAT-507-2023_17"
         },
         {
           "title": "H-REAT-119-2026 — Charanpreet Singh Chanana vs EMAAR MGF LAND LTD",
@@ -2713,7 +2766,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4NDQ3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-119-2026_17"
+          "id": "hr_reat_H-REAT-119-2026_18"
         },
         {
           "title": "H-REAT-970-2025 — Ritu Jain & Others vs PARSVNATH DEVELOPERS LTD",
@@ -2722,16 +2775,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4MTI2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-970-2025_18"
-        },
-        {
-          "title": "H-REAT-374-2023 — Emaar India Ltd vs PARMINDER DATT",
-          "date": "12 Aug 2026",
-          "date_iso": "2026-08-12",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3NTkx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-374-2023_19"
+          "id": "hr_reat_H-REAT-970-2025_19"
         },
         {
           "title": "H-REAT-19-2024 — Pivotal Infrastructure Pvt Ltd vs SONAM KANODIA",
@@ -2743,22 +2787,31 @@
           "id": "hr_reat_H-REAT-19-2024_20"
         },
         {
-          "title": "H-REAT-378-2023 — Emaar India Ltd vs ANUJ KUMAR TANEJA",
-          "date": "12 Aug 2026",
-          "date_iso": "2026-08-12",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3NTg5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-378-2023_21"
-        },
-        {
           "title": "H-REAT-334-2022 — Emaar India Limited vs SUDHIR GROVER",
           "date": "12 Aug 2026",
           "date_iso": "2026-08-12",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3NTky",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-334-2022_22"
+          "id": "hr_reat_H-REAT-334-2022_21"
+        },
+        {
+          "title": "H-REAT-378-2023 — Emaar India Ltd vs ANUJ KUMAR TANEJA",
+          "date": "12 Aug 2026",
+          "date_iso": "2026-08-12",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3NTg5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-378-2023_22"
+        },
+        {
+          "title": "H-REAT-374-2023 — Emaar India Ltd vs PARMINDER DATT",
+          "date": "12 Aug 2026",
+          "date_iso": "2026-08-12",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3NTkx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-374-2023_23"
         },
         {
           "title": "H-REAT-851-2025 — Ms Vatika ltd vs VIJAY LUXMI",
@@ -2767,16 +2820,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3OTUy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-851-2025_23"
-        },
-        {
-          "title": "H-REAT-384-2026 — Varun Roperia vs AARCITY BUILDERS PRIVATE LIMITED",
-          "date": "07 Aug 2026",
-          "date_iso": "2026-08-07",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3MjQy",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-384-2026_24"
+          "id": "hr_reat_H-REAT-851-2025_24"
         },
         {
           "title": "H-REAT-574-2022 — Ms Omaxe Ltd and Anr vs SEEMA JAIN",
@@ -2788,31 +2832,31 @@
           "id": "hr_reat_H-REAT-574-2022_25"
         },
         {
-          "title": "H-REAT-59-2023 — RPS INFRASTRUCTURE LTD vs SAVANA WELFARE ASSOCIATION",
-          "date": "07 Aug 2026",
-          "date_iso": "2026-08-07",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3MjQ1",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-59-2023_26"
-        },
-        {
-          "title": "H-REAT-237-2023 — TDI Infrastructure Ltd vs SUBODH BANSAL",
-          "date": "07 Aug 2026",
-          "date_iso": "2026-08-07",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4ODYx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-237-2023_27"
-        },
-        {
           "title": "H-REAT-231-2023 — TDI Infrastructure Ltd vs NEENA BANSAL",
           "date": "07 Aug 2026",
           "date_iso": "2026-08-07",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4ODU5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-231-2023_28"
+          "id": "hr_reat_H-REAT-231-2023_26"
+        },
+        {
+          "title": "H-REAT-59-2023 — RPS INFRASTRUCTURE LTD vs SAVANA WELFARE ASSOCIATION",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3MjQ1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-59-2023_27"
+        },
+        {
+          "title": "H-REAT-852-2025 — Vatika ltd vs VIJAY LUXMI",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3OTU0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-852-2025_28"
         },
         {
           "title": "H-REAT-854-2025 — Vatika ltd vs VIJAY LUXMI",
@@ -2824,22 +2868,22 @@
           "id": "hr_reat_H-REAT-854-2025_29"
         },
         {
-          "title": "H-REAT-512-2022 — SEEMA JAIN vs OMAXE LIMITED",
-          "date": "07 Aug 2026",
-          "date_iso": "2026-08-07",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3MjQz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-512-2022_30"
-        },
-        {
           "title": "H-REAT-469-2025 — M3M INDIA PVT LTD AND M3M INDIA PVT LTD vs SHARAD MALHOTRA",
           "date": "07 Aug 2026",
           "date_iso": "2026-08-07",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3MjQ3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-469-2025_31"
+          "id": "hr_reat_H-REAT-469-2025_30"
+        },
+        {
+          "title": "H-REAT-512-2022 — SEEMA JAIN vs OMAXE LIMITED",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3MjQz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-512-2022_31"
         },
         {
           "title": "H-REAT-228-2025 — Jotindra Infrastructure Limited vs HARYANA REAL ESTATE REGULATORY AUTHORITY PANCHKULA",
@@ -2851,22 +2895,31 @@
           "id": "hr_reat_H-REAT-228-2025_32"
         },
         {
+          "title": "H-REAT-384-2026 — Varun Roperia vs AARCITY BUILDERS PRIVATE LIMITED",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3MjQy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-384-2026_33"
+        },
+        {
           "title": "H-REAT-853-2025 — Vatika ltd vs VIJAY LUXMI",
           "date": "07 Aug 2026",
           "date_iso": "2026-08-07",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3OTU1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-853-2025_33"
+          "id": "hr_reat_H-REAT-853-2025_34"
         },
         {
-          "title": "H-REAT-852-2025 — Vatika ltd vs VIJAY LUXMI",
+          "title": "H-REAT-237-2023 — TDI Infrastructure Ltd vs SUBODH BANSAL",
           "date": "07 Aug 2026",
           "date_iso": "2026-08-07",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA3OTU0",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA4ODYx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-852-2025_34"
+          "id": "hr_reat_H-REAT-237-2023_35"
         },
         {
           "title": "H-REAT-1120-2025 — M/s BPTP Limited vs ASHISH POWARI",
@@ -2875,7 +2928,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA2OTQ3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1120-2025_35"
+          "id": "hr_reat_H-REAT-1120-2025_36"
         },
         {
           "title": "H-REAT-945-2025 — BPTP Limited vs SANTOSH MUTHOO AND VINOD KUMAR MUTHOO",
@@ -2884,7 +2937,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA2OTQ4",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-945-2025_36"
+          "id": "hr_reat_H-REAT-945-2025_37"
         },
         {
           "title": "H-REAT-397-2024 — BHRIGU NAGAL AND ANOTHER vs VARALI PROPERTIES LIMITED",
@@ -2893,7 +2946,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA2Mzk2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-397-2024_37"
+          "id": "hr_reat_H-REAT-397-2024_38"
         },
         {
           "title": "H-REAT-1260-2025 — Amrita Nakai vs SPLENDOR LANDBASE LTD",
@@ -2902,7 +2955,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzA2ODIz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1260-2025_38"
+          "id": "hr_reat_H-REAT-1260-2025_39"
         }
       ]
     },
@@ -2923,12 +2976,22 @@
       "label": "TRAI_DIR",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "<urlopen error timed out>",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Direction on Allocation and operationalization of 1601 numbering series for Service and Transactional Voice Calls by entities in sectors other than BFSI and Government sector, under TCCCPR, 2018",
+          "date": "10 Aug 2026",
+          "date_iso": "2026-08-10",
+          "page_url": "https://www.trai.gov.in/release-publication/directions",
+          "pdf_url": "https://www.trai.gov.in/sites/default/files/2026-08/Direction_10082026.pdf",
+          "has_pdf": true,
+          "id": "trai_dir_direction_on_allocation_and_operationali_2026-08-10"
+        }
+      ]
     },
     {
       "key": "TRAI_REG",
@@ -2993,8 +3056,8 @@
       "label": "IBBI_RES",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "<urlopen error timed out>",
+      "status": "ok",
+      "error": null,
       "doc_count": 4,
       "docs_with_pdf": 4,
       "docs_without_pdf": 0,
@@ -3042,12 +3105,21 @@
       "label": "IBBI_ADM",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "<urlopen error timed out>",
-      "doc_count": 19,
-      "docs_with_pdf": 19,
+      "status": "ok",
+      "error": null,
+      "doc_count": 72,
+      "docs_with_pdf": 72,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "In the matter of POOJA DIAM LLP [CP(IB)/126(MB)2026]",
+          "date": "25 Aug 2026",
+          "date_iso": "2026-08-25",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
         {
           "title": "In the matter of SWAPNAPURTI SUGAR LIMITED [C.P. (IB)/1370/MB/2025 ]",
           "date": "25 Aug 2026",
@@ -3067,7 +3139,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of ZEBYTE RENTAL PLANET PRIVATE LIMITED [CP (IB) 112/ALD/2025]",
+          "title": "In the matter of SATIATE AGRI LIMITED [CP(IB)/77(MP)2026]",
           "date": "20 Aug 2026",
           "date_iso": "2026-08-20",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -3085,7 +3157,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of SATIATE AGRI LIMITED [CP(IB)/77(MP)2026]",
+          "title": "In the matter of ZEBYTE RENTAL PLANET PRIVATE LIMITED [CP (IB) 112/ALD/2025]",
           "date": "20 Aug 2026",
           "date_iso": "2026-08-20",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -3094,7 +3166,16 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of RELIANCE ENTERTAINMENT STUDIOS PRIVATE LIMITED [C.P. (IB)/1063/MB/2025]",
+          "title": "In the matter of ANDHRA PRADESH GAS POWER CORPORATION LIMITED [CP (IB) No. 51/7/HDB/2026]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of SHROFF TEXTILES LIMITED [CP(IB)/304(MB)2026]",
           "date": "19 Aug 2026",
           "date_iso": "2026-08-19",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -3130,7 +3211,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of SHROFF TEXTILES LIMITED [(IB)/304(MB)2026]",
+          "title": "In the matter of PROGRESSIVE TRADECOM PRIVATE LIMITED [C.P. (IB)/150/KB/2025]",
           "date": "19 Aug 2026",
           "date_iso": "2026-08-19",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -3148,7 +3229,25 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
+          "title": "In the matter of RELIANCE ENTERTAINMENT STUDIOS PRIVATE LIMITED [C.P. (IB)/1063/MB/2025]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
           "title": "In the matter of ANTIQUE EXIM PRIVATE LIMITED [CP(IB) No. 203/7/AHM/2026]",
+          "date": "19 Aug 2026",
+          "date_iso": "2026-08-19",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of SHROFF TEXTILES LIMITED [(IB)/304(MB)2026]",
           "date": "19 Aug 2026",
           "date_iso": "2026-08-19",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -3184,40 +3283,481 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of ANDHRA PRADESH GAS POWER CORPORATION LIMITED [CP (IB) No. 51/7/HDB/2026]",
-          "date": "19 Aug 2026",
-          "date_iso": "2026-08-19",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of LANDMARK MOTELS AND TRAVELS PRIVATE LIMITED [CP (IB) No.1154/MB/2025 with IA (I.B.C) No. 637(MB]",
+          "title": "In the matter of KONARK AQUATICS AND EXPORTS PRIVATE LIMITED [37/CB/2022]",
           "date": "18 Aug 2026",
           "date_iso": "2026-08-18",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
           "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
           "title": "In the matter of SHRI KARVIR NIVASINI MAHALAXMI ISPAT PRIVATE LIMITED [CP (IB) No. 43/MB/2026]",
           "date": "18 Aug 2026",
           "date_iso": "2026-08-18",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
           "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of KONARK AQUATICS AND EXPORTS PRIVATE LIMITED [37/CB/2022]",
+          "title": "In the matter of LANDMARK MOTELS AND TRAVELS PRIVATE LIMITED [CP (IB) No.1154/MB/2025 with IA (I.B.C) No. 637(MB]",
           "date": "18 Aug 2026",
           "date_iso": "2026-08-18",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
           "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of VYJAYANTHI TELEVENTURES PRIVATE LIMITED [CP(IB) No.483/7/HDB/2019]",
+          "date": "17 Aug 2026",
+          "date_iso": "2026-08-17",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of MYLAR SUGARS LIMITED [C.P. (IB) No. 127/BB/2026]",
+          "date": "17 Aug 2026",
+          "date_iso": "2026-08-17",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of KALAHRIDHAAN TRENDZ LIMITED [CP(IB) 16(AHM)2026]",
+          "date": "14 Aug 2026",
+          "date_iso": "2026-08-14",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of ADYA OILS & CHEMICALS LIMITED [C.P. (IB)/2392/MB/2019]",
+          "date": "14 Aug 2026",
+          "date_iso": "2026-08-14",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of MEENASHI STEELS PRIVATE LIMITED [CP (IB)/140(CHE)2024]",
+          "date": "14 Aug 2026",
+          "date_iso": "2026-08-14",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of ASSAM PETROLEUM LIMITED [C.P. (IB)/7/GHY/2026]",
+          "date": "14 Aug 2026",
+          "date_iso": "2026-08-14",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of SMO FERRO ALLOYS LIMITED [11 (MP) 2026]",
+          "date": "13 Aug 2026",
+          "date_iso": "2026-08-13",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of RESONANCE PAPER MILL PRIVATE LIMITED [C.P. (IB)/454/MB/2025]",
+          "date": "13 Aug 2026",
+          "date_iso": "2026-08-13",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of OWAIS METAL AND MINERAL PROCESSING LIMITED [76 (MP) 2025]",
+          "date": "13 Aug 2026",
+          "date_iso": "2026-08-13",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of JORD ENGINEERS INDIA LIMITED [C.P. (IB)/1101(MB)2017]",
+          "date": "12 Aug 2026",
+          "date_iso": "2026-08-12",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of EMCO LIMITED [IA 3486 / 2026]",
+          "date": "12 Aug 2026",
+          "date_iso": "2026-08-12",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of PIXION MEDIA PRIVATE LIMITED [438(PB)/2018]",
+          "date": "12 Aug 2026",
+          "date_iso": "2026-08-12",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of HOURS OVERSEAS PRIVATE LIMITED [CP(IB)/170(PB)/2026]",
+          "date": "12 Aug 2026",
+          "date_iso": "2026-08-12",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of JAGDISH CONSTRUCTION LIMITED [CP(IB)/8(MP)2026]",
+          "date": "12 Aug 2026",
+          "date_iso": "2026-08-12",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of SUNSHINE FASTECH LIMITED [C.P. (IB)/364/AHM/2025]",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of TIRUMALLA INDIA STOREHOUSE PRIVATE LIMITED [C.P.(IB)/1415(MB)2025]",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of PEARL VISION PRIVATE LIMITED [419(PB)/2018]",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of SRICHAKRA MERCHANDISING PRIVATE LIMITED [CP(IBC)37/CHE/2026]",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of PEARL VISION PRIVATE LIMITED [419(PB)/2018]",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of SUNSHINE FASTECH LIMITED [C.P. (IB)/364/AHM/2025]",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of TIRUMALLA INDIA STOREHOUSE PRIVATE LIMITED [C.P.(IB)/1415(MB)2025]",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of BLISS VILLA (DELHI) PRIVATE LIMITED [C.P. (IB)/579/ND/2025]",
+          "date": "11 Aug 2026",
+          "date_iso": "2026-08-11",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of Rajesh Habitat Private Limited [C.P. (IB)/961/MB/2023]",
+          "date": "10 Aug 2026",
+          "date_iso": "2026-08-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of KRRISH REALTECH PRIVATE LIMITED [IB-72/ND/2026]",
+          "date": "10 Aug 2026",
+          "date_iso": "2026-08-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of SHIVALAY INFRACON PRIVATE LIMITED [C.P. (IB) No.102/KB/2026]",
+          "date": "10 Aug 2026",
+          "date_iso": "2026-08-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of TEERTH GOPICON LIMITED [CP (IB) 408(AHM)2025]",
+          "date": "10 Aug 2026",
+          "date_iso": "2026-08-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of OSCORP INDUSTRIES PRIVATE LIMITED [CP(IB) 126/KB/2025]",
+          "date": "10 Aug 2026",
+          "date_iso": "2026-08-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of PLANET INFRASTRUCTURE MANAGEMENT PRIVATE LIMITED [C.P. (IB)/278/KB/2025]",
+          "date": "10 Aug 2026",
+          "date_iso": "2026-08-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of TKI TOURS (INDIA) PRIVATE LIMITED [(IB)/797/MB/2026]",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of GANGOTRI TEXTILES LIMITED [CP(IB)/310(CHE)2025]",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of REGMA CERAMICS PRIVATE LIMITED [CP(IB)/146/09/2024]",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of KRUX PHARMA PRIVATE LIMITED [C.P. (IB)/235/AHM/2026]",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of SICAL IRON ORE TERMINAL (MANGALORE) LIMITED [CP/(IBC)/240/CHE/2024 ]",
+          "date": "07 Aug 2026",
+          "date_iso": "2026-08-07",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of CAPABLE BUILDWELL PRIVATE LIMITED [470/ND/2024]",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of CMP EURO TECHNOPLAST PVT. LTD. [C.P. (IB)/1231(MB)2025]",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of SCHEMA ENTERPRISES PRIVATE LIMITED [C.P. (IB)/3442/MB/2019]",
+          "date": "06 Aug 2026",
+          "date_iso": "2026-08-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of PREMIUM LAMINATORS PRIVATE LIMITED [C.P. (IB)/176/ND/2026]",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of TULSI SPICES AND FOODS PRIVATE LIMITED [CP/IB(IBC)/20/CB/2026]",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
+        },
+        {
+          "title": "In the matter of SUN GRANITE EXPORT LIMITED [CP (IB) No. 14/C8/2026]",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
+        },
+        {
+          "title": "In the matter of Shree Nagai Devi Sugar Private Limited [C.P. (IB)/917/MB/2025]",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
+        },
+        {
+          "title": "In the matter of PREMIUM LAMINATORS PRIVATE LIMITED [C.P. (IB)/176/ND/2026]",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
+        },
+        {
+          "title": "In the matter of MAA DURGA RICE PROCESSING AND EXPORTS PRIVATE LIMITED [IA(IB) No.244 / CB / 2023,IA(IB) No\"42/CB/2022]",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
+        },
+        {
+          "title": "In the matter of Matoshree Infrastructure Private Limited [C.P. (IB)/824/MB/2025]",
+          "date": "05 Aug 2026",
+          "date_iso": "2026-08-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
+        },
+        {
+          "title": "In the matter of SOCRUS PHARMACEUTICALS LIMITED [CP(IB)/47(MP)2026]",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
+        },
+        {
+          "title": "In the matter of HIGHPOWERV IMPORT AND EXPORTS PRIVATE LIMITED [CP/IB/303/2025]",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
+        },
+        {
+          "title": "In the matter of TWENTYFIRST CENTURY PHARMACEUTICALS PRIVATE LIMITED [CP-IB-203-2025]",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
+        },
+        {
+          "title": "In the matter of G & L PROFILE AND EQUIPMENTS PRIVATE LIMITED [C.P. (IB)/22/AHM/2026]",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
+        },
+        {
+          "title": "In the matter of ARTHUR TURNKEY PROJECTS LIMITED [CP IB (IBC) 123/KB/2026]",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
+        },
+        {
+          "title": "In the matter of KRRIYAN KONTAINERS PRIVATE LIMITED [CP (IB) No.61/BB/2026]",
+          "date": "04 Aug 2026",
+          "date_iso": "2026-08-04",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
+        },
+        {
+          "title": "In the matter of ORGANIC WORLD PRIVATE LIMITED [C.P. (IB)/60/MP/2024]",
+          "date": "03 Aug 2026",
+          "date_iso": "2026-08-03",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
         }
       ]
     },
