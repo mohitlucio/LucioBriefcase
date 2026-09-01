@@ -1,43 +1,72 @@
 {
-  "started_at": "2026-09-01 04:50:28 UTC",
-  "finished_at": "2026-09-01 05:00:17 UTC",
-  "duration_seconds": 589.0,
+  "started_at": "2026-09-01 11:31:29 UTC",
+  "finished_at": "2026-09-01 11:41:25 UTC",
+  "duration_seconds": 595.8,
   "date_range": {
     "from": "2026-09-01",
     "to": "2026-09-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 0,
-  "sources_error": 8,
-  "sources_empty": 85,
-  "total_documents": 0,
-  "docs_with_pdf": 0,
-  "docs_without_pdf": 0,
+  "sources_ok": 4,
+  "sources_error": 10,
+  "sources_empty": 79,
+  "total_documents": 5,
+  "docs_with_pdf": 2,
+  "docs_without_pdf": 3,
   "source_details": [
     {
       "key": "RHP",
       "label": "RHP",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "PRANAV CONSTRUCTIONS LIMITED - RHP",
+          "date": "01 Sep 2026",
+          "date_iso": "2026-09-01",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/pranav-constructions-limited-rhp_104168.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104168"
+        }
+      ]
     },
     {
       "key": "DRHP",
       "label": "DRHP",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 2,
+      "documents": [
+        {
+          "title": "Sembcorp Green Infra Limited - DRHP",
+          "date": "01 Sep 2026",
+          "date_iso": "2026-09-01",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/sembcorp-green-infra-limited-drhp_104162.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104162"
+        },
+        {
+          "title": "ARAGEN LIFE SCIENCES LIMITED - DRHP",
+          "date": "01 Sep 2026",
+          "date_iso": "2026-09-01",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/aragen-life-sciences-limited-drhp_104157.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104157"
+        }
+      ]
     },
     {
       "key": "RIGHTS_LOF",
@@ -260,12 +289,22 @@
       "label": "CCI_ANTI_S26_1",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[14/2026] XYZ",
+          "date": "01 Sep 2026",
+          "date_iso": "2026-09-01",
+          "page_url": "https://www.cci.gov.in/antitrust/orders",
+          "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1788247826.pdf",
+          "has_pdf": true,
+          "id": "cci_anti_6_14_2026"
+        }
+      ]
     },
     {
       "key": "CCI_ANTI_S26_2",
@@ -524,12 +563,22 @@
       "label": "INX_ISSUER",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Capri Global Capital Limited — U.S.$1,000,000,000 Global Medium Term Note Programme Supplementary Offering Circular",
+          "date": "01 Sep 2026",
+          "date_iso": "2026-09-01",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/SupplementalOC01092026.zip",
+          "has_pdf": true,
+          "id": "inx_iss_u_s__1_000_000_000_global_medi_2026-09-01"
+        }
+      ]
     },
     {
       "key": "TG_RERA_ADJ",
@@ -668,8 +717,8 @@
       "label": "TRAI_DIR",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "The read operation timed out",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -692,8 +741,8 @@
       "label": "TRAI_REC",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "The read operation timed out",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
