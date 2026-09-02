@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-09-01 20:56:04 UTC",
-  "finished_at": "2026-09-01 21:05:50 UTC",
-  "duration_seconds": 585.7,
+  "started_at": "2026-09-02 04:11:21 UTC",
+  "finished_at": "2026-09-02 04:20:55 UTC",
+  "duration_seconds": 574.6,
   "date_range": {
     "from": "2026-09-01",
     "to": "2026-09-30"
@@ -11,9 +11,9 @@
   "sources_ok": 5,
   "sources_error": 8,
   "sources_empty": 80,
-  "total_documents": 6,
+  "total_documents": 8,
   "docs_with_pdf": 2,
-  "docs_without_pdf": 4,
+  "docs_without_pdf": 6,
   "source_details": [
     {
       "key": "RHP",
@@ -44,10 +44,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
+      "doc_count": 4,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 2,
+      "docs_without_pdf": 4,
       "documents": [
+        {
+          "title": "Kataria Dhulchand Pannalal Jewellers Limited",
+          "date": "01 Sep 2026",
+          "date_iso": "2026-09-01",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/kataria-dhulchand-pannalal-jewellers-limited_104178.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104178"
+        },
+        {
+          "title": "Sembcorp Green Infra Limited",
+          "date": "01 Sep 2026",
+          "date_iso": "2026-09-01",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/sembcorp-green-infra-limited_104167.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104167"
+        },
         {
           "title": "Sembcorp Green Infra Limited - DRHP",
           "date": "01 Sep 2026",
