@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-09-02 11:06:26 UTC",
-  "finished_at": "2026-09-02 11:16:16 UTC",
-  "duration_seconds": 589.3,
+  "started_at": "2026-09-02 16:27:13 UTC",
+  "finished_at": "2026-09-02 16:36:33 UTC",
+  "duration_seconds": 560.4,
   "date_range": {
     "from": "2026-09-01",
     "to": "2026-09-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 9,
-  "sources_error": 10,
-  "sources_empty": 74,
-  "total_documents": 14,
-  "docs_with_pdf": 5,
-  "docs_without_pdf": 9,
+  "sources_ok": 13,
+  "sources_error": 8,
+  "sources_empty": 72,
+  "total_documents": 19,
+  "docs_with_pdf": 9,
+  "docs_without_pdf": 10,
   "source_details": [
     {
       "key": "RHP",
@@ -365,12 +365,22 @@
       "label": "CCI_ANTI_S27",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[29/2021] Muthoot Finance Limited vs. Trustees’ Association of India and Others",
+          "date": "02 Sep 2026",
+          "date_iso": "2026-09-02",
+          "page_url": "https://www.cci.gov.in/antitrust/orders",
+          "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1788350609.pdf",
+          "has_pdf": true,
+          "id": "cci_anti_10_29_2021"
+        }
+      ]
     },
     {
       "key": "CCI_ANTI_S33",
@@ -545,8 +555,8 @@
       "label": "IRDAI_CIRC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 504: Gateway Time-out",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -557,8 +567,8 @@
       "label": "IRDAI_REGS",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 504: Gateway Time-out",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -569,12 +579,31 @@
       "label": "INX_CIRC",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[20260902-2] Issue of U.S.$100,000,000 6.875 per cent AT1 Notes to be consolidated and form a single series with the U.S.$500,000,000 6.875 per cent AT1 Notes under the U.S.$5,000,000,000 GMTN by Axis Bank Limited",
+          "date": "02 Sep 2026",
+          "date_iso": "2026-09-02",
+          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
+          "pdf_url": "https://www.indiainx.com/circulars/20260902-2/20260902-2.pdf",
+          "has_pdf": true,
+          "id": "inx_circ_20260902-2"
+        },
+        {
+          "title": "[20260902-1] Issue of U.S.$200,000,000 5.180 per cent. Senior Notes due 2029 to be consolidated and form a single series with the U.S.$450,000,000 5.180 per cent. Senior Notes due 2029 by HDFC Bank Limited",
+          "date": "02 Sep 2026",
+          "date_iso": "2026-09-02",
+          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
+          "pdf_url": "https://www.indiainx.com/circulars/20260902-1/20260902-1.pdf",
+          "has_pdf": true,
+          "id": "inx_circ_20260902-1"
+        }
+      ]
     },
     {
       "key": "INX_ISSUER",
@@ -893,12 +922,22 @@
       "label": "EU_FS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "[FS.100312] HARMAN / ZF CAPRI",
+          "date": "02 Sep 2026",
+          "date_iso": "2026-09-02",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100312",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100312"
+        }
+      ]
     },
     {
       "key": "EPO_BOA",
@@ -1259,12 +1298,22 @@
       "label": "RBI_FEMA_NOTIF",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Deposits and Accounts – Accounts of Non-resident banks",
+          "date": "02 Sep 2026",
+          "date_iso": "2026-09-02",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13693&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/251NT85B7339E9B824E5EB17C055D795CE095.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13693"
+        }
+      ]
     }
   ],
   "partial_scrape": false
