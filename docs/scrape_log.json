@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-09-03 11:03:29 UTC",
-  "finished_at": "2026-09-03 11:13:08 UTC",
-  "duration_seconds": 579.2,
+  "started_at": "2026-09-03 16:17:46 UTC",
+  "finished_at": "2026-09-03 16:27:10 UTC",
+  "duration_seconds": 563.8,
   "date_range": {
     "from": "2026-09-01",
     "to": "2026-09-30"
@@ -11,8 +11,8 @@
   "sources_ok": 18,
   "sources_error": 8,
   "sources_empty": 67,
-  "total_documents": 34,
-  "docs_with_pdf": 20,
+  "total_documents": 36,
+  "docs_with_pdf": 22,
   "docs_without_pdf": 14,
   "source_details": [
     {
@@ -431,13 +431,13 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "[22/2026] Rinima Borah Agarwal and Mrs. India Inc.",
+          "title": "[12/2025] Rinima Borah Agarwal and Mrs. India Inc.",
           "date": "03 Sep 2026",
           "date_iso": "2026-09-03",
           "page_url": "https://www.cci.gov.in/antitrust/orders",
           "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1788419046.pdf",
           "has_pdf": true,
-          "id": "cci_anti_11_22_2026"
+          "id": "cci_anti_11_12_2025"
         }
       ]
     },
@@ -628,10 +628,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[20260903-1] Issue of $500,000,000 5.308 per cent Senior Notes due 2029 under the U.S.$7,500,000,000 Global Medium Term Note Programme by ICICI Bank Limited, acting through its IFSC Banking Unit",
+          "date": "03 Sep 2026",
+          "date_iso": "2026-09-03",
+          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
+          "pdf_url": "https://www.indiainx.com/circulars/20260903-1/20260903-1.pdf",
+          "has_pdf": true,
+          "id": "inx_circ_20260903-1"
+        },
         {
           "title": "[20260902-2] Issue of U.S.$100,000,000 6.875 per cent AT1 Notes to be consolidated and form a single series with the U.S.$500,000,000 6.875 per cent AT1 Notes under the U.S.$5,000,000,000 GMTN by Axis Bank Limited",
           "date": "02 Sep 2026",
@@ -659,10 +668,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "ICICI Bank Limited — U.S.$500,000,000 5.308 per cent Senior Notes due 2029 under the U.S.$7,500,000,000 GMTN",
+          "date": "03 Sep 2026",
+          "date_iso": "2026-09-03",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS349573270603092026.pdf",
+          "has_pdf": true,
+          "id": "inx_iss_u_s__500_000_000_5_308_per_cen_2026-09-03"
+        },
         {
           "title": "Capri Global Capital Limited — U.S.$1,000,000,000 Global Medium Term Note Programme Supplementary Offering Circular",
           "date": "01 Sep 2026",
@@ -821,13 +839,13 @@
           "id": "hr_reat_H-REAT-464-2026_2"
         },
         {
-          "title": "H-REAT-85-2024 — Emaar India Limited vs MAYANK MEHTA AND MEGHA MEHTA",
+          "title": "H-REAT-1049-2025 — Arun Gupta & Sminu Gupta vs SARE GURUGRAM PVT LTD FORMERLY KNOWN AS RAMPRASTHA SARE REALTY PVT LTD",
           "date": "01 Sep 2026",
           "date_iso": "2026-09-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEwODI5",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzExMDA2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-85-2024_3"
+          "id": "hr_reat_H-REAT-1049-2025_3"
         },
         {
           "title": "H-REAT-94-2026 — M/S CHIRAG BUILDTEC PVT. LTD vs SATAKSHI GARG",
@@ -839,13 +857,13 @@
           "id": "hr_reat_H-REAT-94-2026_4"
         },
         {
-          "title": "H-REAT-1049-2025 — Arun Gupta & Sminu Gupta vs SARE GURUGRAM PVT LTD FORMERLY KNOWN AS RAMPRASTHA SARE REALTY PVT LTD",
+          "title": "H-REAT-85-2024 — Emaar India Limited vs MAYANK MEHTA AND MEGHA MEHTA",
           "date": "01 Sep 2026",
           "date_iso": "2026-09-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzExMDA2",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEwODI5",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1049-2025_5"
+          "id": "hr_reat_H-REAT-85-2024_5"
         }
       ]
     },
