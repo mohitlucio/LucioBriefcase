@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-09-03 04:07:44 UTC",
-  "finished_at": "2026-09-03 04:17:31 UTC",
-  "duration_seconds": 587.0,
+  "started_at": "2026-09-03 11:03:29 UTC",
+  "finished_at": "2026-09-03 11:13:08 UTC",
+  "duration_seconds": 579.2,
   "date_range": {
     "from": "2026-09-01",
     "to": "2026-09-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 13,
+  "sources_ok": 18,
   "sources_error": 8,
-  "sources_empty": 72,
-  "total_documents": 19,
-  "docs_with_pdf": 9,
-  "docs_without_pdf": 10,
+  "sources_empty": 67,
+  "total_documents": 34,
+  "docs_with_pdf": 20,
+  "docs_without_pdf": 14,
   "source_details": [
     {
       "key": "RHP",
@@ -22,10 +22,37 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
+      "doc_count": 5,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 2,
+      "docs_without_pdf": 5,
       "documents": [
+        {
+          "title": "GLASS WALL SYSTEMS (INDIA) LIMITED - RHP",
+          "date": "03 Sep 2026",
+          "date_iso": "2026-09-03",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/glass-wall-systems-india-limited-rhp_104226.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104226"
+        },
+        {
+          "title": "KANOHAR ELECTRICALS LIMITED - RHP",
+          "date": "03 Sep 2026",
+          "date_iso": "2026-09-03",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/kanohar-electricals-limited-rhp_104224.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104224"
+        },
+        {
+          "title": "PRASOL CHEMICALS LIMITED - RHP",
+          "date": "03 Sep 2026",
+          "date_iso": "2026-09-03",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/prasol-chemicals-limited-rhp_104222.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104222"
+        },
         {
           "title": "ASSET RECONSTRUCTION COMPANY (INDIA) Limited - RHP",
           "date": "02 Sep 2026",
@@ -211,12 +238,22 @@
       "label": "SEBI_CONSULT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "Consultation Paper on proposal to permit net settlement of funds for transactions undertaken by mutual fund schemes in cash market",
+          "date": "03 Sep 2026",
+          "date_iso": "2026-09-03",
+          "page_url": "https://www.sebi.gov.in/reports-and-statistics/reports/sep-2026/consultation-paper-on-proposal-to-permit-net-settlement-of-funds-for-transactions-undertaken-by-mutual-fund-schemes-in-cash-market_104231.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104231"
+        }
+      ]
     },
     {
       "key": "BSE_PLACEMENT",
@@ -387,12 +424,22 @@
       "label": "CCI_ANTI_S33",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[22/2026] Rinima Borah Agarwal and Mrs. India Inc.",
+          "date": "03 Sep 2026",
+          "date_iso": "2026-09-03",
+          "page_url": "https://www.cci.gov.in/antitrust/orders",
+          "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1788419046.pdf",
+          "has_pdf": true,
+          "id": "cci_anti_11_22_2026"
+        }
+      ]
     },
     {
       "key": "CCI_ANTI_OTHER",
@@ -740,12 +787,67 @@
       "label": "HR_REAT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 6,
+      "docs_with_pdf": 6,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "H-REAT-5-2025 — NIDHI JAIN vs TDI INFRASTRUCTURE LTD",
+          "date": "02 Sep 2026",
+          "date_iso": "2026-09-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEwOTUx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-5-2025_0"
+        },
+        {
+          "title": "H-REAT-80-2022 — EMAAR INDIA LIMITED vs RADHIKA BANSAL",
+          "date": "02 Sep 2026",
+          "date_iso": "2026-09-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEwOTU4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-80-2022_1"
+        },
+        {
+          "title": "H-REAT-464-2026 — M/s ATS Real Estate Builders Pvt. Ltd. vs SH RAKESH FAIN",
+          "date": "02 Sep 2026",
+          "date_iso": "2026-09-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzExMDMz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-464-2026_2"
+        },
+        {
+          "title": "H-REAT-85-2024 — Emaar India Limited vs MAYANK MEHTA AND MEGHA MEHTA",
+          "date": "01 Sep 2026",
+          "date_iso": "2026-09-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEwODI5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-85-2024_3"
+        },
+        {
+          "title": "H-REAT-94-2026 — M/S CHIRAG BUILDTEC PVT. LTD vs SATAKSHI GARG",
+          "date": "01 Sep 2026",
+          "date_iso": "2026-09-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzExMDEw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-94-2026_4"
+        },
+        {
+          "title": "H-REAT-1049-2025 — Arun Gupta & Sminu Gupta vs SARE GURUGRAM PVT LTD FORMERLY KNOWN AS RAMPRASTHA SARE REALTY PVT LTD",
+          "date": "01 Sep 2026",
+          "date_iso": "2026-09-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzExMDA2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1049-2025_5"
+        }
+      ]
     },
     {
       "key": "DL_REAT",
@@ -838,10 +940,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "In the matter of ROADWAY SOLUTIONS INDIA INFRA LIMITED [C.P. (IB)/1006/MB/2025]",
+          "date": "02 Sep 2026",
+          "date_iso": "2026-09-02",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
         {
           "title": "In the matter of MERCURY TRADE LINKS LIMITED [C.P.(IB)/24(AHM)2026]",
           "date": "01 Sep 2026",
@@ -1086,12 +1197,22 @@
       "label": "UK_CMA_MERGERS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Seras / Enva (dedicated waste wood business) merger inquiry",
+          "date": "03 Sep 2026",
+          "date_iso": "2026-09-03",
+          "page_url": "https://www.gov.uk/cma-cases/seras-slash-enva-dedicated-waste-wood-business-merger-inquiry",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a984190f5b35599aec1910c/Full_text_decision_Seras.Enva_.pdf",
+          "has_pdf": true,
+          "id": "govuk_eras-slash-enva-dedicated-waste-wood-business-merger-inquiry"
+        }
+      ]
     },
     {
       "key": "UK_CMA_NONMERGER",
@@ -1110,12 +1231,22 @@
       "label": "UK_EAT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Mr B Kristensen v Portman Healthcare Ltd: [2026] EAT 127",
+          "date": "03 Sep 2026",
+          "date_iso": "2026-09-03",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/mr-b-kristensen-v-portman-healthcare-ltd-2026-eat-127",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a993ef23b22fb169dc19148/Mr_B_Kristensen_v_Portman_Healthcare_Ltd__2026__EAT_127.pdf",
+          "has_pdf": true,
+          "id": "govuk_isions_mr-b-kristensen-v-portman-healthcare-ltd-2026-eat-127"
+        }
+      ]
     },
     {
       "key": "UK_ET_SCOT",
@@ -1160,10 +1291,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[2026] UKUT 00343 (TCC) Shane Matin v HMRC",
+          "date": "03 Sep 2026",
+          "date_iso": "2026-09-03",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/2026-ukut-00343-tcc-shane-matin-v-hmrc",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a993d71df4246cf45e46876/SHANE_MATIN_UT_PTA_RENEWAL_DECISION_1_SEPT__on_papers_.pdf",
+          "has_pdf": true,
+          "id": "govuk_ry-tribunal-decisions_2026-ukut-00343-tcc-shane-matin-v-hmrc"
+        },
         {
           "title": "THE EXECUTORS OF PAUL HUNT JAMES HUNT ROBERT DAVIS v THE COMMISSIONERS FOR HIS MAJESTY’S REVENUE AND CUSTOMS  [2026] UKUT 00342 (TCC)",
           "date": "02 Sep 2026",
