@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-09-04 11:04:33 UTC",
-  "finished_at": "2026-09-04 11:14:19 UTC",
-  "duration_seconds": 585.8,
+  "started_at": "2026-09-04 16:12:55 UTC",
+  "finished_at": "2026-09-04 16:22:32 UTC",
+  "duration_seconds": 577.1,
   "date_range": {
     "from": "2026-09-01",
     "to": "2026-09-30"
@@ -11,9 +11,9 @@
   "sources_ok": 18,
   "sources_error": 8,
   "sources_empty": 67,
-  "total_documents": 42,
+  "total_documents": 44,
   "docs_with_pdf": 22,
-  "docs_without_pdf": 20,
+  "docs_without_pdf": 22,
   "source_details": [
     {
       "key": "RHP",
@@ -22,10 +22,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 9,
+      "doc_count": 10,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 9,
+      "docs_without_pdf": 10,
       "documents": [
+        {
+          "title": "LCC PROJECTS LIMITED - RHP",
+          "date": "04 Sep 2026",
+          "date_iso": "2026-09-04",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/lcc-projects-limited-rhp_104283.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104283"
+        },
         {
           "title": "Manipal Payment and Identity Solutions Limited - RHP",
           "date": "04 Sep 2026",
@@ -875,31 +884,22 @@
           "id": "hr_reat_H-REAT-80-2022_0"
         },
         {
-          "title": "H-REAT-5-2025 — NIDHI JAIN vs TDI INFRASTRUCTURE LTD",
-          "date": "02 Sep 2026",
-          "date_iso": "2026-09-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEwOTUx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-5-2025_1"
-        },
-        {
           "title": "H-REAT-464-2026 — M/s ATS Real Estate Builders Pvt. Ltd. vs SH RAKESH FAIN",
           "date": "02 Sep 2026",
           "date_iso": "2026-09-02",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzExMDMz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-464-2026_2"
+          "id": "hr_reat_H-REAT-464-2026_1"
         },
         {
-          "title": "H-REAT-85-2024 — Emaar India Limited vs MAYANK MEHTA AND MEGHA MEHTA",
-          "date": "01 Sep 2026",
-          "date_iso": "2026-09-01",
+          "title": "H-REAT-5-2025 — NIDHI JAIN vs TDI INFRASTRUCTURE LTD",
+          "date": "02 Sep 2026",
+          "date_iso": "2026-09-02",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEwODI5",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEwOTUx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-85-2024_3"
+          "id": "hr_reat_H-REAT-5-2025_2"
         },
         {
           "title": "H-REAT-1049-2025 — Arun Gupta & Sminu Gupta vs SARE GURUGRAM PVT LTD FORMERLY KNOWN AS RAMPRASTHA SARE REALTY PVT LTD",
@@ -908,7 +908,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzExMDA2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-1049-2025_4"
+          "id": "hr_reat_H-REAT-1049-2025_3"
+        },
+        {
+          "title": "H-REAT-85-2024 — Emaar India Limited vs MAYANK MEHTA AND MEGHA MEHTA",
+          "date": "01 Sep 2026",
+          "date_iso": "2026-09-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEwODI5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-85-2024_4"
         },
         {
           "title": "H-REAT-94-2026 — M/S CHIRAG BUILDTEC PVT. LTD vs SATAKSHI GARG",
@@ -1052,10 +1061,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
+      "doc_count": 3,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 2,
+      "docs_without_pdf": 3,
       "documents": [
+        {
+          "title": "[M.12533] ABF/ WILMAR / HEBEI MAURI",
+          "date": "04 Sep 2026",
+          "date_iso": "2026-09-04",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12533",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12533"
+        },
         {
           "title": "[M.12563] CHARTERHOUSE / BATIBIG",
           "date": "01 Sep 2026",
