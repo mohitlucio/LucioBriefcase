@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-09-07 04:17:13 UTC",
-  "finished_at": "2026-09-07 04:26:55 UTC",
-  "duration_seconds": 582.3,
+  "started_at": "2026-09-07 12:15:43 UTC",
+  "finished_at": "2026-09-07 12:25:13 UTC",
+  "duration_seconds": 570.7,
   "date_range": {
     "from": "2026-09-01",
     "to": "2026-09-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 18,
-  "sources_error": 10,
-  "sources_empty": 65,
-  "total_documents": 45,
-  "docs_with_pdf": 23,
-  "docs_without_pdf": 22,
+  "sources_ok": 20,
+  "sources_error": 9,
+  "sources_empty": 64,
+  "total_documents": 67,
+  "docs_with_pdf": 40,
+  "docs_without_pdf": 27,
   "source_details": [
     {
       "key": "RHP",
@@ -22,10 +22,37 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 10,
+      "doc_count": 13,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 10,
+      "docs_without_pdf": 13,
       "documents": [
+        {
+          "title": "Prasol Chemicals Limited -  Addendum to RHP",
+          "date": "07 Sep 2026",
+          "date_iso": "2026-09-07",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/prasol-chemicals-limited-addendum-to-rhp_104322.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104322"
+        },
+        {
+          "title": "Manika Plastech Limited - RHP",
+          "date": "07 Sep 2026",
+          "date_iso": "2026-09-07",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/manika-plastech-limited-rhp_104296.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104296"
+        },
+        {
+          "title": "Glass Wall Systems (India) Limited -  Addendum to RHP",
+          "date": "07 Sep 2026",
+          "date_iso": "2026-09-07",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/glass-wall-systems-india-limited-addendum-to-rhp_104289.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104289"
+        },
         {
           "title": "LCC PROJECTS LIMITED - RHP",
           "date": "04 Sep 2026",
@@ -125,10 +152,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 5,
+      "doc_count": 6,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 5,
+      "docs_without_pdf": 6,
       "documents": [
+        {
+          "title": "Mahanadi Coalfields Ltd. - DRHP",
+          "date": "04 Sep 2026",
+          "date_iso": "2026-09-04",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/mahanadi-coalfields-ltd-drhp_104290.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104290"
+        },
         {
           "title": "Gaurik Fashions Limited - Addendum to DRHP",
           "date": "04 Sep 2026",
@@ -429,12 +465,22 @@
       "label": "CCI_ANTI_S26_2",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[46/2025] Vibrant Enterprise and Vygon India Pvt. Ltd",
+          "date": "03 Sep 2026",
+          "date_iso": "2026-09-03",
+          "page_url": "https://www.cci.gov.in/antitrust/orders",
+          "pdf_url": "https://www.cci.gov.in/images/antitrustorder/en/order1788775156.pdf",
+          "has_pdf": true,
+          "id": "cci_anti_7_46_2025"
+        }
+      ]
     },
     {
       "key": "CCI_ANTI_S26_6",
@@ -665,8 +711,8 @@
       "label": "IRDAI_CIRC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "The read operation timed out",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -691,10 +737,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[20260907-1] Establishment of U.S.$500,000,000 Medium Term Note Programme on Global Securities Market by Bank of Maharashtra Limited",
+          "date": "07 Sep 2026",
+          "date_iso": "2026-09-07",
+          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
+          "pdf_url": "https://www.indiainx.com/circulars/20260907-1/20260907-1.pdf",
+          "has_pdf": true,
+          "id": "inx_circ_20260907-1"
+        },
         {
           "title": "[20260903-1] Issue of $500,000,000 5.308 per cent Senior Notes due 2029 under the U.S.$7,500,000,000 Global Medium Term Note Programme by ICICI Bank Limited, acting through its IFSC Banking Unit",
           "date": "03 Sep 2026",
@@ -737,12 +792,12 @@
       "documents": [
         {
           "title": "Bank of Maharashtra — U.S.$500,000,000 Medium Term Note Programme",
-          "date": "05 Sep 2026",
-          "date_iso": "2026-09-05",
+          "date": "04 Sep 2026",
+          "date_iso": "2026-09-04",
           "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
           "pdf_url": "https://www.indiainx.com/IssuerDetails/BOMMTNOfferingCircular05092026.zip",
           "has_pdf": true,
-          "id": "inx_iss_u_s__500_000_000_medium_term_n_2026-09-05"
+          "id": "inx_iss_u_s__500_000_000_medium_term_n_2026-09-04"
         },
         {
           "title": "ICICI Bank Limited — U.S.$500,000,000 5.308 per cent Senior Notes due 2029 under the U.S.$7,500,000,000 GMTN",
@@ -1016,12 +1071,49 @@
       "label": "IBBI_RES",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Approval of Resolution Plan - ARK Industries Private Limited [IA (IBC) (Plan) No. 11 of 2026 in CP (IB) 102 of 2025]",
+          "date": "04 Sep 2026",
+          "date_iso": "2026-09-04",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_res_nclt_title_Resolution_date__nclt_"
+        },
+        {
+          "title": "Approval of Resolution Plan - Neo Capricorn Plaza Private Limited [IA (IBC) (Plan) No. 41 of 2026 in CP (IB) 290 of 2023]",
+          "date": "03 Sep 2026",
+          "date_iso": "2026-09-03",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_res_nclt_title_Resolution_date__nclt_"
+        },
+        {
+          "title": "Approval of Resolution Plan - Gstaad Hotels Private Limited [IA (IBC) (Plan) No. 42 of 2026 in CP (IB) 291 of 2023]",
+          "date": "03 Sep 2026",
+          "date_iso": "2026-09-03",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_res_nclt_title_Resolution_date__nclt_"
+        },
+        {
+          "title": "Approval of Resolution Plan - Simm Samm Hotels Private Limited [I.A (Plan) No. 12 of 2025 in CP (IB) No. 203 of 2021]",
+          "date": "02 Sep 2026",
+          "date_iso": "2026-09-02",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_res_nclt_title_Resolution_date__nclt_"
+        }
+      ]
     },
     {
       "key": "IBBI_ADM",
@@ -1030,14 +1122,95 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "doc_count": 13,
+      "docs_with_pdf": 13,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "In the matter of INFIILOOM INDIA PRIVATE LIMITED [CP (IB) No. 411/MB/2026]",
+          "date": "04 Sep 2026",
+          "date_iso": "2026-09-04",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of INFUTEC HEALTHCARE LIMITED [C.P. (IB)/1090/MB/2025]",
+          "date": "04 Sep 2026",
+          "date_iso": "2026-09-04",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of KSK WIND ENERGY HALAGALI BENCHI PRIVATE LIMITED [CP(IB) No. 13/10/HDB/2026]",
+          "date": "04 Sep 2026",
+          "date_iso": "2026-09-04",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of KSK WIND ENERGY MOTHALLI HAVERI PRIVATE LIMITED [CP(IB). 15/10/HDB/2026]",
+          "date": "04 Sep 2026",
+          "date_iso": "2026-09-04",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of GARGO MOTORS LTD [CP(IB)/37/GB/2025]",
+          "date": "03 Sep 2026",
+          "date_iso": "2026-09-03",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of AKUL INDUSTRIES PRIVATE LIMITED [C.P. (IB) No.350/KB/2024]",
+          "date": "03 Sep 2026",
+          "date_iso": "2026-09-03",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of SHRIVALLABH PITTIE ENTERPRISES PRIVATE LIMITED [C.P. (IB)/263/MB/2026]",
+          "date": "03 Sep 2026",
+          "date_iso": "2026-09-03",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
         {
           "title": "In the matter of ROADWAY SOLUTIONS INDIA INFRA LIMITED [C.P. (IB)/1006/MB/2025]",
           "date": "02 Sep 2026",
           "date_iso": "2026-09-02",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of SNEH OLEFINS PRIVATE LIMITED [CP No. (IB)- 39/9/JRP/2026 ]",
+          "date": "01 Sep 2026",
+          "date_iso": "2026-09-01",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of WOOTU NUTRITION PRIVATE LIMITED [CP(IBC)/359(CHE)/2025]",
+          "date": "01 Sep 2026",
+          "date_iso": "2026-09-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "has_pdf": true,
@@ -1053,7 +1226,16 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of SNEH OLEFINS PRIVATE LIMITED [CP No. (IB)- 39/9/JRP/2026 ]",
+          "title": "In the matter of TIRUMALA HILLS ASPHALT PRIVATE LIMITED [IA (IBC)/64/2026 in IA (IBC)/1820/2023,IA (IBC) 11]",
+          "date": "01 Sep 2026",
+          "date_iso": "2026-09-01",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of KORAS PIN SAVINGS FINANCIAL SERVICES NIDHI LIMITED [17/ALD/2024 ]",
           "date": "01 Sep 2026",
           "date_iso": "2026-09-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1068,40 +1250,12 @@
       "label": "EU_MERGER",
       "category": "",
       "website_url": "",
-      "status": "ok",
+      "status": "empty",
       "error": null,
-      "doc_count": 3,
+      "doc_count": 0,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 3,
-      "documents": [
-        {
-          "title": "[M.12533] ABF/ WILMAR / HEBEI MAURI",
-          "date": "04 Sep 2026",
-          "date_iso": "2026-09-04",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12533",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12533"
-        },
-        {
-          "title": "[M.12563] CHARTERHOUSE / BATIBIG",
-          "date": "01 Sep 2026",
-          "date_iso": "2026-09-01",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12563",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12563"
-        },
-        {
-          "title": "[M.12517] MUTARES / SYNTHOMER",
-          "date": "01 Sep 2026",
-          "date_iso": "2026-09-01",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12517",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12517"
-        }
-      ]
+      "docs_without_pdf": 0,
+      "documents": []
     },
     {
       "key": "EU_ANTITRUST",
@@ -1332,10 +1486,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "1) Next Retail Ltd 2) Next Distribution Ltd v Miss M Thandi and others: [2026] EAT 130",
+          "date": "07 Sep 2026",
+          "date_iso": "2026-09-07",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/1-next-retail-ltd-2-next-distribution-ltd-v-miss-m-thandi-and-others-2026-eat-130",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6a9add70f5b35599aec19258/1__Next_Retail_Ltd_2__Next_Distribution_Ltd_v_Miss_M_Thandi_and_others__2026__EAT_130.pdf",
+          "has_pdf": true,
+          "id": "govuk_ext-distribution-ltd-v-miss-m-thandi-and-others-2026-eat-130"
+        },
         {
           "title": "Mr B Kristensen v Portman Healthcare Ltd: [2026] EAT 127",
           "date": "03 Sep 2026",
@@ -1431,12 +1594,22 @@
       "label": "SEBI_CIRCULARS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "Ease of regulatory compliances for FPIs investing only in Government Securities",
+          "date": "07 Sep 2026",
+          "date_iso": "2026-09-07",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/sep-2026/ease-of-regulatory-compliances-for-fpis-investing-only-in-government-securities_104319.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104319"
+        }
+      ]
     },
     {
       "key": "SEBI_FINAL_OFFER",
@@ -1445,10 +1618,37 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 4,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 4,
       "documents": [
+        {
+          "title": "Lumino Industries Limited - Prospectus",
+          "date": "07 Sep 2026",
+          "date_iso": "2026-09-07",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/lumino-industries-limited-prospectus_104288.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104288"
+        },
+        {
+          "title": "Deepa Jewellers Limited - Prospectus",
+          "date": "04 Sep 2026",
+          "date_iso": "2026-09-04",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/deepa-jewellers-limited-prospectus_104286.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104286"
+        },
+        {
+          "title": "Vinod Texworld Limited - Prospectus",
+          "date": "03 Sep 2026",
+          "date_iso": "2026-09-03",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/vinod-texworld-limited-prospectus_104299.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104299"
+        },
         {
           "title": "PRIORITY JEWELS LIMITED - PROSPECTUS",
           "date": "02 Sep 2026",
