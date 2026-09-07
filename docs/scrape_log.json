@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-09-06 20:18:21 UTC",
-  "finished_at": "2026-09-06 20:27:39 UTC",
-  "duration_seconds": 558.8,
+  "started_at": "2026-09-07 04:17:13 UTC",
+  "finished_at": "2026-09-07 04:26:55 UTC",
+  "duration_seconds": 582.3,
   "date_range": {
     "from": "2026-09-01",
     "to": "2026-09-30"
@@ -9,8 +9,8 @@
   "total_sources": 93,
   "sources_scraped": 93,
   "sources_ok": 18,
-  "sources_error": 8,
-  "sources_empty": 67,
+  "sources_error": 10,
+  "sources_empty": 65,
   "total_documents": 45,
   "docs_with_pdf": 23,
   "docs_without_pdf": 22,
@@ -665,8 +665,8 @@
       "label": "IRDAI_CIRC",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "The read operation timed out",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -677,8 +677,8 @@
       "label": "IRDAI_REGS",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "The read operation timed out",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -884,13 +884,22 @@
       "docs_without_pdf": 0,
       "documents": [
         {
+          "title": "H-REAT-464-2026 — M/s ATS Real Estate Builders Pvt. Ltd. vs SH RAKESH FAIN",
+          "date": "02 Sep 2026",
+          "date_iso": "2026-09-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzExMDMz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-464-2026_0"
+        },
+        {
           "title": "H-REAT-80-2022 — EMAAR INDIA LIMITED vs RADHIKA BANSAL",
           "date": "02 Sep 2026",
           "date_iso": "2026-09-02",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEwOTU4",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-80-2022_0"
+          "id": "hr_reat_H-REAT-80-2022_1"
         },
         {
           "title": "H-REAT-5-2025 — NIDHI JAIN vs TDI INFRASTRUCTURE LTD",
@@ -899,16 +908,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEwOTUx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-5-2025_1"
-        },
-        {
-          "title": "H-REAT-464-2026 — M/s ATS Real Estate Builders Pvt. Ltd. vs SH RAKESH FAIN",
-          "date": "02 Sep 2026",
-          "date_iso": "2026-09-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzExMDMz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-464-2026_2"
+          "id": "hr_reat_H-REAT-5-2025_2"
         },
         {
           "title": "H-REAT-94-2026 — M/S CHIRAG BUILDTEC PVT. LTD vs SATAKSHI GARG",
