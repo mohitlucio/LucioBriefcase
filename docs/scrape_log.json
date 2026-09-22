@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-09-22 11:23:52 UTC",
-  "finished_at": "2026-09-22 11:33:58 UTC",
-  "duration_seconds": 605.7,
+  "started_at": "2026-09-22 16:46:02 UTC",
+  "finished_at": "2026-09-22 16:55:51 UTC",
+  "duration_seconds": 589.2,
   "date_range": {
     "from": "2026-09-01",
     "to": "2026-09-30"
@@ -11,9 +11,9 @@
   "sources_ok": 39,
   "sources_error": 8,
   "sources_empty": 46,
-  "total_documents": 309,
-  "docs_with_pdf": 224,
-  "docs_without_pdf": 85,
+  "total_documents": 316,
+  "docs_with_pdf": 227,
+  "docs_without_pdf": 89,
   "source_details": [
     {
       "key": "RHP",
@@ -269,10 +269,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 20,
+      "doc_count": 21,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 20,
+      "docs_without_pdf": 21,
       "documents": [
+        {
+          "title": "VARDAAN BIOTECH LIMITED",
+          "date": "22 Sep 2026",
+          "date_iso": "2026-09-22",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/vardaan-biotech-limited_104652.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104652"
+        },
         {
           "title": "Hi-Tech Flow Solutions Limited - DRHP",
           "date": "22 Sep 2026",
@@ -662,10 +671,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Aditya Infotech Ltd – Draft Placement Document",
+          "date": "22 Sep 2026",
+          "date_iso": "2026-09-22",
+          "page_url": "https://www.bseindia.com/corporates/qip",
+          "pdf_url": "https://www.bseindia.com/corporates/download/13619/QIP Open/AdityaInfotechLimitedPPDFinal_20260922204740.pdf",
+          "has_pdf": true,
+          "id": "prelim_aditya_infotech_ltd_2026-09-22"
+        },
         {
           "title": "Bharat Forge Ltd – Draft Placement Document",
           "date": "17 Sep 2026",
@@ -1570,22 +1588,22 @@
           "id": "hr_reat_H-REAT-643-2024_3"
         },
         {
-          "title": "H-REAT-129-2024 — INDU SANGWAN vs JINDAL REALTY PVT LTD",
-          "date": "14 Sep 2026",
-          "date_iso": "2026-09-14",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEzMzcx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-129-2024_4"
-        },
-        {
           "title": "H-REAT-491-2026 — Sunil Kumar Gupta vs MS ILD MILLENNIUM PVT LTD",
           "date": "14 Sep 2026",
           "date_iso": "2026-09-14",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEzMDk1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-491-2026_5"
+          "id": "hr_reat_H-REAT-491-2026_4"
+        },
+        {
+          "title": "H-REAT-129-2024 — INDU SANGWAN vs JINDAL REALTY PVT LTD",
+          "date": "14 Sep 2026",
+          "date_iso": "2026-09-14",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEzMzcx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-129-2024_5"
         },
         {
           "title": "H-REAT-367-2026 — Sahiba Constructions Pvt. Ltd. vs HRERA",
@@ -1606,85 +1624,13 @@
           "id": "hr_reat_H-REAT-939-2026_7"
         },
         {
-          "title": "H-REAT-360-2024 — Ms Pareena Infrastructure Private Limited vs RAVI SHANKAR",
-          "date": "09 Sep 2026",
-          "date_iso": "2026-09-09",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMTk0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-360-2024_8"
-        },
-        {
-          "title": "H-REAT-362-2024 — Ms Pareena Infrastructure Private Limited vs HIMANSHU ARORA",
-          "date": "09 Sep 2026",
-          "date_iso": "2026-09-09",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMTk2",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-362-2024_9"
-        },
-        {
-          "title": "H-REAT-371-2024 — Ms Pareena Infrastructure Private Limited vs ASHISH KAKKAR",
-          "date": "09 Sep 2026",
-          "date_iso": "2026-09-09",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMjA2",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-371-2024_10"
-        },
-        {
-          "title": "H-REAT-367-2024 — Ms Pareena Infrastructure Private Limited vs ARUN R",
-          "date": "09 Sep 2026",
-          "date_iso": "2026-09-09",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMjAz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-367-2024_11"
-        },
-        {
-          "title": "H-REAT-349-2024 — Ms Pareena Infrastructure Private Limited vs MAHESH KUMAR",
-          "date": "09 Sep 2026",
-          "date_iso": "2026-09-09",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMTg2",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-349-2024_12"
-        },
-        {
-          "title": "H-REAT-364-2024 — Ms Pareena Infrastructure Private Limited vs NAVEEN KUMAR",
-          "date": "09 Sep 2026",
-          "date_iso": "2026-09-09",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMjAw",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-364-2024_13"
-        },
-        {
-          "title": "H-REAT-759-2024 — MS PAREENA INFRASTRUCTURE PRIVATE LIMITED vs RESHMA SUKUMARAN",
-          "date": "09 Sep 2026",
-          "date_iso": "2026-09-09",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMjA5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-759-2024_14"
-        },
-        {
           "title": "H-REAT-333-2024 — Ms Pareena Infrastructure Private Limited vs NAND SINGH",
           "date": "09 Sep 2026",
           "date_iso": "2026-09-09",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMTcx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-333-2024_15"
-        },
-        {
-          "title": "H-REAT-334-2024 — Ms Pareena Infrastructure Private Limited vs KULDEEP",
-          "date": "09 Sep 2026",
-          "date_iso": "2026-09-09",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMTcz",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-334-2024_16"
+          "id": "hr_reat_H-REAT-333-2024_8"
         },
         {
           "title": "H-REAT-336-2024 — Ms Pareena Infrastructure Private Limited vs ARVINDER SINGH",
@@ -1693,16 +1639,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMTc1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-336-2024_17"
-        },
-        {
-          "title": "H-REAT-338-2024 — Ms Pareena Infrastructure Private Limited vs MONIKA",
-          "date": "09 Sep 2026",
-          "date_iso": "2026-09-09",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMTc5",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-338-2024_18"
+          "id": "hr_reat_H-REAT-336-2024_9"
         },
         {
           "title": "H-REAT-346-2024 — Ms Pareena Infrastructure Private Limited vs SATISH YADAV",
@@ -1711,7 +1648,34 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMTgz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-346-2024_19"
+          "id": "hr_reat_H-REAT-346-2024_10"
+        },
+        {
+          "title": "H-REAT-345-2024 — Ms Pareena Infrastructure Private Limited vs RAVINDER KUMAR",
+          "date": "09 Sep 2026",
+          "date_iso": "2026-09-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMTgx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-345-2024_11"
+        },
+        {
+          "title": "H-REAT-338-2024 — Ms Pareena Infrastructure Private Limited vs MONIKA",
+          "date": "09 Sep 2026",
+          "date_iso": "2026-09-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMTc5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-338-2024_12"
+        },
+        {
+          "title": "H-REAT-335-2024 — Ms Pareena Infrastructure Private Limited vs YATIN AGGARWAL",
+          "date": "09 Sep 2026",
+          "date_iso": "2026-09-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzExOTE4",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-335-2024_13"
         },
         {
           "title": "H-REAT-352-2024 — Ms Pareena Infrastructure Private Limited vs VIKAS RANJAN",
@@ -1720,7 +1684,61 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMTg4",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-352-2024_20"
+          "id": "hr_reat_H-REAT-352-2024_14"
+        },
+        {
+          "title": "H-REAT-364-2024 — Ms Pareena Infrastructure Private Limited vs NAVEEN KUMAR",
+          "date": "09 Sep 2026",
+          "date_iso": "2026-09-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMjAw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-364-2024_15"
+        },
+        {
+          "title": "H-REAT-367-2024 — Ms Pareena Infrastructure Private Limited vs ARUN R",
+          "date": "09 Sep 2026",
+          "date_iso": "2026-09-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMjAz",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-367-2024_16"
+        },
+        {
+          "title": "H-REAT-371-2024 — Ms Pareena Infrastructure Private Limited vs ASHISH KAKKAR",
+          "date": "09 Sep 2026",
+          "date_iso": "2026-09-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMjA2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-371-2024_17"
+        },
+        {
+          "title": "H-REAT-337-2024 — Ms Pareena Infrastructure Private Limited vs GAUTAM KUMAR",
+          "date": "09 Sep 2026",
+          "date_iso": "2026-09-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMTc3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-337-2024_18"
+        },
+        {
+          "title": "H-REAT-362-2024 — Ms Pareena Infrastructure Private Limited vs HIMANSHU ARORA",
+          "date": "09 Sep 2026",
+          "date_iso": "2026-09-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMTk2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-362-2024_19"
+        },
+        {
+          "title": "H-REAT-759-2024 — MS PAREENA INFRASTRUCTURE PRIVATE LIMITED vs RESHMA SUKUMARAN",
+          "date": "09 Sep 2026",
+          "date_iso": "2026-09-09",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMjA5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-759-2024_20"
         },
         {
           "title": "H-REAT-358-2024 — Ms Pareena Infrastructure Private Limited vs VINIT KUMAR CHAUBEY",
@@ -1732,49 +1750,40 @@
           "id": "hr_reat_H-REAT-358-2024_21"
         },
         {
-          "title": "H-REAT-337-2024 — Ms Pareena Infrastructure Private Limited vs GAUTAM KUMAR",
+          "title": "H-REAT-360-2024 — Ms Pareena Infrastructure Private Limited vs RAVI SHANKAR",
           "date": "09 Sep 2026",
           "date_iso": "2026-09-09",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMTc3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMTk0",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-337-2024_22"
+          "id": "hr_reat_H-REAT-360-2024_22"
         },
         {
-          "title": "H-REAT-335-2024 — Ms Pareena Infrastructure Private Limited vs YATIN AGGARWAL",
+          "title": "H-REAT-349-2024 — Ms Pareena Infrastructure Private Limited vs MAHESH KUMAR",
           "date": "09 Sep 2026",
           "date_iso": "2026-09-09",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzExOTE4",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMTg2",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-335-2024_23"
+          "id": "hr_reat_H-REAT-349-2024_23"
         },
         {
-          "title": "H-REAT-345-2024 — Ms Pareena Infrastructure Private Limited vs RAVINDER KUMAR",
+          "title": "H-REAT-334-2024 — Ms Pareena Infrastructure Private Limited vs KULDEEP",
           "date": "09 Sep 2026",
           "date_iso": "2026-09-09",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMTgx",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMTcz",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-345-2024_24"
+          "id": "hr_reat_H-REAT-334-2024_24"
         },
         {
-          "title": "H-REAT-632-2023 — SATYA N PODDAR vs FANTASY BUILDWELL PVT LTD",
+          "title": "H-REAT-328-2025 — Vivek Khanna vs MANGLAM MULTIPLEX PVTLTD",
           "date": "08 Sep 2026",
           "date_iso": "2026-09-08",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyODg1",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzExNzUy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-632-2023_25"
-        },
-        {
-          "title": "H-REAT-648-2024 — ADITYA BERI vs SUPOSHAA REALCON PRIVATE LIMITED",
-          "date": "08 Sep 2026",
-          "date_iso": "2026-09-08",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMzY0",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-648-2024_26"
+          "id": "hr_reat_H-REAT-328-2025_25"
         },
         {
           "title": "H-REAT-655-2026 — Ameya Commercial Projects Pvt. Ltd. vs AKJ ATTORNEYS AND SOLICITORS LLP",
@@ -1783,7 +1792,16 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMzY1",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-655-2026_27"
+          "id": "hr_reat_H-REAT-655-2026_26"
+        },
+        {
+          "title": "H-REAT-648-2024 — ADITYA BERI vs SUPOSHAA REALCON PRIVATE LIMITED",
+          "date": "08 Sep 2026",
+          "date_iso": "2026-09-08",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyMzY0",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-648-2024_27"
         },
         {
           "title": "H-REAT-788-2024 — Jai Prakash vs MS MASCOT BUILDCON PRIVATE LIMITED",
@@ -1795,13 +1813,13 @@
           "id": "hr_reat_H-REAT-788-2024_28"
         },
         {
-          "title": "H-REAT-328-2025 — Vivek Khanna vs MANGLAM MULTIPLEX PVTLTD",
+          "title": "H-REAT-386-2025 — Gaurav Kumar vs PAREENA INFRASTRUCTURE PRIVATE LIMITED",
           "date": "08 Sep 2026",
           "date_iso": "2026-09-08",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzExNzUy",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyODAx",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-328-2025_29"
+          "id": "hr_reat_H-REAT-386-2025_29"
         },
         {
           "title": "H-REAT-613-2024 — Puri Construction Pvt Ltd vs HARISH JAGGI",
@@ -1813,22 +1831,22 @@
           "id": "hr_reat_H-REAT-613-2024_30"
         },
         {
+          "title": "H-REAT-632-2023 — SATYA N PODDAR vs FANTASY BUILDWELL PVT LTD",
+          "date": "08 Sep 2026",
+          "date_iso": "2026-09-08",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyODg1",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-632-2023_31"
+        },
+        {
           "title": "H-REAT-6-2025 — SHAKUNTALA DEVI vs EMAAR INDIA LIMITED",
           "date": "08 Sep 2026",
           "date_iso": "2026-09-08",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyNzE3",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-6-2025_31"
-        },
-        {
-          "title": "H-REAT-386-2025 — Gaurav Kumar vs PAREENA INFRASTRUCTURE PRIVATE LIMITED",
-          "date": "08 Sep 2026",
-          "date_iso": "2026-09-08",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEyODAx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-386-2025_32"
+          "id": "hr_reat_H-REAT-6-2025_32"
         },
         {
           "title": "H-REAT-815-2024 — Om parkash Gupta and another vs SPAZE TOWERS PRIVATE LIMITED",
@@ -1867,22 +1885,22 @@
           "id": "hr_reat_H-REAT-464-2026_36"
         },
         {
-          "title": "H-REAT-5-2025 — NIDHI JAIN vs TDI INFRASTRUCTURE LTD",
-          "date": "02 Sep 2026",
-          "date_iso": "2026-09-02",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEwOTUx",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-5-2025_37"
-        },
-        {
           "title": "H-REAT-80-2022 — EMAAR INDIA LIMITED vs RADHIKA BANSAL",
           "date": "02 Sep 2026",
           "date_iso": "2026-09-02",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEwOTU4",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-80-2022_38"
+          "id": "hr_reat_H-REAT-80-2022_37"
+        },
+        {
+          "title": "H-REAT-5-2025 — NIDHI JAIN vs TDI INFRASTRUCTURE LTD",
+          "date": "02 Sep 2026",
+          "date_iso": "2026-09-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzEwOTUx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-5-2025_38"
         },
         {
           "title": "H-REAT-85-2024 — Emaar India Limited vs MAYANK MEHTA AND MEGHA MEHTA",
@@ -1894,22 +1912,22 @@
           "id": "hr_reat_H-REAT-85-2024_39"
         },
         {
-          "title": "H-REAT-1049-2025 — Arun Gupta & Sminu Gupta vs SARE GURUGRAM PVT LTD FORMERLY KNOWN AS RAMPRASTHA SARE REALTY PVT LTD",
-          "date": "01 Sep 2026",
-          "date_iso": "2026-09-01",
-          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
-          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzExMDA2",
-          "has_pdf": true,
-          "id": "hr_reat_H-REAT-1049-2025_40"
-        },
-        {
           "title": "H-REAT-94-2026 — M/S CHIRAG BUILDTEC PVT. LTD vs SATAKSHI GARG",
           "date": "01 Sep 2026",
           "date_iso": "2026-09-01",
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzExMDEw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-94-2026_41"
+          "id": "hr_reat_H-REAT-94-2026_40"
+        },
+        {
+          "title": "H-REAT-1049-2025 — Arun Gupta & Sminu Gupta vs SARE GURUGRAM PVT LTD FORMERLY KNOWN AS RAMPRASTHA SARE REALTY PVT LTD",
+          "date": "01 Sep 2026",
+          "date_iso": "2026-09-01",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzExMDA2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1049-2025_41"
         }
       ]
     },
@@ -2119,6 +2137,15 @@
       "docs_without_pdf": 0,
       "documents": [
         {
+          "title": "In the matter of AURI GROW INDIA LIMITED [CP(IB)/41(MP)2026]",
+          "date": "18 Sep 2026",
+          "date_iso": "2026-09-18",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
           "title": "In the matter of SURYAJYOTI INFOTECH LIMITED [Company Petition (IB) No.168/7/HDB/2023]",
           "date": "18 Sep 2026",
           "date_iso": "2026-09-18",
@@ -2128,9 +2155,9 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of AURI GROW INDIA LIMITED [CP(IB)/41(MP)2026]",
-          "date": "18 Sep 2026",
-          "date_iso": "2026-09-18",
+          "title": "In the matter of GEPDEC INFRATECH LIMITED [CP (IB) NO.72/ALD/2025]",
+          "date": "17 Sep 2026",
+          "date_iso": "2026-09-17",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "has_pdf": true,
@@ -2155,16 +2182,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of GEPDEC INFRATECH LIMITED [CP (IB) NO.72/ALD/2025]",
-          "date": "17 Sep 2026",
-          "date_iso": "2026-09-17",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of SYNERGYBYTE INFOTAINMENT PRIVATE LIMITED [CP (IB) No. 154/Chd/Hry/2023]",
+          "title": "In the matter of SE TRANSSTADIA PRIVATE LIMITED [CP (IB) No. 265/AHM/2026]",
           "date": "16 Sep 2026",
           "date_iso": "2026-09-16",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2173,7 +2191,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of SE TRANSSTADIA PRIVATE LIMITED [CP (IB) No. 265/AHM/2026]",
+          "title": "In the matter of SYNERGYBYTE INFOTAINMENT PRIVATE LIMITED [CP (IB) No. 154/Chd/Hry/2023]",
           "date": "16 Sep 2026",
           "date_iso": "2026-09-16",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2227,15 +2245,6 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of FUTURELIFE PHARMACEUTICALS PRIVATE LIMITED [RCP/1/2025]",
-          "date": "10 Sep 2026",
-          "date_iso": "2026-09-10",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
           "title": "In the matter of AKS COLD STORAGE LIMITED [C.P. (IBC)/19/KOB/2026]",
           "date": "10 Sep 2026",
           "date_iso": "2026-09-10",
@@ -2245,7 +2254,16 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of FTF PHARMA PRIVATE LIMITED [C.P. (IB)/346/AHM/2025]",
+          "title": "In the matter of FUTURELIFE PHARMACEUTICALS PRIVATE LIMITED [RCP/1/2025]",
+          "date": "10 Sep 2026",
+          "date_iso": "2026-09-10",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of ATLANTA MODULAR PRIVATE LIMITED [CP(IB)/10/GB/2025]",
           "date": "09 Sep 2026",
           "date_iso": "2026-09-09",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2254,7 +2272,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of ATLANTA MODULAR PRIVATE LIMITED [CP(IB)/10/GB/2025]",
+          "title": "In the matter of FTF PHARMA PRIVATE LIMITED [C.P. (IB)/346/AHM/2025]",
           "date": "09 Sep 2026",
           "date_iso": "2026-09-09",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2272,15 +2290,6 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of VIJAY MINING & INFRA CORP PRIVATE LIMITED [CP(IB)/7/7/AMR/2026]",
-          "date": "08 Sep 2026",
-          "date_iso": "2026-09-08",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
           "title": "In the matter of HEERA HOSPITALITY PRIVATE LIMITED [C.P. (IB)/133(MB)2026]",
           "date": "08 Sep 2026",
           "date_iso": "2026-09-08",
@@ -2290,7 +2299,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of PRAKASH GOLD PALACE PRIVATE LIMITED [ CP(IBC)/75(CHE)/2026]",
+          "title": "In the matter of VIJAY MINING & INFRA CORP PRIVATE LIMITED [CP(IB)/7/7/AMR/2026]",
           "date": "08 Sep 2026",
           "date_iso": "2026-09-08",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2300,6 +2309,15 @@
         },
         {
           "title": "In the matter of KENA ALLOYS PRIVATE LIMITED [C.P. (IB)/392/AHM/2025]",
+          "date": "08 Sep 2026",
+          "date_iso": "2026-09-08",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of HOTEL RADHAPRASAD PRIVATE LIMITED [CP (IB) / 185 / CHE / 2025]",
           "date": "08 Sep 2026",
           "date_iso": "2026-09-08",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2336,6 +2354,15 @@
         },
         {
           "title": "In the matter of KSK WIND ENERGY HALAGALI BENCHI PRIVATE LIMITED [CP(IB) No. 13/10/HDB/2026]",
+          "date": "04 Sep 2026",
+          "date_iso": "2026-09-04",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of B B R GREEN FIELDS PRIVATE LIMITED [Inv Petn (IBC) 16/2026 in CP (IB) No.75/7/HDB/2026]",
           "date": "04 Sep 2026",
           "date_iso": "2026-09-04",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2389,15 +2416,6 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of B B R GREEN FIELDS PRIVATE LIMITED [Inv Petn (IBC) 16/2026 in CP (IB) No.75/7/HDB/2026]",
-          "date": "04 Sep 2026",
-          "date_iso": "2026-09-04",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
           "title": "In the matter of AKUL INDUSTRIES PRIVATE LIMITED [C.P. (IB) No.350/KB/2024]",
           "date": "03 Sep 2026",
           "date_iso": "2026-09-03",
@@ -2443,24 +2461,6 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of MERCURY TRADE LINKS LIMITED [C.P.(IB)/24(AHM)2026]",
-          "date": "01 Sep 2026",
-          "date_iso": "2026-09-01",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of State Bank of India vs. Bernard John, [CP (IB) 53 of 2021]",
-          "date": "01 Sep 2026",
-          "date_iso": "2026-09-01",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
           "title": "In the matter of WOOTU NUTRITION PRIVATE LIMITED [CP(IBC)/359(CHE)/2025]",
           "date": "01 Sep 2026",
           "date_iso": "2026-09-01",
@@ -2479,7 +2479,16 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of TIRUMALA HILLS ASPHALT PRIVATE LIMITED [IA (IBC)/64/2026 in IA (IBC)/1820/2023,IA (IBC) 11]",
+          "title": "In the matter of MERCURY TRADE LINKS LIMITED [C.P.(IB)/24(AHM)2026]",
+          "date": "01 Sep 2026",
+          "date_iso": "2026-09-01",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of MERCURY TRADE LINKS LIMITED [C.P.(IB)/24(AHM)2026]",
           "date": "01 Sep 2026",
           "date_iso": "2026-09-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
@@ -2488,7 +2497,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
         },
         {
-          "title": "In the matter of KORAS PIN SAVINGS FINANCIAL SERVICES NIDHI LIMITED [17/ALD/2024 ]",
+          "title": "In the matter of SNEH OLEFINS PRIVATE LIMITED [CP No. (IB)- 39/9/JRP/2026 ]",
           "date": "01 Sep 2026",
           "date_iso": "2026-09-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
@@ -2497,7 +2506,16 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
         },
         {
-          "title": "In the matter of State Bank of India vs. Bernard John, [CP (IB) 53 of 2021]",
+          "title": "In the matter of WOOTU NUTRITION PRIVATE LIMITED [CP(IBC)/359(CHE)/2025]",
+          "date": "01 Sep 2026",
+          "date_iso": "2026-09-01",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of State Bank of India vs. Shri Carnet Elias Fernandes, [CP(IB) No. 54 of 2021]",
           "date": "01 Sep 2026",
           "date_iso": "2026-09-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
@@ -2514,10 +2532,37 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 14,
+      "doc_count": 17,
       "docs_with_pdf": 10,
-      "docs_without_pdf": 4,
+      "docs_without_pdf": 7,
       "documents": [
+        {
+          "title": "[M.12372] HENKEL / STAHL PARENT",
+          "date": "22 Sep 2026",
+          "date_iso": "2026-09-22",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12372",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12372"
+        },
+        {
+          "title": "[M.12565] FRANCISCO PARTNERS / HEIDELBERG MATERIALS / COMMAND ALKON",
+          "date": "22 Sep 2026",
+          "date_iso": "2026-09-22",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12565",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12565"
+        },
+        {
+          "title": "[M.12554] EQT FUNDS / CORZA BIOSURGERY BUSINESS",
+          "date": "22 Sep 2026",
+          "date_iso": "2026-09-22",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12554",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12554"
+        },
         {
           "title": "[M.12506] PUBLIGAS / PUBLI-T",
           "date": "17 Sep 2026",
@@ -3170,10 +3215,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Keith Kennaugh v (1) Information Commissioner (2) First-tier Tribunal (General Regulatory Chamber): [2026] UKUT 344 (AAC)",
+          "date": "04 Sep 2026",
+          "date_iso": "2026-09-04",
+          "page_url": "https://www.gov.uk/administrative-appeals-tribunal-decisions/keith-kennaugh-v-1-information-commissioner-2-first-tier-tribunal-general-regulatory-chamber-2026-ukut-344-aac",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6ab2a4288cb3c0580e500ff7/UA-2025-000372-GIA__UA-2025-000373-GIA___UA-2025-001788-GIA.pdf",
+          "has_pdf": true,
+          "id": "govuk_t-tier-tribunal-general-regulatory-chamber-2026-ukut-344-aac"
+        },
         {
           "title": "R (KJV) v The First-tier Tribunal (Social Entitlement Chamber) and The Criminal Injuries Compensation Authority (Interested Party) (CIC): [2026] UKUT 345 (AAC)",
           "date": "07 Sep 2026",
@@ -3201,10 +3255,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "17915726 Elliott Associates, L.P. and Another v The London Metal Exchange and Hong Kong Exchanges and Clearing Limited - Ruling of the Chair (Service out of the jurisdiction)  22_0",
+          "date": "2026-09",
+          "date_iso": "2026-09-01",
+          "page_url": "https://www.catribunal.org.uk/judgments",
+          "pdf_url": "https://www.catribunal.org.uk/sites/cat/files/2026-09/17915726%20Elliott%20Associates%2C%20L.P.%20and%20Another%20v%20The%20London%20Metal%20Exchange%20and%20Hong%20Kong%20Exchanges%20and%20Clearing%20Limited%20-%20Ruling%20of%20the%20Chair%20%28Service%20out%20of%20the%20jurisdiction%29%20%2022_0.pdf",
+          "has_pdf": true,
+          "id": "cat_2026-09_17915726_Elliott_Associates__L_P__and_An"
+        },
         {
           "title": "16017723 Dr Sean Ennis v Apple Inc and Others - Judgment (Class Communications)",
           "date": "08 Sep 2026",
