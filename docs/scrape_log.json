@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-10-01 12:58:22 UTC",
-  "finished_at": "2026-10-01 13:07:55 UTC",
-  "duration_seconds": 573.5,
+  "started_at": "2026-10-01 22:35:01 UTC",
+  "finished_at": "2026-10-01 22:45:00 UTC",
+  "duration_seconds": 599.0,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 11,
+  "sources_ok": 13,
   "sources_error": 10,
-  "sources_empty": 72,
-  "total_documents": 20,
-  "docs_with_pdf": 10,
-  "docs_without_pdf": 10,
+  "sources_empty": 70,
+  "total_documents": 24,
+  "docs_with_pdf": 11,
+  "docs_without_pdf": 13,
   "source_details": [
     {
       "key": "RHP",
@@ -34,10 +34,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 6,
+      "doc_count": 7,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 6,
+      "docs_without_pdf": 7,
       "documents": [
+        {
+          "title": "JAGATJIT AGRI ENGINEERING LIMITED - DRHP",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jagatjit-agri-engineering-limited-drhp_104866.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104866"
+        },
         {
           "title": "Arohan Financial Services Limited - Addendum to DRHP",
           "date": "01 Oct 2026",
@@ -579,10 +588,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[20261001-6] Part Redemption of U.S.$750,000,000 6.625 per cent Senior Secured Notes due 2027 and U.S.$500,000,000 6.150 per cent Notes due 2028 under the U.S.$3,500,000,000 Global Medium Term Note Programme by Shriram Finance Limited",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
+          "pdf_url": "https://www.indiainx.com/circulars/20261001-6/20261001-6.pdf",
+          "has_pdf": true,
+          "id": "inx_circ_20261001-6"
+        },
         {
           "title": "[20261001-5] Redemption of INR 7,390,000,000 Additional Tier 1 Notes by HDFC Bank Limited, acting through its registered office in India",
           "date": "01 Oct 2026",
@@ -885,12 +903,22 @@
       "label": "EU_MERGER",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "[M.12522] BOSCH / TATA SONS / JV",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12522",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12522"
+        }
+      ]
     },
     {
       "key": "EU_ANTITRUST",
@@ -921,12 +949,22 @@
       "label": "EU_FS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "[FS.100390] CVC / IRCA GROUP",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100390",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100390"
+        }
+      ]
     },
     {
       "key": "EPO_BOA",
