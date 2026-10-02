@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-10-02 12:20:40 UTC",
-  "finished_at": "2026-10-02 12:30:23 UTC",
-  "duration_seconds": 583.2,
+  "started_at": "2026-10-02 22:04:41 UTC",
+  "finished_at": "2026-10-02 22:14:25 UTC",
+  "duration_seconds": 583.5,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
@@ -11,9 +11,9 @@
   "sources_ok": 15,
   "sources_error": 10,
   "sources_empty": 68,
-  "total_documents": 28,
+  "total_documents": 29,
   "docs_with_pdf": 15,
-  "docs_without_pdf": 13,
+  "docs_without_pdf": 14,
   "source_details": [
     {
       "key": "RHP",
@@ -961,10 +961,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 2,
       "documents": [
+        {
+          "title": "[FS.100370] AEQUITA / RHEINMETALL AUTOMOTIVE",
+          "date": "02 Oct 2026",
+          "date_iso": "2026-10-02",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100370",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100370"
+        },
         {
           "title": "[FS.100390] CVC / IRCA GROUP",
           "date": "01 Oct 2026",
