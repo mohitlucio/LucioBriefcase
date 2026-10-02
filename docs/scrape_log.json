@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-10-02 05:20:26 UTC",
-  "finished_at": "2026-10-02 05:30:30 UTC",
-  "duration_seconds": 603.7,
+  "started_at": "2026-10-02 12:20:40 UTC",
+  "finished_at": "2026-10-02 12:30:23 UTC",
+  "duration_seconds": 583.2,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 12,
-  "sources_error": 14,
-  "sources_empty": 67,
-  "total_documents": 23,
-  "docs_with_pdf": 10,
+  "sources_ok": 15,
+  "sources_error": 10,
+  "sources_empty": 68,
+  "total_documents": 28,
+  "docs_with_pdf": 15,
   "docs_without_pdf": 13,
   "source_details": [
     {
@@ -420,12 +420,22 @@
       "label": "RBI_MD",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[Issuer of Currency] Master Direction on Note Sorting Machines",
+          "date": "02 Oct 2026",
+          "date_iso": "2026-10-02",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13723",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/473MDD1229693F0604B6D996B1DF75C81E466.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13723"
+        }
+      ]
     },
     {
       "key": "RBI_MC",
@@ -657,8 +667,8 @@
       "label": "TG_RERA_ADJ",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -669,20 +679,30 @@
       "label": "TG_RERA_AUTH",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Order Complaint No. 115 of 2026",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_011026161429397.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_0"
+        }
+      ]
     },
     {
       "key": "TG_RERA_SUO",
       "label": "TG_RERA_SUO",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -693,8 +713,8 @@
       "label": "TG_RERA_CIRC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1119,10 +1139,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Ms. Z. Chowdhury v Secretary of State for Health and Social Care: [2026] EAT 151",
+          "date": "02 Oct 2026",
+          "date_iso": "2026-10-02",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/ms-z-chowdhury-v-secretary-of-state-for-health-and-social-care-2026-eat-151",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6abf8810915e5b104a919320/Ms._Z._Chowdhury_v_Secretary_of_State_for_Health_and_Social_Care__2026__EAT_151.pdf",
+          "has_pdf": true,
+          "id": "govuk_v-secretary-of-state-for-health-and-social-care-2026-eat-151"
+        },
         {
           "title": "Miss Rose Southam v Berkshire Healthcare NHS Foundation Trust: [2026] EAT 150",
           "date": "01 Oct 2026",
@@ -1343,12 +1372,31 @@
       "label": "RBI_FEMA_NOTIF",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Non-Resident Deposits - Comprehensive Single Return (NRD-CSR)(R012): Submission under CIMS Sankalan Portal",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13725&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT2800AE75657FD144B8ABC111ECF504BCC06.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13725"
+        },
+        {
+          "title": "Online submission of Form A2: Removal of limits on amount of remittance",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13724&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT2796737482352AE4E488C0ECB304A05CDE1.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13724"
+        }
+      ]
     }
   ],
   "partial_scrape": false
