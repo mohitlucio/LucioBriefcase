@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-10-03 16:07:37 UTC",
-  "finished_at": "2026-10-03 16:17:13 UTC",
-  "duration_seconds": 576.1,
+  "started_at": "2026-10-03 20:57:42 UTC",
+  "finished_at": "2026-10-03 21:07:01 UTC",
+  "duration_seconds": 558.9,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
@@ -9,8 +9,8 @@
   "total_sources": 93,
   "sources_scraped": 93,
   "sources_ok": 15,
-  "sources_error": 11,
-  "sources_empty": 67,
+  "sources_error": 10,
+  "sources_empty": 68,
   "total_documents": 29,
   "docs_with_pdf": 15,
   "docs_without_pdf": 14,
@@ -572,8 +572,8 @@
       "label": "IRDAI_CIRC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "The read operation timed out",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
