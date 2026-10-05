@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-10-04 21:12:15 UTC",
-  "finished_at": "2026-10-04 21:21:31 UTC",
-  "duration_seconds": 556.7,
+  "started_at": "2026-10-05 05:19:35 UTC",
+  "finished_at": "2026-10-05 05:29:07 UTC",
+  "duration_seconds": 572.4,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
@@ -11,9 +11,9 @@
   "sources_ok": 15,
   "sources_error": 10,
   "sources_empty": 68,
-  "total_documents": 29,
+  "total_documents": 31,
   "docs_with_pdf": 15,
-  "docs_without_pdf": 14,
+  "docs_without_pdf": 16,
   "source_details": [
     {
       "key": "RHP",
@@ -34,10 +34,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 7,
+      "doc_count": 8,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 7,
+      "docs_without_pdf": 8,
       "documents": [
+        {
+          "title": "Kian-M Export Limited",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/kian-m-export-limited_104874.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104874"
+        },
         {
           "title": "JAGATJIT AGRI ENGINEERING LIMITED - DRHP",
           "date": "01 Oct 2026",
@@ -1271,10 +1280,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
+      "doc_count": 4,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 3,
+      "docs_without_pdf": 4,
       "documents": [
+        {
+          "title": "Sonaselection India Limited - Prospectus",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sonaselection-india-limited-prospectus_104876.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104876"
+        },
         {
           "title": "Runwal Enterprises Limited - Prospectus",
           "date": "01 Oct 2026",
