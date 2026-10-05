@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-10-05 05:19:35 UTC",
-  "finished_at": "2026-10-05 05:29:07 UTC",
-  "duration_seconds": 572.4,
+  "started_at": "2026-10-05 14:21:56 UTC",
+  "finished_at": "2026-10-05 14:31:42 UTC",
+  "duration_seconds": 585.9,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 15,
+  "sources_ok": 16,
   "sources_error": 10,
-  "sources_empty": 68,
-  "total_documents": 31,
-  "docs_with_pdf": 15,
-  "docs_without_pdf": 16,
+  "sources_empty": 67,
+  "total_documents": 56,
+  "docs_with_pdf": 21,
+  "docs_without_pdf": 35,
   "source_details": [
     {
       "key": "RHP",
@@ -34,10 +34,181 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 8,
+      "doc_count": 27,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 8,
+      "docs_without_pdf": 27,
       "documents": [
+        {
+          "title": "Electromech Infraprojects Limited- DRHP",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/electromech-infraprojects-limited-drhp_105027.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105027"
+        },
+        {
+          "title": "Baanganga Gold & Diamond (I) Limited- DRHP",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/baanganga-gold-and-diamond-i-limited-drhp_105025.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105025"
+        },
+        {
+          "title": "Inox Air Products Limited- DRHP",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/inox-air-products-limited-drhp_105024.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105024"
+        },
+        {
+          "title": "B S Sponge Limited- DRHP",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/b-s-sponge-limited-drhp_105023.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105023"
+        },
+        {
+          "title": "Everbrands India Limited- DRHP",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/everbrands-india-limited-drhp_105022.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105022"
+        },
+        {
+          "title": "Arete 22 Limited",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/arete-22-limited_105016.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105016"
+        },
+        {
+          "title": "PES Installations Limited- DRHP",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/pes-installations-limited-drhp_105018.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105018"
+        },
+        {
+          "title": "DEON ENERGY LIMITED",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/deon-energy-limited_105012.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105012"
+        },
+        {
+          "title": "RATHOD JEWELLERY MANUFACTURING LIMITED",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/rathod-jewellery-manufacturing-limited_105014.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105014"
+        },
+        {
+          "title": "Inox Clean Energy Limited",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/inox-clean-energy-limited_105010.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105010"
+        },
+        {
+          "title": "RUDRA GREEN SHIP RECYCLING LIMITED",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/rudra-green-ship-recycling-limited_105008.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105008"
+        },
+        {
+          "title": "Sanghvi Housing and Infrastructure Limited - DRHP",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sanghvi-housing-and-infrastructure-limited-drhp_105004.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105004"
+        },
+        {
+          "title": "Tenty Limited- DRHP",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tenty-limited-drhp_105006.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105006"
+        },
+        {
+          "title": "Tanvi Exports India Limited",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tanvi-exports-india-limited_105002.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105002"
+        },
+        {
+          "title": "NNT DEVELOPERS LIMITED",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/nnt-developers-limited_105000.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105000"
+        },
+        {
+          "title": "KATALINE LIMITED – DRHP",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/kataline-limited-drhp_104993.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104993"
+        },
+        {
+          "title": "SHREEJIKRUPA PROJECT LIMITED – DRHP",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/shreejikrupa-project-limited-drhp_104991.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104991"
+        },
+        {
+          "title": "PCI INFRAPROJECTS LIMITED – DRHP",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/pci-infraprojects-limited-drhp_104989.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104989"
+        },
+        {
+          "title": "Anarock Property Consultants Limited – DRHP",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/anarock-property-consultants-limited-drhp_104988.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "104988"
+        },
         {
           "title": "Kian-M Export Limited",
           "date": "01 Oct 2026",
@@ -75,10 +246,10 @@
           "id": "104862"
         },
         {
-          "title": "KOOLKING INDUSTRIES INDIA LIMITED",
+          "title": "Koolking Industries India Limited – DRHP",
           "date": "01 Oct 2026",
           "date_iso": "2026-10-01",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/koolking-industries-india-limited_104848.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/koolking-industries-india-limited-drhp_104848.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "104848"
@@ -93,10 +264,10 @@
           "id": "104850"
         },
         {
-          "title": "J Infratech Limited",
+          "title": "J Infratech Limited – DRHP",
           "date": "01 Oct 2026",
           "date_iso": "2026-10-01",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/j-infratech-limited_104846.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/j-infratech-limited-drhp_104846.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "104846"
@@ -607,10 +778,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[20261005-2] Issue of U.S.$10,000,000 8.85 per cent Senior Notes due 2027 by Midland Microfin Limited",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
+          "pdf_url": "https://www.indiainx.com/circulars/20261005-2/20261005-2.pdf",
+          "has_pdf": true,
+          "id": "inx_circ_20261005-2"
+        },
         {
           "title": "[20261001-6] Part Redemption of U.S.$750,000,000 6.625 per cent Senior Secured Notes due 2027 and U.S.$500,000,000 6.150 per cent Notes due 2028 under the U.S.$3,500,000,000 Global Medium Term Note Programme by Shriram Finance Limited",
           "date": "01 Oct 2026",
@@ -647,10 +827,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Midland Microfin Limited — U.S.$10,000,000 8.85 per cent Senior Notes due 2027",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/INIFD1305058_05102026.pdf",
+          "has_pdf": true,
+          "id": "inx_iss_u_s__10_000_000_8_85_per_cent__2026-10-05"
+        },
         {
           "title": "IDFC First Bank Limited — U.S.$350,000,000 5.800 per cent Senior Notes due 2031",
           "date": "01 Oct 2026",
@@ -690,10 +879,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Rectified interim order 308 of 2024",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_051026171349229.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_0"
+        },
+        {
+          "title": "Order Complaint No. 254 of 2025",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_051026171015247.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_1"
+        },
         {
           "title": "Order Complaint No. 115 of 2026",
           "date": "01 Oct 2026",
@@ -701,7 +908,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_011026161429397.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_0"
+          "id": "tgrera_TG_RERA_AUTH_2"
         }
       ]
     },
@@ -910,12 +1117,22 @@
       "label": "IBBI_ADM",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "In the matter of JAYANT SPECIALITIES PRIVATE LIMITED [ CP (IB) No. 294/MB/2026]",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        }
+      ]
     },
     {
       "key": "EU_MERGER",
@@ -1157,10 +1374,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "XYZ v Birmingham City Council: [2026] EAT 152",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/xyz-v-birmingham-city-council-2026-eat-152",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6ac37bb4241ecad55a979375/XYZ_v_Birmingham_City_Council__2026__EAT_152.pdf",
+          "has_pdf": true,
+          "id": "govuk_ribunal-decisions_xyz-v-birmingham-city-council-2026-eat-152"
+        },
         {
           "title": "Ms. Z. Chowdhury v Secretary of State for Health and Social Care: [2026] EAT 151",
           "date": "02 Oct 2026",
