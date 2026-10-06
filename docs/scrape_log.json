@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-10-06 06:09:17 UTC",
-  "finished_at": "2026-10-06 06:19:38 UTC",
-  "duration_seconds": 621.3,
+  "started_at": "2026-10-06 18:15:45 UTC",
+  "finished_at": "2026-10-06 18:25:33 UTC",
+  "duration_seconds": 587.7,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 15,
-  "sources_error": 14,
+  "sources_ok": 17,
+  "sources_error": 12,
   "sources_empty": 64,
-  "total_documents": 59,
-  "docs_with_pdf": 21,
-  "docs_without_pdf": 38,
+  "total_documents": 63,
+  "docs_with_pdf": 19,
+  "docs_without_pdf": 44,
   "source_details": [
     {
       "key": "RHP",
@@ -34,10 +34,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 28,
+      "doc_count": 30,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 28,
+      "docs_without_pdf": 30,
       "documents": [
+        {
+          "title": "PM CONA INDUSTRIES LIMITED",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/pm-cona-industries-limited_105041.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105041"
+        },
+        {
+          "title": "Pentacle Consultants I Limited",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/pentacle-consultants-i-limited_105039.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105039"
+        },
         {
           "title": "Pentacle Consultants (I) Limited - DRHP",
           "date": "06 Oct 2026",
@@ -597,12 +615,22 @@
       "label": "CCI_GREEN",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[C-2026/10/1480] Amicus Capital Partners India Fund II,HDFC Asset Management Company Limited, HDFC AMC Select AIF FoF – I ,Matterhorn India Opportunity Fund — Deemed Approved (Section 6(5))",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://www.cci.gov.in/combination/green-channel",
+          "pdf_url": "https://www.cci.gov.in/images/summaryorders/en/summary1791287425.pdf",
+          "has_pdf": true,
+          "id": "cci_green_C-2026_10_1480"
+        }
+      ]
     },
     {
       "key": "RBI_MD",
@@ -761,8 +789,8 @@
       "label": "IRDAI_CIRC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 504: Gateway Time-out",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -773,8 +801,8 @@
       "label": "IRDAI_REGS",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 504: Gateway Time-out",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -785,89 +813,24 @@
       "label": "INX_CIRC",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 4,
-      "docs_with_pdf": 4,
+      "status": "error",
+      "error": "<urlopen error timed out>",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "[20261005-2] Issue of U.S.$10,000,000 8.85 per cent Senior Notes due 2027 by Midland Microfin Limited",
-          "date": "05 Oct 2026",
-          "date_iso": "2026-10-05",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20261005-2/20261005-2.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20261005-2"
-        },
-        {
-          "title": "[20261001-6] Part Redemption of U.S.$750,000,000 6.625 per cent Senior Secured Notes due 2027 and U.S.$500,000,000 6.150 per cent Notes due 2028 under the U.S.$3,500,000,000 Global Medium Term Note Programme by Shriram Finance Limited",
-          "date": "01 Oct 2026",
-          "date_iso": "2026-10-01",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20261001-6/20261001-6.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20261001-6"
-        },
-        {
-          "title": "[20261001-5] Redemption of INR 7,390,000,000 Additional Tier 1 Notes by HDFC Bank Limited, acting through its registered office in India",
-          "date": "01 Oct 2026",
-          "date_iso": "2026-10-01",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20261001-5/20261001-5.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20261001-5"
-        },
-        {
-          "title": "[20261001-4] Issue of U.S.$600,000,000 5.625 per cent Senior Notes due 2029 and U.S.$350,000,000 5.800 per cent Senior Notes due 2031 by IDFC First Bank Limited, acting through its IFSC Banking Unit",
-          "date": "01 Oct 2026",
-          "date_iso": "2026-10-01",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20261001-4/20261001-4.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20261001-4"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "INX_ISSUER",
       "label": "INX_ISSUER",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "status": "error",
+      "error": "<urlopen error timed out>",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "Midland Microfin Limited — U.S.$10,000,000 8.85 per cent Senior Notes due 2027",
-          "date": "05 Oct 2026",
-          "date_iso": "2026-10-05",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/INIFD1305058_05102026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__10_000_000_8_85_per_cent__2026-10-05"
-        },
-        {
-          "title": "IDFC First Bank Limited — U.S.$350,000,000 5.800 per cent Senior Notes due 2031",
-          "date": "01 Oct 2026",
-          "date_iso": "2026-10-01",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3486717401011026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__350_000_000_5_800_per_cen_2026-10-01"
-        },
-        {
-          "title": "IDFC First Bank Limited — U.S.$600,000,000 5.625 per cent Senior Notes due 2029",
-          "date": "01 Oct 2026",
-          "date_iso": "2026-10-01",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3480648354011026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__600_000_000_5_625_per_cen_2026-10-01"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "TG_RERA_ADJ",
@@ -1114,8 +1077,8 @@
       "label": "IBBI_RES",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "The read operation timed out",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1126,12 +1089,31 @@
       "label": "IBBI_ADM",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "The read operation timed out",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "In the matter of AHUJA SYNFAB PRIVATE LIMITED [C.P. (IB)/747/MB/2024]",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of JAYANT SPECIALITIES PRIVATE LIMITED [ CP (IB) No. 294/MB/2026]",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        }
+      ]
     },
     {
       "key": "EU_MERGER",
@@ -1140,10 +1122,37 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 4,
+      "doc_count": 7,
       "docs_with_pdf": 1,
-      "docs_without_pdf": 3,
+      "docs_without_pdf": 6,
       "documents": [
+        {
+          "title": "[M.12546] SAMSUNG / GS E&C / JV",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12546",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12546"
+        },
+        {
+          "title": "[M.12598] ACCIAIERIA ARVEDI / AMCLN",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12598",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12598"
+        },
+        {
+          "title": "[M.12270] UPM-KYMMENE / SAPPI / JV",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12270",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12270"
+        },
         {
           "title": "[M.12483] VWFS / DML",
           "date": "05 Oct 2026",
@@ -1290,12 +1299,22 @@
       "label": "ADGM_ORDERS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "ADGMCFI-2026-118 — Mohamad Muzaffer Nahvi v. Reem Hospital Ltd & Anor.",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://www.adgm.com/adgm-courts/judgments",
+          "pdf_url": "https://assets.adgm.com/download/assets/ADGMCFI-2026-118+-+Judgment+ADGMCFI+0026++06102026+SEALED.pdf/3858c65ec14f11f1b1bf0e4d03901e5c",
+          "has_pdf": true,
+          "id": "adgm_ADGMCFI-2026-118"
+        }
+      ]
     },
     {
       "key": "DIFC_CA_ORDERS",
@@ -1484,12 +1503,22 @@
       "label": "UK_TAX_CHANCERY",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Hanlon v The Commissioners of His Majesty's Revenue and Customs [2026] UKUT 00379 (TCC)",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/hanlon-v-the-commissioners-of-his-majestys-revenue-and-customs-2026-ukut-00379-tcc",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6ac50e7335adbc27761df939/Thomas_Hanlon_-_UT_PTA_decision__following_oral_renewal_.pdf",
+          "has_pdf": true,
+          "id": "govuk_ners-of-his-majestys-revenue-and-customs-2026-ukut-00379-tcc"
+        }
+      ]
     },
     {
       "key": "UK_TAX_FTT",
@@ -1532,10 +1561,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 4,
+      "doc_count": 5,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 4,
+      "docs_without_pdf": 5,
       "documents": [
+        {
+          "title": "Vishal Nirmiti Limited - Prospectus",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/vishal-nirmiti-limited-prospectus_105057.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105057"
+        },
         {
           "title": "Sonaselection India Limited - Prospectus",
           "date": "01 Oct 2026",
