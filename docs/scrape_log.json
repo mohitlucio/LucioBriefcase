@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-10-05 14:21:56 UTC",
-  "finished_at": "2026-10-05 14:31:42 UTC",
-  "duration_seconds": 585.9,
+  "started_at": "2026-10-05 23:57:46 UTC",
+  "finished_at": "2026-10-06 00:07:08 UTC",
+  "duration_seconds": 561.9,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
@@ -11,9 +11,9 @@
   "sources_ok": 16,
   "sources_error": 10,
   "sources_empty": 67,
-  "total_documents": 56,
-  "docs_with_pdf": 21,
-  "docs_without_pdf": 35,
+  "total_documents": 59,
+  "docs_with_pdf": 22,
+  "docs_without_pdf": 37,
   "source_details": [
     {
       "key": "RHP",
@@ -1141,17 +1141,44 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "doc_count": 4,
+      "docs_with_pdf": 1,
+      "docs_without_pdf": 3,
       "documents": [
+        {
+          "title": "[M.12483] VWFS / DML",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12483",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12483"
+        },
+        {
+          "title": "[M.12172] STV INVEST / PROMET GROUP / NIKA DEVELOPMENT / TATRA TRUCKS JV",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12172",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12172"
+        },
+        {
+          "title": "[M.12528] ACCENTURE / INDX / ALFAHEALTH",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12528",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12528"
+        },
         {
           "title": "[M.12522] BOSCH / TATA SONS / JV",
           "date": "01 Oct 2026",
           "date_iso": "2026-10-01",
           "page_url": "https://competition-cases.ec.europa.eu/cases/M.12522",
-          "pdf_url": "",
-          "has_pdf": false,
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202641/M_12522_68.pdf",
+          "has_pdf": true,
           "id": "eu_m_M_12522"
         }
       ]
