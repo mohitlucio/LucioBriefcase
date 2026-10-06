@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-10-05 23:57:46 UTC",
-  "finished_at": "2026-10-06 00:07:08 UTC",
-  "duration_seconds": 561.9,
+  "started_at": "2026-10-06 06:09:17 UTC",
+  "finished_at": "2026-10-06 06:19:38 UTC",
+  "duration_seconds": 621.3,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 16,
-  "sources_error": 10,
-  "sources_empty": 67,
+  "sources_ok": 15,
+  "sources_error": 14,
+  "sources_empty": 64,
   "total_documents": 59,
-  "docs_with_pdf": 22,
-  "docs_without_pdf": 37,
+  "docs_with_pdf": 21,
+  "docs_without_pdf": 38,
   "source_details": [
     {
       "key": "RHP",
@@ -34,10 +34,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 27,
+      "doc_count": 28,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 27,
+      "docs_without_pdf": 28,
       "documents": [
+        {
+          "title": "Pentacle Consultants (I) Limited - DRHP",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/pentacle-consultants-i-limited-drhp_105036.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105036"
+        },
         {
           "title": "Electromech Infraprojects Limited- DRHP",
           "date": "05 Oct 2026",
@@ -156,19 +165,19 @@
           "id": "105006"
         },
         {
-          "title": "Tanvi Exports India Limited",
+          "title": "Tanvi Exports India Limited - DRHP",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tanvi-exports-india-limited_105002.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tanvi-exports-india-limited-drhp_105002.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "105002"
         },
         {
-          "title": "NNT DEVELOPERS LIMITED",
+          "title": "NNT DEVELOPERS LIMITED - DRHP",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/nnt-developers-limited_105000.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/nnt-developers-limited-drhp_105000.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "105000"
@@ -255,10 +264,10 @@
           "id": "104848"
         },
         {
-          "title": "SAI INFINIUM LIMITED",
+          "title": "SAI INFINIUM LIMITED - DRHP",
           "date": "01 Oct 2026",
           "date_iso": "2026-10-01",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sai-infinium-limited_104850.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sai-infinium-limited-drhp_104850.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "104850"
@@ -752,8 +761,8 @@
       "label": "IRDAI_CIRC",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 504: Gateway Time-out",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -764,8 +773,8 @@
       "label": "IRDAI_REGS",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 504: Gateway Time-out",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1105,8 +1114,8 @@
       "label": "IBBI_RES",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "The read operation timed out",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1117,22 +1126,12 @@
       "label": "IBBI_ADM",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "status": "error",
+      "error": "The read operation timed out",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "In the matter of JAYANT SPECIALITIES PRIVATE LIMITED [ CP (IB) No. 294/MB/2026]",
-          "date": "01 Oct 2026",
-          "date_iso": "2026-10-01",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "EU_MERGER",
