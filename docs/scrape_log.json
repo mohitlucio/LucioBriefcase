@@ -1,31 +1,41 @@
 {
-  "started_at": "2026-10-06 18:15:45 UTC",
-  "finished_at": "2026-10-06 18:25:33 UTC",
-  "duration_seconds": 587.7,
+  "started_at": "2026-10-07 05:38:30 UTC",
+  "finished_at": "2026-10-07 05:48:05 UTC",
+  "duration_seconds": 575.4,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 17,
-  "sources_error": 12,
-  "sources_empty": 64,
-  "total_documents": 63,
-  "docs_with_pdf": 19,
-  "docs_without_pdf": 44,
+  "sources_ok": 19,
+  "sources_error": 14,
+  "sources_empty": 60,
+  "total_documents": 69,
+  "docs_with_pdf": 23,
+  "docs_without_pdf": 46,
   "source_details": [
     {
       "key": "RHP",
       "label": "RHP",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "HD Fire Protect Limited - RHP",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/hd-fire-protect-limited-rhp_105058.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105058"
+        }
+      ]
     },
     {
       "key": "DRHP",
@@ -813,32 +823,97 @@
       "label": "INX_CIRC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "<urlopen error timed out>",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[20261005-2] Issue of U.S.$10,000,000 8.85 per cent Senior Notes due 2027 by Midland Microfin Limited",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
+          "pdf_url": "https://www.indiainx.com/circulars/20261005-2/20261005-2.pdf",
+          "has_pdf": true,
+          "id": "inx_circ_20261005-2"
+        },
+        {
+          "title": "[20261001-6] Part Redemption of U.S.$750,000,000 6.625 per cent Senior Secured Notes due 2027 and U.S.$500,000,000 6.150 per cent Notes due 2028 under the U.S.$3,500,000,000 Global Medium Term Note Programme by Shriram Finance Limited",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
+          "pdf_url": "https://www.indiainx.com/circulars/20261001-6/20261001-6.pdf",
+          "has_pdf": true,
+          "id": "inx_circ_20261001-6"
+        },
+        {
+          "title": "[20261001-5] Redemption of INR 7,390,000,000 Additional Tier 1 Notes by HDFC Bank Limited, acting through its registered office in India",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
+          "pdf_url": "https://www.indiainx.com/circulars/20261001-5/20261001-5.pdf",
+          "has_pdf": true,
+          "id": "inx_circ_20261001-5"
+        },
+        {
+          "title": "[20261001-4] Issue of U.S.$600,000,000 5.625 per cent Senior Notes due 2029 and U.S.$350,000,000 5.800 per cent Senior Notes due 2031 by IDFC First Bank Limited, acting through its IFSC Banking Unit",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
+          "pdf_url": "https://www.indiainx.com/circulars/20261001-4/20261001-4.pdf",
+          "has_pdf": true,
+          "id": "inx_circ_20261001-4"
+        }
+      ]
     },
     {
       "key": "INX_ISSUER",
       "label": "INX_ISSUER",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "<urlopen error timed out>",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Midland Microfin Limited — U.S.$10,000,000 8.85 per cent Senior Notes due 2027",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/INIFD1305058_05102026.pdf",
+          "has_pdf": true,
+          "id": "inx_iss_u_s__10_000_000_8_85_per_cent__2026-10-05"
+        },
+        {
+          "title": "IDFC First Bank Limited — U.S.$350,000,000 5.800 per cent Senior Notes due 2031",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3486717401011026.pdf",
+          "has_pdf": true,
+          "id": "inx_iss_u_s__350_000_000_5_800_per_cen_2026-10-01"
+        },
+        {
+          "title": "IDFC First Bank Limited — U.S.$600,000,000 5.625 per cent Senior Notes due 2029",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3480648354011026.pdf",
+          "has_pdf": true,
+          "id": "inx_iss_u_s__600_000_000_5_625_per_cen_2026-10-01"
+        }
+      ]
     },
     {
       "key": "TG_RERA_ADJ",
       "label": "TG_RERA_ADJ",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -849,48 +924,20 @@
       "label": "TG_RERA_AUTH",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "Rectified interim order 308 of 2024",
-          "date": "05 Oct 2026",
-          "date_iso": "2026-10-05",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_051026171349229.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_0"
-        },
-        {
-          "title": "Order Complaint No. 254 of 2025",
-          "date": "05 Oct 2026",
-          "date_iso": "2026-10-05",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_051026171015247.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_1"
-        },
-        {
-          "title": "Order Complaint No. 115 of 2026",
-          "date": "01 Oct 2026",
-          "date_iso": "2026-10-01",
-          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_011026161429397.pdf",
-          "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_2"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "TG_RERA_SUO",
       "label": "TG_RERA_SUO",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -901,8 +948,8 @@
       "label": "TG_RERA_CIRC",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1561,10 +1608,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 5,
+      "doc_count": 6,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 5,
+      "docs_without_pdf": 6,
       "documents": [
+        {
+          "title": "Nityas Gems and Jewellery Limited - Prospectus",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/nityas-gems-and-jewellery-limited-prospectus_105059.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105059"
+        },
         {
           "title": "Vishal Nirmiti Limited - Prospectus",
           "date": "06 Oct 2026",
