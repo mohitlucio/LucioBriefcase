@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-10-07 05:38:30 UTC",
-  "finished_at": "2026-10-07 05:48:05 UTC",
-  "duration_seconds": 575.4,
+  "started_at": "2026-10-07 13:08:18 UTC",
+  "finished_at": "2026-10-07 13:18:13 UTC",
+  "duration_seconds": 595.2,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 19,
-  "sources_error": 14,
-  "sources_empty": 60,
-  "total_documents": 69,
-  "docs_with_pdf": 23,
-  "docs_without_pdf": 46,
+  "sources_ok": 21,
+  "sources_error": 10,
+  "sources_empty": 62,
+  "total_documents": 83,
+  "docs_with_pdf": 32,
+  "docs_without_pdf": 51,
   "source_details": [
     {
       "key": "RHP",
@@ -44,10 +44,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 30,
+      "doc_count": 31,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 30,
+      "docs_without_pdf": 31,
       "documents": [
+        {
+          "title": "INTEGRUM ENERGY INFRASTRUCTURE LIMITED - DRHP",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/integrum-energy-infrastructure-limited-drhp_105075.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105075"
+        },
         {
           "title": "PM CONA INDUSTRIES LIMITED",
           "date": "06 Oct 2026",
@@ -157,10 +166,10 @@
           "id": "105014"
         },
         {
-          "title": "Inox Clean Energy Limited",
+          "title": "Inox Clean Energy Limited - DRHP",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/inox-clean-energy-limited_105010.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/inox-clean-energy-limited-drhp_105010.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "105010"
@@ -649,10 +658,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[Commercial Banks] Reserve Bank of India (Commercial Banks – Credit Valuation Adjustment Framework) Directions, 2026",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13729",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/474MD4DC544D5A93B4A8CA3ECBF1AD165EA13.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13729"
+        },
         {
           "title": "[Issuer of Currency] Master Direction on Note Sorting Machines",
           "date": "02 Oct 2026",
@@ -691,12 +709,22 @@
       "label": "RBI_MD_COMM",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Reserve Bank of India (Commercial Banks – Credit Valuation Adjustment Framework) Directions, 2026",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13729",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/474MD4DC544D5A93B4A8CA3ECBF1AD165EA13.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_403_13729"
+        }
+      ]
     },
     {
       "key": "RBI_MD_SFB",
@@ -912,8 +940,8 @@
       "label": "TG_RERA_ADJ",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -924,20 +952,48 @@
       "label": "TG_RERA_AUTH",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Rectified interim order 308 of 2024",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_051026171349229.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_0"
+        },
+        {
+          "title": "Order Complaint No. 254 of 2025",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_051026171015247.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_1"
+        },
+        {
+          "title": "Order Complaint No. 115 of 2026",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_011026161429397.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_2"
+        }
+      ]
     },
     {
       "key": "TG_RERA_SUO",
       "label": "TG_RERA_SUO",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -948,8 +1004,8 @@
       "label": "TG_RERA_CIRC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1022,10 +1078,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "H-REAT-823-2025 — EMAAR INDIA LIMITED vs MOHAN K HATHIRAMANI",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzE2MDcw",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-823-2025_0"
+        },
         {
           "title": "H-REAT-572-2026 — Ruchi Suri vs GODREJ PROPERTIES LIMITED",
           "date": "01 Oct 2026",
@@ -1033,7 +1098,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzE1NDUy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-572-2026_0"
+          "id": "hr_reat_H-REAT-572-2026_1"
         }
       ]
     },
@@ -1138,10 +1203,37 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 5,
+      "docs_with_pdf": 5,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "In the matter of ADHIKAR MICROFINANCE PRIVATE LIMITED [C.P. (IB)/48/CB/2025]",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of SHUBH FOOD INDUSTRIES LIMITED [IA (I.B.C)/1728(MB) 2026]",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of GAYATRI HOSPITALITY AND REALCON LIMITED [CP(IB)69(ND)2026 ]",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
         {
           "title": "In the matter of AHUJA SYNFAB PRIVATE LIMITED [C.P. (IB)/747/MB/2024]",
           "date": "05 Oct 2026",
@@ -1269,10 +1361,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
+      "doc_count": 3,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 2,
+      "docs_without_pdf": 3,
       "documents": [
+        {
+          "title": "[FS.100361] ICG / HORIZON CAPITALIZE / CIRCET",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100361",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100361"
+        },
         {
           "title": "[FS.100370] AEQUITA / RHEINMETALL AUTOMOTIVE",
           "date": "02 Oct 2026",
@@ -1586,10 +1687,37 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 4,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 4,
       "documents": [
+        {
+          "title": "Introduction of Credit Risk-o-Meter as an additional disclosure mechanism for debt securities",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/oct-2026/introduction-of-credit-risk-o-meter-as-an-additional-disclosure-mechanism-for-debt-securities_105081.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105081"
+        },
+        {
+          "title": "Exemption from the requirement of mandatory merchant banker appointment for debt issued through private placement by certain listed issuers",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/oct-2026/exemption-from-the-requirement-of-mandatory-merchant-banker-appointment-for-debt-issued-through-private-placement-by-certain-listed-issuers_105080.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105080"
+        },
+        {
+          "title": "Review of provisions related to International Securities Identification Number (ISIN) for debt securities issued on private placement basis",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/oct-2026/review-of-provisions-related-to-international-securities-identification-number-isin-for-debt-securities-issued-on-private-placement-basis_105076.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105076"
+        },
         {
           "title": "Display of “investor awareness message(s)” by stock brokers on their trading apps and websites, under Project Jagrook",
           "date": "01 Oct 2026",
