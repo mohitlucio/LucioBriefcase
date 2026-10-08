@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-10-08 13:15:39 UTC",
-  "finished_at": "2026-10-08 13:25:33 UTC",
-  "duration_seconds": 593.6,
+  "started_at": "2026-10-08 23:13:34 UTC",
+  "finished_at": "2026-10-08 23:22:52 UTC",
+  "duration_seconds": 558.1,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
@@ -9,11 +9,11 @@
   "total_sources": 93,
   "sources_scraped": 93,
   "sources_ok": 21,
-  "sources_error": 11,
-  "sources_empty": 61,
-  "total_documents": 152,
-  "docs_with_pdf": 100,
-  "docs_without_pdf": 52,
+  "sources_error": 10,
+  "sources_empty": 62,
+  "total_documents": 155,
+  "docs_with_pdf": 102,
+  "docs_without_pdf": 53,
   "source_details": [
     {
       "key": "RHP",
@@ -1717,8 +1717,8 @@
       "label": "CGST_CIRC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "The read operation timed out",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1743,8 +1743,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 11,
-      "docs_with_pdf": 11,
+      "doc_count": 12,
+      "docs_with_pdf": 12,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -1757,9 +1757,9 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of Birla Jewels Limited [C.P. (IB)/3626/MB/2019]",
-          "date": "06 Oct 2026",
-          "date_iso": "2026-10-06",
+          "title": "In the matter of SVOGL Oil Gas and Energy Limited [CP (IB) No.253/(PB)/2025]",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "has_pdf": true,
@@ -1802,6 +1802,15 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
+          "title": "In the matter of Birla Jewels Limited [C.P. (IB)/3626/MB/2019]",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
           "title": "In the matter of AHUJA SYNFAB PRIVATE LIMITED [C.P. (IB)/747/MB/2024]",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
@@ -1811,7 +1820,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of GAYATRI HOSPITALITY AND REALCON LIMITED [CP(IB)69(ND)2026 ]",
+          "title": "In the matter of Ahuja Synfab Private Limited [CP (IB) No. 747/MB/2024]",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1820,7 +1829,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of Ahuja Synfab Private Limited [CP (IB) No. 747/MB/2024]",
+          "title": "In the matter of GAYATRI HOSPITALITY AND REALCON LIMITED [CP(IB)69(ND)2026 ]",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1855,10 +1864,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 8,
-      "docs_with_pdf": 3,
-      "docs_without_pdf": 5,
+      "doc_count": 10,
+      "docs_with_pdf": 4,
+      "docs_without_pdf": 6,
       "documents": [
+        {
+          "title": "[M.10962.AP] KINGSPAN GROUP (Art. 14(1) proceedings)",
+          "date": "08 Oct 2026",
+          "date_iso": "2026-10-08",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.10962.AP",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_10962_AP"
+        },
+        {
+          "title": "[M.12537] POSCO FLOW / LX PANTOS / JV",
+          "date": "08 Oct 2026",
+          "date_iso": "2026-10-08",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12537",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12537"
+        },
         {
           "title": "[M.12602] AP / GERRESHEIMER (PRIMARY PACKAGING PLASTICS BUSINESS)",
           "date": "07 Oct 2026",
@@ -1918,8 +1945,8 @@
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
           "page_url": "https://competition-cases.ec.europa.eu/cases/M.12528",
-          "pdf_url": "",
-          "has_pdf": false,
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202641/M_12528_131.pdf",
+          "has_pdf": true,
           "id": "eu_m_M_12528"
         },
         {
