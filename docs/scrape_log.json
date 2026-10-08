@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-10-07 22:59:10 UTC",
-  "finished_at": "2026-10-07 23:08:39 UTC",
-  "duration_seconds": 569.8,
+  "started_at": "2026-10-08 05:46:49 UTC",
+  "finished_at": "2026-10-08 05:56:56 UTC",
+  "duration_seconds": 607.1,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
@@ -11,8 +11,8 @@
   "sources_ok": 20,
   "sources_error": 23,
   "sources_empty": 50,
-  "total_documents": 83,
-  "docs_with_pdf": 34,
+  "total_documents": 91,
+  "docs_with_pdf": 42,
   "docs_without_pdf": 49,
   "source_details": [
     {
@@ -130,10 +130,10 @@
           "id": "105022"
         },
         {
-          "title": "Arete 22 Limited",
+          "title": "Arete 22 Limited - DRHP",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/arete-22-limited_105016.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/arete-22-limited-drhp_105016.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "105016"
@@ -148,19 +148,19 @@
           "id": "105018"
         },
         {
-          "title": "DEON ENERGY LIMITED",
+          "title": "Deon Energy Limited - DRHP",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/deon-energy-limited_105012.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/deon-energy-limited-drhp_105012.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "105012"
         },
         {
-          "title": "RATHOD JEWELLERY MANUFACTURING LIMITED",
+          "title": "Rathod Jewellery Manufacturing Limited - DRHP",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/rathod-jewellery-manufacturing-limited_105014.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/rathod-jewellery-manufacturing-limited-drhp_105014.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "105014"
@@ -175,10 +175,10 @@
           "id": "105010"
         },
         {
-          "title": "RUDRA GREEN SHIP RECYCLING LIMITED",
+          "title": "Rudra Green Ship Recycling Limited - DRHP",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/rudra-green-ship-recycling-limited_105008.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/rudra-green-ship-recycling-limited-drhp_105008.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "105008"
@@ -256,10 +256,10 @@
           "id": "104988"
         },
         {
-          "title": "Kian-M Export Limited",
+          "title": "Kian-M Export Limited - DRHP",
           "date": "01 Oct 2026",
           "date_iso": "2026-10-01",
-          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/kian-m-export-limited_104874.html",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/kian-m-export-limited-drhp_104874.html",
           "pdf_url": "",
           "has_pdf": false,
           "id": "104874"
@@ -1068,10 +1068,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 6,
+      "docs_with_pdf": 6,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "H-REAT-813-2026 — Sarv Realtors Private Limited vs AJAY JALALI",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzE2MTg5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-813-2026_0"
+        },
+        {
+          "title": "H-REAT-406-2023 — Pushpa Lata Sharma And Anil Sharma vs SEPSET PROPERTIES PRIVATE LIMITED",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzE2MjA2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-406-2023_1"
+        },
         {
           "title": "H-REAT-823-2025 — EMAAR INDIA LIMITED vs MOHAN K HATHIRAMANI",
           "date": "06 Oct 2026",
@@ -1079,7 +1097,25 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzE2MDcw",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-823-2025_0"
+          "id": "hr_reat_H-REAT-823-2025_2"
+        },
+        {
+          "title": "H-REAT-1594-2025 — Suraj Bhan vs MS NIMAI DEVELOPERS PRIVATE LIMITED",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzE2MTg3",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1594-2025_3"
+        },
+        {
+          "title": "H-REAT-194-2024 — Ocus Skyscrapers Realty Private Limited vs POONAM SINGH YADAV",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzE2MTkx",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-194-2024_4"
         },
         {
           "title": "H-REAT-572-2026 — Ruchi Suri vs GODREJ PROPERTIES LIMITED",
@@ -1088,7 +1124,7 @@
           "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzE1NDUy",
           "has_pdf": true,
-          "id": "hr_reat_H-REAT-572-2026_1"
+          "id": "hr_reat_H-REAT-572-2026_5"
         }
       ]
     },
@@ -1193,8 +1229,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 5,
-      "docs_with_pdf": 5,
+      "doc_count": 9,
+      "docs_with_pdf": 9,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -1216,9 +1252,18 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of GAYATRI HOSPITALITY AND REALCON LIMITED [CP(IB)69(ND)2026 ]",
-          "date": "05 Oct 2026",
-          "date_iso": "2026-10-05",
+          "title": "In the matter of Richbond Capital Private Limited [IA (I.B.C) 1728 /MB/2026 in C.P. (IB)/69/MB/2026]",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of Birla Jewels Limited [C.P. (IB)/3626/MB/2019]",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "has_pdf": true,
@@ -1234,7 +1279,34 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
+          "title": "In the matter of GAYATRI HOSPITALITY AND REALCON LIMITED [CP(IB)69(ND)2026 ]",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of Ahuja Synfab Private Limited [CP (IB) No. 747/MB/2024]",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
           "title": "In the matter of JAYANT SPECIALITIES PRIVATE LIMITED [ CP (IB) No. 294/MB/2026]",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of Jayant Specialties Private Limited [CP (IB) No. 294/MB/2026]",
           "date": "01 Oct 2026",
           "date_iso": "2026-10-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
