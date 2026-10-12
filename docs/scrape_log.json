@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-10-11 21:45:26 UTC",
-  "finished_at": "2026-10-11 21:55:10 UTC",
-  "duration_seconds": 584.1,
+  "started_at": "2026-10-12 05:40:17 UTC",
+  "finished_at": "2026-10-12 05:49:57 UTC",
+  "duration_seconds": 580.2,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
@@ -9,11 +9,11 @@
   "total_sources": 93,
   "sources_scraped": 93,
   "sources_ok": 24,
-  "sources_error": 12,
-  "sources_empty": 57,
-  "total_documents": 186,
+  "sources_error": 10,
+  "sources_empty": 59,
+  "total_documents": 188,
   "docs_with_pdf": 132,
-  "docs_without_pdf": 54,
+  "docs_without_pdf": 56,
   "source_details": [
     {
       "key": "RHP",
@@ -22,10 +22,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 2,
       "documents": [
+        {
+          "title": "Tonbo Imaging India Limited- RHP",
+          "date": "12 Oct 2026",
+          "date_iso": "2026-10-12",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tonbo-imaging-india-limited-rhp_105141.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105141"
+        },
         {
           "title": "HD Fire Protect Limited - RHP",
           "date": "05 Oct 2026",
@@ -44,10 +53,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 32,
+      "doc_count": 33,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 32,
+      "docs_without_pdf": 33,
       "documents": [
+        {
+          "title": "Matangi Rubber Limited - Addendum to the DRHP",
+          "date": "10 Oct 2026",
+          "date_iso": "2026-10-10",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/matangi-rubber-limited-addendum-to-the-drhp_105143.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105143"
+        },
         {
           "title": "Grace Renewable Energy Limited- DRHP",
           "date": "07 Oct 2026",
@@ -836,8 +854,8 @@
       "label": "IRDAI_CIRC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 504: Gateway Time-out",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -848,8 +866,8 @@
       "label": "IRDAI_REGS",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 504: Gateway Time-out",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
