@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-10-13 14:01:28 UTC",
-  "finished_at": "2026-10-13 14:11:28 UTC",
-  "duration_seconds": 599.8,
+  "started_at": "2026-10-13 22:33:42 UTC",
+  "finished_at": "2026-10-13 22:43:04 UTC",
+  "duration_seconds": 562.1,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 25,
-  "sources_error": 10,
-  "sources_empty": 58,
-  "total_documents": 221,
+  "sources_ok": 23,
+  "sources_error": 25,
+  "sources_empty": 45,
+  "total_documents": 224,
   "docs_with_pdf": 154,
-  "docs_without_pdf": 67,
+  "docs_without_pdf": 70,
   "source_details": [
     {
       "key": "RHP",
@@ -517,12 +517,22 @@
       "label": "SEBI_CONSULT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "Consultation Paper on Recommendations of the Working Group for review of SEBI LODR Regulations, 2015 - Review of Framework for Monitoring and Disclosure of Utilization of Issue Proceeds",
+          "date": "13 Oct 2026",
+          "date_iso": "2026-10-13",
+          "page_url": "https://www.sebi.gov.in/reports-and-statistics/reports/oct-2026/consultation-paper-on-recommendations-of-the-working-group-for-review-of-sebi-lodr-regulations-2015-review-of-framework-for-monitoring-and-disclosure-of-utilization-of-issue-proceeds_105242.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105242"
+        }
+      ]
     },
     {
       "key": "BSE_PLACEMENT",
@@ -553,8 +563,8 @@
       "label": "CCI_FORM1",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -565,8 +575,8 @@
       "label": "CCI_FORM2",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -577,8 +587,8 @@
       "label": "CCI_FORM3",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -589,8 +599,8 @@
       "label": "CCI_GUN_JUMPING",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -601,8 +611,8 @@
       "label": "CCI_APPROVED_MOD",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -613,8 +623,8 @@
       "label": "CCI_ANTI_S26_1",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -625,8 +635,8 @@
       "label": "CCI_ANTI_S26_2",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -637,8 +647,8 @@
       "label": "CCI_ANTI_S26_6",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -649,8 +659,8 @@
       "label": "CCI_ANTI_S26_7",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -661,8 +671,8 @@
       "label": "CCI_ANTI_S27",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -673,8 +683,8 @@
       "label": "CCI_ANTI_S33",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -685,8 +695,8 @@
       "label": "CCI_ANTI_OTHER",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -697,22 +707,12 @@
       "label": "CCI_GREEN",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "status": "error",
+      "error": "<urlopen error timed out>",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "[C-2026/10/1480] Amicus Capital Partners India Fund II,HDFC Asset Management Company Limited, HDFC AMC Select AIF FoF – I ,Matterhorn India Opportunity Fund — Deemed Approved (Section 6(5))",
-          "date": "06 Oct 2026",
-          "date_iso": "2026-10-06",
-          "page_url": "https://www.cci.gov.in/combination/green-channel",
-          "pdf_url": "https://www.cci.gov.in/images/summaryorders/en/summary1791287425.pdf",
-          "has_pdf": true,
-          "id": "cci_green_C-2026_10_1480"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "RBI_MD",
@@ -914,89 +914,24 @@
       "label": "INX_CIRC",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 4,
-      "docs_with_pdf": 4,
+      "status": "error",
+      "error": "<urlopen error timed out>",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "[20261005-2] Issue of U.S.$10,000,000 8.85 per cent Senior Notes due 2027 by Midland Microfin Limited",
-          "date": "05 Oct 2026",
-          "date_iso": "2026-10-05",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20261005-2/20261005-2.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20261005-2"
-        },
-        {
-          "title": "[20261001-6] Part Redemption of U.S.$750,000,000 6.625 per cent Senior Secured Notes due 2027 and U.S.$500,000,000 6.150 per cent Notes due 2028 under the U.S.$3,500,000,000 Global Medium Term Note Programme by Shriram Finance Limited",
-          "date": "01 Oct 2026",
-          "date_iso": "2026-10-01",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20261001-6/20261001-6.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20261001-6"
-        },
-        {
-          "title": "[20261001-5] Redemption of INR 7,390,000,000 Additional Tier 1 Notes by HDFC Bank Limited, acting through its registered office in India",
-          "date": "01 Oct 2026",
-          "date_iso": "2026-10-01",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20261001-5/20261001-5.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20261001-5"
-        },
-        {
-          "title": "[20261001-4] Issue of U.S.$600,000,000 5.625 per cent Senior Notes due 2029 and U.S.$350,000,000 5.800 per cent Senior Notes due 2031 by IDFC First Bank Limited, acting through its IFSC Banking Unit",
-          "date": "01 Oct 2026",
-          "date_iso": "2026-10-01",
-          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
-          "pdf_url": "https://www.indiainx.com/circulars/20261001-4/20261001-4.pdf",
-          "has_pdf": true,
-          "id": "inx_circ_20261001-4"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "INX_ISSUER",
       "label": "INX_ISSUER",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "status": "error",
+      "error": "<urlopen error timed out>",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "Midland Microfin Limited — U.S.$10,000,000 8.85 per cent Senior Notes due 2027",
-          "date": "05 Oct 2026",
-          "date_iso": "2026-10-05",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/INIFD1305058_05102026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__10_000_000_8_85_per_cent__2026-10-05"
-        },
-        {
-          "title": "IDFC First Bank Limited — U.S.$350,000,000 5.800 per cent Senior Notes due 2031",
-          "date": "01 Oct 2026",
-          "date_iso": "2026-10-01",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3486717401011026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__350_000_000_5_800_per_cen_2026-10-01"
-        },
-        {
-          "title": "IDFC First Bank Limited — U.S.$600,000,000 5.625 per cent Senior Notes due 2029",
-          "date": "01 Oct 2026",
-          "date_iso": "2026-10-01",
-          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
-          "pdf_url": "https://www.indiainx.com/IssuerDetails/XS3480648354011026.pdf",
-          "has_pdf": true,
-          "id": "inx_iss_u_s__600_000_000_5_625_per_cen_2026-10-01"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "TG_RERA_ADJ",
@@ -1947,7 +1882,7 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "In the matter of Unity Small Finance Bank Limited vs. Sarang Rakesh Wadhawan, [C.P. No. (IB) 111/MB/C-III/2022]",
+          "title": "In the matter of OUR FOOD PRIVATE LIMITED [CP(IB)/12/7/AMR]",
           "date": "09 Oct 2026",
           "date_iso": "2026-10-09",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1956,7 +1891,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of OUR FOOD PRIVATE LIMITED [CP(IB)/12/7/AMR]",
+          "title": "In the matter of Unity Small Finance Bank Limited vs. Sarang Rakesh Wadhawan, [C.P. No. (IB) 111/MB/C-III/2022]",
           "date": "09 Oct 2026",
           "date_iso": "2026-10-09",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2001,34 +1936,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of STALWART AGRONOMICS PRIVATE LIMITED [89 Che 2026]",
-          "date": "07 Oct 2026",
-          "date_iso": "2026-10-07",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of Polycab India Limited [CP (IB) No.273/9/AHM/2026]",
-          "date": "07 Oct 2026",
-          "date_iso": "2026-10-07",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
           "title": "In the matter of SHARANAM INFRAPROJECT AND TRADING LIMITED [C.P. (IB)/88/AHM/2026]",
-          "date": "07 Oct 2026",
-          "date_iso": "2026-10-07",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of WIZARD E-MARKETING PRIVATE LIMITED [CP(IB) 81/KB/2025]",
           "date": "07 Oct 2026",
           "date_iso": "2026-10-07",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2046,7 +1954,34 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of TIRUMALA VENKATESHWARA PAPER AND BOARD PRIVATE LIMITED [RCP No.06/09/HDB/2026 in CP (IB) No.160/9/HDB/2020]",
+          "title": "In the matter of Polycab India Limited [CP (IB) No.273/9/AHM/2026]",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of WIZARD E-MARKETING PRIVATE LIMITED [CP(IB) 81/KB/2025]",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of STALWART AGRONOMICS PRIVATE LIMITED [89 Che 2026]",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of ADHIKAR MICROFINANCE PRIVATE LIMITED [C.P. (IB)/48/CB/2025]",
           "date": "06 Oct 2026",
           "date_iso": "2026-10-06",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2064,7 +1999,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of Birla Jewels Limited [C.P. (IB)/3626/MB/2019]",
+          "title": "In the matter of Tirmala Venkateshwara Paper and Board Pvt. Ltd. [RCP No.06/2026 in CP (IB) No.160/9/HDB/2020]",
           "date": "06 Oct 2026",
           "date_iso": "2026-10-06",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2073,7 +2008,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of Tirmala Venkateshwara Paper and Board Pvt. Ltd. [RCP No.06/2026 in CP (IB) No.160/9/HDB/2020]",
+          "title": "In the matter of TIRUMALA VENKATESHWARA PAPER AND BOARD PRIVATE LIMITED [RCP No.06/09/HDB/2026 in CP (IB) No.160/9/HDB/2020]",
           "date": "06 Oct 2026",
           "date_iso": "2026-10-06",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2091,7 +2026,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of ADHIKAR MICROFINANCE PRIVATE LIMITED [C.P. (IB)/48/CB/2025]",
+          "title": "In the matter of SHUBH FOOD INDUSTRIES LIMITED [IA (I.B.C)/1728(MB) 2026]",
           "date": "06 Oct 2026",
           "date_iso": "2026-10-06",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2100,7 +2035,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of SHUBH FOOD INDUSTRIES LIMITED [IA (I.B.C)/1728(MB) 2026]",
+          "title": "In the matter of Birla Jewels Limited [C.P. (IB)/3626/MB/2019]",
           "date": "06 Oct 2026",
           "date_iso": "2026-10-06",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2127,7 +2062,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of GAYATRI HOSPITALITY AND REALCON LIMITED [CP(IB)69(ND)2026 ]",
+          "title": "In the matter of Ahuja Synfab Private Limited [CP (IB) No. 747/MB/2024]",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2145,7 +2080,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of Ahuja Synfab Private Limited [CP (IB) No. 747/MB/2024]",
+          "title": "In the matter of AHUJA SYNFAB PRIVATE LIMITED [C.P. (IB)/747/MB/2024]",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2180,10 +2115,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 19,
+      "doc_count": 21,
       "docs_with_pdf": 6,
-      "docs_without_pdf": 13,
+      "docs_without_pdf": 15,
       "documents": [
+        {
+          "title": "[M.12401] SUN TRINITY / MHCCE / BRUC JAPAN / BRUC JAPAN 2",
+          "date": "13 Oct 2026",
+          "date_iso": "2026-10-13",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12401",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12401"
+        },
         {
           "title": "[M.11895] XXXLUTZ / PORTA",
           "date": "12 Oct 2026",
@@ -2210,6 +2154,15 @@
           "pdf_url": "",
           "has_pdf": false,
           "id": "eu_m_M_11903"
+        },
+        {
+          "title": "[M.12551] LONE STAR FUNDS / CONTITECH",
+          "date": "12 Oct 2026",
+          "date_iso": "2026-10-12",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12551",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12551"
         },
         {
           "title": "[M.12596] PLATINUM EQUITY GROUP / NESTLÉ / NESTLÉ WATERS JV",
@@ -2808,8 +2761,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -2820,6 +2773,15 @@
           "pdf_url": "https://assets.publishing.service.gov.uk/media/6ace0632f1ba855cc196ab7f/Strauss_Phillips_and_Co_v_HMRC_oral_pta.pdf",
           "has_pdf": true,
           "id": "govuk_ltd-v-the-commissioners-for-his-majestys-revenue-and-customs"
+        },
+        {
+          "title": "[2026] UKUT 00382 (TCC) VNS WASTE SOLUTIONS LIMITED v THE COMMISSIONERS FOR HIS MAJESTY’S REVENUE AND CUSTOMS",
+          "date": "13 Oct 2026",
+          "date_iso": "2026-10-13",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/2026-ukut-00382-tcc-vns-waste-solutions-limited-v-the-commissioners-for-his-majestys-revenue-and-customs",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6ace3d4a71dbe79328fd4401/VNS_Decision_142805442.1_.pdf",
+          "has_pdf": true,
+          "id": "govuk_ted-v-the-commissioners-for-his-majestys-revenue-and-customs"
         },
         {
           "title": "[2026] UKUT 00383 (TCC) Tyler Security Limited v The Commissioners for His Majesty’s Revenue and Customs",
@@ -2848,10 +2810,73 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 5,
-      "docs_with_pdf": 5,
+      "doc_count": 12,
+      "docs_with_pdf": 12,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Avios Group (AGL) Limited v The Commissioners for HMRC",
+          "date": "12 Oct 2026",
+          "date_iso": "2026-10-12",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1405",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-3904a96f-c7b5-461d-92ca-4c105d3af603/d-3904a96f-c7b5-461d-92ca-4c105d3af603.pdf",
+          "has_pdf": true,
+          "id": "na_1405"
+        },
+        {
+          "title": "Future Fuels No.1 v The Commissioners for HMRC",
+          "date": "09 Oct 2026",
+          "date_iso": "2026-10-09",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1407",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-841b3f70-f6c1-49f0-a708-9b4343a98339/d-841b3f70-f6c1-49f0-a708-9b4343a98339.pdf",
+          "has_pdf": true,
+          "id": "na_1407"
+        },
+        {
+          "title": "Easytruck Limited v The Commissioners for HMRC",
+          "date": "09 Oct 2026",
+          "date_iso": "2026-10-09",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1412",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-b8204dd0-fc1c-4ce8-8175-818cace1ab63/d-b8204dd0-fc1c-4ce8-8175-818cace1ab63.pdf",
+          "has_pdf": true,
+          "id": "na_1412"
+        },
+        {
+          "title": "M and N Beauty Limited v The Commissioners for HMRC",
+          "date": "09 Oct 2026",
+          "date_iso": "2026-10-09",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1411",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-0eeb2622-bb3a-4d4b-833a-10f7ce7814d9/d-0eeb2622-bb3a-4d4b-833a-10f7ce7814d9.pdf",
+          "has_pdf": true,
+          "id": "na_1411"
+        },
+        {
+          "title": "Smaira Ghani v The Commissioners for HMRC",
+          "date": "08 Oct 2026",
+          "date_iso": "2026-10-08",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1410",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-96ee7623-c97a-4d88-973b-9c8753e71849/d-96ee7623-c97a-4d88-973b-9c8753e71849.pdf",
+          "has_pdf": true,
+          "id": "na_1410"
+        },
+        {
+          "title": "Dwyer O’Neill v The Commissioners for HMRC",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1408",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-f116e49d-8cd1-4330-9a95-9e93e19370f9/d-f116e49d-8cd1-4330-9a95-9e93e19370f9.pdf",
+          "has_pdf": true,
+          "id": "na_1408"
+        },
+        {
+          "title": "Bowland Inns and Hotels Limited v The Commissioners for HMRC",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1409",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-3deaa0ca-c5c5-49ed-afa1-826404151ef8/d-3deaa0ca-c5c5-49ed-afa1-826404151ef8.pdf",
+          "has_pdf": true,
+          "id": "na_1409"
+        },
         {
           "title": "Olufemi Salami v The Commissioners for HMRC",
           "date": "02 Oct 2026",
