@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-10-15 16:48:04 UTC",
-  "finished_at": "2026-10-15 16:57:54 UTC",
-  "duration_seconds": 589.4,
+  "started_at": "2026-10-15 21:13:56 UTC",
+  "finished_at": "2026-10-15 21:23:48 UTC",
+  "duration_seconds": 592.6,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 29,
-  "sources_error": 10,
-  "sources_empty": 54,
-  "total_documents": 277,
-  "docs_with_pdf": 198,
+  "sources_ok": 24,
+  "sources_error": 26,
+  "sources_empty": 43,
+  "total_documents": 267,
+  "docs_with_pdf": 188,
   "docs_without_pdf": 79,
   "source_details": [
     {
@@ -774,83 +774,44 @@
       "label": "RBI_MD",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "[Commercial Banks] Reserve Bank of India (Commercial Banks – Credit Valuation Adjustment Framework) Directions, 2026",
-          "date": "07 Oct 2026",
-          "date_iso": "2026-10-07",
-          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13729",
-          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/474MD4DC544D5A93B4A8CA3ECBF1AD165EA13.PDF",
-          "has_pdf": true,
-          "id": "rbi_md_13729"
-        },
-        {
-          "title": "[Issuer of Currency] Master Direction on Note Sorting Machines",
-          "date": "02 Oct 2026",
-          "date_iso": "2026-10-02",
-          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13723",
-          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/473MDD1229693F0604B6D996B1DF75C81E466.PDF",
-          "has_pdf": true,
-          "id": "rbi_md_13723"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "RBI_MC",
       "label": "RBI_MC",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "[Financial Inclusion and Development] Master Circular - Credit Facilities to Scheduled Castes (SCs) & Scheduled Tribes (STs)",
-          "date": "01 Oct 2026",
-          "date_iso": "2026-10-01",
-          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx?id=13716",
-          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/272MC011020266691348260DF4CF99ACE017F146409F1.PDF",
-          "has_pdf": true,
-          "id": "rbi_mc_13716"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "RBI_MD_COMM",
       "label": "RBI_MD_COMM",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "Reserve Bank of India (Commercial Banks – Credit Valuation Adjustment Framework) Directions, 2026",
-          "date": "07 Oct 2026",
-          "date_iso": "2026-10-07",
-          "page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13729",
-          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/474MD4DC544D5A93B4A8CA3ECBF1AD165EA13.PDF",
-          "has_pdf": true,
-          "id": "rbi_md_403_13729"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "RBI_MD_SFB",
       "label": "RBI_MD_SFB",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -861,8 +822,8 @@
       "label": "RBI_MD_PAY",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -873,8 +834,8 @@
       "label": "RBI_MD_LAB",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -885,8 +846,8 @@
       "label": "RBI_MD_RRB",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -897,8 +858,8 @@
       "label": "RBI_MD_UCB",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -909,8 +870,8 @@
       "label": "RBI_MD_RCB",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -921,8 +882,8 @@
       "label": "RBI_MD_AIFI",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -933,8 +894,8 @@
       "label": "RBI_MD_NBFC",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -945,30 +906,20 @@
       "label": "IRDAI_CIRC",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "status": "error",
+      "error": "HTTP Error 504: Gateway Time-out",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "Observance of National Cyber Security Awareness Month (NCSAM) – October 2026.pdf",
-          "date": "15 Oct 2026",
-          "date_iso": "2026-10-15",
-          "page_url": "https://irdai.gov.in/circulars",
-          "pdf_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B0%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AF+%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%E0%A4%9C%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A5%82%E0%A4%95%E0%A4%A4%E0%A4%BE+%E0%A4%AE%E0%A4%BE%E0%A4%B9+%28%E0%A4%8F%E0%A4%A8%E0%A4%B8%E0%A5%80%E0%A4%8F%E0%A4%B8%E0%A4%8F%E0%A4%8F%E0%A4%AE%29+%E0%A4%95%E0%A4%BE+%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%A8+-+%E0%A4%85%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A5%82%E0%A4%AC%E0%A4%B0+2026+Observance+of+National+Cyber+Security+Awareness+Month+%28NCSAM%29+%E2%80%93+October+2026.pdf/f81df8af-eb6e-93b9-7607-7414e17900cc?version=1.2&t=1792046597891&download=true",
-          "has_pdf": true,
-          "id": "irdai_observance_of_national_cyber_security_aw_15-10-2026"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "IRDAI_REGS",
       "label": "IRDAI_REGS",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 504: Gateway Time-out",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -2121,15 +2072,6 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of VATIKA IT PARKS PRIVATE LIMITED [IA NO. 4051/2025 IN CP IB NO. 203/(ND)/2025]",
-          "date": "09 Oct 2026",
-          "date_iso": "2026-10-09",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
           "title": "In the matter of Unity Small Finance Bank Limited vs. Sarang Rakesh Wadhawan, [C.P. No. (IB) 111/MB/C-III/2022]",
           "date": "09 Oct 2026",
           "date_iso": "2026-10-09",
@@ -2139,7 +2081,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of OUR FOOD PRIVATE LIMITED [CP(IB)/12/7/AMR]",
+          "title": "In the matter of VATIKA IT PARKS PRIVATE LIMITED [IA NO. 4051/2025 IN CP IB NO. 203/(ND)/2025]",
           "date": "09 Oct 2026",
           "date_iso": "2026-10-09",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2149,6 +2091,15 @@
         },
         {
           "title": "In the matter of EVANIE INFRASTRUCTURE PRIVATE LIMITED [CP(IB) No. 285/KB/2021 ]",
+          "date": "09 Oct 2026",
+          "date_iso": "2026-10-09",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of OUR FOOD PRIVATE LIMITED [CP(IB)/12/7/AMR]",
           "date": "09 Oct 2026",
           "date_iso": "2026-10-09",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2184,16 +2135,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of SHARANAM INFRAPROJECT AND TRADING LIMITED [C.P. (IB)/88/AHM/2026]",
-          "date": "07 Oct 2026",
-          "date_iso": "2026-10-07",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of SVOGL OIL GAS AND ENERGY LIMITED [CP(IB)No.253/(PB)/2025 ]",
+          "title": "In the matter of Stalwart Agronomics Private Limited [CP(IBC)/89(CHE)/2026]",
           "date": "07 Oct 2026",
           "date_iso": "2026-10-07",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2211,6 +2153,15 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
+          "title": "In the matter of SHARANAM INFRAPROJECT AND TRADING LIMITED [C.P. (IB)/88/AHM/2026]",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
           "title": "In the matter of WIZARD E-MARKETING PRIVATE LIMITED [CP(IB) 81/KB/2025]",
           "date": "07 Oct 2026",
           "date_iso": "2026-10-07",
@@ -2220,9 +2171,54 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of Stalwart Agronomics Private Limited [CP(IBC)/89(CHE)/2026]",
+          "title": "In the matter of SVOGL OIL GAS AND ENERGY LIMITED [CP(IB)No.253/(PB)/2025 ]",
           "date": "07 Oct 2026",
           "date_iso": "2026-10-07",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of TIRUMALA VENKATESHWARA PAPER AND BOARD PRIVATE LIMITED [RCP No.06/09/HDB/2026 in CP (IB) No.160/9/HDB/2020]",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of BIRLA JEWELS LIMITED [(IB)/3626/MB/ 2019]",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of Birla Jewels Limited [C.P. (IB)/3626/MB/2019]",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of Tirmala Venkateshwara Paper and Board Pvt. Ltd. [RCP No.06/2026 in CP (IB) No.160/9/HDB/2020]",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of Richbond Capital Private Limited [IA (I.B.C) 1728 /MB/2026 in C.P. (IB)/69/MB/2026]",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "has_pdf": true,
@@ -2241,58 +2237,13 @@
           "title": "In the matter of BIRLA JEWELS LIMITED [(IB)/3626/MB/ 2019]",
           "date": "06 Oct 2026",
           "date_iso": "2026-10-06",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of Tirmala Venkateshwara Paper and Board Pvt. Ltd. [RCP No.06/2026 in CP (IB) No.160/9/HDB/2020]",
-          "date": "06 Oct 2026",
-          "date_iso": "2026-10-06",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of TIRUMALA VENKATESHWARA PAPER AND BOARD PRIVATE LIMITED [RCP No.06/09/HDB/2026 in CP (IB) No.160/9/HDB/2020]",
-          "date": "06 Oct 2026",
-          "date_iso": "2026-10-06",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of Richbond Capital Private Limited [IA (I.B.C) 1728 /MB/2026 in C.P. (IB)/69/MB/2026]",
-          "date": "06 Oct 2026",
-          "date_iso": "2026-10-06",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of SHUBH FOOD INDUSTRIES LIMITED [IA (I.B.C)/1728(MB) 2026]",
-          "date": "06 Oct 2026",
-          "date_iso": "2026-10-06",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of SHUBH FOOD INDUSTRIES LIMITED [IA (I.B.C)/1728(MB) 2026]",
-          "date": "06 Oct 2026",
-          "date_iso": "2026-10-06",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
           "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
           "has_pdf": true,
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of GAYATRI HOSPITALITY AND REALCON LIMITED [CP(IB)69(ND)2026 ]",
+          "title": "In the matter of AHUJA SYNFAB PRIVATE LIMITED [C.P. (IB)/747/MB/2024]",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2302,6 +2253,15 @@
         },
         {
           "title": "In the matter of CLOVER FORGING & MACHINING PRIVATE LIMITED [IB-1120/ND/2018 and IA-1898/ND/2022 ]",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of GAYATRI HOSPITALITY AND REALCON LIMITED [CP(IB)69(ND)2026 ]",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2328,16 +2288,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of AHUJA SYNFAB PRIVATE LIMITED [C.P. (IB)/747/MB/2024]",
-          "date": "05 Oct 2026",
-          "date_iso": "2026-10-05",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of Jayant Specialties Private Limited [CP (IB) No. 294/MB/2026]",
+          "title": "In the matter of JAYANT SPECIALITIES PRIVATE LIMITED [ CP (IB) No. 294/MB/2026]",
           "date": "01 Oct 2026",
           "date_iso": "2026-10-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2346,7 +2297,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of JAYANT SPECIALITIES PRIVATE LIMITED [ CP (IB) No. 294/MB/2026]",
+          "title": "In the matter of Jayant Specialties Private Limited [CP (IB) No. 294/MB/2026]",
           "date": "01 Oct 2026",
           "date_iso": "2026-10-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2676,15 +2627,6 @@
           "id": "eu_instru_FS_100397"
         },
         {
-          "title": "[FS.100391] GROUPE CREDIT AGRICOLE / GROUPE PRIMEO ENERGIE / GROUPE PRIMEO ENERGIE FRANCE",
-          "date": "08 Oct 2026",
-          "date_iso": "2026-10-08",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100391",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_instru_FS_100391"
-        },
-        {
           "title": "[FS.100393] VOLARE / BP AUSTRIA",
           "date": "08 Oct 2026",
           "date_iso": "2026-10-08",
@@ -2692,6 +2634,15 @@
           "pdf_url": "",
           "has_pdf": false,
           "id": "eu_instru_FS_100393"
+        },
+        {
+          "title": "[FS.100391] GROUPE CREDIT AGRICOLE / GROUPE PRIMEO ENERGIE / GROUPE PRIMEO ENERGIE FRANCE",
+          "date": "08 Oct 2026",
+          "date_iso": "2026-10-08",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100391",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100391"
         },
         {
           "title": "[FS.100361] ICG / HORIZON CAPITALIZE / CIRCET",
@@ -3576,8 +3527,8 @@
       "label": "RBI_FEMA_DIR",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -3588,8 +3539,8 @@
       "label": "RBI_FEMA_CIRC",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -3600,58 +3551,12 @@
       "label": "RBI_FEMA_NOTIF",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 5,
-      "docs_with_pdf": 5,
+      "status": "error",
+      "error": "HTTP Error 418: Unknown Code",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "Risk Management and Inter-Bank Dealings",
-          "date": "12 Oct 2026",
-          "date_iso": "2026-10-12",
-          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13739&fn=5&Mode=0",
-          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTI293D62A07A6EF394B75BAB6BEBA6F159565.PDF",
-          "has_pdf": true,
-          "id": "rbi_fema_13739"
-        },
-        {
-          "title": "Risk Management and Inter-Bank Dealings - Foreign Exchange Risk Reserve",
-          "date": "10 Oct 2026",
-          "date_iso": "2026-10-10",
-          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13738&fn=5&Mode=0",
-          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/292NT63009643AFA847A48C9A73F31E26175F.PDF",
-          "has_pdf": true,
-          "id": "rbi_fema_13738"
-        },
-        {
-          "title": "Risk Management and Inter-Bank Dealings",
-          "date": "10 Oct 2026",
-          "date_iso": "2026-10-10",
-          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13737&fn=5&Mode=0",
-          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/291NT8DE5483CA3F84609A0CA56720CD64103.PDF",
-          "has_pdf": true,
-          "id": "rbi_fema_13737"
-        },
-        {
-          "title": "Non-Resident Deposits - Comprehensive Single Return (NRD-CSR)(R012): Submission under CIMS Sankalan Portal",
-          "date": "01 Oct 2026",
-          "date_iso": "2026-10-01",
-          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13725&fn=5&Mode=0",
-          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT2800AE75657FD144B8ABC111ECF504BCC06.PDF",
-          "has_pdf": true,
-          "id": "rbi_fema_13725"
-        },
-        {
-          "title": "Online submission of Form A2: Removal of limits on amount of remittance",
-          "date": "01 Oct 2026",
-          "date_iso": "2026-10-01",
-          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13724&fn=5&Mode=0",
-          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT2796737482352AE4E488C0ECB304A05CDE1.PDF",
-          "has_pdf": true,
-          "id": "rbi_fema_13724"
-        }
-      ]
+      "documents": []
     }
   ],
   "partial_scrape": false
