@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-10-16 11:11:14 UTC",
-  "finished_at": "2026-10-16 11:20:58 UTC",
-  "duration_seconds": 583.8,
+  "started_at": "2026-10-16 16:29:50 UTC",
+  "finished_at": "2026-10-16 16:39:52 UTC",
+  "duration_seconds": 602.2,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 29,
-  "sources_error": 12,
-  "sources_empty": 52,
-  "total_documents": 295,
-  "docs_with_pdf": 216,
-  "docs_without_pdf": 79,
+  "sources_ok": 32,
+  "sources_error": 10,
+  "sources_empty": 51,
+  "total_documents": 310,
+  "docs_with_pdf": 230,
+  "docs_without_pdf": 80,
   "source_details": [
     {
       "key": "RHP",
@@ -945,20 +945,30 @@
       "label": "IRDAI_CIRC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 504: Gateway Time-out",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Observance of National Cyber Security Awareness Month (NCSAM) – October 2026.pdf",
+          "date": "15 Oct 2026",
+          "date_iso": "2026-10-15",
+          "page_url": "https://irdai.gov.in/circulars",
+          "pdf_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B0%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AF+%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%E0%A4%9C%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A5%82%E0%A4%95%E0%A4%A4%E0%A4%BE+%E0%A4%AE%E0%A4%BE%E0%A4%B9+%28%E0%A4%8F%E0%A4%A8%E0%A4%B8%E0%A5%80%E0%A4%8F%E0%A4%B8%E0%A4%8F%E0%A4%8F%E0%A4%AE%29+%E0%A4%95%E0%A4%BE+%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%A8+-+%E0%A4%85%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A5%82%E0%A4%AC%E0%A4%B0+2026+Observance+of+National+Cyber+Security+Awareness+Month+%28NCSAM%29+%E2%80%93+October+2026.pdf/f81df8af-eb6e-93b9-7607-7414e17900cc?version=1.2&t=1792046597891&download=true",
+          "has_pdf": true,
+          "id": "irdai_observance_of_national_cyber_security_aw_15-10-2026"
+        }
+      ]
     },
     {
       "key": "IRDAI_REGS",
       "label": "IRDAI_REGS",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "The read operation timed out",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -2214,8 +2224,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 31,
-      "docs_with_pdf": 31,
+      "doc_count": 32,
+      "docs_with_pdf": 32,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -2237,7 +2247,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of SHREE MAHALAXMI CORPORATION PRIVATE LIMITED [CP-130(KB)/2026]",
+          "title": "In the matter of R S KAMTHE INFRASTRUCTURE DEVELOPERS PRIVATE LIMITED [CP(IB)/1058(MB)2022 ]",
           "date": "14 Oct 2026",
           "date_iso": "2026-10-14",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2247,6 +2257,15 @@
         },
         {
           "title": "In the matter of SHREE VAISHANAVI ISPAT LIMITED [C.P. (I.B.) 74/KB/2026]",
+          "date": "14 Oct 2026",
+          "date_iso": "2026-10-14",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of SHREE MAHALAXMI CORPORATION PRIVATE LIMITED [CP-130(KB)/2026]",
           "date": "14 Oct 2026",
           "date_iso": "2026-10-14",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2273,7 +2292,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of OUR FOOD PRIVATE LIMITED [CP(IB)/12/7/AMR]",
+          "title": "In the matter of VATIKA IT PARKS PRIVATE LIMITED [IA NO. 4051/2025 IN CP IB NO. 203/(ND)/2025]",
           "date": "09 Oct 2026",
           "date_iso": "2026-10-09",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2291,7 +2310,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of VATIKA IT PARKS PRIVATE LIMITED [IA NO. 4051/2025 IN CP IB NO. 203/(ND)/2025]",
+          "title": "In the matter of OUR FOOD PRIVATE LIMITED [CP(IB)/12/7/AMR]",
           "date": "09 Oct 2026",
           "date_iso": "2026-10-09",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2300,7 +2319,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of ZANEKA HEALTHCARE LIMITED [CP (IB) No.4/ALD/2026]",
+          "title": "In the matter of Darsh Pharmachem Private Limited [CP(IB)/263/7/AHM/2026]",
           "date": "08 Oct 2026",
           "date_iso": "2026-10-08",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2309,7 +2328,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of Darsh Pharmachem Private Limited [CP(IB)/263/7/AHM/2026]",
+          "title": "In the matter of ZANEKA HEALTHCARE LIMITED [CP (IB) No.4/ALD/2026]",
           "date": "08 Oct 2026",
           "date_iso": "2026-10-08",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2327,7 +2346,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of Polycab India Limited [CP (IB) No.273/9/AHM/2026]",
+          "title": "In the matter of WIZARD E-MARKETING PRIVATE LIMITED [CP(IB) 81/KB/2025]",
           "date": "07 Oct 2026",
           "date_iso": "2026-10-07",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2345,24 +2364,6 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of SHARANAM INFRAPROJECT AND TRADING LIMITED [C.P. (IB)/88/AHM/2026]",
-          "date": "07 Oct 2026",
-          "date_iso": "2026-10-07",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of WIZARD E-MARKETING PRIVATE LIMITED [CP(IB) 81/KB/2025]",
-          "date": "07 Oct 2026",
-          "date_iso": "2026-10-07",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
           "title": "In the matter of Stalwart Agronomics Private Limited [CP(IBC)/89(CHE)/2026]",
           "date": "07 Oct 2026",
           "date_iso": "2026-10-07",
@@ -2372,9 +2373,18 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of Tirmala Venkateshwara Paper and Board Pvt. Ltd. [RCP No.06/2026 in CP (IB) No.160/9/HDB/2020]",
-          "date": "06 Oct 2026",
-          "date_iso": "2026-10-06",
+          "title": "In the matter of Polycab India Limited [CP (IB) No.273/9/AHM/2026]",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of SHARANAM INFRAPROJECT AND TRADING LIMITED [C.P. (IB)/88/AHM/2026]",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "has_pdf": true,
@@ -2390,7 +2400,16 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of Tirmala Venkateshwara Paper and Board Pvt. Ltd. [RCP No.06/2026 in CP (IB) No.160/9/HDB/2020]",
+          "title": "In the matter of BIRLA JEWELS LIMITED [(IB)/3626/MB/ 2019]",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of Birla Jewels Limited [C.P. (IB)/3626/MB/2019]",
           "date": "06 Oct 2026",
           "date_iso": "2026-10-06",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2417,7 +2436,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of TIRUMALA VENKATESHWARA PAPER AND BOARD PRIVATE LIMITED [RCP No.06/09/HDB/2026 in CP (IB) No.160/9/HDB/2020]",
+          "title": "In the matter of Richbond Capital Private Limited [IA (I.B.C) 1728 /MB/2026 in C.P. (IB)/69/MB/2026]",
           "date": "06 Oct 2026",
           "date_iso": "2026-10-06",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2426,7 +2445,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of Richbond Capital Private Limited [IA (I.B.C) 1728 /MB/2026 in C.P. (IB)/69/MB/2026]",
+          "title": "In the matter of TIRUMALA VENKATESHWARA PAPER AND BOARD PRIVATE LIMITED [RCP No.06/09/HDB/2026 in CP (IB) No.160/9/HDB/2020]",
           "date": "06 Oct 2026",
           "date_iso": "2026-10-06",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2462,15 +2481,6 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of AHUJA SYNFAB PRIVATE LIMITED [C.P. (IB)/747/MB/2024]",
-          "date": "05 Oct 2026",
-          "date_iso": "2026-10-05",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
           "title": "In the matter of Ahuja Synfab Private Limited [CP (IB) No. 747/MB/2024]",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
@@ -2480,7 +2490,16 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of Jayant Specialties Private Limited [CP (IB) No. 294/MB/2026]",
+          "title": "In the matter of AHUJA SYNFAB PRIVATE LIMITED [C.P. (IB)/747/MB/2024]",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of JAYANT SPECIALITIES PRIVATE LIMITED [ CP (IB) No. 294/MB/2026]",
           "date": "01 Oct 2026",
           "date_iso": "2026-10-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2489,7 +2508,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of JAYANT SPECIALITIES PRIVATE LIMITED [ CP (IB) No. 294/MB/2026]",
+          "title": "In the matter of Jayant Specialties Private Limited [CP (IB) No. 294/MB/2026]",
           "date": "01 Oct 2026",
           "date_iso": "2026-10-01",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2507,8 +2526,8 @@
       "status": "ok",
       "error": null,
       "doc_count": 26,
-      "docs_with_pdf": 11,
-      "docs_without_pdf": 15,
+      "docs_with_pdf": 12,
+      "docs_without_pdf": 14,
       "documents": [
         {
           "title": "[M.12635] ITOCHU / DENTSU / DENTSU SOKEN",
@@ -2524,8 +2543,8 @@
           "date": "15 Oct 2026",
           "date_iso": "2026-10-15",
           "page_url": "https://competition-cases.ec.europa.eu/cases/M.12435",
-          "pdf_url": "",
-          "has_pdf": false,
+          "pdf_url": "https://ec.europa.eu/competition/mergers/cases1/202642/M_12435_75.pdf",
+          "has_pdf": true,
           "id": "eu_m_M_12435"
         },
         {
@@ -2940,12 +2959,31 @@
       "label": "DIFC_CA_ORDERS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 2,
+      "documents": [
+        {
+          "title": "Zuzana Kapova v (1) Miloslav Makovini (2) Pharm Trade Holding Ltd [2026] DIFC CA 012",
+          "date": "14 Oct 2026",
+          "date_iso": "2026-10-14",
+          "page_url": "https://www.difccourts.ae/rules-decisions/judgments-orders/court-appeal/zuzana-kapova-v-1-miloslav-makovini-2-pharm-trade-holding-ltd-2026-difc-ca-012",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "difc_ca_zuzana-kapova-v-1-miloslav-makovini-2-pharm-trade-holding-ltd-2026-difc-ca-012"
+        },
+        {
+          "title": "CA 013/2026 VTB Bank PJSC v (1) Timur Orazbekovich Kuanyshev (2) Evgeny Vyacheslavovich Shlenskikh (Aka Yevgeniy Shlyonskikh) (3) Shev Energy LLC-FZ (4) Alfiya Abulkhair Askar (Aka Alfiya Kuanysheva)...",
+          "date": "13 Oct 2026",
+          "date_iso": "2026-10-13",
+          "page_url": "https://www.difccourts.ae/rules-decisions/judgments-orders/court-appeal/ca-0132026-vtb-bank-pjsc-v-1-timur-orazbekovich-kuanyshev-2-evgeny-vyacheslavovich-shlenskikh-aka-yevgeniy-shlyonskikh-3-shev-en",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "difc_ca_ca-0132026-vtb-bank-pjsc-v-1-timur-orazbekovich-kuanyshev-2-evgeny-vyacheslavovich-shlenskikh-aka-yevgeniy-shlyonskikh-3-shev-en"
+        }
+      ]
     },
     {
       "key": "MOHRE_LAWS",
@@ -2978,10 +3016,91 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 15,
-      "docs_with_pdf": 15,
+      "doc_count": 24,
+      "docs_with_pdf": 24,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "K Roberts  v  Asda Stores Ltd: 2300390/2026",
+          "date": "06 Oct 2026",
+          "date_iso": "2026-10-06",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/k-roberts-v-asda-stores-ltd-2300390-slash-2026",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6ad0aab90f7b53973e02670e/Kelly_Roberts_v_Asda_Stores_Limited_2300390-2026_Judgment_06-10-2026.pdf",
+          "has_pdf": true,
+          "id": "govuk_nal-decisions_k-roberts-v-asda-stores-ltd-2300390-slash-2026"
+        },
+        {
+          "title": "L Gestin v Richmond Sports Podiatry Ltd T/a The Functional Podiatrist: 6032386/2025",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/l-gestin-v-richmond-sports-podiatry-ltd-t-slash-a-the-functional-podiatrist-6032386-slash-2025",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6acf88bcc84c8ff1bc8b8173/LOUISE_GESTIN_v_RICHMOND_SPORTS_PODIATRY_LIMITED_T-A_THE_FUNCTIONAL_PODIATRIST_6032386-2025_Judgment_05-10-2026.pdf",
+          "has_pdf": true,
+          "id": "govuk_y-ltd-t-slash-a-the-functional-podiatrist-6032386-slash-2025"
+        },
+        {
+          "title": "Mrs S M P Buckland v Practice Plus Group Health and Rehabilitation Services Ltd: 1306966/2024",
+          "date": "09 Oct 2026",
+          "date_iso": "2026-10-09",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/mrs-s-m-p-buckland-v-practice-plus-group-health-and-rehabilitation-services-ltd-1306966-slash-2024",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6ad0afc749ba86d6c953ca15/Mrs_S_M_P_Buckland_v_Practice_Plus_Group_Health_and_Rehabilitation_Services_Limited_-_1306966_24_-_Final.pdf",
+          "has_pdf": true,
+          "id": "govuk_up-health-and-rehabilitation-services-ltd-1306966-slash-2024"
+        },
+        {
+          "title": "Mr A S Adeleke v Abbey Uplands Care Home: 6015364/2026",
+          "date": "02 Oct 2026",
+          "date_iso": "2026-10-02",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-a-s-adeleke-v-abbey-uplands-care-home-6015364-slash-2026",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6ad0b29467af5c09d047962c/Mr_Adetunji_Shefiu_Adeleke_v_Abbey_Uplands_Care_Home_6015364-2026_Judgment.pdf",
+          "has_pdf": true,
+          "id": "govuk__mr-a-s-adeleke-v-abbey-uplands-care-home-6015364-slash-2026"
+        },
+        {
+          "title": "Mr S Horton v Ecrubox Digital Ltd: 6022510/2024",
+          "date": "02 Oct 2026",
+          "date_iso": "2026-10-02",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-s-horton-v-ecrubox-digital-ltd-6022510-slash-2024",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6ad0a1e367af5c09d047960e/Sebastian_Horton_v_Ecrubox_Digital_Ltd_-_6022510.24_-_Judgment.pdf",
+          "has_pdf": true,
+          "id": "govuk_cisions_mr-s-horton-v-ecrubox-digital-ltd-6022510-slash-2024"
+        },
+        {
+          "title": "Mr P Benson  v The Trampery (Peckham) Ltd and The Trampery Foundation Ltd: 6007747/2025",
+          "date": "04 Oct 2026",
+          "date_iso": "2026-10-04",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-p-benson-v-the-trampery-peckham-ltd-and-the-trampery-foundation-ltd-6007747-slash-2025",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6acf80c8c84c8ff1bc8b8168/Mr_Preston_Benson__v_The_Trampery__Peckham__Limited__R1____Ors_6007747-2025_Corrected_Judgment_04-10-2026.pdf",
+          "has_pdf": true,
+          "id": "govuk_ckham-ltd-and-the-trampery-foundation-ltd-6007747-slash-2025"
+        },
+        {
+          "title": "Ms M Purewal v Parravox Ltd (In Voluntary Liquidation): 6005472/2024",
+          "date": "12 Oct 2026",
+          "date_iso": "2026-10-12",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/ms-m-purewal-v-parravox-ltd-in-voluntary-liquidation-6005472-slash-2024",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6ad0e3eae5db84746b479699/Manpreet_Purewal_v_Parravox_Limited__In_Voluntary_Liquidation__6005472.2024_Remedy_Judgment.pdf",
+          "has_pdf": true,
+          "id": "govuk_l-v-parravox-ltd-in-voluntary-liquidation-6005472-slash-2024"
+        },
+        {
+          "title": "Mr A Bocsor v Creative Foods Europe Ltd: 6005758/2024",
+          "date": "08 Oct 2026",
+          "date_iso": "2026-10-08",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-a-bocsor-v-creative-foods-europe-ltd-6005758-slash-2024",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6ad0e15c0f7b53973e02677e/Andras_Bocsor_v_Creative_Foods_Europe_Limited_6005758.2024_Judgment.pdf",
+          "has_pdf": true,
+          "id": "govuk_s_mr-a-bocsor-v-creative-foods-europe-ltd-6005758-slash-2024"
+        },
+        {
+          "title": "Mr W Guedes Martins v Kerry Ingredients (UK) Ltd: 6006154/2025",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-w-guedes-martins-v-kerry-ingredients-uk-ltd-6006154-slash-2025",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6ad0c6e0e5db84746b479656/Mr_W_Guedes_Martins_-v-_Kerry_Ingredients__UK__Limited_-_6006154.2025_-_Judgment.pdf",
+          "has_pdf": true,
+          "id": "govuk_guedes-martins-v-kerry-ingredients-uk-ltd-6006154-slash-2025"
+        },
         {
           "title": "Mr L Hudson v British Telecommunications plc:  1403037/2025",
           "date": "06 Oct 2026",
@@ -3124,12 +3243,22 @@
       "label": "UK_AAC",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Denbighshire County Council v Mr & Mrs AB (SEN): [2026] UKUT 376 (AAC)",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://www.gov.uk/administrative-appeals-tribunal-decisions/denbighshire-county-council-v-mr-and-mrs-ab-sen-2026-ukut-376-aac",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6ad20e5fe5db84746b479722/UA-2026-000692-HSW.pdf",
+          "has_pdf": true,
+          "id": "govuk_ghshire-county-council-v-mr-and-mrs-ab-sen-2026-ukut-376-aac"
+        }
+      ]
     },
     {
       "key": "UK_CAT",
@@ -3419,10 +3548,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 15,
-      "docs_with_pdf": 15,
+      "doc_count": 16,
+      "docs_with_pdf": 16,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Abbey Group Ltd v The Commissioners for HMRC",
+          "date": "13 Oct 2026",
+          "date_iso": "2026-10-13",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1418",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-642f6035-5a3f-4725-858b-365116be9a88/d-642f6035-5a3f-4725-858b-365116be9a88.pdf",
+          "has_pdf": true,
+          "id": "na_1418"
+        },
         {
           "title": "Avios Group (AGL) Limited v The Commissioners for HMRC",
           "date": "12 Oct 2026",
