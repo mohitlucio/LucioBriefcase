@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-10-20 11:21:10 UTC",
-  "finished_at": "2026-10-20 11:31:06 UTC",
-  "duration_seconds": 596.3,
+  "started_at": "2026-10-20 16:45:55 UTC",
+  "finished_at": "2026-10-20 16:55:53 UTC",
+  "duration_seconds": 598.6,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 34,
-  "sources_error": 15,
-  "sources_empty": 44,
-  "total_documents": 345,
-  "docs_with_pdf": 261,
-  "docs_without_pdf": 84,
+  "sources_ok": 36,
+  "sources_error": 10,
+  "sources_empty": 47,
+  "total_documents": 354,
+  "docs_with_pdf": 268,
+  "docs_without_pdf": 86,
   "source_details": [
     {
       "key": "RHP",
@@ -985,8 +985,8 @@
       "label": "IRDAI_REGS",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "The read operation timed out",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1086,8 +1086,8 @@
       "label": "TG_RERA_ADJ",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1098,20 +1098,66 @@
       "label": "TG_RERA_AUTH",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 5,
+      "docs_with_pdf": 5,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Order Complaint No. 513 of 2025",
+          "date": "14 Oct 2026",
+          "date_iso": "2026-10-14",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_151026172625155.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_0"
+        },
+        {
+          "title": "Order Complaint No. 420 of 2025",
+          "date": "14 Oct 2026",
+          "date_iso": "2026-10-14",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_151026172338761.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_1"
+        },
+        {
+          "title": "Order Complaint No. 254 of 2025",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_051026171015247.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_2"
+        },
+        {
+          "title": "Rectified interim order 308 of 2024",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_051026171349229.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_3"
+        },
+        {
+          "title": "Order Complaint No. 115 of 2026",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_011026161429397.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_4"
+        }
+      ]
     },
     {
       "key": "TG_RERA_SUO",
       "label": "TG_RERA_SUO",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1122,12 +1168,22 @@
       "label": "TG_RERA_CIRC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Circular RC. No. D6/3777/2026 — TGRERA – amendment to Section 68 of the Real Estate (Regulation and Development) Act, 2016 by the Government of India – and consequential amendment to the Telangana Real Estate (Regulation and Development) Rules, 2017 – Regarding.",
+          "date": "15 Oct 2026",
+          "date_iso": "2026-10-15",
+          "page_url": "https://rera.telangana.gov.in/amavlnjoiu7532845972-TG-RERA-74698ijgsdfjgbi349529",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_151026190005827.pdf",
+          "has_pdf": true,
+          "id": "tgrera_circ_0"
+        }
+      ]
     },
     {
       "key": "TN_RERA",
@@ -2219,7 +2275,7 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "In the matter of Yogendra Gangaram Mungale, [C.P. (IB)/841(MB)2026]",
+          "title": "In the matter of URVASHI MATERIAL TRADING COMPANY PRIVATE LIMITED [C.P. (IB) - 69/9/JPR/2025]",
           "date": "16 Oct 2026",
           "date_iso": "2026-10-16",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2228,7 +2284,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of URVASHI MATERIAL TRADING COMPANY PRIVATE LIMITED [C.P. (IB) - 69/9/JPR/2025]",
+          "title": "In the matter of MAATAPESHWARI MEDIA PUBLIVATION PRIVATE LIMITED [CP(IB) No.124/KB/2026]",
           "date": "16 Oct 2026",
           "date_iso": "2026-10-16",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2273,18 +2329,9 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of MAATAPESHWARI MEDIA PUBLIVATION PRIVATE LIMITED [CP(IB) No.124/KB/2026]",
+          "title": "In the matter of Yogendra Gangaram Mungale, [C.P. (IB)/841(MB)2026]",
           "date": "16 Oct 2026",
           "date_iso": "2026-10-16",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
-          "title": "In the matter of KARTHIK TRAVELS PRIVATE LIMITED [CP(IB)/157/CHE/2023]",
-          "date": "15 Oct 2026",
-          "date_iso": "2026-10-15",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "has_pdf": true,
@@ -2300,9 +2347,9 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of Shree Vaishnavi Ispat Limited [C.P. (IB) No.74/KB/2026]",
-          "date": "14 Oct 2026",
-          "date_iso": "2026-10-14",
+          "title": "In the matter of KARTHIK TRAVELS PRIVATE LIMITED [CP(IB)/157/CHE/2023]",
+          "date": "15 Oct 2026",
+          "date_iso": "2026-10-15",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
           "has_pdf": true,
@@ -2327,7 +2374,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of Debpara Tea Company Limited [Company Petition (IB) No. 47/KB/2026]",
+          "title": "In the matter of Shree Vaishnavi Ispat Limited [C.P. (IB) No.74/KB/2026]",
           "date": "14 Oct 2026",
           "date_iso": "2026-10-14",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2345,7 +2392,16 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of R S KAMTHE INFRASTRUCTURE DEVELOPERS PRIVATE LIMITED [CP(IB)/1058(MB)2022 ]",
+          "title": "In the matter of R S Kamthe Infrastructure Developers Private Limited [CP(IB)/1058(MB)2022]",
+          "date": "14 Oct 2026",
+          "date_iso": "2026-10-14",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
+          "title": "In the matter of DEBPARA TEA COMPANY LIMITED [Company Petition (IB) No. 47/KB/2026]",
           "date": "14 Oct 2026",
           "date_iso": "2026-10-14",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2745,15 +2801,6 @@
           "id": "eu_m_M_12099_AP"
         },
         {
-          "title": "[M.12542] BLACKSTONE / ESSENDI / HOTEL PORTFOLIO",
-          "date": "16 Oct 2026",
-          "date_iso": "2026-10-16",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12542",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_m_M_12542"
-        },
-        {
           "title": "[M.12591] OCS / MITIE",
           "date": "16 Oct 2026",
           "date_iso": "2026-10-16",
@@ -2761,6 +2808,15 @@
           "pdf_url": "",
           "has_pdf": false,
           "id": "eu_m_M_12591"
+        },
+        {
+          "title": "[M.12542] BLACKSTONE / ESSENDI / HOTEL PORTFOLIO",
+          "date": "16 Oct 2026",
+          "date_iso": "2026-10-16",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12542",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12542"
         },
         {
           "title": "[M.12635] ITOCHU / DENTSU / DENTSU SOKEN",
@@ -3039,10 +3095,37 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 9,
+      "doc_count": 11,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 9,
+      "docs_without_pdf": 11,
       "documents": [
+        {
+          "title": "[FS.100371] BAIN CAPITAL / VOLKSWAGEN / EVERLLENCE",
+          "date": "19 Oct 2026",
+          "date_iso": "2026-10-19",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100371",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100371"
+        },
+        {
+          "title": "[FS.100357] AKZONOBEL / AXALTA",
+          "date": "19 Oct 2026",
+          "date_iso": "2026-10-19",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100357",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100357"
+        },
+        {
+          "title": "[FS.100387] OLIN / HUNTSMAN",
+          "date": "14 Oct 2026",
+          "date_iso": "2026-10-14",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100387",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100387"
+        },
         {
           "title": "[FS.100409] MPS / BPM",
           "date": "14 Oct 2026",
@@ -3060,15 +3143,6 @@
           "pdf_url": "",
           "has_pdf": false,
           "id": "eu_instru_FS_100410"
-        },
-        {
-          "title": "[FS.100387] OLIN / HUNTSMAN",
-          "date": "14 Oct 2026",
-          "date_iso": "2026-10-14",
-          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100387",
-          "pdf_url": "",
-          "has_pdf": false,
-          "id": "eu_instru_FS_100387"
         },
         {
           "title": "[FS.100397] CIRCLE K / ZABKA GROUP",
@@ -3845,10 +3919,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 16,
-      "docs_with_pdf": 16,
+      "doc_count": 17,
+      "docs_with_pdf": 17,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Jonathan Kennaugh v The Commissioners for HMRC",
+          "date": "19 Oct 2026",
+          "date_iso": "2026-10-19",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1437",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-2c210bef-7317-45b8-ab13-77f06c5785aa/d-2c210bef-7317-45b8-ab13-77f06c5785aa.pdf",
+          "has_pdf": true,
+          "id": "na_1437"
+        },
+        {
+          "title": "Unatrade Limited v The Commissioners for HMRC",
+          "date": "19 Oct 2026",
+          "date_iso": "2026-10-19",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1438",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-c847b3cd-6e42-435c-bde8-98aa8aaeb380/d-c847b3cd-6e42-435c-bde8-98aa8aaeb380.pdf",
+          "has_pdf": true,
+          "id": "na_1438"
+        },
         {
           "title": "Abbey Group Ltd v The Commissioners for HMRC",
           "date": "13 Oct 2026",
@@ -3875,15 +3967,6 @@
           "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-841b3f70-f6c1-49f0-a708-9b4343a98339/d-841b3f70-f6c1-49f0-a708-9b4343a98339.pdf",
           "has_pdf": true,
           "id": "na_1407"
-        },
-        {
-          "title": "Easytruck Limited v The Commissioners for HMRC",
-          "date": "09 Oct 2026",
-          "date_iso": "2026-10-09",
-          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1412",
-          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-b8204dd0-fc1c-4ce8-8175-818cace1ab63/d-b8204dd0-fc1c-4ce8-8175-818cace1ab63.pdf",
-          "has_pdf": true,
-          "id": "na_1412"
         },
         {
           "title": "My Club Web Services Ltd v The Commissioners for HMRC",
