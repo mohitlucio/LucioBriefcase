@@ -1,18 +1,18 @@
 {
-  "started_at": "2026-10-26 22:33:28 UTC",
-  "finished_at": "2026-10-26 22:43:05 UTC",
-  "duration_seconds": 576.7,
+  "started_at": "2026-10-27 04:45:51 UTC",
+  "finished_at": "2026-10-27 04:55:45 UTC",
+  "duration_seconds": 594.0,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 37,
-  "sources_error": 11,
-  "sources_empty": 45,
-  "total_documents": 320,
-  "docs_with_pdf": 218,
+  "sources_ok": 36,
+  "sources_error": 13,
+  "sources_empty": 44,
+  "total_documents": 319,
+  "docs_with_pdf": 217,
   "docs_without_pdf": 102,
   "source_details": [
     {
@@ -1044,30 +1044,20 @@
       "label": "IRDAI_CIRC",
       "category": "",
       "website_url": "",
-      "status": "ok",
-      "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "status": "error",
+      "error": "HTTP Error 504: Gateway Time-out",
+      "doc_count": 0,
+      "docs_with_pdf": 0,
       "docs_without_pdf": 0,
-      "documents": [
-        {
-          "title": "Observance of National Cyber Security Awareness Month (NCSAM) – October 2026.pdf",
-          "date": "15 Oct 2026",
-          "date_iso": "2026-10-15",
-          "page_url": "https://irdai.gov.in/circulars",
-          "pdf_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%B0%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AF+%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B0+%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+%E0%A4%9C%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A5%82%E0%A4%95%E0%A4%A4%E0%A4%BE+%E0%A4%AE%E0%A4%BE%E0%A4%B9+%28%E0%A4%8F%E0%A4%A8%E0%A4%B8%E0%A5%80%E0%A4%8F%E0%A4%B8%E0%A4%8F%E0%A4%8F%E0%A4%AE%29+%E0%A4%95%E0%A4%BE+%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%A8+-+%E0%A4%85%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A5%82%E0%A4%AC%E0%A4%B0+2026+Observance+of+National+Cyber+Security+Awareness+Month+%28NCSAM%29+%E2%80%93+October+2026.pdf/f81df8af-eb6e-93b9-7607-7414e17900cc?version=1.2&t=1792046597891&download=true",
-          "has_pdf": true,
-          "id": "irdai_observance_of_national_cyber_security_aw_15-10-2026"
-        }
-      ]
+      "documents": []
     },
     {
       "key": "IRDAI_REGS",
       "label": "IRDAI_REGS",
       "category": "",
       "website_url": "",
-      "status": "empty",
-      "error": null,
+      "status": "error",
+      "error": "The read operation timed out",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1682,15 +1672,6 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of REDMIL BUSINESS MALL PRIVATE LIMITED [CP (IB) NO.59/ALD/2026]",
-          "date": "14 Oct 2026",
-          "date_iso": "2026-10-14",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
           "title": "In the matter of R S Kamthe Infrastructure Developers Private Limited [CP(IB)/1058(MB)2022]",
           "date": "14 Oct 2026",
           "date_iso": "2026-10-14",
@@ -1700,7 +1681,25 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of Debpara Tea Company Limited [Company Petition (IB) No. 47/KB/2026]",
+          "title": "In the matter of SHREE VAISHANAVI ISPAT LIMITED [C.P. (I.B.) 74/KB/2026]",
+          "date": "14 Oct 2026",
+          "date_iso": "2026-10-14",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of Redmil Business Mall Private Limited [CP (IB) No. 59/ALD/2026]",
+          "date": "14 Oct 2026",
+          "date_iso": "2026-10-14",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of SHREE MAHALAXMI CORPORATION PRIVATE LIMITED [CP-130(KB)/2026]",
           "date": "14 Oct 2026",
           "date_iso": "2026-10-14",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -1710,15 +1709,6 @@
         },
         {
           "title": "In the matter of Shree Vaishnavi Ispat Limited [C.P. (IB) No.74/KB/2026]",
-          "date": "14 Oct 2026",
-          "date_iso": "2026-10-14",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of UNIQUE INFRAENGINEERING INDIA PRIVATE LIMITED [CP No. (IB)-47/9/JPR/2026]",
           "date": "14 Oct 2026",
           "date_iso": "2026-10-14",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -1745,16 +1735,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of Yes Bank Ltd. vs. Mr. Rajesh Madan, [IA 575/2025 in CP No.: IB 837 (ND)/2024]",
-          "date": "12 Oct 2026",
-          "date_iso": "2026-10-12",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of Canara Bank vs. Suraj Mal Dabas, [I.A. No. 1317 of 2026 in CP (IB)-84(ND)/2026]",
+          "title": "In the matter of Canara Bank vs. Subhash Dabas, [I.A. No. 1274 of 2026 in CP (IB)-85(ND)/2026]",
           "date": "12 Oct 2026",
           "date_iso": "2026-10-12",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -1772,15 +1753,6 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of Karnataka Food and Civil Suppliers Corporation Limited [CP (IB) No. 306/BB/2025]",
-          "date": "12 Oct 2026",
-          "date_iso": "2026-10-12",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
           "title": "In the matter of J.U.D. CEMENTS LTD [C.P. (IB)/40/GHY/2026]",
           "date": "12 Oct 2026",
           "date_iso": "2026-10-12",
@@ -1790,7 +1762,25 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of Canara Bank vs. Subhash Dabas, [I.A. No. 1274 of 2026 in CP (IB)-85(ND)/2026]",
+          "title": "In the matter of Karnataka Food and Civil Suppliers Corporation Limited [CP (IB) No. 306/BB/2025]",
+          "date": "12 Oct 2026",
+          "date_iso": "2026-10-12",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of Yes Bank Ltd. vs. Mr. Rajesh Madan, [IA 575/2025 in CP No.: IB 837 (ND)/2024]",
+          "date": "12 Oct 2026",
+          "date_iso": "2026-10-12",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of Canara Bank vs. Suraj Mal Dabas, [I.A. No. 1317 of 2026 in CP (IB)-84(ND)/2026]",
           "date": "12 Oct 2026",
           "date_iso": "2026-10-12",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -1817,15 +1807,6 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of Siemens Financial Services Private Limited vs. Rasik Khandelwal, [CP (IB) No. 79/ALD/2024]",
-          "date": "09 Oct 2026",
-          "date_iso": "2026-10-09",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
           "title": "In the matter of OUR FOOD PRIVATE LIMITED [CP(IB)/12/7/AMR]",
           "date": "09 Oct 2026",
           "date_iso": "2026-10-09",
@@ -1835,7 +1816,16 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of EVANIE INFRASTRUCTURE PRIVATE LIMITED [CP(IB) No. 285/KB/2021 ]",
+          "title": "In the matter of Siemens Financial Services Private Limited vs. Rasik Khandelwal, [CP (IB) No. 79/ALD/2024]",
+          "date": "09 Oct 2026",
+          "date_iso": "2026-10-09",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of Unity Small Finance Bank Limited vs. Sarang Rakesh Wadhawan, [C.P. No. (IB) 111/MB/C-III/2022]",
           "date": "09 Oct 2026",
           "date_iso": "2026-10-09",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2006,7 +1996,16 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
         },
         {
-          "title": "In the matter of ASREC (India) Limited vs. Pratik Jain, [CP(IB)/29(MP)2022]",
+          "title": "In the matter of SUPERNOVA BEVERAGES PRIVATE LIMITED [123456]",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
+        },
+        {
+          "title": "In the matter of CLOVER FORGING & MACHINING PRIVATE LIMITED [IB-1120/ND/2018 and IA-1898/ND/2022 ]",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
@@ -2024,16 +2023,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
         },
         {
-          "title": "In the matter of GAYATRI HOSPITALITY AND REALCON LIMITED [CP(IB)69(ND)2026 ]",
-          "date": "05 Oct 2026",
-          "date_iso": "2026-10-05",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
-        },
-        {
-          "title": "In the matter of SUPERNOVA BEVERAGES PRIVATE LIMITED [123456]",
+          "title": "In the matter of ASREC (India) Limited vs. Pratik Jain, [CP(IB)/29(MP)2022]",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
