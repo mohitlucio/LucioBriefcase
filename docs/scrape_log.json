@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-10-29 12:46:47 UTC",
-  "finished_at": "2026-10-29 13:07:54 UTC",
-  "duration_seconds": 1267.5,
+  "started_at": "2026-10-29 22:39:49 UTC",
+  "finished_at": "2026-10-29 22:49:38 UTC",
+  "duration_seconds": 589.1,
   "date_range": {
     "from": "2026-10-01",
     "to": "2026-10-31"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 35,
-  "sources_error": 15,
-  "sources_empty": 43,
-  "total_documents": 462,
-  "docs_with_pdf": 354,
-  "docs_without_pdf": 108,
+  "sources_ok": 38,
+  "sources_error": 10,
+  "sources_empty": 45,
+  "total_documents": 487,
+  "docs_with_pdf": 377,
+  "docs_without_pdf": 110,
   "source_details": [
     {
       "key": "RHP",
@@ -598,8 +598,8 @@
       "label": "INVIT_PUB_DRAFT",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "Timeout after 73s",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1194,32 +1194,133 @@
       "label": "TG_RERA_ADJ",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Order in CCP No.4 of 2025",
+          "date": "27 Oct 2026",
+          "date_iso": "2026-10-27",
+          "page_url": "https://rera.telangana.gov.in/384798wfybwev9fya62435-TG-RERA-skfjdgky483yunskljghfdgjh",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_291026105950856.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_ADJ_0"
+        },
+        {
+          "title": "Order in CCP No.7 of 2025",
+          "date": "15 Oct 2026",
+          "date_iso": "2026-10-15",
+          "page_url": "https://rera.telangana.gov.in/384798wfybwev9fya62435-TG-RERA-skfjdgky483yunskljghfdgjh",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_241026165805863.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_ADJ_1"
+        }
+      ]
     },
     {
       "key": "TG_RERA_AUTH",
       "label": "TG_RERA_AUTH",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 9,
+      "docs_with_pdf": 9,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Order Complaint No. 109 of 2026",
+          "date": "28 Oct 2026",
+          "date_iso": "2026-10-28",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_291026113622983.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_0"
+        },
+        {
+          "title": "Order Complaint No. 573 of 2025",
+          "date": "28 Oct 2026",
+          "date_iso": "2026-10-28",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_291026113332688.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_1"
+        },
+        {
+          "title": "Interim Order in CC No. 297 of 2026",
+          "date": "26 Oct 2026",
+          "date_iso": "2026-10-26",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_291026115608152.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_2"
+        },
+        {
+          "title": "Interim Order in CC No. 298 of 2026",
+          "date": "26 Oct 2026",
+          "date_iso": "2026-10-26",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_291026115751628.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_3"
+        },
+        {
+          "title": "Order Complaint No. 420 of 2025",
+          "date": "14 Oct 2026",
+          "date_iso": "2026-10-14",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_151026172338761.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_4"
+        },
+        {
+          "title": "Order Complaint No. 513 of 2025",
+          "date": "14 Oct 2026",
+          "date_iso": "2026-10-14",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_151026172625155.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_5"
+        },
+        {
+          "title": "Rectified interim order 308 of 2024",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_051026171349229.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_6"
+        },
+        {
+          "title": "Order Complaint No. 254 of 2025",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_051026171015247.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_7"
+        },
+        {
+          "title": "Order Complaint No. 115 of 2026",
+          "date": "01 Oct 2026",
+          "date_iso": "2026-10-01",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_011026161429397.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_8"
+        }
+      ]
     },
     {
       "key": "TG_RERA_SUO",
       "label": "TG_RERA_SUO",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
+      "status": "empty",
+      "error": null,
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -1230,12 +1331,22 @@
       "label": "TG_RERA_CIRC",
       "category": "",
       "website_url": "",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "status": "ok",
+      "error": null,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Circular RC. No. D6/3777/2026 — TGRERA – amendment to Section 68 of the Real Estate (Regulation and Development) Act, 2016 by the Government of India – and consequential amendment to the Telangana Real Estate (Regulation and Development) Rules, 2017 – Regarding.",
+          "date": "15 Oct 2026",
+          "date_iso": "2026-10-15",
+          "page_url": "https://rera.telangana.gov.in/amavlnjoiu7532845972-TG-RERA-74698ijgsdfjgbi349529",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_151026190005827.pdf",
+          "has_pdf": true,
+          "id": "tgrera_circ_0"
+        }
+      ]
     },
     {
       "key": "TN_RERA",
@@ -1267,7 +1378,7 @@
       "category": "",
       "website_url": "",
       "status": "error",
-      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "error": "<urlopen error timed out>",
       "doc_count": 0,
       "docs_with_pdf": 0,
       "docs_without_pdf": 0,
@@ -2355,15 +2466,6 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of Tata Capital Limited vs. Vijay Gokhale, [C.P. (IB)/580(MB)2022]",
-          "date": "21 Oct 2026",
-          "date_iso": "2026-10-21",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
-        },
-        {
           "title": "In the matter of SATNAM GLOBAL INFRAPROJECTS LIMITED [CP (IB) No. 329/ND/2024.]",
           "date": "21 Oct 2026",
           "date_iso": "2026-10-21",
@@ -2382,6 +2484,15 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
+          "title": "In the matter of Tata Capital Limited vs. Vijay Gokhale, [C.P. (IB)/580(MB)2022]",
+          "date": "21 Oct 2026",
+          "date_iso": "2026-10-21",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        },
+        {
           "title": "In the matter of N K R ENGINEERS PRIVATE LIMITED [CP(IB)No. 287/7/AHM/2026]",
           "date": "16 Oct 2026",
           "date_iso": "2026-10-16",
@@ -2391,7 +2502,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of MAATAPESHWARI MEDIA PUBLIVATION PRIVATE LIMITED [CP(IB) No.124/KB/2026]",
+          "title": "In the matter of SAMSARA ENERGY LIMITED [C.P. (IB)/10/KB/2025]",
           "date": "16 Oct 2026",
           "date_iso": "2026-10-16",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2400,7 +2511,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of URVASHI MATERIAL TRADING COMPANY PRIVATE LIMITED [C.P. (IB) - 69/9/JPR/2025]",
+          "title": "In the matter of STCI Finance Limited vs. Sanjay Laxmichand Karani, [IA 2145 of 2025 in CP (IB)/1041 (MB) of 2021]",
           "date": "16 Oct 2026",
           "date_iso": "2026-10-16",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2427,7 +2538,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of STCI Finance Limited vs. Sanjay Laxmichand Karani, [IA 2145 of 2025 in CP (IB)/1041 (MB) of 2021]",
+          "title": "In the matter of URVASHI MATERIAL TRADING COMPANY PRIVATE LIMITED [C.P. (IB) - 69/9/JPR/2025]",
           "date": "16 Oct 2026",
           "date_iso": "2026-10-16",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2445,7 +2556,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of SAMSARA ENERGY LIMITED [C.P. (IB)/10/KB/2025]",
+          "title": "In the matter of MAATAPESHWARI MEDIA PUBLIVATION PRIVATE LIMITED [CP(IB) No.124/KB/2026]",
           "date": "16 Oct 2026",
           "date_iso": "2026-10-16",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -2526,7 +2637,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of SHREE VAISHANAVI ISPAT LIMITED [C.P. (I.B.) 74/KB/2026]",
+          "title": "In the matter of Shree Vaishnavi Ispat Limited [C.P. (IB) No.74/KB/2026]",
           "date": "14 Oct 2026",
           "date_iso": "2026-10-14",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2544,24 +2655,6 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of UNIQUE INFRAENGINEERING INDIA PRIVATE LIMITED [CP No. (IB)-47/9/JPR/2026]",
-          "date": "14 Oct 2026",
-          "date_iso": "2026-10-14",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
-          "title": "In the matter of SBCC INFRA PRIVATE LIMITED [83/9/JPR/2025]",
-          "date": "14 Oct 2026",
-          "date_iso": "2026-10-14",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
           "title": "In the matter of R S Kamthe Infrastructure Developers Private Limited [CP(IB)/1058(MB)2022]",
           "date": "14 Oct 2026",
           "date_iso": "2026-10-14",
@@ -2571,7 +2664,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of Shree Vaishnavi Ispat Limited [C.P. (IB) No.74/KB/2026]",
+          "title": "In the matter of SHREE VAISHANAVI ISPAT LIMITED [C.P. (I.B.) 74/KB/2026]",
           "date": "14 Oct 2026",
           "date_iso": "2026-10-14",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2580,7 +2673,16 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of Redmil Business Mall Private Limited [CP (IB) No. 59/ALD/2026]",
+          "title": "In the matter of REDMIL BUSINESS MALL PRIVATE LIMITED [CP (IB) NO.59/ALD/2026]",
+          "date": "14 Oct 2026",
+          "date_iso": "2026-10-14",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of UNIQUE INFRAENGINEERING INDIA PRIVATE LIMITED [CP No. (IB)-47/9/JPR/2026]",
           "date": "14 Oct 2026",
           "date_iso": "2026-10-14",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
@@ -2598,9 +2700,27 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
+          "title": "In the matter of SBCC INFRA PRIVATE LIMITED [83/9/JPR/2025]",
+          "date": "14 Oct 2026",
+          "date_iso": "2026-10-14",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
           "title": "In the matter of ORCHID HOUSINGINFRA LLP [IA(I.B.C)/4463( MB)2026 In C.P. (IB)/277(MB)2024]",
           "date": "13 Oct 2026",
           "date_iso": "2026-10-13",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
+        },
+        {
+          "title": "In the matter of Yes Bank Ltd. vs. Mr. Rajesh Madan, [IA 575/2025 in CP No.: IB 837 (ND)/2024]",
+          "date": "12 Oct 2026",
+          "date_iso": "2026-10-12",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
           "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
           "has_pdf": true,
@@ -2643,15 +2763,6 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of Yes Bank Ltd. vs. Mr. Rajesh Madan, [IA 575/2025 in CP No.: IB 837 (ND)/2024]",
-          "date": "12 Oct 2026",
-          "date_iso": "2026-10-12",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=2",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
-        },
-        {
           "title": "In the matter of Canara Bank vs. Suraj Mal Dabas, [I.A. No. 1317 of 2026 in CP (IB)-84(ND)/2026]",
           "date": "12 Oct 2026",
           "date_iso": "2026-10-12",
@@ -2670,7 +2781,16 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_2"
         },
         {
-          "title": "In the matter of VASUDEV ADIGAS FASTFOOD PRIVATE LIMITED [CP. (IB) No. 233/BB/2025]",
+          "title": "In the matter of EVANIE INFRASTRUCTURE PRIVATE LIMITED [CP(IB) No. 285/KB/2021 ]",
+          "date": "09 Oct 2026",
+          "date_iso": "2026-10-09",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of Our Food Private Limited [CP (IB)/12/7/AMR/2026]",
           "date": "09 Oct 2026",
           "date_iso": "2026-10-09",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
@@ -2697,16 +2817,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
         },
         {
-          "title": "In the matter of EVANIE INFRASTRUCTURE PRIVATE LIMITED [CP(IB) No. 285/KB/2021 ]",
-          "date": "09 Oct 2026",
-          "date_iso": "2026-10-09",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of OUR FOOD PRIVATE LIMITED [CP(IB)/12/7/AMR]",
+          "title": "In the matter of Evanie Infrastructure Private Limited [IA(I.B.C)/932(KB)2023, IVN.P (IBC)/24, 25,26(KB)2024, IA(I.B.C)/936(KB)2025, IA(I.B.C)/1257(KB)2026 in C.P.(IB) No. 285/KB/2021]",
           "date": "09 Oct 2026",
           "date_iso": "2026-10-09",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
@@ -2724,7 +2835,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
         },
         {
-          "title": "In the matter of Evanie Infrastructure Private Limited [IA(I.B.C)/932(KB)2023, IVN.P (IBC)/24, 25,26(KB)2024, IA(I.B.C)/936(KB)2025, IA(I.B.C)/1257(KB)2026 in C.P.(IB) No. 285/KB/2021]",
+          "title": "In the matter of OUR FOOD PRIVATE LIMITED [CP(IB)/12/7/AMR]",
           "date": "09 Oct 2026",
           "date_iso": "2026-10-09",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
@@ -2733,16 +2844,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
         },
         {
-          "title": "In the matter of Darsh Pharmachem Private Limited [CP(IB)/263/7/AHM/2026]",
-          "date": "08 Oct 2026",
-          "date_iso": "2026-10-08",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of Zaneka Healthcare Limited [CP (IB) No.4/ALD/2026]",
+          "title": "In the matter of ZANEKA HEALTHCARE LIMITED [CP (IB) No.4/ALD/2026]",
           "date": "08 Oct 2026",
           "date_iso": "2026-10-08",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
@@ -2760,6 +2862,24 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
         },
         {
+          "title": "In the matter of Darsh Pharmachem Private Limited [CP(IB)/263/7/AHM/2026]",
+          "date": "08 Oct 2026",
+          "date_iso": "2026-10-08",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
+          "title": "In the matter of SVOGL OIL GAS AND ENERGY LIMITED [CP(IB)No.253/(PB)/2025 ]",
+          "date": "07 Oct 2026",
+          "date_iso": "2026-10-07",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
+        },
+        {
           "title": "In the matter of Wizard E-Marketing Private Limited [Interlocutory Application (IB) No. 411/KB/2026 in Company Petition (IB) No. 81/KB/2025]",
           "date": "07 Oct 2026",
           "date_iso": "2026-10-07",
@@ -2770,15 +2890,6 @@
         },
         {
           "title": "In the matter of SHARANAM INFRAPROJECT AND TRADING LIMITED [C.P. (IB)/88/AHM/2026]",
-          "date": "07 Oct 2026",
-          "date_iso": "2026-10-07",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
-        },
-        {
-          "title": "In the matter of SVOGL OIL GAS AND ENERGY LIMITED [CP(IB)No.253/(PB)/2025 ]",
           "date": "07 Oct 2026",
           "date_iso": "2026-10-07",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
@@ -2814,7 +2925,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
         },
         {
-          "title": "In the matter of SHUBH FOOD INDUSTRIES LIMITED [IA (I.B.C)/1728(MB) 2026]",
+          "title": "In the matter of TIRUMALA VENKATESHWARA PAPER AND BOARD PRIVATE LIMITED [RCP No.06/09/HDB/2026 in CP (IB) No.160/9/HDB/2020]",
           "date": "06 Oct 2026",
           "date_iso": "2026-10-06",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=3",
@@ -2832,7 +2943,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_3"
         },
         {
-          "title": "In the matter of Birla Jewels Limited [C.P. (IB)/3626/MB/2019]",
+          "title": "In the matter of Tirmala Venkateshwara Paper and Board Pvt. Ltd. [RCP No.06/2026 in CP (IB) No.160/9/HDB/2020]",
           "date": "06 Oct 2026",
           "date_iso": "2026-10-06",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
@@ -2859,15 +2970,6 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
         },
         {
-          "title": "In the matter of AHUJA SYNFAB PRIVATE LIMITED [C.P. (IB)/747/MB/2024]",
-          "date": "05 Oct 2026",
-          "date_iso": "2026-10-05",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
-          "has_pdf": true,
-          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
-        },
-        {
           "title": "In the matter of Ahuja Synfab Private Limited [CP (IB) No. 747/MB/2024]",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
@@ -2877,7 +2979,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
         },
         {
-          "title": "In the matter of CLOVER FORGING & MACHINING PRIVATE LIMITED [IB-1120/ND/2018 and IA-1898/ND/2022 ]",
+          "title": "In the matter of AHUJA SYNFAB PRIVATE LIMITED [C.P. (IB)/747/MB/2024]",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
@@ -2895,7 +2997,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
         },
         {
-          "title": "In the matter of SUPERNOVA BEVERAGES PRIVATE LIMITED [123456]",
+          "title": "In the matter of ASREC (India) Limited vs. Pratik Jain, [CP(IB)/29(MP)2022]",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
@@ -2904,7 +3006,16 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
         },
         {
-          "title": "In the matter of ASREC (India) Limited vs. Pratik Jain, [CP(IB)/29(MP)2022]",
+          "title": "In the matter of CLOVER FORGING & MACHINING PRIVATE LIMITED [IB-1120/ND/2018 and IA-1898/ND/2022 ]",
+          "date": "05 Oct 2026",
+          "date_iso": "2026-10-05",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt__page_4"
+        },
+        {
+          "title": "In the matter of SUPERNOVA BEVERAGES PRIVATE LIMITED [123456]",
           "date": "05 Oct 2026",
           "date_iso": "2026-10-05",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=&page=4",
@@ -2939,10 +3050,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 39,
+      "doc_count": 41,
       "docs_with_pdf": 26,
-      "docs_without_pdf": 13,
+      "docs_without_pdf": 15,
       "documents": [
+        {
+          "title": "[M.12624] OCP GROUP / KI GROUP / JFC1",
+          "date": "29 Oct 2026",
+          "date_iso": "2026-10-29",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12624",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12624"
+        },
+        {
+          "title": "[M.12594] CINVEN / LA CAISSE / OPTIO",
+          "date": "29 Oct 2026",
+          "date_iso": "2026-10-29",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12594",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12594"
+        },
         {
           "title": "[M.12641] L CATTERTON / ALTAS / FULLSCRIPT",
           "date": "28 Oct 2026",
@@ -3628,10 +3757,64 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 49,
-      "docs_with_pdf": 49,
+      "doc_count": 55,
+      "docs_with_pdf": 55,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Mr J Bundy v Kent Dairy Company Ltd: 6013658/2025",
+          "date": "13 Oct 2026",
+          "date_iso": "2026-10-13",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-j-bundy-v-kent-dairy-company-ltd-6013658-slash-2025",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae215149bca21f1c5036ec6/Mr_J._Bundy_v_Kent_Dairy_Company_Ltd_6013658-2025_Judgment.pdf",
+          "has_pdf": true,
+          "id": "govuk_sions_mr-j-bundy-v-kent-dairy-company-ltd-6013658-slash-2025"
+        },
+        {
+          "title": "Mr E Dias v Astypalaia Ltd (T/a Artfix): 6015393/2026",
+          "date": "13 Oct 2026",
+          "date_iso": "2026-10-13",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-e-dias-v-astypalaia-ltd-t-slash-a-artfix-6015393-slash-2026",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae20f8939d29f3f9b9b3f58/Mr_Eduardo_Dias_v_Astypalaia_Ltd__trading_as_artfix__6015393-2026_Judgment_13-10-2026.pdf",
+          "has_pdf": true,
+          "id": "govuk_-e-dias-v-astypalaia-ltd-t-slash-a-artfix-6015393-slash-2026"
+        },
+        {
+          "title": "Dr Chisti v East Sussex Healthcare NHS Trust: 2307514/2024 and 2307515/2024",
+          "date": "09 Oct 2026",
+          "date_iso": "2026-10-09",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/dr-chisti-v-east-sussex-healthcare-nhs-trust-2307514-slash-2024-and-2307515-slash-2024",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/67a0b96c172b438fbf16a3d1/Dr_Chisti_v_East_Sussex_Healthcare_NHS_Trust__1__2307514-2024__2__2307515-2024_Judgment.pdf",
+          "has_pdf": true,
+          "id": "govuk_althcare-nhs-trust-2307514-slash-2024-and-2307515-slash-2024"
+        },
+        {
+          "title": "Ms N Heidari v Conventional Ltd: 6044046/2025",
+          "date": "08 Oct 2026",
+          "date_iso": "2026-10-08",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/ms-n-heidari-v-conventional-ltd-6044046-slash-2025",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae208f29bca21f1c5036ead/Ms_N_heidari_v_Conventional_Ltd_Judgment__2_6044046-2025.pdf",
+          "has_pdf": true,
+          "id": "govuk_decisions_ms-n-heidari-v-conventional-ltd-6044046-slash-2025"
+        },
+        {
+          "title": "Mr G J Kouadio v Rail for London (Infrastructure) Ltd: 6014912/2025",
+          "date": "09 Oct 2026",
+          "date_iso": "2026-10-09",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-g-j-kouadio-v-rail-for-london-infrastructure-ltd-6014912-slash-2025",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae21328460c1346f7be785f/Mr_G_J_Kouadio_v_Rail_for_London__Infrastructure__Limited_6014912-2025_Judgment.pdf",
+          "has_pdf": true,
+          "id": "govuk_adio-v-rail-for-london-infrastructure-ltd-6014912-slash-2025"
+        },
+        {
+          "title": "Mr M Cole v LRSO Ltd: 6014895/2026",
+          "date": "12 Oct 2026",
+          "date_iso": "2026-10-12",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-m-cole-v-lrso-ltd-6014895-slash-2026",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae2128a460c1346f7be785b/Mr_Matthew_Cole_v_LRSO_Ltd_6014895-2026_Judgment.pdf",
+          "has_pdf": true,
+          "id": "govuk_t-tribunal-decisions_mr-m-cole-v-lrso-ltd-6014895-slash-2026"
+        },
         {
           "title": "Mr D Parris v Teleperformance Ltd: 1307029/2024",
           "date": "15 Oct 2026",
@@ -4378,10 +4561,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 9,
-      "docs_with_pdf": 9,
+      "doc_count": 10,
+      "docs_with_pdf": 10,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Brickfield Properties Limited v Paul Haines & Anor",
+          "date": "28 Oct 2026",
+          "date_iso": "2026-10-28",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukut/lc/2026/421",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-40eaa0d3-5b6b-471d-b4f7-089553a21ac6/d-40eaa0d3-5b6b-471d-b4f7-089553a21ac6.pdf",
+          "has_pdf": true,
+          "id": "na_421"
+        },
         {
           "title": "Avon Ground Rents Limited v Li Jing & Ors",
           "date": "26 Oct 2026",
@@ -4593,8 +4785,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 39,
-      "docs_with_pdf": 39,
+      "doc_count": 43,
+      "docs_with_pdf": 43,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -4623,6 +4815,15 @@
           "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-934e0e67-25da-44e9-ade8-3c4204b70c64/d-934e0e67-25da-44e9-ade8-3c4204b70c64.pdf",
           "has_pdf": true,
           "id": "na_1495"
+        },
+        {
+          "title": "Frasers Group Financial Services Limited v The Commissioners for HMRC",
+          "date": "28 Oct 2026",
+          "date_iso": "2026-10-28",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1496",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-4935d4ba-d326-46fd-9c47-e37411cc2764/d-4935d4ba-d326-46fd-9c47-e37411cc2764.pdf",
+          "has_pdf": true,
+          "id": "na_1496"
         },
         {
           "title": "Cambridge Park and Leisure Homes Limited v The Commissioners for HMRC",
@@ -4659,6 +4860,15 @@
           "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-e08dba6f-78db-4ed7-b874-b39bf2604c3f/d-e08dba6f-78db-4ed7-b874-b39bf2604c3f.pdf",
           "has_pdf": true,
           "id": "na_1489"
+        },
+        {
+          "title": "Michael Cohen v The Commissioners for HMRC",
+          "date": "26 Oct 2026",
+          "date_iso": "2026-10-26",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1486",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-c97831cb-f189-49f3-bc6c-46285fb3e5e2/d-c97831cb-f189-49f3-bc6c-46285fb3e5e2.pdf",
+          "has_pdf": true,
+          "id": "na_1486"
         },
         {
           "title": "Shelley Fullerton v The Commissioners for HMRC",
@@ -4704,6 +4914,24 @@
           "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-8c2f4c01-7903-4d36-a51c-4224bb5dab95/d-8c2f4c01-7903-4d36-a51c-4224bb5dab95.pdf",
           "has_pdf": true,
           "id": "na_1475"
+        },
+        {
+          "title": "D Brown & Anor v The Commissioners for HMRC",
+          "date": "22 Oct 2026",
+          "date_iso": "2026-10-22",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1484",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-30e4f65b-417a-462d-94fc-da7e4c88fb8a/d-30e4f65b-417a-462d-94fc-da7e4c88fb8a.pdf",
+          "has_pdf": true,
+          "id": "na_1484"
+        },
+        {
+          "title": "L W Joinery & Flooring Limited v The Commissioners for HMRC",
+          "date": "22 Oct 2026",
+          "date_iso": "2026-10-22",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1485",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-32d8ece2-33cd-4816-8f45-c2ccd193056c/d-32d8ece2-33cd-4816-8f45-c2ccd193056c.pdf",
+          "has_pdf": true,
+          "id": "na_1485"
         },
         {
           "title": "Adrian Vlad and Ion Grab v The Commissioners for HMRC",
