@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-11-02 05:42:59 UTC",
-  "finished_at": "2026-11-02 05:52:37 UTC",
-  "duration_seconds": 578.1,
+  "started_at": "2026-11-02 15:30:43 UTC",
+  "finished_at": "2026-11-02 15:40:55 UTC",
+  "duration_seconds": 612.3,
   "date_range": {
     "from": "2026-11-01",
     "to": "2026-11-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 2,
+  "sources_ok": 7,
   "sources_error": 10,
-  "sources_empty": 81,
-  "total_documents": 2,
-  "docs_with_pdf": 1,
-  "docs_without_pdf": 1,
+  "sources_empty": 76,
+  "total_documents": 9,
+  "docs_with_pdf": 5,
+  "docs_without_pdf": 4,
   "source_details": [
     {
       "key": "RHP",
@@ -488,12 +488,22 @@
       "label": "IRDAI_CIRC",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Master Circular on Registration, Capital Structure, Transfer of Shares and Amalgamation of Insurers, 2026",
+          "date": "02 Nov 2026",
+          "date_iso": "2026-11-02",
+          "page_url": "https://irdai.gov.in/circulars",
+          "pdf_url": "https://irdai.gov.in/documents/37343/365525/Master+Circular+on+Registration%2C+Capital+Structure%2C+Transfer+of+Shares+and+Amalgamation+of+Insurers%2C+2026.pdf/90f65b79-1afa-80cc-be02-0a5dae81913a?version=1.0&t=1793627096547&download=true",
+          "has_pdf": true,
+          "id": "irdai_master_circular_on_registration__capital_02-11-2026"
+        }
+      ]
     },
     {
       "key": "IRDAI_REGS",
@@ -680,12 +690,22 @@
       "label": "TRAI_REG",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Telecom Consumers Complaint Redressal (Fourth Amendment) Regulations, 2026",
+          "date": "02 Nov 2026",
+          "date_iso": "2026-11-02",
+          "page_url": "https://www.trai.gov.in/release-publication/regulations",
+          "pdf_url": "https://www.trai.gov.in/sites/default/files/2026-11/Regulation_02112026.pdf",
+          "has_pdf": true,
+          "id": "trai_reg_telecom_consumers_complaint_redressal__f_2026-11-02"
+        }
+      ]
     },
     {
       "key": "TRAI_REC",
@@ -740,12 +760,22 @@
       "label": "IBBI_ADM",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "In the matter of KARNATAKA FOOD AND CIVIL SUPPLIES CORPORATION LIMITED [C.P. (IB)/306/BEN/2025]",
+          "date": "01 Nov 2026",
+          "date_iso": "2026-11-01",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
+        }
+      ]
     },
     {
       "key": "EU_MERGER",
@@ -978,12 +1008,22 @@
       "label": "UK_ET_SCOT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "S Peggie v Royal College of Nursing: 8001209/2025",
+          "date": "02 Nov 2026",
+          "date_iso": "2026-11-02",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/s-peggie-v-royal-college-of-nursing-8001209-slash-2025",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae882638eaebb6a839ff56b/Sandie_Peggie_v_Royal_College_of_Nursing_-_8001209.2025_-_Final_-_02.11.26_-_PR.pdf",
+          "has_pdf": true,
+          "id": "govuk_sions_s-peggie-v-royal-college-of-nursing-8001209-slash-2025"
+        }
+      ]
     },
     {
       "key": "UK_UTIAC",
@@ -1038,12 +1078,40 @@
       "label": "SEBI_CIRCULARS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 3,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 3,
+      "documents": [
+        {
+          "title": "Framework for Issuance of Depository Receipts on Units of REITs​",
+          "date": "02 Nov 2026",
+          "date_iso": "2026-11-02",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-issuance-of-depository-receipts-on-units-of-reits-_105558.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105558"
+        },
+        {
+          "title": "Framework for Issuance of Depository Receipts on Units of InvITs​",
+          "date": "02 Nov 2026",
+          "date_iso": "2026-11-02",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-issuance-of-depository-receipts-on-units-of-invits-_105557.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105557"
+        },
+        {
+          "title": "Cooling off period for offer for sale by Private listed InvITs",
+          "date": "02 Nov 2026",
+          "date_iso": "2026-11-02",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/nov-2026/cooling-off-period-for-offer-for-sale-by-private-listed-invits_105539.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105539"
+        }
+      ]
     },
     {
       "key": "SEBI_FINAL_OFFER",
