@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-11-01 21:56:04 UTC",
-  "finished_at": "2026-11-01 22:05:49 UTC",
-  "duration_seconds": 584.2,
+  "started_at": "2026-11-02 05:42:59 UTC",
+  "finished_at": "2026-11-02 05:52:37 UTC",
+  "duration_seconds": 578.1,
   "date_range": {
     "from": "2026-11-01",
     "to": "2026-11-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 1,
+  "sources_ok": 2,
   "sources_error": 10,
-  "sources_empty": 82,
-  "total_documents": 1,
+  "sources_empty": 81,
+  "total_documents": 2,
   "docs_with_pdf": 1,
-  "docs_without_pdf": 0,
+  "docs_without_pdf": 1,
   "source_details": [
     {
       "key": "RHP",
@@ -1050,12 +1050,22 @@
       "label": "SEBI_FINAL_OFFER",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "SFC Environmental Technologies Ltd. -  Prospectus",
+          "date": "02 Nov 2026",
+          "date_iso": "2026-11-02",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/sfc-environmental-technologies-ltd-prospectus_105531.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105531"
+        }
+      ]
     },
     {
       "key": "SEBI_LODR",
