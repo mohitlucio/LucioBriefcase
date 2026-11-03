@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-11-03 13:59:28 UTC",
-  "finished_at": "2026-11-03 14:09:22 UTC",
-  "duration_seconds": 594.0,
+  "started_at": "2026-11-03 23:09:38 UTC",
+  "finished_at": "2026-11-03 23:19:27 UTC",
+  "duration_seconds": 588.5,
   "date_range": {
     "from": "2026-11-01",
     "to": "2026-11-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 11,
+  "sources_ok": 12,
   "sources_error": 10,
-  "sources_empty": 72,
-  "total_documents": 15,
+  "sources_empty": 71,
+  "total_documents": 18,
   "docs_with_pdf": 10,
-  "docs_without_pdf": 5,
+  "docs_without_pdf": 8,
   "source_details": [
     {
       "key": "RHP",
@@ -810,12 +810,31 @@
       "label": "EU_MERGER",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 2,
+      "documents": [
+        {
+          "title": "[M.12661] VERITAS / BODYCOTE",
+          "date": "03 Nov 2026",
+          "date_iso": "2026-11-03",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12661",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12661"
+        },
+        {
+          "title": "[M.12540] AP EJENDOMME / CAPMAN AIFM / COPENHAGEN TOWERS HOTEL / SCANDIC WEBERS",
+          "date": "03 Nov 2026",
+          "date_iso": "2026-11-03",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12540",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12540"
+        }
+      ]
     },
     {
       "key": "EU_ANTITRUST",
@@ -848,9 +867,9 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 2,
       "docs_with_pdf": 1,
-      "docs_without_pdf": 0,
+      "docs_without_pdf": 1,
       "documents": [
         {
           "title": "[FS.100253] JD.COM / CECONOMY",
@@ -860,6 +879,15 @@
           "pdf_url": "https://ec.europa.eu/competition/foreign_subsidies/cases/202622/FS_100253_1124.pdf",
           "has_pdf": true,
           "id": "eu_instru_FS_100253"
+        },
+        {
+          "title": "[FS.100381] LONE STAR FUNDS / CONTITECH",
+          "date": "03 Nov 2026",
+          "date_iso": "2026-11-03",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100381",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_instru_FS_100381"
         }
       ]
     },
