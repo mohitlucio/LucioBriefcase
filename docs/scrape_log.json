@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-11-03 00:51:08 UTC",
-  "finished_at": "2026-11-03 01:00:58 UTC",
-  "duration_seconds": 590.6,
+  "started_at": "2026-11-03 13:59:28 UTC",
+  "finished_at": "2026-11-03 14:09:22 UTC",
+  "duration_seconds": 594.0,
   "date_range": {
     "from": "2026-11-01",
     "to": "2026-11-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 7,
+  "sources_ok": 11,
   "sources_error": 10,
-  "sources_empty": 76,
-  "total_documents": 9,
-  "docs_with_pdf": 5,
-  "docs_without_pdf": 4,
+  "sources_empty": 72,
+  "total_documents": 15,
+  "docs_with_pdf": 10,
+  "docs_without_pdf": 5,
   "source_details": [
     {
       "key": "RHP",
@@ -490,10 +490,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "चार-स्तरीय संरचना - मोटर बीमा पॉलिसी / Four Layer Structure-Motor Insurance Policy",
+          "date": "03 Nov 2026",
+          "date_iso": "2026-11-03",
+          "page_url": "https://irdai.gov.in/circulars",
+          "pdf_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%9A%E0%A4%BE%E0%A4%B0-%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A5%80%E0%A4%AF+%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%9A%E0%A4%A8%E0%A4%BE+-+%E0%A4%AE%E0%A5%8B%E0%A4%9F%E0%A4%B0+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%AA%E0%A5%89%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A5%80+_+Circular+-+Four+Layer+Structure-Motor+Insurance+Policy.pdf/a8ffd2fe-65dd-e9a4-60af-71c3ef538ef0?version=1.1&t=1793706206160&download=true",
+          "has_pdf": true,
+          "id": "irdai________________________________________f_03-11-2026"
+        },
         {
           "title": "Master Circular on Registration, Capital Structure, Transfer of Shares and Amalgamation of Insurers, 2026",
           "date": "02 Nov 2026",
@@ -654,12 +663,22 @@
       "label": "HR_REAT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "H-REAT-453-2025 — Rajan Prem Passi vs EMAAR MGF LAND LTD PRESENTLY KNOWN AS EMAAR INDIA LTD",
+          "date": "03 Nov 2026",
+          "date_iso": "2026-11-03",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzE5NDQy",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-453-2025_0"
+        }
+      ]
     },
     {
       "key": "DL_REAT",
@@ -692,10 +711,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "The Telecommunication Interconnection (Third Amendment) Regulations, 2026",
+          "date": "03 Nov 2026",
+          "date_iso": "2026-11-03",
+          "page_url": "https://www.trai.gov.in/release-publication/regulations",
+          "pdf_url": "https://www.trai.gov.in/sites/default/files/2026-11/Regulation_TIR_03112026.pdf",
+          "has_pdf": true,
+          "id": "trai_reg_the_telecommunication_interconnection__t_2026-11-03"
+        },
         {
           "title": "Telecom Consumers Complaint Redressal (Fourth Amendment) Regulations, 2026",
           "date": "02 Nov 2026",
@@ -818,12 +846,22 @@
       "label": "EU_FS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[FS.100253] JD.COM / CECONOMY",
+          "date": "03 Nov 2026",
+          "date_iso": "2026-11-03",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/FS.100253",
+          "pdf_url": "https://ec.europa.eu/competition/foreign_subsidies/cases/202622/FS_100253_1124.pdf",
+          "has_pdf": true,
+          "id": "eu_instru_FS_100253"
+        }
+      ]
     },
     {
       "key": "EPO_BOA",
@@ -890,12 +928,22 @@
       "label": "DIFC_CA_ORDERS",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "CA 008/2025 Khaled Salem Musabeh Humad Al Mheiri v John Cameron",
+          "date": "02 Nov 2026",
+          "date_iso": "2026-11-02",
+          "page_url": "https://www.difccourts.ae/rules-decisions/judgments-orders/court-appeal/ca-0082025-khaled-salem-musabeh-humad-al-mheiri-v-john-cameron",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "difc_ca_ca-0082025-khaled-salem-musabeh-humad-al-mheiri-v-john-cameron"
+        }
+      ]
     },
     {
       "key": "MOHRE_LAWS",
@@ -1212,12 +1260,22 @@
       "label": "RBI_FEMA_NOTIF",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026",
+          "date": "03 Nov 2026",
+          "date_iso": "2026-11-03",
+          "page_url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=13750&fn=5&Mode=0",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/FEMA23RA03112026F5D7706996DD3493DAD9E0899C64D4793.PDF",
+          "has_pdf": true,
+          "id": "rbi_fema_13750"
+        }
+      ]
     }
   ],
   "partial_scrape": false
