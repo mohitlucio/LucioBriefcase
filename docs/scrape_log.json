@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-11-04 14:18:55 UTC",
-  "finished_at": "2026-11-04 14:28:36 UTC",
-  "duration_seconds": 580.7,
+  "started_at": "2026-11-04 23:30:46 UTC",
+  "finished_at": "2026-11-04 23:40:03 UTC",
+  "duration_seconds": 556.3,
   "date_range": {
     "from": "2026-11-01",
     "to": "2026-11-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 14,
+  "sources_ok": 15,
   "sources_error": 10,
-  "sources_empty": 69,
-  "total_documents": 26,
-  "docs_with_pdf": 17,
-  "docs_without_pdf": 9,
+  "sources_empty": 68,
+  "total_documents": 35,
+  "docs_with_pdf": 25,
+  "docs_without_pdf": 10,
   "source_details": [
     {
       "key": "RHP",
@@ -577,12 +577,85 @@
       "label": "TG_RERA_AUTH",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 8,
+      "docs_with_pdf": 8,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Order Complaint No. 813 of 2025",
+          "date": "04 Nov 2026",
+          "date_iso": "2026-11-04",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_041126230621418.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_0"
+        },
+        {
+          "title": "Order Complaint No. 814 of 2025",
+          "date": "04 Nov 2026",
+          "date_iso": "2026-11-04",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_041126231241387.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_1"
+        },
+        {
+          "title": "Order Complaint No. 815 of 2025",
+          "date": "04 Nov 2026",
+          "date_iso": "2026-11-04",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_041126231349367.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_2"
+        },
+        {
+          "title": "Order Complaint No. 10 of 2026",
+          "date": "04 Nov 2026",
+          "date_iso": "2026-11-04",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_041126231840170.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_3"
+        },
+        {
+          "title": "Order Complaint No. 712 of 2025",
+          "date": "04 Nov 2026",
+          "date_iso": "2026-11-04",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_041126231558245.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_4"
+        },
+        {
+          "title": "Order Complaint No. 202 of 2026",
+          "date": "04 Nov 2026",
+          "date_iso": "2026-11-04",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_041126231653814.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_5"
+        },
+        {
+          "title": "Order Complaint No. 339 of 2026",
+          "date": "04 Nov 2026",
+          "date_iso": "2026-11-04",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_041126231752472.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_6"
+        },
+        {
+          "title": "Order Complaint No. 525 of 2025",
+          "date": "04 Nov 2026",
+          "date_iso": "2026-11-04",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_041126231446943.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_7"
+        }
+      ]
     },
     {
       "key": "TG_RERA_SUO",
@@ -858,10 +931,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
+      "doc_count": 3,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 2,
+      "docs_without_pdf": 3,
       "documents": [
+        {
+          "title": "[M.12585] BC PARTNERS / ACS DOBFAR / INFORLIFE",
+          "date": "04 Nov 2026",
+          "date_iso": "2026-11-04",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12585",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12585"
+        },
         {
           "title": "[M.12661] VERITAS / BODYCOTE",
           "date": "03 Nov 2026",
