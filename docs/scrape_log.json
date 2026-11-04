@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-11-04 05:57:14 UTC",
-  "finished_at": "2026-11-04 06:06:51 UTC",
-  "duration_seconds": 577.0,
+  "started_at": "2026-11-04 14:18:55 UTC",
+  "finished_at": "2026-11-04 14:28:36 UTC",
+  "duration_seconds": 580.7,
   "date_range": {
     "from": "2026-11-01",
     "to": "2026-11-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 12,
+  "sources_ok": 14,
   "sources_error": 10,
-  "sources_empty": 71,
-  "total_documents": 21,
-  "docs_with_pdf": 13,
-  "docs_without_pdf": 8,
+  "sources_empty": 69,
+  "total_documents": 26,
+  "docs_with_pdf": 17,
+  "docs_without_pdf": 9,
   "source_details": [
     {
       "key": "RHP",
@@ -344,12 +344,22 @@
       "label": "CCI_GREEN",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[C-2026/10/1485] Asia Initiatives 2 Pte. Ltd. — Deemed Approved (Section 6(5))",
+          "date": "30 Nov 2026",
+          "date_iso": "2026-11-30",
+          "page_url": "https://www.cci.gov.in/combination/green-channel",
+          "pdf_url": "https://www.cci.gov.in/images/summaryorders/en/summary1793686415.pdf",
+          "has_pdf": true,
+          "id": "cci_green_C-2026_10_1485"
+        }
+      ]
     },
     {
       "key": "RBI_MD",
@@ -499,7 +509,7 @@
           "date": "03 Nov 2026",
           "date_iso": "2026-11-03",
           "page_url": "https://irdai.gov.in/circulars",
-          "pdf_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%9A%E0%A4%BE%E0%A4%B0-%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A5%80%E0%A4%AF+%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%9A%E0%A4%A8%E0%A4%BE+-+%E0%A4%AE%E0%A5%8B%E0%A4%9F%E0%A4%B0+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%AA%E0%A5%89%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A5%80+_+Circular+-+Four+Layer+Structure-Motor+Insurance+Policy.pdf/a8ffd2fe-65dd-e9a4-60af-71c3ef538ef0?version=1.1&t=1793706206160&download=true",
+          "pdf_url": "https://irdai.gov.in/documents/37343/365525/%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0+%E0%A4%9A%E0%A4%BE%E0%A4%B0-%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A5%80%E0%A4%AF+%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%9A%E0%A4%A8%E0%A4%BE+-+%E0%A4%AE%E0%A5%8B%E0%A4%9F%E0%A4%B0+%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE+%E0%A4%AA%E0%A5%89%E0%A4%B2%E0%A4%BF%E0%A4%B8%E0%A5%80+_+Circular+-+Four+Layer+Structure-Motor+Insurance+Policy.pdf/a8ffd2fe-65dd-e9a4-60af-71c3ef538ef0?version=2.0&t=1793789484999&download=true",
           "has_pdf": true,
           "id": "irdai________________________________________f_03-11-2026"
         },
@@ -720,10 +730,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "The Telecom Commercial Communications Customer Preference (Fourth Amendment) Regulations, 2026",
+          "date": "04 Nov 2026",
+          "date_iso": "2026-11-04",
+          "page_url": "https://www.trai.gov.in/release-publication/regulations",
+          "pdf_url": "https://www.trai.gov.in/sites/default/files/2026-11/Regulation_TCCCPR_04112026.pdf",
+          "has_pdf": true,
+          "id": "trai_reg_the_telecom_commercial_communications_cu_2026-11-04"
+        },
         {
           "title": "The Telecommunication Interconnection (Third Amendment) Regulations, 2026",
           "date": "03 Nov 2026",
@@ -1157,12 +1176,31 @@
       "label": "UK_TAX_CHANCERY",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Malcom Oreain Robinson v The Commissioners for His Majesty’s Revenue and Customs [2026] UKUT 00430 (TCC)",
+          "date": "04 Nov 2026",
+          "date_iso": "2026-11-04",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/malcom-oreain-robinson-v-the-commissioners-for-his-majestys-revenue-and-customs-2026-ukut-00430-tcc",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6aeb1ed5e87b2eb305b3ef9c/UT_PTA_Robinson_v_HMRC_Refusal_Decison_Oral_Hearing.pdf",
+          "has_pdf": true,
+          "id": "govuk_ers-for-his-majestys-revenue-and-customs-2026-ukut-00430-tcc"
+        },
+        {
+          "title": "BOTTLED SCIENCE LIMITED v THE COMMISSIONERS FOR HIS MAJESTY’S REVENUE AND CUSTOMS  [2026] UKUT 00429 (TCC)",
+          "date": "04 Nov 2026",
+          "date_iso": "2026-11-04",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/bottled-science-limited-v-the-commissioners-for-his-majestys-revenue-and-customs-2026-ukut-00429-tcc",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6aeb177588d44387aeae066e/Bottled_Science_v_HMRC_.pdf",
+          "has_pdf": true,
+          "id": "govuk_ers-for-his-majestys-revenue-and-customs-2026-ukut-00429-tcc"
+        }
+      ]
     },
     {
       "key": "UK_TAX_FTT",
@@ -1183,10 +1221,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
+      "doc_count": 4,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 3,
+      "docs_without_pdf": 4,
       "documents": [
+        {
+          "title": "Review of Know Your Client process for individual Person Resident Outside India clients",
+          "date": "04 Nov 2026",
+          "date_iso": "2026-11-04",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-know-your-client-process-for-individual-person-resident-outside-india-clients_105603.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105603"
+        },
         {
           "title": "Framework for Issuance of Depository Receipts on Units of REITs​",
           "date": "02 Nov 2026",
