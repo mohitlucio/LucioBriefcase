@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-11-06 06:15:37 UTC",
-  "finished_at": "2026-11-06 06:25:36 UTC",
-  "duration_seconds": 599.1,
+  "started_at": "2026-11-06 19:14:20 UTC",
+  "finished_at": "2026-11-06 19:24:25 UTC",
+  "duration_seconds": 604.5,
   "date_range": {
     "from": "2026-11-01",
     "to": "2026-11-30"
   },
   "total_sources": 93,
   "sources_scraped": 93,
-  "sources_ok": 21,
+  "sources_ok": 24,
   "sources_error": 10,
-  "sources_empty": 62,
-  "total_documents": 55,
-  "docs_with_pdf": 39,
-  "docs_without_pdf": 16,
+  "sources_empty": 59,
+  "total_documents": 62,
+  "docs_with_pdf": 44,
+  "docs_without_pdf": 18,
   "source_details": [
     {
       "key": "RHP",
@@ -174,12 +174,22 @@
       "label": "SEBI_CONSULT",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
+      "doc_count": 1,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 0,
-      "documents": []
+      "docs_without_pdf": 1,
+      "documents": [
+        {
+          "title": "Consultation paper on Introduction of Anti-Money Laundering and Countering the Financing of Terrorism Certification requirement for Principal Officers",
+          "date": "06 Nov 2026",
+          "date_iso": "2026-11-06",
+          "page_url": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2026/consultation-paper-on-introduction-of-anti-money-laundering-and-countering-the-financing-of-terrorism-certification-requirement-for-principal-officers-_105651.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105651"
+        }
+      ]
     },
     {
       "key": "BSE_PLACEMENT",
@@ -561,24 +571,44 @@
       "label": "INX_CIRC",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "[20261106-1] Issue of U.S $10,000,000 Floating Rate Notes due 2030 by UGRO Capital Limited",
+          "date": "06 Nov 2026",
+          "date_iso": "2026-11-06",
+          "page_url": "https://www.indiainx.com/markets/CircularsLR.aspx",
+          "pdf_url": "https://www.indiainx.com/circulars/20261106-1/20261106-1.pdf",
+          "has_pdf": true,
+          "id": "inx_circ_20261106-1"
+        }
+      ]
     },
     {
       "key": "INX_ISSUER",
       "label": "INX_ISSUER",
       "category": "",
       "website_url": "",
-      "status": "empty",
+      "status": "ok",
       "error": null,
-      "doc_count": 0,
-      "docs_with_pdf": 0,
+      "doc_count": 1,
+      "docs_with_pdf": 1,
       "docs_without_pdf": 0,
-      "documents": []
+      "documents": [
+        {
+          "title": "Ugro Capital Limited — U.S.$ 10,000,000 Floating Rate Notes due 2030",
+          "date": "06 Nov 2026",
+          "date_iso": "2026-11-06",
+          "page_url": "https://www.indiainx.com/static/issuer_details.aspx",
+          "pdf_url": "https://www.indiainx.com/IssuerDetails/INIFD2405030_06112026.zip",
+          "has_pdf": true,
+          "id": "inx_iss_u_s___10_000_000_floating_rate_2026-11-06"
+        }
+      ]
     },
     {
       "key": "TG_RERA_ADJ",
@@ -823,10 +853,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "The Register of Interconnect Agreement (Fourth Amendment) Regulation, 2026",
+          "date": "06 Nov 2026",
+          "date_iso": "2026-11-06",
+          "page_url": "https://www.trai.gov.in/release-publication/regulations",
+          "pdf_url": "https://www.trai.gov.in/sites/default/files/2026-11/Regulation_06112026.pdf",
+          "has_pdf": true,
+          "id": "trai_reg_the_register_of_interconnect_agreement___2026-11-06"
+        },
         {
           "title": "The Telecom Commercial Communications Customer Preference (Fourth Amendment) Regulations, 2026",
           "date": "04 Nov 2026",
@@ -914,15 +953,6 @@
       "docs_without_pdf": 0,
       "documents": [
         {
-          "title": "Rejection of Resolution Plan - SU Toll Road Private Limited [IA (IB) (Plan) No. 59 of 2026 in CP(IB) No. 421 of 2025]",
-          "date": "03 Nov 2026",
-          "date_iso": "2026-11-03",
-          "page_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
-          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
-          "has_pdf": true,
-          "id": "ibbi_res_nclt_title_Resolution_date__nclt_"
-        },
-        {
           "title": "Approval of Resolution Plan - Sunblink Real Estate Private Limited [IA(IBC)(Plan)/81(MB)2026 in C.P. (IB)/577(MB)2024]",
           "date": "03 Nov 2026",
           "date_iso": "2026-11-03",
@@ -942,6 +972,15 @@
         },
         {
           "title": "Approval of Resolution Plan - Datalink Multi Trading Private Limited [IA(IBC) Plan)/113/MB/2025 in CP(IB) No. 560 of 2021]",
+          "date": "03 Nov 2026",
+          "date_iso": "2026-11-03",
+          "page_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
+          "pdf_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
+          "has_pdf": true,
+          "id": "ibbi_res_nclt_title_Resolution_date__nclt_"
+        },
+        {
+          "title": "Rejection of Resolution Plan - SU Toll Road Private Limited [IA (IB) (Plan) No. 59 of 2026 in CP(IB) No. 421 of 2025]",
           "date": "03 Nov 2026",
           "date_iso": "2026-11-03",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
@@ -981,7 +1020,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of West Gujarat Expressway Limited [C.P. (IB)/218(MB)2026]",
+          "title": "In the matter of WEST GUJARAT EXPRESSWAY LIMITED [C.P.(IB)/218(MB)2026]",
           "date": "02 Nov 2026",
           "date_iso": "2026-11-02",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1007,10 +1046,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 4,
+      "doc_count": 5,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 4,
+      "docs_without_pdf": 5,
       "documents": [
+        {
+          "title": "[M.12298] SNOWHAWK / ARES / MACQUARIE / DATA REALTY GROUP / PRIME DATA CENTERS",
+          "date": "06 Nov 2026",
+          "date_iso": "2026-11-06",
+          "page_url": "https://competition-cases.ec.europa.eu/cases/M.12298",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "eu_m_M_12298"
+        },
         {
           "title": "[M.12475] AMPLIFON / GN HEARING",
           "date": "05 Nov 2026",
@@ -1323,10 +1371,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Department for Work and Pensions v Tasneem Kiani: EAT [2026] 168",
+          "date": "06 Nov 2026",
+          "date_iso": "2026-11-06",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/department-for-work-and-pensions-v-tasneem-kiani-eat-2026-168",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6aedec1350eee557ac63ac20/Department_for_Work_and_Pensions_v_Tasneem_Kiani_EAT__2026__168.pdf",
+          "has_pdf": true,
+          "id": "govuk_epartment-for-work-and-pensions-v-tasneem-kiani-eat-2026-168"
+        },
         {
           "title": "Mr Al-Ateeqi v Kuwait Investment Authority: [2026] EAT 169",
           "date": "05 Nov 2026",
@@ -1388,10 +1445,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 3,
+      "docs_with_pdf": 3,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Johnson Aboaba & Anor v Steven Philip",
+          "date": "05 Nov 2026",
+          "date_iso": "2026-11-05",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukut/lc/2026/424",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-46491de3-6f16-45e5-a574-962b414d76be/d-46491de3-6f16-45e5-a574-962b414d76be.pdf",
+          "has_pdf": true,
+          "id": "na_424"
+        },
         {
           "title": "Lucy Formela-Osborne (Valuation Officer) v Tungsten West Plc",
           "date": "04 Nov 2026",
