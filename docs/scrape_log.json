@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-11-11 05:51:27 UTC",
-  "finished_at": "2026-11-11 06:08:38 UTC",
-  "duration_seconds": 1031.2,
+  "started_at": "2026-11-11 14:01:57 UTC",
+  "finished_at": "2026-11-11 14:11:37 UTC",
+  "duration_seconds": 580.1,
   "date_range": {
     "from": "2026-11-01",
     "to": "2026-11-30"
@@ -11,9 +11,9 @@
   "sources_ok": 24,
   "sources_error": 10,
   "sources_empty": 59,
-  "total_documents": 81,
-  "docs_with_pdf": 68,
-  "docs_without_pdf": 13,
+  "total_documents": 95,
+  "docs_with_pdf": 81,
+  "docs_without_pdf": 14,
   "source_details": [
     {
       "key": "RHP",
@@ -396,10 +396,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
-      "docs_with_pdf": 1,
+      "doc_count": 2,
+      "docs_with_pdf": 2,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[Payment and Settlement System] Reserve Bank of India (Domestic Money Transfer) Directions, 2026",
+          "date": "11 Nov 2026",
+          "date_iso": "2026-11-11",
+          "page_url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13752",
+          "pdf_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/476MDDC5A297B05094F8096910FE97E1AD34D.PDF",
+          "has_pdf": true,
+          "id": "rbi_md_13752"
+        },
         {
           "title": "[Payment and Settlement System] Master Directions on Cyber Resilience and Digital Payment Security Controls for non-bank Payment System Operators",
           "date": "05 Nov 2026",
@@ -637,10 +646,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 15,
-      "docs_with_pdf": 15,
+      "doc_count": 16,
+      "docs_with_pdf": 16,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Order Complaint No. 705 of 2025",
+          "date": "10 Nov 2026",
+          "date_iso": "2026-11-10",
+          "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_101126190452057.pdf",
+          "has_pdf": true,
+          "id": "tgrera_TG_RERA_AUTH_0"
+        },
         {
           "title": "Order Complaint No. 701 of 2025",
           "date": "10 Nov 2026",
@@ -648,7 +666,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_101126190400728.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_0"
+          "id": "tgrera_TG_RERA_AUTH_1"
         },
         {
           "title": "Order Complaint No. 245 of 2025",
@@ -657,7 +675,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_101126190247459.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_1"
+          "id": "tgrera_TG_RERA_AUTH_2"
         },
         {
           "title": "Order Complaint No. 450 of 2025",
@@ -666,7 +684,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_101126190119643.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_2"
+          "id": "tgrera_TG_RERA_AUTH_3"
         },
         {
           "title": "Order Complaint No. 514 of 2025",
@@ -675,7 +693,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_101126190018082.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_3"
+          "id": "tgrera_TG_RERA_AUTH_4"
         },
         {
           "title": "Order Complaint No. 400 of 2025",
@@ -684,16 +702,16 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_101126185911723.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_4"
+          "id": "tgrera_TG_RERA_AUTH_5"
         },
         {
-          "title": "Order Complaint No. 705 of 2025",
+          "title": "Order Complaint No. 142 of 2026",
           "date": "10 Nov 2026",
           "date_iso": "2026-11-10",
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
-          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_101126190452057.pdf",
+          "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_111126112147480.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_5"
+          "id": "tgrera_TG_RERA_AUTH_6"
         },
         {
           "title": "Interim Order in CC No. 438 of 2026",
@@ -702,7 +720,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_071126124623215.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_6"
+          "id": "tgrera_TG_RERA_AUTH_7"
         },
         {
           "title": "Order Complaint No. 10 of 2026",
@@ -711,7 +729,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_041126231840170.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_7"
+          "id": "tgrera_TG_RERA_AUTH_8"
         },
         {
           "title": "Order Complaint No. 399 of 2026",
@@ -720,7 +738,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_041126231752472.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_8"
+          "id": "tgrera_TG_RERA_AUTH_9"
         },
         {
           "title": "Order Complaint No. 202 of 2026",
@@ -729,7 +747,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_041126231653814.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_9"
+          "id": "tgrera_TG_RERA_AUTH_10"
         },
         {
           "title": "Order Complaint No. 712 of 2025",
@@ -738,7 +756,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_041126231558245.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_10"
+          "id": "tgrera_TG_RERA_AUTH_11"
         },
         {
           "title": "Order Complaint No. 525 of 2025",
@@ -747,7 +765,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_041126231446943.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_11"
+          "id": "tgrera_TG_RERA_AUTH_12"
         },
         {
           "title": "Order Complaint No. 815 of 2025",
@@ -756,7 +774,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_041126231349367.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_12"
+          "id": "tgrera_TG_RERA_AUTH_13"
         },
         {
           "title": "Order Complaint No. 814 of 2025",
@@ -765,7 +783,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_041126231241387.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_13"
+          "id": "tgrera_TG_RERA_AUTH_14"
         },
         {
           "title": "Order Complaint No. 813 of 2025",
@@ -774,7 +792,7 @@
           "page_url": "https://rera.telangana.gov.in/586784u3y5dsgfg-TG-RERA-45678jklshihnfgsfdg",
           "pdf_url": "https://rera.telangana.gov.in/Home/ShowPdf?pdffilename=BU_041126230621418.pdf",
           "has_pdf": true,
-          "id": "tgrera_TG_RERA_AUTH_14"
+          "id": "tgrera_TG_RERA_AUTH_15"
         }
       ]
     },
@@ -1182,7 +1200,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of SAMRAT GEMS IMPEX PRIVATE LIMITED [771]",
+          "title": "In the matter of ELITECARGO INTERNATIONAL PRIVATE LIMITED [C.P. (IB)/224/KB/2023]",
           "date": "06 Nov 2026",
           "date_iso": "2026-11-06",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1191,7 +1209,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of ELITECARGO INTERNATIONAL PRIVATE LIMITED [C.P. (IB)/224/KB/2023]",
+          "title": "In the matter of SAMRAT GEMS IMPEX PRIVATE LIMITED [771]",
           "date": "06 Nov 2026",
           "date_iso": "2026-11-06",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1218,7 +1236,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of WEST GUJARAT EXPRESSWAY LIMITED [C.P.(IB)/218(MB)2026]",
+          "title": "In the matter of West Gujarat Expressway Limited [C.P. (IB)/218(MB)2026]",
           "date": "02 Nov 2026",
           "date_iso": "2026-11-02",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1487,10 +1505,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 4,
-      "docs_with_pdf": 4,
+      "doc_count": 6,
+      "docs_with_pdf": 6,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Dr Theodore Piepenbrock v London School of Economics and Political Science: [2026] EAT 173",
+          "date": "11 Nov 2026",
+          "date_iso": "2026-11-11",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/dr-theodore-piepenbrock-v-london-school-of-economics-and-political-science-2026-eat-173",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6af447c4e84419943c0a21da/Dr_Theodore_Piepenbrock_v_London_School_of_Economics_and_Political_Science__2026__EAT_173.pdf",
+          "has_pdf": true,
+          "id": "govuk_ondon-school-of-economics-and-political-science-2026-eat-173"
+        },
+        {
+          "title": "Ms J Linde v University of East London: [2026] EAT 175",
+          "date": "11 Nov 2026",
+          "date_iso": "2026-11-11",
+          "page_url": "https://www.gov.uk/employment-appeal-tribunal-decisions/ms-j-linde-v-university-of-east-london-2026-eat-175",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6af44bcdb83b3cae0d0a21e5/Ms_J_Linde_v_University_of_East_London__2026__EAT_175.pdf",
+          "has_pdf": true,
+          "id": "govuk_ecisions_ms-j-linde-v-university-of-east-london-2026-eat-175"
+        },
         {
           "title": "Mrs L Amidon v North London NHS Foundation Trust: [2026] EAT 171",
           "date": "10 Nov 2026",
@@ -1610,10 +1646,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 4,
-      "docs_with_pdf": 4,
+      "doc_count": 6,
+      "docs_with_pdf": 6,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "[2026] UKUT 00440 (TCC) THE COMMISSIONERS FOR HIS MAJESTY’S REVENUE AND CUSTOMS v INGLISTON DRIVING EXPERIENCES LTD",
+          "date": "11 Nov 2026",
+          "date_iso": "2026-11-11",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/2026-ukut-00440-tcc-the-commissioners-for-his-majestys-revenue-and-customs-v-ingliston-driving-experiences-ltd",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6af44eb28041fe64414e54cb/HMRC_v_Ingliston_Driving_Experiences_Limited_Final_Decision.pdf",
+          "has_pdf": true,
+          "id": "govuk_stys-revenue-and-customs-v-ingliston-driving-experiences-ltd"
+        },
+        {
+          "title": "Barlow v The Commissioners of His Majesty's Revenue and Customs [2026] UKUT 00442 (TCC)",
+          "date": "11 Nov 2026",
+          "date_iso": "2026-11-11",
+          "page_url": "https://www.gov.uk/tax-and-chancery-tribunal-decisions/barlow-v-the-commissioners-of-his-majestys-revenue-and-customs-2026-ukut-00442-tcc",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6af46177e84419943c0a21f3/Barlow_v_HMRC_-_PTA_Oral_Decision.pdf",
+          "has_pdf": true,
+          "id": "govuk_ners-of-his-majestys-revenue-and-customs-2026-ukut-00442-tcc"
+        },
         {
           "title": "DAVID HILL and DAVID MCCRACKEN v THE COMMISSIONERS FOR HIS MAJESTY’S REVENUE AND CUSTOMS  [2026] UKUT 00438 (TCC)",
           "date": "09 Nov 2026",
@@ -1659,10 +1713,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "doc_count": 10,
+      "docs_with_pdf": 10,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Jason Plastics Limited v The Commissioners for HMRC",
+          "date": "09 Nov 2026",
+          "date_iso": "2026-11-09",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1537",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-6fe4d6ad-3251-49bb-bdc2-93c75a2af203/d-6fe4d6ad-3251-49bb-bdc2-93c75a2af203.pdf",
+          "has_pdf": true,
+          "id": "na_1537"
+        },
+        {
+          "title": "MNS Property Holdings Ltd v The Commissioners for HMRC",
+          "date": "09 Nov 2026",
+          "date_iso": "2026-11-09",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1538",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-27f1e14a-4789-4a74-8a59-dc58f62a151b/d-27f1e14a-4789-4a74-8a59-dc58f62a151b.pdf",
+          "has_pdf": true,
+          "id": "na_1538"
+        },
         {
           "title": "Edenshire Jewellery & Watches Limited (in liquidation) & Anor v The Commissioners for HMRC",
           "date": "09 Nov 2026",
@@ -1671,6 +1743,15 @@
           "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-a64e89b1-e2f3-4580-986f-a5cdeb6b402d/d-a64e89b1-e2f3-4580-986f-a5cdeb6b402d.pdf",
           "has_pdf": true,
           "id": "na_1531"
+        },
+        {
+          "title": "Paul Palmer-Cowell v The Commissioners for HMRC",
+          "date": "06 Nov 2026",
+          "date_iso": "2026-11-06",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1536",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-feab6787-642d-4797-a327-0e61e8e14509/d-feab6787-642d-4797-a327-0e61e8e14509.pdf",
+          "has_pdf": true,
+          "id": "na_1536"
         },
         {
           "title": "Rukayat Lawal v The Commissioners for HMRC",
@@ -1682,6 +1763,33 @@
           "id": "na_1533"
         },
         {
+          "title": "Paul Haigh v The Commissioners for HMRC",
+          "date": "06 Nov 2026",
+          "date_iso": "2026-11-06",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1535",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-06a0489e-57c1-43fe-a373-215f155304d5/d-06a0489e-57c1-43fe-a373-215f155304d5.pdf",
+          "has_pdf": true,
+          "id": "na_1535"
+        },
+        {
+          "title": "Ramin Hoodeh v The Commissioners for HMRC",
+          "date": "06 Nov 2026",
+          "date_iso": "2026-11-06",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1539",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-ae5e0b1c-3416-4133-9289-b2903b403e4d/d-ae5e0b1c-3416-4133-9289-b2903b403e4d.pdf",
+          "has_pdf": true,
+          "id": "na_1539"
+        },
+        {
+          "title": "United Worldwide Travel Ltd v The Commissioners for HMRC",
+          "date": "06 Nov 2026",
+          "date_iso": "2026-11-06",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1534",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-3aed1945-7711-4c86-92a7-6345f676446c/d-3aed1945-7711-4c86-92a7-6345f676446c.pdf",
+          "has_pdf": true,
+          "id": "na_1534"
+        },
+        {
           "title": "Education Training Collective v The Commissioners for HMRC",
           "date": "06 Nov 2026",
           "date_iso": "2026-11-06",
@@ -1689,6 +1797,15 @@
           "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-84a1cda1-5027-4a17-8066-4089e7e77ab0/d-84a1cda1-5027-4a17-8066-4089e7e77ab0.pdf",
           "has_pdf": true,
           "id": "na_1532"
+        },
+        {
+          "title": "Andrew Johnson v The Commissioners for HMRC",
+          "date": "02 Nov 2026",
+          "date_iso": "2026-11-02",
+          "page_url": "https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/1540",
+          "pdf_url": "https://assets.caselaw.nationalarchives.gov.uk/d-2dd85667-1594-4381-802e-df759fb712df/d-2dd85667-1594-4381-802e-df759fb712df.pdf",
+          "has_pdf": true,
+          "id": "na_1540"
         }
       ]
     },
@@ -1699,10 +1816,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 7,
+      "doc_count": 8,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 7,
+      "docs_without_pdf": 8,
       "documents": [
+        {
+          "title": "Reporting requirement under Foreign Account Tax Compliance Act (FATCA) and Common Reporting Standard (CRS) revised through Income-Tax Act, 2025 read with Income-Tax Rules, 2026",
+          "date": "11 Nov 2026",
+          "date_iso": "2026-11-11",
+          "page_url": "https://www.sebi.gov.in/legal/circulars/nov-2026/reporting-requirement-under-foreign-account-tax-compliance-act-fatca-and-common-reporting-standard-crs-revised-through-income-tax-act-2025-read-with-income-tax-rules-2026_105705.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105705"
+        },
         {
           "title": "Review of the framework for Accredited Investors",
           "date": "05 Nov 2026",
