@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-11-16 06:03:32 UTC",
-  "finished_at": "2026-11-16 06:16:04 UTC",
-  "duration_seconds": 752.3,
+  "started_at": "2026-11-16 21:54:08 UTC",
+  "finished_at": "2026-11-16 22:03:48 UTC",
+  "duration_seconds": 579.7,
   "date_range": {
     "from": "2026-11-01",
     "to": "2026-11-30"
@@ -11,9 +11,9 @@
   "sources_ok": 26,
   "sources_error": 10,
   "sources_empty": 57,
-  "total_documents": 113,
-  "docs_with_pdf": 96,
-  "docs_without_pdf": 17,
+  "total_documents": 119,
+  "docs_with_pdf": 100,
+  "docs_without_pdf": 19,
   "source_details": [
     {
       "key": "RHP",
@@ -22,10 +22,19 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 1,
+      "doc_count": 2,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 1,
+      "docs_without_pdf": 2,
       "documents": [
+        {
+          "title": "Mahanadi Coalfields Limited - RHP",
+          "date": "13 Nov 2026",
+          "date_iso": "2026-11-13",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/mahanadi-coalfields-limited-rhp_105777.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105777"
+        },
         {
           "title": "Crystal Crop Protection Limited– RHP",
           "date": "12 Nov 2026",
@@ -44,9 +53,9 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 5,
+      "doc_count": 6,
       "docs_with_pdf": 0,
-      "docs_without_pdf": 5,
+      "docs_without_pdf": 6,
       "documents": [
         {
           "title": "Sitaram Denims India Ltd - DRHP",
@@ -56,6 +65,15 @@
           "pdf_url": "",
           "has_pdf": false,
           "id": "105736"
+        },
+        {
+          "title": "Learnfluence Education Limited - Addendum to DRHP",
+          "date": "12 Nov 2026",
+          "date_iso": "2026-11-12",
+          "page_url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/learnfluence-education-limited-addendum-to-drhp_105776.html",
+          "pdf_url": "",
+          "has_pdf": false,
+          "id": "105776"
         },
         {
           "title": "Hindustan Coca-Cola Holdings Limited - DRHP",
@@ -997,8 +1015,8 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 2,
-      "docs_with_pdf": 2,
+      "doc_count": 4,
+      "docs_with_pdf": 4,
       "docs_without_pdf": 0,
       "documents": [
         {
@@ -1018,6 +1036,24 @@
           "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzE5NDQy",
           "has_pdf": true,
           "id": "hr_reat_H-REAT-453-2025_1"
+        },
+        {
+          "title": "H-REAT-579-2026 — Madhuri Aggarwal and Others vs ATS REALWORTH PRIVATE LIMITED",
+          "date": "02 Nov 2026",
+          "date_iso": "2026-11-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzIwNzk5",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-579-2026_2"
+        },
+        {
+          "title": "H-REAT-1091-2025 — Uday Bhan vs HARYANA REAL ESTATE REGULATORY AUTHORITY PANCHKULA",
+          "date": "02 Nov 2026",
+          "date_iso": "2026-11-02",
+          "page_url": "https://haryanarera.gov.in/admincontrol/judgements/3",
+          "pdf_url": "https://haryanarera.gov.in/assistancecontrol/viewOrderPdf/MzIwNjg2",
+          "has_pdf": true,
+          "id": "hr_reat_H-REAT-1091-2025_3"
         }
       ]
     },
@@ -1179,7 +1215,7 @@
           "id": "ibbi_res_nclt_title_Resolution_date__nclt_"
         },
         {
-          "title": "Approval of Resolution Plan - Sunblink Real Estate Private Limited [IA(IBC)(Plan)/81(MB)2026 in C.P. (IB)/577(MB)2024]",
+          "title": "Approval of Resolution Plan - Quadrant Televentures Limited [IA (IBC) (Plan) No. 74 of 2026 in CP (IB) 472 of 2024]",
           "date": "03 Nov 2026",
           "date_iso": "2026-11-03",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
@@ -1188,7 +1224,7 @@
           "id": "ibbi_res_nclt_title_Resolution_date__nclt_"
         },
         {
-          "title": "Approval of Resolution Plan - Quadrant Televentures Limited [IA (IBC) (Plan) No. 74 of 2026 in CP (IB) 472 of 2024]",
+          "title": "Approval of Resolution Plan - Sunblink Real Estate Private Limited [IA(IBC)(Plan)/81(MB)2026 in C.P. (IB)/577(MB)2024]",
           "date": "03 Nov 2026",
           "date_iso": "2026-11-03",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Resolution&date=&nclt=",
@@ -1237,7 +1273,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of ELITECARGO INTERNATIONAL PRIVATE LIMITED [C.P. (IB)/224/KB/2023]",
+          "title": "In the matter of HEAVY ENGINEERING CORPORATION PRIVATE LIMITED [CP (IB)/6(KB)2026]",
           "date": "06 Nov 2026",
           "date_iso": "2026-11-06",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1255,7 +1291,7 @@
           "id": "ibbi_adm_nclt_title_Admission_date__nclt_"
         },
         {
-          "title": "In the matter of HEAVY ENGINEERING CORPORATION PRIVATE LIMITED [CP (IB)/6(KB)2026]",
+          "title": "In the matter of ELITECARGO INTERNATIONAL PRIVATE LIMITED [C.P. (IB)/224/KB/2023]",
           "date": "06 Nov 2026",
           "date_iso": "2026-11-06",
           "page_url": "https://ibbi.gov.in/orders/nclt?title=Admission&date=&nclt=",
@@ -1517,10 +1553,28 @@
       "website_url": "",
       "status": "ok",
       "error": null,
-      "doc_count": 3,
-      "docs_with_pdf": 3,
+      "doc_count": 5,
+      "docs_with_pdf": 5,
       "docs_without_pdf": 0,
       "documents": [
+        {
+          "title": "Ms C Ferlin v  La Salle Education Ltd: 2301720/2025",
+          "date": "02 Nov 2026",
+          "date_iso": "2026-11-02",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/ms-c-ferlin-v-la-salle-education-ltd-2301720-slash-2025",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/685a9a29454906840a44d5fe/Ms_C_Ferlin_v_La_Salle_Education_Ltd_2301720-2025_Judgment.pdf",
+          "has_pdf": true,
+          "id": "govuk_ions_ms-c-ferlin-v-la-salle-education-ltd-2301720-slash-2025"
+        },
+        {
+          "title": "Mr D Meaning v NR Education Ltd T/a Infiniti School and Ms A Daly: 6014102/2025",
+          "date": "02 Nov 2026",
+          "date_iso": "2026-11-02",
+          "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-d-meaning-v-nr-education-ltd-t-slash-a-infiniti-school-and-ms-a-daly-6014102-slash-2025",
+          "pdf_url": "https://assets.publishing.service.gov.uk/media/6af5e426e466b297aa74052d/Mr_D_Meaning_v__1__NR_Education_Ltd_t-a_Infiniti_School__2__Ms_Anna_Daly_Judgment__2_6014102-2025.pdf",
+          "has_pdf": true,
+          "id": "govuk_d-t-slash-a-infiniti-school-and-ms-a-daly-6014102-slash-2025"
+        },
         {
           "title": "Ms J Derry v Openreach Ltd: 1303639/2025",
           "date": "03 Nov 2026",
